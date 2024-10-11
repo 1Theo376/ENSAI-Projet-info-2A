@@ -1,6 +1,8 @@
 from Manga import Manga
 
 class CollectionCoherente:
+
+    
     def __init__(self, id_collection: int, titre_collection: str, desc_collection: str, Liste_manga: list[Manga]):
         self.id_collection = id_collection
         self.titre_collection = titre_collection
