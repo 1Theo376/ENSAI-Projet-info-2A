@@ -2,15 +2,16 @@ import requests
 import json
 import time
 
+
 def get_mangas():
     """
     Ajoute tous les mangas avec les informations voulues dans un fichier json
     """
-    limit = 20  
-    page = 1  
+    limit = 20
+    page = 1
     mangas = []
-    has_next_page = True 
-    while has_next_page:
+    has_next_page = True
+    while has_next_page and page != 20:
         try:
             req = requests.get(f"https://api.jikan.moe/v4/manga?limit={limit}&page={page}")
         except requests.exceptions.RequestException as e:
@@ -19,7 +20,7 @@ def get_mangas():
         # Si la réponse est 429 (rate limiting), attendre quelques secondes
         if req.status_code == 429:
             print("Rate limit reached. Waiting for 10 seconds before retrying...")
-            time.sleep(10)  
+            time.sleep(10)
             continue  # Refaire la requête après l'attente
         if req.status_code != 200:
             raise Exception(f"Cannot reach (HTTP {req.status_code}): {req.text}")
@@ -41,11 +42,12 @@ def get_mangas():
             liste.append([manga["name"] for manga in t.get("demographics", [])])
             mangas.append(liste)
         has_next_page = data["pagination"]["has_next_page"]
-        page += 1  
-        time.sleep(1)  
+        page += 1
+        time.sleep(1)
 
     # Sauvegarder les résultats dans un fichier JSON
     with open("mangas.json", "w") as fichier:
         json.dump(mangas, fichier, indent=4)
+
 
 get_mangas()
