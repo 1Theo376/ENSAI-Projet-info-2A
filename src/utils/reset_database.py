@@ -8,7 +8,7 @@ from utils.log_decorator import log
 from utils.singleton import Singleton
 from dao.db_connection import DBConnection
 
-from service.joueur_service import JoueurService
+# from service.joueur_service import JoueurService
 
 
 class ResetDatabase(metaclass=Singleton):
@@ -21,10 +21,11 @@ class ResetDatabase(metaclass=Singleton):
         """Lancement de la réinitialisation des données
         Si test_dao = True : réinitialisation des données de test"""
         if test_dao:
-            mock.patch.dict(os.environ, {"POSTGRES_SCHEMA": "projet_test_dao"}).start()
-            pop_data_path = "data/pop_db_test.sql"
+            mock.patch.dict(os.environ, {"POSTGRES_SCHEMA": "projet_info"}).start()
+            pop_data_path = "data/pop_collection_coherente.sql"
         else:
-            pop_data_path = "data/pop_db.sql"
+            mock.patch.dict(os.environ, {"POSTGRES_SCHEMA": "projet_info"}).start()
+            pop_data_path = "data/pop_collection_coherente.sql"
 
         dotenv.load_dotenv()
 
@@ -32,7 +33,7 @@ class ResetDatabase(metaclass=Singleton):
 
         create_schema = f"DROP SCHEMA IF EXISTS {schema} CASCADE; CREATE SCHEMA {schema};"
 
-        init_db = open("data/init_db.sql", encoding="utf-8")
+        init_db = open("data/pop_collection_coherente.sql", encoding="utf-8")
         init_db_as_string = init_db.read()
         init_db.close()
 
@@ -50,13 +51,15 @@ class ResetDatabase(metaclass=Singleton):
             logging.info(e)
             raise
 
+
+"""
         # Appliquer le hashage des mots de passe à chaque joueur
         joueur_service = JoueurService()
         for j in joueur_service.lister_tous(inclure_mdp=True):
             joueur_service.modifier(j)
 
         return True
-
+"""
 
 if __name__ == "__main__":
     ResetDatabase().lancer()
