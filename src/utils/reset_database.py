@@ -22,10 +22,34 @@ class ResetDatabase(metaclass=Singleton):
         Si test_dao = True : réinitialisation des données de test"""
         if test_dao:
             mock.patch.dict(os.environ, {"POSTGRES_SCHEMA": "projet_info"}).start()
-            pop_data_path = "data/pop_collection_coherente.sql"
+            sql_files = [
+                "data/pop_utilisateur.sql",
+                "data/pop_manga.sql",
+                "data/pop_collection_coherente.sql",
+                "data/pop_auteur.sql",
+                "data/pop_avis.sql",
+                "data/pop_collection_physique.sql",
+                "data/pop_genre.sql",
+                "data/pop_theme.sql",
+                "data/pop_manga_auteur.sql",
+                "data/pop_manga_genre.sql",
+                "data/pop_manga_theme.sql",
+            ]
         else:
             mock.patch.dict(os.environ, {"POSTGRES_SCHEMA": "projet_info"}).start()
-            pop_data_path = "data/pop_collection_coherente.sql"
+            sql_files = [
+                "data/pop_utilisateur.sql",
+                "data/pop_manga.sql",
+                "data/pop_collection_coherente.sql",
+                "data/pop_auteur.sql",
+                "data/pop_avis.sql",
+                "data/pop_collection_physique.sql",
+                "data/pop_genre.sql",
+                "data/pop_theme.sql",
+                "data/pop_manga_auteur.sql",
+                "data/pop_manga_genre.sql",
+                "data/pop_manga_theme.sql",
+            ]
 
         dotenv.load_dotenv()
 
@@ -33,20 +57,17 @@ class ResetDatabase(metaclass=Singleton):
 
         create_schema = f"DROP SCHEMA IF EXISTS {schema} CASCADE; CREATE SCHEMA {schema};"
 
-        init_db = open("data/pop_collection_coherente.sql", encoding="utf-8")
-        init_db_as_string = init_db.read()
-        init_db.close()
-
-        pop_db = open(pop_data_path, encoding="utf-8")
-        pop_db_as_string = pop_db.read()
-        pop_db.close()
-
         try:
             with DBConnection().connection as connection:
                 with connection.cursor() as cursor:
+                    # Exécuter la réinitialisation du schéma
                     cursor.execute(create_schema)
-                    cursor.execute(init_db_as_string)
-                    cursor.execute(pop_db_as_string)
+
+                    # Pour chaque fichier SQL dans la liste, on le lit et l'exécute
+                    for file_path in sql_files:
+                        with open(file_path, encoding="utf-8") as sql_file:
+                            sql_as_string = sql_file.read()
+                            cursor.execute(sql_as_string)
         except Exception as e:
             logging.info(e)
             raise
