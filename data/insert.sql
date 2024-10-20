@@ -1,4 +1,4 @@
-INSERT INTO joueur(id_joueur, pseudo, mdp, age, mail, fan_pokemon) VALUES
+INSERT INTO joueur(id_joueur, pseudo, mdp) VALUES
 (999, 'admin','0000'),
 (998, 'a','a'),
 (997, 'maurice','1234'),
