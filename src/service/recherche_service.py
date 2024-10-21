@@ -9,9 +9,9 @@ class RechercheService:
 
     def recherche_manga_par_titre(self, titre: str) -> Manga:
         """Recherche les mangas par leurs titres
-        
+
         """
-        res = self.dao.mangadao.lister_tous[titre]
+        res = self.dao.mangadao.lister_tous()
         for man in res:
             if man[titre] == titre:
                 return man
@@ -37,4 +37,3 @@ class RechercheService:
                 return pers
             else:
                 print(f"Aucun utilisateur trouvé pour le pseudo '{pseudo}'.")
-
