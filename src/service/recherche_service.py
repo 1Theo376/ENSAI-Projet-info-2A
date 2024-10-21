@@ -8,7 +8,16 @@ class RechercheService:
     """Classe"""
 
     def recherche_manga_par_titre(self, titre: str) -> Manga:
-        """Recherche les mangas par leurs titres"""
+        """Recherche un manga par son titre
+        Parameters
+        ----------
+        titre : str
+
+        Returns
+        -------
+        manga : Manga
+            renvoie le manga recherché
+        """
         res = self.dao.mangadao.lister_tous()
         for man in res:
             if man[titre] == titre:
@@ -17,17 +26,17 @@ class RechercheService:
                 print(f"Aucun manga trouvé pour le titre '{titre}'.")
 
     def recherche_utilisateur(self, pseudo):
-        """Recherche les utilisateurs par leurs pseudos
-         Parameters
+        """Recherche un utilisateur par son pseudo
+        Parameters
         ----------
         pseudo : str
 
         Returns
         -------
         utilisateur : Utilisateur
-            renvoie la liste de tous les joueurs dans la base de données
-        """s
-        res = self.dao.joueur_dao.lister_tous()
+            renvoie l'utilisateur recherché
+        """
+        res = self.dao.Joueur_dao.lister_tous()
         for pers in res:
             if pers[pseudo] == pseudo:
                 return pers

@@ -46,44 +46,40 @@ class MangaDao:
             )
         return manga
 
-    def lister_tous(self) -> list[Manga]:
-        """lister tous les mangas
+    def trouver_manga_par_titre(self, titre):
+        """Recherche et renvoie un manga par son titre
 
         Parameters
-        ----------
-        None
+        ---------
+        titre: str
+            titre du manga qu'on veut rechercher
 
         Returns
         -------
-        liste_joueurs : list[Joueur]
-            renvoie la liste de tous les joueurs dans la base de données
+        manga: Manga
+            renvoie le manga
         """
-
         try:
             with DBConnection().connection as connection:
                 with connection.cursor() as cursor:
                     cursor.execute(
-                        "SELECT *                              "
-                        "  FROM manga;                        "
+                        "Select *",
+                        "From manga",
+                        "Where titre = %(titre)s ",
+                        {"titre": titre},
                     )
-                    res = cursor.fetchall()
+                    res = cursor.fetchone()
         except Exception as e:
             logging.info(e)
             raise
-
-        liste_manga = []
-
+        manga = None
         if res:
-            for row in res:
-                manga = Manga(
-                    id_manga=res["id_manga"],
-                    titre=res["titre"],
-                    synopsis=res["synopsis"],
-                    auteurs=res["auteurs"],
-                    themes=res["themes"],
-                    genre=res["genre"],
-                )
-
-                liste_manga.append(manga)
-
-        return liste_manga
+            manga = Manga(
+                id_manga=res["id_manga"],
+                titre=res["titre"],
+                synopsis=res["synopsis"],
+                auteurs=res["auteurs"],
+                themes=res["themes"],
+                genre=res["genre"],
+            )
+        return manga
