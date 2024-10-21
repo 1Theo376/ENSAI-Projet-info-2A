@@ -64,21 +64,21 @@ class AvisDAO:
             with DBConnection().connexion as connexion:
                 with connexion.cursor() as cursor:
                     cursor.execute(
-                        "SELECT * "
-                        "FROM Avis"
-                        "WHERE id_avis = %(id_avis)s; " ,
-                        {"id_avis",id_avis},
+                        " SELECT * "
+                        " FROM Avis "
+                        " WHERE id_avis = %(id_avis)s; " ,
+                        {"id_avis": id_avis},
                     )
                     res=cursor.fetchone()
 
+                    if res:
+                        avis=Avis(
+                            id_avis=res["id_avis"],
+                            texte=res["texte"]
+                        )
             except Exception as e:
-                loggin.info(e)
+                logging.error(f"Erreur lors de la recherche de l'avis {id_avis} :{e}")
                 raise
-
-            avis = Avis(
-                id_avis=res["id_avis"]
-                texte=res["texte"]
-            )    
-    
+                
     return Avis
 
