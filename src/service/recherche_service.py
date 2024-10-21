@@ -8,6 +8,7 @@ class RechercheService:
     """Classe"""
 
     def recherche_manga_par_titre(self, titre: str) -> Manga:
+<<<<<<< HEAD
         """Recherche un manga par son titre
         Parameters
         ----------
@@ -18,6 +19,15 @@ class RechercheService:
         manga : Manga
             renvoie le manga recherché
         """
+=======
+<<<<<<< HEAD
+        """Recherche les mangas par leurs titres
+
+        """
+=======
+        """Recherche les mangas par leurs titres"""
+>>>>>>> b0444b8e85aaea4cbe0c2a1d32daf5ad1b6f2ae8
+>>>>>>> 749c84499c42003d1c26320a71d00f308c55f1e8
         res = self.dao.mangadao.lister_tous()
         for man in res:
             if man[titre] == titre:

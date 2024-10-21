@@ -5,7 +5,7 @@ from dao.db_connection import DBConnection
 from CollectionCoherente import CollectionCoherente
 
 
-class CollectionDAO():
+class CollectionCoherenteDAO():
     """Classe contenant les méthodes pour accéder aux collections du joueur"""
 
     def trouver_par_id(self, id_collection) -> CollectionCoherente:

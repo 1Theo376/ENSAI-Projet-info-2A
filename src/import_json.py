@@ -20,7 +20,7 @@ def get_mangas():
         # Si la réponse est 429 (rate limiting), attendre quelques secondes
         if req.status_code == 429:
             print("Rate limit reached. Waiting for 10 seconds before retrying...")
-            time.sleep(10)
+            time.sleep(1)
             continue  # Refaire la requête après l'attente
         if req.status_code != 200:
             raise Exception(f"Cannot reach (HTTP {req.status_code}): {req.text}")
@@ -29,15 +29,11 @@ def get_mangas():
         for t in raw_manga:
             liste = []
             liste.append(t.get("title_english", "N/A"))
-            liste.append(t.get("type", "N/A"))
-            liste.append(t.get("chapters", "N/A"))
             liste.append(t.get("volumes", "N/A"))
             liste.append(t.get("status", "N/A"))
-            liste.append(t.get("publishing", "N/A"))
             liste.append(t.get("published", {}))
             liste.append(t.get("synopsis", "N/A"))
             liste.append([manga["name"] for manga in t.get("authors", [])])
-            liste.append([manga["name"] for manga in t.get("serializations", [])])
             liste.append([manga["name"] for manga in t.get("genres", [])])
             liste.append([manga["name"] for manga in t.get("demographics", [])])
             mangas.append(liste)

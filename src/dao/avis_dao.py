@@ -43,3 +43,42 @@ class AvisDAO:
             created = True
 
         return created
+
+    def trouver_avis_par_id(self, id_avis) -> Avis:
+        """
+        permet de trouver un avis à l'aide de son id
+
+        Parameters
+        -----------
+        id_avis : int
+            Identifiant de l'avis
+
+        Returns
+        --------
+            avis ou None
+            Renvoie l'avis que l'on cherche par id ou une None si l'avis n'existe pas 
+        """
+        avis = None
+        
+        try:
+            with DBConnection().connexion as connexion:
+                with connexion.cursor() as cursor:
+                    cursor.execute(
+                        " SELECT * "
+                        " FROM Avis "
+                        " WHERE id_avis = %(id_avis)s; " ,
+                        {"id_avis": id_avis},
+                    )
+                    res=cursor.fetchone()
+
+                    if res:
+                        avis=Avis(
+                            id_avis=res["id_avis"],
+                            texte=res["texte"]
+                        )
+            except Exception as e:
+                logging.error(f"Erreur lors de la recherche de l'avis {id_avis} :{e}")
+                raise
+                
+    return Avis
+
