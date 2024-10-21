@@ -56,29 +56,48 @@ class AvisDAO:
         Returns
         --------
             avis ou None
-            Renvoie l'avis que l'on cherche par id ou une None si l'avis n'existe pas 
+            Renvoie l'avis que l'on cherche par id ou une None si l'avis n'existe pas
         """
         avis = None
-        
+
         try:
             with DBConnection().connexion as connexion:
                 with connexion.cursor() as cursor:
                     cursor.execute(
-                        " SELECT * "
-                        " FROM Avis "
-                        " WHERE id_avis = %(id_avis)s; " ,
+                        " SELECT *                           "
+                        " FROM Avis                      "
+                        " WHERE id_avis = %(id_avis)s;  ",
                         {"id_avis": id_avis},
                     )
-                    res=cursor.fetchone()
+                    res = cursor.fetchone()
+        except Exception as e:
+            logging.info(e)
+            raise
 
-                    if res:
-                        avis=Avis(
-                            id_avis=res["id_avis"],
-                            texte=res["texte"]
-                        )
-            except Exception as e:
-                logging.error(f"Erreur lors de la recherche de l'avis {id_avis} :{e}")
-                raise
-                
+            if res:
+                avis = Avis(id_avis=res["id_avis"], texte=res["texte"])
+
     return Avis
 
+    def supprimer_avis(self, Avis) -> bool:
+        """Suppression d'un avis dans la base de données
+
+        Parameters
+        -----------
+            True si l'avis a bien été supprimé
+        """
+
+        try:
+            with DBConnection().connection as connection:
+                with connection.cursor as cursor:
+                    cursor.execute(
+                        "DELETE FROM Avis                           "
+                        "WHERE id_avis= %(id_avis)s                      ",
+                        {"id_avis": Avis.id_avis},
+                    )
+                    res = cursor.rowcount
+        except Exception as e:
+            logging.info(e)
+            raise
+
+        return res > 0
