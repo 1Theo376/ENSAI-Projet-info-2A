@@ -21,7 +21,7 @@ class Collection_physique:
     """
 
     def __init__(self,
-                 id_collection: int,
+                 id_collectionphysique: int,
                  Liste_manga: list[Serie_Manga],
                  num_dernier_acquis: int,
                  num_manquant: int,
@@ -29,7 +29,7 @@ class Collection_physique:
         """
         Initialise un nouvel objet CollectionCoherente
         """
-        self.id_collection = id_collection
+        self.id_collectionphysique = id_collectionphysique
         self.Liste_manga = Liste_manga
         self.num_dernier_acquis = num_dernier_acquis
         self.num_manquant = num_manquant

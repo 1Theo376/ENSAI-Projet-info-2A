@@ -1,4 +1,4 @@
-class Serie_Manga:
+class MangaPossede:
     """
     Représente un manga avec ses informations de base
     """
