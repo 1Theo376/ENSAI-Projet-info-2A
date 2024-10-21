@@ -5,12 +5,16 @@ from utilisateur import Utilisateur
 
 
 class RechercheService:
-    """Classe """
+    """Classe"""
 
     def recherche_manga_par_titre(self, titre: str) -> Manga:
+<<<<<<< HEAD
         """Recherche les mangas par leurs titres
 
         """
+=======
+        """Recherche les mangas par leurs titres"""
+>>>>>>> b0444b8e85aaea4cbe0c2a1d32daf5ad1b6f2ae8
         res = self.dao.mangadao.lister_tous()
         for man in res:
             if man[titre] == titre:
@@ -28,9 +32,7 @@ class RechercheService:
         -------
         utilisateur : Utilisateur
             renvoie la liste de tous les joueurs dans la base de données
-        """
-
-        """
+        """s
         res = self.dao.joueur_dao.lister_tous()
         for pers in res:
             if pers[pseudo] == pseudo:
