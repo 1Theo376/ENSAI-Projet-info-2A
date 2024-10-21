@@ -8,7 +8,6 @@ from utilisateur import Utilisateur
 class JoueurDao():
     """Classe contenant les méthodes pour accéder aux Joueurs de la base de données"""
 
-
     def creer(self, user) -> bool:
         """Creation d'un joueur dans la base de données
 
@@ -49,7 +48,6 @@ class JoueurDao():
 
         return created
 
-
     def trouver_par_id(self, id) -> Utilisateur:
         """trouver un joueur grace à son id
 
@@ -86,7 +84,6 @@ class JoueurDao():
             )
 
         return joueur
-
 
     def lister_tous(self) -> list[Utilisateur]:
         """lister tous les joueurs
@@ -126,7 +123,6 @@ class JoueurDao():
                 liste_joueurs.append(joueur)
 
         return liste_joueurs
-
 
     def modifier(self, joueur) -> bool:
         """Modification d'un joueur dans la base de données
