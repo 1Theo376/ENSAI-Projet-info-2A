@@ -11,7 +11,7 @@ class Manga:
                  themes: list[str],
                  genre: str):
         """
-        
+
         Initialise un manga
 
     Parameters :
@@ -28,7 +28,7 @@ class Manga:
         Une liste de thèmes associés au manga (par exemple, aventure, drame).
     genre : str
         Le genre principal du manga (par exemple, action, romance).
-        
+
         """
 
         self.id_manga = id_manga
