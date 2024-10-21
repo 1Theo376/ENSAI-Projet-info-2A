@@ -77,7 +77,7 @@ class AvisDAO:
             if res:
                 avis = Avis(id_avis=res["id_avis"], texte=res["texte"])
 
-    return Avis
+        return Avis
 
     def supprimer_avis(self, Avis) -> bool:
         """Suppression d'un avis dans la base de données
@@ -101,3 +101,19 @@ class AvisDAO:
             raise
 
         return res > 0
+
+    def consulter_avis(self, id_avis):
+        """ Permet de consulter un avis de la base de données
+
+        Parameters
+        ------------
+            Avis ou None
+            Affiche l'avis que l'on recherche, ou None sinon
+        """
+
+        try:
+            with DBConnection().connexion as connection:
+                with connection.cursor as cursor:
+                    cursor.execute(
+                        
+                    )    
