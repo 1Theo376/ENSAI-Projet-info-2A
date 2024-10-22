@@ -22,7 +22,7 @@ class AvisDAO:
         res = None
 
         try:
-            with self.connecter() as connection:
+            with DBConnection() as connection:
                 with connection.cursor() as cursor:
                     cursor.execute(
                         "INSERT INTO avis (id_avis, texte) VALUES "
@@ -61,11 +61,11 @@ class AvisDAO:
         avis = None
 
         try:
-            with DBConnection().connexion as connexion:
-                with connexion.cursor() as cursor:
+            with DBConnection().connection as connection:
+                with connection.cursor() as cursor:
                     cursor.execute(
                         " SELECT *                           "
-                        " FROM Avis                      "
+                        " FROM avis                      "
                         " WHERE id_avis = %(id_avis)s;  ",
                         {"id_avis": id_avis},
                     )
@@ -74,26 +74,30 @@ class AvisDAO:
             logging.info(e)
             raise
 
-            if res:
-                avis = Avis(id_avis=res["id_avis"], texte=res["texte"])
+        if res:
+            avis = Avis(id_avis=res["id_avis"], texte=res["texte"])
 
-    return Avis
+        return avis
 
-    def supprimer_avis(self, Avis) -> bool:
+    def supprimer_avis(self, avis) -> bool:
         """Suppression d'un avis dans la base de données
 
         Parameters
         -----------
-            True si l'avis a bien été supprimé
+            avis : Avis
+
+        Returns
+        ---------
+            True si l'avis a bien été supprimé, false sinon
         """
 
         try:
             with DBConnection().connection as connection:
-                with connection.cursor as cursor:
+                with connection.cursor() as cursor:
                     cursor.execute(
-                        "DELETE FROM Avis                           "
+                        "DELETE FROM avis                           "
                         "WHERE id_avis= %(id_avis)s                      ",
-                        {"id_avis": Avis.id_avis},
+                        {"id_avis": avis.id_avis},
                     )
                     res = cursor.rowcount
         except Exception as e:
@@ -101,3 +105,67 @@ class AvisDAO:
             raise
 
         return res > 0
+
+    def modifier_avis(self, avis) -> bool:
+        """Modification d'un avis dans la base de données
+        Parameters
+        ----------
+        avis : Avis
+
+        Returns
+        -------
+        True si l'avis a bien été modifié, False sinon
+        """
+
+        res = None
+
+        try:
+            with DBConnection().connection as connection:
+                with connection.cursor() as cursor:
+                    cursor.execute(
+                        "UPDATE avis                                     "
+                        "SET texte = %(texte)s,                        "
+                        "   WHERE id_avis      = %(id_avis)s,        ",
+                        {
+                            "texte": avis.texte,
+                            "id_avis": avis.id_avis,
+                        },
+                    )
+                    res = cursor.rowcount
+        except Exception as e:
+            logging.info(e)
+
+            return res == 1
+
+    def consulter_avis(self, id_avis):
+        """Consultation de l'avis voulu
+        Parameters
+        ----------
+        id_avis : int
+
+        Returns
+        --------
+        Avis ou None
+        """
+
+        Avis = None
+
+        try:
+            with DBConnection().connection as connection:
+                with connection.cursor() as cursor:
+                    cursor.execute(
+                        "SELECT *                       "
+                        "FROM avis                      "
+                        "WHERE id_avis = %(id_avis)s,     ",
+                        {"id_avis": id_avis},
+                    )
+                    res = cursor.fetchone()
+
+                    if res:
+                        avis = Avis(id_avis=res["id_avis"], texte=res["texte"])
+
+        except Exception as e:
+            logging.info(e)
+            raise
+
+        return avis

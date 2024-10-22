@@ -5,16 +5,15 @@ from dao.db_connection import DBConnection
 from utilisateur import Utilisateur
 
 
-class JoueurDao():
-    """Classe contenant les méthodes pour accéder aux Joueurs de la base de données"""
-
+class UtilisateurDao():
+    """Classe contenant les méthodes pour accéder aux Utilisateurs de la base de données"""
 
     def creer(self, user) -> bool:
-        """Creation d'un joueur dans la base de données
+        """Creation d'un utilisateur dans la base de données
 
         Parameters
         ----------
-        user : Utilisateur
+        user : utilisateur
 
         Returns
         -------
@@ -49,91 +48,11 @@ class JoueurDao():
 
         return created
 
-
-    def trouver_par_id(self, id) -> Utilisateur:
-        """trouver un joueur grace à son id
-
+    def modifier(self, utilisateur) -> bool:
+        """Modification d'un utilisateur dans la base de données
         Parameters
         ----------
-        id : int
-            numéro id du joueur que l'on souhaite trouver
-
-        Returns
-        -------
-        user : Utilisateur
-            renvoie le joueur que l'on cherche par id
-        """
-        try:
-            with DBConnection().connection as connection:
-                with connection.cursor() as cursor:
-                    cursor.execute(
-                        "SELECT *                           "
-                        "  FROM joueur                      "
-                        " WHERE id = %(id)s;  ",
-                        {"id": id},
-                    )
-                    res = cursor.fetchone()
-        except Exception as e:
-            logging.info(e)
-            raise
-
-        joueur = None
-        if res:
-            joueur = Utilisateur(
-                id=res["id"],
-                mdp=res["mdp"],
-                pseudo=res["pseudo"],
-            )
-
-        return joueur
-
-
-    def lister_tous(self) -> list[Utilisateur]:
-        """lister tous les joueurs
-
-        Parameters
-        ----------
-        None
-
-        Returns
-        -------
-        liste_joueurs : list[Joueur]
-            renvoie la liste de tous les joueurs dans la base de données
-        """
-
-        try:
-            with DBConnection().connection as connection:
-                with connection.cursor() as cursor:
-                    cursor.execute(
-                        "SELECT *                              "
-                        "  FROM joueur;                        "
-                    )
-                    res = cursor.fetchall()
-        except Exception as e:
-            logging.info(e)
-            raise
-
-        liste_joueurs = []
-
-        if res:
-            for row in res:
-                joueur = Utilisateur(
-                    id=row["id"],
-                    pseudo=row["pseudo"],
-                    mdp=row["mdp"],
-                )
-
-                liste_joueurs.append(joueur)
-
-        return liste_joueurs
-
-
-    def modifier(self, joueur) -> bool:
-        """Modification d'un joueur dans la base de données
-
-        Parameters
-        ----------
-        joueur : Joueur
+        utilisateur : Utilisateur
 
         Returns
         -------
@@ -148,14 +67,14 @@ class JoueurDao():
             with DBConnection().connection as connection:
                 with connection.cursor() as cursor:
                     cursor.execute(
-                        "UPDATE joueur                                      "
+                        "UPDATE utilisateur                                 "
                         "   SET pseudo      = %(pseudo)s,                   "
                         "       mdp         = %(mdp)s,                      "
                         " WHERE id = %(id)s;                  ",
                         {
-                            "pseudo": joueur.pseudo,
-                            "mdp": joueur.mdp,
-                            "id": joueur.id,
+                            "pseudo": utilisateur.pseudo,
+                            "mdp": utilisateur.mdp,
+                            "id": utilisateur.id,
                         },
                     )
                     res = cursor.rowcount
@@ -164,27 +83,103 @@ class JoueurDao():
 
         return res == 1
 
-    def supprimer(self, joueur) -> bool:
-        """Suppression d'un joueur dans la base de données
+    # def trouver_par_id(self, id) -> Utilisateur:
+    #    trouver un joueur grace à son id
+
+    #    Parameters
+    #    ----------
+    #    id : int
+    #        numéro id de l'utilisateur que l'on souhaite trouver
+
+    #    Returns
+    #    -------
+    #    user : Utilisateur
+    #        renvoie l'utilisateur que l'on cherche par id
+
+    #    try:
+    #        with DBConnection().connection as connection:
+    #            with connection.cursor() as cursor:
+    #                cursor.execute(
+    #                    "SELECT *                           "
+    #                    "  FROM utilisateur                      "
+    #                    " WHERE id = %(id)s;  ",
+    #                    {"id": id},
+    #                )
+    #                res = cursor.fetchone()
+    #    except Exception as e:
+    #        logging.info(e)
+    #        raise
+
+    #    utilisateur = None
+    #    if res:
+    #        utilisateur = Utilisateur(
+    #            id=res["id"],
+    #            mdp=res["mdp"],
+    #            pseudo=res["pseudo"],
+    #        )
+    #
+    #    return utilisateur
+
+    def lister_tous(self) -> list[Utilisateur]:
+        """lister tous les joueurs
 
         Parameters
         ----------
-        joueur : Joueur
-            joueur à supprimer de la base de données
+        None
 
         Returns
         -------
-            True si le joueur a bien été supprimé
+        liste_utilisateur : list[Joueur]
+            renvoie la liste de tous les utilisateurs dans la base de données
         """
 
         try:
             with DBConnection().connection as connection:
                 with connection.cursor() as cursor:
-                    # Supprimer le compte d'un joueur
                     cursor.execute(
-                        "DELETE FROM joueur                  "
+                        "SELECT *                              "
+                        "  FROM utilisateur;                        "
+                    )
+                    res = cursor.fetchall()
+        except Exception as e:
+            logging.info(e)
+            raise
+
+        liste_utilisateurs = []
+
+        if res:
+            for row in res:
+                utilisateur = Utilisateur(
+                    id=row["id"],
+                    pseudo=row["pseudo"],
+                    mdp=row["mdp"],
+                )
+
+                liste_utilisateurs.append(utilisateur)
+
+        return liste_utilisateurs
+
+    def supprimer(self, utilisateur) -> bool:
+        """Suppression d'un utilisateur dans la base de données
+
+        Parameters
+        ----------
+        utilisateur : Utilisateur
+            utilisateur à supprimer de la base de données
+
+        Returns
+        -------
+            True si le utilisateur a bien été supprimé
+        """
+
+        try:
+            with DBConnection().connection as connection:
+                with connection.cursor() as cursor:
+                    # Supprimer le compte d'un utilisateur
+                    cursor.execute(
+                        "DELETE FROM utilisateur                  "
                         " WHERE id=%(id)s      ",
-                        {"id": joueur.id},
+                        {"id": utilisateur.id},
                     )
                     res = cursor.rowcount
         except Exception as e:

@@ -1,28 +1,21 @@
-from collection_physique import Collection_physique
-from collec import Collection
-import csv
-
-
 class Utilisateur:
     """
     Définition de la classe Utilisateur.
 
     Attributs
     ----------
-    id: str
-        identifiant rentré par l'utilisateur
-
-    mdp: str
-        mot de passe rentré par l'utilisateur
+    id: int
+        identifiant de l'utilisateur
 
     pseudo: str
-        Pseudo rentré par l'utilisateur
+        Pseudo de l'utilisateur
 
-    collec_phys: Collection_physique
-        La collection physique de l'utilisateur
+    mdp: str
+        mot de passe de l'utilisateur
+
     """
 
-    def __init__(self, id: str, mdp: str, pseudo: str):
+    def __init__(self, id: int, pseudo: str, mdp: str):
         """
         Initialise une instance de Utilisateur
         """
