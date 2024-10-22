@@ -74,7 +74,7 @@ class CollectionPhysiqueDAO():
 
         return res > 0
 
-    def créer_collectionphys(self, CollectionPhysique) -> bool:
+    def créer_collectionphys(self, CollectionP) -> bool:
         """Creation d'un joueur dans la base de données
 
         Parameters
@@ -97,9 +97,9 @@ class CollectionPhysiqueDAO():
                         "(%(id)s, %(titre)s, %(desc)s) "
                         "  RETURNING id; ",
                         {
-                            "id": CollectionPhysique.id_collectionphysique,
-                            "titre": CollectionPhysique.titre_collection,
-                            "desc": CollectionPhysique.desc_collection
+                            "id": CollectionP.id_collectionphysique,
+                            "titre": CollectionP.titre_collection,
+                            "desc": CollectionP.desc_collection
                         },
                     )
                     res = cursor.fetchone()
@@ -108,12 +108,12 @@ class CollectionPhysiqueDAO():
 
         created = False
         if res:
-            CollectionPhysique.id = res["id"]
+            CollectionP.id = res["id"]
             created = True
 
         return created
 
-    def supprimer_mangaposs(self, CollectionPhysique, MangaPoss) -> bool:
+    def supprimer_mangaposs(self, CollectionP, MangaPoss) -> bool:
         """Suppression d'un manga d'une collection
 
         Parameters
@@ -132,7 +132,7 @@ class CollectionPhysiqueDAO():
                     cursor.execute(
                         "DELETE FROM association_manga_collection_physique                 "
                         " WHERE (id_collec_coherente=%(id_collec_coherente)s and id_manga_physique=%(idm)s ",
-                        {"id_collec_coherente": CollectionPhysique.id_collectionphysique,
+                        {"id_collec_coherente": CollectionP.id_collectionphysique,
                          "idm": MangaPoss.id_mangapossede},
                     )
                     res = cursor.rowcount
@@ -141,7 +141,7 @@ class CollectionPhysiqueDAO():
             raise
         return res > 0
 
-    def ajouter_mangaposs(self, CollectionPhysique, MangaPoss) -> bool:
+    def ajouter_mangaposs(self, CollectionP, MangaPoss) -> bool:
         """Creation d'un joueur dans la base de données
 
         Parameters
@@ -164,7 +164,7 @@ class CollectionPhysiqueDAO():
                         "(%(idc)s, %(idm)s) "
                         "  RETURNING id_collec_physique, id_manga_physique; ",
                         {
-                            "idc": CollectionPhysique.id_collectioncoherente,
+                            "idc": CollectionP.id_collectioncoherente,
                             "idm": MangaPoss.id_mangapossede
                         },
                     )
@@ -174,7 +174,7 @@ class CollectionPhysiqueDAO():
 
         created = False
         if res:
-            CollectionPhysique.id = res["id_collec_physique"]
+            CollectionP.id = res["id_collec_physique"]
             MangaPoss.id_mangapossede = res["id_manga_physique"]
             created = True
 

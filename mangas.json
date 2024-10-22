@@ -1,11 +1,8 @@
 [
     [
         "Monster",
-        "Manga",
-        162,
         18,
         "Finished",
-        false,
         {
             "from": "1994-12-05T00:00:00+00:00",
             "to": "2001-12-20T00:00:00+00:00",
@@ -28,9 +25,6 @@
             "Urasawa, Naoki"
         ],
         [
-            "Big Comic Original"
-        ],
-        [
             "Award Winning",
             "Drama",
             "Mystery"
@@ -41,11 +35,8 @@
     ],
     [
         "Berserk",
-        "Manga",
-        null,
         null,
         "Publishing",
-        true,
         {
             "from": "1989-08-25T00:00:00+00:00",
             "to": null,
@@ -69,9 +60,6 @@
             "Studio Gaga"
         ],
         [
-            "Young Animal"
-        ],
-        [
             "Action",
             "Adventure",
             "Award Winning",
@@ -86,11 +74,8 @@
     ],
     [
         "20th Century Boys",
-        "Manga",
-        249,
         22,
         "Finished",
-        false,
         {
             "from": "1999-09-27T00:00:00+00:00",
             "to": "2006-04-24T00:00:00+00:00",
@@ -113,9 +98,6 @@
             "Urasawa, Naoki"
         ],
         [
-            "Big Comic Spirits"
-        ],
-        [
             "Award Winning",
             "Drama",
             "Mystery",
@@ -127,11 +109,8 @@
     ],
     [
         "Yokohama Kaidashi Kikou",
-        "Manga",
-        142,
         14,
         "Finished",
-        false,
         {
             "from": "1994-04-25T00:00:00+00:00",
             "to": "2006-02-25T00:00:00+00:00",
@@ -154,9 +133,6 @@
             "Ashinano, Hitoshi"
         ],
         [
-            "Afternoon"
-        ],
-        [
             "Award Winning",
             "Sci-Fi",
             "Slice of Life"
@@ -167,11 +143,8 @@
     ],
     [
         "Hajime no Ippo: Fighting Spirit!",
-        "Manga",
-        null,
         null,
         "Publishing",
-        true,
         {
             "from": "1989-09-27T00:00:00+00:00",
             "to": null,
@@ -194,9 +167,6 @@
             "Morikawa, George"
         ],
         [
-            "Shounen Magazine (Weekly)"
-        ],
-        [
             "Award Winning",
             "Sports"
         ],
@@ -206,11 +176,8 @@
     ],
     [
         "Full Moon wo Sagashite",
-        "Manga",
-        35,
         7,
         "Finished",
-        false,
         {
             "from": "2001-12-01T00:00:00+00:00",
             "to": "2004-04-30T00:00:00+00:00",
@@ -233,9 +200,6 @@
             "Tanemura, Arina"
         ],
         [
-            "Ribon Magazine"
-        ],
-        [
             "Comedy",
             "Drama",
             "Fantasy",
@@ -248,11 +212,8 @@
     ],
     [
         "Tsubasa: RESERVoir CHRoNiCLE",
-        "Manga",
-        233,
         28,
         "Finished",
-        false,
         {
             "from": "2003-05-21T00:00:00+00:00",
             "to": "2009-10-07T00:00:00+00:00",
@@ -275,9 +236,6 @@
             "CLAMP"
         ],
         [
-            "Shounen Magazine (Weekly)"
-        ],
-        [
             "Action",
             "Adventure",
             "Drama",
@@ -289,11 +247,8 @@
     ],
     [
         "xxxHOLiC",
-        "Manga",
-        213,
         19,
         "Finished",
-        false,
         {
             "from": "2003-02-24T00:00:00+00:00",
             "to": "2011-02-09T00:00:00+00:00",
@@ -316,9 +271,6 @@
             "CLAMP"
         ],
         [
-            "Young Magazine (Weekly)"
-        ],
-        [
             "Comedy",
             "Drama",
             "Mystery",
@@ -330,11 +282,8 @@
     ],
     [
         "Naruto",
-        "Manga",
-        700,
         72,
         "Finished",
-        false,
         {
             "from": "1999-09-21T00:00:00+00:00",
             "to": "2014-11-10T00:00:00+00:00",
@@ -357,9 +306,6 @@
             "Kishimoto, Masashi"
         ],
         [
-            "Shounen Jump (Weekly)"
-        ],
-        [
             "Action",
             "Adventure",
             "Fantasy"
@@ -370,11 +316,8 @@
     ],
     [
         "Bleach",
-        "Manga",
-        705,
         74,
         "Finished",
-        false,
         {
             "from": "2001-08-07T00:00:00+00:00",
             "to": "2016-08-22T00:00:00+00:00",
@@ -397,9 +340,6 @@
             "Kubo, Tite"
         ],
         [
-            "Shounen Jump (Weekly)"
-        ],
-        [
             "Action",
             "Adventure",
             "Award Winning",
@@ -411,11 +351,8 @@
     ],
     [
         "One Piece",
-        "Manga",
-        null,
         null,
         "Publishing",
-        true,
         {
             "from": "1997-07-22T00:00:00+00:00",
             "to": null,
@@ -438,9 +375,6 @@
             "Oda, Eiichiro"
         ],
         [
-            "Shounen Jump (Weekly)"
-        ],
-        [
             "Action",
             "Adventure",
             "Fantasy"
@@ -451,11 +385,8 @@
     ],
     [
         "Rave Master",
-        "Manga",
-        298,
         35,
         "Finished",
-        false,
         {
             "from": "1999-07-07T00:00:00+00:00",
             "to": "2005-07-27T00:00:00+00:00",
@@ -478,9 +409,6 @@
             "Mashima, Hiro"
         ],
         [
-            "Shounen Magazine (Weekly)"
-        ],
-        [
             "Adventure",
             "Comedy",
             "Fantasy"
@@ -491,11 +419,8 @@
     ],
     [
         "Negima! Magister Negi Magi",
-        "Manga",
-        355,
         38,
         "Finished",
-        false,
         {
             "from": "2003-02-26T00:00:00+00:00",
             "to": "2012-03-14T00:00:00+00:00",
@@ -518,9 +443,6 @@
             "Akamatsu, Ken"
         ],
         [
-            "Shounen Magazine (Weekly)"
-        ],
-        [
             "Action",
             "Adventure",
             "Comedy",
@@ -535,11 +457,8 @@
     ],
     [
         "Love Hina",
-        "Manga",
-        120,
         14,
         "Finished",
-        false,
         {
             "from": "1998-10-21T00:00:00+00:00",
             "to": "2001-10-31T00:00:00+00:00",
@@ -562,9 +481,6 @@
             "Akamatsu, Ken"
         ],
         [
-            "Shounen Magazine (Weekly)"
-        ],
-        [
             "Award Winning",
             "Comedy",
             "Romance",
@@ -576,11 +492,8 @@
     ],
     [
         "Kare Kano: His and Her Circumstances",
-        "Manga",
-        108,
         21,
         "Finished",
-        false,
         {
             "from": "1995-12-22T00:00:00+00:00",
             "to": "2005-05-10T00:00:00+00:00",
@@ -603,9 +516,6 @@
             "Tsuda, Masami"
         ],
         [
-            "LaLa"
-        ],
-        [
             "Comedy",
             "Drama",
             "Romance"
@@ -616,11 +526,8 @@
     ],
     [
         "Kodocha: Sana's Stage",
-        "Manga",
-        54,
         10,
         "Finished",
-        false,
         {
             "from": "1994-07-02T00:00:00+00:00",
             "to": "1998-10-03T00:00:00+00:00",
@@ -643,9 +550,6 @@
             "Obana, Miho"
         ],
         [
-            "Ribon Magazine"
-        ],
-        [
             "Award Winning",
             "Comedy",
             "Drama",
@@ -658,11 +562,8 @@
     ],
     [
         "GetBackers",
-        "Manga",
-        344,
         39,
         "Finished",
-        false,
         {
             "from": "1999-03-24T00:00:00+00:00",
             "to": "2007-02-21T00:00:00+00:00",
@@ -686,9 +587,6 @@
             "Ayamine, Rando"
         ],
         [
-            "Shounen Magazine (Weekly)"
-        ],
-        [
             "Action",
             "Comedy",
             "Drama",
@@ -702,11 +600,8 @@
     ],
     [
         "Hikaru no Go",
-        "Manga",
-        198,
         23,
         "Finished",
-        false,
         {
             "from": "1998-12-08T00:00:00+00:00",
             "to": "2003-07-14T00:00:00+00:00",
@@ -730,9 +625,6 @@
             "Hotta, Yumi"
         ],
         [
-            "Shounen Jump (Weekly)"
-        ],
-        [
             "Award Winning",
             "Comedy",
             "Drama",
@@ -744,11 +636,8 @@
     ],
     [
         "Death Note",
-        "Manga",
-        108,
         12,
         "Finished",
-        false,
         {
             "from": "2003-12-01T00:00:00+00:00",
             "to": "2006-05-15T00:00:00+00:00",
@@ -772,9 +661,6 @@
             "Ohba, Tsugumi"
         ],
         [
-            "Shounen Jump (Weekly)"
-        ],
-        [
             "Supernatural",
             "Suspense"
         ],
@@ -784,11 +670,8 @@
     ],
     [
         "Rurouni Kenshin: Meiji Swordsman Romantic Story",
-        "Manga",
-        259,
         28,
         "Finished",
-        false,
         {
             "from": "1994-04-12T00:00:00+00:00",
             "to": "1999-09-21T00:00:00+00:00",
@@ -811,9 +694,6 @@
             "Watsuki, Nobuhiro"
         ],
         [
-            "Shounen Jump (Weekly)"
-        ],
-        [
             "Action",
             "Drama"
         ],
@@ -823,11 +703,8 @@
     ],
     [
         "Ranma 1/2",
-        "Manga",
-        407,
         38,
         "Finished",
-        false,
         {
             "from": "1987-08-05T00:00:00+00:00",
             "to": "1996-02-21T00:00:00+00:00",
@@ -850,9 +727,6 @@
             "Takahashi, Rumiko"
         ],
         [
-            "Shounen Sunday"
-        ],
-        [
             "Action",
             "Comedy",
             "Romance",
@@ -864,11 +738,8 @@
     ],
     [
         "D.Gray-man",
-        "Manga",
-        null,
         null,
         "Publishing",
-        true,
         {
             "from": "2004-05-31T00:00:00+00:00",
             "to": null,
@@ -891,9 +762,6 @@
             "Hoshino, Katsura"
         ],
         [
-            "Jump SQ.Rise"
-        ],
-        [
             "Action",
             "Adventure",
             "Fantasy"
@@ -904,11 +772,8 @@
     ],
     [
         "Fullmetal Alchemist",
-        "Manga",
-        116,
         27,
         "Finished",
-        false,
         {
             "from": "2001-07-12T00:00:00+00:00",
             "to": "2010-09-11T00:00:00+00:00",
@@ -931,9 +796,6 @@
             "Arakawa, Hiromu"
         ],
         [
-            "Shounen Gangan"
-        ],
-        [
             "Action",
             "Adventure",
             "Award Winning",
@@ -946,11 +808,8 @@
     ],
     [
         "Hunter x Hunter",
-        "Manga",
-        null,
         null,
         "Publishing",
-        true,
         {
             "from": "1998-03-03T00:00:00+00:00",
             "to": null,
@@ -973,9 +832,6 @@
             "Togashi, Yoshihiro"
         ],
         [
-            "Shounen Jump (Weekly)"
-        ],
-        [
             "Action",
             "Adventure",
             "Fantasy"
@@ -986,11 +842,8 @@
     ],
     [
         "X",
-        "Manga",
-        158,
         18,
         "On Hiatus",
-        false,
         {
             "from": "1992-03-24T00:00:00+00:00",
             "to": "2003-03-24T00:00:00+00:00",
@@ -1013,9 +866,6 @@
             "CLAMP"
         ],
         [
-            "Asuka"
-        ],
-        [
             "Action",
             "Drama",
             "Fantasy",
@@ -1027,11 +877,8 @@
     ],
     [
         "Nana",
-        "Manga",
-        84,
         21,
         "On Hiatus",
-        false,
         {
             "from": "2000-05-26T00:00:00+00:00",
             "to": "2009-05-26T00:00:00+00:00",
@@ -1054,9 +901,6 @@
             "Yazawa, Ai"
         ],
         [
-            "Cookie"
-        ],
-        [
             "Award Winning",
             "Drama",
             "Romance"
@@ -1067,11 +911,8 @@
     ],
     [
         "Paradise Kiss",
-        "Manga",
-        48,
         5,
         "Finished",
-        false,
         {
             "from": "1999-03-23T00:00:00+00:00",
             "to": "2003-03-22T00:00:00+00:00",
@@ -1094,9 +935,6 @@
             "Yazawa, Ai"
         ],
         [
-            "Zipper"
-        ],
-        [
             "Drama",
             "Romance"
         ],
@@ -1106,11 +944,8 @@
     ],
     [
         "Ouran High School Host Club",
-        "Manga",
-        87,
         18,
         "Finished",
-        false,
         {
             "from": "2002-07-24T00:00:00+00:00",
             "to": "2010-09-24T00:00:00+00:00",
@@ -1133,9 +968,6 @@
             "Hatori, Bisco"
         ],
         [
-            "LaLa"
-        ],
-        [
             "Comedy",
             "Drama",
             "Romance"
@@ -1146,11 +978,8 @@
     ],
     [
         "Love\u2605Com",
-        "Manga",
-        68,
         17,
         "Finished",
-        false,
         {
             "from": "2001-08-13T00:00:00+00:00",
             "to": "2007-08-13T00:00:00+00:00",
@@ -1173,9 +1002,6 @@
             "Nakahara, Aya"
         ],
         [
-            "Bessatsu Margaret"
-        ],
-        [
             "Award Winning",
             "Comedy",
             "Drama",
@@ -1187,11 +1013,8 @@
     ],
     [
         "O-Parts Hunter",
-        "Manga",
-        78,
         19,
         "Finished",
-        false,
         {
             "from": "2001-08-11T00:00:00+00:00",
             "to": "2007-12-12T00:00:00+00:00",
@@ -1214,9 +1037,6 @@
             "Kishimoto, Seishi"
         ],
         [
-            "Shounen Gangan"
-        ],
-        [
             "Action",
             "Adventure",
             "Comedy",
@@ -1230,11 +1050,8 @@
     ],
     [
         "Pita-Ten",
-        "Manga",
-        47,
         8,
         "Finished",
-        false,
         {
             "from": "1999-08-27T00:00:00+00:00",
             "to": "2003-06-27T00:00:00+00:00",
@@ -1257,9 +1074,6 @@
             "Koge-Donbo*"
         ],
         [
-            "Dengeki Comic Gao!"
-        ],
-        [
             "Comedy",
             "Drama",
             "Fantasy",
@@ -1271,11 +1085,8 @@
     ],
     [
         "Di Gi Charat",
-        "Manga",
-        72,
         4,
         "Finished",
-        false,
         {
             "from": "1998-07-01T00:00:00+00:00",
             "to": "2000-03-01T00:00:00+00:00",
@@ -1304,9 +1115,6 @@
             "Nekoma, Kotomi"
         ],
         [
-            "From Gamers"
-        ],
-        [
             "Comedy",
             "Fantasy",
             "Sci-Fi"
@@ -1317,11 +1125,8 @@
     ],
     [
         "Kamichama Karin",
-        "Manga",
-        32,
         7,
         "Finished",
-        false,
         {
             "from": "2002-11-02T00:00:00+00:00",
             "to": "2008-04-03T00:00:00+00:00",
@@ -1344,9 +1149,6 @@
             "Koge-Donbo*"
         ],
         [
-            "Nakayoshi"
-        ],
-        [
             "Comedy",
             "Drama",
             "Romance"
@@ -1357,11 +1159,8 @@
     ],
     [
         "Phantom Thief Jeanne",
-        "Manga",
-        33,
         7,
         "Finished",
-        false,
         {
             "from": "1997-12-29T00:00:00+00:00",
             "to": "2000-06-03T00:00:00+00:00",
@@ -1384,9 +1183,6 @@
             "Tanemura, Arina"
         ],
         [
-            "Ribon Magazine"
-        ],
-        [
             "Action",
             "Drama",
             "Romance",
@@ -1398,11 +1194,8 @@
     ],
     [
         "The Gentleman's Alliance Cross",
-        "Manga",
-        59,
         11,
         "Finished",
-        false,
         {
             "from": "2004-08-03T00:00:00+00:00",
             "to": "2008-06-03T00:00:00+00:00",
@@ -1425,9 +1218,6 @@
             "Tanemura, Arina"
         ],
         [
-            "Ribon Magazine"
-        ],
-        [
             "Comedy",
             "Drama",
             "Romance"
@@ -1438,11 +1228,8 @@
     ],
     [
         "+Anima",
-        "Manga",
-        59,
         10,
         "Finished",
-        false,
         {
             "from": "1999-12-27T00:00:00+00:00",
             "to": "2005-01-27T00:00:00+00:00",
@@ -1465,9 +1252,6 @@
             "Mukai, Natsumi"
         ],
         [
-            "Dengeki Comic Gao!"
-        ],
-        [
             "Adventure",
             "Fantasy"
         ],
@@ -1477,11 +1261,8 @@
     ],
     [
         "Zombiepowder.",
-        "Manga",
-        30,
         4,
         "Finished",
-        false,
         {
             "from": "1999-07-20T00:00:00+00:00",
             "to": "2000-02-15T00:00:00+00:00",
@@ -1504,9 +1285,6 @@
             "Kubo, Tite"
         ],
         [
-            "Shounen Jump (Weekly)"
-        ],
-        [
             "Action",
             "Adventure",
             "Supernatural"
@@ -1517,11 +1295,8 @@
     ],
     [
         "Black Cat",
-        "Manga",
-        187,
         20,
         "Finished",
-        false,
         {
             "from": "2000-07-11T00:00:00+00:00",
             "to": "2004-06-14T00:00:00+00:00",
@@ -1544,9 +1319,6 @@
             "Yabuki, Kentarou"
         ],
         [
-            "Shounen Jump (Weekly)"
-        ],
-        [
             "Action",
             "Adventure",
             "Comedy",
@@ -1558,11 +1330,8 @@
     ],
     [
         "Buso Renkin",
-        "Manga",
-        83,
         10,
         "Finished",
-        false,
         {
             "from": "2003-06-23T00:00:00+00:00",
             "to": "2006-04-25T00:00:00+00:00",
@@ -1585,9 +1354,6 @@
             "Watsuki, Nobuhiro"
         ],
         [
-            "Shounen Jump (Weekly)"
-        ],
-        [
             "Action",
             "Comedy",
             "Fantasy",
@@ -1599,11 +1365,8 @@
     ],
     [
         "Dragon Ball",
-        "Manga",
-        520,
         42,
         "Finished",
-        false,
         {
             "from": "1984-11-20T00:00:00+00:00",
             "to": "1995-05-23T00:00:00+00:00",
@@ -1626,9 +1389,6 @@
             "Toriyama, Akira"
         ],
         [
-            "Shounen Jump (Weekly)"
-        ],
-        [
             "Action",
             "Adventure",
             "Comedy",
@@ -1640,11 +1400,8 @@
     ],
     [
         "Eyeshield 21",
-        "Manga",
-        333,
         37,
         "Finished",
-        false,
         {
             "from": "2002-07-23T00:00:00+00:00",
             "to": "2009-06-15T00:00:00+00:00",
@@ -1668,9 +1425,6 @@
             "Murata, Yusuke"
         ],
         [
-            "Shounen Jump (Weekly)"
-        ],
-        [
             "Sports"
         ],
         [
@@ -1679,11 +1433,8 @@
     ],
     [
         "Gin Tama",
-        "Manga",
-        709,
         77,
         "Finished",
-        false,
         {
             "from": "2003-12-08T00:00:00+00:00",
             "to": "2019-06-20T00:00:00+00:00",
@@ -1706,9 +1457,6 @@
             "Sorachi, Hideaki"
         ],
         [
-            "Shounen Jump (Weekly)"
-        ],
-        [
             "Action",
             "Comedy",
             "Sci-Fi"
@@ -1719,11 +1467,8 @@
     ],
     [
         "Strawberry 100%",
-        "Manga",
-        167,
         19,
         "Finished",
-        false,
         {
             "from": "2002-02-19T00:00:00+00:00",
             "to": "2005-08-01T00:00:00+00:00",
@@ -1746,9 +1491,6 @@
             "Kawashita, Mizuki"
         ],
         [
-            "Shounen Jump (Weekly)"
-        ],
-        [
             "Comedy",
             "Drama",
             "Romance",
@@ -1760,11 +1502,8 @@
     ],
     [
         null,
-        "Manga",
-        15,
         2,
         "Finished",
-        false,
         {
             "from": "2003-09-22T00:00:00+00:00",
             "to": "2003-12-15T00:00:00+00:00",
@@ -1787,9 +1526,6 @@
             "Horibe, Takeo"
         ],
         [
-            "Shounen Jump (Weekly)"
-        ],
-        [
             "Action",
             "Mystery"
         ],
@@ -1799,11 +1535,8 @@
     ],
     [
         "Reborn!",
-        "Manga",
-        411,
         42,
         "Finished",
-        false,
         {
             "from": "2004-05-24T00:00:00+00:00",
             "to": "2012-11-12T00:00:00+00:00",
@@ -1826,9 +1559,6 @@
             "Amano, Akira"
         ],
         [
-            "Shounen Jump (Weekly)"
-        ],
-        [
             "Action",
             "Comedy"
         ],
@@ -1838,11 +1568,8 @@
     ],
     [
         "Pretty Face",
-        "Manga",
-        53,
         6,
         "Finished",
-        false,
         {
             "from": "2002-05-14T00:00:00+00:00",
             "to": "2003-06-09T00:00:00+00:00",
@@ -1865,9 +1592,6 @@
             "Kano, Yasuhiro"
         ],
         [
-            "Shounen Jump (Weekly)"
-        ],
-        [
             "Comedy",
             "Romance",
             "Ecchi"
@@ -1878,11 +1602,8 @@
     ],
     [
         "The Prince of Tennis",
-        "Manga",
-        382,
         42,
         "Finished",
-        false,
         {
             "from": "1999-07-06T00:00:00+00:00",
             "to": "2008-03-03T00:00:00+00:00",
@@ -1905,9 +1626,6 @@
             "Konomi, Takeshi"
         ],
         [
-            "Shounen Jump (Weekly)"
-        ],
-        [
             "Sports"
         ],
         [
@@ -1916,11 +1634,8 @@
     ],
     [
         "Shaman King",
-        "Manga",
-        288,
         32,
         "Finished",
-        false,
         {
             "from": "1998-06-30T00:00:00+00:00",
             "to": "2004-08-30T00:00:00+00:00",
@@ -1943,9 +1658,6 @@
             "Takei, Hiroyuki"
         ],
         [
-            "Shounen Jump (Weekly)"
-        ],
-        [
             "Action",
             "Adventure",
             "Comedy",
@@ -1957,11 +1669,8 @@
     ],
     [
         "Slam Dunk",
-        "Manga",
-        276,
         31,
         "Finished",
-        false,
         {
             "from": "1990-09-18T00:00:00+00:00",
             "to": "1996-06-04T00:00:00+00:00",
@@ -1984,9 +1693,6 @@
             "Inoue, Takehiko"
         ],
         [
-            "Shounen Jump (Weekly)"
-        ],
-        [
             "Award Winning",
             "Sports"
         ],
@@ -1996,11 +1702,8 @@
     ],
     [
         "Whistle!",
-        "Manga",
-        216,
         24,
         "Finished",
-        false,
         {
             "from": "1998-02-24T00:00:00+00:00",
             "to": "2002-10-08T00:00:00+00:00",
@@ -2023,9 +1726,6 @@
             "Higuchi, Daisuke"
         ],
         [
-            "Shounen Jump (Weekly)"
-        ],
-        [
             "Drama",
             "Sports"
         ],
@@ -2035,11 +1735,8 @@
     ],
     [
         "Yu Yu Hakusho",
-        "Manga",
-        176,
         19,
         "Finished",
-        false,
         {
             "from": "1990-11-20T00:00:00+00:00",
             "to": "1994-07-12T00:00:00+00:00",
@@ -2062,9 +1759,6 @@
             "Togashi, Yoshihiro"
         ],
         [
-            "Shounen Jump (Weekly)"
-        ],
-        [
             "Action",
             "Award Winning",
             "Comedy",
@@ -2077,11 +1771,8 @@
     ],
     [
         "Yu-Gi-Oh!",
-        "Manga",
-        343,
         38,
         "Finished",
-        false,
         {
             "from": "1996-09-17T00:00:00+00:00",
             "to": "2004-03-08T00:00:00+00:00",
@@ -2104,9 +1795,6 @@
             "Takahashi, Kazuki"
         ],
         [
-            "Shounen Jump (Weekly)"
-        ],
-        [
             "Action",
             "Adventure",
             "Comedy",
@@ -2121,11 +1809,8 @@
     ],
     [
         "Aishiteruze Baby",
-        "Manga",
-        33,
         7,
         "Finished",
-        false,
         {
             "from": "2002-03-02T00:00:00+00:00",
             "to": "2004-12-01T00:00:00+00:00",
@@ -2148,9 +1833,6 @@
             "Maki, Youko"
         ],
         [
-            "Ribon Magazine"
-        ],
-        [
             "Comedy",
             "Drama",
             "Romance"
@@ -2161,11 +1843,8 @@
     ],
     [
         null,
-        "Manga",
-        5,
         1,
         "Finished",
-        false,
         {
             "from": "1999-03-18T00:00:00+00:00",
             "to": "1999-09-18T00:00:00+00:00",
@@ -2188,9 +1867,6 @@
             "Mizusawa, Megumi"
         ],
         [
-            "Ribon Original"
-        ],
-        [
             "Comedy",
             "Romance"
         ],
@@ -2200,11 +1876,8 @@
     ],
     [
         "Hana-Kimi: For You in Full Blossom",
-        "Manga",
-        148,
         23,
         "Finished",
-        false,
         {
             "from": "1996-08-20T00:00:00+00:00",
             "to": "2004-08-20T00:00:00+00:00",
@@ -2227,9 +1900,6 @@
             "Nakajo, Hisaya"
         ],
         [
-            "Hana to Yume"
-        ],
-        [
             "Comedy",
             "Drama",
             "Romance"
@@ -2240,11 +1910,8 @@
     ],
     [
         "W-Juliet",
-        "Manga",
-        79,
         14,
         "Finished",
-        false,
         {
             "from": "1997-10-15T00:00:00+00:00",
             "to": "2002-11-20T00:00:00+00:00",
@@ -2267,9 +1934,6 @@
             "Emura"
         ],
         [
-            "Hana to Yume"
-        ],
-        [
             "Comedy",
             "Drama",
             "Romance",
@@ -2281,11 +1945,8 @@
     ],
     [
         null,
-        "Manga",
-        12,
         2,
         "Finished",
-        false,
         {
             "from": "2002-09-18T00:00:00+00:00",
             "to": "2004-07-17T00:00:00+00:00",
@@ -2308,9 +1969,6 @@
             "Nakamura, Shungiku"
         ],
         [
-            "GFantasy"
-        ],
-        [
             "Action",
             "Adventure",
             "Comedy",
@@ -2322,11 +1980,8 @@
     ],
     [
         null,
-        "Manga",
-        101,
         9,
         "Finished",
-        false,
         {
             "from": "2002-09-09T00:00:00+00:00",
             "to": "2005-02-21T00:00:00+00:00",
@@ -2349,9 +2004,6 @@
             "Furuya, Usamaru"
         ],
         [
-            "Big Comic Spirits"
-        ],
-        [
             "Comedy",
             "Romance",
             "Ecchi"
@@ -2362,11 +2014,8 @@
     ],
     [
         "...But, I'm Your Teacher",
-        "Manga",
-        7,
         1,
         "Finished",
-        false,
         {
             "from": "1997-07-01T00:00:00+00:00",
             "to": null,
@@ -2389,9 +2038,6 @@
             "Takakura, Row"
         ],
         [
-            "Biblos"
-        ],
-        [
             "Boys Love",
             "Drama",
             "Erotica"
@@ -2400,11 +2046,8 @@
     ],
     [
         null,
-        "Manga",
-        4,
         1,
         "Finished",
-        false,
         {
             "from": "2003-06-03T00:00:00+00:00",
             "to": "2003-09-03T00:00:00+00:00",
@@ -2427,9 +2070,6 @@
             "Asahina, Yuuya"
         ],
         [
-            "Ribon Magazine"
-        ],
-        [
             "Drama",
             "Romance"
         ],
@@ -2439,11 +2079,8 @@
     ],
     [
         null,
-        "Manga",
-        null,
         4,
         "Finished",
-        false,
         {
             "from": "1988-11-12T00:00:00+00:00",
             "to": "1990-01-01T00:00:00+00:00",
@@ -2466,9 +2103,6 @@
             "Akaishi, Michiyo"
         ],
         [
-            "Betsucomi"
-        ],
-        [
             "Drama",
             "Romance"
         ],
@@ -2478,11 +2112,8 @@
     ],
     [
         null,
-        "Manga",
-        15,
         3,
         "Finished",
-        false,
         {
             "from": "2003-03-03T00:00:00+00:00",
             "to": "2004-10-18T00:00:00+00:00",
@@ -2505,9 +2136,6 @@
             "Enomoto, Chizuru"
         ],
         [
-            "Ribon Magazine"
-        ],
-        [
             "Mystery",
             "Supernatural"
         ],
@@ -2517,11 +2145,8 @@
     ],
     [
         null,
-        "Manga",
-        7,
         1,
         "Finished",
-        false,
         {
             "from": "2001-06-26T00:00:00+00:00",
             "to": null,
@@ -2550,9 +2175,6 @@
             "Masuzaki, Yoshino"
         ],
         [
-            "Sho-Comi"
-        ],
-        [
             "Drama",
             "Romance"
         ],
@@ -2562,11 +2184,8 @@
     ],
     [
         "Ninja Nonsense",
-        "Manga",
-        68,
         4,
         "Finished",
-        false,
         {
             "from": "2000-07-18T00:00:00+00:00",
             "to": "2006-01-21T00:00:00+00:00",
@@ -2589,9 +2208,6 @@
             "Koga, Ryoichi"
         ],
         [
-            "Dengeki Daioh"
-        ],
-        [
             "Comedy"
         ],
         [
@@ -2600,11 +2216,8 @@
     ],
     [
         "2001 Nights",
-        "Manga",
-        20,
         3,
         "Finished",
-        false,
         {
             "from": "1984-05-05T00:00:00+00:00",
             "to": "1986-05-06T00:00:00+00:00",
@@ -2626,7 +2239,6 @@
         [
             "Hoshino, Yukinobu"
         ],
-        [],
         [
             "Drama",
             "Sci-Fi"
@@ -2637,11 +2249,8 @@
     ],
     [
         null,
-        "Manga",
-        86,
         10,
         "Finished",
-        false,
         {
             "from": "2001-07-25T00:00:00+00:00",
             "to": "2003-06-11T00:00:00+00:00",
@@ -2664,9 +2273,6 @@
             "Kubo, Mitsurou"
         ],
         [
-            "Shounen Magazine (Weekly)"
-        ],
-        [
             "Comedy",
             "Drama",
             "Romance",
@@ -2678,11 +2284,8 @@
     ],
     [
         null,
-        "One-shot",
-        1,
         null,
         "Finished",
-        false,
         {
             "from": "2006-10-14T00:00:00+00:00",
             "to": null,
@@ -2705,9 +2308,6 @@
             "Miyawaki, Yukino"
         ],
         [
-            "ChuChu"
-        ],
-        [
             "Romance"
         ],
         [
@@ -2716,11 +2316,8 @@
     ],
     [
         "Ubel Blatt",
-        "Manga",
-        167,
         23,
         "Finished",
-        false,
         {
             "from": "2004-12-03T00:00:00+00:00",
             "to": "2019-03-25T00:00:00+00:00",
@@ -2743,9 +2340,6 @@
             "Shiono, Etorouji"
         ],
         [
-            "Big Gangan"
-        ],
-        [
             "Action",
             "Adventure",
             "Fantasy",
@@ -2757,11 +2351,8 @@
     ],
     [
         "Absolute Boyfriend",
-        "Manga",
-        35,
         6,
         "Finished",
-        false,
         {
             "from": "2003-05-20T00:00:00+00:00",
             "to": "2004-10-05T00:00:00+00:00",
@@ -2784,9 +2375,6 @@
             "Watase, Yuu"
         ],
         [
-            "Sho-Comi"
-        ],
-        [
             "Comedy",
             "Drama",
             "Romance",
@@ -2798,11 +2386,8 @@
     ],
     [
         "Magical Shopping Arcade Abenobashi",
-        "Manga",
-        12,
         2,
         "Finished",
-        false,
         {
             "from": "2001-07-26T00:00:00+00:00",
             "to": "2002-06-26T00:00:00+00:00",
@@ -2826,9 +2411,6 @@
             "Deguchi, Ryuusei"
         ],
         [
-            "Magazine-Z"
-        ],
-        [
             "Adventure",
             "Comedy",
             "Fantasy",
@@ -2840,11 +2422,8 @@
     ],
     [
         "Tenjho Tenge",
-        "Manga",
-        136,
         22,
         "Finished",
-        false,
         {
             "from": "1997-10-18T00:00:00+00:00",
             "to": "2010-08-19T00:00:00+00:00",
@@ -2867,9 +2446,6 @@
             "Oh! Great"
         ],
         [
-            "Ultra Jump"
-        ],
-        [
             "Action",
             "Drama",
             "Romance",
@@ -2882,11 +2458,8 @@
     ],
     [
         "Air Gear",
-        "Manga",
-        358,
         37,
         "Finished",
-        false,
         {
             "from": "2002-11-06T00:00:00+00:00",
             "to": "2012-05-23T00:00:00+00:00",
@@ -2909,9 +2482,6 @@
             "Oh! Great"
         ],
         [
-            "Shounen Magazine (Weekly)"
-        ],
-        [
             "Action",
             "Award Winning",
             "Supernatural",
@@ -2923,11 +2493,8 @@
     ],
     [
         "Ai yori Aoshi",
-        "Manga",
-        153,
         17,
         "Finished",
-        false,
         {
             "from": "1998-11-27T00:00:00+00:00",
             "to": "2005-08-26T00:00:00+00:00",
@@ -2950,9 +2517,6 @@
             "Fumizuki, Kou"
         ],
         [
-            "Young Animal"
-        ],
-        [
             "Comedy",
             "Drama",
             "Romance",
@@ -2964,11 +2528,8 @@
     ],
     [
         "Baby & Me",
-        "Manga",
-        108,
         18,
         "Finished",
-        false,
         {
             "from": "1991-05-02T00:00:00+00:00",
             "to": "1997-06-20T00:00:00+00:00",
@@ -2991,9 +2552,6 @@
             "Ragawa, Marimo"
         ],
         [
-            "Hana to Yume"
-        ],
-        [
             "Award Winning",
             "Comedy",
             "Drama",
@@ -3005,11 +2563,8 @@
     ],
     [
         "Alice 19th",
-        "Manga",
-        40,
         7,
         "Finished",
-        false,
         {
             "from": "2001-06-20T00:00:00+00:00",
             "to": "2003-03-05T00:00:00+00:00",
@@ -3032,9 +2587,6 @@
             "Watase, Yuu"
         ],
         [
-            "Sho-Comi"
-        ],
-        [
             "Comedy",
             "Drama",
             "Fantasy",
@@ -3047,11 +2599,8 @@
     ],
     [
         "Alichino",
-        "Manga",
-        17,
         3,
         "Finished",
-        false,
         {
             "from": "1998-11-01T00:00:00+00:00",
             "to": "2001-05-01T00:00:00+00:00",
@@ -3074,9 +2623,6 @@
             "Shurei, Kouyu"
         ],
         [
-            "Eyes"
-        ],
-        [
             "Fantasy",
             "Supernatural"
         ],
@@ -3086,11 +2632,8 @@
     ],
     [
         "Red River",
-        "Manga",
-        96,
         28,
         "Finished",
-        false,
         {
             "from": "1995-01-05T00:00:00+00:00",
             "to": "2002-06-05T00:00:00+00:00",
@@ -3113,9 +2656,6 @@
             "Shinohara, Chie"
         ],
         [
-            "Sho-Comi"
-        ],
-        [
             "Action",
             "Adventure",
             "Award Winning",
@@ -3130,11 +2670,8 @@
     ],
     [
         "Angelic Layer",
-        "Manga",
-        28,
         5,
         "Finished",
-        false,
         {
             "from": "1998-12-26T00:00:00+00:00",
             "to": "2001-09-26T00:00:00+00:00",
@@ -3157,9 +2694,6 @@
             "CLAMP"
         ],
         [
-            "Shounen Ace"
-        ],
-        [
             "Action",
             "Comedy",
             "Drama",
@@ -3171,11 +2705,8 @@
     ],
     [
         "Aria",
-        "Manga",
-        67,
         12,
         "Finished",
-        false,
         {
             "from": "2002-02-28T00:00:00+00:00",
             "to": "2008-02-29T00:00:00+00:00",
@@ -3198,9 +2729,6 @@
             "Amano, Kozue"
         ],
         [
-            "Comic Blade"
-        ],
-        [
             "Adventure",
             "Comedy",
             "Drama",
@@ -3213,11 +2741,8 @@
     ],
     [
         "Ceres: Celestial Legend",
-        "Manga",
-        83,
         14,
         "Finished",
-        false,
         {
             "from": "1996-08-05T00:00:00+00:00",
             "to": "2000-01-20T00:00:00+00:00",
@@ -3240,9 +2765,6 @@
             "Watase, Yuu"
         ],
         [
-            "Sho-Comi"
-        ],
-        [
             "Award Winning",
             "Drama",
             "Fantasy",
@@ -3257,11 +2779,8 @@
     ],
     [
         "Fushigi Yugi",
-        "Manga",
-        106,
         18,
         "Finished",
-        false,
         {
             "from": "1992-05-01T00:00:00+00:00",
             "to": "1996-07-01T00:00:00+00:00",
@@ -3284,9 +2803,6 @@
             "Watase, Yuu"
         ],
         [
-            "Sho-Comi"
-        ],
-        [
             "Action",
             "Adventure",
             "Drama",
@@ -3299,11 +2815,8 @@
     ],
     [
         "Azumanga Daioh",
-        "Manga",
-        69,
         4,
         "Finished",
-        false,
         {
             "from": "1999-01-18T00:00:00+00:00",
             "to": "2002-03-21T00:00:00+00:00",
@@ -3326,9 +2839,6 @@
             "Azuma, Kiyohiko"
         ],
         [
-            "Dengeki Daioh"
-        ],
-        [
             "Comedy",
             "Slice of Life"
         ],
@@ -3336,11 +2846,8 @@
     ],
     [
         "Time Stranger Kyoko",
-        "Manga",
-        13,
         3,
         "Finished",
-        false,
         {
             "from": "2000-08-03T00:00:00+00:00",
             "to": "2001-08-03T00:00:00+00:00",
@@ -3363,9 +2870,6 @@
             "Tanemura, Arina"
         ],
         [
-            "Ribon Magazine"
-        ],
-        [
             "Adventure",
             "Fantasy",
             "Romance"
@@ -3376,11 +2880,8 @@
     ],
     [
         "Tactics",
-        "Manga",
-        82,
         15,
         "Finished",
-        false,
         {
             "from": "2000-12-18T00:00:00+00:00",
             "to": "2013-04-15T00:00:00+00:00",
@@ -3404,9 +2905,6 @@
             "Higashiyama, Kazuko"
         ],
         [
-            "Comic Avarus"
-        ],
-        [
             "Mystery",
             "Supernatural"
         ],
@@ -3416,11 +2914,8 @@
     ],
     [
         "Angel/Dust",
-        "Manga",
-        9,
         1,
         "Finished",
-        false,
         {
             "from": "2000-04-10T00:00:00+00:00",
             "to": "2000-12-09T00:00:00+00:00",
@@ -3443,9 +2938,6 @@
             "Nanase, Aoi"
         ],
         [
-            "Newtype"
-        ],
-        [
             "Fantasy",
             "Girls Love"
         ],
@@ -3453,11 +2945,8 @@
     ],
     [
         "GALS!",
-        "Manga",
-        40,
         10,
         "Finished",
-        false,
         {
             "from": "1999-08-01T00:00:00+00:00",
             "to": "2002-07-15T00:00:00+00:00",
@@ -3480,9 +2969,6 @@
             "Fujii, Mihona"
         ],
         [
-            "Ribon Magazine"
-        ],
-        [
             "Comedy",
             "Drama",
             "Romance",
@@ -3494,11 +2980,8 @@
     ],
     [
         "Loveless",
-        "Manga",
-        null,
         null,
         "Publishing",
-        true,
         {
             "from": "2001-11-17T00:00:00+00:00",
             "to": null,
@@ -3521,9 +3004,6 @@
             "Kouga, Yun"
         ],
         [
-            "Comic ZERO-SUM"
-        ],
-        [
             "Boys Love",
             "Fantasy",
             "Mystery"
@@ -3534,11 +3014,8 @@
     ],
     [
         "Marmalade Boy",
-        "Manga",
-        40,
         8,
         "Finished",
-        false,
         {
             "from": "1992-05-01T00:00:00+00:00",
             "to": "1995-10-01T00:00:00+00:00",
@@ -3561,9 +3038,6 @@
             "Yoshizumi, Wataru"
         ],
         [
-            "Ribon Magazine"
-        ],
-        [
             "Comedy",
             "Drama",
             "Romance"
@@ -3574,11 +3048,8 @@
     ],
     [
         "Sailor Moon",
-        "Manga",
-        61,
         18,
         "Finished",
-        false,
         {
             "from": "1991-12-28T00:00:00+00:00",
             "to": "1997-02-03T00:00:00+00:00",
@@ -3601,9 +3072,6 @@
             "Takeuchi, Naoko"
         ],
         [
-            "Nakayoshi"
-        ],
-        [
             "Award Winning",
             "Drama",
             "Fantasy",
@@ -3615,11 +3083,8 @@
     ],
     [
         "The Candidate for Goddess",
-        "Manga",
-        27,
         5,
         "Finished",
-        false,
         {
             "from": "1996-11-01T00:00:00+00:00",
             "to": "2001-01-01T00:00:00+00:00",
@@ -3642,9 +3107,6 @@
             "Sugisaki, Yukiru"
         ],
         [
-            "Comic Gum"
-        ],
-        [
             "Adventure",
             "Drama",
             "Sci-Fi"
@@ -3655,11 +3117,8 @@
     ],
     [
         "D.N. Angel",
-        "Manga",
-        108,
         20,
         "Finished",
-        false,
         {
             "from": "1997-01-01T00:00:00+00:00",
             "to": "2021-01-22T00:00:00+00:00",
@@ -3682,9 +3141,6 @@
             "Sugisaki, Yukiru"
         ],
         [
-            "Asuka"
-        ],
-        [
             "Comedy",
             "Fantasy",
             "Romance",
@@ -3696,11 +3152,8 @@
     ],
     [
         "Lagoon Engine",
-        "Manga",
-        31,
         7,
         "On Hiatus",
-        false,
         {
             "from": "2002-01-01T00:00:00+00:00",
             "to": "2007-11-01T00:00:00+00:00",
@@ -3723,9 +3176,6 @@
             "Sugisaki, Yukiru"
         ],
         [
-            "Asuka"
-        ],
-        [
             "Action",
             "Comedy",
             "Supernatural"
@@ -3736,11 +3186,8 @@
     ],
     [
         "Lagoon Engine Einsatz",
-        "Manga",
-        10,
         1,
         "Finished",
-        false,
         {
             "from": "2004-10-01T00:00:00+00:00",
             "to": "2005-07-01T00:00:00+00:00",
@@ -3763,9 +3210,6 @@
             "Sugisaki, Yukiru"
         ],
         [
-            "Newtype"
-        ],
-        [
             "Action",
             "Adventure",
             "Fantasy",
@@ -3776,11 +3220,8 @@
     ],
     [
         "DearS",
-        "Manga",
-        47,
         8,
         "Finished",
-        false,
         {
             "from": "2001-08-27T00:00:00+00:00",
             "to": "2005-09-27T00:00:00+00:00",
@@ -3803,9 +3244,6 @@
             "PEACH\u2010PIT"
         ],
         [
-            "Dengeki Comic Gao!"
-        ],
-        [
             "Comedy",
             "Romance",
             "Sci-Fi",
@@ -3817,11 +3255,8 @@
     ],
     [
         "Rozen Maiden",
-        "Manga",
-        46,
         8,
         "Finished",
-        false,
         {
             "from": "2002-08-12T00:00:00+00:00",
             "to": "2007-05-30T00:00:00+00:00",
@@ -3844,9 +3279,6 @@
             "PEACH\u2010PIT"
         ],
         [
-            "Comic Birz"
-        ],
-        [
             "Comedy",
             "Drama",
             "Supernatural"
@@ -3857,11 +3289,8 @@
     ],
     [
         "Zombie-Loan",
-        "Manga",
-        83,
         13,
         "Finished",
-        false,
         {
             "from": "2002-10-18T00:00:00+00:00",
             "to": "2011-02-18T00:00:00+00:00",
@@ -3884,9 +3313,6 @@
             "PEACH\u2010PIT"
         ],
         [
-            "GFantasy"
-        ],
-        [
             "Action",
             "Adventure",
             "Comedy",
@@ -3900,11 +3326,8 @@
     ],
     [
         null,
-        "Manga",
-        10,
         1,
         "Finished",
-        false,
         {
             "from": "2001-09-01T00:00:00+00:00",
             "to": null,
@@ -3927,9 +3350,6 @@
             "PEACH\u2010PIT"
         ],
         [
-            "Dengeki Comic Gao!"
-        ],
-        [
             "Comedy",
             "Ecchi"
         ],
@@ -3937,11 +3357,8 @@
     ],
     [
         "Shugo Chara!",
-        "Manga",
-        55,
         12,
         "Finished",
-        false,
         {
             "from": "2005-12-28T00:00:00+00:00",
             "to": "2010-08-03T00:00:00+00:00",
@@ -3964,9 +3381,6 @@
             "PEACH\u2010PIT"
         ],
         [
-            "Nakayoshi"
-        ],
-        [
             "Award Winning",
             "Comedy",
             "Romance",
@@ -3978,11 +3392,8 @@
     ],
     [
         "Fruits Basket",
-        "Manga",
-        136,
         23,
         "Finished",
-        false,
         {
             "from": "1998-07-18T00:00:00+00:00",
             "to": "2006-11-20T00:00:00+00:00",
@@ -4005,9 +3416,6 @@
             "Takaya, Natsuki"
         ],
         [
-            "Hana to Yume"
-        ],
-        [
             "Award Winning",
             "Drama",
             "Romance",
@@ -4019,11 +3427,8 @@
     ],
     [
         "Never Give Up!",
-        "Manga",
-        77,
         13,
         "Finished",
-        false,
         {
             "from": "1999-02-05T00:00:00+00:00",
             "to": "2002-12-05T00:00:00+00:00",
@@ -4046,9 +3451,6 @@
             "Mutou, Hiromu"
         ],
         [
-            "Hana to Yume"
-        ],
-        [
             "Comedy",
             "Romance",
             "Slice of Life"
@@ -4059,11 +3461,8 @@
     ],
     [
         "Yotsuba&!",
-        "Manga",
-        null,
         null,
         "Publishing",
-        true,
         {
             "from": "2003-03-21T00:00:00+00:00",
             "to": null,
@@ -4086,9 +3485,6 @@
             "Azuma, Kiyohiko"
         ],
         [
-            "Dengeki Daioh"
-        ],
-        [
             "Award Winning",
             "Comedy",
             "Slice of Life"
@@ -4097,11 +3493,8 @@
     ],
     [
         "Kekkaishi",
-        "Manga",
-        345,
         35,
         "Finished",
-        false,
         {
             "from": "2004-02-18T00:00:00+00:00",
             "to": "2011-04-06T00:00:00+00:00",
@@ -4124,9 +3517,6 @@
             "Tanabe, Yellow"
         ],
         [
-            "Shounen Sunday"
-        ],
-        [
             "Action",
             "Adventure",
             "Award Winning",
@@ -4138,11 +3528,8 @@
     ],
     [
         "Cardcaptor Sakura",
-        "Manga",
-        50,
         12,
         "Finished",
-        false,
         {
             "from": "1996-05-02T00:00:00+00:00",
             "to": "2000-07-03T00:00:00+00:00",
@@ -4165,9 +3552,6 @@
             "CLAMP"
         ],
         [
-            "Nakayoshi"
-        ],
-        [
             "Adventure",
             "Award Winning",
             "Comedy",
@@ -4180,11 +3564,8 @@
     ],
     [
         "Chobits",
-        "Manga",
-        88,
         8,
         "Finished",
-        false,
         {
             "from": "2000-09-25T00:00:00+00:00",
             "to": "2002-10-28T00:00:00+00:00",
@@ -4207,9 +3588,6 @@
             "CLAMP"
         ],
         [
-            "Young Magazine (Weekly)"
-        ],
-        [
             "Comedy",
             "Romance",
             "Sci-Fi",
@@ -4221,11 +3599,8 @@
     ],
     [
         "Legal Drug",
-        "Manga",
-        18,
         3,
         "Finished",
-        false,
         {
             "from": "2000-10-06T00:00:00+00:00",
             "to": "2003-07-24T00:00:00+00:00",
@@ -4248,9 +3623,6 @@
             "CLAMP"
         ],
         [
-            "Asuka Mystery DX"
-        ],
-        [
             "Comedy",
             "Mystery",
             "Supernatural"
@@ -4261,11 +3633,8 @@
     ],
     [
         "Wish",
-        "Manga",
-        26,
         4,
         "Finished",
-        false,
         {
             "from": "1995-10-06T00:00:00+00:00",
             "to": "1998-06-06T00:00:00+00:00",
@@ -4288,9 +3657,6 @@
             "CLAMP"
         ],
         [
-            "Asuka Mystery DX"
-        ],
-        [
             "Fantasy",
             "Romance",
             "Supernatural"
@@ -4301,11 +3667,8 @@
     ],
     [
         "A.I. Love you",
-        "Manga",
-        55,
         9,
         "Finished",
-        false,
         {
             "from": "1994-04-06T00:00:00+00:00",
             "to": "1997-08-20T00:00:00+00:00",
@@ -4328,9 +3691,6 @@
             "Akamatsu, Ken"
         ],
         [
-            "Magazine Special"
-        ],
-        [
             "Comedy",
             "Romance",
             "Sci-Fi",
@@ -4342,11 +3702,8 @@
     ],
     [
         null,
-        "Manga",
-        45,
         8,
         "Finished",
-        false,
         {
             "from": "1998-12-01T00:00:00+00:00",
             "to": "2004-07-26T00:00:00+00:00",
@@ -4370,9 +3727,6 @@
             "Nakayama, Bunjuro"
         ],
         [
-            "Comic Gum"
-        ],
-        [
             "Action",
             "Comedy",
             "Romance",
@@ -4385,11 +3739,8 @@
     ],
     [
         "The Legend of Chun Hyang",
-        "Manga",
-        3,
         1,
         "Finished",
-        false,
         {
             "from": "1992-10-20T00:00:00+00:00",
             "to": "1994-02-20T00:00:00+00:00",
@@ -4412,9 +3763,6 @@
             "CLAMP"
         ],
         [
-            "Serie Mystery"
-        ],
-        [
             "Action",
             "Adventure",
             "Fantasy",
@@ -4427,11 +3775,8 @@
     ],
     [
         "Clover",
-        "Manga",
-        20,
         4,
         "Finished",
-        false,
         {
             "from": "1997-01-01T00:00:00+00:00",
             "to": "1999-01-01T00:00:00+00:00",
@@ -4454,9 +3799,6 @@
             "CLAMP"
         ],
         [
-            "Amie Magazine"
-        ],
-        [
             "Drama",
             "Fantasy",
             "Romance",
@@ -4468,11 +3810,8 @@
     ],
     [
         "Elemental Gelade",
-        "Manga",
-        96,
         18,
         "Finished",
-        false,
         {
             "from": "2002-02-28T00:00:00+00:00",
             "to": "2009-12-28T00:00:00+00:00",
@@ -4495,9 +3834,6 @@
             "Azuma, Mayumi"
         ],
         [
-            "Comic Blade"
-        ],
-        [
             "Action",
             "Adventure",
             "Fantasy",
@@ -4509,11 +3845,8 @@
     ],
     [
         "Erementar Gerade: Flag of Bluesky",
-        "Manga",
-        null,
         null,
         "Publishing",
-        true,
         {
             "from": "2003-06-16T00:00:00+00:00",
             "to": null,
@@ -4536,9 +3869,6 @@
             "Azuma, Mayumi"
         ],
         [
-            "Comic Avarus"
-        ],
-        [
             "Action",
             "Adventure",
             "Fantasy",
@@ -4550,11 +3880,8 @@
     ],
     [
         ".hack//G.U.+",
-        "Manga",
-        26,
         5,
         "Finished",
-        false,
         {
             "from": "2006-01-01T00:00:00+00:00",
             "to": "2009-01-01T00:00:00+00:00",
@@ -4578,9 +3905,6 @@
             "Morita, Yuzuka"
         ],
         [
-            ".hack//G.U. The World"
-        ],
-        [
             "Action",
             "Fantasy",
             "Sci-Fi"
@@ -4589,11 +3913,8 @@
     ],
     [
         ".hack//Legend of the Twilight",
-        "Manga",
-        24,
         3,
         "Finished",
-        false,
         {
             "from": "2001-12-10T00:00:00+00:00",
             "to": "2003-10-10T00:00:00+00:00",
@@ -4617,9 +3938,6 @@
             "Idumi, Rei"
         ],
         [
-            "Comptiq"
-        ],
-        [
             "Adventure",
             "Comedy",
             "Fantasy",
@@ -4629,11 +3947,8 @@
     ],
     [
         "Kobato.",
-        "Manga",
-        40,
         6,
         "Finished",
-        false,
         {
             "from": "2004-12-18T00:00:00+00:00",
             "to": "2011-07-08T00:00:00+00:00",
@@ -4656,9 +3971,6 @@
             "CLAMP"
         ],
         [
-            "Newtype"
-        ],
-        [
             "Adventure",
             "Fantasy",
             "Romance"
@@ -4667,11 +3979,8 @@
     ],
     [
         "Magic Knight Rayearth",
-        "Manga",
-        15,
         3,
         "Finished",
-        false,
         {
             "from": "1993-11-01T00:00:00+00:00",
             "to": "1995-02-01T00:00:00+00:00",
@@ -4694,9 +4003,6 @@
             "CLAMP"
         ],
         [
-            "Nakayoshi"
-        ],
-        [
             "Adventure",
             "Comedy",
             "Fantasy"
@@ -4707,11 +4013,8 @@
     ],
     [
         null,
-        "Light Novel",
-        133,
         22,
         "Finished",
-        false,
         {
             "from": "2001-12-20T00:00:00+00:00",
             "to": "2015-03-20T00:00:00+00:00",
@@ -4735,9 +4038,6 @@
             "Komatsu, E-ji"
         ],
         [
-            "Dragon Magazine"
-        ],
-        [
             "Comedy",
             "Drama",
             "Romance"
@@ -4746,11 +4046,8 @@
     ],
     [
         "Hotel Africa",
-        "Manhwa",
-        null,
         null,
         "Publishing",
-        true,
         {
             "from": "2005-01-01T00:00:00+00:00",
             "to": null,
@@ -4772,7 +4069,6 @@
         [
             "Park, Hee Jung"
         ],
-        [],
         [
             "Adventure",
             "Romance",
@@ -4782,11 +4078,8 @@
     ],
     [
         "Angel Cup",
-        "Manhwa",
-        35,
         5,
         "Finished",
-        false,
         {
             "from": "2001-01-01T00:00:00+00:00",
             "to": null,
@@ -4808,7 +4101,6 @@
         [
             "Yoon, Jae Ho"
         ],
-        [],
         [
             "Comedy",
             "Sports"
@@ -4817,11 +4109,8 @@
     ],
     [
         "Angel Nest",
-        "Manga",
-        7,
         1,
         "Finished",
-        false,
         {
             "from": "2000-01-01T00:00:00+00:00",
             "to": null,
@@ -4843,7 +4132,6 @@
         [
             "Sakurazawa, Erica"
         ],
-        [],
         [
             "Drama",
             "Supernatural"
@@ -4854,11 +4142,8 @@
     ],
     [
         "Aqua",
-        "Manga",
-        10,
         2,
         "Finished",
-        false,
         {
             "from": "2001-01-27T00:00:00+00:00",
             "to": "2001-09-28T00:00:00+00:00",
@@ -4881,9 +4166,6 @@
             "Amano, Kozue"
         ],
         [
-            "Stencil"
-        ],
-        [
             "Sci-Fi",
             "Slice of Life"
         ],
@@ -4893,11 +4175,8 @@
     ],
     [
         "Arcana",
-        "Manhwa",
-        23,
         11,
         "Finished",
-        false,
         {
             "from": "2003-01-01T00:00:00+00:00",
             "to": null,
@@ -4920,20 +4199,14 @@
             "Lee, So Young"
         ],
         [
-            "Issue"
-        ],
-        [
             "Fantasy"
         ],
         []
     ],
     [
         "Archlord",
-        "Manhwa",
-        46,
         6,
         "Finished",
-        false,
         {
             "from": "2005-09-30T00:00:00+00:00",
             "to": "2008-01-01T00:00:00+00:00",
@@ -4955,7 +4228,6 @@
         [
             "Park, Jin-Hwan"
         ],
-        [],
         [
             "Action",
             "Adventure",
@@ -4966,11 +4238,8 @@
     ],
     [
         null,
-        "Manhwa",
-        12,
         3,
         "Finished",
-        false,
         {
             "from": "2007-01-01T00:00:00+00:00",
             "to": null,
@@ -4992,7 +4261,6 @@
         [
             "Park, Sang-Sun"
         ],
-        [],
         [
             "Fantasy",
             "Romance",
@@ -5002,11 +4270,8 @@
     ],
     [
         "Pet Shop of Horrors",
-        "Manga",
-        41,
         10,
         "Finished",
-        false,
         {
             "from": "1995-01-01T00:00:00+00:00",
             "to": "1998-01-01T00:00:00+00:00",
@@ -5029,9 +4294,6 @@
             "Akino, Matsuri"
         ],
         [
-            "Horror M"
-        ],
-        [
             "Comedy",
             "Fantasy",
             "Horror",
@@ -5044,11 +4306,8 @@
     ],
     [
         "Arm of Kannon",
-        "Manga",
-        17,
         9,
         "Finished",
-        false,
         {
             "from": "1998-01-01T00:00:00+00:00",
             "to": "2003-01-01T00:00:00+00:00",
@@ -5071,9 +4330,6 @@
             "Yamaguchi, Masakazu"
         ],
         [
-            "Comic Birz"
-        ],
-        [
             "Fantasy",
             "Horror",
             "Sci-Fi"
@@ -5084,11 +4340,8 @@
     ],
     [
         "Clamp School Detectives",
-        "Manga",
-        12,
         3,
         "Finished",
-        false,
         {
             "from": "1992-01-01T00:00:00+00:00",
             "to": "1993-10-01T00:00:00+00:00",
@@ -5111,9 +4364,6 @@
             "CLAMP"
         ],
         [
-            "Asuka"
-        ],
-        [
             "Comedy",
             "Mystery"
         ],
@@ -5123,11 +4373,8 @@
     ],
     [
         "The Aromatic Bitters",
-        "Manga",
-        11,
         2,
         "Finished",
-        false,
         {
             "from": "2001-01-01T00:00:00+00:00",
             "to": "2003-01-01T00:00:00+00:00",
@@ -5150,9 +4397,6 @@
             "Sakurazawa, Erica"
         ],
         [
-            "Feel Young"
-        ],
-        [
             "Drama",
             "Romance"
         ],
@@ -5162,11 +4406,8 @@
     ],
     [
         "B'T X",
-        "Manga",
-        63,
         16,
         "Finished",
-        false,
         {
             "from": "1994-10-26T00:00:00+00:00",
             "to": "1999-12-26T00:00:00+00:00",
@@ -5189,9 +4430,6 @@
             "Kurumada, Masami"
         ],
         [
-            "Shounen Ace"
-        ],
-        [
             "Action",
             "Adventure",
             "Drama",
@@ -5203,11 +4441,8 @@
     ],
     [
         "Tokyo Babylon",
-        "Manga",
-        18,
         7,
         "Finished",
-        false,
         {
             "from": "1990-01-01T00:00:00+00:00",
             "to": "1993-01-01T00:00:00+00:00",
@@ -5230,9 +4465,6 @@
             "CLAMP"
         ],
         [
-            "Wings"
-        ],
-        [
             "Drama",
             "Fantasy",
             "Supernatural"
@@ -5243,11 +4475,8 @@
     ],
     [
         "M\u00c4R",
-        "Manga",
-        161,
         15,
         "Finished",
-        false,
         {
             "from": "2003-05-01T00:00:00+00:00",
             "to": "2006-07-01T00:00:00+00:00",
@@ -5270,9 +4499,6 @@
             "Anzai, Nobuyuki"
         ],
         [
-            "Shounen Sunday"
-        ],
-        [
             "Action",
             "Comedy",
             "Fantasy"
@@ -5283,11 +4509,8 @@
     ],
     [
         "M\u00c4R Omega",
-        "Manga",
-        39,
         4,
         "Finished",
-        false,
         {
             "from": "2006-09-01T00:00:00+00:00",
             "to": "2007-06-13T00:00:00+00:00",
@@ -5311,9 +4534,6 @@
             "Hoshino, Koichiro"
         ],
         [
-            "Shounen Sunday"
-        ],
-        [
             "Action",
             "Adventure",
             "Comedy",
@@ -5325,11 +4545,8 @@
     ],
     [
         "Flame of Recca",
-        "Manga",
-        330,
         33,
         "Finished",
-        false,
         {
             "from": "1995-03-22T00:00:00+00:00",
             "to": "2002-10-30T00:00:00+00:00",
@@ -5352,9 +4569,6 @@
             "Anzai, Nobuyuki"
         ],
         [
-            "Shounen Sunday"
-        ],
-        [
             "Action",
             "Adventure",
             "Comedy",
@@ -5367,11 +4581,8 @@
     ],
     [
         "Read or Die",
-        "Manga",
-        30,
         4,
         "Finished",
-        false,
         {
             "from": "1999-12-18T00:00:00+00:00",
             "to": "2002-05-18T00:00:00+00:00",
@@ -5395,9 +4606,6 @@
             "Yamada, Shutarou"
         ],
         [
-            "Ultra Jump"
-        ],
-        [
             "Action",
             "Comedy",
             "Mystery"
@@ -5408,11 +4616,8 @@
     ],
     [
         "Baby Birth",
-        "Manga",
-        21,
         2,
         "Finished",
-        false,
         {
             "from": "2001-05-01T00:00:00+00:00",
             "to": "2002-08-01T00:00:00+00:00",
@@ -5435,9 +4640,6 @@
             "Mikimoto, Haruhiko"
         ],
         [
-            "Magazine-Z"
-        ],
-        [
             "Adventure",
             "Fantasy"
         ],
@@ -5445,11 +4647,8 @@
     ],
     [
         "Ba_ku",
-        "Manga",
-        5,
         1,
         "Finished",
-        false,
         {
             "from": "2003-05-01T00:00:00+00:00",
             "to": null,
@@ -5472,9 +4671,6 @@
             "Hakase, Mizuki"
         ],
         [
-            "Wings"
-        ],
-        [
             "Fantasy",
             "Supernatural"
         ],
@@ -5484,11 +4680,8 @@
     ],
     [
         "Sorcerer Hunters",
-        "Manga",
-        72,
         13,
         "Finished",
-        false,
         {
             "from": "1993-08-01T00:00:00+00:00",
             "to": "1998-10-01T00:00:00+00:00",
@@ -5512,9 +4705,6 @@
             "Akahori, Satoru"
         ],
         [
-            "Dengeki Comic Gao!"
-        ],
-        [
             "Comedy",
             "Fantasy",
             "Ecchi"
@@ -5525,11 +4715,8 @@
     ],
     [
         "Battle Club",
-        "Manga",
-        47,
         6,
         "Finished",
-        false,
         {
             "from": "2004-04-28T00:00:00+00:00",
             "to": "2006-03-07T00:00:00+00:00",
@@ -5552,9 +4739,6 @@
             "Shiozaki, Yuji"
         ],
         [
-            "Young King OURs GH"
-        ],
-        [
             "Action",
             "Ecchi"
         ],
@@ -5564,11 +4748,8 @@
     ],
     [
         "Battle Royale",
-        "Manga",
-        119,
         15,
         "Finished",
-        false,
         {
             "from": "2000-01-01T00:00:00+00:00",
             "to": "2005-01-01T00:00:00+00:00",
@@ -5592,9 +4773,6 @@
             "Takami, Koushun"
         ],
         [
-            "Young Champion"
-        ],
-        [
             "Action",
             "Suspense"
         ],
@@ -5604,11 +4782,8 @@
     ],
     [
         "Beautiful People",
-        "Manga",
-        6,
         1,
         "Finished",
-        false,
         {
             "from": "2001-10-01T00:00:00+00:00",
             "to": null,
@@ -5631,9 +4806,6 @@
             "Mihara, Mitsukazu"
         ],
         [
-            "Feel Young"
-        ],
-        [
             "Drama"
         ],
         [
@@ -5642,11 +4814,8 @@
     ],
     [
         "Because I'm the Goddess",
-        "Manga",
-        19,
         3,
         "Finished",
-        false,
         {
             "from": "2003-11-25T00:00:00+00:00",
             "to": "2004-12-24T00:00:00+00:00",
@@ -5669,9 +4838,6 @@
             "Shamneko"
         ],
         [
-            "Comic Gum"
-        ],
-        [
             "Adventure",
             "Comedy",
             "Supernatural",
@@ -5683,11 +4849,8 @@
     ],
     [
         "BECK: Mongolian Chop Squad",
-        "Manga",
-        103,
         34,
         "Finished",
-        false,
         {
             "from": "2000-02-17T00:00:00+00:00",
             "to": "2008-06-05T00:00:00+00:00",
@@ -5710,9 +4873,6 @@
             "Sakuishi, Harold"
         ],
         [
-            "Shounen Magazine (Monthly)"
-        ],
-        [
             "Award Winning",
             "Drama",
             "Romance"
@@ -5723,11 +4883,8 @@
     ],
     [
         "Between the Sheets",
-        "Manga",
-        6,
         1,
         "Finished",
-        false,
         {
             "from": "1995-08-01T00:00:00+00:00",
             "to": "1996-01-01T00:00:00+00:00",
@@ -5750,9 +4907,6 @@
             "Sakurazawa, Erica"
         ],
         [
-            "Feel Young"
-        ],
-        [
             "Drama",
             "Romance"
         ],
@@ -5762,11 +4916,8 @@
     ],
     [
         "Beyond the Beyond",
-        "Manga",
-        38,
         6,
         "Finished",
-        false,
         {
             "from": "2004-03-01T00:00:00+00:00",
             "to": "2008-02-01T00:00:00+00:00",
@@ -5789,9 +4940,6 @@
             "Watanabe, Yoshitomo"
         ],
         [
-            "Comic Blade"
-        ],
-        [
             "Adventure",
             "Drama",
             "Fantasy"
@@ -5802,11 +4950,8 @@
     ],
     [
         null,
-        "Manhwa",
-        30,
         5,
         "Finished",
-        false,
         {
             "from": "2002-01-01T00:00:00+00:00",
             "to": null,
@@ -5828,7 +4973,6 @@
         [
             "Park, Eun Ah"
         ],
-        [],
         [
             "Comedy",
             "Romance"
@@ -5837,11 +4981,8 @@
     ],
     [
         "Blame!",
-        "Manga",
-        66,
         10,
         "Finished",
-        false,
         {
             "from": "1997-01-25T00:00:00+00:00",
             "to": "2003-07-25T00:00:00+00:00",
@@ -5864,9 +5005,6 @@
             "Nihei, Tsutomu"
         ],
         [
-            "Afternoon"
-        ],
-        [
             "Action",
             "Drama",
             "Horror",
@@ -5878,11 +5016,8 @@
     ],
     [
         "Blazin' Barrels",
-        "Manhwa",
-        null,
         40,
         "Finished",
-        false,
         {
             "from": "2000-01-01T00:00:00+00:00",
             "to": "2010-01-01T00:00:00+00:00",
@@ -5904,7 +5039,6 @@
         [
             "Park, Min-Seo"
         ],
-        [],
         [
             "Action",
             "Adventure",
@@ -5916,11 +5050,8 @@
     ],
     [
         "Blood Sucker: Legend of Zipangu",
-        "Manga",
-        72,
         12,
         "Finished",
-        false,
         {
             "from": "1994-01-01T00:00:00+00:00",
             "to": "2007-01-01T00:00:00+00:00",
@@ -5944,9 +5075,6 @@
             "Okuse, Saki"
         ],
         [
-            "Comic Birz"
-        ],
-        [
             "Action",
             "Fantasy",
             "Horror",
@@ -5958,11 +5086,8 @@
     ],
     [
         "Boys Be...",
-        "Manga",
-        255,
         32,
         "Finished",
-        false,
         {
             "from": "1991-07-24T00:00:00+00:00",
             "to": "1996-10-30T00:00:00+00:00",
@@ -5986,9 +5111,6 @@
             "Itabashi, Masahiro"
         ],
         [
-            "Shounen Magazine (Weekly)"
-        ],
-        [
             "Comedy",
             "Drama",
             "Romance"
@@ -5999,11 +5121,8 @@
     ],
     [
         "Boys Be II",
-        "Manga",
-        157,
         20,
         "Finished",
-        false,
         {
             "from": "1996-11-06T00:00:00+00:00",
             "to": "2000-02-23T00:00:00+00:00",
@@ -6027,9 +5146,6 @@
             "Itabashi, Masahiro"
         ],
         [
-            "Shounen Magazine (Weekly)"
-        ],
-        [
             "Comedy",
             "Drama",
             "Romance"
@@ -6040,11 +5156,8 @@
     ],
     [
         "Brain Powered",
-        "Manga",
-        26,
         4,
         "Finished",
-        false,
         {
             "from": "1997-11-26T00:00:00+00:00",
             "to": "2000-10-26T00:00:00+00:00",
@@ -6068,9 +5181,6 @@
             "Tomino, Yoshiyuki"
         ],
         [
-            "Shounen Ace"
-        ],
-        [
             "Adventure",
             "Drama",
             "Sci-Fi"
@@ -6081,11 +5191,8 @@
     ],
     [
         "Millennium Snow",
-        "Manga",
-        18,
         4,
         "Finished",
-        false,
         {
             "from": "2000-11-24T00:00:00+00:00",
             "to": "2013-12-10T00:00:00+00:00",
@@ -6108,9 +5215,6 @@
             "Hatori, Bisco"
         ],
         [
-            "LaLa"
-        ],
-        [
             "Comedy",
             "Drama",
             "Romance",
@@ -6122,11 +5226,8 @@
     ],
     [
         "Nowadays",
-        "Manga",
-        26,
         5,
         "Finished",
-        false,
         {
             "from": "2000-05-01T00:00:00+00:00",
             "to": "2001-07-01T00:00:00+00:00",
@@ -6149,9 +5250,6 @@
             "Watase, Yuu"
         ],
         [
-            "Sho-Comi"
-        ],
-        [
             "Comedy",
             "Drama",
             "Romance"
@@ -6162,11 +5260,8 @@
     ],
     [
         "Ghost Hunt",
-        "Manga",
-        43,
         12,
         "Finished",
-        false,
         {
             "from": "1997-12-06T00:00:00+00:00",
             "to": "2010-09-30T00:00:00+00:00",
@@ -6190,9 +5285,6 @@
             "Ono, Fuyumi"
         ],
         [
-            "Nakayoshi"
-        ],
-        [
             "Drama",
             "Horror",
             "Mystery",
@@ -6205,11 +5297,8 @@
     ],
     [
         null,
-        "Manga",
-        199,
         20,
         "Finished",
-        false,
         {
             "from": "2004-04-09T00:00:00+00:00",
             "to": "2008-05-09T00:00:00+00:00",
@@ -6233,9 +5322,6 @@
             "Miyabe, Miyuki"
         ],
         [
-            "Comic Bunch"
-        ],
-        [
             "Action",
             "Fantasy"
         ],
@@ -6245,11 +5331,8 @@
     ],
     [
         "School Rumble",
-        "Manga",
-        345,
         22,
         "Finished",
-        false,
         {
             "from": "2002-10-23T00:00:00+00:00",
             "to": "2008-07-23T00:00:00+00:00",
@@ -6272,9 +5355,6 @@
             "Kobayashi, Jin"
         ],
         [
-            "Shounen Magazine (Weekly)"
-        ],
-        [
             "Comedy",
             "Romance"
         ],
@@ -6284,11 +5364,8 @@
     ],
     [
         "Brigadoon",
-        "Manga",
-        10,
         2,
         "Finished",
-        false,
         {
             "from": "2000-01-01T00:00:00+00:00",
             "to": "2001-01-01T00:00:00+00:00",
@@ -6311,9 +5388,6 @@
             "Watase, Nozomi"
         ],
         [
-            "Shounen Ace"
-        ],
-        [
             "Action",
             "Comedy",
             "Sci-Fi"
@@ -6324,11 +5398,8 @@
     ],
     [
         "Bus Gamer",
-        "Manga",
-        11,
         1,
         "Finished",
-        false,
         {
             "from": "1999-01-01T00:00:00+00:00",
             "to": "2001-11-28T00:00:00+00:00",
@@ -6351,9 +5422,6 @@
             "Minekura, Kazuya"
         ],
         [
-            "Stencil"
-        ],
-        [
             "Action",
             "Drama",
             "Mystery"
@@ -6364,11 +5432,8 @@
     ],
     [
         "Calling You",
-        "Manga",
-        5,
         1,
         "Finished",
-        false,
         {
             "from": "2003-12-01T00:00:00+00:00",
             "to": null,
@@ -6392,9 +5457,6 @@
             "Otsuichi"
         ],
         [
-            "Asuka"
-        ],
-        [
             "Drama"
         ],
         [
@@ -6403,11 +5465,8 @@
     ],
     [
         "Nosatsu Junkie",
-        "Manga",
-        96,
         16,
         "Finished",
-        false,
         {
             "from": "2003-10-04T00:00:00+00:00",
             "to": "2008-11-20T00:00:00+00:00",
@@ -6430,9 +5489,6 @@
             "Fukuyama, Ryoco"
         ],
         [
-            "Hana to Yume"
-        ],
-        [
             "Comedy",
             "Romance"
         ],
@@ -6442,11 +5498,8 @@
     ],
     [
         "Cherry Juice",
-        "Manga",
-        21,
         4,
         "Finished",
-        false,
         {
             "from": "2004-06-03T00:00:00+00:00",
             "to": "2006-03-17T00:00:00+00:00",
@@ -6469,9 +5522,6 @@
             "Fukushima, Haruka"
         ],
         [
-            "Nakayoshi"
-        ],
-        [
             "Comedy",
             "Romance"
         ],
@@ -6481,11 +5531,8 @@
     ],
     [
         "Psychic Power Nanaki",
-        "Manga",
-        17,
         3,
         "Finished",
-        false,
         {
             "from": "2003-10-20T00:00:00+00:00",
             "to": "2004-10-05T00:00:00+00:00",
@@ -6508,9 +5555,6 @@
             "Saenagi, Ryou"
         ],
         [
-            "Hana to Yume"
-        ],
-        [
             "Action",
             "Adventure",
             "Comedy",
@@ -6523,11 +5567,8 @@
     ],
     [
         "Chronicles of the Cursed Sword",
-        "Manhwa",
-        163,
         37,
         "Finished",
-        false,
         {
             "from": "1999-01-01T00:00:00+00:00",
             "to": "2009-01-01T00:00:00+00:00",
@@ -6551,9 +5592,6 @@
             "Park, Hui-Jin"
         ],
         [
-            "JuniorChamp"
-        ],
-        [
             "Action",
             "Adventure",
             "Drama",
@@ -6565,11 +5603,8 @@
     ],
     [
         "Chrono Code",
-        "Manhwa",
-        18,
         2,
         "Finished",
-        false,
         {
             "from": "2005-07-12T00:00:00+00:00",
             "to": "2005-10-11T00:00:00+00:00",
@@ -6592,7 +5627,6 @@
             "Choi, Il-ho",
             "Shin, Eui-Chul"
         ],
-        [],
         [
             "Action",
             "Adventure",
@@ -6603,11 +5637,8 @@
     ],
     [
         "Comic Party",
-        "Manga",
-        49,
         5,
         "Finished",
-        false,
         {
             "from": "2001-01-01T00:00:00+00:00",
             "to": "2005-03-01T00:00:00+00:00",
@@ -6631,9 +5662,6 @@
             "Aquaplus"
         ],
         [
-            "Dengeki Daioh"
-        ],
-        [
             "Comedy"
         ],
         [
@@ -6642,11 +5670,8 @@
     ],
     [
         "Confidential Confessions",
-        "Manga",
-        23,
         6,
         "Finished",
-        false,
         {
             "from": "2000-01-01T00:00:00+00:00",
             "to": "2002-01-01T00:00:00+00:00",
@@ -6669,9 +5694,6 @@
             "Momochi, Reiko"
         ],
         [
-            "Dessert"
-        ],
-        [
             "Drama",
             "Romance"
         ],
@@ -6681,11 +5703,8 @@
     ],
     [
         "Confidential Confessions: Deai",
-        "Manga",
-        8,
         2,
         "Finished",
-        false,
         {
             "from": null,
             "to": null,
@@ -6708,9 +5727,6 @@
             "Momochi, Reiko"
         ],
         [
-            "Dessert"
-        ],
-        [
             "Drama"
         ],
         [
@@ -6719,11 +5735,8 @@
     ],
     [
         "Corrector Yui",
-        "Manga",
-        11,
         5,
         "Finished",
-        false,
         {
             "from": "1999-04-01T00:00:00+00:00",
             "to": "1999-12-01T00:00:00+00:00",
@@ -6746,7 +5759,6 @@
             "Okamoto, Keiko",
             "Asamiya, Kia"
         ],
-        [],
         [
             "Comedy",
             "Fantasy",
@@ -6756,11 +5768,8 @@
     ],
     [
         "Cowboy Bebop",
-        "Manga",
-        11,
         3,
         "Finished",
-        false,
         {
             "from": "1999-04-08T00:00:00+00:00",
             "to": "2000-04-10T00:00:00+00:00",
@@ -6785,9 +5794,6 @@
             "Yatate, Hajime"
         ],
         [
-            "Asuka Fantasy DX"
-        ],
-        [
             "Action",
             "Adventure",
             "Sci-Fi"
@@ -6798,11 +5804,8 @@
     ],
     [
         "Cowboy Bebop: Shooting Star",
-        "Manga",
-        10,
         2,
         "Finished",
-        false,
         {
             "from": "1998-05-01T00:00:00+00:00",
             "to": "1998-10-10T00:00:00+00:00",
@@ -6825,9 +5828,6 @@
             "Kuga, Cain"
         ],
         [
-            "Asuka Fantasy DX"
-        ],
-        [
             "Action",
             "Adventure",
             "Sci-Fi"
@@ -6838,11 +5838,8 @@
     ],
     [
         null,
-        "Manga",
-        5,
         1,
         "Finished",
-        false,
         {
             "from": "2005-03-26T00:00:00+00:00",
             "to": "2006-03-25T00:00:00+00:00",
@@ -6866,9 +5863,6 @@
             "Matsukura, Nemu"
         ],
         [
-            "Comp Ace"
-        ],
-        [
             "Comedy",
             "Fantasy"
         ],
@@ -6876,11 +5870,8 @@
     ],
     [
         "Chocotto Sister",
-        "Manga",
-        71,
         8,
         "Finished",
-        false,
         {
             "from": "2003-12-19T00:00:00+00:00",
             "to": "2007-04-27T00:00:00+00:00",
@@ -6904,9 +5895,6 @@
             "Takeuchi, Sakura"
         ],
         [
-            "Young Animal"
-        ],
-        [
             "Comedy",
             "Romance",
             "Slice of Life",
@@ -6918,11 +5906,8 @@
     ],
     [
         null,
-        "Manga",
-        9,
         2,
         "Finished",
-        false,
         {
             "from": "2004-08-09T00:00:00+00:00",
             "to": "2005-06-09T00:00:00+00:00",
@@ -6946,9 +5931,6 @@
             "Fujima, Takuya"
         ],
         [
-            "Dragon Age"
-        ],
-        [
             "Comedy",
             "Drama",
             "Romance",
@@ -6961,11 +5943,8 @@
     ],
     [
         "Living for Tomorrow",
-        "Manga",
-        7,
         1,
         "Finished",
-        false,
         {
             "from": "2005-01-31T00:00:00+00:00",
             "to": null,
@@ -6988,9 +5967,6 @@
             "Tsuda, Mikiyo"
         ],
         [
-            "Dear+"
-        ],
-        [
             "Boys Love",
             "Drama",
             "Romance",
@@ -7000,11 +5976,8 @@
     ],
     [
         "Color",
-        "Manga",
-        5,
         1,
         "Finished",
-        false,
         {
             "from": "1999-02-01T00:00:00+00:00",
             "to": null,
@@ -7028,9 +6001,6 @@
             "Eiki, Eiki"
         ],
         [
-            "Dear+"
-        ],
-        [
             "Boys Love",
             "Romance",
             "Erotica"
@@ -7039,11 +6009,8 @@
     ],
     [
         null,
-        "Manga",
-        6,
         1,
         "Finished",
-        false,
         {
             "from": "2001-01-01T00:00:00+00:00",
             "to": null,
@@ -7065,7 +6032,6 @@
         [
             "Hanafubuki, Sakurako"
         ],
-        [],
         [
             "Boys Love",
             "Erotica"
@@ -7074,11 +6040,8 @@
     ],
     [
         "Reiko the Zombie Shop",
-        "Manga",
-        58,
         11,
         "Finished",
-        false,
         {
             "from": "1998-06-06T00:00:00+00:00",
             "to": "2004-03-06T00:00:00+00:00",
@@ -7101,9 +6064,6 @@
             "Mikamoto, Rei"
         ],
         [
-            "Horror M"
-        ],
-        [
             "Horror"
         ],
         [
@@ -7112,11 +6072,8 @@
     ],
     [
         null,
-        "Manga",
-        26,
         4,
         "Finished",
-        false,
         {
             "from": "1999-01-01T00:00:00+00:00",
             "to": "2000-01-01T00:00:00+00:00",
@@ -7140,9 +6097,6 @@
             "Yang, Kyung-il"
         ],
         [
-            "Comic Beam"
-        ],
-        [
             "Action",
             "Horror"
         ],
@@ -7150,11 +6104,8 @@
     ],
     [
         null,
-        "Manga",
-        10,
         3,
         "Finished",
-        false,
         {
             "from": "1992-01-14T00:00:00+00:00",
             "to": "1994-01-14T00:00:00+00:00",
@@ -7177,9 +6128,6 @@
             "Watase, Yuu"
         ],
         [
-            "Sho-Comi Zoukan"
-        ],
-        [
             "Comedy",
             "Romance"
         ],
@@ -7189,11 +6137,8 @@
     ],
     [
         null,
-        "Manga",
-        18,
         3,
         "Finished",
-        false,
         {
             "from": "1990-12-20T00:00:00+00:00",
             "to": "1991-01-01T00:00:00+00:00",
@@ -7216,9 +6161,6 @@
             "Watase, Yuu"
         ],
         [
-            "Sho-Comi"
-        ],
-        [
             "Comedy",
             "Drama",
             "Romance"
@@ -7229,11 +6171,8 @@
     ],
     [
         null,
-        "Manga",
-        3,
         1,
         "Finished",
-        false,
         {
             "from": "2000-06-01T00:00:00+00:00",
             "to": null,
@@ -7255,9 +6194,6 @@
         [
             "Watase, Yuu"
         ],
-        [
-            "Flowers (Monthly)"
-        ],
         [],
         [
             "Shoujo"
@@ -7265,11 +6201,8 @@
     ],
     [
         null,
-        "Manga",
-        4,
         1,
         "Finished",
-        false,
         {
             "from": "2001-01-01T00:00:00+00:00",
             "to": null,
@@ -7292,9 +6225,6 @@
             "Ohmi, Tomu"
         ],
         [
-            "Petit Comic"
-        ],
-        [
             "Fantasy",
             "Romance"
         ],
@@ -7304,11 +6234,8 @@
     ],
     [
         null,
-        "Manga",
-        5,
         1,
         "Finished",
-        false,
         {
             "from": "2000-01-01T00:00:00+00:00",
             "to": null,
@@ -7331,9 +6258,6 @@
             "Ohmi, Tomu"
         ],
         [
-            "Petit Comic"
-        ],
-        [
             "Drama",
             "Fantasy",
             "Romance"
@@ -7344,11 +6268,8 @@
     ],
     [
         null,
-        "Manga",
-        50,
         10,
         "Finished",
-        false,
         {
             "from": "2001-01-01T00:00:00+00:00",
             "to": "2005-01-01T00:00:00+00:00",
@@ -7371,9 +6292,6 @@
             "Ohmi, Tomu"
         ],
         [
-            "Petit Comic"
-        ],
-        [
             "Drama",
             "Fantasy",
             "Romance"
@@ -7384,11 +6302,8 @@
     ],
     [
         "Zodiac P.I.",
-        "Manga",
-        20,
         4,
         "Finished",
-        false,
         {
             "from": "2001-03-03T00:00:00+00:00",
             "to": "2002-12-03T00:00:00+00:00",
@@ -7411,9 +6326,6 @@
             "Ando, Natsumi"
         ],
         [
-            "Nakayoshi"
-        ],
-        [
             "Action",
             "Fantasy",
             "Mystery",
@@ -7426,11 +6338,8 @@
     ],
     [
         null,
-        "Manga",
-        422,
         43,
         "Finished",
-        false,
         {
             "from": "2000-07-27T00:00:00+00:00",
             "to": "2009-11-05T00:00:00+00:00",
@@ -7453,9 +6362,6 @@
             "Kawaguchi, Kaiji"
         ],
         [
-            "Morning"
-        ],
-        [
             "Action",
             "Award Winning",
             "Drama",
@@ -7467,11 +6373,8 @@
     ],
     [
         null,
-        "Manga",
-        4,
         1,
         "Finished",
-        false,
         {
             "from": "1998-01-01T00:00:00+00:00",
             "to": null,
@@ -7493,7 +6396,6 @@
         [
             "Kasama, Rumi"
         ],
-        [],
         [
             "Boys Love",
             "Drama",
@@ -7503,11 +6405,8 @@
     ],
     [
         "Zig\u2606Zag",
-        "Manga",
-        44,
         9,
         "Finished",
-        false,
         {
             "from": "2004-09-24T00:00:00+00:00",
             "to": "2008-09-24T00:00:00+00:00",
@@ -7530,9 +6429,6 @@
             "Nakaji, Yuki"
         ],
         [
-            "LaLa"
-        ],
-        [
             "Comedy",
             "Drama",
             "Romance"
@@ -7543,11 +6439,8 @@
     ],
     [
         "Mai, The Psychic Girl",
-        "Manga",
-        53,
         6,
         "Finished",
-        false,
         {
             "from": "1985-01-01T00:00:00+00:00",
             "to": "1986-01-01T00:00:00+00:00",
@@ -7571,9 +6464,6 @@
             "Ikegami, Ryouichi"
         ],
         [
-            "Shounen Sunday"
-        ],
-        [
             "Action",
             "Supernatural"
         ],
@@ -7583,11 +6473,8 @@
     ],
     [
         null,
-        "Manga",
-        8,
         2,
         "Finished",
-        false,
         {
             "from": "2000-11-13T00:00:00+00:00",
             "to": "2001-06-13T00:00:00+00:00",
@@ -7610,9 +6497,6 @@
             "Yasunaga, Kei"
         ],
         [
-            "Bessatsu Friend"
-        ],
-        [
             "Drama",
             "Sports"
         ],
@@ -7622,11 +6506,8 @@
     ],
     [
         "Zeus",
-        "Manga",
-        3,
         2,
         "Finished",
-        false,
         {
             "from": "1997-10-01T00:00:00+00:00",
             "to": "1998-09-01T00:00:00+00:00",
@@ -7648,7 +6529,6 @@
         [
             "Higuri, You"
         ],
-        [],
         [
             "Action",
             "Boys Love",
@@ -7658,11 +6538,8 @@
     ],
     [
         null,
-        "Manga",
-        4,
         1,
         "Finished",
-        false,
         {
             "from": "2004-09-25T00:00:00+00:00",
             "to": null,
@@ -7684,7 +6561,6 @@
         [
             "Fuwa, Shinri"
         ],
-        [],
         [
             "Boys Love",
             "Erotica"
@@ -7693,11 +6569,8 @@
     ],
     [
         "Gravity Eyes",
-        "Manga",
-        8,
         2,
         "Finished",
-        false,
         {
             "from": "2007-01-01T00:00:00+00:00",
             "to": "2008-05-01T00:00:00+00:00",
@@ -7720,9 +6593,6 @@
             "Fuwa, Shinri"
         ],
         [
-            "Chara Selection"
-        ],
-        [
             "Boys Love",
             "Erotica"
         ],
@@ -7730,11 +6600,8 @@
     ],
     [
         null,
-        "Manga",
-        16,
         3,
         "Finished",
-        false,
         {
             "from": "1984-08-01T00:00:00+00:00",
             "to": "1994-02-01T00:00:00+00:00",
@@ -7757,9 +6624,6 @@
             "Takahashi, Rumiko"
         ],
         [
-            "Shounen Sunday Super"
-        ],
-        [
             "Horror",
             "Romance",
             "Supernatural"
@@ -7770,11 +6634,8 @@
     ],
     [
         "A Gentleman's Kiss",
-        "Manga",
-        8,
         2,
         "Finished",
-        false,
         {
             "from": "2005-01-01T00:00:00+00:00",
             "to": "2006-01-01T00:00:00+00:00",
@@ -7797,9 +6658,6 @@
             "Fuwa, Shinri"
         ],
         [
-            "Chara Selection"
-        ],
-        [
             "Boys Love",
             "Drama",
             "Erotica"
@@ -7808,11 +6666,8 @@
     ],
     [
         "Mobile Police Patlabor",
-        "Manga",
-        91,
         22,
         "Finished",
-        false,
         {
             "from": "1988-03-23T00:00:00+00:00",
             "to": "1994-05-11T00:00:00+00:00",
@@ -7835,9 +6690,6 @@
             "Yuuki, Masami"
         ],
         [
-            "Shounen Sunday"
-        ],
-        [
             "Action",
             "Award Winning",
             "Comedy",
@@ -7850,11 +6702,8 @@
     ],
     [
         "9th Sleep",
-        "Manga",
-        3,
         1,
         "Finished",
-        false,
         {
             "from": "2004-01-01T00:00:00+00:00",
             "to": null,
@@ -7877,9 +6726,6 @@
             "Tateno, Makoto"
         ],
         [
-            "Kurofune Zero"
-        ],
-        [
             "Boys Love",
             "Fantasy"
         ],
@@ -7887,11 +6733,8 @@
     ],
     [
         "Crushing Love",
-        "Manga",
-        8,
         1,
         "Finished",
-        false,
         {
             "from": "2006-01-01T00:00:00+00:00",
             "to": null,
@@ -7913,7 +6756,6 @@
         [
             "Natsumizu, Ritsu"
         ],
-        [],
         [
             "Boys Love",
             "Drama",
@@ -7924,11 +6766,8 @@
     ],
     [
         "Words of Devotion",
-        "Manga",
-        13,
         2,
         "Finished",
-        false,
         {
             "from": "2000-01-01T00:00:00+00:00",
             "to": "2002-01-01T00:00:00+00:00",
@@ -7950,7 +6789,6 @@
         [
             "Konno, Keiko"
         ],
-        [],
         [
             "Boys Love",
             "Erotica"
@@ -7959,11 +6797,8 @@
     ],
     [
         "Sweet Whisper",
-        "Manga",
-        6,
         1,
         "Finished",
-        false,
         {
             "from": "2005-01-01T00:00:00+00:00",
             "to": null,
@@ -7986,9 +6821,6 @@
             "Fujiyama, Hyouta"
         ],
         [
-            "Magazine Be x Boy"
-        ],
-        [
             "Boys Love",
             "Erotica"
         ],
@@ -7996,11 +6828,8 @@
     ],
     [
         "Mobile Suit Gundam 0079",
-        "Manga",
-        72,
         12,
         "Finished",
-        false,
         {
             "from": "1993-01-01T00:00:00+00:00",
             "to": "2005-01-01T00:00:00+00:00",
@@ -8023,20 +6852,14 @@
             "Kondo, Kazuhisa"
         ],
         [
-            "Dengeki Daioh"
-        ],
-        [
             "Sci-Fi"
         ],
         []
     ],
     [
         "Alcohol, Shirt, and Kiss",
-        "Manga",
-        9,
         1,
         "Finished",
-        false,
         {
             "from": "2004-01-01T00:00:00+00:00",
             "to": null,
@@ -8059,9 +6882,6 @@
             "Kuwabara, Yuko"
         ],
         [
-            "Super Beboy Comics"
-        ],
-        [
             "Boys Love",
             "Erotica"
         ],
@@ -8069,11 +6889,8 @@
     ],
     [
         "Almost Crying",
-        "Manga",
-        8,
         1,
         "Finished",
-        false,
         {
             "from": "2002-10-29T00:00:00+00:00",
             "to": null,
@@ -8096,20 +6913,14 @@
             "Takahashi, Mako"
         ],
         [
-            "Hanaoto"
-        ],
-        [
             "Boys Love"
         ],
         []
     ],
     [
         "Antique Bakery",
-        "Manga",
-        23,
         4,
         "Finished",
-        false,
         {
             "from": "1999-04-28T00:00:00+00:00",
             "to": "2002-07-27T00:00:00+00:00",
@@ -8132,9 +6943,6 @@
             "Yoshinaga, Fumi"
         ],
         [
-            "Wings"
-        ],
-        [
             "Award Winning",
             "Comedy",
             "Slice of Life"
@@ -8145,11 +6953,8 @@
     ],
     [
         "In the Walnut",
-        "Manga",
-        null,
         3,
         "Finished",
-        false,
         {
             "from": "2002-08-05T00:00:00+00:00",
             "to": "2010-10-09T00:00:00+00:00",
@@ -8172,9 +6977,6 @@
             "Kawai, Touko"
         ],
         [
-            "Kurofune Zero"
-        ],
-        [
             "Boys Love",
             "Drama",
             "Romance",
@@ -8184,11 +6986,8 @@
     ],
     [
         "Beyond My Touch",
-        "Manga",
-        6,
         1,
         "Finished",
-        false,
         {
             "from": "2003-01-01T00:00:00+00:00",
             "to": null,
@@ -8211,9 +7010,6 @@
             "Maeda, Tomo"
         ],
         [
-            "Dear+"
-        ],
-        [
             "Boys Love",
             "Erotica"
         ],
@@ -8221,11 +7017,8 @@
     ],
     [
         "Sweet Revolution",
-        "Manga",
-        7,
         1,
         "Finished",
-        false,
         {
             "from": "2000-01-01T00:00:00+00:00",
             "to": null,
@@ -8249,9 +7042,6 @@
             "Honami, Yukine"
         ],
         [
-            "Hanaoto"
-        ],
-        [
             "Boys Love",
             "Fantasy"
         ],
@@ -8259,11 +7049,8 @@
     ],
     [
         "Mobile Suit Gundam: The Origin",
-        "Manga",
-        112,
         24,
         "Finished",
-        false,
         {
             "from": "2001-06-25T00:00:00+00:00",
             "to": "2014-06-26T00:00:00+00:00",
@@ -8287,9 +7074,6 @@
             "Tomino, Yoshiyuki"
         ],
         [
-            "Gundam Ace"
-        ],
-        [
             "Action",
             "Award Winning",
             "Drama",
@@ -8301,11 +7085,8 @@
     ],
     [
         "Pixy Junket",
-        "Manga",
-        6,
         1,
         "Finished",
-        false,
         {
             "from": "1992-08-01T00:00:00+00:00",
             "to": null,
@@ -8327,7 +7108,6 @@
         [
             "Pure"
         ],
-        [],
         [
             "Fantasy"
         ],
@@ -8335,11 +7115,8 @@
     ],
     [
         "RahXephon",
-        "Manga",
-        16,
         3,
         "Finished",
-        false,
         {
             "from": "2001-09-19T00:00:00+00:00",
             "to": "2002-11-19T00:00:00+00:00",
@@ -8363,9 +7140,6 @@
             "Izubuchi, Yutaka"
         ],
         [
-            "Sunday Gene-X"
-        ],
-        [
             "Action",
             "Drama",
             "Sci-Fi"
@@ -8376,11 +7150,8 @@
     ],
     [
         "My Only King",
-        "Manga",
-        8,
         1,
         "Finished",
-        false,
         {
             "from": "2004-08-28T00:00:00+00:00",
             "to": null,
@@ -8402,7 +7173,6 @@
         [
             "Hoshino, Lily"
         ],
-        [],
         [
             "Boys Love",
             "Erotica"
@@ -8411,11 +7181,8 @@
     ],
     [
         "Our Kingdom",
-        "Manga",
-        27,
         6,
         "Finished",
-        false,
         {
             "from": "2000-01-01T00:00:00+00:00",
             "to": "2007-01-01T00:00:00+00:00",
@@ -8438,9 +7205,6 @@
             "Koujima, Nazuki"
         ],
         [
-            "Magazine Be x Boy"
-        ],
-        [
             "Boys Love",
             "Erotica"
         ],
@@ -8448,11 +7212,8 @@
     ],
     [
         "Alive: The Final Evolution",
-        "Manga",
-        83,
         21,
         "Finished",
-        false,
         {
             "from": "2003-04-05T00:00:00+00:00",
             "to": "2010-02-06T00:00:00+00:00",
@@ -8476,9 +7237,6 @@
             "Adachitoka"
         ],
         [
-            "Shounen Magazine (Monthly)"
-        ],
-        [
             "Adventure",
             "Sci-Fi",
             "Supernatural"
@@ -8489,11 +7247,8 @@
     ],
     [
         "Adventura",
-        "Manga",
-        39,
         6,
         "Discontinued",
-        false,
         {
             "from": "2005-05-26T00:00:00+00:00",
             "to": "2015-08-26T00:00:00+00:00",
@@ -8516,9 +7271,6 @@
             "Midorikawa, Shin"
         ],
         [
-            "Shounen Sirius"
-        ],
-        [
             "Adventure",
             "Fantasy"
         ],
@@ -8528,11 +7280,8 @@
     ],
     [
         "Basilisk: The Kouga Ninja Scrolls",
-        "Manga",
-        34,
         5,
         "Finished",
-        false,
         {
             "from": "2003-02-04T00:00:00+00:00",
             "to": "2004-06-15T00:00:00+00:00",
@@ -8556,9 +7305,6 @@
             "Segawa, Masaki"
         ],
         [
-            "Young Magazine Uppers"
-        ],
-        [
             "Action",
             "Award Winning",
             "Drama",
@@ -8570,11 +7316,8 @@
     ],
     [
         "Le Chevalier D'Eon",
-        "Manga",
-        45,
         8,
         "Finished",
-        false,
         {
             "from": "2005-01-26T00:00:00+00:00",
             "to": "2008-11-26T00:00:00+00:00",
@@ -8598,9 +7341,6 @@
             "Yumeji, Kiriko"
         ],
         [
-            "Magazine-Z"
-        ],
-        [
             "Action",
             "Mystery",
             "Supernatural"
@@ -8611,11 +7351,8 @@
     ],
     [
         "Caf\u00e9 Kichijoji de",
-        "Manga",
-        14,
         3,
         "Finished",
-        false,
         {
             "from": "2001-05-01T00:00:00+00:00",
             "to": "2003-04-01T00:00:00+00:00",
@@ -8638,9 +7375,6 @@
             "Negishi, Kyouko"
         ],
         [
-            "Wings"
-        ],
-        [
             "Boys Love",
             "Comedy",
             "Supernatural"
@@ -8651,11 +7385,8 @@
     ],
     [
         "Camera Camera Camera",
-        "Manga",
-        13,
         2,
         "Finished",
-        false,
         {
             "from": "2002-01-01T00:00:00+00:00",
             "to": null,
@@ -8677,7 +7408,6 @@
         [
             "Matsumoto, Kazura"
         ],
-        [],
         [
             "Boys Love",
             "Comedy",
@@ -8687,11 +7417,8 @@
     ],
     [
         "Glass Sky",
-        "Manga",
-        9,
         1,
         "Finished",
-        false,
         {
             "from": "2000-01-01T00:00:00+00:00",
             "to": null,
@@ -8714,9 +7441,6 @@
             "Yamada, Yugi"
         ],
         [
-            "Hanaoto"
-        ],
-        [
             "Boys Love",
             "Comedy",
             "Drama",
@@ -8726,11 +7450,8 @@
     ],
     [
         "Spring Fever",
-        "Manga",
-        6,
         1,
         "Finished",
-        false,
         {
             "from": "2000-10-01T00:00:00+00:00",
             "to": "2001-03-01T00:00:00+00:00",
@@ -8753,9 +7474,6 @@
             "Yamada, Yugi"
         ],
         [
-            "Hanaoto"
-        ],
-        [
             "Boys Love",
             "Erotica"
         ],
@@ -8763,11 +7481,8 @@
     ],
     [
         "Laugh Under the Sun",
-        "Manga",
-        5,
         1,
         "Finished",
-        false,
         {
             "from": "1999-01-01T00:00:00+00:00",
             "to": null,
@@ -8790,9 +7505,6 @@
             "Yamada, Yugi"
         ],
         [
-            "Hanaoto"
-        ],
-        [
             "Boys Love",
             "Comedy",
             "Erotica"
@@ -8801,11 +7513,8 @@
     ],
     [
         "Silent M\u00f6bius",
-        "Manga",
-        null,
         12,
         "Finished",
-        false,
         {
             "from": "1991-01-01T00:00:00+00:00",
             "to": "2003-01-01T00:00:00+00:00",
@@ -8827,7 +7536,6 @@
         [
             "Asamiya, Kia"
         ],
-        [],
         [
             "Action",
             "Drama",
@@ -8838,11 +7546,8 @@
     ],
     [
         "Dragon Head",
-        "Manga",
-        89,
         10,
         "Finished",
-        false,
         {
             "from": "1994-09-12T00:00:00+00:00",
             "to": "1999-12-13T00:00:00+00:00",
@@ -8865,9 +7570,6 @@
             "Mochizuki, Minetarou"
         ],
         [
-            "Young Magazine (Weekly)"
-        ],
-        [
             "Action",
             "Award Winning",
             "Drama",
@@ -8879,11 +7581,8 @@
     ],
     [
         "The Day I Become a Butterfly",
-        "Manga",
-        6,
         1,
         "Finished",
-        false,
         {
             "from": "2003-07-01T00:00:00+00:00",
             "to": null,
@@ -8906,9 +7605,6 @@
             "Yumeka, Sumomo"
         ],
         [
-            "Craft"
-        ],
-        [
             "Boys Love",
             "Romance"
         ],
@@ -8916,11 +7612,8 @@
     ],
     [
         "Clan of the Nakagamis",
-        "Manga",
-        4,
         1,
         "Finished",
-        false,
         {
             "from": "2005-01-01T00:00:00+00:00",
             "to": "2007-01-01T00:00:00+00:00",
@@ -8942,7 +7635,6 @@
         [
             "Homerun Ken"
         ],
-        [],
         [
             "Boys Love",
             "Comedy",
@@ -8953,11 +7645,8 @@
     ],
     [
         "Close the Last Door",
-        "Manga",
-        15,
         2,
         "Finished",
-        false,
         {
             "from": "2001-01-01T00:00:00+00:00",
             "to": null,
@@ -8979,7 +7668,6 @@
         [
             "Yamada, Yugi"
         ],
-        [],
         [
             "Boys Love",
             "Comedy",
@@ -8991,11 +7679,8 @@
     ],
     [
         "Open The Door Through Your Heart",
-        "Manga",
-        7,
         1,
         "Finished",
-        false,
         {
             "from": "2003-01-01T00:00:00+00:00",
             "to": null,
@@ -9017,7 +7702,6 @@
         [
             "Yamada, Yugi"
         ],
-        [],
         [
             "Boys Love",
             "Erotica"
@@ -9026,11 +7710,8 @@
     ],
     [
         "Cute Beast",
-        "Manga",
-        6,
         1,
         "Finished",
-        false,
         {
             "from": "2006-10-30T00:00:00+00:00",
             "to": null,
@@ -9053,9 +7734,6 @@
             "Tsuge, Amayo"
         ],
         [
-            "Hanaoto"
-        ],
-        [
             "Boys Love",
             "Erotica"
         ],
@@ -9063,11 +7741,8 @@
     ],
     [
         "Dear Myself",
-        "Manga",
-        3,
         1,
         "Finished",
-        false,
         {
             "from": "1998-01-01T00:00:00+00:00",
             "to": null,
@@ -9090,7 +7765,6 @@
             "Tsuda, Mikiyo",
             "Eiki, Eiki"
         ],
-        [],
         [
             "Boys Love",
             "Romance"
@@ -9099,11 +7773,8 @@
     ],
     [
         "Dear Myself: World's End",
-        "Manga",
-        7,
         1,
         "Finished",
-        false,
         {
             "from": "1999-01-01T00:00:00+00:00",
             "to": null,
@@ -9127,20 +7798,14 @@
             "Eiki, Eiki"
         ],
         [
-            "Dear+"
-        ],
-        [
             "Boys Love"
         ],
         []
     ],
     [
         "Desire",
-        "Manga",
-        4,
         1,
         "Finished",
-        false,
         {
             "from": "2001-09-01T00:00:00+00:00",
             "to": null,
@@ -9163,7 +7828,6 @@
             "Honami, Yukine",
             "Kazumi, Maki"
         ],
-        [],
         [
             "Boys Love",
             "Erotica"
@@ -9172,11 +7836,8 @@
     ],
     [
         "Don't Say Anymore Darling",
-        "Manga",
-        5,
         1,
         "Finished",
-        false,
         {
             "from": "2004-01-01T00:00:00+00:00",
             "to": null,
@@ -9198,7 +7859,6 @@
         [
             "Yoshinaga, Fumi"
         ],
-        [],
         [
             "Boys Love",
             "Sci-Fi",
@@ -9209,11 +7869,8 @@
     ],
     [
         "Same Cell Organism",
-        "Manga",
-        7,
         1,
         "Finished",
-        false,
         {
             "from": "2001-08-01T00:00:00+00:00",
             "to": null,
@@ -9235,7 +7892,6 @@
         [
             "Yumeka, Sumomo"
         ],
-        [],
         [
             "Boys Love"
         ],
@@ -9243,11 +7899,8 @@
     ],
     [
         null,
-        "Manga",
-        10,
         1,
         "Finished",
-        false,
         {
             "from": "2004-11-12T00:00:00+00:00",
             "to": null,
@@ -9269,7 +7922,6 @@
         [
             "Kujou, Aoi"
         ],
-        [],
         [
             "Boys Love",
             "Erotica"
@@ -9278,11 +7930,8 @@
     ],
     [
         "Steam Detectives",
-        "Manga",
-        52,
         8,
         "Finished",
-        false,
         {
             "from": "1994-01-01T00:00:00+00:00",
             "to": "2000-01-01T00:00:00+00:00",
@@ -9305,9 +7954,6 @@
             "Asamiya, Kia"
         ],
         [
-            "Shounen Jump (Monthly)"
-        ],
-        [
             "Adventure",
             "Mystery"
         ],
@@ -9317,11 +7963,8 @@
     ],
     [
         "Enchanter",
-        "Manga",
-        74,
         19,
         "Finished",
-        false,
         {
             "from": "2002-08-26T00:00:00+00:00",
             "to": "2009-01-26T00:00:00+00:00",
@@ -9344,9 +7987,6 @@
             "Kawachi, Izumi"
         ],
         [
-            "Gangan Wing"
-        ],
-        [
             "Action",
             "Adventure",
             "Fantasy",
@@ -9359,11 +7999,8 @@
     ],
     [
         "Fake Fur",
-        "Manga",
-        8,
         1,
         "Finished",
-        false,
         {
             "from": "2004-01-01T00:00:00+00:00",
             "to": null,
@@ -9386,9 +8023,6 @@
             "Yamagata, Satomi"
         ],
         [
-            "Hanaoto"
-        ],
-        [
             "Boys Love",
             "Erotica"
         ],
@@ -9396,11 +8030,8 @@
     ],
     [
         "Princess Princess",
-        "Manga",
-        25,
         5,
         "Finished",
-        false,
         {
             "from": "2002-08-01T00:00:00+00:00",
             "to": "2006-04-01T00:00:00+00:00",
@@ -9423,9 +8054,6 @@
             "Tsuda, Mikiyo"
         ],
         [
-            "Wings"
-        ],
-        [
             "Boys Love",
             "Comedy"
         ],
@@ -9435,11 +8063,8 @@
     ],
     [
         "Princess Princess Plus",
-        "Manga",
-        6,
         1,
         "Finished",
-        false,
         {
             "from": "2006-05-01T00:00:00+00:00",
             "to": "2007-01-01T00:00:00+00:00",
@@ -9462,9 +8087,6 @@
             "Tsuda, Mikiyo"
         ],
         [
-            "Wings"
-        ],
-        [
             "Boys Love",
             "Comedy"
         ],
@@ -9474,11 +8096,8 @@
     ],
     [
         "Family Complex",
-        "Manga",
-        6,
         1,
         "Finished",
-        false,
         {
             "from": "1999-01-01T00:00:00+00:00",
             "to": "2000-01-01T00:00:00+00:00",
@@ -9501,9 +8120,6 @@
             "Tsuda, Mikiyo"
         ],
         [
-            "Wings"
-        ],
-        [
             "Comedy",
             "Slice of Life"
         ],
@@ -9513,11 +8129,8 @@
     ],
     [
         "The Day of Revolution",
-        "Manga",
-        7,
         2,
         "Finished",
-        false,
         {
             "from": "1999-01-01T00:00:00+00:00",
             "to": null,
@@ -9540,9 +8153,6 @@
             "Tsuda, Mikiyo"
         ],
         [
-            "Wings"
-        ],
-        [
             "Comedy",
             "Drama",
             "Romance"
@@ -9553,11 +8163,8 @@
     ],
     [
         "Flower of Life",
-        "Manga",
-        21,
         4,
         "Finished",
-        false,
         {
             "from": "2004-05-01T00:00:00+00:00",
             "to": "2007-06-01T00:00:00+00:00",
@@ -9580,9 +8187,6 @@
             "Yoshinaga, Fumi"
         ],
         [
-            "Wings"
-        ],
-        [
             "Comedy",
             "Slice of Life"
         ],
@@ -9592,11 +8196,8 @@
     ],
     [
         "Il gatto sul G",
-        "Manga",
-        19,
         3,
         "Finished",
-        false,
         {
             "from": "2002-05-01T00:00:00+00:00",
             "to": "2007-09-01T00:00:00+00:00",
@@ -9619,9 +8220,6 @@
             "Miyagi, Tooko"
         ],
         [
-            "Craft"
-        ],
-        [
             "Boys Love",
             "Drama",
             "Romance",
@@ -9631,11 +8229,8 @@
     ],
     [
         null,
-        "Manga",
-        7,
         1,
         "Finished",
-        false,
         {
             "from": "2004-01-01T00:00:00+00:00",
             "to": null,
@@ -9657,7 +8252,6 @@
         [
             "Higuri, You"
         ],
-        [],
         [
             "Adventure",
             "Drama",
@@ -9667,11 +8261,8 @@
     ],
     [
         "Tenchi Muyo! Sasami Stories",
-        "Manga",
-        3,
         1,
         "Finished",
-        false,
         {
             "from": "2005-03-29T00:00:00+00:00",
             "to": null,
@@ -9693,7 +8284,6 @@
         [
             "Okuda, Hitoshi"
         ],
-        [],
         [
             "Action"
         ],
@@ -9701,11 +8291,8 @@
     ],
     [
         "Alone in My King's Harem",
-        "Manga",
-        6,
         1,
         "Finished",
-        false,
         {
             "from": "2001-04-14T00:00:00+00:00",
             "to": "2004-11-30T00:00:00+00:00",
@@ -9728,9 +8315,6 @@
             "Hoshino, Lily"
         ],
         [
-            "Magazine Be x Boy"
-        ],
-        [
             "Boys Love",
             "Romance",
             "Erotica"
@@ -9739,11 +8323,8 @@
     ],
     [
         "Hero Heel",
-        "Manga",
-        14,
         3,
         "Finished",
-        false,
         {
             "from": "2005-01-01T00:00:00+00:00",
             "to": "2007-01-01T00:00:00+00:00",
@@ -9765,7 +8346,6 @@
         [
             "Tateno, Makoto"
         ],
-        [],
         [
             "Boys Love",
             "Erotica"
@@ -9774,11 +8354,8 @@
     ],
     [
         "After I Win",
-        "Manga",
-        6,
         1,
         "Finished",
-        false,
         {
             "from": "2006-01-01T00:00:00+00:00",
             "to": null,
@@ -9801,9 +8378,6 @@
             "Itsuki, Kaname"
         ],
         [
-            "Hanaoto"
-        ],
-        [
             "Boys Love",
             "Drama",
             "Romance",
@@ -9813,11 +8387,8 @@
     ],
     [
         "Hybrid Child",
-        "Manga",
-        5,
         1,
         "Finished",
-        false,
         {
             "from": "2003-06-28T00:00:00+00:00",
             "to": "2004-08-28T00:00:00+00:00",
@@ -9840,9 +8411,6 @@
             "Nakamura, Shungiku"
         ],
         [
-            "Be x Boy GOLD"
-        ],
-        [
             "Boys Love",
             "Drama"
         ],
@@ -9850,11 +8418,8 @@
     ],
     [
         "Ikebukuro West Gate Park",
-        "Manga",
-        36,
         4,
         "Finished",
-        false,
         {
             "from": "2001-07-01T00:00:00+00:00",
             "to": "2004-11-25T00:00:00+00:00",
@@ -9878,9 +8443,6 @@
             "Aritou, Sena"
         ],
         [
-            "Young Champion"
-        ],
-        [
             "Drama",
             "Mystery",
             "Romance"
@@ -9889,11 +8451,8 @@
     ],
     [
         "Jazz",
-        "Manga",
-        20,
         4,
         "Finished",
-        false,
         {
             "from": "2003-01-01T00:00:00+00:00",
             "to": "2006-01-01T00:00:00+00:00",
@@ -9917,9 +8476,6 @@
             "Maeda, Sakae"
         ],
         [
-            "Dear+"
-        ],
-        [
             "Boys Love",
             "Erotica"
         ],
@@ -9927,11 +8483,8 @@
     ],
     [
         "Ka Shin Fuu",
-        "Manga",
-        4,
         1,
         "Finished",
-        false,
         {
             "from": "2006-07-12T00:00:00+00:00",
             "to": null,
@@ -9953,7 +8506,6 @@
         [
             "Tateno, Makoto"
         ],
-        [],
         [
             "Boys Love",
             "Drama",
@@ -9963,11 +8515,8 @@
     ],
     [
         "Manic Love",
-        "Manga",
-        6,
         1,
         "Finished",
-        false,
         {
             "from": "2005-12-27T00:00:00+00:00",
             "to": null,
@@ -9990,9 +8539,6 @@
             "Yamagata, Satomi"
         ],
         [
-            "Hanaoto"
-        ],
-        [
             "Boys Love",
             "Erotica"
         ],
@@ -10000,11 +8546,8 @@
     ],
     [
         "Garden Dreams",
-        "Manga",
-        4,
         1,
         "Finished",
-        false,
         {
             "from": "1999-09-25T00:00:00+00:00",
             "to": null,
@@ -10027,9 +8570,6 @@
             "Yoshinaga, Fumi"
         ],
         [
-            "Wings"
-        ],
-        [
             "Drama",
             "Romance"
         ],
@@ -10039,11 +8579,8 @@
     ],
     [
         "Our Everlasting",
-        "Manga",
-        13,
         2,
         "Finished",
-        false,
         {
             "from": "2000-03-01T00:00:00+00:00",
             "to": "2001-03-01T00:00:00+00:00",
@@ -10065,7 +8602,6 @@
         [
             "Kawai, Touko"
         ],
-        [],
         [
             "Boys Love",
             "Drama",
@@ -10076,11 +8612,8 @@
     ],
     [
         "Can't Win With You!",
-        "Manga",
-        16,
         3,
         "Finished",
-        false,
         {
             "from": "2003-01-01T00:00:00+00:00",
             "to": null,
@@ -10103,7 +8636,6 @@
             "Honami, Yukine",
             "Takaguchi, Satosumi"
         ],
-        [],
         [
             "Boys Love",
             "Comedy",
@@ -10113,11 +8645,8 @@
     ],
     [
         "Invisible Love",
-        "Manga",
-        8,
         1,
         "Finished",
-        false,
         {
             "from": "2005-01-01T00:00:00+00:00",
             "to": null,
@@ -10140,9 +8669,6 @@
             "Honjou, Rie"
         ],
         [
-            "Hanaoto"
-        ],
-        [
             "Boys Love",
             "Erotica"
         ],
@@ -10150,11 +8676,8 @@
     ],
     [
         null,
-        "Manga",
-        5,
         1,
         "Finished",
-        false,
         {
             "from": "2004-08-21T00:00:00+00:00",
             "to": null,
@@ -10176,7 +8699,6 @@
         [
             "Konno, Keiko"
         ],
-        [],
         [
             "Boys Love",
             "Romance",
@@ -10186,11 +8708,8 @@
     ],
     [
         "Hellsing",
-        "Manga",
-        92,
         10,
         "Finished",
-        false,
         {
             "from": "1997-04-30T00:00:00+00:00",
             "to": "2008-09-30T00:00:00+00:00",
@@ -10213,9 +8732,6 @@
             "Hirano, Kouta"
         ],
         [
-            "Young King OURs"
-        ],
-        [
             "Action",
             "Horror",
             "Supernatural"
@@ -10226,11 +8742,8 @@
     ],
     [
         "Crazy Love Story",
-        "Manhwa",
-        44,
         5,
         "Finished",
-        false,
         {
             "from": "2004-01-01T00:00:00+00:00",
             "to": null,
@@ -10252,7 +8765,6 @@
         [
             "Lee, Vin"
         ],
-        [],
         [
             "Drama",
             "Romance"
@@ -10261,11 +8773,8 @@
     ],
     [
         "Crescent Moon",
-        "Manga",
-        25,
         6,
         "Finished",
-        false,
         {
             "from": "1999-01-01T00:00:00+00:00",
             "to": "2001-01-01T00:00:00+00:00",
@@ -10288,9 +8797,6 @@
             "Iida, Haruko"
         ],
         [
-            "Asuka"
-        ],
-        [
             "Comedy",
             "Fantasy",
             "Romance"
@@ -10301,11 +8807,8 @@
     ],
     [
         null,
-        "Manga",
-        64,
         6,
         "Finished",
-        false,
         {
             "from": "1999-07-26T00:00:00+00:00",
             "to": "2007-07-26T00:00:00+00:00",
@@ -10328,9 +8831,6 @@
             "Kaneko, Shinya"
         ],
         [
-            "Magazine-Z"
-        ],
-        [
             "Action",
             "Adventure",
             "Fantasy"
@@ -10341,11 +8841,8 @@
     ],
     [
         "Mink",
-        "Manga",
-        28,
         6,
         "Finished",
-        false,
         {
             "from": "1999-08-03T00:00:00+00:00",
             "to": "2002-07-17T00:00:00+00:00",
@@ -10368,9 +8865,6 @@
             "Tachikawa, Megumi"
         ],
         [
-            "Nakayoshi"
-        ],
-        [
             "Fantasy",
             "Romance"
         ],
@@ -10380,11 +8874,8 @@
     ],
     [
         "Deus Vitae",
-        "Manga",
-        20,
         3,
         "Finished",
-        false,
         {
             "from": "1999-06-26T00:00:00+00:00",
             "to": "2002-02-26T00:00:00+00:00",
@@ -10407,9 +8898,6 @@
             "Fujima, Takuya"
         ],
         [
-            "Magazine-Z"
-        ],
-        [
             "Action",
             "Sci-Fi"
         ],
@@ -10419,11 +8907,8 @@
     ],
     [
         "Deja-vu: Spring, Summer, Fall, Winter",
-        "Manhwa",
-        6,
         1,
         "Finished",
-        false,
         {
             "from": "2004-01-01T00:00:00+00:00",
             "to": null,
@@ -10451,7 +8936,6 @@
             "Kim, Tae-Hyung",
             "Byun, Byung Jun"
         ],
-        [],
         [
             "Drama",
             "Fantasy",
@@ -10462,11 +8946,8 @@
     ],
     [
         "Daphne in the Brilliant Blue",
-        "Manga",
-        6,
         1,
         "Finished",
-        false,
         {
             "from": "2004-07-01T00:00:00+00:00",
             "to": null,
@@ -10489,9 +8970,6 @@
             "Shiki, Satoshi"
         ],
         [
-            "Young King OURs"
-        ],
-        [
             "Action",
             "Adventure",
             "Comedy",
@@ -10501,11 +8979,8 @@
     ],
     [
         "Fallen Moon",
-        "Manga",
-        6,
         1,
         "Finished",
-        false,
         {
             "from": "2004-04-05T00:00:00+00:00",
             "to": null,
@@ -10527,7 +9002,6 @@
         [
             "Hasumi, Toui"
         ],
-        [],
         [
             "Boys Love"
         ],
@@ -10535,11 +9009,8 @@
     ],
     [
         "Dead End",
-        "Manga",
-        20,
         4,
         "Finished",
-        false,
         {
             "from": "2001-02-24T00:00:00+00:00",
             "to": "2002-09-25T00:00:00+00:00",
@@ -10562,9 +9033,6 @@
             "Manabe, Shohei"
         ],
         [
-            "Afternoon"
-        ],
-        [
             "Action",
             "Drama",
             "Horror"
@@ -10575,11 +9043,8 @@
     ],
     [
         "Demon Diary",
-        "Manhwa",
-        26,
         7,
         "Finished",
-        false,
         {
             "from": "1999-01-01T00:00:00+00:00",
             "to": "2002-01-01T00:00:00+00:00",
@@ -10605,9 +9070,6 @@
             "Lee, Yunhee"
         ],
         [
-            "Wink"
-        ],
-        [
             "Action",
             "Adventure",
             "Boys Love",
@@ -10621,11 +9083,8 @@
     ],
     [
         "King of Hell",
-        "Manhwa",
-        414,
         55,
         "Finished",
-        false,
         {
             "from": "2001-01-01T00:00:00+00:00",
             "to": "2015-01-01T00:00:00+00:00",
@@ -10649,9 +9108,6 @@
             "Na, In-Soo"
         ],
         [
-            "Comic Champ"
-        ],
-        [
             "Action",
             "Adventure",
             "Fantasy",
@@ -10661,11 +9117,8 @@
     ],
     [
         "Kissing",
-        "Manga",
-        5,
         1,
         "Finished",
-        false,
         {
             "from": "2004-05-01T00:00:00+00:00",
             "to": null,
@@ -10688,7 +9141,6 @@
             "Takaku, Shouko",
             "Sasaki, Teiko"
         ],
-        [],
         [
             "Boys Love",
             "Erotica"
@@ -10697,11 +9149,8 @@
     ],
     [
         "Kurashina Sensei's Passion",
-        "Manga",
-        null,
         5,
         "Finished",
-        false,
         {
             "from": "2004-01-01T00:00:00+00:00",
             "to": "2011-01-01T00:00:00+00:00",
@@ -10723,7 +9172,6 @@
         [
             "Shino, Natsuho"
         ],
-        [],
         [
             "Boys Love"
         ],
@@ -10731,11 +9179,8 @@
     ],
     [
         "La Esperan\u00e7a",
-        "Manga",
-        26,
         7,
         "Finished",
-        false,
         {
             "from": "2000-11-01T00:00:00+00:00",
             "to": "2006-01-01T00:00:00+00:00",
@@ -10758,9 +9203,6 @@
             "Kawai, Chigusa"
         ],
         [
-            "Wings"
-        ],
-        [
             "Boys Love",
             "Drama"
         ],
@@ -10770,11 +9212,8 @@
     ],
     [
         "La Vie en Rose",
-        "Manga",
-        7,
         1,
         "Finished",
-        false,
         {
             "from": "2004-01-17T00:00:00+00:00",
             "to": "2005-01-25T00:00:00+00:00",
@@ -10797,9 +9236,6 @@
             "Yamada, Sakurako"
         ],
         [
-            "MARBLE"
-        ],
-        [
             "Boys Love",
             "Erotica"
         ],
@@ -10807,11 +9243,8 @@
     ],
     [
         null,
-        "Manga",
-        21,
         6,
         "Finished",
-        false,
         {
             "from": "1999-06-26T00:00:00+00:00",
             "to": "2001-09-26T00:00:00+00:00",
@@ -10835,20 +9268,14 @@
             "Ariga, Hitoshi"
         ],
         [
-            "Magazine-Z"
-        ],
-        [
             "Action"
         ],
         []
     ],
     [
         "Little Butterfly",
-        "Manga",
-        15,
         3,
         "Finished",
-        false,
         {
             "from": "2001-06-01T00:00:00+00:00",
             "to": "2003-07-01T00:00:00+00:00",
@@ -10871,9 +9298,6 @@
             "Takanaga, Hinako"
         ],
         [
-            "Gust"
-        ],
-        [
             "Boys Love",
             "Drama",
             "Erotica"
@@ -10882,11 +9306,8 @@
     ],
     [
         "Love Recipe",
-        "Manga",
-        10,
         2,
         "Finished",
-        false,
         {
             "from": "2005-01-01T00:00:00+00:00",
             "to": null,
@@ -10909,9 +9330,6 @@
             "Higashizato, Kirico"
         ],
         [
-            "Daria"
-        ],
-        [
             "Boys Love",
             "Comedy",
             "Erotica"
@@ -10920,11 +9338,8 @@
     ],
     [
         "Not Enough Time",
-        "Manga",
-        6,
         1,
         "Finished",
-        false,
         {
             "from": "2005-01-01T00:00:00+00:00",
             "to": null,
@@ -10947,9 +9362,6 @@
             "Hidaka, Shoko"
         ],
         [
-            "Hanaoto"
-        ],
-        [
             "Boys Love",
             "Erotica"
         ],
@@ -10957,11 +9369,8 @@
     ],
     [
         "Devil May Cry 3",
-        "Manga",
-        9,
         2,
         "Finished",
-        false,
         {
             "from": "2005-02-10T00:00:00+00:00",
             "to": "2005-07-23T00:00:00+00:00",
@@ -10983,7 +9392,6 @@
         [
             "Chayamachi, Suguro"
         ],
-        [],
         [
             "Action",
             "Adventure"
@@ -10992,11 +9400,8 @@
     ],
     [
         "Othello",
-        "Manga",
-        4,
         1,
         "Finished",
-        false,
         {
             "from": "2002-01-01T00:00:00+00:00",
             "to": null,
@@ -11018,7 +9423,6 @@
         [
             "Hasumi, Toui"
         ],
-        [],
         [
             "Boys Love",
             "Erotica"
@@ -11027,11 +9431,8 @@
     ],
     [
         null,
-        "Manhwa",
-        18,
         1,
         "Finished",
-        false,
         {
             "from": "2000-01-01T00:00:00+00:00",
             "to": "2001-01-01T00:00:00+00:00",
@@ -11054,9 +9455,6 @@
             "Rhim, Ju-Yeon"
         ],
         [
-            "Issue"
-        ],
-        [
             "Comedy",
             "Fantasy",
             "Supernatural"
@@ -11067,11 +9465,8 @@
     ],
     [
         "Passion",
-        "Manga",
-        14,
         4,
         "Finished",
-        false,
         {
             "from": "2002-09-01T00:00:00+00:00",
             "to": "2006-11-25T00:00:00+00:00",
@@ -11094,7 +9489,6 @@
             "Takaku, Shouko",
             "Gotou, Shinobu"
         ],
-        [],
         [
             "Boys Love",
             "Erotica"
@@ -11103,11 +9497,8 @@
     ],
     [
         "PICNIC",
-        "Manga",
-        8,
         1,
         "Finished",
-        false,
         {
             "from": "2004-01-01T00:00:00+00:00",
             "to": null,
@@ -11130,9 +9521,6 @@
             "Yamada, Yugi"
         ],
         [
-            "Hanaoto"
-        ],
-        [
             "Boys Love",
             "Comedy",
             "Drama",
@@ -11143,11 +9531,8 @@
     ],
     [
         null,
-        "Manga",
-        15,
         3,
         "Finished",
-        false,
         {
             "from": "2004-01-01T00:00:00+00:00",
             "to": "2006-01-01T00:00:00+00:00",
@@ -11170,9 +9555,6 @@
             "Takaido, Akemi"
         ],
         [
-            "Hanaoto"
-        ],
-        [
             "Boys Love",
             "Erotica"
         ],
@@ -11180,11 +9562,8 @@
     ],
     [
         "Freefall Romance",
-        "Manga",
-        6,
         1,
         "Finished",
-        false,
         {
             "from": "2004-04-22T00:00:00+00:00",
             "to": null,
@@ -11207,9 +9586,6 @@
             "Fujiyama, Hyouta"
         ],
         [
-            "Daria"
-        ],
-        [
             "Boys Love",
             "Erotica"
         ],
@@ -11217,11 +9593,8 @@
     ],
     [
         null,
-        "Manga",
-        4,
         1,
         "Finished",
-        false,
         {
             "from": "2004-07-01T00:00:00+00:00",
             "to": null,
@@ -11243,7 +9616,6 @@
         [
             "Tenzen, Momoko"
         ],
-        [],
         [
             "Boys Love",
             "Romance"
@@ -11252,11 +9624,8 @@
     ],
     [
         null,
-        "Manga",
-        9,
         1,
         "Finished",
-        false,
         {
             "from": "2002-07-10T00:00:00+00:00",
             "to": "2003-05-10T00:00:00+00:00",
@@ -11279,9 +9648,6 @@
             "Nanase, Aoi"
         ],
         [
-            "Newtype"
-        ],
-        [
             "Fantasy",
             "Girls Love"
         ],
@@ -11289,11 +9655,8 @@
     ],
     [
         "Anne Freaks",
-        "Manga",
-        24,
         4,
         "Finished",
-        false,
         {
             "from": "2000-09-01T00:00:00+00:00",
             "to": "2002-10-01T00:00:00+00:00",
@@ -11316,9 +9679,6 @@
             "Kotegawa, Yua"
         ],
         [
-            "Shounen Ace"
-        ],
-        [
             "Horror",
             "Mystery"
         ],
@@ -11326,11 +9686,8 @@
     ],
     [
         "Diabolo",
-        "Manga",
-        16,
         3,
         "Finished",
-        false,
         {
             "from": "2001-01-01T00:00:00+00:00",
             "to": "2003-01-01T00:00:00+00:00",
@@ -11354,9 +9711,6 @@
             "Oohashi, Kaoru"
         ],
         [
-            "Comic Crimson"
-        ],
-        [
             "Horror",
             "Supernatural"
         ],
@@ -11366,11 +9720,8 @@
     ],
     [
         "DOLL",
-        "Manga",
-        33,
         6,
         "Finished",
-        false,
         {
             "from": "2000-01-01T00:00:00+00:00",
             "to": "2002-01-01T00:00:00+00:00",
@@ -11393,9 +9744,6 @@
             "Mihara, Mitsukazu"
         ],
         [
-            "Feel Young"
-        ],
-        [
             "Drama",
             "Sci-Fi"
         ],
@@ -11405,11 +9753,8 @@
     ],
     [
         "Apocalypse Meow",
-        "Manga",
-        18,
         3,
         "Finished",
-        false,
         {
             "from": "1996-12-01T00:00:00+00:00",
             "to": "2001-12-01T00:00:00+00:00",
@@ -11431,7 +9776,6 @@
         [
             "Kobayashi, Motofumi"
         ],
-        [],
         [
             "Drama"
         ],
@@ -11439,11 +9783,8 @@
     ],
     [
         "Hands Off!: Don't Call Us Angels",
-        "Manga",
-        8,
         2,
         "Finished",
-        false,
         {
             "from": "2001-01-01T00:00:00+00:00",
             "to": null,
@@ -11465,7 +9806,6 @@
         [
             "Katsumoto, Kasane"
         ],
-        [],
         [
             "Supernatural"
         ],
@@ -11475,11 +9815,8 @@
     ],
     [
         "Dragon Hunter",
-        "Manhwa",
-        null,
         39,
         "Finished",
-        false,
         {
             "from": "2000-01-01T00:00:00+00:00",
             "to": null,
@@ -11501,7 +9838,6 @@
         [
             "Seo, Hong Seok"
         ],
-        [],
         [
             "Action",
             "Adventure",
@@ -11513,11 +9849,8 @@
     ],
     [
         "Tuxedo Gin",
-        "Manga",
-        136,
         15,
         "Finished",
-        false,
         {
             "from": "1997-03-19T00:00:00+00:00",
             "to": "2000-01-19T00:00:00+00:00",
@@ -11540,9 +9873,6 @@
             "Matsuura, Tokihiko"
         ],
         [
-            "Shounen Sunday"
-        ],
-        [
             "Comedy",
             "Romance",
             "Supernatural"
@@ -11553,11 +9883,8 @@
     ],
     [
         "Dragon Knights",
-        "Manga",
-        null,
         26,
         "Finished",
-        false,
         {
             "from": "1990-01-01T00:00:00+00:00",
             "to": "2007-04-28T00:00:00+00:00",
@@ -11580,9 +9907,6 @@
             "Oukami, Mineko"
         ],
         [
-            "Wings"
-        ],
-        [
             "Action",
             "Adventure",
             "Comedy",
@@ -11595,11 +9919,8 @@
     ],
     [
         "Lum*Urusei Yatsura",
-        "Manga",
-        366,
         34,
         "Finished",
-        false,
         {
             "from": "1978-08-30T00:00:00+00:00",
             "to": "1987-01-21T00:00:00+00:00",
@@ -11622,9 +9943,6 @@
             "Takahashi, Rumiko"
         ],
         [
-            "Shounen Sunday"
-        ],
-        [
             "Award Winning",
             "Comedy",
             "Romance",
@@ -11636,11 +9954,8 @@
     ],
     [
         "Dragon Voice",
-        "Manga",
-        96,
         11,
         "Finished",
-        false,
         {
             "from": "2001-01-17T00:00:00+00:00",
             "to": "2003-01-22T00:00:00+00:00",
@@ -11662,9 +9977,6 @@
         [
             "Nishiyama, Yuriko"
         ],
-        [
-            "Shounen Magazine (Weekly)"
-        ],
         [],
         [
             "Shounen"
@@ -11672,11 +9984,8 @@
     ],
     [
         "Dream Saga",
-        "Manga",
-        27,
         5,
         "Finished",
-        false,
         {
             "from": "1996-12-28T00:00:00+00:00",
             "to": "1999-04-30T00:00:00+00:00",
@@ -11699,9 +10008,6 @@
             "Tachikawa, Megumi"
         ],
         [
-            "Nakayoshi"
-        ],
-        [
             "Adventure",
             "Comedy",
             "Fantasy"
@@ -11712,11 +10018,8 @@
     ],
     [
         "Duklyon: CLAMP School Defenders",
-        "Manga",
-        13,
         2,
         "Finished",
-        false,
         {
             "from": "1992-01-01T00:00:00+00:00",
             "to": "1993-01-01T00:00:00+00:00",
@@ -11739,9 +10042,6 @@
             "CLAMP"
         ],
         [
-            "Newtype"
-        ],
-        [
             "Action",
             "Comedy",
             "Supernatural"
@@ -11752,11 +10052,8 @@
     ],
     [
         "Flower of Eden",
-        "Manga",
-        42,
         12,
         "Finished",
-        false,
         {
             "from": "2000-01-01T00:00:00+00:00",
             "to": "2004-01-01T00:00:00+00:00",
@@ -11779,9 +10076,6 @@
             "Suetsugu, Yuki"
         ],
         [
-            "Bessatsu Friend"
-        ],
-        [
             "Drama",
             "Romance"
         ],
@@ -11791,11 +10085,8 @@
     ],
     [
         "Eerie Queerie!",
-        "Manga",
-        20,
         4,
         "Finished",
-        false,
         {
             "from": "1999-01-01T00:00:00+00:00",
             "to": "2004-01-01T00:00:00+00:00",
@@ -11818,9 +10109,6 @@
             "Shuri, Shiozu"
         ],
         [
-            "Wings"
-        ],
-        [
             "Boys Love",
             "Comedy",
             "Romance",
@@ -11832,11 +10120,8 @@
     ],
     [
         "Eternity",
-        "Manhwa",
-        34,
         5,
         "Finished",
-        false,
         {
             "from": "1999-01-01T00:00:00+00:00",
             "to": null,
@@ -11859,7 +10144,6 @@
             "Park, Jin-Ryong",
             "Shin, Yong-Gwan"
         ],
-        [],
         [
             "Action",
             "Comedy",
@@ -11869,11 +10153,8 @@
     ],
     [
         "Evil's Return",
-        "Manhwa",
-        14,
         4,
         "Finished",
-        false,
         {
             "from": "2001-01-01T00:00:00+00:00",
             "to": "2002-01-01T00:00:00+00:00",
@@ -11896,7 +10177,6 @@
             "Hwan, Shin",
             "Lee, Jong-Kyu"
         ],
-        [],
         [
             "Action",
             "Horror",
@@ -11907,11 +10187,8 @@
     ],
     [
         "Fake",
-        "Manga",
-        20,
         7,
         "Finished",
-        false,
         {
             "from": "1993-01-01T00:00:00+00:00",
             "to": "2000-05-06T00:00:00+00:00",
@@ -11934,9 +10211,6 @@
             "Matoh, Sanami"
         ],
         [
-            "Magazine Be x Boy"
-        ],
-        [
             "Action",
             "Boys Love",
             "Comedy",
@@ -11946,11 +10220,8 @@
     ],
     [
         "Fever",
-        "Manhwa",
-        19,
         4,
         "Finished",
-        false,
         {
             "from": "2003-01-01T00:00:00+00:00",
             "to": null,
@@ -11972,7 +10243,6 @@
         [
             "Park, Hee Jung"
         ],
-        [],
         [
             "Drama"
         ],
@@ -11982,11 +10252,8 @@
     ],
     [
         "Forbidden Dance",
-        "Manga",
-        16,
         4,
         "Finished",
-        false,
         {
             "from": "1997-01-01T00:00:00+00:00",
             "to": "1998-01-01T00:00:00+00:00",
@@ -12009,9 +10276,6 @@
             "Ashihara, Hinako"
         ],
         [
-            "Betsucomi"
-        ],
-        [
             "Drama",
             "Romance"
         ],
@@ -12021,11 +10285,8 @@
     ],
     [
         "Metamo Kiss",
-        "Manga",
-        18,
         3,
         "Finished",
-        false,
         {
             "from": "2004-01-01T00:00:00+00:00",
             "to": "2005-01-01T00:00:00+00:00",
@@ -12048,9 +10309,6 @@
             "Omote, Sora"
         ],
         [
-            "Asuka"
-        ],
-        [
             "Comedy",
             "Romance"
         ],
@@ -12060,11 +10318,8 @@
     ],
     [
         "Manga Sutra",
-        "Manga",
-        null,
         null,
         "Publishing",
-        true,
         {
             "from": "1997-01-01T00:00:00+00:00",
             "to": null,
@@ -12087,9 +10342,6 @@
             "Katsu, Aki"
         ],
         [
-            "Young Animal"
-        ],
-        [
             "Comedy",
             "Romance",
             "Slice of Life",
@@ -12101,11 +10353,8 @@
     ],
     [
         "Gatcha Gacha",
-        "Manga",
-        41,
         8,
         "Finished",
-        false,
         {
             "from": "2001-11-28T00:00:00+00:00",
             "to": "2007-12-28T00:00:00+00:00",
@@ -12128,9 +10377,6 @@
             "Tachibana, Yutaka"
         ],
         [
-            "Melody"
-        ],
-        [
             "Romance"
         ],
         [
@@ -12139,11 +10385,8 @@
     ],
     [
         "Gakuen Alice",
-        "Manga",
-        183,
         31,
         "Finished",
-        false,
         {
             "from": "2002-09-05T00:00:00+00:00",
             "to": "2013-06-20T00:00:00+00:00",
@@ -12166,9 +10409,6 @@
             "Higuchi, Tachibana"
         ],
         [
-            "Hana to Yume"
-        ],
-        [
             "Comedy",
             "Drama"
         ],
@@ -12178,11 +10418,8 @@
     ],
     [
         "Gate Keepers",
-        "Manga",
-        14,
         2,
         "Finished",
-        false,
         {
             "from": "1999-12-01T00:00:00+00:00",
             "to": "2001-10-31T00:00:00+00:00",
@@ -12207,9 +10444,6 @@
             "Gonzo"
         ],
         [
-            "Ace Next"
-        ],
-        [
             "Adventure",
             "Comedy",
             "Drama"
@@ -12218,11 +10452,8 @@
     ],
     [
         "Genju no Seiza",
-        "Manga",
-        70,
         14,
         "Finished",
-        false,
         {
             "from": "2000-10-01T00:00:00+00:00",
             "to": "2007-08-28T00:00:00+00:00",
@@ -12245,9 +10476,6 @@
             "Akino, Matsuri"
         ],
         [
-            "Horror Comics Special"
-        ],
-        [
             "Fantasy",
             "Horror",
             "Mystery",
@@ -12259,11 +10487,8 @@
     ],
     [
         "Galaxy Girl, Panda Boy",
-        "Manga",
-        6,
         1,
         "Finished",
-        false,
         {
             "from": "2002-01-01T00:00:00+00:00",
             "to": null,
@@ -12285,7 +10510,6 @@
         [
             "Kawakami, Junko"
         ],
-        [],
         [
             "Drama"
         ],
@@ -12293,11 +10517,8 @@
     ],
     [
         "Little Queen",
-        "Manhwa",
-        35,
         8,
         "Finished",
-        false,
         {
             "from": "2002-01-01T00:00:00+00:00",
             "to": "2006-01-01T00:00:00+00:00",
@@ -12320,9 +10541,6 @@
             "Kim, Yeon-Joo"
         ],
         [
-            "Issue"
-        ],
-        [
             "Fantasy",
             "Romance"
         ],
@@ -12332,11 +10550,8 @@
     ],
     [
         "Girls Bravo",
-        "Manga",
-        70,
         10,
         "Finished",
-        false,
         {
             "from": "2000-10-26T00:00:00+00:00",
             "to": "2005-03-26T00:00:00+00:00",
@@ -12359,9 +10574,6 @@
             "Kaneda, Mario"
         ],
         [
-            "Shounen Ace"
-        ],
-        [
             "Comedy",
             "Fantasy",
             "Ecchi"
@@ -12372,11 +10584,8 @@
     ],
     [
         "The Law of Ueki",
-        "Manga",
-        154,
         16,
         "Finished",
-        false,
         {
             "from": "2001-07-23T00:00:00+00:00",
             "to": "2004-10-20T00:00:00+00:00",
@@ -12399,9 +10608,6 @@
             "Fukuchi, Tsubasa"
         ],
         [
-            "Shounen Sunday"
-        ],
-        [
             "Action",
             "Comedy"
         ],
@@ -12411,11 +10617,8 @@
     ],
     [
         "The Law of Ueki Plus",
-        "Manga",
-        46,
         5,
         "Finished",
-        false,
         {
             "from": "2005-01-01T00:00:00+00:00",
             "to": "2007-01-01T00:00:00+00:00",
@@ -12438,9 +10641,6 @@
             "Fukuchi, Tsubasa"
         ],
         [
-            "Shounen Sunday"
-        ],
-        [
             "Action",
             "Adventure",
             "Comedy"
@@ -12451,11 +10651,8 @@
     ],
     [
         "Grenadier",
-        "Manga",
-        36,
         7,
         "Finished",
-        false,
         {
             "from": "2002-04-26T00:00:00+00:00",
             "to": "2005-03-26T00:00:00+00:00",
@@ -12478,9 +10675,6 @@
             "Kaise, Sosuke"
         ],
         [
-            "Shounen Ace"
-        ],
-        [
             "Action",
             "Adventure",
             "Comedy",
@@ -12492,11 +10686,8 @@
     ],
     [
         "Pixie Pop: Gokkun Pucho",
-        "Manga",
-        15,
         3,
         "Finished",
-        false,
         {
             "from": "2004-03-03T00:00:00+00:00",
             "to": "2005-06-03T00:00:00+00:00",
@@ -12519,9 +10710,6 @@
             "Tooyama, Ema"
         ],
         [
-            "Nakayoshi"
-        ],
-        [
             "Comedy",
             "Fantasy",
             "Romance"
@@ -12532,11 +10720,8 @@
     ],
     [
         "Good Luck",
-        "Manhwa",
-        25,
         5,
         "Finished",
-        false,
         {
             "from": "2002-01-01T00:00:00+00:00",
             "to": "2003-01-01T00:00:00+00:00",
@@ -12558,7 +10743,6 @@
         [
             "Kang, E-Jin"
         ],
-        [],
         [
             "Comedy",
             "Drama"
@@ -12567,11 +10751,8 @@
     ],
     [
         "Gravitation",
-        "Manga",
-        54,
         12,
         "Finished",
-        false,
         {
             "from": "1996-01-01T00:00:00+00:00",
             "to": "2002-01-01T00:00:00+00:00",
@@ -12594,9 +10775,6 @@
             "Murakami, Maki"
         ],
         [
-            "Kimi to Boku"
-        ],
-        [
             "Boys Love",
             "Comedy",
             "Drama"
@@ -12607,11 +10785,8 @@
     ],
     [
         "Gravitation EX",
-        "Manga",
-        25,
         2,
         "Finished",
-        false,
         {
             "from": "2005-01-01T00:00:00+00:00",
             "to": "2011-01-01T00:00:00+00:00",
@@ -12634,9 +10809,6 @@
             "Murakami, Maki"
         ],
         [
-            "Comic Spica"
-        ],
-        [
             "Boys Love",
             "Comedy",
             "Drama",
@@ -12646,11 +10818,8 @@
     ],
     [
         "Gravitation: The Novel",
-        "Light Novel",
-        8,
         1,
         "Finished",
-        false,
         {
             "from": "2000-01-01T00:00:00+00:00",
             "to": null,
@@ -12673,7 +10842,6 @@
             "Murakami, Maki",
             "Jun, Renon"
         ],
-        [],
         [
             "Boys Love",
             "Comedy"
@@ -12682,11 +10850,8 @@
     ],
     [
         "Gravitation: Voice of Temptation",
-        "Light Novel",
-        4,
         1,
         "Finished",
-        false,
         {
             "from": "2002-01-01T00:00:00+00:00",
             "to": null,
@@ -12709,7 +10874,6 @@
             "Murakami, Maki",
             "Jun, Renon"
         ],
-        [],
         [
             "Boys Love",
             "Comedy"
@@ -12718,11 +10882,8 @@
     ],
     [
         "GTO: Great Teacher Onizuka",
-        "Manga",
-        208,
         25,
         "Finished",
-        false,
         {
             "from": "1996-12-11T00:00:00+00:00",
             "to": "2002-01-30T00:00:00+00:00",
@@ -12745,9 +10906,6 @@
             "Fujisawa, Tooru"
         ],
         [
-            "Shounen Magazine (Weekly)"
-        ],
-        [
             "Action",
             "Award Winning",
             "Comedy",
@@ -12760,11 +10918,8 @@
     ],
     [
         "Blue Inferior",
-        "Manga",
-        24,
         4,
         "Finished",
-        false,
         {
             "from": "1994-01-01T00:00:00+00:00",
             "to": "2001-01-01T00:00:00+00:00",
@@ -12787,20 +10942,14 @@
             "Shitou, Kyouko"
         ],
         [
-            "Comic Tom (Monthly)"
-        ],
-        [
             "Adventure"
         ],
         []
     ],
     [
         "Chrno Crusade",
-        "Manga",
-        59,
         8,
         "Finished",
-        false,
         {
             "from": "1998-12-09T00:00:00+00:00",
             "to": "2004-05-08T00:00:00+00:00",
@@ -12823,9 +10972,6 @@
             "Moriyama, Daisuke"
         ],
         [
-            "Comic Dragon"
-        ],
-        [
             "Action",
             "Adventure",
             "Drama",
@@ -12840,11 +10986,8 @@
     ],
     [
         "Cromartie High School",
-        "Manga",
-        335,
         17,
         "Finished",
-        false,
         {
             "from": "2000-07-19T00:00:00+00:00",
             "to": "2006-05-17T00:00:00+00:00",
@@ -12867,9 +11010,6 @@
             "Nonaka, Eiji"
         ],
         [
-            "Shounen Magazine (Weekly)"
-        ],
-        [
             "Award Winning",
             "Comedy"
         ],
@@ -12879,11 +11019,8 @@
     ],
     [
         "Darkside Blues",
-        "Manga",
-        null,
         2,
         "Finished",
-        false,
         {
             "from": "1988-01-01T00:00:00+00:00",
             "to": null,
@@ -12906,7 +11043,6 @@
             "Kikuchi, Hideyuki",
             "Ashibe, Yuuho"
         ],
-        [],
         [
             "Action",
             "Fantasy",
@@ -12916,11 +11052,8 @@
     ],
     [
         "Desert Coral",
-        "Manga",
-        25,
         5,
         "Finished",
-        false,
         {
             "from": "2002-02-28T00:00:00+00:00",
             "to": "2004-02-28T00:00:00+00:00",
@@ -12943,9 +11076,6 @@
             "Murayama, Wataru"
         ],
         [
-            "Comic Blade"
-        ],
-        [
             "Adventure",
             "Comedy",
             "Drama",
@@ -12957,11 +11087,8 @@
     ],
     [
         "Mobile Suit Gundam Sidestory: The Blue Destiny",
-        "Manga",
-        6,
         1,
         "Finished",
-        false,
         {
             "from": "1996-10-01T00:00:00+00:00",
             "to": "1997-03-01T00:00:00+00:00",
@@ -12984,7 +11111,6 @@
             "Takayama, Mizuho",
             "Chiba, Tomohiro"
         ],
-        [],
         [
             "Action",
             "Sci-Fi"
@@ -12995,11 +11121,8 @@
     ],
     [
         "Dragon Eye",
-        "Manga",
-        31,
         9,
         "Finished",
-        false,
         {
             "from": "2005-05-26T00:00:00+00:00",
             "to": "2007-11-26T00:00:00+00:00",
@@ -13022,9 +11145,6 @@
             "Fujiyama, Kairi"
         ],
         [
-            "Shounen Sirius"
-        ],
-        [
             "Action",
             "Adventure"
         ],
@@ -13034,11 +11154,8 @@
     ],
     [
         "ES: Eternal Sabbath",
-        "Manga",
-        83,
         8,
         "Finished",
-        false,
         {
             "from": "2001-08-23T00:00:00+00:00",
             "to": "2004-10-07T00:00:00+00:00",
@@ -13061,9 +11178,6 @@
             "Souryo, Fuyumi"
         ],
         [
-            "Morning"
-        ],
-        [
             "Drama",
             "Sci-Fi",
             "Supernatural"
@@ -13074,11 +11188,8 @@
     ],
     [
         "Mobile Suit Gundam SEED X Astray",
-        "Manga",
-        11,
         2,
         "Finished",
-        false,
         {
             "from": "2003-09-26T00:00:00+00:00",
             "to": "2004-07-26T00:00:00+00:00",
@@ -13102,9 +11213,6 @@
             "Tokita, Kouichi"
         ],
         [
-            "Gundam Ace"
-        ],
-        [
             "Action",
             "Sci-Fi"
         ],
@@ -13114,11 +11222,8 @@
     ],
     [
         "Free Collars Kingdom",
-        "Manga",
-        18,
         3,
         "Finished",
-        false,
         {
             "from": "2002-01-01T00:00:00+00:00",
             "to": "2003-01-01T00:00:00+00:00",
@@ -13141,9 +11246,6 @@
             "Fujima, Takuya"
         ],
         [
-            "Magazine-Z"
-        ],
-        [
             "Action",
             "Adventure",
             "Comedy",
@@ -13153,11 +11255,8 @@
     ],
     [
         "Gacha Gacha",
-        "Manga",
-        97,
         16,
         "Finished",
-        false,
         {
             "from": "2002-08-07T00:00:00+00:00",
             "to": "2007-10-20T00:00:00+00:00",
@@ -13180,9 +11279,6 @@
             "Tamakoshi, Hiroyuki"
         ],
         [
-            "Magazine Special"
-        ],
-        [
             "Comedy",
             "Romance",
             "Ecchi"
@@ -13193,11 +11289,8 @@
     ],
     [
         "Genshiken",
-        "Manga",
-        127,
         21,
         "Finished",
-        false,
         {
             "from": "2002-04-25T00:00:00+00:00",
             "to": "2016-08-25T00:00:00+00:00",
@@ -13220,9 +11313,6 @@
             "Kio, Shimoku"
         ],
         [
-            "Afternoon"
-        ],
-        [
             "Comedy",
             "Drama",
             "Slice of Life"
@@ -13233,11 +11323,8 @@
     ],
     [
         "Mobile Suit Gundam Wing",
-        "Manga",
-        12,
         3,
         "Finished",
-        false,
         {
             "from": "1995-04-15T00:00:00+00:00",
             "to": "1996-04-15T00:00:00+00:00",
@@ -13260,9 +11347,6 @@
             "Tokita, Kouichi"
         ],
         [
-            "Comic Bonbon"
-        ],
-        [
             "Action",
             "Sci-Fi"
         ],
@@ -13270,11 +11354,8 @@
     ],
     [
         "My Heavenly Hockey Club",
-        "Manga",
-        54,
         14,
         "Finished",
-        false,
         {
             "from": "2005-01-01T00:00:00+00:00",
             "to": "2010-01-01T00:00:00+00:00",
@@ -13297,9 +11378,6 @@
             "Morinaga, Ai"
         ],
         [
-            "Bessatsu Friend"
-        ],
-        [
             "Comedy"
         ],
         [
@@ -13308,11 +11386,8 @@
     ],
     [
         "Mobile Suit Gundam SEED",
-        "Manga",
-        25,
         5,
         "Finished",
-        false,
         {
             "from": "2002-10-26T00:00:00+00:00",
             "to": "2004-10-26T00:00:00+00:00",
@@ -13337,9 +11412,6 @@
             "Iwase, Masatsugu"
         ],
         [
-            "Magazine-Z"
-        ],
-        [
             "Action",
             "Drama",
             "Romance",
@@ -13351,11 +11423,8 @@
     ],
     [
         "Mobile Suit Gundam: \u00c9cole du Ciel",
-        "Manga",
-        68,
         12,
         "On Hiatus",
-        false,
         {
             "from": "2001-12-18T00:00:00+00:00",
             "to": "2011-02-26T00:00:00+00:00",
@@ -13378,9 +11447,6 @@
             "Mikimoto, Haruhiko"
         ],
         [
-            "Gundam Ace"
-        ],
-        [
             "Action",
             "Sci-Fi"
         ],
@@ -13390,11 +11456,8 @@
     ],
     [
         "Mobile Suit Gundam: Lost War Chronicles",
-        "Manga",
-        10,
         2,
         "Finished",
-        false,
         {
             "from": "2002-05-25T00:00:00+00:00",
             "to": "2004-01-26T00:00:00+00:00",
@@ -13418,9 +11481,6 @@
             "Masato, Natsumoto"
         ],
         [
-            "Gundam Ace"
-        ],
-        [
             "Action",
             "Drama",
             "Sci-Fi"
@@ -13431,11 +11491,8 @@
     ],
     [
         "Happy Mania",
-        "Manga",
-        62,
         11,
         "Finished",
-        false,
         {
             "from": "1996-01-01T00:00:00+00:00",
             "to": "2001-01-01T00:00:00+00:00",
@@ -13458,9 +11515,6 @@
             "Anno, Moyoco"
         ],
         [
-            "Feel Young"
-        ],
-        [
             "Comedy",
             "Romance"
         ],
@@ -13470,11 +11524,8 @@
     ],
     [
         "Harlem Beat",
-        "Manga",
-        247,
         29,
         "Finished",
-        false,
         {
             "from": "1994-07-27T00:00:00+00:00",
             "to": "2000-01-19T00:00:00+00:00",
@@ -13497,9 +11548,6 @@
             "Nishiyama, Yuriko"
         ],
         [
-            "Shounen Magazine (Weekly)"
-        ],
-        [
             "Drama",
             "Sports"
         ],
@@ -13509,11 +11557,8 @@
     ],
     [
         "Dazzle",
-        "Manga",
-        195,
         24,
         "Finished",
-        false,
         {
             "from": "1999-11-18T00:00:00+00:00",
             "to": "2022-07-01T00:00:00+00:00",
@@ -13536,9 +11581,6 @@
             "Endou, Minari"
         ],
         [
-            "Comic ZERO-SUM"
-        ],
-        [
             "Action",
             "Adventure",
             "Comedy",
@@ -13551,11 +11593,8 @@
     ],
     [
         "Wolf's Rain",
-        "Manga",
-        11,
         2,
         "Finished",
-        false,
         {
             "from": "2003-02-26T00:00:00+00:00",
             "to": "2004-01-26T00:00:00+00:00",
@@ -13579,9 +11618,6 @@
             "Iida, Toshitsugu"
         ],
         [
-            "Magazine-Z"
-        ],
-        [
             "Action",
             "Adventure",
             "Drama",
@@ -13595,11 +11631,8 @@
     ],
     [
         "Haunted House",
-        "Manga",
-        8,
         1,
         "Finished",
-        false,
         {
             "from": "1998-08-01T00:00:00+00:00",
             "to": "2002-01-01T00:00:00+00:00",
@@ -13622,9 +11655,6 @@
             "Mihara, Mitsukazu"
         ],
         [
-            "Cutie Comic"
-        ],
-        [
             "Comedy"
         ],
         [
@@ -13633,11 +11663,8 @@
     ],
     [
         "Zoids: Chaotic Century",
-        "Manga",
-        null,
         5,
         "Finished",
-        false,
         {
             "from": "1999-04-15T00:00:00+00:00",
             "to": "2001-09-15T00:00:00+00:00",
@@ -13660,9 +11687,6 @@
             "Ueyama, Michirou"
         ],
         [
-            "CoroCoro Comic"
-        ],
-        [
             "Action",
             "Sci-Fi"
         ],
@@ -13672,11 +11696,8 @@
     ],
     [
         "Heat Guy J",
-        "Manga",
-        5,
         1,
         "Finished",
-        false,
         {
             "from": "2002-08-26T00:00:00+00:00",
             "to": "2003-02-26T00:00:00+00:00",
@@ -13699,9 +11720,6 @@
             "Ogishima, Chiaki"
         ],
         [
-            "Magazine-Z"
-        ],
-        [
             "Action",
             "Sci-Fi"
         ],
@@ -13711,11 +11729,8 @@
     ],
     [
         "Heaven Above Heaven",
-        "Manhwa",
-        null,
         6,
         "Finished",
-        false,
         {
             "from": "2005-01-01T00:00:00+00:00",
             "to": null,
@@ -13738,7 +11753,6 @@
             "Hyun, Kang-Suk",
             "Jeon, Joong-Won"
         ],
-        [],
         [
             "Action",
             "Adventure",
@@ -13749,11 +11763,8 @@
     ],
     [
         "Heaven!!",
-        "Manga",
-        13,
         3,
         "Finished",
-        false,
         {
             "from": "2003-04-12T00:00:00+00:00",
             "to": "2004-05-13T00:00:00+00:00",
@@ -13776,9 +11787,6 @@
             "Seino, Shizuru"
         ],
         [
-            "Bessatsu Friend"
-        ],
-        [
             "Comedy",
             "Romance",
             "Supernatural"
@@ -13789,11 +11797,8 @@
     ],
     [
         "ZOIDS New Century",
-        "Manga",
-        4,
         null,
         "Finished",
-        false,
         {
             "from": "2001-02-01T00:00:00+00:00",
             "to": "2001-08-01T00:00:00+00:00",
@@ -13815,7 +11820,6 @@
         [
             "Mizobuchi, Makoto"
         ],
-        [],
         [
             "Action",
             "Sci-Fi"
@@ -13826,11 +11830,8 @@
     ],
     [
         "Hibiki's Magic",
-        "Manga",
-        35,
         6,
         "Finished",
-        false,
         {
             "from": "2004-06-26T00:00:00+00:00",
             "to": "2016-03-26T00:00:00+00:00",
@@ -13854,9 +11855,6 @@
             "Idumi, Rei"
         ],
         [
-            "Comp Ace"
-        ],
-        [
             "Adventure",
             "Fantasy"
         ],
@@ -13866,11 +11864,8 @@
     ],
     [
         "Honey Mustard",
-        "Manhwa",
-        23,
         4,
         "Finished",
-        false,
         {
             "from": "2003-01-01T00:00:00+00:00",
             "to": "2004-01-01T00:00:00+00:00",
@@ -13892,7 +11887,6 @@
         [
             "Yeo, Ho Kyoung"
         ],
-        [],
         [
             "Comedy",
             "Romance"
@@ -13901,11 +11895,8 @@
     ],
     [
         "Voices of a Distant Star",
-        "Manga",
-        10,
         1,
         "Finished",
-        false,
         {
             "from": "2004-02-25T00:00:00+00:00",
             "to": "2004-12-25T00:00:00+00:00",
@@ -13929,9 +11920,6 @@
             "Yumeka, Sumomo"
         ],
         [
-            "Afternoon"
-        ],
-        [
             "Drama",
             "Romance",
             "Sci-Fi"
@@ -13942,11 +11930,8 @@
     ],
     [
         "Hyper Police",
-        "Manga",
-        97,
         10,
         "Finished",
-        false,
         {
             "from": "1993-02-09T00:00:00+00:00",
             "to": "2004-01-30T00:00:00+00:00",
@@ -13969,9 +11954,6 @@
             "MEE"
         ],
         [
-            "Comic Dragon"
-        ],
-        [
             "Action",
             "Comedy",
             "Fantasy",
@@ -13984,11 +11966,8 @@
     ],
     [
         "Hyper Rune",
-        "Manga",
-        null,
         4,
         "Finished",
-        false,
         {
             "from": "1996-01-01T00:00:00+00:00",
             "to": null,
@@ -14011,9 +11990,6 @@
             "Akiyama, Tamayo"
         ],
         [
-            "Asuka"
-        ],
-        [
             "Action",
             "Adventure",
             "Fantasy",
@@ -14025,11 +12001,8 @@
     ],
     [
         "I Wish...",
-        "Manhwa",
-        50,
         7,
         "Finished",
-        false,
         {
             "from": "2000-01-01T00:00:00+00:00",
             "to": null,
@@ -14052,9 +12025,6 @@
             "Suh, Hyun-Ju"
         ],
         [
-            "IQ Jump"
-        ],
-        [
             "Drama",
             "Romance",
             "Slice of Life",
@@ -14066,11 +12036,8 @@
     ],
     [
         "I.N.V.U.",
-        "Manhwa",
-        null,
         5,
         "On Hiatus",
-        false,
         {
             "from": "2000-01-01T00:00:00+00:00",
             "to": "2008-01-01T00:00:00+00:00",
@@ -14093,9 +12060,6 @@
             "Kim, Kang-Won"
         ],
         [
-            "Party"
-        ],
-        [
             "Drama",
             "Romance"
         ],
@@ -14105,11 +12069,8 @@
     ],
     [
         "Strawberry Marshmallow",
-        "Manga",
-        null,
         null,
         "Publishing",
-        true,
         {
             "from": "2002-02-15T00:00:00+00:00",
             "to": null,
@@ -14132,9 +12093,6 @@
             "Barasui"
         ],
         [
-            "Dengeki Daioh"
-        ],
-        [
             "Comedy",
             "Slice of Life"
         ],
@@ -14142,11 +12100,8 @@
     ],
     [
         "Battle Vixens",
-        "Manga",
-        187,
         24,
         "Finished",
-        false,
         {
             "from": "2000-04-26T00:00:00+00:00",
             "to": "2015-08-26T00:00:00+00:00",
@@ -14169,9 +12124,6 @@
             "Shiozaki, Yuji"
         ],
         [
-            "Comic Gum"
-        ],
-        [
             "Action",
             "Supernatural",
             "Ecchi"
@@ -14182,11 +12134,8 @@
     ],
     [
         "Immortal Rain",
-        "Manga",
-        61,
         11,
         "Finished",
-        false,
         {
             "from": "1998-08-26T00:00:00+00:00",
             "to": "2011-05-25T00:00:00+00:00",
@@ -14209,9 +12158,6 @@
             "Ozaki, Kaori"
         ],
         [
-            "Wings"
-        ],
-        [
             "Action",
             "Adventure",
             "Drama",
@@ -14224,11 +12170,8 @@
     ],
     [
         "In Dream World",
-        "Manhwa",
-        25,
         3,
         "Finished",
-        false,
         {
             "from": "2003-01-01T00:00:00+00:00",
             "to": "2004-01-01T00:00:00+00:00",
@@ -14250,7 +12193,6 @@
         [
             "Yoon, Jae Ho"
         ],
-        [],
         [
             "Action",
             "Fantasy",
@@ -14263,11 +12205,8 @@
     ],
     [
         "Initial D",
-        "Manga",
-        724,
         48,
         "Finished",
-        false,
         {
             "from": "1995-06-26T00:00:00+00:00",
             "to": "2013-07-29T00:00:00+00:00",
@@ -14290,9 +12229,6 @@
             "Shigeno, Shuuichi"
         ],
         [
-            "Young Magazine (Weekly)"
-        ],
-        [
             "Action",
             "Drama"
         ],
@@ -14302,11 +12238,8 @@
     ],
     [
         "Innocent W",
-        "Manga",
-        24,
         3,
         "Finished",
-        false,
         {
             "from": "2003-11-29T00:00:00+00:00",
             "to": "2006-06-30T00:00:00+00:00",
@@ -14329,9 +12262,6 @@
             "Kusunoki, Kei"
         ],
         [
-            "Young King OURs"
-        ],
-        [
             "Action",
             "Drama"
         ],
@@ -14341,11 +12271,8 @@
     ],
     [
         "Island",
-        "Manhwa",
-        46,
         7,
         "Finished",
-        false,
         {
             "from": "1997-01-01T00:00:00+00:00",
             "to": "2001-01-01T00:00:00+00:00",
@@ -14369,9 +12296,6 @@
             "Yang, Kyung-il"
         ],
         [
-            "Young Champ"
-        ],
-        [
             "Action",
             "Horror",
             "Supernatural"
@@ -14380,11 +12304,8 @@
     ],
     [
         "Les Bijoux",
-        "Manhwa",
-        32,
         5,
         "Finished",
-        false,
         {
             "from": "1999-01-01T00:00:00+00:00",
             "to": "2000-01-01T00:00:00+00:00",
@@ -14407,7 +12328,6 @@
             "Park, Sang-Sun",
             "Jo, Eun Ha"
         ],
-        [],
         [
             "Fantasy",
             "Supernatural"
@@ -14416,11 +12336,8 @@
     ],
     [
         "Ice Blade",
-        "Manga",
-        72,
         19,
         "Finished",
-        false,
         {
             "from": "1992-09-25T00:00:00+00:00",
             "to": "1999-11-25T00:00:00+00:00",
@@ -14443,9 +12360,6 @@
             "Takahashi, Tsutomu"
         ],
         [
-            "Afternoon"
-        ],
-        [
             "Action",
             "Drama",
             "Mystery"
@@ -14456,11 +12370,8 @@
     ],
     [
         "Judas",
-        "Manga",
-        20,
         5,
         "Finished",
-        false,
         {
             "from": "2004-05-26T00:00:00+00:00",
             "to": "2005-12-26T00:00:00+00:00",
@@ -14483,9 +12394,6 @@
             "Minazuki, Suu"
         ],
         [
-            "Shounen Ace"
-        ],
-        [
             "Action",
             "Comedy",
             "Horror",
@@ -14498,11 +12406,8 @@
     ],
     [
         "Love Attack",
-        "Manga",
-        25,
         13,
         "Finished",
-        false,
         {
             "from": "2004-09-13T00:00:00+00:00",
             "to": "2009-07-13T00:00:00+00:00",
@@ -14525,9 +12430,6 @@
             "Seino, Shizuru"
         ],
         [
-            "Bessatsu Friend"
-        ],
-        [
             "Comedy",
             "Romance"
         ],
@@ -14537,11 +12439,8 @@
     ],
     [
         "Jyu-Oh-Sei",
-        "Manga",
-        16,
         5,
         "Finished",
-        false,
         {
             "from": "1993-01-01T00:00:00+00:00",
             "to": "2003-01-01T00:00:00+00:00",
@@ -14564,9 +12463,6 @@
             "Itsuki, Natsumi"
         ],
         [
-            "LaLa"
-        ],
-        [
             "Action",
             "Drama",
             "Sci-Fi"
@@ -14577,11 +12473,8 @@
     ],
     [
         "Kamen Tantei",
-        "Manga",
-        19,
         4,
         "Finished",
-        false,
         {
             "from": "1999-01-01T00:00:00+00:00",
             "to": "2000-01-01T00:00:00+00:00",
@@ -14603,7 +12496,6 @@
         [
             "Akino, Matsuri"
         ],
-        [],
         [
             "Comedy",
             "Horror",
@@ -14613,11 +12505,8 @@
     ],
     [
         "Kami-Kaze",
-        "Manga",
-        59,
         7,
         "Finished",
-        false,
         {
             "from": "1997-03-25T00:00:00+00:00",
             "to": "2003-02-25T00:00:00+00:00",
@@ -14640,9 +12529,6 @@
             "Shiki, Satoshi"
         ],
         [
-            "Afternoon"
-        ],
-        [
             "Action",
             "Supernatural"
         ],
@@ -14653,11 +12539,8 @@
     ],
     [
         "Kamiyadori",
-        "Manga",
-        29,
         5,
         "Finished",
-        false,
         {
             "from": "2003-07-26T00:00:00+00:00",
             "to": "2006-01-26T00:00:00+00:00",
@@ -14680,9 +12563,6 @@
             "Sanbe, Kei"
         ],
         [
-            "Shounen Ace"
-        ],
-        [
             "Action",
             "Horror",
             "Sci-Fi",
@@ -14694,11 +12574,8 @@
     ],
     [
         "Kanpai!",
-        "Manga",
-        12,
         2,
         "Finished",
-        false,
         {
             "from": "2000-01-01T00:00:00+00:00",
             "to": "2001-01-01T00:00:00+00:00",
@@ -14721,9 +12598,6 @@
             "Murakami, Maki"
         ],
         [
-            "Comic Birz"
-        ],
-        [
             "Comedy",
             "Supernatural"
         ],
@@ -14733,11 +12607,8 @@
     ],
     [
         "Chibi Vampire",
-        "Manga",
-        63,
         14,
         "Finished",
-        false,
         {
             "from": "2003-04-09T00:00:00+00:00",
             "to": "2008-02-09T00:00:00+00:00",
@@ -14760,9 +12631,6 @@
             "Kagesaki, Yuna"
         ],
         [
-            "Dragon Age"
-        ],
-        [
             "Comedy",
             "Drama",
             "Romance",
@@ -14774,11 +12642,8 @@
     ],
     [
         "Chibi Vampire: The Novel",
-        "Light Novel",
-        60,
         9,
         "Finished",
-        false,
         {
             "from": "2003-12-10T00:00:00+00:00",
             "to": "2007-05-10T00:00:00+00:00",
@@ -14801,7 +12666,6 @@
             "Kagesaki, Yuna",
             "Kai, Tohru"
         ],
-        [],
         [
             "Comedy",
             "Mystery",
@@ -14812,11 +12676,8 @@
     ],
     [
         null,
-        "Manga",
-        null,
         3,
         "Finished",
-        false,
         {
             "from": "2003-08-07T00:00:00+00:00",
             "to": "2007-01-01T00:00:00+00:00",
@@ -14839,9 +12700,6 @@
             "Fukushima, Haruka"
         ],
         [
-            "Nakayoshi Lovely"
-        ],
-        [
             "Comedy",
             "Romance",
             "Supernatural"
@@ -14852,11 +12710,8 @@
     ],
     [
         "Sgt. Frog",
-        "Manga",
-        null,
         null,
         "Publishing",
-        true,
         {
             "from": "1999-11-29T00:00:00+00:00",
             "to": null,
@@ -14879,9 +12734,6 @@
             "Yoshizaki, Mine"
         ],
         [
-            "Shounen Ace"
-        ],
-        [
             "Award Winning",
             "Comedy",
             "Drama",
@@ -14893,11 +12745,8 @@
     ],
     [
         "Kill\u2665Me Kiss Me",
-        "Manhwa",
-        34,
         5,
         "Finished",
-        false,
         {
             "from": "2000-01-01T00:00:00+00:00",
             "to": "2002-01-01T00:00:00+00:00",
@@ -14918,9 +12767,6 @@
         "When Tae Yeon Im finds out that the idol star that she's adored for ages is currently attending the same school as her identical cousin, Jung-Woo Im, she convinces her cuz to exploit their similitude and switch places, she will dress as him, attend his school and try to get close to her lover boy. And he will dress as her, attend her school and revel in its sea of babes. Or maybe he just likes wearing a skirt? The plan seems flawless until Tae learns of a bully named Ga-Wun Kim who likes to beat up on poor Jung-Woo. Meanwhile, Jung-Woo finds that being a woman might not be as thrilling as it seems.\n\n(Source: Tokyopop)",
         [
             "Lee, Young-You"
-        ],
-        [
-            "Issue"
         ],
         [
             "Comedy",

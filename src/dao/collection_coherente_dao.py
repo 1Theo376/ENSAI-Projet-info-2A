@@ -26,8 +26,10 @@ class CollectionCoherenteDAO():
             with DBConnection().connection as connection:
                 with connection.cursor() as cursor:
                     cursor.execute(
-                        "SELECT *                           "
-                        "  FROM CollectionCoherente                      "
+                        "SELECT id_utilisateur, titre_collection, description_collection "
+                        "  FROM collection_coherente                      "
+                        " JOIN association_manga_collection_coherente using(id_collec_coherente)"
+                        "JOIN manga"
                         " WHERE id_collection = %(id)s;  ",
                         {"id": id_collection},
                     )
@@ -46,7 +48,7 @@ class CollectionCoherenteDAO():
 
         return Collection
 
-    def supprimer_collection(self, CollectionCoherente) -> bool:
+    def supprimer_collection(self, CollectionC) -> bool:
         """Suppression d'une collection dans la base de données
 
         Parameters
@@ -65,7 +67,7 @@ class CollectionCoherenteDAO():
                     cursor.execute(
                         "DELETE FROM collection_coherente                  "
                         " WHERE id_collec_coherente=%(id)s      ",
-                        {"id": CollectionCoherente.id_collection},
+                        {"id": CollectionC.id_collection},
                     )
                     res = cursor.rowcount
         except Exception as e:
@@ -74,7 +76,7 @@ class CollectionCoherenteDAO():
 
         return res > 0
 
-    def créer_collection(self, CollectionCoherente) -> bool:
+    def créer_collection(self, CollectionC) -> bool:
         """Creation d'un joueur dans la base de données
 
         Parameters
@@ -97,9 +99,9 @@ class CollectionCoherenteDAO():
                         "(%(id)s, %(titre)s, %(desc)s) "
                         "  RETURNING id; ",
                         {
-                            "id": CollectionCoherente.id_collectioncoherente,
-                            "titre": CollectionCoherente.titre_collection,
-                            "desc": CollectionCoherente.desc_collection
+                            "id": CollectionC.id_collectioncoherente,
+                            "titre": CollectionC.titre_collection,
+                            "desc": CollectionC.desc_collection
                         },
                     )
                     res = cursor.fetchone()
@@ -108,12 +110,12 @@ class CollectionCoherenteDAO():
 
         created = False
         if res:
-            CollectionCoherente.id = res["id"]
+            CollectionC.id = res["id"]
             created = True
 
         return created
 
-    def supprimer_manga(self, CollectionCoherente, Manga) -> bool:
+    def supprimer_manga(self, CollectionC, MangaC: Manga) -> bool:
         """Suppression d'un manga d'une collection
 
         Parameters
@@ -132,8 +134,8 @@ class CollectionCoherenteDAO():
                     cursor.execute(
                         "DELETE FROM association_manga_collection_coherente                 "
                         " WHERE (id_collec_coherente=%(id_collec_coherente)s and id_manga=%(idm)s ",
-                        {"id_collec_coherente": CollectionCoherente.id_collectioncoherente,
-                         "idm": Manga.id_manga},
+                        {"id_collec_coherente": CollectionC.id_collectioncoherente,
+                         "idm": MangaC.id_manga},
                     )
                     res = cursor.rowcount
         except Exception as e:
@@ -141,7 +143,7 @@ class CollectionCoherenteDAO():
             raise
         return res > 0
 
-    def ajouter_manga(self, CollectionCoherente, Manga) -> bool:
+    def ajouter_manga(self, CollectionC, MangaC: Manga) -> bool:
         """Creation d'un joueur dans la base de données
 
         Parameters
@@ -164,8 +166,8 @@ class CollectionCoherenteDAO():
                         "(%(idc)s, %(idm)s) "
                         "  RETURNING id_collec_coherente, id_manga; ",
                         {
-                            "idc": CollectionCoherente.id_collectioncoherente,
-                            "idm": Manga.id_manga
+                            "idc": CollectionC.id_collectioncoherente,
+                            "idm": MangaC.id_manga
                         },
                     )
                     res = cursor.fetchone()
@@ -174,8 +176,8 @@ class CollectionCoherenteDAO():
 
         created = False
         if res:
-            CollectionCoherente.id = res["id_collec_coherente"]
-            Manga.id_manga = res["id_manga"]
+            CollectionC.id = res["id_collec_coherente"]
+            MangaC.id_manga = res["id_manga"]
             created = True
 
         return created
