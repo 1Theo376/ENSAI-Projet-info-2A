@@ -35,6 +35,6 @@ class AccueilVue(VueAbstraite):
                 return ConnexionVue("Connexion à l'application")
 
             case "Créer un compte":
-                from view.accueil.inscription_vue import InscriptionVue
+                from vues.accueil.inscription_vue import InscriptionVue
 
-                return InscriptionVue("Création de compte joueur")
+                return InscriptionVue("Création de compte joueur").choisir_menu()

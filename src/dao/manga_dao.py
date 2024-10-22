@@ -84,7 +84,7 @@ class MangaDao(metaclass=Singleton):
                 genre=res["genre"],
             )
         return manga
-        
+
     def rechercher_manga_par_titre(self, titre):
         """Recherche et renvoie un manga par son titre
 

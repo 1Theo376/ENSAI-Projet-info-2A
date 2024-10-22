@@ -11,7 +11,7 @@ class RechercheMangaVue(VueAbstraite):
 
     def choisir_menu(self):
         manga_recherche = inquirer.text(message="Entrez le manga recherché: ").execute()
-        liste_manga_choix = RechercheService.recherche_manga_par_titre(manga_recherche)
+        liste_manga_choix = RechercheService.rechercher_manga_par_titre(manga_recherche)
         liste_manga_choix.append("Rechercher de nouveau")
         choix = inquirer.select(
             message="Choisissez un manga : ",
