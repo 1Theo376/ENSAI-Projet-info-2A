@@ -103,7 +103,7 @@ class UtilisateurDao(metaclass=Singleton):
     #            with connection.cursor() as cursor:
     #                cursor.execute(
     #                    "SELECT *                           "
-    #                    "  FROM utilisateur                      "
+    #                    "  FROM utilisateur                     "
     #                    " WHERE id = %(id)s;  ",
     #                    {"id": id},
     #                )
