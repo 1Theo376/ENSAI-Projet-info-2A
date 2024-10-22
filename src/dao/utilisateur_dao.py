@@ -1,13 +1,14 @@
 import logging
-
-
 from dao.db_connection import DBConnection
-from utilisateur import Utilisateur
+from business_object.utilisateur import Utilisateur
+from utils.log_decorator import log
+from utils.singleton import Singleton
 
 
-class UtilisateurDao():
+class UtilisateurDao(metaclass=Singleton):
     """Classe contenant les méthodes pour accéder aux Utilisateurs de la base de données"""
 
+    @log
     def creer(self, user) -> bool:
         """Creation d'un utilisateur dans la base de données
 
@@ -28,13 +29,13 @@ class UtilisateurDao():
             with DBConnection().connection as connection:
                 with connection.cursor() as cursor:
                     cursor.execute(
-                        "INSERT INTO user(id, mdp, pseudo) VALUES"
-                        "(%(id)s, %(mdp)s, %(pseudo)s) "
-                        "  RETURNING id; ",
+                        "INSERT INTO utilisateur(id_utilisateur, pseudo, mdp) VALUES"
+                        "(%(id_utilisateur)s, %(mdp)s, %(pseudo)s) "
+                        "  RETURNING id_utilisateur; ",
                         {
-                            "id": user.id,
+                            "id_utilisateur": user.id,
+                            "pseudo": user.pseudo,
                             "mdp": user.mdp,
-                            "pseudo": user.pseudo
                         },
                     )
                     res = cursor.fetchone()
@@ -43,11 +44,12 @@ class UtilisateurDao():
 
         created = False
         if res:
-            user.id = res["id"]
+            user.id = res["id_utilisateur"]
             created = True
 
         return created
 
+    @log
     def modifier(self, utilisateur) -> bool:
         """Modification d'un utilisateur dans la base de données
         Parameters
@@ -70,11 +72,11 @@ class UtilisateurDao():
                         "UPDATE utilisateur                                 "
                         "   SET pseudo      = %(pseudo)s,                   "
                         "       mdp         = %(mdp)s,                      "
-                        " WHERE id = %(id)s;                  ",
+                        " WHERE id_utilisateur = %(id_utilisateur)s;                  ",
                         {
                             "pseudo": utilisateur.pseudo,
                             "mdp": utilisateur.mdp,
-                            "id": utilisateur.id,
+                            "id_utilisateur": utilisateur.id,
                         },
                     )
                     res = cursor.rowcount
@@ -120,6 +122,7 @@ class UtilisateurDao():
     #
     #    return utilisateur
 
+    @log
     def lister_tous(self) -> list[Utilisateur]:
         """lister tous les joueurs
 
@@ -150,7 +153,7 @@ class UtilisateurDao():
         if res:
             for row in res:
                 utilisateur = Utilisateur(
-                    id=row["id"],
+                    id=row["id_utilisateur"],
                     pseudo=row["pseudo"],
                     mdp=row["mdp"],
                 )
@@ -159,6 +162,7 @@ class UtilisateurDao():
 
         return liste_utilisateurs
 
+    @log
     def supprimer(self, utilisateur) -> bool:
         """Suppression d'un utilisateur dans la base de données
 
@@ -178,8 +182,8 @@ class UtilisateurDao():
                     # Supprimer le compte d'un utilisateur
                     cursor.execute(
                         "DELETE FROM utilisateur                  "
-                        " WHERE id=%(id)s      ",
-                        {"id": utilisateur.id},
+                        " WHERE id_utilisateur=%(id_utilisateur)s      ",
+                        {"id_utilisateur": utilisateur.id},
                     )
                     res = cursor.rowcount
         except Exception as e:
@@ -188,6 +192,7 @@ class UtilisateurDao():
 
         return res > 0
 
+    @log
     def se_connecter(self, pseudo, mdp) -> Utilisateur:
         """se connecter grâce à son pseudo et son mot de passe
 
@@ -209,7 +214,7 @@ class UtilisateurDao():
                 with connection.cursor() as cursor:
                     cursor.execute(
                         "SELECT *                           "
-                        "  FROM joueur                      "
+                        "  FROM utilisateur                      "
                         " WHERE pseudo = %(pseudo)s         "
                         "   AND mdp = %(mdp)s;              ",
                         {"pseudo": pseudo, "mdp": mdp},
@@ -218,13 +223,32 @@ class UtilisateurDao():
         except Exception as e:
             logging.info(e)
 
-        joueur = None
+        user = None
 
         if res:
-            joueur = Utilisateur(
+            user = Utilisateur(
                 pseudo=res["pseudo"],
                 mdp=res["mdp"],
-                id=res["id"],
+                id=res["id_utilisateur"],
             )
 
-        return joueur
+        return user
+
+    @log
+    def supprimer_tous(self) -> bool:
+        """Suppression de tous les utilisateurs dans la base de données
+
+        Returns
+        -------
+            True si tous les utilisateurs ont bien été supprimés
+        """
+        try:
+            with DBConnection().connection as connection:
+                with connection.cursor() as cursor:
+                    cursor.execute("DELETE FROM utilisateur;")
+                    res = cursor.rowcount
+                connection.commit()
+        except Exception as e:
+            logging.info(f"Erreur lors de la suppression de tous les utilisateurs : {e}")
+            raise
+        return res > 0
