@@ -83,44 +83,42 @@ class UtilisateurDao():
 
         return res == 1
 
-"""
-    def trouver_par_id(self, id) -> Utilisateur:
-        trouver un joueur grace à son id
+    # def trouver_par_id(self, id) -> Utilisateur:
+    #    trouver un joueur grace à son id
 
-        Parameters
-        ----------
-        id : int
-            numéro id de l'utilisateur que l'on souhaite trouver
+    #    Parameters
+    #    ----------
+    #    id : int
+    #        numéro id de l'utilisateur que l'on souhaite trouver
 
-        Returns
-        -------
-        user : Utilisateur
-            renvoie l'utilisateur que l'on cherche par id
+    #    Returns
+    #    -------
+    #    user : Utilisateur
+    #        renvoie l'utilisateur que l'on cherche par id
 
-        try:
-            with DBConnection().connection as connection:
-                with connection.cursor() as cursor:
-                    cursor.execute(
-                        "SELECT *                           "
-                        "  FROM utilisateur                      "
-                        " WHERE id = %(id)s;  ",
-                        {"id": id},
-                    )
-                    res = cursor.fetchone()
-        except Exception as e:
-            logging.info(e)
-            raise
+    #    try:
+    #        with DBConnection().connection as connection:
+    #            with connection.cursor() as cursor:
+    #                cursor.execute(
+    #                    "SELECT *                           "
+    #                    "  FROM utilisateur                      "
+    #                    " WHERE id = %(id)s;  ",
+    #                    {"id": id},
+    #                )
+    #                res = cursor.fetchone()
+    #    except Exception as e:
+    #        logging.info(e)
+    #        raise
 
-        utilisateur = None
-        if res:
-            utilisateur = Utilisateur(
-                id=res["id"],
-                mdp=res["mdp"],
-                pseudo=res["pseudo"],
-            )
-
-        return utilisateur
-"""
+    #    utilisateur = None
+    #    if res:
+    #        utilisateur = Utilisateur(
+    #            id=res["id"],
+    #            mdp=res["mdp"],
+    #            pseudo=res["pseudo"],
+    #        )
+    #
+    #    return utilisateur
 
     def lister_tous(self) -> list[Utilisateur]:
         """lister tous les joueurs
