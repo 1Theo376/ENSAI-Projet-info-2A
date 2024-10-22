@@ -84,6 +84,37 @@ class MangaDao(metaclass=Singleton):
                 genre=res["genre"],
             )
         return manga
+        
+    def rechercher_manga_par_titre(self, titre):
+        """Recherche et renvoie un manga par son titre
+
+        Parameters
+        ---------
+        titre: str
+            titre du manga qu'on veut rechercher
+
+        Returns
+        -------
+        manga: Manga
+            renvoie le manga
+        """
+        try:
+            with DBConnection().connection as connection:
+                with connection.cursor() as cursor:
+                    cursor.execute(
+                        "Select titre",
+                        "From manga",
+                        "Where titre LIKE '%(titre)%' ",
+                        {"titre": titre},
+                    )
+                    res = cursor.fetchone
+        except Exception as e:
+            logging.info(e)
+            raise
+        liste_manga = []
+        if res:
+            liste_manga = [res[titre]]
+        return liste_manga
 
     @log
     def inserer_mangas(self, fichier):
