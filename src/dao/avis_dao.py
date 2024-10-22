@@ -22,7 +22,7 @@ class AvisDAO:
         res = None
 
         try:
-            with DBconnection() as connection:
+            with DBConnection() as connection:
                 with connection.cursor() as cursor:
                     cursor.execute(
                         "INSERT INTO avis (id_avis, texte) VALUES "
