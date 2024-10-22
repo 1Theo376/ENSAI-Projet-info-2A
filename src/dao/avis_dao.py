@@ -22,7 +22,7 @@ class AvisDAO:
         res = None
 
         try:
-            with self.connecter() as connection:
+            with DBconnection() as connection:
                 with connection.cursor() as cursor:
                     cursor.execute(
                         "INSERT INTO avis (id_avis, texte) VALUES "
@@ -128,7 +128,7 @@ class AvisDAO:
                         "   WHERE id_avis      = %(id_avis)s,        ",
                         {
                             "texte": avis.texte,
-                            "avis": avis.id_avis,
+                            "id_avis": avis.id_avis,
                         },
                     )
                     res = cursor.rowcount
@@ -137,20 +137,35 @@ class AvisDAO:
 
             return res == 1
 
-    def consulter_avis(self,avis):
+    def consulter_avis(self, id_avis):
         """Consultation de l'avis voulu
         Parameters
         ----------
-        avis : Avis
+        id_avis : int
 
         Returns
         --------
-        JE SAIS PAS ENCORE
+        Avis ou None
         """
 
+        Avis = None
+
         try:
-            with DSConnection().connection as connection:
+            with DBConnection().connection as connection:
                 with connection.cursor() as cursor:
                     cursor.execute(
-                        
+                        "SELECT *                       "
+                        "FROM avis                      "
+                        "WHERE id_avis = %(id_avis)s,     ",
+                        {"id_avis": id_avis},
                     )
+                    res = cursor.fetchone()
+
+                    if res:
+                        avis = Avis(id_avis=res["id_avis"], texte=res["texte"])
+
+        except Exception as e:
+            logging.info(e)
+            raise
+
+        return avis
