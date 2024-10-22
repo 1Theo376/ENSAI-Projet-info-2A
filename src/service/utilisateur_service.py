@@ -31,15 +31,9 @@ class UtilisateurService:
 
     def supprimer_compte(self, utilisateur) -> bool:
         """Supprimer le compte d'un utilisateur"""
-        if self.se_connecter(utilisateur.pseudo, utilisateur.mdp):
-            return UtilisateurDao().supprimer(utilisateur)
-        else:
-            return None
+        return UtilisateurDao().supprimer(utilisateur)
 
     def modifier_compte(self, utilisateur) -> Utilisateur:
         """Modification du compte d'un utilisateur"""
-        if self.se_connecter(utilisateur.pseudo, utilisateur.mdp):
-            utilisateur.mdp = hash_password(utilisateur.mdp, utilisateur.pseudo)
-            return utilisateur if Utilisateur().modifier(utilisateur) else None
-        else:
-            return None
+        utilisateur.mdp = hash_password(utilisateur.mdp, utilisateur.pseudo)
+        return utilisateur if Utilisateur().modifier(utilisateur) else None
