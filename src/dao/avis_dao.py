@@ -79,7 +79,7 @@ class AvisDAO:
 
         return Avis
 
-    def supprimer_avis(self, Avis) -> bool:
+    def supprimer_avis(self, avis) -> bool:
         """Suppression d'un avis dans la base de données
 
         Parameters
@@ -91,7 +91,7 @@ class AvisDAO:
             with DBConnection().connection as connection:
                 with connection.cursor as cursor:
                     cursor.execute(
-                        "DELETE FROM Avis                           "
+                        "DELETE FROM avis                           "
                         "WHERE id_avis= %(id_avis)s                      ",
                         {"id_avis": Avis.id_avis},
                     )
@@ -102,18 +102,31 @@ class AvisDAO:
 
         return res > 0
 
-    def consulter_avis(self, id_avis):
-        """ Permet de consulter un avis de la base de données
-
+    def modifier_avis(self, avis) -> bool:
+        """Modification d'un avis dans la base de données
         Parameters
-        ------------
-            Avis ou None
-            Affiche l'avis que l'on recherche, ou None sinon
+        ----------
+        avis : Avis
+
+        Returns
+        -------
+        True si l'avis a bien été modifié, False sinon
         """
 
+        res = None
+
         try:
-            with DBConnection().connexion as connection:
-                with connection.cursor as cursor:
+            with DBConnexion().connection as connection:
+                with connexion.cursor() as cursor:
                     cursor.execute(
-                        
-                    )    
+                        "UPDATE avis                                     "
+                        "   WHERE id_avis      = %(id_avis)s,        ",
+                        {
+                            "texte": avis.texte,
+                        },
+                    )
+                    res = cursor.rowcount
+        except Exception as e:
+            logging.info(e)
+
+            return res == 1
