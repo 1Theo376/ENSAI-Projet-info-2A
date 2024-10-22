@@ -13,14 +13,14 @@ Classe contenant les méthodes de service de collection physique
         """
         return self.dao.CollectionPhysiqueDAO.supprimer_collectionphys(collectionphys)
 
-    def créer_collectionphys(self, id_collectionphysique, titre_collection, desc_collection) :
+    def créer_collectionphys(self, id_collectionphysique, titre_collection, desc_collection):
         """
         """
         nouvelle_collection_phys = Collection_physique(
             id_collectionphysique=id_collectionphysique,
             titre_collection=titre_collection,
             desc_collection=desc_collection,
-            Liste_manga=[],
+            Liste_manga=[]
 
         )
 

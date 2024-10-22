@@ -1,6 +1,7 @@
 from manga import Manga
 from CollectionCoherente import CollectionCoherente
 
+
 class CollectionCoherenteService:
     """
 Classe contenant les méthodes de service de collection physique
@@ -12,8 +13,7 @@ Classe contenant les méthodes de service de collection physique
         """
         return self.dao.CollectionCoherenteDAO.supprimer_collection(CollectionC)
 
-
-    def créer_collectionphys(self, id_collectionphysique, titre_collection, desc_collection ) :
+    def créer_collectionphys(self, id_collectionphysique, titre_collection, desc_collection):
         """
         """
         nouvelle_collection_cohe = CollectionCoherente(
@@ -26,12 +26,12 @@ Classe contenant les méthodes de service de collection physique
 
         return nouvelle_collection_cohe if self.dao.CollectionCoherenteDAO.créer_collection(nouvelle_collection_cohe) else None
 
-    def supprimer_mangaposs(self, CollectionC, MangaC) -> bool:
+    def supprimer_mangaposs(self, CollectionC, MangaC: Manga) -> bool:
         """
         """
         return self.dao.CollectionCoherenteDAO.supprimer_manga(CollectionC, MangaC)
 
-    def ajouter_mangaposs(self, CollectionC, MangaC) -> bool:
+    def ajouter_mangaposs(self, CollectionC, MangaC: Manga) -> bool:
         """
         """
         self.CollectionC.Liste_manga.append(MangaC)
