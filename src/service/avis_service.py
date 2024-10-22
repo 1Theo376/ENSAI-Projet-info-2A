@@ -5,7 +5,7 @@ class AvisService:
     """Classe contenant les méthodes de service des avis"""
 
     def rediger_avis(self, texte):
-        """Service permettant de rédiger un avis
+        """Rédaction d'un avis
         Parameters
         ----------
         texte : str
@@ -24,5 +24,8 @@ class AvisService:
 
     return nouvel_avis if AvisDAO().creer_avis(nouvel_avis) else None
 
+    def supprimer_avis(self, avis):
+        """Suppression d'un avis"""
+        return self.dao.avis_dao.supprimer_avis(avis)
 
             
