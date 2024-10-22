@@ -20,9 +20,6 @@ class UtilisateurService:
             mdp=hash_password(mdp, pseudo),
             id=id,
         )
-        if self.pseudo_deja_utilise(nouveau_utilisateur.pseudo):
-            raise ValueError("Ce pseudo est déjà utilisé, veuillez en choisir un autre")
-
         return nouveau_utilisateur if UtilisateurDao().creer(nouveau_utilisateur) else None
 
     def se_connecter(self, pseudo, mdp) -> Utilisateur:
