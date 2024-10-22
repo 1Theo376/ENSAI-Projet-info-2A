@@ -84,7 +84,11 @@ class AvisDAO:
 
         Parameters
         -----------
-            True si l'avis a bien été supprimé
+            avis : Avis
+
+        Returns
+        ---------
+            True si l'avis a bien été supprimé, false sinon
         """
 
         try:
@@ -132,3 +136,21 @@ class AvisDAO:
             logging.info(e)
 
             return res == 1
+
+    def consulter_avis(self,avis):
+        """Consultation de l'avis voulu
+        Parameters
+        ----------
+        avis : Avis
+
+        Returns
+        --------
+        JE SAIS PAS ENCORE
+        """
+
+        try:
+            with DSConnection().connection as connection:
+                with connection.cursor() as cursor:
+                    cursor.execute(
+                        
+                    )
