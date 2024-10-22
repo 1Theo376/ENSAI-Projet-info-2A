@@ -160,7 +160,7 @@ class CollectionPhysiqueDAO():
             with DBConnection().connection as connection:
                 with connection.cursor() as cursor:
                     cursor.execute(
-                        "INSERT INTO association_manga_collection_coherente(id_collec_physique, id_manga_physique) VALUES"
+                        "INSERT INTO association_manga_collection_physique(id_collec_physique, id_manga_physique) VALUES"
                         "(%(idc)s, %(idm)s) "
                         "  RETURNING id_collec_physique, id_manga_physique; ",
                         {

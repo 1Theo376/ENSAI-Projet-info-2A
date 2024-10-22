@@ -67,7 +67,7 @@ class UtilisateurDao():
             with DBConnection().connection as connection:
                 with connection.cursor() as cursor:
                     cursor.execute(
-                        "UPDATE utilisateur                                      "
+                        "UPDATE utilisateur                                 "
                         "   SET pseudo      = %(pseudo)s,                   "
                         "       mdp         = %(mdp)s,                      "
                         " WHERE id = %(id)s;                  ",
