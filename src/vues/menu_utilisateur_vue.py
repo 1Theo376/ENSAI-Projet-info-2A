@@ -3,11 +3,11 @@ from InquirerPy import inquirer
 from view.vue_abstraite import VueAbstraite
 from view.session import Session
 
-from service.joueur_service import JoueurService
+from service.utilisateur_service import UtilisateurService
 
 
-class MenuJoueurVue(VueAbstraite):
-    """Vue du menu du joueur
+class MenuUtilisateurVue(VueAbstraite):
+    """Vue du menu de l'utilisateur
 
     Attributes
     ----------
@@ -29,7 +29,7 @@ class MenuJoueurVue(VueAbstraite):
             Retourne la vue choisie par l'utilisateur dans le terminal
         """
 
-        print("\n" + "-" * 50 + "\nMenu Joueur\n" + "-" * 50 + "\n")
+        print("\n" + "-" * 50 + "\nMenu Utilisateur\n" + "-" * 50 + "\n")
 
         choix = inquirer.select(
             message="Faites votre choix : ",
@@ -49,7 +49,7 @@ class MenuJoueurVue(VueAbstraite):
 
             case "Accéder à mon profil":
                 pass
-                # return MenuJoueurVue(Session().afficher())
+                # return MenuUtilisateurVue(Session().afficher())
 
             case "Accéder à la section recherche":
                 from vues.recherche_vue import RechercheVue
