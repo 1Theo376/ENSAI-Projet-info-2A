@@ -46,7 +46,7 @@ class CollectionPhysiqueDAO():
     #
     #    return Collection
 
-    def supprimer_collectionphys(self, CollectionPhysique) -> bool:
+    def supprimer_collectionphys(self, CollectionP: Collection_physique) -> bool:
         """Suppression d'une collection dans la base de données
 
         Parameters
@@ -65,7 +65,7 @@ class CollectionPhysiqueDAO():
                     cursor.execute(
                         "DELETE FROM collection_physique                  "
                         " WHERE id_collec_coherente=%(id)s      ",
-                        {"id": CollectionPhysique.id_collection},
+                        {"id": CollectionP.id_collection},
                     )
                     res = cursor.rowcount
         except Exception as e:
@@ -74,7 +74,7 @@ class CollectionPhysiqueDAO():
 
         return res > 0
 
-    def créer_collectionphys(self, CollectionP) -> bool:
+    def créer_collectionphys(self, CollectionP: Collection_physique) -> bool:
         """Creation d'un joueur dans la base de données
 
         Parameters
@@ -113,7 +113,7 @@ class CollectionPhysiqueDAO():
 
         return created
 
-    def supprimer_mangaposs(self, CollectionP, MangaPoss) -> bool:
+    def supprimer_mangaposs(self, CollectionP: Collection_physique, MangaPoss: MangaPossede) -> bool:
         """Suppression d'un manga d'une collection
 
         Parameters
@@ -141,7 +141,7 @@ class CollectionPhysiqueDAO():
             raise
         return res > 0
 
-    def ajouter_mangaposs(self, CollectionP, MangaPoss) -> bool:
+    def ajouter_mangaposs(self, CollectionP: Collection_physique, MangaPoss: MangaPossede) -> bool:
         """Creation d'un joueur dans la base de données
 
         Parameters
