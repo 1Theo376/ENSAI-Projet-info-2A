@@ -61,11 +61,11 @@ class AvisDAO:
         avis = None
 
         try:
-            with DBConnection().connexion as connexion:
-                with connexion.cursor() as cursor:
+            with DBConnection().connection as connection:
+                with connection.cursor() as cursor:
                     cursor.execute(
                         " SELECT *                           "
-                        " FROM Avis                      "
+                        " FROM avis                      "
                         " WHERE id_avis = %(id_avis)s;  ",
                         {"id_avis": id_avis},
                     )
@@ -74,10 +74,10 @@ class AvisDAO:
             logging.info(e)
             raise
 
-            if res:
-                avis = Avis(id_avis=res["id_avis"], texte=res["texte"])
+        if res:
+            avis = Avis(id_avis=res["id_avis"], texte=res["texte"])
 
-        return Avis
+        return avis
 
     def supprimer_avis(self, avis) -> bool:
         """Suppression d'un avis dans la base de données
@@ -89,11 +89,11 @@ class AvisDAO:
 
         try:
             with DBConnection().connection as connection:
-                with connection.cursor as cursor:
+                with connection.cursor() as cursor:
                     cursor.execute(
                         "DELETE FROM avis                           "
                         "WHERE id_avis= %(id_avis)s                      ",
-                        {"id_avis": Avis.id_avis},
+                        {"id_avis": avis.id_avis},
                     )
                     res = cursor.rowcount
         except Exception as e:
@@ -116,13 +116,15 @@ class AvisDAO:
         res = None
 
         try:
-            with DBConnexion().connection as connection:
-                with connexion.cursor() as cursor:
+            with DBConnection().connection as connection:
+                with connection.cursor() as cursor:
                     cursor.execute(
                         "UPDATE avis                                     "
+                        "SET texte = %(texte)s,                        "
                         "   WHERE id_avis      = %(id_avis)s,        ",
                         {
                             "texte": avis.texte,
+                            "avis": avis.id_avis,
                         },
                     )
                     res = cursor.rowcount
