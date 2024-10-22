@@ -7,7 +7,7 @@ from manga_possede import MangaPossede
 
 
 class CollectionPhysiqueDAO():
-    """Classe contenant les méthodes pour accéder aux collections du joueur"""
+    """Classe contenant les méthodes pour accéder aux collections de l'utilisateur"""
 
     # def trouver_par_idphys(self, id_collection) -> Collection_physique:
     #    """trouver une collectionr grace à son id
@@ -47,7 +47,7 @@ class CollectionPhysiqueDAO():
     #    return Collection
 
     def supprimer_collectionphys(self, CollectionP: Collection_physique) -> bool:
-        """Suppression d'une collection dans la base de données
+        """Suppression d'une collection physique dans la base de données
 
         Parameters
         ----------
@@ -75,7 +75,7 @@ class CollectionPhysiqueDAO():
         return res > 0
 
     def créer_collectionphys(self, CollectionP: Collection_physique) -> bool:
-        """Creation d'un joueur dans la base de données
+        """Creation d'une collection physique dans la base de données
 
         Parameters
         ----------
@@ -146,7 +146,7 @@ class CollectionPhysiqueDAO():
 
         Parameters
         ----------
-        user : Utilisateur
+
 
         Returns
         -------

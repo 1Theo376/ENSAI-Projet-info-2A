@@ -50,7 +50,7 @@ class CollectionCoherenteDAO():
     #      return Collection
 
     def supprimer_collection(self, CollectionC: CollectionCoherente) -> bool:
-        """Suppression d'une collection dans la base de données
+        """Suppression d'une collection coherente dans la base de données
 
         Parameters
         ----------
@@ -78,7 +78,7 @@ class CollectionCoherenteDAO():
         return res > 0
 
     def créer_collection(self, CollectionC: CollectionCoherente) -> bool:
-        """Creation d'un joueur dans la base de données
+        """Creation d'une collectiopn coherente dans la base de données
 
         Parameters
         ----------
@@ -117,7 +117,7 @@ class CollectionCoherenteDAO():
         return created
 
     def supprimer_manga(self, CollectionC: CollectionCoherente, MangaC: Manga) -> bool:
-        """Suppression d'un manga d'une collection
+        """Suppression d'un manga d'une collection coherente
 
         Parameters
         ----------
@@ -145,7 +145,7 @@ class CollectionCoherenteDAO():
         return res > 0
 
     def ajouter_manga(self, CollectionC: CollectionCoherente, MangaC: Manga) -> bool:
-        """Ajout d'un manga dans une collection
+        """Ajout d'un manga dans une collection coherente
 
         Parameters
         ----------
