@@ -9,44 +9,45 @@ from manga import Manga
 class CollectionCoherenteDAO():
     """Classe contenant les méthodes pour accéder aux collections du joueur"""
 
-    def trouver_par_id(self, id_collection) -> CollectionCoherente:
-        """trouver une collectionr grace à son id
-
-        Parameters
-        ----------
-        id_collection : int
-            numéro id de la collection que l'on souhaite trouver
-
-        Returns
-        -------
-        Colection : CollectionCoherente
-            renvoie la collection que l'on cherche par id
-        """
-        try:
-            with DBConnection().connection as connection:
-                with connection.cursor() as cursor:
-                    cursor.execute(
-                        "SELECT id_utilisateur, titre_collection, description_collection "
-                        "  FROM collection_coherente                      "
-                        " JOIN association_manga_collection_coherente using(id_collec_coherente)"
-                        "JOIN manga"
-                        " WHERE id_collection = %(id)s;  ",
-                        {"id": id_collection},
-                    )
-                    res = cursor.fetchone()
-        except Exception as e:
-            logging.info(e)
-            raise
-
-        Collection = None
-        if res:
-            Collection = CollectionCoherente(
-                id_collection_coherente=res["id_collection"],
-                titre_collection=res["titre_collection"],
-                desc_collection=res["desc_collection"],
-            )
-
-        return Collection
+    # def trouver_par_id(self, id_collection) -> CollectionCoherente:
+    #    """trouver une collectionr grace à son id
+    #
+    #    Parameters
+    #    ----------
+    #    id_collection : int
+    #        numéro id de la collection que l'on souhaite trouver
+    #
+    #       Returns
+    #       -------
+    #       Colection : CollectionCoherente
+    #           renvoie la collection que l'on cherche par id
+    #       """
+    #       try:
+    #          with DBConnection().connection as connection:
+    #               with connection.cursor() as cursor:
+    #                   cursor.execute(
+    #                      "SELECT id_utilisateur, titre_collection, description_collection "
+    #                       "  FROM collection_coherente                      "
+    #                       " JOIN association_manga_collection_coherente u
+    # sing(id_collec_coherente)"
+    #                      "JOIN manga using(id_manga)"
+    #                       " WHERE id_collection = %(id)s;  ",
+    #                       {"id": id_collection},
+    #                   )
+    #                  res = cursor.fetchone()
+    #       except Exception as e:
+    #           logging.info(e)
+    #           raise
+    #
+    #       Collection = None
+    #      if res:
+    #           Collection = CollectionCoherente(
+    #                id_collection_coherente=res["id_collection"],
+    #               titre_collection=res["titre_collection"],
+    #               desc_collection=res["desc_collection"],
+    #               Liste_manga=None,
+    #
+    #      return Collection
 
     def supprimer_collection(self, CollectionC) -> bool:
         """Suppression d'une collection dans la base de données

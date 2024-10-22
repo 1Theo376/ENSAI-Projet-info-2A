@@ -20,7 +20,7 @@ Classe contenant les méthodes de service de collection physique
             id_collectionphysique=id_collectionphysique,
             titre_collection=titre_collection,
             desc_collection=desc_collection,
-            Liste_manga=None
+            Liste_manga=[],
 
         )
 

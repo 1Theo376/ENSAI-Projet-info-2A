@@ -46,12 +46,12 @@ class CollectionCoherente:
                  id_collectioncoherente: int,
                  titre_collection: str,
                  desc_collection: str,
-                 Liste_manga: list[Manga]):
+                 Liste_manga=[]):
         """
         Initialise un nouvel objet CollectionCoherente
         """
 
         self.id_collectioncoherente = id_collectioncoherente
         self.titre_collection = titre_collection
-        self. desc_collection = desc_collection
+        self.desc_collection = desc_collection
         self.Liste_manga = Liste_manga

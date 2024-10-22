@@ -9,42 +9,42 @@ from manga_possede import MangaPossede
 class CollectionPhysiqueDAO():
     """Classe contenant les méthodes pour accéder aux collections du joueur"""
 
-    def trouver_par_idphys(self, id_collection) -> Collection_physique:
-        """trouver une collectionr grace à son id
-
-        Parameters
-        ----------
-        id_collection : int
-            numéro id de la collection que l'on souhaite trouver
-
-        Returns
-        -------
-        Colection : Collection_physique
-            renvoie la collection que l'on cherche par id
-        """
-        try:
-            with DBConnection().connection as connection:
-                with connection.cursor() as cursor:
-                    cursor.execute(
-                        "SELECT *                           "
-                        "  FROM collection_physique                     "
-                        " WHERE id_collection = %(id)s;  ",
-                        {"id": id_collection},
-                    )
-                    res = cursor.fetchone()
-        except Exception as e:
-            logging.info(e)
-            raise
-
-        Collection = None
-        if res:
-            Collection = Collection_physique(
-                id_collection_coherente=res["id_collection"],
-                titre_collection=res["titre_collection"],
-                desc_collection=res["desc_collection"],
-            )
-
-        return Collection
+    # def trouver_par_idphys(self, id_collection) -> Collection_physique:
+    #    """trouver une collectionr grace à son id
+    #
+    #        Parameters
+    #        ----------
+    #        id_collection : int
+    #            numéro id de la collection que l'on souhaite trouver
+    #
+    #        Returns
+    #        -------
+    #        Colection : Collection_physique
+    #            renvoie la collection que l'on cherche par id
+    #        """
+    #        try:
+    #            with DBConnection().connection as connection:
+    #                with connection.cursor() as cursor:
+    #                    cursor.execute(
+    #                        "SELECT *                           "
+    #                        "  FROM collection_physique                     "
+    #                        " WHERE id_collection = %(id)s;  ",
+    #                        {"id": id_collection},
+    #                    )
+    #                    res = cursor.fetchone()
+    #        except Exception as e:
+    #           logging.info(e)
+    #            raise
+    #
+    #        Collection = None
+    #        if res:
+    #            Collection = Collection_physique(
+    #                id_collection_coherente=res["id_collection"],
+    #                titre_collection=res["titre_collection"],
+    #            desc_collection=res["desc_collection"],
+    #        )
+    #
+    #    return Collection
 
     def supprimer_collectionphys(self, CollectionPhysique) -> bool:
         """Suppression d'une collection dans la base de données
