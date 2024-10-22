@@ -98,7 +98,7 @@ class CollectionCoherenteDAO():
                     cursor.execute(
                         "INSERT INTO CollectionCoherente(id_collec_coherente, titre_collection, description_collection) VALUES"
                         "(%(id)s, %(titre)s, %(desc)s) "
-                        "  RETURNING id; ",
+                        "  RETURNING id_collec_coherente; ",
                         {
                             "id": CollectionC.id_collectioncoherente,
                             "titre": CollectionC.titre_collection,
@@ -111,7 +111,7 @@ class CollectionCoherenteDAO():
 
         created = False
         if res:
-            CollectionC.id = res["id"]
+            CollectionC.id = res["id_collec_coherente"]
             created = True
 
         return created

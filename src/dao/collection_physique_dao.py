@@ -93,9 +93,9 @@ class CollectionPhysiqueDAO():
             with DBConnection().connection as connection:
                 with connection.cursor() as cursor:
                     cursor.execute(
-                        "INSERT INTO collection_physique (id_collec_coherente, titre_collection, description_collection) VALUES"
+                        "INSERT INTO collection_physique (id_collec_physique, titre_collection, description_collection) VALUES"
                         "(%(id)s, %(titre)s, %(desc)s) "
-                        "  RETURNING id; ",
+                        "  RETURNING id_collec_physique; ",
                         {
                             "id": CollectionP.id_collectionphysique,
                             "titre": CollectionP.titre_collection,
@@ -131,8 +131,8 @@ class CollectionPhysiqueDAO():
                     # Supprimer le manga d'une collection
                     cursor.execute(
                         "DELETE FROM association_manga_collection_physique                 "
-                        " WHERE (id_collec_coherente=%(id_collec_coherente)s and id_manga_physique=%(idm)s ",
-                        {"id_collec_coherente": CollectionP.id_collectionphysique,
+                        " WHERE (id_collec_physique=%(id_collec_coherente)s and id_manga_physique=%(idm)s ",
+                        {"id_collec_physique": CollectionP.id_collectionphysique,
                          "idm": MangaPoss.id_mangapossede},
                     )
                     res = cursor.rowcount
