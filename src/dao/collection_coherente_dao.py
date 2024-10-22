@@ -82,7 +82,7 @@ class CollectionCoherenteDAO():
 
         Parameters
         ----------
-        user : Utilisateur
+
 
         Returns
         -------
@@ -145,11 +145,11 @@ class CollectionCoherenteDAO():
         return res > 0
 
     def ajouter_manga(self, CollectionC: CollectionCoherente, MangaC: Manga) -> bool:
-        """Creation d'un joueur dans la base de données
+        """Ajout d'un manga dans une collection
 
         Parameters
         ----------
-        user : Utilisateur
+
 
         Returns
         -------

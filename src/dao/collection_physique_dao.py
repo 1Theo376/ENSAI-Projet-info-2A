@@ -79,7 +79,7 @@ class CollectionPhysiqueDAO():
 
         Parameters
         ----------
-        user : Utilisateur
+
 
         Returns
         -------
@@ -142,7 +142,7 @@ class CollectionPhysiqueDAO():
         return res > 0
 
     def ajouter_mangaposs(self, CollectionP: Collection_physique, MangaPoss: MangaPossede) -> bool:
-        """Creation d'un joueur dans la base de données
+        """Ajout d'un manga dans une collection
 
         Parameters
         ----------
