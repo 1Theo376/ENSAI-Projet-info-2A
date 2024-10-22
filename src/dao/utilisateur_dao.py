@@ -145,7 +145,7 @@ class UtilisateurDao():
             logging.info(e)
             raise
 
-        liste_utilisateur = []
+        liste_utilisateurs = []
 
         if res:
             for row in res:
