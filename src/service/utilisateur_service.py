@@ -16,7 +16,8 @@ class UtilisateurService:
 
     def creer_compte(self, pseudo, mdp) -> Utilisateur:
         """Création d'un utilisateur à partir de ses attributs"""
-        nouveau_utilisateur = Utilisateur(pseudo=pseudo, mdp=hash_password(mdp, pseudo))
+        idc = UtilisateurDao().recherche_id()
+        nouveau_utilisateur = Utilisateur(id=idc, pseudo=pseudo, mdp=hash_password(mdp, pseudo))
         logging.info(
             f"Mot de passe haché : {nouveau_utilisateur.mdp} (length: {len(nouveau_utilisateur.mdp)})"
         )
@@ -24,7 +25,7 @@ class UtilisateurService:
 
     def se_connecter(self, pseudo, mdp) -> Utilisateur:
         """Se connecter à partir de pseudo et mdp"""
-        return UtilisateurDao().se_connecter(pseudo, mdp)  #return UtilisateurDao().se_connecter(pseudo, hash_password(mdp, pseudo))
+        return UtilisateurDao().se_connecter(pseudo, hash_password(mdp, pseudo))
 
     def supprimer_compte(self, utilisateur) -> bool:
         """Supprimer le compte d'un utilisateur"""

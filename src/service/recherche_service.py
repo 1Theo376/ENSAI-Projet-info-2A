@@ -1,4 +1,4 @@
-from dao.joueur_dao import JoueurDao
+from dao.utilisateur_dao import UtilisateurDao
 from manga import Manga
 from manga_dao import MangaDao
 from business_object.utilisateur import Utilisateur
@@ -34,10 +34,8 @@ class RechercheService:
         utilisateur : Utilisateur
             renvoie l'utilisateur recherché
         """
-        res = self.dao.Joueur_dao.lister_tous()
+        res = self.dao.UtilisateurDao.lister_tous()
         for pers in res:
             if pers[pseudo] == pseudo:
                 return pers
-            else:
-                print(f"Aucun utilisateur trouvé pour le pseudo '{pseudo}'.")
-        return pers
+        return print(f"Aucun utilisateur trouvé pour le pseudo '{pseudo}'.")

@@ -30,7 +30,7 @@ class InscriptionVue(VueAbstraite):
                 message="Au moins 8 caractères, incluant une majuscule et un chiffre",
             ),
         ).execute()
-        
+
 
         # Appel du service pour créer le utilisateur
         utilisateur = UtilisateurService().creer_compte(pseudo, mdp)

@@ -29,10 +29,10 @@ class UtilisateurDao(metaclass=Singleton):
             with DBConnection().connection as connection:
                 with connection.cursor() as cursor:
                     cursor.execute(
-                        "INSERT INTO utilisateur(pseudo, mdp) VALUES"  # id_utilisateur
-                        "( %(mdp)s, %(pseudo)s) "
+                        "INSERT INTO utilisateur(id_utilisateur,pseudo, mdp) VALUES"  # id_utilisateur
+                        "( %(id_utilisateur)s, %(pseudo)s, %(mdp)s) "
                         "  RETURNING id_utilisateur; ",
-                        {"pseudo": user.pseudo, "mdp": user.mdp},
+                        {"id_utilisateur": user.id, "pseudo": user.pseudo, "mdp": user.mdp},
                     )
                     res = cursor.fetchone()
         except Exception as e:
@@ -223,9 +223,9 @@ class UtilisateurDao(metaclass=Singleton):
 
         if res:
             user = Utilisateur(
+                id=res["id_utilisateur"],
                 pseudo=res["pseudo"],
                 mdp=res["mdp"],
-                id=res["id_utilisateur"],
             )
 
         return user
@@ -248,6 +248,40 @@ class UtilisateurDao(metaclass=Singleton):
             logging.info(f"Erreur lors de la suppression de tous les utilisateurs : {e}")
             raise
         return res > 0
+
+    @log
+    def recherche_id(self):
+        """lister tous les joueurs
+
+        Parameters
+        ----------
+        None
+
+        Returns
+        -------
+        liste_utilisateur : list[Joueur]
+            renvoie la liste de tous les utilisateurs dans la base de données
+        """
+
+        try:
+            with DBConnection().connection as connection:
+                with connection.cursor() as cursor:
+                    cursor.execute(
+                        "SELECT id_utilisateur                              "
+                        "  FROM utilisateur;                        "
+                    )
+                    res = cursor.fetchall()
+        except Exception as e:
+            logging.info(e)
+            raise
+
+        liste_id = []
+
+        if res:
+            for row in res:
+                liste_id.append(row["id_utilisateur"])
+
+        return len(liste_id) + 1
 
 
 user1 = Utilisateur(1, "ananas", "Emilien62")
