@@ -95,64 +95,35 @@ class MangaDao(metaclass=Singleton):
 
         Returns
         -------
-        manga: Manga
-            renvoie le manga
+        liste_mangas : list[Manga]
+           renvoie une liste de mangas correspondant au titre recherché
         """
         try:
             with DBConnection().connection as connection:
                 with connection.cursor() as cursor:
                     cursor.execute(
-                        "SELECT * FROM manga "
-                        "JOIN association_manga_theme using(id_manga)"
-                        "JOIN theme using(id_theme)"
+                        "SELECT id_manga, titre, synopsis "
+                        "FROM manga "
                         "WHERE titre LIKE %(titre)s;",
                         {"titre": "%" + titr + "%"},
                     )
-                    res1 = cursor.fetchall()
+                    res = cursor.fetchall()
         except Exception as e:
             logging.info(e)
             raise
-        try:
-            with DBConnection().connection as connection:
-                with connection.cursor() as cursor:
-                    cursor.execute(
-                        "SELECT * FROM manga "
-                        "JOIN association_manga_genre using(id_manga)"
-                        "JOIN genre using(id_genre)"
-                        "WHERE titre LIKE %(titre)s;",
-                        {"titre": "%" + titr + "%"},
-                    )
-                    res2 = cursor.fetchall()
-        except Exception as e:
-            logging.info(e)
-            raise
-        try:
-            with DBConnection().connection as connection:
-                with connection.cursor() as cursor:
-                    cursor.execute(
-                        "SELECT * FROM manga "
-                        "JOIN association_manga_auteur using(id_manga)"
-                        "JOIN auteur using(id_auteur)"
-                        "WHERE titre LIKE %(titre)s;",
-                        {"titre": "%" + titr + "%"},
-                    )
-                    res3 = cursor.fetchall()
-        except Exception as e:
-            logging.info(e)
-            raise
+
         liste_mangas = []
 
-        if res1 and res2 and res3:
+        if res:
             for row in res:
                 manga = Manga(
                     id_manga=row["id_manga"],
                     titre=row["titre"],
                     synopsis=row["synopsis"],
-                    auteur=row["auteur_name"],
-                    themes=row["theme_name"],
-                    genre=row["genre_name"],
+                    auteur=None,
+                    themes=None,
+                    genre=None,
                 )
-
                 liste_mangas.append(manga)
 
         return liste_mangas
