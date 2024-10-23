@@ -149,7 +149,7 @@ class UtilisateurDao(metaclass=Singleton):
         if res:
             for row in res:
                 utilisateur = Utilisateur(
-                    id=row["id_utilisateur"],
+#                  id=row["id_utilisateur"],
                     pseudo=row["pseudo"],
                     mdp=row["mdp"],
                 )
