@@ -5,6 +5,7 @@ from vues.collection_cohérente_vue import CollectionCohérenteVue
 from vues.collection_physique_vue import CollectionPhysiqueVue
 from vues.avis_utilisateur_vue import AvisUtilisateurVue
 from dao.collection_physique_dao import CollectionPhysiqueDAO
+from dao.collection_coherente_dao import CollectionCohérenteDAO
 
 class EcranDuProfilVue(VueAbstraite):
     """Vue de l'écran du profil
@@ -51,15 +52,19 @@ class EcranDuProfilVue(VueAbstraite):
 
             case "Créer une collection cohérente":
                 self.créer_collectionpys
-                message = inquirer.text(message="Collection physique créée : ").execute()
+                print("\nCollection physique créée")
                 return CollectionPhysiqueVue()
 
             case "Créer une collection physique":
+                self.créer_collection_cohérente
+                print("\nCollection cohérente créée")
+                return CollectionCohérenteVue
 
             case "Retour vers l'écran d'acceuil":
                 Session().deconnexion()
                 from vues.accueil.accueil_vue import AccueilVue
                 return AccueilVue()
+
             case "Supprimer mon compte":
 
 
