@@ -48,8 +48,9 @@ class MenuUtilisateurVue(VueAbstraite):
                 return AccueilVue()
 
             case "Accéder à mon profil":
-                pass
-                # return MenuUtilisateurVue(Session().afficher())
+                from vues.profil_utilisateur_vue import EcranDuProfilVue
+
+                return EcranDuProfilVue()
 
             case "Accéder à la section recherche":
                 from vues.recherche_vue import RechercheVue

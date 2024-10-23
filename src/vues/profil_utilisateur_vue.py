@@ -3,7 +3,7 @@ from vues.vue_abstraite import VueAbstraite
 from vues.session import Session
 from vues.collection_cohérente_vue import CollectionCohérenteVue
 from vues.collection_physique_vue import CollectionPhysiqueVue
-from vues.avis_utilisateur_vue import AvisUtilisateurVue
+from vues.avis_utilisateur_vue import MenuAvis
 from dao.collection_physique_dao import CollectionPhysiqueDAO
 from dao.collection_coherente_dao import CollectionCohérenteDAO
 from dao.utilisateur_dao import UtilisateurDao
@@ -50,7 +50,7 @@ class EcranDuProfilVue(VueAbstraite):
                 return CollectionPhysiqueVue()
 
             case "Consulter ses avis":
-                return AvisUtilisateurVue()
+                return MenuAvis()
 
             case "Créer une collection cohérente":
                 self.créer_collectionpys()

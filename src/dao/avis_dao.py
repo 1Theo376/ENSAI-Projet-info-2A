@@ -169,3 +169,24 @@ class AvisDAO:
             raise
 
         return avis
+
+    def recuperer_avis_utilisateur(self, id_utilisateur):
+        """Récupère tous les avis d'un utilisateur"""
+        avis_liste = []
+        try:
+            with DBConnection().connection as connection:
+                with connection.cursor() as cursor:
+                    cursor.execute(
+                        "SELECT * FROM avis WHERE id_utilisateur = %(id_utilisateur)s ORDER BY id_avis;",
+                        {"id_utilisateur": id_utilisateur},
+                    )
+                    result = cursor.fetchall()
+
+                    for row in result:
+                        avis = Avis(id_avis=row["id_avis"], texte=row["texte"])
+                        avis_liste.append(avis)
+        except Exception as e:
+            logging.info(e)
+            raise
+
+        return avis_liste
