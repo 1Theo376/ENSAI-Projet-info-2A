@@ -24,7 +24,7 @@ class UtilisateurService:
 
     def se_connecter(self, pseudo, mdp) -> Utilisateur:
         """Se connecter à partir de pseudo et mdp"""
-        return UtilisateurDao().se_connecter(pseudo, hash_password(mdp, pseudo))
+        return UtilisateurDao().se_connecter(pseudo, mdp)  #return UtilisateurDao().se_connecter(pseudo, hash_password(mdp, pseudo))
 
     def supprimer_compte(self, utilisateur) -> bool:
         """Supprimer le compte d'un utilisateur"""

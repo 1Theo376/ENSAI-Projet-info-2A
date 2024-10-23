@@ -1,9 +1,9 @@
 from InquirerPy import inquirer
 
-from vue_abstraite import VueAbstraite
+from vues.vue_abstraite import VueAbstraite
 from vues.session import Session
 
-from utilisateur_service import UtilisateurService
+from service.utilisateur_service import UtilisateurService
 
 
 class ConnexionVue(VueAbstraite):

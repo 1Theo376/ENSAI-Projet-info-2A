@@ -225,7 +225,7 @@ class UtilisateurDao(metaclass=Singleton):
             user = Utilisateur(
                 pseudo=res["pseudo"],
                 mdp=res["mdp"],
-                id=res["id_utilisateur"],
+                #               id=res["id_utilisateur"],
             )
 
         return user
