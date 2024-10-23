@@ -6,7 +6,7 @@ from vues.session import Session
 from service.utilisateur_service import UtilisateurService
 
 
-class RechercheUtilisateurVue(VueAbstraite):
+class SectionRechercheUtilisateurVue(VueAbstraite):
     """Vue du menu de l'utilisateur
 
     Attributes
@@ -29,7 +29,7 @@ class RechercheUtilisateurVue(VueAbstraite):
             Retourne la vue choisie par l'utilisateur dans le terminal
         """
 
-        print("\n" + "-" * 50 + "\nMenu Utilisateur\n" + "-" * 50 + "\n")
+        print("\n" + "-" * 50 + "\nSection recherche d'un utilisateur\n" + "-" * 50 + "\n")
 
         choix = inquirer.select(
             message="Faites votre choix : ",
@@ -49,8 +49,8 @@ class RechercheUtilisateurVue(VueAbstraite):
                 pass
 
             case "Retour au menu précédent":
-                from vues.menu_utilisateur_vue import MenuUtilisateurVue
-                return MenuUtilisateurVue()
+                from vues.rechercher_utilisateur_vue import RechercheUtilisateurVue
+                return RechercheUtilisateurVue()
 
             case "Retour au menu d'accueil":
                 Session().deconnexion()
