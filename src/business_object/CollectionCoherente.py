@@ -42,11 +42,13 @@ class CollectionCoherente:
 
     """
 
-    def __init__(self,
-                 id_collectioncoherente: int,
-                 titre_collection: str,
-                 desc_collection: str,
-                 Liste_manga=[]):
+    def __init__(
+        self,
+        id_collectioncoherente: int,
+        titre_collection: str,
+        desc_collection: str,
+        Liste_manga=[],
+    ):
         """
         Initialise un nouvel objet CollectionCoherente
         """
