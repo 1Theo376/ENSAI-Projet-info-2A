@@ -149,7 +149,7 @@ class UtilisateurDao(metaclass=Singleton):
         if res:
             for row in res:
                 utilisateur = Utilisateur(
-#                  id=row["id_utilisateur"],
+                    id=row["id_utilisateur"],
                     pseudo=row["pseudo"],
                     mdp=row["mdp"],
                 )
@@ -225,7 +225,7 @@ class UtilisateurDao(metaclass=Singleton):
             user = Utilisateur(
                 pseudo=res["pseudo"],
                 mdp=res["mdp"],
-                #               id=res["id_utilisateur"],
+                id=res["id_utilisateur"],
             )
 
         return user
@@ -248,3 +248,8 @@ class UtilisateurDao(metaclass=Singleton):
             logging.info(f"Erreur lors de la suppression de tous les utilisateurs : {e}")
             raise
         return res > 0
+
+
+user1 = Utilisateur(1, "ananas", "Emilien62")
+test = UtilisateurDao()
+test.creer(user1)

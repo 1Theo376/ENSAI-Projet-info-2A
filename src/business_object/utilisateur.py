@@ -4,8 +4,8 @@ class Utilisateur:
 
     Attributs
     ----------
-    id: int
-        identifiant de l'utilisateur
+    id : int
+        Identifiant de l'utilisateur
 
     pseudo: str
         Pseudo de l'utilisateur
@@ -15,12 +15,10 @@ class Utilisateur:
 
     """
 
-    def __init__(self, pseudo: str, mdp: str):
+    def __init__(self, id: int, pseudo: str, mdp: str):
         """
         Initialise une instance de Utilisateur
         """
+        self.id = id
         self.mdp = mdp
         self.pseudo = pseudo
-
-
-# id manquant
