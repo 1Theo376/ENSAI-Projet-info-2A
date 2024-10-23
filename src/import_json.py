@@ -11,7 +11,7 @@ def get_mangas():
     page = 1
     mangas = []
     has_next_page = True
-    while has_next_page and page != 20:
+    while has_next_page:
         try:
             req = requests.get(f"https://api.jikan.moe/v4/manga?limit={limit}&page={page}")
         except requests.exceptions.RequestException as e:
