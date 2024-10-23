@@ -41,7 +41,7 @@ class MangaDao(metaclass=Singleton):
                 id_manga=res["id_manga"],
                 titre=res["titre"],
                 synopsis=res["synopsis"],
-                auteurs=res["auteurs"],
+                auteur=res["auteur"],
                 themes=res["themes"],
                 genre=res["genre"],
             )
@@ -69,7 +69,7 @@ class MangaDao(metaclass=Singleton):
                         "Where titre = %(titre)s ",
                         {"titre": titre},
                     )
-                    res = cursor.fetchone
+                    res = cursor.fetchone()
         except Exception as e:
             logging.info(e)
             raise
@@ -79,13 +79,13 @@ class MangaDao(metaclass=Singleton):
                 id_manga=res["id_manga"],
                 titre=res["titre"],
                 synopsis=res["synopsis"],
-                auteurs=res["auteurs"],
+                auteur=res["auteur"],
                 themes=res["themes"],
                 genre=res["genre"],
             )
         return manga
 
-    def rechercher_manga_par_titre(self, titre):
+    def rechercher_manga_par_titre(self, titr):
         """Recherche et renvoie un manga par son titre
 
         Parameters
@@ -102,19 +102,60 @@ class MangaDao(metaclass=Singleton):
             with DBConnection().connection as connection:
                 with connection.cursor() as cursor:
                     cursor.execute(
-                        "Select titre",
-                        "From manga",
-                        "Where titre LIKE '%(titre)%' ",
-                        {"titre": titre},
+                        "SELECT * FROM manga "
+                        "JOIN association_manga_theme using(id_manga)"
+                        "JOIN theme using(id_theme)"
+                        "WHERE titre LIKE %(titre)s;",
+                        {"titre": "%" + titr + "%"},
                     )
-                    res = cursor.fetchone
+                    res1 = cursor.fetchall()
         except Exception as e:
             logging.info(e)
             raise
-        liste_manga = []
-        if res:
-            liste_manga = [res[titre]]
-        return liste_manga
+        try:
+            with DBConnection().connection as connection:
+                with connection.cursor() as cursor:
+                    cursor.execute(
+                        "SELECT * FROM manga "
+                        "JOIN association_manga_genre using(id_manga)"
+                        "JOIN genre using(id_genre)"
+                        "WHERE titre LIKE %(titre)s;",
+                        {"titre": "%" + titr + "%"},
+                    )
+                    res2 = cursor.fetchall()
+        except Exception as e:
+            logging.info(e)
+            raise
+        try:
+            with DBConnection().connection as connection:
+                with connection.cursor() as cursor:
+                    cursor.execute(
+                        "SELECT * FROM manga "
+                        "JOIN association_manga_auteur using(id_manga)"
+                        "JOIN auteur using(id_auteur)"
+                        "WHERE titre LIKE %(titre)s;",
+                        {"titre": "%" + titr + "%"},
+                    )
+                    res3 = cursor.fetchall()
+        except Exception as e:
+            logging.info(e)
+            raise
+        liste_mangas = []
+
+        if res1 and res2 and res3:
+            for row in res:
+                manga = Manga(
+                    id_manga=row["id_manga"],
+                    titre=row["titre"],
+                    synopsis=row["synopsis"],
+                    auteur=row["auteur_name"],
+                    themes=row["theme_name"],
+                    genre=row["genre_name"],
+                )
+
+                liste_mangas.append(manga)
+
+        return liste_mangas
 
     @log
     def inserer_mangas(self, fichier):

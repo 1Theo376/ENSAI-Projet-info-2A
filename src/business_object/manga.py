@@ -7,7 +7,7 @@ class Manga:
                  id_manga: int,
                  titre: str,
                  synopsis: str,
-                 auteurs: str,
+                 auteur: str,
                  themes: list[str],
                  genre: str):
         """
@@ -34,7 +34,7 @@ class Manga:
         self.id_manga = id_manga
         self.titre = titre
         self.synopsis = synopsis
-        self.auteurs = auteurs
+        self.auteur = auteur
         self.themes = themes
         self.genre = genre
 
@@ -46,4 +46,4 @@ class Manga:
         -------
             Une chaîne de caractères formatée contenant le titre, le genre et les auteurs du manga.
         """
-        return f"{self.titre} - Genre: {self.genre}, Auteurs: {self.auteurs}"
+        return f"{self.titre} - Genre: {self.genre}, Auteurs: {self.auteur}"

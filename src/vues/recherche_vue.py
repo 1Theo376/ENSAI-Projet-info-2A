@@ -27,8 +27,8 @@ class RechercheVue(VueAbstraite):
 
         match choix:
             case "Rechercher un manga":
-                pass
-
+                from vues.rechercher_manga_vue import RechercheMangaVue
+                return RechercheMangaVue()
             case "Rechercher un utilisateur":
                 from vues.rechercher_utilisateur_vue import RechercheUtilisateurVue
 
