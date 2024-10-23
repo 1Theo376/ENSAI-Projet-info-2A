@@ -181,12 +181,10 @@ class AvisDAO:
                         {"id_utilisateur": id_utilisateur},
                     )
                     result = cursor.fetchall()
-
                     for row in result:
                         avis = Avis(id_avis=row["id_avis"], texte=row["texte"])
                         avis_liste.append(avis)
         except Exception as e:
             logging.info(e)
             raise
-
         return avis_liste
