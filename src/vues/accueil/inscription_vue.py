@@ -1,5 +1,5 @@
-import regex
-
+# import regex
+import logging
 from InquirerPy import inquirer
 from InquirerPy.validator import PasswordValidator, EmptyInputValidator
 
@@ -14,6 +14,7 @@ class InscriptionVue(VueAbstraite):
     def choisir_menu(self):
         # Demande à l'utilisateur de saisir pseudo, mot de passe...
         pseudo = inquirer.text(message="Entrez votre pseudo : ").execute()
+        logging.info(f"Pseudo : {pseudo} (length: {len(pseudo)})")
 
         if UtilisateurService().pseudo_deja_utilise(pseudo):
             from vues.accueil.accueil_vue import AccueilVue
@@ -29,6 +30,7 @@ class InscriptionVue(VueAbstraite):
                 message="Au moins 8 caractères, incluant une majuscule et un chiffre",
             ),
         ).execute()
+
 
         # Appel du service pour créer le utilisateur
         utilisateur = UtilisateurService().creer_compte(pseudo, mdp)

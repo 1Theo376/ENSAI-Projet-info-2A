@@ -34,7 +34,7 @@ class ResetDatabase(metaclass=Singleton):
                 "data/pop_manga_auteur.sql",
                 "data/pop_manga_genre.sql",
                 "data/pop_manga_theme.sql",
-                "data/pop_manga_physique.sql",
+                "data/pop_manga_possede.sql",
                 "data/pop_manga_collection_physique.sql",
                 "data/pop_manga_collection_coherente.sql",
             ]
@@ -52,7 +52,7 @@ class ResetDatabase(metaclass=Singleton):
                 "data/pop_manga_auteur.sql",
                 "data/pop_manga_genre.sql",
                 "data/pop_manga_theme.sql",
-                "data/pop_manga_physique.sql",
+                "data/pop_manga_possede.sql",
                 "data/pop_manga_collection_physique.sql",
                 "data/pop_manga_collection_coherente.sql",
             ]

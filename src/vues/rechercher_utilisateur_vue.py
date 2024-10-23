@@ -3,7 +3,7 @@ from InquirerPy import inquirer
 from vues.vue_abstraite import VueAbstraite
 from vues.session import Session
 
-from service.utilisateur_service import UtilisateurService
+from service.recherche_service import RechercheService
 
 
 class RechercheUtilisateurVue(VueAbstraite):
@@ -29,30 +29,19 @@ class RechercheUtilisateurVue(VueAbstraite):
             Retourne la vue choisie par l'utilisateur dans le terminal
         """
 
-        print("\n" + "-" * 50 + "\nMenu Utilisateur\n" + "-" * 50 + "\n")
+        print("\n" + "-" * 50 + "\nRecherche d'un utilisateur\n" + "-" * 50 + "\n")
 
         choix = inquirer.select(
             message="Faites votre choix : ",
-            choices=[
-                "Consulter ses collections",
-                "Consulter ses avis",
-                "Retour au menu précédent",
-                "Retour au menu d'accueil",
-            ],
+            choices=["Entrer le pseudo de l'utilisateur recherché", "Retour au menu précédent"],
         ).execute()
 
         match choix:
-            case "Consulter ses collections":
-                pass
-
-            case "Consulter ses avis":
-                pass
-
+            case "Entrer le pseudo de l'utilisateur recherché":
+                pseudo = inquirer.text(message="Entrer le pseudo : ").execute()
+                if RechercheService().recherche_utilisateur(pseudo):
+                    pass
             case "Retour au menu précédent":
                 from vues.menu_utilisateur_vue import MenuUtilisateurVue
-                return MenuUtilisateurVue()
 
-            case "Retour au menu d'accueil":
-                Session().deconnexion()
-                from vues.accueil.accueil_vue import AccueilVue
-                return AccueilVue()
+                return MenuUtilisateurVue()

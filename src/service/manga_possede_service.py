@@ -1,7 +1,7 @@
 from dao.utilisateur_dao import Utilisateur
 from manga_possede import MangaPossede
 from manga_possede_dao import MangaPossedeDAO
-from utilisateur import Utilisateur
+from business_object.utilisateur import Utilisateur
 
 class MangaPossedeService:
     """Classe"""

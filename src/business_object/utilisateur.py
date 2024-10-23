@@ -4,8 +4,8 @@ class Utilisateur:
 
     Attributs
     ----------
-    id: int
-        identifiant de l'utilisateur
+    id : int
+        Identifiant de l'utilisateur
 
     pseudo: str
         Pseudo de l'utilisateur
