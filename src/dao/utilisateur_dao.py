@@ -29,14 +29,10 @@ class UtilisateurDao(metaclass=Singleton):
             with DBConnection().connection as connection:
                 with connection.cursor() as cursor:
                     cursor.execute(
-                        "INSERT INTO utilisateur(id_utilisateur, pseudo, mdp) VALUES"
-                        "(%(id_utilisateur)s, %(mdp)s, %(pseudo)s) "
+                        "INSERT INTO utilisateur(pseudo, mdp) VALUES"  # id_utilisateur
+                        "( %(mdp)s, %(pseudo)s) "
                         "  RETURNING id_utilisateur; ",
-                        {
-                            "id_utilisateur": user.id,
-                            "pseudo": user.pseudo,
-                            "mdp": user.mdp,
-                        },
+                        {"pseudo": user.pseudo, "mdp": user.mdp},
                     )
                     res = cursor.fetchone()
         except Exception as e:

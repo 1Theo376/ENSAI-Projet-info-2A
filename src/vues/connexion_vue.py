@@ -1,7 +1,7 @@
 from InquirerPy import inquirer
 
 from vue_abstraite import VueAbstraite
-from view.session import Session
+from vues.session import Session
 
 from utilisateur_service import UtilisateurService
 

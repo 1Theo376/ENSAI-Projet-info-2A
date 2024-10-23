@@ -1,7 +1,7 @@
 from dao.joueur_dao import JoueurDao
 from manga import Manga
 from manga_dao import MangaDao
-from utilisateur import Utilisateur
+from business_object.utilisateur import Utilisateur
 
 
 class RechercheService:

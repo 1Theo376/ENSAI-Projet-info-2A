@@ -15,10 +15,12 @@ class Utilisateur:
 
     """
 
-    def __init__(self, id: int, pseudo: str, mdp: str):
+    def __init__(self, pseudo: str, mdp: str):
         """
         Initialise une instance de Utilisateur
         """
-        self.id = id
         self.mdp = mdp
         self.pseudo = pseudo
+
+
+# id manquant

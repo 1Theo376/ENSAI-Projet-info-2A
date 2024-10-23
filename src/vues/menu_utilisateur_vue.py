@@ -1,7 +1,7 @@
 from InquirerPy import inquirer
 
-from view.vue_abstraite import VueAbstraite
-from view.session import Session
+from vues.vue_abstraite import VueAbstraite
+from vues.session import Session
 
 from service.utilisateur_service import UtilisateurService
 
@@ -43,7 +43,7 @@ class MenuUtilisateurVue(VueAbstraite):
         match choix:
             case "Se déconnecter":
                 Session().deconnexion()
-                from view.accueil.accueil_vue import AccueilVue
+                from vues.accueil.accueil_vue import AccueilVue
 
                 return AccueilVue()
 
