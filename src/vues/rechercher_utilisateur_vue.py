@@ -39,8 +39,22 @@ class RechercheUtilisateurVue(VueAbstraite):
         match choix:
             case "Entrer le pseudo de l'utilisateur recherché":
                 pseudo = inquirer.text(message="Entrer le pseudo : ").execute()
-                if RechercheService().recherche_utilisateur(pseudo):
-                    pass
+                pseudo.append("Retour au menu précdent")
+                if RechercheService.recherche_utilisateur(pseudo):
+                    choix = inquirer.select(
+                                            message="Choisissez un utilisateur : ",
+                                            choices=pseudo,
+                                            ).execute()
+                    if choix == "Retour au menu précdent":
+                        from view.menu_joueur_vue import MenuJoueurVue
+
+                        return MenuJoueurVue()
+
+                #from view.menu_joueur_vue import MenuJoueurVue
+
+                #pokemons_str = f"Liste des pokemons du type {choix} :\n\n"
+                #pokemons_str += str(pokemon_client.get_all_pokemon_by_types(choix))
+                #return MenuJoueurVue(pokemons_str)
             case "Retour au menu précédent":
                 from vues.menu_utilisateur_vue import MenuUtilisateurVue
 

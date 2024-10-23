@@ -281,6 +281,6 @@ class MangaDao(metaclass=Singleton):
         return total_supprime > 0
 
 
-test = MangaDao()
-test.supprimer_toutes_les_donnees()
-test.inserer_mangas("mangas.json")
+# test = MangaDao()
+# test.supprimer_toutes_les_donnees()
+# test.inserer_mangas("mangas.json")

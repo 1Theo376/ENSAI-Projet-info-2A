@@ -283,7 +283,42 @@ class UtilisateurDao(metaclass=Singleton):
 
         return len(liste_id) + 1
 
+    @log
+    def rechercher_tous_pseudo(self,pseud) -> list[Utilisateur]:
+        """lister tous les joueurs
 
-user1 = Utilisateur(1, "ananas", "Emilien62")
-test = UtilisateurDao()
-test.creer(user1)
+        Parameters
+        ----------
+        None
+
+        Returns
+        -------
+        liste_utilisateur : list[Joueur]
+            renvoie la liste de tous les utilisateurs dans la base de données
+        """
+
+        try:
+            with DBConnection().connection as connection:
+                with connection.cursor() as cursor:
+                    cursor.execute(
+                        "SELECT pseudo                              ",
+                        "  FROM utilisateur                        ",
+                        "WHERE pseudo LIKE '%(pseudo)%' ;",
+                        {"pseudo": pseud}
+                    )
+                    res = cursor.fetchall()
+        except Exception as e:
+            logging.info(e)
+            raise
+
+        liste_pseudo = []
+
+        if res:
+            for row in res:
+                liste_pseudo.append(row["pseudo"])
+
+        return liste_pseudo
+
+# user1 = Utilisateur(1, "ananas", "Emilien62")
+# test = UtilisateurDao()
+# test.creer(user1)

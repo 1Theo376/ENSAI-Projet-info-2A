@@ -1,6 +1,6 @@
 from dao.utilisateur_dao import UtilisateurDao
-from manga import Manga
-from manga_dao import MangaDao
+from business_object.manga import Manga
+from dao.manga_dao import MangaDao
 from business_object.utilisateur import Utilisateur
 
 
@@ -17,7 +17,7 @@ class RechercheService:
         -------
         manga : Manga
             renvoie le manga recherché"""
-        res = self.manga_dao.trouver_mang_par_titre(titre)
+        res = MangaDao().trouver_manga_par_titre(titre)
         if not res:
             print(f"Aucun manga trouvé pour le titre '{titre}'.")
             return None
@@ -34,8 +34,7 @@ class RechercheService:
         utilisateur : Utilisateur
             renvoie l'utilisateur recherché
         """
-        res = self.dao.UtilisateurDao.lister_tous()
-        for pers in res:
-            if pers[pseudo] == pseudo:
-                return pers
+        res = UtilisateurDao().rechercher_tous_pseudo()
+        if res:
+            return res
         return print(f"Aucun utilisateur trouvé pour le pseudo '{pseudo}'.")
