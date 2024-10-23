@@ -39,21 +39,34 @@ class RechercheUtilisateurVue(VueAbstraite):
         match choix:
             case "Entrer le pseudo de l'utilisateur recherché":
                 pseudo = inquirer.text(message="Entrer le pseudo : ").execute()
-                pseudo.append("Retour au menu précdent")
-                if RechercheService.recherche_utilisateur(pseudo):
-                    choix = inquirer.select(
+                choix2 = RechercheService().recherche_utilisateur(pseudo)
+                choix2.append("Retour au menu précédent")
+                if choix2:
+                    choix3 = inquirer.select(
                                             message="Choisissez un utilisateur : ",
-                                            choices=pseudo,
+                                            choices=choix2,
                                             ).execute()
-                    if choix == "Retour au menu précdent":
+                    if choix3 == "Retour au menu précédent":
                         from vues.menu_utilisateur_vue import MenuUtilisateurVue
 
                         return MenuUtilisateurVue()
+                    choix4 = inquirer.select(
+                                            message="Faites votre choix : ",
+                                            choices=["Consulter les collections", "Consullter les avis", "Retour au menu précédent", "Retour vers l'écran d'accueil"],
+                                            ).execute()
+                    match choix4:
+                        case "Consulter les collections":
+                            pass
+                        case "Consullter les avis":
+                            pass
+                        case "Retour au menu précédent":
+                            from vues.recherche_vue import RechercheVue
 
-                from vues.ecran_recherche_utilisateur_vue import EcranRechercheUtilisateurVue
-                return EcranRechercheUtilisateurVue()
+                            return RechercheVue()
+                        case "Retour vers l'écran d'accueil":
+                            from vues.menu_utilisateur_vue import MenuUtilisateurVue
 
-            case "Retour au menu précédent":
+                            return MenuUtilisateurVue(message)
                 from vues.menu_utilisateur_vue import MenuUtilisateurVue
 
                 return MenuUtilisateurVue()

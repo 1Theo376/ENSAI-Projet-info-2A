@@ -301,11 +301,9 @@ class UtilisateurDao(metaclass=Singleton):
             with DBConnection().connection as connection:
                 with connection.cursor() as cursor:
                     cursor.execute(
-                        "SELECT *                            ",
-                        "  FROM utilisateur                        ",
-                        "WHERE pseudo LIKE '%(pseudo)%' ;",
-                        {"pseudo": pseud}
-                    )
+                                    "SELECT * FROM utilisateur WHERE pseudo LIKE %(pseudo)s;",
+                                    {"pseudo": '%' + pseud + '%'}
+                                    )
                     res = cursor.fetchall()
         except Exception as e:
             logging.info(e)
