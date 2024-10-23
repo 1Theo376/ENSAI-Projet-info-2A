@@ -48,9 +48,9 @@ class RechercheMangaVue(VueAbstraite):
                             print("\n" + "-" * 50 + "\nInformation du manga\n" + "-" * 50 + "\n")
                             print("\n" + "-" * 50 + "\n" + manga.titre + "\n" + "-" * 50 + "\n")
                             print("\n" + "-" * 50 + "\n" + manga.synopsis + "\n" + "-" * 50 + "\n")
-                            #print("\n" + "-" * 50 + "\n" + manga.auteur + "\n" + "-" * 50 + "\n")
-                            #print("\n" + "-" * 50 + "\n" + manga.themes + "\n" + "-" * 50 + "\n")
-                            #print("\n" + "-" * 50 + "\n" + manga.genre + "\n" + "-" * 50 + "\n")
+                            # print("\n" + "-" * 50 + "\n" + manga.auteur + "\n" + "-" * 50 + "\n")
+                            # print("\n" + "-" * 50 + "\n" + manga.themes + "\n" + "-" * 50 + "\n")
+                            # print("\n" + "-" * 50 + "\n" + manga.genre + "\n" + "-" * 50 + "\n")
                             choix5 = inquirer.select(
                                                     message="Faites votre choix : ",
                                                     choices=["Retour au menu précédent"],

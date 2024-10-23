@@ -16,8 +16,7 @@ class UtilisateurService:
 
     def creer_compte(self, pseudo, mdp) -> Utilisateur:
         """Création d'un utilisateur à partir de ses attributs"""
-        idc = UtilisateurDao().recherche_id()
-        nouveau_utilisateur = Utilisateur(id=idc, pseudo=pseudo, mdp=hash_password(mdp, pseudo))
+        nouveau_utilisateur = Utilisateur(id=None, pseudo=pseudo, mdp=hash_password(mdp, pseudo))
         logging.info(
             f"Mot de passe haché : {nouveau_utilisateur.mdp} (length: {len(nouveau_utilisateur.mdp)})"
         )

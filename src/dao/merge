@@ -284,3 +284,10 @@ class MangaDao(metaclass=Singleton):
 test = MangaDao()
 test.supprimer_toutes_les_donnees()
 test.inserer_mangas("mangas.json")
+
+                        LEFT JOIN association_manga_auteur using(id_manga)
+                        LEFT JOIN auteur using(id_auteur)
+                        LEFT JOIN association_manga_theme using(id_manga)
+                        LEFT JOIN theme using(id_theme)
+                        LEFT JOIN association_manga_genre using(id_manga)
+                        LEFT JOIN genre using(id_genre)
