@@ -34,7 +34,7 @@ class RechercheService:
         utilisateur : Utilisateur
             renvoie l'utilisateur recherché
         """
-        res = UtilisateurDao().rechercher_tous_pseudo()
+        res = UtilisateurDao().rechercher_tous_pseudo(pseudo)
         if res:
-            return res
+            return pseudo in [j.pseudo for j in res]
         return print(f"Aucun utilisateur trouvé pour le pseudo '{pseudo}'.")

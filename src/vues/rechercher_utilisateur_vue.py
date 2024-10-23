@@ -46,15 +46,13 @@ class RechercheUtilisateurVue(VueAbstraite):
                                             choices=pseudo,
                                             ).execute()
                     if choix == "Retour au menu précdent":
-                        from view.menu_joueur_vue import MenuJoueurVue
+                        from vues.menu_utilisateur_vue import MenuUtilisateurVue
 
-                        return MenuJoueurVue()
+                        return MenuUtilisateurVue()
 
-                #from view.menu_joueur_vue import MenuJoueurVue
+                from vues.ecran_recherche_utilisateur_vue import EcranRechercheUtilisateurVue
+                return EcranRechercheUtilisateurVue()
 
-                #pokemons_str = f"Liste des pokemons du type {choix} :\n\n"
-                #pokemons_str += str(pokemon_client.get_all_pokemon_by_types(choix))
-                #return MenuJoueurVue(pokemons_str)
             case "Retour au menu précédent":
                 from vues.menu_utilisateur_vue import MenuUtilisateurVue
 

@@ -284,7 +284,7 @@ class UtilisateurDao(metaclass=Singleton):
         return len(liste_id) + 1
 
     @log
-    def rechercher_tous_pseudo(self,pseud) -> list[Utilisateur]:
+    def rechercher_tous_pseudo(self, pseud) -> list[Utilisateur]:
         """lister tous les joueurs
 
         Parameters
@@ -301,7 +301,7 @@ class UtilisateurDao(metaclass=Singleton):
             with DBConnection().connection as connection:
                 with connection.cursor() as cursor:
                     cursor.execute(
-                        "SELECT pseudo                              ",
+                        "SELECT *                            ",
                         "  FROM utilisateur                        ",
                         "WHERE pseudo LIKE '%(pseudo)%' ;",
                         {"pseudo": pseud}
@@ -311,13 +311,19 @@ class UtilisateurDao(metaclass=Singleton):
             logging.info(e)
             raise
 
-        liste_pseudo = []
+        liste_utilisateurs = []
 
         if res:
             for row in res:
-                liste_pseudo.append(row["pseudo"])
+                utilisateur = Utilisateur(
+                    id=row["id_utilisateur"],
+                    pseudo=row["pseudo"],
+                    mdp=row["mdp"],
+                )
 
-        return liste_pseudo
+                liste_utilisateurs.append(utilisateur)
+
+        return liste_utilisateurs
 
 # user1 = Utilisateur(1, "ananas", "Emilien62")
 # test = UtilisateurDao()
