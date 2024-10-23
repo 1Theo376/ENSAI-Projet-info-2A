@@ -2,6 +2,11 @@ import pytest
 from avis import Avis
 from avisdao import AvisDAO
 
+from utils.reset_database import ResetDatabase
+
+@pytest.fixture(autouse=True)
+def reset_db():
+    ResetDatabase.reset()
 
 @pytest.fixture
 def avis_dao():
