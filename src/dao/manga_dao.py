@@ -60,32 +60,57 @@ class MangaDao(metaclass=Singleton):
         manga: Manga
             renvoie le manga
         """
+
         try:
             with DBConnection().connection as connection:
                 with connection.cursor() as cursor:
                     cursor.execute(
-                        "Select *",
-                        "From manga",
-                        "Where titre = %(titre)s ",
+                        "SELECT id_manga, titre, synopsis, genre_name as genre, name_auteur as auteur         "
+                        "FROM manga join association_manga_genre using(id_manga) "
+                        "join genre using(id_genre)                              "
+                        "join association_manga_auteur using(id_manga)           "
+                        "join auteur using(id_auteur)                            "
+                        "WHERE titre = %(titre)s;                                ",
                         {"titre": titre},
                     )
                     res = cursor.fetchone()
+
+            with DBConnection().connection as connection:
+                with connection.cursor() as cursor:
+                    cursor.execute(
+                        "SELECT theme_name as theme                                      "
+                        "FROM manga left join association_manga_theme using(id_manga)  "
+                        "left join theme using(id_theme)                               "
+                        "WHERE titre = %(titre)s;                                 ",
+                        {"titre": titre},
+                    )
+                    res2 = cursor.fetchall()
+
         except Exception as e:
             logging.info(e)
             raise
         manga = None
+        liste_themes = []
+
+        if res2:
+            for row in res2:
+                liste_themes.append(row["theme"])
+
+        delimiter = ', '
+        liste_themes = delimiter.join(liste_themes)
+
         if res:
             manga = Manga(
                 id_manga=res["id_manga"],
-                titre=res["titre"],
-                synopsis=res["synopsis"],
-                auteur=res["auteur"],
-                themes=res["themes"],
-                genre=res["genre"],
+                titre=res.get("titre", "Titre inconnu"),  # res.get permet de donner une valeur par défaut si absent
+                synopsis=res.get("synopsis") if res.get("synopsis") is not None else "Synopsis non disponible",  # Si val=null, ce serait mieux de gérer dans la BDD et mettre none
+                auteur=res.get("auteur", "Auteur inconnu"),
+                themes=liste_themes if liste_themes else ["Thèmes non disponibles"],
+                genre=res.get("genre", "Genre non disponible")
             )
         return manga
 
-    def rechercher_manga_par_titre(self, titr):
+    def rechercher_manga_par_titre(self, titre):
         """Recherche et renvoie un manga par son titre
 
         Parameters
@@ -98,33 +123,37 @@ class MangaDao(metaclass=Singleton):
         liste_mangas : list[Manga]
            renvoie une liste de mangas correspondant au titre recherché
         """
+
         try:
             with DBConnection().connection as connection:
                 with connection.cursor() as cursor:
                     cursor.execute(
                         "SELECT id_manga, titre, synopsis "
                         "FROM manga "
-                        "WHERE titre LIKE %(titre)s;",
-                        {"titre": "%" + titr + "%"},
+                        "WHERE LOWER(titre) LIKE LOWER(%(titre)s);",
+                        {"titre": f"%{titre}%"},
                     )
+                    logging.info("Débogage : requête exécutée avec succès.")
                     res = cursor.fetchall()
+                    # logging.info(f"Débogage : res récupéré avec la valeur : {res}")
+                    liste_mangas = []
+
+                    if res is not None:
+                        for row in res:
+                            manga = Manga(
+                                id_manga=row["id_manga"],
+                                titre=row["titre"],
+                                synopsis=row["synopsis"],
+                                auteur=None,
+                                themes=None,
+                                genre=None,
+                            )
+                            liste_mangas.append(manga)
+                            #logging.info(f"Débogage : manga ajouté à liste_mangas, taille actuelle: {len(liste_mangas)}")
+
         except Exception as e:
             logging.info(e)
             raise
-
-        liste_mangas = []
-
-        if res:
-            for row in res:
-                manga = Manga(
-                    id_manga=row["id_manga"],
-                    titre=row["titre"],
-                    synopsis=row["synopsis"],
-                    auteur=None,
-                    themes=None,
-                    genre=None,
-                )
-                liste_mangas.append(manga)
 
         return liste_mangas
 
@@ -295,6 +324,6 @@ class MangaDao(metaclass=Singleton):
         return total_supprime > 0
 
 
-test = MangaDao()
-test.supprimer_toutes_les_donnees()
-test.inserer_mangas("mangas.json")
+#test = MangaDao()
+#test.supprimer_toutes_les_donnees()
+#test.inserer_mangas("mangas.json")

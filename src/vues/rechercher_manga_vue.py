@@ -1,5 +1,5 @@
 from InquirerPy import inquirer
-
+import logging
 from vues.vue_abstraite import VueAbstraite
 from service.recherche_service import RechercheService
 from dao.manga_dao import MangaDao
@@ -34,9 +34,9 @@ class RechercheMangaVue(VueAbstraite):
                                             ).execute()
                     if choix3 == "Retour au menu précédent":
                         from vues.menu_utilisateur_vue import MenuUtilisateurVue
-
                         return MenuUtilisateurVue()
-                    manga = MangaDao.trouver_manga_par_titre(choix3)
+                    logging.info(f"Débogage : manga récupéré avec la valeur : {choix3}")
+                    manga = MangaDao().trouver_manga_par_titre(choix3)
                     choix4 = inquirer.select(
                                             message="Faites votre choix : ",
                                             choices=["Ajouter à une collection", "Afficher les informations du manga", "Consulter les avis", "Ajouter un avis", "Retour au menu précédent", "Retour vers l'écran d'accueil"],
@@ -45,20 +45,19 @@ class RechercheMangaVue(VueAbstraite):
                         case "Ajouter à une collection":
                             pass
                         case "Afficher les informations du manga":
-                            print("\n" + "-" * 50 + "\nInformation du manga\n" + "-" * 50 + "\n")
-                            print("\n" + "-" * 50 + "\n" + manga.titre + "\n" + "-" * 50 + "\n")
-                            print("\n" + "-" * 50 + "\n" + manga.synopsis + "\n" + "-" * 50 + "\n")
-                            # print("\n" + "-" * 50 + "\n" + manga.auteur + "\n" + "-" * 50 + "\n")
-                            # print("\n" + "-" * 50 + "\n" + manga.themes + "\n" + "-" * 50 + "\n")
-                            # print("\n" + "-" * 50 + "\n" + manga.genre + "\n" + "-" * 50 + "\n")
+                            print("\n" + "-" * 50 + "\nInformations du manga\n" + "-" * 50 + "\n")
+                            print("Titre : " + str(manga.titre) + "\n" + "-" * 50)
+                            print("Synopsis : " + str(manga.synopsis) + "\n" + "-" * 50)
+                            print("Auteur : " + str(manga.auteur) + "\n" + "-" * 50)
+                            print("Thèmes : " + str(manga.themes) + "\n" + "-" * 50)
+                            print("Genre : " + str(manga.genre) + "\n" + "-" * 50)
                             choix5 = inquirer.select(
                                                     message="Faites votre choix : ",
                                                     choices=["Retour au menu précédent"],
                                                     ).execute()
                             if choix5:
-                                from vues.menu_utilisateur_vue import MenuUtilisateurVue
-
-                                return MenuUtilisateurVue()
+                                from vues.recherche_vue import RechercheVue
+                                return RechercheVue()
                         case "Consulter les avis":
                             pass
                         case "Ajouter un avis":

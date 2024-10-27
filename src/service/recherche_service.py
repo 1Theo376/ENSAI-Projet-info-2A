@@ -20,7 +20,7 @@ class RechercheService:
         res = MangaDao().rechercher_manga_par_titre(titre)
         if res:
             return [j.titre for j in res]
-        return print(f"Aucun utilisateur trouvé pour le pseudo '{titre}'.")
+        return f"Aucun manga trouvé pour le titre '{titre}'."
 
     def recherche_utilisateur(self, pseudo):
         """Recherche un utilisateur par son pseudo
