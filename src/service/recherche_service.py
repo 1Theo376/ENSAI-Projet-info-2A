@@ -7,7 +7,7 @@ from business_object.utilisateur import Utilisateur
 class RechercheService:
     """Classe"""
 
-    def recherche_manga_par_t(self, titre: str) -> Manga:
+    def recherche_manga_par_t(self, titre: str, n: int) -> Manga:
         """Recherche un manga par son titre
         Parameters
         ----------
@@ -19,10 +19,12 @@ class RechercheService:
             renvoie le manga recherché"""
         res = MangaDao().rechercher_manga_par_titre(titre)
         if res:
-            return [j.titre for j in res]
-        return print(f"Aucun utilisateur trouvé pour le pseudo '{titre}'.")
+            liste = [j.titre for j in res]
+            sous_liste = liste[n:n + 8]
+            return sous_liste if sous_liste else f"Aucun manga trouvé pour l'indice {n}."
+        return print(f"Aucun manga trouvé pour le titre '{titre}'.")
 
-    def recherche_utilisateur(self, pseudo):
+    def recherche_utilisateur(self, pseudo, n):
         """Recherche un utilisateur par son pseudo
         Parameters
         ----------
@@ -35,5 +37,7 @@ class RechercheService:
         """
         res = UtilisateurDao().rechercher_tous_pseudo(pseudo)
         if res:
-            return [j.pseudo for j in res]
+            liste = [j.pseudo for j in res]
+            sous_liste = liste[n:n + 8]
+            return sous_liste if sous_liste else f"Aucun manga trouvé pour l'indice {n}."
         return print(f"Aucun utilisateur trouvé pour le pseudo '{pseudo}'.")

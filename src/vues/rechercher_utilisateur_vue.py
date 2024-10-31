@@ -39,34 +39,46 @@ class RechercheUtilisateurVue(VueAbstraite):
         match choix:
             case "Entrer le pseudo de l'utilisateur recherché":
                 pseudo = inquirer.text(message="Entrer le pseudo : ").execute()
-                choix2 = RechercheService().recherche_utilisateur(pseudo)
-                choix2.append("Retour au menu précédent")
-                if choix2:
+                n = 0
+                while True:
+                    choix2 = RechercheService().recherche_utilisateur(pseudo, n)
+
+                    if not choix2:
+                        print(f"Aucun manga trouvé pour le titre '{titre}'.")
+                        break
+
+                    choix2.extend(["Afficher la page suivante", "Retour au menu précédent"])
+
                     choix3 = inquirer.select(
                                             message="Choisissez un utilisateur : ",
                                             choices=choix2,
                                             ).execute()
+
                     if choix3 == "Retour au menu précédent":
                         from vues.menu_utilisateur_vue import MenuUtilisateurVue
-
                         return MenuUtilisateurVue()
-                    choix4 = inquirer.select(
+
+                    elif choix3 == "Afficher la page suivante":
+                        n += 8
+
+                    else:
+                        choix4 = inquirer.select(
                                             message="Faites votre choix : ",
                                             choices=["Consulter les collections", "Consullter les avis", "Retour au menu précédent", "Retour vers l'écran d'accueil"],
                                             ).execute()
-                    match choix4:
-                        case "Consulter les collections":
-                            pass
-                        case "Consullter les avis":
-                            pass
-                        case "Retour au menu précédent":
-                            from vues.recherche_vue import RechercheVue
+                        match choix4:
+                            case "Consulter les collections":
+                                pass
+                            case "Consullter les avis":
+                                pass
+                            case "Retour au menu précédent":
+                                from vues.recherche_vue import RechercheVue
 
-                            return RechercheVue()
-                        case "Retour vers l'écran d'accueil":
-                            from vues.menu_utilisateur_vue import MenuUtilisateurVue
+                                return RechercheVue()
+                            case "Retour vers l'écran d'accueil":
+                                from vues.menu_utilisateur_vue import MenuUtilisateurVue
 
-                            return MenuUtilisateurVue(message)
-                from vues.menu_utilisateur_vue import MenuUtilisateurVue
+                                return MenuUtilisateurVue("Bon retour")
+                    from vues.menu_utilisateur_vue import MenuUtilisateurVue
 
-                return MenuUtilisateurVue()
+                    return MenuUtilisateurVue()

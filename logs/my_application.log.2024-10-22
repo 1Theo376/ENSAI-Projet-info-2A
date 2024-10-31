@@ -1,110 +1,1608 @@
-22/10/2024 14:26:23 - INFO     - --------------------------------------------------
-22/10/2024 14:26:23 - INFO     - Lancement Application                           
-22/10/2024 14:26:23 - INFO     - --------------------------------------------------
-22/10/2024 14:26:23 - INFO     - AccueilVue
-22/10/2024 14:26:41 - INFO     - No module named 'regex'
-22/10/2024 14:26:41 - INFO     - AccueilVue
-22/10/2024 14:26:49 - INFO     - No module named 'view.accueil.connexion_vue'
-22/10/2024 14:26:49 - INFO     - AccueilVue
-22/10/2024 14:27:02 - INFO     - Fin de l'application
-22/10/2024 14:35:29 - INFO     - --------------------------------------------------
-22/10/2024 14:35:29 - INFO     - Lancement Application                           
-22/10/2024 14:35:29 - INFO     - --------------------------------------------------
-22/10/2024 14:35:29 - INFO     - AccueilVue
-22/10/2024 14:35:36 - INFO     - No module named 'regex'
-22/10/2024 14:35:36 - INFO     - AccueilVue
-22/10/2024 14:35:38 - INFO     - No module named 'view.accueil.connexion_vue'
-22/10/2024 14:35:38 - INFO     - AccueilVue
-22/10/2024 14:38:53 - INFO     - Fin de l'application
-22/10/2024 14:55:19 - INFO     - --------------------------------------------------
-22/10/2024 14:55:19 - INFO     - Lancement Application                           
-22/10/2024 14:55:19 - INFO     - --------------------------------------------------
-22/10/2024 14:55:19 - INFO     - AccueilVue
-22/10/2024 14:55:26 - INFO     - No module named 'regex'
-22/10/2024 14:55:26 - INFO     - AccueilVue
-22/10/2024 14:58:43 - INFO     - Fin de l'application
-22/10/2024 15:50:38 - INFO     - --------------------------------------------------
-22/10/2024 15:50:38 - INFO     - Lancement Application                           
-22/10/2024 15:50:38 - INFO     - --------------------------------------------------
-22/10/2024 15:50:38 - INFO     - AccueilVue
-22/10/2024 15:50:53 - INFO     - No module named 'vues.accueil.connexion_vue'
-22/10/2024 15:50:53 - INFO     - AccueilVue
-22/10/2024 15:50:55 - INFO     - No module named 'regex'
-22/10/2024 15:50:55 - INFO     - AccueilVue
-22/10/2024 15:50:58 - INFO     - No module named 'vues.accueil.connexion_vue'
-22/10/2024 15:50:58 - INFO     - AccueilVue
-22/10/2024 15:51:00 - INFO     - No module named 'regex'
-22/10/2024 15:51:00 - INFO     - AccueilVue
-22/10/2024 15:51:03 - INFO     - No module named 'vues.accueil.connexion_vue'
-22/10/2024 15:51:03 - INFO     - AccueilVue
-22/10/2024 15:51:05 - INFO     - Fin de l'application
-22/10/2024 15:51:17 - INFO     - --------------------------------------------------
-22/10/2024 15:51:17 - INFO     - Lancement Application                           
-22/10/2024 15:51:17 - INFO     - --------------------------------------------------
-22/10/2024 15:51:17 - INFO     - AccueilVue
-22/10/2024 15:51:36 - INFO     - No module named 'vues.accueil.connexion_vue'
-22/10/2024 15:51:36 - INFO     - AccueilVue
-22/10/2024 15:51:39 - INFO     - No module named 'regex'
-22/10/2024 15:51:39 - INFO     - AccueilVue
-22/10/2024 15:51:51 - INFO     - Fin de l'application
-22/10/2024 16:41:09 - INFO     - --------------------------------------------------
-22/10/2024 16:41:09 - INFO     - Lancement Application                           
-22/10/2024 16:41:09 - INFO     - --------------------------------------------------
-22/10/2024 16:41:09 - INFO     - AccueilVue
-22/10/2024 16:41:14 - INFO     - No module named 'regex'
-22/10/2024 16:41:14 - INFO     - AccueilVue
-22/10/2024 16:41:26 - INFO     - Fin de l'application
-22/10/2024 16:44:39 - INFO     - --------------------------------------------------
-22/10/2024 16:44:39 - INFO     - Lancement Application                           
-22/10/2024 16:44:39 - INFO     - --------------------------------------------------
-22/10/2024 16:44:39 - INFO     - AccueilVue
-22/10/2024 16:44:45 - INFO     - No module named 'regex'
-22/10/2024 16:44:45 - INFO     - AccueilVue
-22/10/2024 16:45:45 - INFO     - No module named 'regex'
-22/10/2024 16:45:45 - INFO     - AccueilVue
-22/10/2024 16:45:47 - INFO     - Fin de l'application
-22/10/2024 16:45:50 - INFO     - --------------------------------------------------
-22/10/2024 16:45:50 - INFO     - Lancement Application                           
-22/10/2024 16:45:50 - INFO     - --------------------------------------------------
-22/10/2024 16:45:50 - INFO     - AccueilVue
-22/10/2024 16:45:52 - INFO     - No module named 'regex'
-22/10/2024 16:45:52 - INFO     - AccueilVue
-22/10/2024 16:48:01 - INFO     - Fin de l'application
-22/10/2024 16:48:04 - INFO     - --------------------------------------------------
-22/10/2024 16:48:04 - INFO     - Lancement Application                           
-22/10/2024 16:48:04 - INFO     - --------------------------------------------------
-22/10/2024 16:48:04 - INFO     - AccueilVue
-22/10/2024 16:48:08 - INFO     - No module named 'regex'
-22/10/2024 16:48:08 - INFO     - AccueilVue
-22/10/2024 16:48:38 - INFO     - No module named 'regex'
-22/10/2024 16:48:38 - INFO     - AccueilVue
-22/10/2024 16:48:42 - INFO     - Fin de l'application
-22/10/2024 16:51:51 - INFO     - --------------------------------------------------
-22/10/2024 16:51:51 - INFO     - Lancement Application                           
-22/10/2024 16:51:51 - INFO     - --------------------------------------------------
-22/10/2024 16:51:51 - INFO     - AccueilVue
-22/10/2024 16:51:56 - INFO     - No module named 'regex'
-22/10/2024 16:51:56 - INFO     - AccueilVue
-22/10/2024 16:53:33 - INFO     - No module named 'regex'
-22/10/2024 16:53:33 - INFO     - AccueilVue
-22/10/2024 16:54:27 - INFO     - No module named 'regex'
-22/10/2024 16:54:27 - INFO     - AccueilVue
-22/10/2024 16:55:26 - INFO     - Fin de l'application
-22/10/2024 16:57:48 - INFO     - --------------------------------------------------
-22/10/2024 16:57:48 - INFO     - Lancement Application                           
-22/10/2024 16:57:48 - INFO     - --------------------------------------------------
-22/10/2024 16:57:48 - INFO     - AccueilVue
-22/10/2024 16:57:50 - INFO     - No module named 'regex'
-22/10/2024 16:57:50 - INFO     - AccueilVue
-22/10/2024 16:57:56 - INFO     - No module named 'vues.accueil.connexion_vue'
-22/10/2024 16:57:56 - INFO     - AccueilVue
-22/10/2024 16:57:57 - INFO     - No module named 'regex'
-22/10/2024 16:57:57 - INFO     - AccueilVue
-22/10/2024 16:58:58 - INFO     - Fin de l'application
-22/10/2024 16:59:02 - INFO     - --------------------------------------------------
-22/10/2024 16:59:02 - INFO     - Lancement Application                           
-22/10/2024 16:59:02 - INFO     - --------------------------------------------------
-22/10/2024 16:59:02 - INFO     - AccueilVue
-22/10/2024 16:59:03 - INFO     - No module named 'regex'
-22/10/2024 16:59:03 - INFO     - AccueilVue
-22/10/2024 16:59:59 - INFO     - Fin de l'application
+23/10/2024 09:26:23 - INFO     - --------------------------------------------------
+23/10/2024 09:26:23 - INFO     - Lancement Application
+23/10/2024 09:26:23 - INFO     - --------------------------------------------------
+23/10/2024 09:26:23 - INFO     - AccueilVue
+23/10/2024 09:26:26 - INFO     - No module named 'regex'
+23/10/2024 09:26:26 - INFO     - AccueilVue
+23/10/2024 09:26:30 - INFO     - Fin de l'application
+23/10/2024 09:29:37 - INFO     - --------------------------------------------------
+23/10/2024 09:29:37 - INFO     - Lancement Application
+23/10/2024 09:29:37 - INFO     - --------------------------------------------------
+23/10/2024 09:29:37 - INFO     - AccueilVue
+23/10/2024 09:29:39 - INFO     - No module named 'regex'
+23/10/2024 09:29:39 - INFO     - AccueilVue
+23/10/2024 09:29:42 - INFO     - Fin de l'application
+23/10/2024 09:30:27 - INFO     - --------------------------------------------------
+23/10/2024 09:30:27 - INFO     - Lancement Application
+23/10/2024 09:30:27 - INFO     - --------------------------------------------------
+23/10/2024 09:30:27 - INFO     - AccueilVue
+23/10/2024 09:30:29 - INFO     - No module named 'utils.accueil'
+23/10/2024 09:30:29 - INFO     - AccueilVue
+23/10/2024 09:36:52 - INFO     - Fin de l'application
+23/10/2024 09:36:57 - INFO     - --------------------------------------------------
+23/10/2024 09:36:57 - INFO     - Lancement Application
+23/10/2024 09:36:57 - INFO     - --------------------------------------------------
+23/10/2024 09:36:57 - INFO     - AccueilVue
+23/10/2024 09:36:58 - INFO     - cannot import name 'Utilisateur' from 'utilisateur' (unknown location)
+23/10/2024 09:36:58 - INFO     - AccueilVue
+23/10/2024 09:39:56 - INFO     - Fin de l'application
+23/10/2024 09:40:04 - INFO     - --------------------------------------------------
+23/10/2024 09:40:04 - INFO     - Lancement Application
+23/10/2024 09:40:04 - INFO     - --------------------------------------------------
+23/10/2024 09:40:04 - INFO     - AccueilVue
+23/10/2024 09:40:06 - INFO     - InscriptionVue
+23/10/2024 09:40:46 - INFO     -     UtilisateurDao.lister_tous() - DEBUT
+23/10/2024 09:40:47 - INFO     - ERREUR:  la relation « utilisateur » n'existe pas
+LINE 1: SELECT *                                FROM utilisateur;   ...
+                                                     ^
+
+23/10/2024 09:40:47 - INFO     - ERREUR:  la relation « utilisateur » n'existe pas
+LINE 1: SELECT *                                FROM utilisateur;   ...
+                                                     ^
+
+23/10/2024 09:40:47 - INFO     - AccueilVue
+23/10/2024 09:45:34 - INFO     - Fin de l'application
+23/10/2024 09:45:40 - INFO     - --------------------------------------------------
+23/10/2024 09:45:40 - INFO     - Lancement Application
+23/10/2024 09:45:40 - INFO     - --------------------------------------------------
+23/10/2024 09:45:40 - INFO     - AccueilVue
+23/10/2024 09:45:43 - INFO     - InscriptionVue
+23/10/2024 09:45:49 - INFO     -     UtilisateurDao.lister_tous() - DEBUT
+23/10/2024 09:45:49 - INFO     -     UtilisateurDao.lister_tous() - FIN
+23/10/2024 09:45:49 - INFO     -        └─> Sortie : [] ... (0 elements)
+23/10/2024 09:46:10 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x0000022C4DE65180>',) - DEBUT
+23/10/2024 09:46:10 - INFO     - can't adapt type 'builtin_function_or_method'
+23/10/2024 09:46:10 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x0000022C4DE65180>',) - FIN
+23/10/2024 09:46:10 - INFO     -        └─> Sortie : False
+23/10/2024 09:46:10 - INFO     - AccueilVue
+23/10/2024 09:54:25 - INFO     - Fin de l'application
+23/10/2024 09:54:30 - INFO     - --------------------------------------------------
+23/10/2024 09:54:30 - INFO     - Lancement Application                           
+23/10/2024 09:54:30 - INFO     - --------------------------------------------------
+23/10/2024 09:54:30 - INFO     - AccueilVue
+23/10/2024 09:54:33 - INFO     - InscriptionVue
+23/10/2024 09:54:42 - INFO     -     UtilisateurDao.lister_tous() - DEBUT
+23/10/2024 09:54:42 - INFO     -     UtilisateurDao.lister_tous() - FIN
+23/10/2024 09:54:42 - INFO     -        └─> Sortie : [] ... (0 elements)
+23/10/2024 09:54:50 - INFO     - Utilisateur.__init__() missing 1 required positional argument: 'id'
+23/10/2024 09:54:50 - INFO     - AccueilVue
+23/10/2024 09:55:46 - INFO     - Fin de l'application
+23/10/2024 09:55:50 - INFO     - --------------------------------------------------
+23/10/2024 09:55:50 - INFO     - Lancement Application                           
+23/10/2024 09:55:50 - INFO     - --------------------------------------------------
+23/10/2024 09:55:50 - INFO     - AccueilVue
+23/10/2024 09:55:52 - INFO     - InscriptionVue
+23/10/2024 09:55:55 - INFO     -     UtilisateurDao.lister_tous() - DEBUT
+23/10/2024 09:55:55 - INFO     -     UtilisateurDao.lister_tous() - FIN
+23/10/2024 09:55:55 - INFO     -        └─> Sortie : [] ... (0 elements)
+23/10/2024 09:56:00 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x000001DA24725060>',) - DEBUT
+23/10/2024 09:56:00 - INFO     - 'Utilisateur' object has no attribute 'id'
+23/10/2024 09:56:00 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x000001DA24725060>',) - FIN
+23/10/2024 09:56:00 - INFO     -        └─> Sortie : False
+23/10/2024 09:56:00 - INFO     - AccueilVue
+23/10/2024 09:57:24 - INFO     - Fin de l'application
+23/10/2024 09:57:28 - INFO     - --------------------------------------------------
+23/10/2024 09:57:28 - INFO     - Lancement Application                           
+23/10/2024 09:57:28 - INFO     - --------------------------------------------------
+23/10/2024 09:57:28 - INFO     - AccueilVue
+23/10/2024 09:57:30 - INFO     - InscriptionVue
+23/10/2024 09:57:34 - INFO     -     UtilisateurDao.lister_tous() - DEBUT
+23/10/2024 09:57:34 - INFO     -     UtilisateurDao.lister_tous() - FIN
+23/10/2024 09:57:34 - INFO     -        └─> Sortie : [] ... (0 elements)
+23/10/2024 09:57:39 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x000002748CBA5060>',) - DEBUT
+23/10/2024 09:57:39 - INFO     - ERREUR:  valeur trop longue pour le type character varying(30)
+
+23/10/2024 09:57:39 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x000002748CBA5060>',) - FIN
+23/10/2024 09:57:39 - INFO     -        └─> Sortie : False
+23/10/2024 09:57:39 - INFO     - AccueilVue
+23/10/2024 09:59:19 - INFO     - Fin de l'application
+23/10/2024 09:59:24 - INFO     - --------------------------------------------------
+23/10/2024 09:59:24 - INFO     - Lancement Application                           
+23/10/2024 09:59:24 - INFO     - --------------------------------------------------
+23/10/2024 09:59:24 - INFO     - AccueilVue
+23/10/2024 09:59:26 - INFO     - InscriptionVue
+23/10/2024 09:59:29 - INFO     -     UtilisateurDao.lister_tous() - DEBUT
+23/10/2024 09:59:29 - INFO     -     UtilisateurDao.lister_tous() - FIN
+23/10/2024 09:59:29 - INFO     -        └─> Sortie : [] ... (0 elements)
+23/10/2024 09:59:33 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x000002BFA74A1060>',) - DEBUT
+23/10/2024 09:59:33 - INFO     - ERREUR:  valeur trop longue pour le type character varying(30)
+
+23/10/2024 09:59:33 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x000002BFA74A1060>',) - FIN
+23/10/2024 09:59:33 - INFO     -        └─> Sortie : False
+23/10/2024 09:59:33 - INFO     - AccueilVue
+23/10/2024 10:01:42 - INFO     - Fin de l'application
+23/10/2024 10:01:47 - INFO     - --------------------------------------------------
+23/10/2024 10:01:47 - INFO     - Lancement Application                           
+23/10/2024 10:01:47 - INFO     - --------------------------------------------------
+23/10/2024 10:01:47 - INFO     - AccueilVue
+23/10/2024 10:01:50 - INFO     - InscriptionVue
+23/10/2024 10:01:53 - INFO     -     UtilisateurDao.lister_tous() - DEBUT
+23/10/2024 10:01:53 - INFO     -     UtilisateurDao.lister_tous() - FIN
+23/10/2024 10:01:53 - INFO     -        └─> Sortie : [] ... (0 elements)
+23/10/2024 10:01:57 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x000001EA435F90C0>',) - DEBUT
+23/10/2024 10:01:57 - INFO     - ERREUR:  valeur trop longue pour le type character varying(30)
+
+23/10/2024 10:01:57 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x000001EA435F90C0>',) - FIN
+23/10/2024 10:01:57 - INFO     -        └─> Sortie : False
+23/10/2024 10:01:57 - INFO     - AccueilVue
+23/10/2024 10:05:20 - INFO     - Fin de l'application
+23/10/2024 10:05:24 - INFO     - --------------------------------------------------
+23/10/2024 10:05:24 - INFO     - Lancement Application                           
+23/10/2024 10:05:24 - INFO     - --------------------------------------------------
+23/10/2024 10:05:24 - INFO     - AccueilVue
+23/10/2024 10:05:26 - INFO     - InscriptionVue
+23/10/2024 10:05:29 - INFO     - Pseudo : Chamallow (length: 9)
+23/10/2024 10:05:29 - INFO     -     UtilisateurDao.lister_tous() - DEBUT
+23/10/2024 10:05:29 - INFO     -     UtilisateurDao.lister_tous() - FIN
+23/10/2024 10:05:29 - INFO     -        └─> Sortie : [] ... (0 elements)
+23/10/2024 10:05:34 - INFO     - name 'mot_de_passe_hash' is not defined
+23/10/2024 10:05:34 - INFO     - AccueilVue
+23/10/2024 10:07:55 - INFO     - Fin de l'application
+23/10/2024 10:07:59 - INFO     - --------------------------------------------------
+23/10/2024 10:07:59 - INFO     - Lancement Application                           
+23/10/2024 10:07:59 - INFO     - --------------------------------------------------
+23/10/2024 10:07:59 - INFO     - AccueilVue
+23/10/2024 10:08:02 - INFO     - InscriptionVue
+23/10/2024 10:08:05 - INFO     - Pseudo : Chamallow (length: 9)
+23/10/2024 10:08:05 - INFO     -     UtilisateurDao.lister_tous() - DEBUT
+23/10/2024 10:08:05 - INFO     -     UtilisateurDao.lister_tous() - FIN
+23/10/2024 10:08:05 - INFO     -        └─> Sortie : [] ... (0 elements)
+23/10/2024 10:08:09 - INFO     - Mot de passe haché : e28b1ab761e21be921a5bd3f29f5babf7d9d234f1fbedb9281c5b375ec1dc770 (length: 64)
+23/10/2024 10:08:09 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x0000027D72521060>',) - DEBUT
+23/10/2024 10:08:09 - INFO     - ERREUR:  valeur trop longue pour le type character varying(30)
+
+23/10/2024 10:08:09 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x0000027D72521060>',) - FIN
+23/10/2024 10:08:09 - INFO     -        └─> Sortie : False
+23/10/2024 10:08:09 - INFO     - AccueilVue
+23/10/2024 10:10:03 - INFO     - InscriptionVue
+23/10/2024 10:10:06 - INFO     - Pseudo : Chamallow (length: 9)
+23/10/2024 10:10:06 - INFO     -     UtilisateurDao.lister_tous() - DEBUT
+23/10/2024 10:10:06 - INFO     -     UtilisateurDao.lister_tous() - FIN
+23/10/2024 10:10:06 - INFO     -        └─> Sortie : [] ... (0 elements)
+23/10/2024 10:10:17 - INFO     - Mot de passe haché : 373e3d4c25c045b3d1151c92941390a7bf1c76492d1fa87b15ad35491abbf2b5 (length: 64)
+23/10/2024 10:10:17 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x0000027D725ED930>',) - DEBUT
+23/10/2024 10:10:17 - INFO     - ERREUR:  valeur trop longue pour le type character varying(30)
+
+23/10/2024 10:10:17 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x0000027D725ED930>',) - FIN
+23/10/2024 10:10:17 - INFO     -        └─> Sortie : False
+23/10/2024 10:10:17 - INFO     - AccueilVue
+23/10/2024 10:11:29 - INFO     - InscriptionVue
+23/10/2024 10:11:49 - INFO     - Pseudo : Chamallow (length: 9)
+23/10/2024 10:11:49 - INFO     -     UtilisateurDao.lister_tous() - DEBUT
+23/10/2024 10:11:49 - INFO     -     UtilisateurDao.lister_tous() - FIN
+23/10/2024 10:11:49 - INFO     -        └─> Sortie : [] ... (0 elements)
+23/10/2024 10:11:55 - INFO     - Mot de passe haché : e28b1ab761e21be921a5bd3f29f5babf7d9d234f1fbedb9281c5b375ec1dc770 (length: 64)
+23/10/2024 10:11:55 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x0000027D72820040>',) - DEBUT
+23/10/2024 10:11:55 - INFO     - ERREUR:  valeur trop longue pour le type character varying(30)
+
+23/10/2024 10:11:55 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x0000027D72820040>',) - FIN
+23/10/2024 10:11:55 - INFO     -        └─> Sortie : False
+23/10/2024 10:11:55 - INFO     - AccueilVue
+23/10/2024 10:14:00 - INFO     - Fin de l'application
+23/10/2024 10:24:31 - INFO     - --------------------------------------------------
+23/10/2024 10:24:31 - INFO     - Lancement Application                           
+23/10/2024 10:24:31 - INFO     - --------------------------------------------------
+23/10/2024 10:24:31 - INFO     - AccueilVue
+23/10/2024 10:24:34 - INFO     - No module named 'vues.accueil.connexion_vue'
+23/10/2024 10:24:34 - INFO     - AccueilVue
+23/10/2024 10:27:57 - INFO     - Fin de l'application
+23/10/2024 10:28:01 - INFO     - --------------------------------------------------
+23/10/2024 10:28:01 - INFO     - Lancement Application                           
+23/10/2024 10:28:01 - INFO     - --------------------------------------------------
+23/10/2024 10:28:01 - INFO     - AccueilVue
+23/10/2024 10:28:02 - INFO     - No module named 'vue_abstraite'
+23/10/2024 10:28:02 - INFO     - AccueilVue
+23/10/2024 10:28:46 - INFO     - Fin de l'application
+23/10/2024 10:28:49 - INFO     - --------------------------------------------------
+23/10/2024 10:28:49 - INFO     - Lancement Application                           
+23/10/2024 10:28:49 - INFO     - --------------------------------------------------
+23/10/2024 10:28:49 - INFO     - AccueilVue
+23/10/2024 10:28:51 - INFO     - No module named 'utilisateur_service'
+23/10/2024 10:28:51 - INFO     - AccueilVue
+23/10/2024 10:29:21 - INFO     - Fin de l'application
+23/10/2024 10:29:25 - INFO     - --------------------------------------------------
+23/10/2024 10:29:25 - INFO     - Lancement Application                           
+23/10/2024 10:29:25 - INFO     - --------------------------------------------------
+23/10/2024 10:29:25 - INFO     - AccueilVue
+23/10/2024 10:29:27 - INFO     - No module named 'business_object.utilisateur_service'
+23/10/2024 10:29:27 - INFO     - AccueilVue
+23/10/2024 10:30:15 - INFO     - Fin de l'application
+23/10/2024 10:30:19 - INFO     - --------------------------------------------------
+23/10/2024 10:30:19 - INFO     - Lancement Application                           
+23/10/2024 10:30:19 - INFO     - --------------------------------------------------
+23/10/2024 10:30:19 - INFO     - AccueilVue
+23/10/2024 10:30:20 - INFO     - ConnexionVue
+23/10/2024 10:30:33 - INFO     -     UtilisateurDao.se_connecter('a', '*****') - DEBUT
+23/10/2024 10:30:33 - INFO     -     UtilisateurDao.se_connecter('a', '*****') - FIN
+23/10/2024 10:30:33 - INFO     -        └─> Sortie : None
+23/10/2024 10:30:33 - INFO     - AccueilVue
+23/10/2024 10:32:23 - INFO     - Fin de l'application
+23/10/2024 10:33:17 - INFO     - --------------------------------------------------
+23/10/2024 10:33:17 - INFO     - Lancement Application                           
+23/10/2024 10:33:17 - INFO     - --------------------------------------------------
+23/10/2024 10:33:17 - INFO     - AccueilVue
+23/10/2024 10:33:18 - INFO     - ConnexionVue
+23/10/2024 10:33:25 - INFO     -     UtilisateurDao.se_connecter('admin', '*****') - DEBUT
+23/10/2024 10:33:25 - INFO     -     UtilisateurDao.se_connecter('admin', '*****') - FIN
+23/10/2024 10:33:25 - INFO     -        └─> Sortie : None
+23/10/2024 10:33:25 - INFO     - AccueilVue
+23/10/2024 10:35:29 - INFO     - Fin de l'application
+23/10/2024 10:35:34 - INFO     - --------------------------------------------------
+23/10/2024 10:35:34 - INFO     - Lancement Application                           
+23/10/2024 10:35:34 - INFO     - --------------------------------------------------
+23/10/2024 10:35:34 - INFO     - AccueilVue
+23/10/2024 10:35:35 - INFO     - ConnexionVue
+23/10/2024 10:35:40 - INFO     -     UtilisateurDao.se_connecter('admin', '*****') - DEBUT
+23/10/2024 10:35:40 - INFO     - Utilisateur.__init__() got an unexpected keyword argument 'id'
+23/10/2024 10:35:40 - INFO     - AccueilVue
+23/10/2024 10:36:37 - INFO     - Fin de l'application
+23/10/2024 10:36:42 - INFO     - --------------------------------------------------
+23/10/2024 10:36:42 - INFO     - Lancement Application                           
+23/10/2024 10:36:42 - INFO     - --------------------------------------------------
+23/10/2024 10:36:42 - INFO     - AccueilVue
+23/10/2024 10:36:43 - INFO     - ConnexionVue
+23/10/2024 10:36:47 - INFO     -     UtilisateurDao.se_connecter('admin', '*****') - DEBUT
+23/10/2024 10:36:47 - INFO     -     UtilisateurDao.se_connecter('admin', '*****') - FIN
+23/10/2024 10:36:47 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000016DB121D7B0>
+23/10/2024 10:36:47 - INFO     - MenuUtilisateurVue
+23/10/2024 10:37:23 - INFO     - AccueilVue
+23/10/2024 10:37:27 - INFO     - Fin de l'application
+23/10/2024 10:38:21 - INFO     - --------------------------------------------------
+23/10/2024 10:38:21 - INFO     - Lancement Application                           
+23/10/2024 10:38:21 - INFO     - --------------------------------------------------
+23/10/2024 10:38:21 - INFO     - AccueilVue
+23/10/2024 10:38:23 - INFO     - InscriptionVue
+23/10/2024 10:38:25 - INFO     - Pseudo : admin (length: 5)
+23/10/2024 10:38:25 - INFO     -     UtilisateurDao.lister_tous() - DEBUT
+23/10/2024 10:38:25 - INFO     - Utilisateur.__init__() got an unexpected keyword argument 'id'
+23/10/2024 10:38:25 - INFO     - AccueilVue
+23/10/2024 10:39:07 - INFO     - Fin de l'application
+23/10/2024 10:39:10 - INFO     - --------------------------------------------------
+23/10/2024 10:39:10 - INFO     - Lancement Application                           
+23/10/2024 10:39:10 - INFO     - --------------------------------------------------
+23/10/2024 10:39:10 - INFO     - AccueilVue
+23/10/2024 10:39:12 - INFO     - InscriptionVue
+23/10/2024 10:39:15 - INFO     - Pseudo : admin (length: 5)
+23/10/2024 10:39:15 - INFO     -     UtilisateurDao.lister_tous() - DEBUT
+23/10/2024 10:39:15 - INFO     -     UtilisateurDao.lister_tous() - FIN
+23/10/2024 10:39:15 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x00000163A00357E0>'] ... (1 elements)
+23/10/2024 10:39:15 - INFO     - AccueilVue
+23/10/2024 10:39:31 - INFO     - Fin de l'application
+23/10/2024 10:40:04 - INFO     - --------------------------------------------------
+23/10/2024 10:40:04 - INFO     - Lancement Application                           
+23/10/2024 10:40:04 - INFO     - --------------------------------------------------
+23/10/2024 10:40:04 - INFO     - AccueilVue
+23/10/2024 10:40:06 - INFO     - ConnexionVue
+23/10/2024 10:40:10 - INFO     -     UtilisateurDao.se_connecter('admin', '*****') - DEBUT
+23/10/2024 10:40:10 - INFO     -     UtilisateurDao.se_connecter('admin', '*****') - FIN
+23/10/2024 10:40:10 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000020662DDD750>
+23/10/2024 10:40:10 - INFO     - MenuUtilisateurVue
+23/10/2024 10:40:24 - INFO     - Can't instantiate abstract class RechercheVue with abstract method choisir_menu
+23/10/2024 10:40:24 - INFO     - AccueilVue
+23/10/2024 10:40:28 - INFO     - Fin de l'application
+23/10/2024 10:44:55 - INFO     - --------------------------------------------------
+23/10/2024 10:44:56 - INFO     - Lancement Application                           
+23/10/2024 10:44:56 - INFO     - --------------------------------------------------
+23/10/2024 10:44:56 - INFO     - AccueilVue
+23/10/2024 10:44:59 - INFO     - ConnexionVue
+23/10/2024 10:45:03 - INFO     -     UtilisateurDao.se_connecter('admin', '*****') - DEBUT
+23/10/2024 10:45:03 - INFO     -     UtilisateurDao.se_connecter('admin', '*****') - FIN
+23/10/2024 10:45:03 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000026BFE5E1750>
+23/10/2024 10:45:03 - INFO     - MenuUtilisateurVue
+23/10/2024 10:45:06 - INFO     - Can't instantiate abstract class RechercheVue with abstract method choisir_menu
+23/10/2024 10:45:06 - INFO     - AccueilVue
+23/10/2024 10:45:11 - INFO     - Fin de l'application
+23/10/2024 10:50:17 - INFO     - --------------------------------------------------
+23/10/2024 10:50:17 - INFO     - Lancement Application                           
+23/10/2024 10:50:17 - INFO     - --------------------------------------------------
+23/10/2024 10:50:17 - INFO     - AccueilVue
+23/10/2024 10:50:19 - INFO     - ConnexionVue
+23/10/2024 10:50:23 - INFO     -     UtilisateurDao.se_connecter('admin', '*****') - DEBUT
+23/10/2024 10:50:23 - INFO     -     UtilisateurDao.se_connecter('admin', '*****') - FIN
+23/10/2024 10:50:23 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001D0DB2D9720>
+23/10/2024 10:50:23 - INFO     - MenuUtilisateurVue
+23/10/2024 10:50:25 - INFO     - 'return' outside function (recherche_vue.py, line 27)
+23/10/2024 10:50:25 - INFO     - AccueilVue
+23/10/2024 10:55:36 - INFO     - Fin de l'application
+23/10/2024 10:55:40 - INFO     - --------------------------------------------------
+23/10/2024 10:55:40 - INFO     - Lancement Application                           
+23/10/2024 10:55:40 - INFO     - --------------------------------------------------
+23/10/2024 10:55:40 - INFO     - AccueilVue
+23/10/2024 10:55:41 - INFO     - ConnexionVue
+23/10/2024 10:55:45 - INFO     -     UtilisateurDao.se_connecter('admin', '*****') - DEBUT
+23/10/2024 10:55:45 - INFO     -     UtilisateurDao.se_connecter('admin', '*****') - FIN
+23/10/2024 10:55:45 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x00000229BC189720>
+23/10/2024 10:55:45 - INFO     - MenuUtilisateurVue
+23/10/2024 10:55:47 - INFO     - RechercheVue
+23/10/2024 10:55:49 - INFO     - expected an indented block after 'if' statement on line 46 (rechercher_utilisateur_vue.py, line 49)
+23/10/2024 10:55:49 - INFO     - AccueilVue
+23/10/2024 10:55:53 - INFO     - Fin de l'application
+23/10/2024 11:08:56 - INFO     - --------------------------------------------------
+23/10/2024 11:08:56 - INFO     - Lancement Application                           
+23/10/2024 11:08:56 - INFO     - --------------------------------------------------
+23/10/2024 11:08:56 - INFO     - AccueilVue
+23/10/2024 11:09:00 - INFO     - ConnexionVue
+23/10/2024 11:09:05 - INFO     -     UtilisateurDao.se_connecter('admin', '*****') - DEBUT
+23/10/2024 11:09:05 - INFO     -     UtilisateurDao.se_connecter('admin', '*****') - FIN
+23/10/2024 11:09:05 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000022614F596C0>
+23/10/2024 11:09:05 - INFO     - MenuUtilisateurVue
+23/10/2024 11:09:10 - INFO     - RechercheVue
+23/10/2024 11:09:12 - INFO     - No module named 'recherche_service'
+23/10/2024 11:09:12 - INFO     - AccueilVue
+23/10/2024 11:09:37 - INFO     - Fin de l'application
+23/10/2024 11:09:41 - INFO     - --------------------------------------------------
+23/10/2024 11:09:41 - INFO     - Lancement Application                           
+23/10/2024 11:09:41 - INFO     - --------------------------------------------------
+23/10/2024 11:09:41 - INFO     - AccueilVue
+23/10/2024 11:09:43 - INFO     - ConnexionVue
+23/10/2024 11:09:47 - INFO     -     UtilisateurDao.se_connecter('admin', '*****') - DEBUT
+23/10/2024 11:09:47 - INFO     -     UtilisateurDao.se_connecter('admin', '*****') - FIN
+23/10/2024 11:09:47 - INFO     -        └─> Sortie : None
+23/10/2024 11:09:47 - INFO     - AccueilVue
+23/10/2024 11:09:49 - INFO     - ConnexionVue
+23/10/2024 11:09:53 - INFO     -     UtilisateurDao.se_connecter('admin', '*****') - DEBUT
+23/10/2024 11:09:53 - INFO     -     UtilisateurDao.se_connecter('admin', '*****') - FIN
+23/10/2024 11:09:53 - INFO     -        └─> Sortie : None
+23/10/2024 11:09:53 - INFO     - AccueilVue
+23/10/2024 11:10:01 - INFO     - ConnexionVue
+23/10/2024 11:10:05 - INFO     -     UtilisateurDao.se_connecter('admin', '*****') - DEBUT
+23/10/2024 11:10:05 - INFO     -     UtilisateurDao.se_connecter('admin', '*****') - FIN
+23/10/2024 11:10:05 - INFO     -        └─> Sortie : None
+23/10/2024 11:10:05 - INFO     - AccueilVue
+23/10/2024 11:13:13 - INFO     - Fin de l'application
+23/10/2024 11:13:50 - INFO     - --------------------------------------------------
+23/10/2024 11:13:50 - INFO     - Lancement Application                           
+23/10/2024 11:13:50 - INFO     - --------------------------------------------------
+23/10/2024 11:13:50 - INFO     - AccueilVue
+23/10/2024 11:13:52 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x00000120CF7DFBB0>',) - DEBUT
+23/10/2024 11:13:52 - INFO     - ERREUR:  la valeur d'une clé dupliquée rompt la contrainte unique « utilisateur_pseudo_key »
+DETAIL:  La clé « (pseudo)=(Emilien62) » existe déjà.
+
+23/10/2024 11:13:52 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x00000120CF7DFBB0>',) - FIN
+23/10/2024 11:13:52 - INFO     -        └─> Sortie : False
+23/10/2024 11:13:52 - INFO     - InscriptionVue
+23/10/2024 11:13:59 - INFO     - Pseudo : Chamallow (length: 9)
+23/10/2024 11:13:59 - INFO     -     UtilisateurDao.lister_tous() - DEBUT
+23/10/2024 11:13:59 - INFO     -     UtilisateurDao.lister_tous() - FIN
+23/10/2024 11:13:59 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x00000120CF938AC0>'] ... (1 elements)
+23/10/2024 11:14:06 - INFO     - Utilisateur.__init__() missing 1 required positional argument: 'id'
+23/10/2024 11:14:06 - INFO     - AccueilVue
+23/10/2024 11:20:43 - INFO     - Fin de l'application
+23/10/2024 11:20:47 - INFO     - --------------------------------------------------
+23/10/2024 11:20:47 - INFO     - Lancement Application                           
+23/10/2024 11:20:47 - INFO     - --------------------------------------------------
+23/10/2024 11:20:47 - INFO     - AccueilVue
+23/10/2024 11:20:50 - INFO     - invalid syntax (utilisateur_service.py, line 19)
+23/10/2024 11:20:50 - INFO     - AccueilVue
+23/10/2024 11:21:29 - INFO     - Fin de l'application
+23/10/2024 11:23:50 - INFO     - --------------------------------------------------
+23/10/2024 11:23:50 - INFO     - Lancement Application                           
+23/10/2024 11:23:50 - INFO     - --------------------------------------------------
+23/10/2024 11:23:50 - INFO     - AccueilVue
+23/10/2024 11:23:52 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x000001D053153F40>',) - DEBUT
+23/10/2024 11:23:52 - INFO     - ERREUR:  la valeur d'une clé dupliquée rompt la contrainte unique « utilisateur_pseudo_key »
+DETAIL:  La clé « (pseudo)=(Emilien62) » existe déjà.
+
+23/10/2024 11:23:52 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x000001D053153F40>',) - FIN
+23/10/2024 11:23:52 - INFO     -        └─> Sortie : False
+23/10/2024 11:23:52 - INFO     - InscriptionVue
+23/10/2024 11:23:56 - INFO     - Pseudo : Chamallow (length: 9)
+23/10/2024 11:23:56 - INFO     -     UtilisateurDao.lister_tous() - DEBUT
+23/10/2024 11:23:56 - INFO     -     UtilisateurDao.lister_tous() - FIN
+23/10/2024 11:23:56 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000001D0531F4A90>'] ... (1 elements)
+23/10/2024 11:24:36 - INFO     -     UtilisateurDao.recherche_id() - DEBUT
+23/10/2024 11:24:36 - INFO     -     UtilisateurDao.recherche_id() - FIN
+23/10/2024 11:24:36 - INFO     -        └─> Sortie : 2
+23/10/2024 11:24:36 - INFO     - Utilisateur.__init__() missing 1 required positional argument: 'id'
+23/10/2024 11:24:36 - INFO     - AccueilVue
+23/10/2024 11:24:39 - INFO     - Fin de l'application
+23/10/2024 11:25:10 - INFO     - --------------------------------------------------
+23/10/2024 11:25:10 - INFO     - Lancement Application                           
+23/10/2024 11:25:10 - INFO     - --------------------------------------------------
+23/10/2024 11:25:10 - INFO     - AccueilVue
+23/10/2024 11:25:12 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x0000028AD78E3FA0>',) - DEBUT
+23/10/2024 11:25:12 - INFO     - ERREUR:  la valeur d'une clé dupliquée rompt la contrainte unique « utilisateur_pseudo_key »
+DETAIL:  La clé « (pseudo)=(Emilien62) » existe déjà.
+
+23/10/2024 11:25:12 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x0000028AD78E3FA0>',) - FIN
+23/10/2024 11:25:12 - INFO     -        └─> Sortie : False
+23/10/2024 11:25:12 - INFO     - InscriptionVue
+23/10/2024 11:25:15 - INFO     - Pseudo : Chamallow (length: 9)
+23/10/2024 11:25:15 - INFO     -     UtilisateurDao.lister_tous() - DEBUT
+23/10/2024 11:25:15 - INFO     -     UtilisateurDao.lister_tous() - FIN
+23/10/2024 11:25:15 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x0000028AD7A1F250>'] ... (1 elements)
+23/10/2024 11:25:20 - INFO     -     UtilisateurDao.recherche_id() - DEBUT
+23/10/2024 11:25:20 - INFO     -     UtilisateurDao.recherche_id() - FIN
+23/10/2024 11:25:20 - INFO     -        └─> Sortie : 2
+23/10/2024 11:25:20 - INFO     - Mot de passe haché : e28b1ab761e21be921a5bd3f29f5babf7d9d234f1fbedb9281c5b375ec1dc770 (length: 64)
+23/10/2024 11:25:20 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x0000028AD7A84CD0>',) - DEBUT
+23/10/2024 11:25:20 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x0000028AD7A84CD0>',) - FIN
+23/10/2024 11:25:20 - INFO     -        └─> Sortie : True
+23/10/2024 11:25:20 - INFO     - AccueilVue
+23/10/2024 11:25:24 - INFO     - ConnexionVue
+23/10/2024 11:25:32 - INFO     -     UtilisateurDao.se_connecter('Chamallow', '*****') - DEBUT
+23/10/2024 11:25:32 - INFO     -     UtilisateurDao.se_connecter('Chamallow', '*****') - FIN
+23/10/2024 11:25:32 - INFO     -        └─> Sortie : None
+23/10/2024 11:25:32 - INFO     - AccueilVue
+23/10/2024 11:26:25 - INFO     - ConnexionVue
+23/10/2024 11:26:38 - INFO     -     UtilisateurDao.se_connecter('Chamallow', '*****') - DEBUT
+23/10/2024 11:26:38 - INFO     -     UtilisateurDao.se_connecter('Chamallow', '*****') - FIN
+23/10/2024 11:26:38 - INFO     -        └─> Sortie : None
+23/10/2024 11:26:38 - INFO     - AccueilVue
+23/10/2024 11:26:46 - INFO     - InscriptionVue
+23/10/2024 11:26:58 - INFO     - Pseudo : pomme (length: 5)
+23/10/2024 11:26:58 - INFO     -     UtilisateurDao.lister_tous() - DEBUT
+23/10/2024 11:26:58 - INFO     -     UtilisateurDao.lister_tous() - FIN
+23/10/2024 11:26:58 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x0000028AD7EE6E00>', '<business_object.utilisateur.Utilisateur object at 0x0000028AD7EE6A40>'] ... (2 elements)
+23/10/2024 11:27:19 - INFO     -     UtilisateurDao.recherche_id() - DEBUT
+23/10/2024 11:27:19 - INFO     -     UtilisateurDao.recherche_id() - FIN
+23/10/2024 11:27:19 - INFO     -        └─> Sortie : 3
+23/10/2024 11:27:19 - INFO     - Mot de passe haché : 15208ed102ab1d4246bc7f119e7216f61f736f778e921edacc6e9121e35c6131 (length: 64)
+23/10/2024 11:27:19 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x0000028AD80251B0>',) - DEBUT
+23/10/2024 11:27:19 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x0000028AD80251B0>',) - FIN
+23/10/2024 11:27:20 - INFO     -        └─> Sortie : True
+23/10/2024 11:27:20 - INFO     - AccueilVue
+23/10/2024 11:27:22 - INFO     - ConnexionVue
+23/10/2024 11:27:33 - INFO     -     UtilisateurDao.se_connecter('pomme', '*****') - DEBUT
+23/10/2024 11:27:33 - INFO     -     UtilisateurDao.se_connecter('pomme', '*****') - FIN
+23/10/2024 11:27:33 - INFO     -        └─> Sortie : None
+23/10/2024 11:27:33 - INFO     - AccueilVue
+23/10/2024 11:27:40 - INFO     - Fin de l'application
+23/10/2024 11:27:48 - INFO     - --------------------------------------------------
+23/10/2024 11:27:48 - INFO     - Lancement Application                           
+23/10/2024 11:27:48 - INFO     - --------------------------------------------------
+23/10/2024 11:27:48 - INFO     - AccueilVue
+23/10/2024 11:27:49 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x00000292DFF980A0>',) - DEBUT
+23/10/2024 11:27:50 - INFO     - ERREUR:  la valeur d'une clé dupliquée rompt la contrainte unique « utilisateur_pseudo_key »
+DETAIL:  La clé « (pseudo)=(Emilien62) » existe déjà.
+
+23/10/2024 11:27:50 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x00000292DFF980A0>',) - FIN
+23/10/2024 11:27:50 - INFO     -        └─> Sortie : False
+23/10/2024 11:27:50 - INFO     - ConnexionVue
+23/10/2024 11:28:14 - INFO     -     UtilisateurDao.se_connecter('pomme', '*****') - DEBUT
+23/10/2024 11:28:14 - INFO     -     UtilisateurDao.se_connecter('pomme', '*****') - FIN
+23/10/2024 11:28:14 - INFO     -        └─> Sortie : None
+23/10/2024 11:28:14 - INFO     - AccueilVue
+23/10/2024 11:28:44 - INFO     - Fin de l'application
+23/10/2024 11:28:48 - INFO     - --------------------------------------------------
+23/10/2024 11:28:48 - INFO     - Lancement Application                           
+23/10/2024 11:28:48 - INFO     - --------------------------------------------------
+23/10/2024 11:28:48 - INFO     - AccueilVue
+23/10/2024 11:28:51 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x0000017205DB80A0>',) - DEBUT
+23/10/2024 11:28:51 - INFO     - ERREUR:  la valeur d'une clé dupliquée rompt la contrainte unique « utilisateur_pseudo_key »
+DETAIL:  La clé « (pseudo)=(Emilien62) » existe déjà.
+
+23/10/2024 11:28:51 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x0000017205DB80A0>',) - FIN
+23/10/2024 11:28:51 - INFO     -        └─> Sortie : False
+23/10/2024 11:28:51 - INFO     - ConnexionVue
+23/10/2024 11:29:03 - INFO     -     UtilisateurDao.se_connecter('pomme', '*****') - DEBUT
+23/10/2024 11:29:03 - INFO     -     UtilisateurDao.se_connecter('pomme', '*****') - FIN
+23/10/2024 11:29:03 - INFO     -        └─> Sortie : None
+23/10/2024 11:29:03 - INFO     - AccueilVue
+23/10/2024 11:32:47 - INFO     - Fin de l'application
+23/10/2024 11:32:51 - INFO     - --------------------------------------------------
+23/10/2024 11:32:51 - INFO     - Lancement Application                           
+23/10/2024 11:32:51 - INFO     - --------------------------------------------------
+23/10/2024 11:32:51 - INFO     - AccueilVue
+23/10/2024 11:32:52 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x0000014F91B30040>',) - DEBUT
+23/10/2024 11:32:53 - INFO     - ERREUR:  la valeur d'une clé dupliquée rompt la contrainte unique « utilisateur_pseudo_key »
+DETAIL:  La clé « (pseudo)=(Emilien62) » existe déjà.
+
+23/10/2024 11:32:53 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x0000014F91B30040>',) - FIN
+23/10/2024 11:32:53 - INFO     -        └─> Sortie : False
+23/10/2024 11:32:53 - INFO     - ConnexionVue
+23/10/2024 11:33:05 - INFO     -     UtilisateurDao.se_connecter('Chamallow', '*****') - DEBUT
+23/10/2024 11:33:05 - INFO     -     UtilisateurDao.se_connecter('Chamallow', '*****') - FIN
+23/10/2024 11:33:05 - INFO     -        └─> Sortie : None
+23/10/2024 11:33:05 - INFO     - AccueilVue
+23/10/2024 11:35:16 - INFO     - Fin de l'application
+23/10/2024 11:35:20 - INFO     - --------------------------------------------------
+23/10/2024 11:35:20 - INFO     - Lancement Application                           
+23/10/2024 11:35:20 - INFO     - --------------------------------------------------
+23/10/2024 11:35:20 - INFO     - AccueilVue
+23/10/2024 11:35:23 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x000001C581D78430>',) - DEBUT
+23/10/2024 11:35:23 - INFO     - ERREUR:  INSERT a plus de colonnes cibles que d'expressions
+LINE 1: INSERT INTO utilisateur(id_utilisateur,pseudo, mdp) VALUES( ...
+                                                       ^
+
+23/10/2024 11:35:23 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x000001C581D78430>',) - FIN
+23/10/2024 11:35:23 - INFO     -        └─> Sortie : False
+23/10/2024 11:35:23 - INFO     - InscriptionVue
+23/10/2024 11:35:33 - INFO     - Pseudo : Ananas35 (length: 8)
+23/10/2024 11:35:33 - INFO     -     UtilisateurDao.lister_tous() - DEBUT
+23/10/2024 11:35:33 - INFO     -     UtilisateurDao.lister_tous() - FIN
+23/10/2024 11:35:33 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000001C581E83F40>', '<business_object.utilisateur.Utilisateur object at 0x000001C581E83E50>', '<business_object.utilisateur.Utilisateur object at 0x000001C581E81450>'] ... (3 elements)
+23/10/2024 11:35:39 - INFO     -     UtilisateurDao.recherche_id() - DEBUT
+23/10/2024 11:35:39 - INFO     -     UtilisateurDao.recherche_id() - FIN
+23/10/2024 11:35:39 - INFO     -        └─> Sortie : 4
+23/10/2024 11:35:39 - INFO     - Mot de passe haché : 8c8073a12616902ee3aa3c6c4d4d1d98460376fba2d4edd91f060cfca2026e0b (length: 64)
+23/10/2024 11:35:39 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x000001C581EE1120>',) - DEBUT
+23/10/2024 11:35:39 - INFO     - ERREUR:  INSERT a plus de colonnes cibles que d'expressions
+LINE 1: INSERT INTO utilisateur(id_utilisateur,pseudo, mdp) VALUES( ...
+                                                       ^
+
+23/10/2024 11:35:39 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x000001C581EE1120>',) - FIN
+23/10/2024 11:35:39 - INFO     -        └─> Sortie : False
+23/10/2024 11:35:39 - INFO     - AccueilVue
+23/10/2024 11:36:12 - INFO     - Fin de l'application
+23/10/2024 11:45:14 - INFO     - --------------------------------------------------
+23/10/2024 11:45:14 - INFO     - Lancement Application                           
+23/10/2024 11:45:14 - INFO     - --------------------------------------------------
+23/10/2024 11:45:14 - INFO     - AccueilVue
+23/10/2024 11:45:16 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x00000158EA92EF50>',) - DEBUT
+23/10/2024 11:45:16 - INFO     - ERREUR:  la valeur d'une clé dupliquée rompt la contrainte unique « utilisateur_pkey »
+DETAIL:  La clé « (id_utilisateur)=(1) » existe déjà.
+
+23/10/2024 11:45:16 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x00000158EA92EF50>',) - FIN
+23/10/2024 11:45:16 - INFO     -        └─> Sortie : False
+23/10/2024 11:45:16 - INFO     - InscriptionVue
+23/10/2024 11:48:30 - INFO     - Pseudo : Ananas35 (length: 8)
+23/10/2024 11:48:30 - INFO     -     UtilisateurDao.lister_tous() - DEBUT
+23/10/2024 11:48:30 - INFO     -     UtilisateurDao.lister_tous() - FIN
+23/10/2024 11:48:30 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x00000158EAA84B20>', '<business_object.utilisateur.Utilisateur object at 0x00000158EAA84AF0>', '<business_object.utilisateur.Utilisateur object at 0x00000158EAA85630>'] ... (3 elements)
+23/10/2024 11:48:35 - INFO     -     UtilisateurDao.recherche_id() - DEBUT
+23/10/2024 11:48:35 - INFO     -     UtilisateurDao.recherche_id() - FIN
+23/10/2024 11:48:35 - INFO     -        └─> Sortie : 4
+23/10/2024 11:48:35 - INFO     - Mot de passe haché : 8c8073a12616902ee3aa3c6c4d4d1d98460376fba2d4edd91f060cfca2026e0b (length: 64)
+23/10/2024 11:48:35 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x00000158EAB4DEA0>',) - DEBUT
+23/10/2024 11:48:35 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x00000158EAB4DEA0>',) - FIN
+23/10/2024 11:48:35 - INFO     -        └─> Sortie : True
+23/10/2024 11:48:35 - INFO     - AccueilVue
+23/10/2024 11:48:39 - INFO     - ConnexionVue
+23/10/2024 11:48:48 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+23/10/2024 11:48:48 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+23/10/2024 11:48:48 - INFO     -        └─> Sortie : None
+23/10/2024 11:48:48 - INFO     - AccueilVue
+23/10/2024 11:49:06 - INFO     - Fin de l'application
+23/10/2024 11:49:10 - INFO     - --------------------------------------------------
+23/10/2024 11:49:10 - INFO     - Lancement Application                           
+23/10/2024 11:49:10 - INFO     - --------------------------------------------------
+23/10/2024 11:49:10 - INFO     - AccueilVue
+23/10/2024 11:49:11 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x00000276D0498070>',) - DEBUT
+23/10/2024 11:49:11 - INFO     - ERREUR:  la valeur d'une clé dupliquée rompt la contrainte unique « utilisateur_pkey »
+DETAIL:  La clé « (id_utilisateur)=(1) » existe déjà.
+
+23/10/2024 11:49:11 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x00000276D0498070>',) - FIN
+23/10/2024 11:49:11 - INFO     -        └─> Sortie : False
+23/10/2024 11:49:11 - INFO     - ConnexionVue
+23/10/2024 11:49:21 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+23/10/2024 11:49:21 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+23/10/2024 11:49:21 - INFO     -        └─> Sortie : None
+23/10/2024 11:49:21 - INFO     - AccueilVue
+23/10/2024 11:56:48 - INFO     - Fin de l'application
+23/10/2024 11:59:53 - INFO     - --------------------------------------------------
+23/10/2024 11:59:53 - INFO     - Lancement Application                           
+23/10/2024 11:59:53 - INFO     - --------------------------------------------------
+23/10/2024 11:59:53 - INFO     - AccueilVue
+23/10/2024 11:59:56 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x000002050E837FD0>',) - DEBUT
+23/10/2024 11:59:56 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x000002050E837FD0>',) - FIN
+23/10/2024 11:59:56 - INFO     -        └─> Sortie : True
+23/10/2024 11:59:56 - INFO     - InscriptionVue
+23/10/2024 12:00:00 - INFO     - Pseudo : admin (length: 5)
+23/10/2024 12:00:00 - INFO     -     UtilisateurDao.lister_tous() - DEBUT
+23/10/2024 12:00:00 - INFO     -     UtilisateurDao.lister_tous() - FIN
+23/10/2024 12:00:00 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000002050E8D8A60>'] ... (1 elements)
+23/10/2024 12:00:13 - INFO     -     UtilisateurDao.recherche_id() - DEBUT
+23/10/2024 12:00:13 - INFO     -     UtilisateurDao.recherche_id() - FIN
+23/10/2024 12:00:13 - INFO     -        └─> Sortie : 2
+23/10/2024 12:00:13 - INFO     - Mot de passe haché : d8519bfc0e35e76afca387fa3a6c55153b354648fbb1df598cf9651afd736a7d (length: 64)
+23/10/2024 12:00:13 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x000002050E7BC130>',) - DEBUT
+23/10/2024 12:00:13 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x000002050E7BC130>',) - FIN
+23/10/2024 12:00:13 - INFO     -        └─> Sortie : True
+23/10/2024 12:00:13 - INFO     - AccueilVue
+23/10/2024 12:00:16 - INFO     - ConnexionVue
+23/10/2024 12:00:25 - INFO     -     UtilisateurDao.se_connecter('admin', '*****') - DEBUT
+23/10/2024 12:00:25 - INFO     -     UtilisateurDao.se_connecter('admin', '*****') - FIN
+23/10/2024 12:00:25 - INFO     -        └─> Sortie : None
+23/10/2024 12:00:25 - INFO     - AccueilVue
+23/10/2024 12:00:42 - INFO     - Fin de l'application
+23/10/2024 12:00:45 - INFO     - --------------------------------------------------
+23/10/2024 12:00:45 - INFO     - Lancement Application                           
+23/10/2024 12:00:45 - INFO     - --------------------------------------------------
+23/10/2024 12:00:45 - INFO     - AccueilVue
+23/10/2024 12:00:47 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x0000021591C18070>',) - DEBUT
+23/10/2024 12:00:47 - INFO     - ERREUR:  la valeur d'une clé dupliquée rompt la contrainte unique « utilisateur_pkey »
+DETAIL:  La clé « (id_utilisateur)=(1) » existe déjà.
+
+23/10/2024 12:00:47 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x0000021591C18070>',) - FIN
+23/10/2024 12:00:47 - INFO     -        └─> Sortie : False
+23/10/2024 12:00:47 - INFO     - ConnexionVue
+23/10/2024 12:00:57 - INFO     -     UtilisateurDao.se_connecter('admin', '*****') - DEBUT
+23/10/2024 12:00:57 - INFO     -     UtilisateurDao.se_connecter('admin', '*****') - FIN
+23/10/2024 12:00:57 - INFO     -        └─> Sortie : None
+23/10/2024 12:00:57 - INFO     - AccueilVue
+23/10/2024 12:02:45 - INFO     - Fin de l'application
+23/10/2024 12:02:48 - INFO     - --------------------------------------------------
+23/10/2024 12:02:48 - INFO     - Lancement Application                           
+23/10/2024 12:02:48 - INFO     - --------------------------------------------------
+23/10/2024 12:02:48 - INFO     - AccueilVue
+23/10/2024 12:02:50 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x0000023738078490>',) - DEBUT
+23/10/2024 12:02:50 - INFO     - ERREUR:  la valeur d'une clé dupliquée rompt la contrainte unique « utilisateur_pkey »
+DETAIL:  La clé « (id_utilisateur)=(1) » existe déjà.
+
+23/10/2024 12:02:50 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x0000023738078490>',) - FIN
+23/10/2024 12:02:50 - INFO     -        └─> Sortie : False
+23/10/2024 12:02:50 - INFO     - InscriptionVue
+23/10/2024 12:02:53 - INFO     - Pseudo : Ananas35 (length: 8)
+23/10/2024 12:02:53 - INFO     -     UtilisateurDao.lister_tous() - DEBUT
+23/10/2024 12:02:53 - INFO     -     UtilisateurDao.lister_tous() - FIN
+23/10/2024 12:02:53 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000002373817FDF0>', '<business_object.utilisateur.Utilisateur object at 0x000002373817FF40>'] ... (2 elements)
+23/10/2024 12:02:57 - INFO     -     UtilisateurDao.recherche_id() - DEBUT
+23/10/2024 12:02:57 - INFO     -     UtilisateurDao.recherche_id() - FIN
+23/10/2024 12:02:57 - INFO     -        └─> Sortie : 3
+23/10/2024 12:02:57 - INFO     - Mot de passe haché : 8c8073a12616902ee3aa3c6c4d4d1d98460376fba2d4edd91f060cfca2026e0b (length: 64)
+23/10/2024 12:02:57 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x00000237381E1120>',) - DEBUT
+23/10/2024 12:02:57 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x00000237381E1120>',) - FIN
+23/10/2024 12:02:57 - INFO     -        └─> Sortie : True
+23/10/2024 12:02:57 - INFO     - AccueilVue
+23/10/2024 12:03:13 - INFO     - ConnexionVue
+23/10/2024 12:03:21 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+23/10/2024 12:03:21 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+23/10/2024 12:03:21 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000002373829D9F0>
+23/10/2024 12:03:21 - INFO     - MenuUtilisateurVue
+23/10/2024 12:03:29 - INFO     - RechercheVue
+23/10/2024 12:03:31 - INFO     - No module named 'dao.joueur_dao'
+23/10/2024 12:03:31 - INFO     - AccueilVue
+23/10/2024 12:05:30 - INFO     - Fin de l'application
+23/10/2024 12:05:34 - INFO     - --------------------------------------------------
+23/10/2024 12:05:34 - INFO     - Lancement Application                           
+23/10/2024 12:05:34 - INFO     - --------------------------------------------------
+23/10/2024 12:05:34 - INFO     - AccueilVue
+23/10/2024 12:05:36 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x000001C1AF478340>',) - DEBUT
+23/10/2024 12:05:36 - INFO     - ERREUR:  la valeur d'une clé dupliquée rompt la contrainte unique « utilisateur_pkey »
+DETAIL:  La clé « (id_utilisateur)=(1) » existe déjà.
+
+23/10/2024 12:05:36 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x000001C1AF478340>',) - FIN
+23/10/2024 12:05:36 - INFO     -        └─> Sortie : False
+23/10/2024 12:05:36 - INFO     - InscriptionVue
+23/10/2024 12:05:42 - INFO     - Pseudo : michou (length: 6)
+23/10/2024 12:05:42 - INFO     -     UtilisateurDao.lister_tous() - DEBUT
+23/10/2024 12:05:42 - INFO     -     UtilisateurDao.lister_tous() - FIN
+23/10/2024 12:05:42 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000001C1AF4E4F10>', '<business_object.utilisateur.Utilisateur object at 0x000001C1AF4E4EE0>', '<business_object.utilisateur.Utilisateur object at 0x000001C1AF4E5A20>'] ... (3 elements)
+23/10/2024 12:05:55 - INFO     -     UtilisateurDao.recherche_id() - DEBUT
+23/10/2024 12:05:55 - INFO     -     UtilisateurDao.recherche_id() - FIN
+23/10/2024 12:05:55 - INFO     -        └─> Sortie : 4
+23/10/2024 12:05:55 - INFO     - Mot de passe haché : b4d0d10c7a72c8e3df84e2d92c653195af6a7c569a9717272fe507420ce74d6f (length: 64)
+23/10/2024 12:05:55 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x000001C1AF5E4EB0>',) - DEBUT
+23/10/2024 12:05:55 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x000001C1AF5E4EB0>',) - FIN
+23/10/2024 12:05:55 - INFO     -        └─> Sortie : True
+23/10/2024 12:05:55 - INFO     - AccueilVue
+23/10/2024 12:06:00 - INFO     - ConnexionVue
+23/10/2024 12:06:09 - INFO     -     UtilisateurDao.se_connecter('michou', '*****') - DEBUT
+23/10/2024 12:06:09 - INFO     -     UtilisateurDao.se_connecter('michou', '*****') - FIN
+23/10/2024 12:06:09 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001C1AF6A1840>
+23/10/2024 12:06:09 - INFO     - MenuUtilisateurVue
+23/10/2024 12:06:14 - INFO     - RechercheVue
+23/10/2024 12:06:33 - INFO     - No module named 'dao.joueur_dao'
+23/10/2024 12:06:33 - INFO     - AccueilVue
+23/10/2024 12:06:43 - INFO     - Fin de l'application
+23/10/2024 12:07:25 - INFO     - --------------------------------------------------
+23/10/2024 12:07:25 - INFO     - Lancement Application                           
+23/10/2024 12:07:25 - INFO     - --------------------------------------------------
+23/10/2024 12:07:25 - INFO     - AccueilVue
+23/10/2024 12:07:29 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x000001D63E868070>',) - DEBUT
+23/10/2024 12:07:29 - INFO     - ERREUR:  la valeur d'une clé dupliquée rompt la contrainte unique « utilisateur_pkey »
+DETAIL:  La clé « (id_utilisateur)=(1) » existe déjà.
+
+23/10/2024 12:07:30 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x000001D63E868070>',) - FIN
+23/10/2024 12:07:30 - INFO     -        └─> Sortie : False
+23/10/2024 12:07:30 - INFO     - ConnexionVue
+23/10/2024 12:07:37 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+23/10/2024 12:07:37 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+23/10/2024 12:07:37 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001D63E9D0CD0>
+23/10/2024 12:07:37 - INFO     - MenuUtilisateurVue
+23/10/2024 12:07:39 - INFO     - RechercheVue
+23/10/2024 12:07:41 - INFO     - No module named 'manga'
+23/10/2024 12:07:41 - INFO     - AccueilVue
+23/10/2024 12:08:02 - INFO     - Fin de l'application
+23/10/2024 12:11:05 - INFO     - --------------------------------------------------
+23/10/2024 12:11:05 - INFO     - Lancement Application                           
+23/10/2024 12:11:05 - INFO     - --------------------------------------------------
+23/10/2024 12:11:05 - INFO     - AccueilVue
+23/10/2024 12:11:05 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x00000181723F8070>',) - DEBUT
+23/10/2024 12:11:05 - INFO     - ERREUR:  la valeur d'une clé dupliquée rompt la contrainte unique « utilisateur_pkey »
+DETAIL:  La clé « (id_utilisateur)=(1) » existe déjà.
+
+23/10/2024 12:11:06 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x00000181723F8070>',) - FIN
+23/10/2024 12:11:06 - INFO     -        └─> Sortie : False
+23/10/2024 12:11:06 - INFO     - ConnexionVue
+23/10/2024 12:11:12 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+23/10/2024 12:11:12 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+23/10/2024 12:11:12 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000018172560D00>
+23/10/2024 12:11:12 - INFO     - MenuUtilisateurVue
+23/10/2024 12:11:15 - INFO     - RechercheVue
+23/10/2024 12:11:17 - INFO     -     MangaDao.supprimer_toutes_les_donnees() - DEBUT
+23/10/2024 12:11:17 - INFO     -     MangaDao.supprimer_toutes_les_donnees() - FIN
+23/10/2024 12:11:17 - INFO     -        └─> Sortie : False
+23/10/2024 12:11:17 - INFO     -     MangaDao.inserer_mangas('mangas.json',) - DEBUT
+23/10/2024 12:11:18 - INFO     -     MangaDao.inserer_mangas('mangas.json',) - FIN
+23/10/2024 12:11:18 - INFO     -        └─> Sortie : None
+23/10/2024 12:11:18 - INFO     - RechercheUtilisateurVue
+23/10/2024 12:11:49 - INFO     - 'RechercheService' object has no attribute 'dao'
+23/10/2024 12:11:49 - INFO     - AccueilVue
+23/10/2024 12:14:13 - INFO     - ConnexionVue
+23/10/2024 12:14:19 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+23/10/2024 12:14:19 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+23/10/2024 12:14:19 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001817314D8A0>
+23/10/2024 12:14:19 - INFO     - MenuUtilisateurVue
+23/10/2024 12:14:23 - INFO     - RechercheVue
+23/10/2024 12:14:25 - INFO     - RechercheUtilisateurVue
+23/10/2024 12:14:31 - INFO     - 'RechercheService' object has no attribute 'dao'
+23/10/2024 12:14:31 - INFO     - AccueilVue
+23/10/2024 12:16:31 - INFO     - ConnexionVue
+23/10/2024 12:16:37 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+23/10/2024 12:16:37 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+23/10/2024 12:16:37 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000018172F09690>
+23/10/2024 12:16:37 - INFO     - MenuUtilisateurVue
+23/10/2024 12:16:41 - INFO     - RechercheVue
+23/10/2024 12:16:43 - INFO     - RechercheUtilisateurVue
+23/10/2024 12:16:58 - INFO     - 'RechercheService' object has no attribute 'dao'
+23/10/2024 12:16:58 - INFO     - AccueilVue
+23/10/2024 12:17:01 - INFO     - ConnexionVue
+23/10/2024 12:17:12 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+23/10/2024 12:17:12 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+23/10/2024 12:17:12 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001817397BDC0>
+23/10/2024 12:17:12 - INFO     - MenuUtilisateurVue
+23/10/2024 12:20:14 - INFO     - RechercheVue
+23/10/2024 12:20:17 - INFO     - RechercheUtilisateurVue
+23/10/2024 12:20:41 - INFO     - 'RechercheService' object has no attribute 'dao'
+23/10/2024 12:20:41 - INFO     - AccueilVue
+23/10/2024 12:26:37 - INFO     - Fin de l'application
+23/10/2024 12:26:41 - INFO     - --------------------------------------------------
+23/10/2024 12:26:41 - INFO     - Lancement Application                           
+23/10/2024 12:26:41 - INFO     - --------------------------------------------------
+23/10/2024 12:26:41 - INFO     - AccueilVue
+23/10/2024 12:26:43 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x000001DE40D38070>',) - DEBUT
+23/10/2024 12:26:43 - INFO     - ERREUR:  la valeur d'une clé dupliquée rompt la contrainte unique « utilisateur_pkey »
+DETAIL:  La clé « (id_utilisateur)=(1) » existe déjà.
+
+23/10/2024 12:26:43 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x000001DE40D38070>',) - FIN
+23/10/2024 12:26:43 - INFO     -        └─> Sortie : False
+23/10/2024 12:26:43 - INFO     - ConnexionVue
+23/10/2024 12:26:48 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+23/10/2024 12:26:48 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+23/10/2024 12:26:48 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001DE40EA4D00>
+23/10/2024 12:26:48 - INFO     - MenuUtilisateurVue
+23/10/2024 12:26:50 - INFO     - RechercheVue
+23/10/2024 12:26:52 - INFO     -     MangaDao.supprimer_toutes_les_donnees() - DEBUT
+23/10/2024 12:26:52 - INFO     -     MangaDao.supprimer_toutes_les_donnees() - FIN
+23/10/2024 12:26:52 - INFO     -        └─> Sortie : True
+23/10/2024 12:26:52 - INFO     -     MangaDao.inserer_mangas('mangas.json',) - DEBUT
+23/10/2024 12:26:53 - INFO     -     MangaDao.inserer_mangas('mangas.json',) - FIN
+23/10/2024 12:26:53 - INFO     -        └─> Sortie : None
+23/10/2024 12:26:53 - INFO     - RechercheUtilisateurVue
+23/10/2024 12:26:58 - INFO     - RechercheService.recherche_utilisateur() missing 1 required positional argument: 'pseudo'
+23/10/2024 12:26:58 - INFO     - AccueilVue
+23/10/2024 12:46:28 - INFO     - Fin de l'application
+23/10/2024 13:56:56 - INFO     - --------------------------------------------------
+23/10/2024 13:56:56 - INFO     - Lancement Application                           
+23/10/2024 13:56:56 - INFO     - --------------------------------------------------
+23/10/2024 13:56:56 - INFO     - AccueilVue
+23/10/2024 13:57:08 - INFO     - ConnexionVue
+23/10/2024 13:57:15 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+23/10/2024 13:57:15 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+23/10/2024 13:57:15 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x00000248F2275BA0>
+23/10/2024 13:57:15 - INFO     - MenuUtilisateurVue
+23/10/2024 13:57:21 - INFO     - RechercheVue
+23/10/2024 13:57:39 - INFO     - RechercheUtilisateurVue
+23/10/2024 13:57:46 - INFO     - 'str' object has no attribute 'append'
+23/10/2024 13:57:46 - INFO     - AccueilVue
+23/10/2024 14:10:19 - INFO     - Fin de l'application
+23/10/2024 14:10:25 - INFO     - --------------------------------------------------
+23/10/2024 14:10:25 - INFO     - Lancement Application                           
+23/10/2024 14:10:25 - INFO     - --------------------------------------------------
+23/10/2024 14:10:25 - INFO     - AccueilVue
+23/10/2024 14:10:31 - INFO     - ConnexionVue
+23/10/2024 14:10:41 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+23/10/2024 14:10:42 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+23/10/2024 14:10:42 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x00000177E2235D20>
+23/10/2024 14:10:42 - INFO     - MenuUtilisateurVue
+23/10/2024 14:10:45 - INFO     - RechercheVue
+23/10/2024 14:10:48 - INFO     - RechercheUtilisateurVue
+23/10/2024 14:10:52 - INFO     - 'str' object has no attribute 'append'
+23/10/2024 14:10:52 - INFO     - AccueilVue
+23/10/2024 14:18:13 - INFO     - Fin de l'application
+23/10/2024 14:20:07 - INFO     - --------------------------------------------------
+23/10/2024 14:20:07 - INFO     - Lancement Application                           
+23/10/2024 14:20:07 - INFO     - --------------------------------------------------
+23/10/2024 14:20:07 - INFO     - AccueilVue
+23/10/2024 14:20:10 - INFO     - ConnexionVue
+23/10/2024 14:20:22 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+23/10/2024 14:20:22 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+23/10/2024 14:20:22 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001EE26B25960>
+23/10/2024 14:20:22 - INFO     - MenuUtilisateurVue
+23/10/2024 14:20:24 - INFO     - RechercheVue
+23/10/2024 14:20:26 - INFO     - RechercheUtilisateurVue
+23/10/2024 14:20:29 - INFO     - 'str' object has no attribute 'append'
+23/10/2024 14:20:29 - INFO     - AccueilVue
+23/10/2024 14:22:06 - INFO     - Fin de l'application
+23/10/2024 14:22:10 - INFO     - --------------------------------------------------
+23/10/2024 14:22:10 - INFO     - Lancement Application                           
+23/10/2024 14:22:10 - INFO     - --------------------------------------------------
+23/10/2024 14:22:10 - INFO     - AccueilVue
+23/10/2024 14:22:12 - INFO     - ConnexionVue
+23/10/2024 14:22:19 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+23/10/2024 14:22:19 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+23/10/2024 14:22:19 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001EDCF101A80>
+23/10/2024 14:22:19 - INFO     - MenuUtilisateurVue
+23/10/2024 14:22:21 - INFO     - RechercheVue
+23/10/2024 14:22:23 - INFO     - RechercheUtilisateurVue
+23/10/2024 14:22:25 - INFO     - RechercheService.recherche_utilisateur() missing 1 required positional argument: 'pseudo'
+23/10/2024 14:22:25 - INFO     - AccueilVue
+23/10/2024 14:23:02 - INFO     - Fin de l'application
+23/10/2024 14:23:05 - INFO     - --------------------------------------------------
+23/10/2024 14:23:05 - INFO     - Lancement Application                           
+23/10/2024 14:23:05 - INFO     - --------------------------------------------------
+23/10/2024 14:23:05 - INFO     - AccueilVue
+23/10/2024 14:23:07 - INFO     - ConnexionVue
+23/10/2024 14:23:13 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+23/10/2024 14:23:13 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+23/10/2024 14:23:13 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x00000293F9AEDA80>
+23/10/2024 14:23:13 - INFO     - MenuUtilisateurVue
+23/10/2024 14:23:15 - INFO     - RechercheVue
+23/10/2024 14:23:17 - INFO     - RechercheUtilisateurVue
+23/10/2024 14:23:19 - INFO     - RechercheService.recherche_utilisateur() missing 1 required positional argument: 'pseudo'
+23/10/2024 14:23:20 - INFO     - AccueilVue
+23/10/2024 14:24:07 - INFO     - Fin de l'application
+23/10/2024 14:24:15 - INFO     - --------------------------------------------------
+23/10/2024 14:24:15 - INFO     - Lancement Application                           
+23/10/2024 14:24:15 - INFO     - --------------------------------------------------
+23/10/2024 14:24:15 - INFO     - AccueilVue
+23/10/2024 14:24:20 - INFO     - ConnexionVue
+23/10/2024 14:24:26 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+23/10/2024 14:24:26 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+23/10/2024 14:24:26 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001AE7402DA80>
+23/10/2024 14:24:26 - INFO     - MenuUtilisateurVue
+23/10/2024 14:24:28 - INFO     - RechercheVue
+23/10/2024 14:24:30 - INFO     - RechercheUtilisateurVue
+23/10/2024 14:24:32 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('Ana',) - DEBUT
+23/10/2024 14:24:32 - INFO     - RealDictCursor.execute() takes from 2 to 3 positional arguments but 5 were given
+23/10/2024 14:24:32 - INFO     - RealDictCursor.execute() takes from 2 to 3 positional arguments but 5 were given
+23/10/2024 14:24:32 - INFO     - AccueilVue
+23/10/2024 14:26:33 - INFO     - Fin de l'application
+23/10/2024 14:27:14 - INFO     - --------------------------------------------------
+23/10/2024 14:27:14 - INFO     - Lancement Application                           
+23/10/2024 14:27:14 - INFO     - --------------------------------------------------
+23/10/2024 14:27:14 - INFO     - AccueilVue
+23/10/2024 14:27:16 - INFO     - ConnexionVue
+23/10/2024 14:27:23 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+23/10/2024 14:27:23 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+23/10/2024 14:27:23 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001934150DA50>
+23/10/2024 14:27:23 - INFO     - MenuUtilisateurVue
+23/10/2024 14:27:25 - INFO     - RechercheVue
+23/10/2024 14:27:27 - INFO     - RechercheUtilisateurVue
+23/10/2024 14:27:30 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('Ana',) - DEBUT
+23/10/2024 14:27:30 - INFO     - RealDictCursor.execute() takes from 2 to 3 positional arguments but 5 were given
+23/10/2024 14:27:30 - INFO     - RealDictCursor.execute() takes from 2 to 3 positional arguments but 5 were given
+23/10/2024 14:27:30 - INFO     - AccueilVue
+23/10/2024 14:30:24 - INFO     - Fin de l'application
+23/10/2024 14:30:35 - INFO     - --------------------------------------------------
+23/10/2024 14:30:35 - INFO     - Lancement Application                           
+23/10/2024 14:30:35 - INFO     - --------------------------------------------------
+23/10/2024 14:30:35 - INFO     - AccueilVue
+23/10/2024 14:30:36 - INFO     - ConnexionVue
+23/10/2024 14:30:43 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+23/10/2024 14:30:43 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+23/10/2024 14:30:43 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001BD3AA51A80>
+23/10/2024 14:30:43 - INFO     - MenuUtilisateurVue
+23/10/2024 14:30:51 - INFO     - RechercheVue
+23/10/2024 14:30:53 - INFO     - RechercheUtilisateurVue
+23/10/2024 14:30:56 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('Ana',) - DEBUT
+23/10/2024 14:30:56 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('Ana',) - FIN
+23/10/2024 14:30:56 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000001BD3ABC5090>'] ... (1 elements)
+23/10/2024 14:30:56 - INFO     - 'bool' object has no attribute 'append'
+23/10/2024 14:30:56 - INFO     - AccueilVue
+23/10/2024 14:33:57 - INFO     - Fin de l'application
+23/10/2024 14:34:00 - INFO     - --------------------------------------------------
+23/10/2024 14:34:00 - INFO     - Lancement Application                           
+23/10/2024 14:34:00 - INFO     - --------------------------------------------------
+23/10/2024 14:34:00 - INFO     - AccueilVue
+23/10/2024 14:34:02 - INFO     - ConnexionVue
+23/10/2024 14:34:09 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+23/10/2024 14:34:10 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+23/10/2024 14:34:10 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000025F85A5DA80>
+23/10/2024 14:34:10 - INFO     - MenuUtilisateurVue
+23/10/2024 14:34:28 - INFO     - RechercheVue
+23/10/2024 14:34:29 - INFO     - RechercheUtilisateurVue
+23/10/2024 14:34:39 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('Ana',) - DEBUT
+23/10/2024 14:34:39 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('Ana',) - FIN
+23/10/2024 14:34:39 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x0000025F85BD5090>'] ... (1 elements)
+23/10/2024 14:34:46 - INFO     - MenuUtilisateurVue
+23/10/2024 14:34:48 - INFO     - AccueilVue
+23/10/2024 14:34:51 - INFO     - Fin de l'application
+23/10/2024 14:35:28 - INFO     - --------------------------------------------------
+23/10/2024 14:35:28 - INFO     - Lancement Application                           
+23/10/2024 14:35:28 - INFO     - --------------------------------------------------
+23/10/2024 14:35:28 - INFO     - AccueilVue
+23/10/2024 14:35:30 - INFO     - Fin de l'application
+23/10/2024 14:35:51 - INFO     - --------------------------------------------------
+23/10/2024 14:35:51 - INFO     - Lancement Application                           
+23/10/2024 14:35:51 - INFO     - --------------------------------------------------
+23/10/2024 14:35:51 - INFO     - AccueilVue
+23/10/2024 14:35:55 - INFO     - ConnexionVue
+23/10/2024 14:36:00 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+23/10/2024 14:36:00 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+23/10/2024 14:36:00 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001A5CE4D1A80>
+23/10/2024 14:36:00 - INFO     - MenuUtilisateurVue
+23/10/2024 14:36:02 - INFO     - RechercheVue
+23/10/2024 14:36:04 - INFO     - RechercheUtilisateurVue
+23/10/2024 14:36:06 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('Ana',) - DEBUT
+23/10/2024 14:36:06 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('Ana',) - FIN
+23/10/2024 14:36:06 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000001A5CE6490F0>'] ... (1 elements)
+23/10/2024 14:36:17 - INFO     - MenuUtilisateurVue
+23/10/2024 14:36:20 - INFO     - AccueilVue
+23/10/2024 14:36:22 - INFO     - InscriptionVue
+23/10/2024 14:36:33 - INFO     - Pseudo : papayanapo (length: 10)
+23/10/2024 14:36:33 - INFO     -     UtilisateurDao.lister_tous() - DEBUT
+23/10/2024 14:36:33 - INFO     -     UtilisateurDao.lister_tous() - FIN
+23/10/2024 14:36:33 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000001A5CE929240>', '<business_object.utilisateur.Utilisateur object at 0x000001A5CE978280>', '<business_object.utilisateur.Utilisateur object at 0x000001A5CE978220>'] ... (4 elements)
+23/10/2024 14:36:44 - INFO     -     UtilisateurDao.recherche_id() - DEBUT
+23/10/2024 14:36:44 - INFO     -     UtilisateurDao.recherche_id() - FIN
+23/10/2024 14:36:44 - INFO     -        └─> Sortie : 5
+23/10/2024 14:36:44 - INFO     - Mot de passe haché : 9c0bcf5de48ad6941a7aca159a9608d0c86a64ec3b719769611c4b2ffce41298 (length: 64)
+23/10/2024 14:36:44 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x000001A5CEA4C520>',) - DEBUT
+23/10/2024 14:36:44 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x000001A5CEA4C520>',) - FIN
+23/10/2024 14:36:44 - INFO     -        └─> Sortie : True
+23/10/2024 14:36:44 - INFO     - AccueilVue
+23/10/2024 14:36:45 - INFO     - ConnexionVue
+23/10/2024 14:36:55 - INFO     -     UtilisateurDao.se_connecter('ss', '*****') - DEBUT
+23/10/2024 14:36:55 - INFO     -     UtilisateurDao.se_connecter('ss', '*****') - FIN
+23/10/2024 14:36:55 - INFO     -        └─> Sortie : None
+23/10/2024 14:36:55 - INFO     - AccueilVue
+23/10/2024 14:36:58 - INFO     - InscriptionVue
+23/10/2024 14:37:04 - INFO     - Pseudo : loananas (length: 8)
+23/10/2024 14:37:04 - INFO     -     UtilisateurDao.lister_tous() - DEBUT
+23/10/2024 14:37:04 - INFO     -     UtilisateurDao.lister_tous() - FIN
+23/10/2024 14:37:04 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000001A5CEA21450>', '<business_object.utilisateur.Utilisateur object at 0x000001A5CEA21420>', '<business_object.utilisateur.Utilisateur object at 0x000001A5CEA221D0>'] ... (5 elements)
+23/10/2024 14:37:12 - INFO     -     UtilisateurDao.recherche_id() - DEBUT
+23/10/2024 14:37:12 - INFO     -     UtilisateurDao.recherche_id() - FIN
+23/10/2024 14:37:12 - INFO     -        └─> Sortie : 6
+23/10/2024 14:37:12 - INFO     - Mot de passe haché : a54a6515de432230cc180565ab61c24a73f4f60747dc54da45ea6e7f8a5c289c (length: 64)
+23/10/2024 14:37:12 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x000001A5CF479330>',) - DEBUT
+23/10/2024 14:37:12 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x000001A5CF479330>',) - FIN
+23/10/2024 14:37:12 - INFO     -        └─> Sortie : True
+23/10/2024 14:37:12 - INFO     - AccueilVue
+23/10/2024 14:37:14 - INFO     - InscriptionVue
+23/10/2024 14:37:22 - INFO     - Pseudo : cacananao (length: 9)
+23/10/2024 14:37:22 - INFO     -     UtilisateurDao.lister_tous() - DEBUT
+23/10/2024 14:37:22 - INFO     -     UtilisateurDao.lister_tous() - FIN
+23/10/2024 14:37:22 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000001A5CF688D90>', '<business_object.utilisateur.Utilisateur object at 0x000001A5CF689240>', '<business_object.utilisateur.Utilisateur object at 0x000001A5CF6899C0>'] ... (6 elements)
+23/10/2024 14:37:27 - INFO     -     UtilisateurDao.recherche_id() - DEBUT
+23/10/2024 14:37:27 - INFO     -     UtilisateurDao.recherche_id() - FIN
+23/10/2024 14:37:27 - INFO     -        └─> Sortie : 7
+23/10/2024 14:37:27 - INFO     - Mot de passe haché : b63b3a4e7f2563a760c407e75ee8b7dfad6e1cdb2ec900d8f3c0d96a1dca79da (length: 64)
+23/10/2024 14:37:27 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x000001A5CF6F1270>',) - DEBUT
+23/10/2024 14:37:27 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x000001A5CF6F1270>',) - FIN
+23/10/2024 14:37:27 - INFO     -        └─> Sortie : True
+23/10/2024 14:37:27 - INFO     - AccueilVue
+23/10/2024 14:37:33 - INFO     - ConnexionVue
+23/10/2024 14:37:43 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+23/10/2024 14:37:43 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+23/10/2024 14:37:43 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001A5CF83E7D0>
+23/10/2024 14:37:43 - INFO     - MenuUtilisateurVue
+23/10/2024 14:37:46 - INFO     - RechercheVue
+23/10/2024 14:37:55 - INFO     - RechercheUtilisateurVue
+23/10/2024 14:38:02 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('Ana',) - DEBUT
+23/10/2024 14:38:02 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('Ana',) - FIN
+23/10/2024 14:38:02 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000001A5CEA44A00>'] ... (1 elements)
+23/10/2024 14:38:08 - INFO     - MenuUtilisateurVue
+23/10/2024 14:38:10 - INFO     - RechercheVue
+23/10/2024 14:38:12 - INFO     - RechercheUtilisateurVue
+23/10/2024 14:38:17 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('ana',) - DEBUT
+23/10/2024 14:38:17 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('ana',) - FIN
+23/10/2024 14:38:17 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000001A5CFAABDC0>', '<business_object.utilisateur.Utilisateur object at 0x000001A5CFAABC40>', '<business_object.utilisateur.Utilisateur object at 0x000001A5CFAABC10>'] ... (4 elements)
+23/10/2024 14:47:24 - INFO     - MenuUtilisateurVue
+23/10/2024 14:47:25 - INFO     - AccueilVue
+23/10/2024 14:47:27 - INFO     - Fin de l'application
+23/10/2024 14:48:13 - INFO     - --------------------------------------------------
+23/10/2024 14:48:13 - INFO     - Lancement Application                           
+23/10/2024 14:48:13 - INFO     - --------------------------------------------------
+23/10/2024 14:48:13 - INFO     - AccueilVue
+23/10/2024 14:48:16 - INFO     - ConnexionVue
+23/10/2024 14:48:22 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+23/10/2024 14:48:22 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+23/10/2024 14:48:22 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000018EED941A80>
+23/10/2024 14:48:22 - INFO     - MenuUtilisateurVue
+23/10/2024 14:48:24 - INFO     - RechercheVue
+23/10/2024 14:48:26 - INFO     - RechercheUtilisateurVue
+23/10/2024 14:48:46 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('ana',) - DEBUT
+23/10/2024 14:48:47 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('ana',) - FIN
+23/10/2024 14:48:47 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x0000018EEDAB5090>', '<business_object.utilisateur.Utilisateur object at 0x0000018EEDAB5060>', '<business_object.utilisateur.Utilisateur object at 0x0000018EEDAB5B70>'] ... (4 elements)
+23/10/2024 14:49:32 - INFO     - RechercheVue
+23/10/2024 14:49:45 - INFO     - RechercheUtilisateurVue
+23/10/2024 14:49:55 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - DEBUT
+23/10/2024 14:49:55 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - FIN
+23/10/2024 14:49:55 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x0000018EEDEA0C70>', '<business_object.utilisateur.Utilisateur object at 0x0000018EEDEA0C10>', '<business_object.utilisateur.Utilisateur object at 0x0000018EEDEA0BB0>'] ... (5 elements)
+23/10/2024 14:51:12 - INFO     - RechercheVue
+23/10/2024 14:51:13 - INFO     - Fin de l'application
+23/10/2024 14:57:13 - INFO     - --------------------------------------------------
+23/10/2024 14:57:13 - INFO     - Lancement Application                           
+23/10/2024 14:57:13 - INFO     - --------------------------------------------------
+23/10/2024 14:57:13 - INFO     - AccueilVue
+23/10/2024 14:57:17 - INFO     - ConnexionVue
+23/10/2024 14:57:26 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+23/10/2024 14:57:26 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+23/10/2024 14:57:26 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001FD9B4A9BD0>
+23/10/2024 14:57:26 - INFO     - MenuUtilisateurVue
+23/10/2024 14:57:28 - INFO     - expected an indented block after class definition on line 1 (collection_cohérente_vue.py, line 1)
+23/10/2024 14:57:28 - INFO     - AccueilVue
+23/10/2024 15:06:28 - INFO     - Fin de l'application
+23/10/2024 15:24:36 - INFO     - --------------------------------------------------
+23/10/2024 15:24:36 - INFO     - Lancement Application                           
+23/10/2024 15:24:36 - INFO     - --------------------------------------------------
+23/10/2024 15:24:36 - INFO     - AccueilVue
+23/10/2024 15:24:37 - INFO     - ConnexionVue
+23/10/2024 15:24:43 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+23/10/2024 15:24:43 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+23/10/2024 15:24:43 - INFO     -        └─> Sortie : None
+23/10/2024 15:24:43 - INFO     - AccueilVue
+23/10/2024 15:25:08 - INFO     - InscriptionVue
+23/10/2024 15:25:11 - INFO     - Pseudo : Ananas35 (length: 8)
+23/10/2024 15:25:11 - INFO     -     UtilisateurDao.lister_tous() - DEBUT
+23/10/2024 15:25:11 - INFO     -     UtilisateurDao.lister_tous() - FIN
+23/10/2024 15:25:11 - INFO     -        └─> Sortie : [] ... (0 elements)
+23/10/2024 15:25:14 - INFO     -     UtilisateurDao.recherche_id() - DEBUT
+23/10/2024 15:25:14 - INFO     -     UtilisateurDao.recherche_id() - FIN
+23/10/2024 15:25:14 - INFO     -        └─> Sortie : 1
+23/10/2024 15:25:14 - INFO     - Mot de passe haché : 8c8073a12616902ee3aa3c6c4d4d1d98460376fba2d4edd91f060cfca2026e0b (length: 64)
+23/10/2024 15:25:14 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x000002C1D92C84C0>',) - DEBUT
+23/10/2024 15:25:14 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x000002C1D92C84C0>',) - FIN
+23/10/2024 15:25:14 - INFO     -        └─> Sortie : True
+23/10/2024 15:25:14 - INFO     - AccueilVue
+23/10/2024 15:25:16 - INFO     - ConnexionVue
+23/10/2024 15:25:21 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+23/10/2024 15:25:21 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+23/10/2024 15:25:21 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000002C1D95BE410>
+23/10/2024 15:25:21 - INFO     - MenuUtilisateurVue
+23/10/2024 15:25:23 - INFO     - RechercheVue
+23/10/2024 15:25:25 - INFO     - Fin de l'application
+23/10/2024 15:26:52 - INFO     - --------------------------------------------------
+23/10/2024 15:26:52 - INFO     - Lancement Application                           
+23/10/2024 15:26:52 - INFO     - --------------------------------------------------
+23/10/2024 15:26:52 - INFO     - AccueilVue
+23/10/2024 15:26:54 - INFO     - ConnexionVue
+23/10/2024 15:27:01 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+23/10/2024 15:27:01 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+23/10/2024 15:27:01 - INFO     -        └─> Sortie : None
+23/10/2024 15:27:01 - INFO     - AccueilVue
+23/10/2024 15:27:03 - INFO     - ConnexionVue
+23/10/2024 15:27:09 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+23/10/2024 15:27:09 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+23/10/2024 15:27:09 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000025CF80D1210>
+23/10/2024 15:27:09 - INFO     - MenuUtilisateurVue
+23/10/2024 15:27:12 - INFO     - RechercheVue
+23/10/2024 15:27:13 - INFO     - RechercheMangaVue
+23/10/2024 15:27:17 - INFO     - 'MangaDao' object has no attribute 'rechercher_tous_pseudo'
+23/10/2024 15:27:17 - INFO     - AccueilVue
+23/10/2024 15:28:39 - INFO     - Fin de l'application
+23/10/2024 15:28:42 - INFO     - --------------------------------------------------
+23/10/2024 15:28:42 - INFO     - Lancement Application                           
+23/10/2024 15:28:42 - INFO     - --------------------------------------------------
+23/10/2024 15:28:42 - INFO     - AccueilVue
+23/10/2024 15:28:43 - INFO     - ConnexionVue
+23/10/2024 15:28:50 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+23/10/2024 15:28:50 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+23/10/2024 15:28:50 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000025E37265A50>
+23/10/2024 15:28:50 - INFO     - MenuUtilisateurVue
+23/10/2024 15:28:51 - INFO     - RechercheVue
+23/10/2024 15:28:52 - INFO     - RechercheMangaVue
+23/10/2024 15:28:54 - INFO     - RealDictCursor.execute() takes from 2 to 3 positional arguments but 5 were given
+23/10/2024 15:28:54 - INFO     - RealDictCursor.execute() takes from 2 to 3 positional arguments but 5 were given
+23/10/2024 15:28:54 - INFO     - AccueilVue
+23/10/2024 15:30:57 - INFO     - Fin de l'application
+23/10/2024 15:31:00 - INFO     - --------------------------------------------------
+23/10/2024 15:31:00 - INFO     - Lancement Application                           
+23/10/2024 15:31:00 - INFO     - --------------------------------------------------
+23/10/2024 15:31:00 - INFO     - AccueilVue
+23/10/2024 15:31:01 - INFO     - ConnexionVue
+23/10/2024 15:31:07 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+23/10/2024 15:31:07 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+23/10/2024 15:31:07 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x00000263D1561A80>
+23/10/2024 15:31:07 - INFO     - MenuUtilisateurVue
+23/10/2024 15:31:09 - INFO     - RechercheVue
+23/10/2024 15:31:10 - INFO     - RechercheMangaVue
+23/10/2024 15:31:12 - INFO     - ERREUR:  la colonne « pseudo » n'existe pas
+LINE 1: SELECT * FROM manga WHERE pseudo LIKE '%Mons%';
+                                  ^
+
+23/10/2024 15:31:12 - INFO     - ERREUR:  la colonne « pseudo » n'existe pas
+LINE 1: SELECT * FROM manga WHERE pseudo LIKE '%Mons%';
+                                  ^
+
+23/10/2024 15:31:12 - INFO     - AccueilVue
+23/10/2024 15:31:33 - INFO     - Fin de l'application
+23/10/2024 15:31:37 - INFO     - --------------------------------------------------
+23/10/2024 15:31:37 - INFO     - Lancement Application                           
+23/10/2024 15:31:37 - INFO     - --------------------------------------------------
+23/10/2024 15:31:37 - INFO     - AccueilVue
+23/10/2024 15:31:38 - INFO     - ConnexionVue
+23/10/2024 15:31:43 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+23/10/2024 15:31:43 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+23/10/2024 15:31:44 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x00000183F4901A50>
+23/10/2024 15:31:44 - INFO     - MenuUtilisateurVue
+23/10/2024 15:31:45 - INFO     - RechercheVue
+23/10/2024 15:31:47 - INFO     - RechercheMangaVue
+23/10/2024 15:31:50 - INFO     - 'method' object is not iterable
+23/10/2024 15:31:50 - INFO     - AccueilVue
+23/10/2024 15:35:09 - INFO     - Fin de l'application
+23/10/2024 15:35:13 - INFO     - --------------------------------------------------
+23/10/2024 15:35:13 - INFO     - Lancement Application                           
+23/10/2024 15:35:13 - INFO     - --------------------------------------------------
+23/10/2024 15:35:13 - INFO     - AccueilVue
+23/10/2024 15:35:14 - INFO     - ConnexionVue
+23/10/2024 15:35:20 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+23/10/2024 15:35:20 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+23/10/2024 15:35:20 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001A2E8755A80>
+23/10/2024 15:35:20 - INFO     - MenuUtilisateurVue
+23/10/2024 15:35:22 - INFO     - RechercheVue
+23/10/2024 15:35:22 - INFO     - RechercheMangaVue
+23/10/2024 15:35:25 - INFO     - list indices must be integers or slices, not str
+23/10/2024 15:35:25 - INFO     - AccueilVue
+23/10/2024 15:36:34 - INFO     - Fin de l'application
+23/10/2024 15:36:37 - INFO     - --------------------------------------------------
+23/10/2024 15:36:37 - INFO     - Lancement Application                           
+23/10/2024 15:36:37 - INFO     - --------------------------------------------------
+23/10/2024 15:36:37 - INFO     - AccueilVue
+23/10/2024 15:36:39 - INFO     - InscriptionVue
+23/10/2024 15:36:41 - INFO     - Pseudo : as (length: 2)
+23/10/2024 15:36:41 - INFO     -     UtilisateurDao.lister_tous() - DEBUT
+23/10/2024 15:36:41 - INFO     -     UtilisateurDao.lister_tous() - FIN
+23/10/2024 15:36:41 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x0000019F59B097E0>'] ... (1 elements)
+23/10/2024 15:36:47 - INFO     -     UtilisateurDao.recherche_id() - DEBUT
+23/10/2024 15:36:47 - INFO     -     UtilisateurDao.recherche_id() - FIN
+23/10/2024 15:36:47 - INFO     -        └─> Sortie : 2
+23/10/2024 15:36:47 - INFO     - Mot de passe haché : 918091dd097357220fd70671bf86417247707a003144d000147a99425d0ba7db (length: 64)
+23/10/2024 15:36:47 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x0000019F59BF44F0>',) - DEBUT
+23/10/2024 15:36:47 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x0000019F59BF44F0>',) - FIN
+23/10/2024 15:36:47 - INFO     -        └─> Sortie : True
+23/10/2024 15:36:47 - INFO     - AccueilVue
+23/10/2024 15:37:00 - INFO     - ConnexionVue
+23/10/2024 15:37:07 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+23/10/2024 15:37:07 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+23/10/2024 15:37:07 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000019F59CC59F0>
+23/10/2024 15:37:07 - INFO     - MenuUtilisateurVue
+23/10/2024 15:37:09 - INFO     - RechercheVue
+23/10/2024 15:37:11 - INFO     - RechercheMangaVue
+23/10/2024 15:37:14 - INFO     - 'auteurs'
+23/10/2024 15:37:14 - INFO     - AccueilVue
+23/10/2024 15:38:34 - INFO     - Fin de l'application
+23/10/2024 15:38:38 - INFO     - --------------------------------------------------
+23/10/2024 15:38:38 - INFO     - Lancement Application                           
+23/10/2024 15:38:38 - INFO     - --------------------------------------------------
+23/10/2024 15:38:38 - INFO     - AccueilVue
+23/10/2024 15:38:39 - INFO     - ConnexionVue
+23/10/2024 15:38:45 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+23/10/2024 15:38:45 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+23/10/2024 15:38:45 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x00000202F0041960>
+23/10/2024 15:38:45 - INFO     - MenuUtilisateurVue
+23/10/2024 15:38:46 - INFO     - RechercheVue
+23/10/2024 15:38:47 - INFO     - RechercheMangaVue
+23/10/2024 15:38:49 - INFO     - 'auteur'
+23/10/2024 15:38:49 - INFO     - AccueilVue
+23/10/2024 15:39:16 - INFO     - ConnexionVue
+23/10/2024 15:39:22 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+23/10/2024 15:39:22 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+23/10/2024 15:39:22 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x00000202F04346A0>
+23/10/2024 15:39:22 - INFO     - MenuUtilisateurVue
+23/10/2024 15:39:25 - INFO     - RechercheVue
+23/10/2024 15:39:27 - INFO     - RechercheUtilisateurVue
+23/10/2024 15:39:29 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - DEBUT
+23/10/2024 15:39:29 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - FIN
+23/10/2024 15:39:29 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x00000202F0F238E0>', '<business_object.utilisateur.Utilisateur object at 0x00000202F0F238B0>'] ... (2 elements)
+23/10/2024 15:39:33 - INFO     - MenuUtilisateurVue
+23/10/2024 15:39:35 - INFO     - RechercheVue
+23/10/2024 15:39:36 - INFO     - RechercheMangaVue
+23/10/2024 15:39:54 - INFO     - 'auteur'
+23/10/2024 15:39:54 - INFO     - AccueilVue
+23/10/2024 15:40:30 - INFO     - Fin de l'application
+23/10/2024 15:40:33 - INFO     - --------------------------------------------------
+23/10/2024 15:40:33 - INFO     - Lancement Application                           
+23/10/2024 15:40:33 - INFO     - --------------------------------------------------
+23/10/2024 15:40:33 - INFO     - AccueilVue
+23/10/2024 15:40:34 - INFO     - ConnexionVue
+23/10/2024 15:40:40 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+23/10/2024 15:40:40 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+23/10/2024 15:40:40 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x00000198B4EC1A50>
+23/10/2024 15:40:40 - INFO     - MenuUtilisateurVue
+23/10/2024 15:40:42 - INFO     - RechercheVue
+23/10/2024 15:40:42 - INFO     - RechercheMangaVue
+23/10/2024 15:40:45 - INFO     - 'auteur'
+23/10/2024 15:40:45 - INFO     - AccueilVue
+23/10/2024 15:44:37 - INFO     - Fin de l'application
+23/10/2024 15:44:42 - INFO     - --------------------------------------------------
+23/10/2024 15:44:42 - INFO     - Lancement Application                           
+23/10/2024 15:44:42 - INFO     - --------------------------------------------------
+23/10/2024 15:44:42 - INFO     - AccueilVue
+23/10/2024 15:44:46 - INFO     - ConnexionVue
+23/10/2024 15:44:52 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+23/10/2024 15:44:52 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+23/10/2024 15:44:52 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000018ABDFB5CC0>
+23/10/2024 15:44:52 - INFO     - MenuUtilisateurVue
+23/10/2024 15:44:57 - INFO     - RechercheVue
+23/10/2024 15:45:01 - INFO     - RechercheMangaVue
+23/10/2024 15:45:05 - INFO     - 'auteur'
+23/10/2024 15:45:05 - INFO     - AccueilVue
+23/10/2024 16:00:55 - INFO     - Fin de l'application
+23/10/2024 16:06:56 - INFO     - --------------------------------------------------
+23/10/2024 16:06:56 - INFO     - Lancement Application                           
+23/10/2024 16:06:56 - INFO     - --------------------------------------------------
+23/10/2024 16:06:56 - INFO     - AccueilVue
+23/10/2024 16:06:58 - INFO     - ConnexionVue
+23/10/2024 16:07:05 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+23/10/2024 16:07:05 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+23/10/2024 16:07:05 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000002C318991A50>
+23/10/2024 16:07:05 - INFO     - MenuUtilisateurVue
+23/10/2024 16:07:07 - INFO     - RechercheVue
+23/10/2024 16:07:08 - INFO     - RechercheMangaVue
+23/10/2024 16:07:11 - INFO     - 'list' object is not a mapping
+23/10/2024 16:07:11 - INFO     - AccueilVue
+23/10/2024 16:09:35 - INFO     - Fin de l'application
+23/10/2024 16:09:41 - INFO     - --------------------------------------------------
+23/10/2024 16:09:41 - INFO     - Lancement Application                           
+23/10/2024 16:09:41 - INFO     - --------------------------------------------------
+23/10/2024 16:09:41 - INFO     - AccueilVue
+23/10/2024 16:09:42 - INFO     - ConnexionVue
+23/10/2024 16:09:48 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+23/10/2024 16:09:48 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+23/10/2024 16:09:48 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001C34AD91A80>
+23/10/2024 16:09:48 - INFO     - MenuUtilisateurVue
+23/10/2024 16:09:50 - INFO     - RechercheVue
+23/10/2024 16:09:54 - INFO     - expected an indented block after function definition on line 88 (manga_dao.py, line 89)
+23/10/2024 16:09:54 - INFO     - AccueilVue
+23/10/2024 16:11:17 - INFO     - Fin de l'application
+23/10/2024 16:11:22 - INFO     - --------------------------------------------------
+23/10/2024 16:11:22 - INFO     - Lancement Application                           
+23/10/2024 16:11:22 - INFO     - --------------------------------------------------
+23/10/2024 16:11:22 - INFO     - AccueilVue
+23/10/2024 16:11:24 - INFO     - ConnexionVue
+23/10/2024 16:11:30 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+23/10/2024 16:11:30 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+23/10/2024 16:11:30 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000021D636C5A80>
+23/10/2024 16:11:30 - INFO     - MenuUtilisateurVue
+23/10/2024 16:11:34 - INFO     - RechercheVue
+23/10/2024 16:11:35 - INFO     - RechercheMangaVue
+23/10/2024 16:11:37 - INFO     - ERREUR:  la colonne a.nom n'existe pas
+LINE 3:                                a.nom as auteur_name,
+                                       ^
+
+23/10/2024 16:11:37 - INFO     - ERREUR:  la colonne a.nom n'existe pas
+LINE 3:                                a.nom as auteur_name,
+                                       ^
+
+23/10/2024 16:11:37 - INFO     - AccueilVue
+23/10/2024 16:13:50 - INFO     - Fin de l'application
+23/10/2024 16:13:54 - INFO     - --------------------------------------------------
+23/10/2024 16:13:54 - INFO     - Lancement Application                           
+23/10/2024 16:13:54 - INFO     - --------------------------------------------------
+23/10/2024 16:13:54 - INFO     - AccueilVue
+23/10/2024 16:13:55 - INFO     - ConnexionVue
+23/10/2024 16:14:00 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+23/10/2024 16:14:00 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+23/10/2024 16:14:00 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000027EE9745A80>
+23/10/2024 16:14:00 - INFO     - MenuUtilisateurVue
+23/10/2024 16:14:02 - INFO     - RechercheVue
+23/10/2024 16:14:04 - INFO     - RechercheMangaVue
+23/10/2024 16:14:07 - INFO     - ERREUR:  la colonne « auteur_name » n'existe pas
+LINE 3:                                auteur_name,
+                                       ^
+
+23/10/2024 16:14:07 - INFO     - ERREUR:  la colonne « auteur_name » n'existe pas
+LINE 3:                                auteur_name,
+                                       ^
+
+23/10/2024 16:14:07 - INFO     - AccueilVue
+23/10/2024 16:15:24 - INFO     - Fin de l'application
+23/10/2024 16:15:27 - INFO     - --------------------------------------------------
+23/10/2024 16:15:27 - INFO     - Lancement Application                           
+23/10/2024 16:15:27 - INFO     - --------------------------------------------------
+23/10/2024 16:15:27 - INFO     - AccueilVue
+23/10/2024 16:15:28 - INFO     - ConnexionVue
+23/10/2024 16:15:34 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+23/10/2024 16:15:34 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+23/10/2024 16:15:34 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000002605F501A80>
+23/10/2024 16:15:34 - INFO     - MenuUtilisateurVue
+23/10/2024 16:15:36 - INFO     - RechercheVue
+23/10/2024 16:15:37 - INFO     - RechercheMangaVue
+23/10/2024 16:15:39 - INFO     - 'auteur_name'
+23/10/2024 16:15:39 - INFO     - AccueilVue
+23/10/2024 16:16:02 - INFO     - Fin de l'application
+23/10/2024 16:16:07 - INFO     - --------------------------------------------------
+23/10/2024 16:16:07 - INFO     - Lancement Application                           
+23/10/2024 16:16:07 - INFO     - --------------------------------------------------
+23/10/2024 16:16:07 - INFO     - AccueilVue
+23/10/2024 16:16:08 - INFO     - ConnexionVue
+23/10/2024 16:16:16 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+23/10/2024 16:16:16 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+23/10/2024 16:16:16 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000022087DB1A50>
+23/10/2024 16:16:16 - INFO     - MenuUtilisateurVue
+23/10/2024 16:16:18 - INFO     - RechercheVue
+23/10/2024 16:16:19 - INFO     - RechercheMangaVue
+23/10/2024 16:17:18 - INFO     - MangaDao.trouver_manga_par_titre() missing 1 required positional argument: 'titre'
+23/10/2024 16:17:18 - INFO     - AccueilVue
+23/10/2024 16:17:21 - INFO     - ConnexionVue
+23/10/2024 16:17:28 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+23/10/2024 16:17:28 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+23/10/2024 16:17:28 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000022088E888E0>
+23/10/2024 16:17:28 - INFO     - MenuUtilisateurVue
+23/10/2024 16:17:30 - INFO     - RechercheVue
+23/10/2024 16:17:31 - INFO     - RechercheMangaVue
+23/10/2024 16:18:37 - INFO     - MangaDao.trouver_manga_par_titre() missing 1 required positional argument: 'titre'
+23/10/2024 16:18:37 - INFO     - AccueilVue
+23/10/2024 16:30:45 - INFO     - Fin de l'application
+23/10/2024 16:31:04 - INFO     - --------------------------------------------------
+23/10/2024 16:31:04 - INFO     - Lancement Application                           
+23/10/2024 16:31:04 - INFO     - --------------------------------------------------
+23/10/2024 16:31:04 - INFO     - AccueilVue
+23/10/2024 16:31:05 - INFO     - ConnexionVue
+23/10/2024 16:31:10 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+23/10/2024 16:31:10 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+23/10/2024 16:31:10 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x00000175E1AD5A80>
+23/10/2024 16:31:10 - INFO     - MenuUtilisateurVue
+23/10/2024 16:31:16 - INFO     - RechercheVue
+23/10/2024 16:31:17 - INFO     - invalid syntax (manga_dao.py, line 50)
+23/10/2024 16:31:17 - INFO     - AccueilVue
+23/10/2024 16:31:39 - INFO     - Fin de l'application
+23/10/2024 16:31:43 - INFO     - --------------------------------------------------
+23/10/2024 16:31:43 - INFO     - Lancement Application                           
+23/10/2024 16:31:43 - INFO     - --------------------------------------------------
+23/10/2024 16:31:43 - INFO     - AccueilVue
+23/10/2024 16:31:44 - INFO     - ConnexionVue
+23/10/2024 16:31:49 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+23/10/2024 16:31:49 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+23/10/2024 16:31:49 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001F06D315A80>
+23/10/2024 16:31:49 - INFO     - MenuUtilisateurVue
+23/10/2024 16:31:51 - INFO     - RechercheVue
+23/10/2024 16:31:51 - INFO     - RechercheMangaVue
+23/10/2024 16:31:56 - INFO     - ERREUR:  erreur de syntaxe sur ou près de « FROM »
+LINE 3:                         FROM manga m
+                                ^
+
+23/10/2024 16:31:56 - INFO     - ERREUR:  erreur de syntaxe sur ou près de « FROM »
+LINE 3:                         FROM manga m
+                                ^
+
+23/10/2024 16:31:56 - INFO     - AccueilVue
+23/10/2024 16:32:46 - INFO     - ConnexionVue
+23/10/2024 16:32:52 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+23/10/2024 16:32:52 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+23/10/2024 16:32:52 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001F06D708A90>
+23/10/2024 16:32:52 - INFO     - MenuUtilisateurVue
+23/10/2024 16:32:55 - INFO     - RechercheVue
+23/10/2024 16:32:55 - INFO     - RechercheMangaVue
+23/10/2024 16:32:59 - INFO     - ERREUR:  erreur de syntaxe sur ou près de « FROM »
+LINE 3:                         FROM manga m
+                                ^
+
+23/10/2024 16:32:59 - INFO     - ERREUR:  erreur de syntaxe sur ou près de « FROM »
+LINE 3:                         FROM manga m
+                                ^
+
+23/10/2024 16:32:59 - INFO     - AccueilVue
+23/10/2024 16:33:11 - INFO     - Fin de l'application
+23/10/2024 16:33:14 - INFO     - --------------------------------------------------
+23/10/2024 16:33:14 - INFO     - Lancement Application                           
+23/10/2024 16:33:14 - INFO     - --------------------------------------------------
+23/10/2024 16:33:14 - INFO     - AccueilVue
+23/10/2024 16:33:15 - INFO     - ConnexionVue
+23/10/2024 16:33:21 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+23/10/2024 16:33:21 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+23/10/2024 16:33:21 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001EA51F71A80>
+23/10/2024 16:33:21 - INFO     - MenuUtilisateurVue
+23/10/2024 16:33:22 - INFO     - RechercheVue
+23/10/2024 16:33:23 - INFO     - RechercheMangaVue
+23/10/2024 16:33:28 - INFO     - ERREUR:  erreur de syntaxe sur ou près de « FROM »
+LINE 3:                         FROM manga
+                                ^
+
+23/10/2024 16:33:28 - INFO     - ERREUR:  erreur de syntaxe sur ou près de « FROM »
+LINE 3:                         FROM manga
+                                ^
+
+23/10/2024 16:33:28 - INFO     - AccueilVue
+23/10/2024 16:34:28 - INFO     - ConnexionVue
+23/10/2024 16:34:33 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+23/10/2024 16:34:33 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+23/10/2024 16:34:33 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001EA52368BE0>
+23/10/2024 16:34:33 - INFO     - MenuUtilisateurVue
+23/10/2024 16:34:35 - INFO     - RechercheVue
+23/10/2024 16:34:36 - INFO     - RechercheMangaVue
+23/10/2024 16:34:41 - INFO     - ERREUR:  erreur de syntaxe sur ou près de « FROM »
+LINE 3:                         FROM manga
+                                ^
+
+23/10/2024 16:34:41 - INFO     - ERREUR:  erreur de syntaxe sur ou près de « FROM »
+LINE 3:                         FROM manga
+                                ^
+
+23/10/2024 16:34:41 - INFO     - AccueilVue
+23/10/2024 16:35:36 - INFO     - Fin de l'application
+23/10/2024 16:36:12 - INFO     - --------------------------------------------------
+23/10/2024 16:36:12 - INFO     - Lancement Application                           
+23/10/2024 16:36:12 - INFO     - --------------------------------------------------
+23/10/2024 16:36:12 - INFO     - AccueilVue
+23/10/2024 16:36:13 - INFO     - ConnexionVue
+23/10/2024 16:36:20 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+23/10/2024 16:36:20 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+23/10/2024 16:36:20 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001D358235A80>
+23/10/2024 16:36:20 - INFO     - MenuUtilisateurVue
+23/10/2024 16:36:22 - INFO     - RechercheVue
+23/10/2024 16:36:22 - INFO     - RechercheMangaVue
+23/10/2024 16:36:25 - INFO     - ERREUR:  erreur de syntaxe sur ou près de « titre »
+LINE 1: SELECT id_manga, titre, synopsisFROM mangaWHERE titre LIKE '...
+                                                        ^
+
+23/10/2024 16:36:26 - INFO     - ERREUR:  erreur de syntaxe sur ou près de « titre »
+LINE 1: SELECT id_manga, titre, synopsisFROM mangaWHERE titre LIKE '...
+                                                        ^
+
+23/10/2024 16:36:26 - INFO     - AccueilVue
+23/10/2024 16:36:53 - INFO     - Fin de l'application
+23/10/2024 16:36:56 - INFO     - --------------------------------------------------
+23/10/2024 16:36:56 - INFO     - Lancement Application                           
+23/10/2024 16:36:56 - INFO     - --------------------------------------------------
+23/10/2024 16:36:56 - INFO     - AccueilVue
+23/10/2024 16:36:59 - INFO     - ConnexionVue
+23/10/2024 16:37:04 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+23/10/2024 16:37:04 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+23/10/2024 16:37:04 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000002AD0CB95A50>
+23/10/2024 16:37:04 - INFO     - MenuUtilisateurVue
+23/10/2024 16:37:05 - INFO     - RechercheVue
+23/10/2024 16:37:06 - INFO     - RechercheMangaVue
+23/10/2024 16:38:16 - INFO     - MangaDao.trouver_manga_par_titre() missing 1 required positional argument: 'titre'
+23/10/2024 16:38:16 - INFO     - AccueilVue
+23/10/2024 16:41:22 - INFO     - ConnexionVue
+23/10/2024 16:41:29 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+23/10/2024 16:41:29 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+23/10/2024 16:41:29 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000002AD0D8ADD80>
+23/10/2024 16:41:29 - INFO     - MenuUtilisateurVue
+23/10/2024 16:41:50 - INFO     - No module named 'vues.collection_cohérente_vue'
+23/10/2024 16:41:50 - INFO     - AccueilVue
+23/10/2024 16:41:56 - INFO     - ConnexionVue
+23/10/2024 16:42:03 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+23/10/2024 16:42:03 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+23/10/2024 16:42:03 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000002AD0DBCD240>
+23/10/2024 16:42:03 - INFO     - MenuUtilisateurVue
+23/10/2024 16:42:05 - INFO     - RechercheVue
+23/10/2024 16:42:30 - INFO     - RechercheUtilisateurVue
+23/10/2024 16:42:33 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - DEBUT
+23/10/2024 16:42:33 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - FIN
+23/10/2024 16:42:33 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000002AD0DF2BFA0>', '<business_object.utilisateur.Utilisateur object at 0x000002AD0DEBFFD0>'] ... (2 elements)
+23/10/2024 16:43:24 - INFO     - MenuUtilisateurVue
+23/10/2024 16:43:26 - INFO     - RechercheVue
+23/10/2024 16:43:27 - INFO     - RechercheMangaVue
+23/10/2024 16:49:27 - INFO     - MenuUtilisateurVue
+23/10/2024 16:49:37 - INFO     - AccueilVue
+23/10/2024 16:49:40 - INFO     - InscriptionVue
+23/10/2024 16:51:12 - INFO     - Pseudo : a (length: 1)
+23/10/2024 16:51:12 - INFO     -     UtilisateurDao.lister_tous() - DEBUT
+23/10/2024 16:51:12 - INFO     -     UtilisateurDao.lister_tous() - FIN
+23/10/2024 16:51:12 - INFO     -        └─> Sortie : [] ... (0 elements)
+23/10/2024 16:51:16 - INFO     -     UtilisateurDao.recherche_id() - DEBUT
+23/10/2024 16:51:16 - INFO     -     UtilisateurDao.recherche_id() - FIN
+23/10/2024 16:51:16 - INFO     -        └─> Sortie : 1
+23/10/2024 16:51:16 - INFO     - Mot de passe haché : 0c193ba25f91deec1cb7d584f91aebdb9a31d62caecee48af2c87458bcf6f2ce (length: 64)
+23/10/2024 16:51:16 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x000002AD0E242FE0>',) - DEBUT
+23/10/2024 16:51:16 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x000002AD0E242FE0>',) - FIN
+23/10/2024 16:51:16 - INFO     -        └─> Sortie : True
+23/10/2024 16:51:16 - INFO     - AccueilVue
+23/10/2024 16:53:11 - INFO     - Fin de l'application
+23/10/2024 16:53:15 - INFO     - --------------------------------------------------
+23/10/2024 16:53:15 - INFO     - Lancement Application                           
+23/10/2024 16:53:15 - INFO     - --------------------------------------------------
+23/10/2024 16:53:15 - INFO     - AccueilVue
+23/10/2024 16:53:17 - INFO     - non-default argument follows default argument (utilisateur.py, line 18)
+23/10/2024 16:53:17 - INFO     - AccueilVue
+23/10/2024 16:54:18 - INFO     - Fin de l'application
+23/10/2024 16:54:21 - INFO     - --------------------------------------------------
+23/10/2024 16:54:21 - INFO     - Lancement Application                           
+23/10/2024 16:54:21 - INFO     - --------------------------------------------------
+23/10/2024 16:54:21 - INFO     - AccueilVue
+23/10/2024 16:54:23 - INFO     - InscriptionVue
+23/10/2024 16:54:30 - INFO     - Pseudo : ABC (length: 3)
+23/10/2024 16:54:30 - INFO     -     UtilisateurDao.lister_tous() - DEBUT
+23/10/2024 16:54:30 - INFO     -     UtilisateurDao.lister_tous() - FIN
+23/10/2024 16:54:30 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000002615F2098D0>'] ... (1 elements)
+23/10/2024 16:54:35 - INFO     - Mot de passe haché : 2de663e54067e8b2a47c4d26edbb4eaf8350138a21923189d7fe67f677cdafa1 (length: 64)
+23/10/2024 16:54:35 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x000002615F2F86D0>',) - DEBUT
+23/10/2024 16:54:35 - INFO     - ERREUR:  la valeur d'une clé dupliquée rompt la contrainte unique « utilisateur_pkey »
+DETAIL:  La clé « (id_utilisateur)=(1) » existe déjà.
+
+23/10/2024 16:54:35 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x000002615F2F86D0>',) - FIN
+23/10/2024 16:54:35 - INFO     -        └─> Sortie : False
+23/10/2024 16:54:35 - INFO     - AccueilVue
+23/10/2024 16:55:36 - INFO     - InscriptionVue
+23/10/2024 16:55:43 - INFO     - Pseudo : aaa (length: 3)
+23/10/2024 16:55:43 - INFO     -     UtilisateurDao.lister_tous() - DEBUT
+23/10/2024 16:55:43 - INFO     -     UtilisateurDao.lister_tous() - FIN
+23/10/2024 16:55:43 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000002615F2215D0>'] ... (1 elements)
+23/10/2024 16:55:46 - INFO     - Mot de passe haché : b6f410f708acfaa355b32f9e5e5d7037a9c7bb722f7fef20b46df0001a492278 (length: 64)
+23/10/2024 16:55:46 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x000002615F42E4D0>',) - DEBUT
+23/10/2024 16:55:46 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x000002615F42E4D0>',) - FIN
+23/10/2024 16:55:46 - INFO     -        └─> Sortie : True
+23/10/2024 16:55:46 - INFO     - AccueilVue
+23/10/2024 16:56:00 - INFO     - InscriptionVue
+23/10/2024 16:56:03 - INFO     - Pseudo : Ananas35 (length: 8)
+23/10/2024 16:56:03 - INFO     -     UtilisateurDao.lister_tous() - DEBUT
+23/10/2024 16:56:03 - INFO     -     UtilisateurDao.lister_tous() - FIN
+23/10/2024 16:56:03 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000002615F5CD7B0>', '<business_object.utilisateur.Utilisateur object at 0x000002615F5CFF10>'] ... (2 elements)
+23/10/2024 16:56:06 - INFO     - Mot de passe haché : 8c8073a12616902ee3aa3c6c4d4d1d98460376fba2d4edd91f060cfca2026e0b (length: 64)
+23/10/2024 16:56:06 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x000002615F639E10>',) - DEBUT
+23/10/2024 16:56:06 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x000002615F639E10>',) - FIN
+23/10/2024 16:56:06 - INFO     -        └─> Sortie : True
+23/10/2024 16:56:06 - INFO     - AccueilVue
+23/10/2024 16:56:16 - INFO     - InscriptionVue
+23/10/2024 16:56:19 - INFO     - Pseudo : ABC (length: 3)
+23/10/2024 16:56:19 - INFO     -     UtilisateurDao.lister_tous() - DEBUT
+23/10/2024 16:56:19 - INFO     -     UtilisateurDao.lister_tous() - FIN
+23/10/2024 16:56:19 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000002615F7D5540>', '<business_object.utilisateur.Utilisateur object at 0x000002615F7D5510>', '<business_object.utilisateur.Utilisateur object at 0x000002615F7D54B0>'] ... (3 elements)
+23/10/2024 16:56:26 - INFO     - Mot de passe haché : 2de663e54067e8b2a47c4d26edbb4eaf8350138a21923189d7fe67f677cdafa1 (length: 64)
+23/10/2024 16:56:26 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x00000261600A5120>',) - DEBUT
+23/10/2024 16:56:26 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x00000261600A5120>',) - FIN
+23/10/2024 16:56:26 - INFO     -        └─> Sortie : True
+23/10/2024 16:56:26 - INFO     - AccueilVue
+23/10/2024 16:56:38 - INFO     - InscriptionVue
+23/10/2024 16:56:41 - INFO     - Pseudo : ABC (length: 3)
+23/10/2024 16:56:41 - INFO     -     UtilisateurDao.lister_tous() - DEBUT
+23/10/2024 16:56:41 - INFO     -     UtilisateurDao.lister_tous() - FIN
+23/10/2024 16:56:41 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x00000261601C5840>', '<business_object.utilisateur.Utilisateur object at 0x00000261601C6680>', '<business_object.utilisateur.Utilisateur object at 0x00000261601C63E0>'] ... (4 elements)
+23/10/2024 16:56:41 - INFO     - AccueilVue
+23/10/2024 16:57:25 - INFO     - Fin de l'application
+23/10/2024 16:57:27 - INFO     - --------------------------------------------------
+23/10/2024 16:57:27 - INFO     - Lancement Application                           
+23/10/2024 16:57:27 - INFO     - --------------------------------------------------
+23/10/2024 16:57:27 - INFO     - AccueilVue
+23/10/2024 16:57:29 - INFO     - InscriptionVue
+23/10/2024 16:57:32 - INFO     - Pseudo : Ananas35 (length: 8)
+23/10/2024 16:57:32 - INFO     -     UtilisateurDao.lister_tous() - DEBUT
+23/10/2024 16:57:32 - INFO     -     UtilisateurDao.lister_tous() - FIN
+23/10/2024 16:57:32 - INFO     -        └─> Sortie : [] ... (0 elements)
+23/10/2024 16:57:35 - INFO     - Mot de passe haché : 8c8073a12616902ee3aa3c6c4d4d1d98460376fba2d4edd91f060cfca2026e0b (length: 64)
+23/10/2024 16:57:35 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x000001C2665850C0>',) - DEBUT
+23/10/2024 16:57:35 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x000001C2665850C0>',) - FIN
+23/10/2024 16:57:35 - INFO     -        └─> Sortie : True
+23/10/2024 16:57:35 - INFO     - AccueilVue
+23/10/2024 16:57:42 - INFO     - InscriptionVue
+23/10/2024 16:57:45 - INFO     - Pseudo : ABC (length: 3)
+23/10/2024 16:57:45 - INFO     -     UtilisateurDao.lister_tous() - DEBUT
+23/10/2024 16:57:45 - INFO     -     UtilisateurDao.lister_tous() - FIN
+23/10/2024 16:57:45 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000001C2664C14B0>'] ... (1 elements)
+23/10/2024 16:57:48 - INFO     - Mot de passe haché : 2de663e54067e8b2a47c4d26edbb4eaf8350138a21923189d7fe67f677cdafa1 (length: 64)
+23/10/2024 16:57:48 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x000001C26664CFA0>',) - DEBUT
+23/10/2024 16:57:48 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x000001C26664CFA0>',) - FIN
+23/10/2024 16:57:48 - INFO     -        └─> Sortie : True
+23/10/2024 16:57:48 - INFO     - AccueilVue
+23/10/2024 16:57:50 - INFO     - InscriptionVue
+23/10/2024 16:57:53 - INFO     - Pseudo : AVa (length: 3)
+23/10/2024 16:57:53 - INFO     -     UtilisateurDao.lister_tous() - DEBUT
+23/10/2024 16:57:53 - INFO     -     UtilisateurDao.lister_tous() - FIN
+23/10/2024 16:57:53 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000001C2667ECF40>', '<business_object.utilisateur.Utilisateur object at 0x000001C2667ECF10>'] ... (2 elements)
+23/10/2024 16:58:34 - INFO     - Mot de passe haché : c3403a199eeedf40a55a55a896ca88c92f5a94c1d4b413ed294a6aeb4ddc3f7d (length: 64)
+23/10/2024 16:58:34 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x000001C2668C0D00>',) - DEBUT
+23/10/2024 16:58:34 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x000001C2668C0D00>',) - FIN
+23/10/2024 16:58:34 - INFO     -        └─> Sortie : True
+23/10/2024 16:58:34 - INFO     - AccueilVue
+23/10/2024 16:58:39 - INFO     - Fin de l'application
+23/10/2024 16:58:42 - INFO     - --------------------------------------------------
+23/10/2024 16:58:42 - INFO     - Lancement Application                           
+23/10/2024 16:58:42 - INFO     - --------------------------------------------------
+23/10/2024 16:58:42 - INFO     - AccueilVue
+23/10/2024 16:58:43 - INFO     - InscriptionVue
+23/10/2024 16:58:48 - INFO     - Pseudo : AZERTY (length: 6)
+23/10/2024 16:58:48 - INFO     -     UtilisateurDao.lister_tous() - DEBUT
+23/10/2024 16:58:48 - INFO     -     UtilisateurDao.lister_tous() - FIN
+23/10/2024 16:58:48 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000002142A029810>', '<business_object.utilisateur.Utilisateur object at 0x000002142A0297E0>', '<business_object.utilisateur.Utilisateur object at 0x000002142A0297B0>'] ... (3 elements)
+23/10/2024 16:58:52 - INFO     - Mot de passe haché : 1046a09c3d4aa7f3b8785b349f3d06436e2cf354099d09f5835c5f189a3f3475 (length: 64)
+23/10/2024 16:58:52 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x000002142A114B50>',) - DEBUT
+23/10/2024 16:58:52 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x000002142A114B50>',) - FIN
+23/10/2024 16:58:52 - INFO     -        └─> Sortie : True
+23/10/2024 16:58:52 - INFO     - AccueilVue
+23/10/2024 16:58:58 - INFO     - ConnexionVue
+23/10/2024 16:59:04 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+23/10/2024 16:59:04 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+23/10/2024 16:59:04 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000002142A1E5750>
+23/10/2024 16:59:04 - INFO     - MenuUtilisateurVue
+23/10/2024 16:59:06 - INFO     - RechercheVue
+23/10/2024 16:59:07 - INFO     - RechercheMangaVue
+23/10/2024 16:59:10 - INFO     - 'NoneType' object has no attribute 'append'
+23/10/2024 16:59:10 - INFO     - AccueilVue
+23/10/2024 16:59:37 - INFO     - Fin de l'application
