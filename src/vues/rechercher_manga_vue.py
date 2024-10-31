@@ -3,6 +3,7 @@ import logging
 from vues.vue_abstraite import VueAbstraite
 from service.recherche_service import RechercheService
 from dao.manga_dao import MangaDao
+from service.avis_service import AvisService
 
 
 class RechercheMangaVue(VueAbstraite):
@@ -35,18 +36,29 @@ class RechercheMangaVue(VueAbstraite):
                     choix2.extend(["Afficher la page suivante", "Retour au menu précédent"])
 
                     choix3 = inquirer.select(
-                        message="Choisissez un manga : ",
-                        choices=choix2,
-                    ).execute()
+                                            message="Choisissez un manga : ",
+                                            choices=choix2,
+                                            ).execute()
 
                     if choix3 == "Retour au menu précédent":
                         from vues.menu_utilisateur_vue import MenuUtilisateurVue
+
                         return MenuUtilisateurVue()
-                    manga = MangaDao.trouver_manga_par_titre(choix3)
+                    if choix3 and isinstance(choix3, str):
+                        manga = MangaDao().trouver_manga_par_titre(choix3)
+                    else:
+                        print("Titre du manga invalide.")
                     choix4 = inquirer.select(
-                                            message="Faites votre choix : ",
-                                            choices=["Ajouter à une collection", "Afficher les informations du manga", "Consulter les avis", "Ajouter un avis", "Retour au menu précédent", "Retour vers l'écran d'accueil"],
-                                            ).execute()
+                        message="Faites votre choix : ",
+                        choices=[
+                            "Ajouter à une collection",
+                            "Afficher les informations du manga",
+                            "Consulter les avis",
+                            "Ajouter un avis",
+                            "Retour au menu précédent",
+                            "Retour vers l'écran d'accueil",
+                        ],
+                    ).execute()
                     match choix4:
                         case "Ajouter à une collection":
                             pass
@@ -58,9 +70,9 @@ class RechercheMangaVue(VueAbstraite):
                             print("\n" + "-" * 50 + "\n" + manga.themes + "\n" + "-" * 50 + "\n")
                             print("\n" + "-" * 50 + "\n" + manga.genre + "\n" + "-" * 50 + "\n")
                             choix5 = inquirer.select(
-                                                    message="Faites votre choix : ",
-                                                    choices=["Retour au menu précédent"],
-                                                    ).execute()
+                                message="Faites votre choix : ",
+                                choices=["Retour au menu précédent"],
+                            ).execute()
                             if choix5:
                                 from vues.menu_utilisateur_vue import MenuUtilisateurVue
 
@@ -68,7 +80,11 @@ class RechercheMangaVue(VueAbstraite):
                         case "Consulter les avis":
                             pass
                         case "Ajouter un avis":
-                            pass
+                            texte = inquirer.text(
+                                message="Entrez votre avis sur ce manga : "
+                            ).execute()
+                            AvisService().rediger_avis(texte, id_avis=None)
+
                         case "Retour au menu précédent":
                             from vues.recherche_vue import RechercheVue
 
@@ -78,4 +94,5 @@ class RechercheMangaVue(VueAbstraite):
 
                             return MenuUtilisateurVue()
                 from vues.menu_utilisateur_vue import MenuUtilisateurVue
+
                 return MenuUtilisateurVue()

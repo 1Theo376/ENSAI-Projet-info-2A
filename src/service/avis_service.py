@@ -1,4 +1,4 @@
-from avis import Avis
+from business_object.avis import Avis
 from dao.avis_dao import AvisDAO
 
 

@@ -326,8 +326,4 @@ class MangaDao(metaclass=Singleton):
 
 #test = MangaDao()
 #test.supprimer_toutes_les_donnees()
-<<<<<<< HEAD
 #test.inserer_mangas("mangas.json")
-=======
-#test.inserer_mangas("mangas.json")
->>>>>>> cfcf791e9a7cc5162e49de334f98625bb06693b1

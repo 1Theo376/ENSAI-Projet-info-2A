@@ -2,7 +2,7 @@ import logging
 
 
 from dao.db_connection import DBConnection
-from avis import Avis
+from business_object.avis import Avis
 
 
 class AvisDAO:
