@@ -79,6 +79,49 @@ class AvisDAO:
 
         return avis
 
+    def trouver_avis_par_titre_manga(self, titre) -> Avis:
+        """
+        permet de trouver un avis à l'aide de son id
+
+        Parameters
+        -----------
+        id_avis : int
+            Identifiant de l'avis
+
+        Returns
+        --------
+            avis ou None
+            Renvoie l'avis que l'on cherche par id ou une None si l'avis n'existe pas
+        """
+        avis = None
+
+        try:
+            with DBConnection().connection as connection:
+                with connection.cursor() as cursor:
+                    cursor.execute(
+                        "select id_avis, texte                                   "
+                        "from manga left join avis using(id_manga)      "
+                        "where titre = %(titre)s;                         ",
+                        {"titre": titre},
+                    )
+                    res = cursor.fetchall()
+
+        except Exception as e:
+            logging.info(e)
+            raise
+
+        liste_avis = []
+
+        if res:
+            for row in res:
+                avis = Avis(
+                    id_avis=row["id_avis"],
+                    texte=row["texte"]
+                )
+                liste_avis.append(avis)
+
+        return avis
+
     def supprimer_avis(self, avis) -> bool:
         """Suppression d'un avis dans la base de données
 
@@ -181,12 +224,10 @@ class AvisDAO:
                         {"id_utilisateur": id_utilisateur},
                     )
                     result = cursor.fetchall()
-
                     for row in result:
                         avis = Avis(id_avis=row["id_avis"], texte=row["texte"])
                         avis_liste.append(avis)
         except Exception as e:
             logging.info(e)
             raise
-
         return avis_liste

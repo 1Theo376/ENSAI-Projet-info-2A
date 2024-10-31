@@ -285,7 +285,7 @@ class UtilisateurDao(metaclass=Singleton):
 
     @log
     def rechercher_tous_pseudo(self, pseud) -> list[Utilisateur]:
-        """lister tous les joueurs
+        """lister tous les utilisateurs
 
         Parameters
         ----------
@@ -293,7 +293,7 @@ class UtilisateurDao(metaclass=Singleton):
 
         Returns
         -------
-        liste_utilisateur : list[Joueur]
+        liste_utilisateur : list[utIlisateur]
             renvoie la liste de tous les utilisateurs dans la base de données
         """
 
@@ -318,9 +318,8 @@ class UtilisateurDao(metaclass=Singleton):
                     pseudo=row["pseudo"],
                     mdp=row["mdp"],
                 )
-
-                liste_utilisateurs.append(utilisateur)
-
+                if utilisateur is not None:
+                    liste_utilisateurs.append(utilisateur)
         return liste_utilisateurs
 
 # user1 = Utilisateur(1, "ananas", "Emilien62")

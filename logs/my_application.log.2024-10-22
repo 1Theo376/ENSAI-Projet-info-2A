@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 23/10/2024 09:26:23 - INFO     - --------------------------------------------------
 23/10/2024 09:26:23 - INFO     - Lancement Application
 23/10/2024 09:26:23 - INFO     - --------------------------------------------------
@@ -1606,3 +1607,54 @@ DETAIL:  La clé « (id_utilisateur)=(1) » existe déjà.
 23/10/2024 16:59:10 - INFO     - 'NoneType' object has no attribute 'append'
 23/10/2024 16:59:10 - INFO     - AccueilVue
 23/10/2024 16:59:37 - INFO     - Fin de l'application
+=======
+23/10/2024 14:53:02 - INFO     - --------------------------------------------------
+23/10/2024 14:53:02 - INFO     - Lancement Application                           
+23/10/2024 14:53:02 - INFO     - --------------------------------------------------
+23/10/2024 14:53:02 - INFO     - AccueilVue
+23/10/2024 14:53:11 - INFO     - InscriptionVue
+23/10/2024 14:53:14 - INFO     - Pseudo : Enguerrand90 (length: 12)
+23/10/2024 14:53:14 - INFO     -     UtilisateurDao.lister_tous() - DEBUT
+23/10/2024 14:53:14 - INFO     - 'POSTGRES_HOST'
+23/10/2024 14:53:14 - INFO     - 'POSTGRES_HOST'
+23/10/2024 14:53:14 - INFO     - AccueilVue
+23/10/2024 14:53:20 - INFO     - ConnexionVue
+23/10/2024 14:53:29 - INFO     -         UtilisateurDao.se_connecter('Enguerrand90', '*****') - DEBUT
+23/10/2024 14:53:29 - INFO     - 'POSTGRES_HOST'
+23/10/2024 14:53:29 - INFO     -         UtilisateurDao.se_connecter('Enguerrand90', '*****') - FIN
+23/10/2024 14:53:29 - INFO     -            └─> Sortie : None
+23/10/2024 14:53:29 - INFO     - AccueilVue
+23/10/2024 14:53:32 - INFO     - ConnexionVue
+23/10/2024 14:53:45 - INFO     -         UtilisateurDao.se_connecter('Enguerrand90', '*****') - DEBUT
+23/10/2024 14:53:45 - INFO     - 'POSTGRES_HOST'
+23/10/2024 14:53:45 - INFO     -         UtilisateurDao.se_connecter('Enguerrand90', '*****') - FIN
+23/10/2024 14:53:45 - INFO     -            └─> Sortie : None
+23/10/2024 14:53:45 - INFO     - AccueilVue
+23/10/2024 14:53:48 - INFO     - InscriptionVue
+23/10/2024 14:53:53 - INFO     - Pseudo : Enguerrand90 (length: 12)
+23/10/2024 14:53:53 - INFO     -         UtilisateurDao.lister_tous() - DEBUT
+23/10/2024 14:53:53 - INFO     - 'POSTGRES_HOST'
+23/10/2024 14:53:53 - INFO     - 'POSTGRES_HOST'
+23/10/2024 14:53:53 - INFO     - AccueilVue
+23/10/2024 14:54:03 - INFO     - InscriptionVue
+23/10/2024 14:54:07 - INFO     - Pseudo : Enguerrand (length: 10)
+23/10/2024 14:54:07 - INFO     -             UtilisateurDao.lister_tous() - DEBUT
+23/10/2024 14:54:07 - INFO     - 'POSTGRES_HOST'
+23/10/2024 14:54:07 - INFO     - 'POSTGRES_HOST'
+23/10/2024 14:54:07 - INFO     - AccueilVue
+23/10/2024 14:58:33 - INFO     - --------------------------------------------------
+23/10/2024 14:58:33 - INFO     - Lancement Application                           
+23/10/2024 14:58:33 - INFO     - --------------------------------------------------
+23/10/2024 14:58:33 - INFO     - AccueilVue
+23/10/2024 14:59:02 - INFO     - ConnexionVue
+23/10/2024 14:59:08 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+23/10/2024 14:59:08 - INFO     - 'POSTGRES_HOST'
+23/10/2024 14:59:08 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+23/10/2024 14:59:08 - INFO     -        └─> Sortie : None
+23/10/2024 14:59:08 - INFO     - AccueilVue
+23/10/2024 15:00:16 - INFO     - --------------------------------------------------
+23/10/2024 15:00:16 - INFO     - Lancement Application                           
+23/10/2024 15:00:16 - INFO     - --------------------------------------------------
+23/10/2024 15:00:16 - INFO     - AccueilVue
+23/10/2024 15:00:26 - INFO     - Fin de l'application
+>>>>>>> cfcf791e9a7cc5162e49de334f98625bb06693b1
