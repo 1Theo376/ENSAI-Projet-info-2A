@@ -1,9 +1,7 @@
 from InquirerPy import inquirer
-import logging
 from vues.vue_abstraite import VueAbstraite
 from service.recherche_service import RechercheService
 from dao.manga_dao import MangaDao
-from service.avis_service import AvisService
 
 
 class RechercheMangaVue(VueAbstraite):
@@ -33,18 +31,22 @@ class RechercheMangaVue(VueAbstraite):
                         print(f"Aucun manga trouvé pour le titre '{titre}'.")
                         break
 
-                    choix2.append(["Afficher la page suivante", "Retour au menu précédent"])
+                    choix2.extend(["Retour au menu précédent", "Afficher la page suivante"])
 
                     choix3 = inquirer.select(
-                                            message="Choisissez un manga : ",
-                                            choices=choix2,
-                                            ).execute()
+                        message="Choisissez un manga : ",
+                        choices=choix2,
+                    ).execute()
 
                     if choix3 == "Retour au menu précédent":
                         from vues.menu_utilisateur_vue import MenuUtilisateurVue
-
                         return MenuUtilisateurVue()
+
+                    elif choix3 == "Afficher la page suivante":
+                        n += 8
+
                     else:
+                        manga = MangaDao().trouver_manga_par_titre(choix3)
                         choix4 = inquirer.select(
                             message="Faites votre choix : ",
                             choices=[
@@ -53,43 +55,32 @@ class RechercheMangaVue(VueAbstraite):
                                 "Consulter les avis",
                                 "Ajouter un avis",
                                 "Retour au menu précédent",
-                                "Retour vers l'écran d'accueil",
+                                "Retour vers l'écran d'accueil"
                             ],
                         ).execute()
+
                         match choix4:
                             case "Ajouter à une collection":
                                 pass
                             case "Afficher les informations du manga":
-                                print("\n" + "-" * 50 + "\nInformation du manga\n" + "-" * 50 + "\n")
-                                print("\n" + "-" * 50 + "\n" + manga.titre + "\n" + "-" * 50 + "\n")
-                                print("\n" + "-" * 50 + "\n" + manga.synopsis + "\n" + "-" * 50 + "\n")
-                                print("\n" + "-" * 50 + "\n" + manga.auteur + "\n" + "-" * 50 + "\n")
-                                print("\n" + "-" * 50 + "\n" + manga.themes + "\n" + "-" * 50 + "\n")
-                                print("\n" + "-" * 50 + "\n" + manga.genre + "\n" + "-" * 50 + "\n")
-                                choix5 = inquirer.select(
-                                    message="Faites votre choix : ",
-                                    choices=["Retour au menu précédent"],
-                                ).execute()
-                                if choix5:
-                                    from vues.menu_utilisateur_vue import MenuUtilisateurVue
-                                    return MenuUtilisateurVue()
-
+                                self.afficher_informations_manga(manga)
                             case "Consulter les avis":
                                 pass
-
                             case "Ajouter un avis":
-                                texte = inquirer.text(
-                                    message="Entrez votre avis sur ce manga : "
-                                ).execute()
-                                AvisService().rediger_avis(texte, id_avis=None)
-
+                                pass
                             case "Retour au menu précédent":
                                 from vues.recherche_vue import RechercheVue
-
                                 return RechercheVue()
                             case "Retour vers l'écran d'accueil":
                                 from vues.menu_utilisateur_vue import MenuUtilisateurVue
                                 return MenuUtilisateurVue()
-                    from vues.menu_utilisateur_vue import MenuUtilisateurVue
 
-                    return MenuUtilisateurVue()
+                # Retour à l'accueil si aucune option choisie
+                from vues.menu_utilisateur_vue import MenuUtilisateurVue
+                return MenuUtilisateurVue()
+
+    def afficher_informations_manga(self, manga):
+        """Affiche les informations du manga sélectionné"""
+        print("\n" + "-" * 50 + f"\nInformation du manga : {manga.titre}\n" + "-" * 50)
+        print("Synopsis:", manga.synopsis)
+        # Afficher d'autres informations si disponibles

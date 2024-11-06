@@ -1,0 +1,32 @@
+01/11/2024 09:49:28 - INFO     - --------------------------------------------------
+01/11/2024 09:49:28 - INFO     - Lancement Application                           
+01/11/2024 09:49:28 - INFO     - --------------------------------------------------
+01/11/2024 09:49:28 - INFO     - AccueilVue
+01/11/2024 09:49:32 - INFO     - ConnexionVue
+01/11/2024 09:49:37 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+01/11/2024 09:49:37 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+01/11/2024 09:49:37 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001D0EBCA1A80>
+01/11/2024 09:49:37 - INFO     - MenuUtilisateurVue
+01/11/2024 09:49:39 - INFO     - RechercheVue
+01/11/2024 09:49:39 - INFO     - RechercheMangaVue
+01/11/2024 09:49:42 - INFO     - Débogage : requête exécutée avec succès.
+01/11/2024 09:53:50 - INFO     - RechercheVue
+01/11/2024 09:53:51 - INFO     - Fin de l'application
+01/11/2024 09:53:56 - INFO     - --------------------------------------------------
+01/11/2024 09:53:56 - INFO     - Lancement Application                           
+01/11/2024 09:53:56 - INFO     - --------------------------------------------------
+01/11/2024 09:53:56 - INFO     - AccueilVue
+01/11/2024 09:53:56 - INFO     - ConnexionVue
+01/11/2024 09:54:01 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+01/11/2024 09:54:01 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+01/11/2024 09:54:01 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000002AA93DF5A80>
+01/11/2024 09:54:01 - INFO     - MenuUtilisateurVue
+01/11/2024 09:54:02 - INFO     - RechercheVue
+01/11/2024 09:54:03 - INFO     - RechercheMangaVue
+01/11/2024 09:54:06 - INFO     - Débogage : requête exécutée avec succès.
+01/11/2024 09:54:10 - INFO     - RechercheVue
+01/11/2024 09:54:11 - INFO     - RechercheMangaVue
+01/11/2024 09:54:15 - INFO     - Débogage : requête exécutée avec succès.
+01/11/2024 09:54:17 - INFO     - MenuUtilisateurVue
+01/11/2024 09:54:25 - INFO     - AccueilVue
+01/11/2024 09:54:27 - INFO     - Fin de l'application
