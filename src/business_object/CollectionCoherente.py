@@ -1,6 +1,3 @@
-from Manga import Manga
-
-
 class CollectionCoherente:
     """
     Représente une collection cohérente de mangas.

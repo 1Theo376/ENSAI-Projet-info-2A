@@ -1,12 +1,8 @@
 from InquirerPy import inquirer
 from vues.vue_abstraite import VueAbstraite
 from vues.session import Session
-from vues.collection_coherente_vue import CollectionCoherenteVue
-from vues.collection_physique_vue import CollectionPhysiqueVue
-from vues.avis_utilisateur_vue import MenuAvis
-from dao.collection_physique_dao import CollectionPhysiqueDAO
-from dao.collection_coherente_dao import CollectionCoherenteDAO
-from dao.utilisateur_dao import UtilisateurDao
+from service.collection_coherente_service import CollectionCoherenteService
+from service.collection_physique_service import Collection_physique_service
 
 
 class EcranDuProfilVue(VueAbstraite):
@@ -44,27 +40,35 @@ class EcranDuProfilVue(VueAbstraite):
 
         match choix:
             case "Consulter mes collections cohérentes":
+                from vues.collection_coherente_vue import CollectionCoherenteVue
+
                 return CollectionCoherenteVue()
 
             case "Consulter ma collection physique":
+                from vues.collection_physique_vue import CollectionPhysiqueVue
+
                 return CollectionPhysiqueVue()
 
             case "Consulter ses avis":
+                from vues.avis_utilisateur_vue import MenuAvis
+
                 return MenuAvis()
 
             case "Créer une collection cohérente":
-                test = CollectionPhysiqueDAO()
-                test.créer_collectionpys()
-                print("\nCollection physique créée")
-                return CollectionPhysiqueVue()
+                titre = inquirer.text(
+                    message="Entrez le nom de la collection que vous voulez creer : "
+                ).execute()
+                desc = inquirer.text(message="Decrivez votre collection : ").execute()
+                CollectionCoherenteService().creer_collectioncohe(titre, desc)
 
             case "Créer une collection physique":
-                test2 = CollectionCoherenteDAO()
-                test2.créer_collection_cohérente()
-                print("\nCollection cohérente créée")
-                return CollectionCoherenteVue()
+                titre = inquirer.text(
+                    message="Entrez le nom de la collection que vous voulez creer : "
+                ).execute()
+                desc = inquirer.text(message="Decrivez votre collection : ").execute()
+                Collection_physique_service().creer_collectionphys(titre, desc)
 
-            case "Retour vers l'écran d'acceuil":
+            case "Retour vers l'écran d'accueil":
                 Session().deconnexion()
                 from vues.accueil.accueil_vue import AccueilVue
 

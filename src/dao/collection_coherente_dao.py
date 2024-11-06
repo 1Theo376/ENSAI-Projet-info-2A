@@ -1,12 +1,12 @@
 import logging
 
-
+from vue.session.py import Session
 from dao.db_connection import DBConnection
-from CollectionCoherente import CollectionCoherente
-from manga import Manga
+from business_object.CollectionCoherente import CollectionCoherente
+from business_object.manga import Manga
 
 
-class CollectionCoherenteDAO():
+class CollectionCoherenteDAO:
     """Classe contenant les méthodes pour accéder aux collections du joueur"""
 
     # def trouver_par_id(self, id_collection) -> CollectionCoherente:
@@ -77,7 +77,7 @@ class CollectionCoherenteDAO():
 
         return res > 0
 
-    def créer_collection(self, CollectionC: CollectionCoherente) -> bool:
+    def creer_collection(self, CollectionC: CollectionCoherente) -> bool:
         """Creation d'une collectiopn coherente dans la base de données
 
         Parameters
@@ -96,13 +96,13 @@ class CollectionCoherenteDAO():
             with DBConnection().connection as connection:
                 with connection.cursor() as cursor:
                     cursor.execute(
-                        "INSERT INTO CollectionCoherente(id_collec_coherente, titre_collection, description_collection) VALUES"
-                        "(%(id)s, %(titre)s, %(desc)s) "
+                        "INSERT INTO CollectionCoherente(id_utilisateur, titre_collection, description_collection) VALUES"
+                        "(%(id_utilisateur)s, %(titre)s, %(desc)s) "
                         "  RETURNING id_collec_coherente; ",
                         {
-                            "id": CollectionC.id_collectioncoherente,
+                            "id_utilisateur": Session().utilisateur.id,
                             "titre": CollectionC.titre_collection,
-                            "desc": CollectionC.desc_collection
+                            "desc": CollectionC.desc_collection,
                         },
                     )
                     res = cursor.fetchone()
@@ -135,8 +135,10 @@ class CollectionCoherenteDAO():
                     cursor.execute(
                         "DELETE FROM association_manga_collection_coherente                 "
                         " WHERE (id_collec_coherente=%(id_collec_coherente)s and id_manga=%(idm)s ",
-                        {"id_collec_coherente": CollectionC.id_collectioncoherente,
-                         "idm": MangaC.id_manga},
+                        {
+                            "id_collec_coherente": CollectionC.id_collectioncoherente,
+                            "idm": MangaC.id_manga,
+                        },
                     )
                     res = cursor.rowcount
         except Exception as e:
@@ -166,10 +168,7 @@ class CollectionCoherenteDAO():
                         "INSERT INTO association_manga_collection_coherente(id_collec_coherente, id_manga) VALUES"
                         "(%(idc)s, %(idm)s) "
                         "  RETURNING id_collec_coherente, id_manga; ",
-                        {
-                            "idc": CollectionC.id_collectioncoherente,
-                            "idm": MangaC.id_manga
-                        },
+                        {"idc": CollectionC.id_collectioncoherente, "idm": MangaC.id_manga},
                     )
                     res = cursor.fetchone()
         except Exception as e:

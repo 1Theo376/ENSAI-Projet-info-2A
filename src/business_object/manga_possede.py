@@ -1,4 +1,4 @@
-from manga import Manga
+from business_object.manga import Manga
 
 
 class MangaPossede:
@@ -6,23 +6,23 @@ class MangaPossede:
     Représente un manga avec ses informations de base
     """
 
-    def __init__(self,
-                 id_manga_p: int, manga: Manga, num_dernier_acquis: int,
-                 num_manquant=None, statut: str):
+    def __init__(
+        self, id_manga_p: int, manga: Manga, num_dernier_acquis: int, statut: str, num_manquant=None
+    ):
         """
 
-        Initialise un manga
+            Initialise un manga
 
-    Parameters :
-    ----------
-    id_manga_p : int
-        L'identifiant unique du manga possédé.
-    manga : Manga
-        La série de mangas
-    num_dernier_acquis : int
-        numéro du dernier tome acquis
-    num_manquant : list(int)
-        numéros de tomes manquantes
+        Parameters :
+        ----------
+        id_manga_p : int
+            L'identifiant unique du manga possédé.
+        manga : Manga
+            La série de mangas
+        num_dernier_acquis : int
+            numéro du dernier tome acquis
+        num_manquant : list(int)
+            numéros de tomes manquantes
         """
         self.id_manga_p = id_manga_p
         self.manga = manga

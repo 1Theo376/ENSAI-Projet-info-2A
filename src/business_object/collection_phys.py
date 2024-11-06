@@ -1,6 +1,3 @@
-from manga_possede import MangaPossede
-
-
 class Collection_physique:
     """
     Représente une collection cohérente de mangas.
@@ -21,11 +18,13 @@ class Collection_physique:
 
     """
 
-    def __init__(self,
-                 id_collectionphysique: int,
-                 titre_collection: str,
-                 description_collection: str,
-                 Liste_manga=[]):
+    def __init__(
+        self,
+        id_collectionphysique: int,
+        titre_collection: str,
+        description_collection: str,
+        Liste_manga=[],
+    ):
         """
         Initialise un nouvel objet CollectionCoherente
         """

@@ -2,11 +2,11 @@ import logging
 
 
 from dao.db_connection import DBConnection
-from collection_phys import Collection_physique
-from manga_possede import MangaPossede
+from business_object.collection_phys import Collection_physique
+from business_object.manga_possede import MangaPossede
 
 
-class CollectionPhysiqueDAO():
+class CollectionPhysiqueDAO:
     """Classe contenant les méthodes pour accéder aux collections de l'utilisateur"""
 
     # def trouver_par_idphys(self, id_collection) -> Collection_physique:
@@ -99,7 +99,7 @@ class CollectionPhysiqueDAO():
                         {
                             "id": CollectionP.id_collectionphysique,
                             "titre": CollectionP.titre_collection,
-                            "desc": CollectionP.desc_collection
+                            "desc": CollectionP.desc_collection,
                         },
                     )
                     res = cursor.fetchone()
@@ -113,7 +113,9 @@ class CollectionPhysiqueDAO():
 
         return created
 
-    def supprimer_mangaposs(self, CollectionP: Collection_physique, MangaPoss: MangaPossede) -> bool:
+    def supprimer_mangaposs(
+        self, CollectionP: Collection_physique, MangaPoss: MangaPossede
+    ) -> bool:
         """Suppression d'un manga d'une collection
 
         Parameters
@@ -132,8 +134,10 @@ class CollectionPhysiqueDAO():
                     cursor.execute(
                         "DELETE FROM association_manga_collection_physique                 "
                         " WHERE (id_collec_physique=%(id_collec_coherente)s and id_manga_physique=%(idm)s ",
-                        {"id_collec_physique": CollectionP.id_collectionphysique,
-                         "idm": MangaPoss.id_mangapossede},
+                        {
+                            "id_collec_physique": CollectionP.id_collectionphysique,
+                            "idm": MangaPoss.id_mangapossede,
+                        },
                     )
                     res = cursor.rowcount
         except Exception as e:
@@ -165,7 +169,7 @@ class CollectionPhysiqueDAO():
                         "  RETURNING id_collec_physique, id_manga_physique; ",
                         {
                             "idc": CollectionP.id_collectioncoherente,
-                            "idm": MangaPoss.id_mangapossede
+                            "idm": MangaPoss.id_mangapossede,
                         },
                     )
                     res = cursor.fetchone()
