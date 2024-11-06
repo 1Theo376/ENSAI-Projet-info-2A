@@ -33,7 +33,7 @@ class RechercheMangaVue(VueAbstraite):
                         print(f"Aucun manga trouvé pour le titre '{titre}'.")
                         break
 
-                    choix2.extend(["Afficher la page suivante", "Retour au menu précédent"])
+                    choix2.append(["Afficher la page suivante", "Retour au menu précédent"])
 
                     choix3 = inquirer.select(
                                             message="Choisissez un manga : ",
@@ -64,11 +64,11 @@ class RechercheMangaVue(VueAbstraite):
                             pass
                         case "Afficher les informations du manga":
                             print("\n" + "-" * 50 + "\nInformation du manga\n" + "-" * 50 + "\n")
-                            print("\nTitre: " + manga.titre + "\n" + "-" * 50)
-                            print("\nSynopsis:" + manga.synopsis + "\n" + "-" * 50)
-                            print("\nAuteur: " + manga.auteur + "\n" + "-" * 50)
-                            print("\nThèmes: " + manga.themes + "\n" + "-" * 50)
-                            print("\nGenre: " + manga.genre + "\n" + "-" * 50)
+                            print("\n" + "-" * 50 + "\n" + manga.titre + "\n" + "-" * 50 + "\n")
+                            print("\n" + "-" * 50 + "\n" + manga.synopsis + "\n" + "-" * 50 + "\n")
+                            print("\n" + "-" * 50 + "\n" + manga.auteur + "\n" + "-" * 50 + "\n")
+                            print("\n" + "-" * 50 + "\n" + manga.themes + "\n" + "-" * 50 + "\n")
+                            print("\n" + "-" * 50 + "\n" + manga.genre + "\n" + "-" * 50 + "\n")
                             choix5 = inquirer.select(
                                 message="Faites votre choix : ",
                                 choices=["Retour au menu précédent"],
@@ -76,23 +76,23 @@ class RechercheMangaVue(VueAbstraite):
                             if choix5:
                                 from vues.menu_utilisateur_vue import MenuUtilisateurVue
 
-                                return MenuUtilisateurVue()
-                        case "Consulter les avis":
-                            pass
-                        case "Ajouter un avis":
-                            texte = inquirer.text(
-                                message="Entrez votre avis sur ce manga : "
-                            ).execute()
-                            AvisService().rediger_avis(texte, id_avis=None)
+                                    return MenuUtilisateurVue()
+                                case "Consulter les avis":
+                                    pass
+                                case "Ajouter un avis":
+                                    texte = inquirer.text(
+                                        message="Entrez votre avis sur ce manga : "
+                                    ).execute()
+                                    AvisService().rediger_avis(texte, id_avis=None)
 
-                        case "Retour au menu précédent":
-                            from vues.recherche_vue import RechercheVue
+                                case "Retour au menu précédent":
+                                    from vues.recherche_vue import RechercheVue
 
-                            return RechercheVue()
-                        case "Retour vers l'écran d'accueil":
-                            from vues.menu_utilisateur_vue import MenuUtilisateurVue
+                                    return RechercheVue()
+                                case "Retour vers l'écran d'accueil":
+                                    from vues.menu_utilisateur_vue import MenuUtilisateurVue
 
-                            return MenuUtilisateurVue()
-                from vues.menu_utilisateur_vue import MenuUtilisateurVue
+                                    return MenuUtilisateurVue()
+                    from vues.menu_utilisateur_vue import MenuUtilisateurVue
 
-                return MenuUtilisateurVue()
+                    return MenuUtilisateurVue()
