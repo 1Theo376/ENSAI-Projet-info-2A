@@ -33,7 +33,7 @@ class RechercheMangaVue(VueAbstraite):
                         print(f"Aucun manga trouvé pour le titre '{titre}'.")
                         break
 
-                    choix2.extend(["Afficher la page suivante", "Retour au menu précédent"])
+                    choix2.append(["Afficher la page suivante", "Retour au menu précédent"])
 
                     choix3 = inquirer.select(
                                             message="Choisissez un manga : ",
@@ -44,55 +44,59 @@ class RechercheMangaVue(VueAbstraite):
                         from vues.menu_utilisateur_vue import MenuUtilisateurVue
 
                         return MenuUtilisateurVue()
-                    if choix3 and isinstance(choix3, str):
-                        manga = MangaDao().trouver_manga_par_titre(choix3)
+                    elif choix3 == "Afficher la page suivante":
+                        n += 8
+
                     else:
-                        print("Titre du manga invalide.")
-                    choix4 = inquirer.select(
-                        message="Faites votre choix : ",
-                        choices=[
-                            "Ajouter à une collection",
-                            "Afficher les informations du manga",
-                            "Consulter les avis",
-                            "Ajouter un avis",
-                            "Retour au menu précédent",
-                            "Retour vers l'écran d'accueil",
-                        ],
-                    ).execute()
-                    match choix4:
-                        case "Ajouter à une collection":
-                            pass
-                        case "Afficher les informations du manga":
-                            print("\n" + "-" * 50 + "\nInformation du manga\n" + "-" * 50 + "\n")
-                            print("\n" + "-" * 50 + "\n" + manga.titre + "\n" + "-" * 50 + "\n")
-                            print("\n" + "-" * 50 + "\n" + manga.synopsis + "\n" + "-" * 50 + "\n")
-                            print("\n" + "-" * 50 + "\n" + manga.auteur + "\n" + "-" * 50 + "\n")
-                            print("\n" + "-" * 50 + "\n" + manga.themes + "\n" + "-" * 50 + "\n")
-                            print("\n" + "-" * 50 + "\n" + manga.genre + "\n" + "-" * 50 + "\n")
-                            choix5 = inquirer.select(
-                                message="Faites votre choix : ",
-                                choices=["Retour au menu précédent"],
-                            ).execute()
-                            if choix5:
-                                from vues.menu_utilisateur_vue import MenuUtilisateurVue
+                        if choix3 and isinstance(choix3, str):
+                            manga = MangaDao().trouver_manga_par_titre(choix3)
+                        else:
+                            print("Titre du manga invalide.")
+                        choix4 = inquirer.select(
+                            message="Faites votre choix : ",
+                            choices=[
+                                "Ajouter à une collection",
+                                "Afficher les informations du manga",
+                                "Consulter les avis",
+                                "Ajouter un avis",
+                                "Retour au menu précédent",
+                                "Retour vers l'écran d'accueil",
+                                ],
+                                ).execute()
+                        match choix4:
+                            case "Ajouter à une collection":
+                                pass
+                            case "Afficher les informations du manga":
+                                print("\n" + "-" * 50 + "\nInformation du manga\n" + "-" * 50 + "\n")
+                                print("\n" + "-" * 50 + "\n" + manga.titre + "\n" + "-" * 50 + "\n")
+                                print("\n" + "-" * 50 + "\n" + manga.synopsis + "\n" + "-" * 50 + "\n")
+                                print("\n" + "-" * 50 + "\n" + manga.auteur + "\n" + "-" * 50 + "\n")
+                                print("\n" + "-" * 50 + "\n" + manga.themes + "\n" + "-" * 50 + "\n")
+                                print("\n" + "-" * 50 + "\n" + manga.genre + "\n" + "-" * 50 + "\n")
+                                choix5 = inquirer.select(
+                                    message="Faites votre choix : ",
+                                    choices=["Retour au menu précédent"],
+                                ).execute()
+                                if choix5:
+                                    from vues.menu_utilisateur_vue import MenuUtilisateurVue
 
-                                return MenuUtilisateurVue()
-                        case "Consulter les avis":
-                            pass
-                        case "Ajouter un avis":
-                            texte = inquirer.text(
-                                message="Entrez votre avis sur ce manga : "
-                            ).execute()
-                            AvisService().rediger_avis(texte, id_avis=None)
+                                    return MenuUtilisateurVue()
+                                case "Consulter les avis":
+                                    pass
+                                case "Ajouter un avis":
+                                    texte = inquirer.text(
+                                        message="Entrez votre avis sur ce manga : "
+                                    ).execute()
+                                    AvisService().rediger_avis(texte, id_avis=None)
 
-                        case "Retour au menu précédent":
-                            from vues.recherche_vue import RechercheVue
+                                case "Retour au menu précédent":
+                                    from vues.recherche_vue import RechercheVue
 
-                            return RechercheVue()
-                        case "Retour vers l'écran d'accueil":
-                            from vues.menu_utilisateur_vue import MenuUtilisateurVue
+                                    return RechercheVue()
+                                case "Retour vers l'écran d'accueil":
+                                    from vues.menu_utilisateur_vue import MenuUtilisateurVue
 
-                            return MenuUtilisateurVue()
-                from vues.menu_utilisateur_vue import MenuUtilisateurVue
+                                    return MenuUtilisateurVue()
+                    from vues.menu_utilisateur_vue import MenuUtilisateurVue
 
-                return MenuUtilisateurVue()
+                    return MenuUtilisateurVue()
