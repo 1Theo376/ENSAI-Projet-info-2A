@@ -135,7 +135,7 @@ class MangaDao(metaclass=Singleton):
                     )
                     logging.info("Débogage : requête exécutée avec succès.")
                     res = cursor.fetchall()
-                    # logging.info(f"Débogage : res récupéré avec la valeur : {res}")
+                    #logging.info(f"Débogage : res récupéré avec la valeur : {res}")
                     liste_mangas = []
 
                     if res is not None:
