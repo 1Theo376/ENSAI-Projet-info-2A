@@ -2,6 +2,8 @@ from InquirerPy import inquirer
 from vues.vue_abstraite import VueAbstraite
 from service.recherche_service import RechercheService
 from dao.manga_dao import MangaDao
+from service.avis_service import AvisService
+from vues.session import Session
 
 
 class RechercheMangaVue(VueAbstraite):
@@ -63,11 +65,24 @@ class RechercheMangaVue(VueAbstraite):
                             case "Ajouter à une collection":
                                 pass
                             case "Afficher les informations du manga":
-                                self.afficher_informations_manga(manga)
+                                print("\n" + "-" * 50 + "\nInformation du manga\n" + "-" * 50 + "\n")
+                                print("\n" + "-" * 50 + "\n" + manga.titre + "\n" + "-" * 50 + "\n")
+                                print("\n" + "-" * 50 + "\n" + manga.synopsis + "\n" + "-" * 50 + "\n")
+                                print("\n" + "-" * 50 + "\n" + manga.auteur + "\n" + "-" * 50 + "\n")
+                                print("\n" + "-" * 50 + "\n" + manga.themes + "\n" + "-" * 50 + "\n")
+                                print("\n" + "-" * 50 + "\n" + manga.genre + "\n" + "-" * 50 + "\n")
+                                choix5 = inquirer.select(
+                                                    message="Faites votre choix : ",
+                                                    choices=["Retour au menu précédent"],
+                                                    ).execute()
+                                if choix5:
+                                    from vues.menu_utilisateur_vue import MenuUtilisateurVue
+                                    return MenuUtilisateurVue()
                             case "Consulter les avis":
                                 pass
                             case "Ajouter un avis":
-                                pass
+                                avis = inquirer.text(message="Entrer votre avis sur ce manga : ").execute()
+                                AvisService().rediger_avis(avis, id_user=Session().connexion().id_utilisateur, id_manga=manga.id_manga, id_avis=None)
                             case "Retour au menu précédent":
                                 from vues.recherche_vue import RechercheVue
                                 return RechercheVue()
@@ -78,9 +93,3 @@ class RechercheMangaVue(VueAbstraite):
                 # Retour à l'accueil si aucune option choisie
                 from vues.menu_utilisateur_vue import MenuUtilisateurVue
                 return MenuUtilisateurVue()
-
-    def afficher_informations_manga(self, manga):
-        """Affiche les informations du manga sélectionné"""
-        print("\n" + "-" * 50 + f"\nInformation du manga : {manga.titre}\n" + "-" * 50)
-        print("Synopsis:", manga.synopsis)
-        # Afficher d'autres informations si disponibles

@@ -1,5 +1,6 @@
 from business_object.manga import Manga
 from business_object.CollectionCoherente import CollectionCoherente
+from dao.collection_coherente_dao import CollectionCoherenteDAO
 
 
 class CollectionCoherenteService:
@@ -28,7 +29,7 @@ class CollectionCoherenteService:
 
     def supprimer_mangaposs(self, CollectionC, MangaC: Manga) -> bool:
         """ """
-        return self.dao.CollectionCoherenteDAO.supprimer_manga(CollectionC, MangaC)
+        return self.CollectionCoherenteDAO().supprimer_manga(CollectionC, MangaC)
 
     def ajouter_mangaposs(self, CollectionC, MangaC: Manga) -> bool:
         """ """

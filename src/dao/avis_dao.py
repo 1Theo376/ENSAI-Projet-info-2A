@@ -6,7 +6,7 @@ from business_object.avis import Avis
 
 
 class AvisDAO:
-    def creer_avis(self, avis) -> bool:
+    def creer_avis(self, avis, id_user, id_manga) -> bool:
         """Créer un nouvel avis dans la base de données
 
         Parameters
@@ -25,11 +25,13 @@ class AvisDAO:
             with DBConnection() as connection:
                 with connection.cursor() as cursor:
                     cursor.execute(
-                        "INSERT INTO avis (id_avis, texte) VALUES "
-                        "(%(id_avis)s, %(texte)s) RETURNING id_avis;",
+                        "INSERT INTO avis (id_avis, id_utilisateur, id_manga, texte) VALUES "
+                        "(%(id_avis)s, %(texte)s, %(id_utilisateur)s, %(id_manga)s) RETURNING id_avis;",
                         {
                             "id_avis": avis.id_avis,
                             "texte": avis.texte,
+                            "id_utilisateur": id_user,
+                            "id_manga": id_manga,
                         },
                     )
                     res = cursor.fetchone()

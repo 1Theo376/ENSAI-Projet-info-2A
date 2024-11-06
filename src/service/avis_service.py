@@ -5,7 +5,7 @@ from dao.avis_dao import AvisDAO
 class AvisService:
     """Classe contenant les méthodes de service des avis"""
 
-    def rediger_avis(self, texte, id_avis):
+    def rediger_avis(self, texte, id_avis, id_user, id_manga):
         """Rédaction d'un avis
         Parameters
         ----------
@@ -21,7 +21,7 @@ class AvisService:
 
         nouvel_avis = Avis(id_avis=id_avis, texte=texte)
 
-        return nouvel_avis if AvisDAO().creer_avis(nouvel_avis) else None
+        return nouvel_avis if AvisDAO().creer_avis(nouvel_avis, id_user, id_manga) else None
 
     def supprimer_avis(self, avis):
         """Suppression d'un avis"""

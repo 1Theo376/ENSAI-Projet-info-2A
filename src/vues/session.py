@@ -7,7 +7,7 @@ class Session(metaclass=Singleton):
     """Stocke les données liées à une session.
     Cela permet par exemple de connaitre le utilisateur connecté à tout moment
     depuis n'importe quelle classe.
-    Sans cela, il faudrait transmettre ce utilisateur entre les différentes vues.
+    Sans cela, il faudrait transmettre cet utilisateur entre les différentes vues.
     """
 
     def __init__(self):
