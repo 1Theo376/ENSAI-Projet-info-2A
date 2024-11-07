@@ -22,26 +22,28 @@ class AvisDAO:
         res = None
 
         try:
-            with DBConnection() as connection:
+            with DBConnection().connection as connection:
                 with connection.cursor() as cursor:
                     cursor.execute(
-                        "INSERT INTO avis (id_avis, id_utilisateur, id_manga, texte) VALUES "
-                        "(%(id_avis)s, %(texte)s, %(id_utilisateur)s, %(id_manga)s) RETURNING id_avis;",
+                        "INSERT INTO avis(id_utilisateur, id_manga, texte) VALUES "
+                        "(%(id_utilisateur)s, %(id_manga)s, %(texte)s) RETURNING id_avis;",
                         {
-                            "id_avis": avis.id_avis,
-                            "texte": avis.texte,
                             "id_utilisateur": id_user,
                             "id_manga": id_manga,
+                            "texte": avis.texte,
                         },
                     )
                     res = cursor.fetchone()
+                    connection.commit()  # Commit pour confirmer l'insertion
 
         except Exception as e:
-            logging.info(e)
+            logging.error(f"Erreur lors de l'insertion de l'avis : {e}")
+            connection.rollback()
+            return False
 
         created = False
         if res:
-            avis.id_avis = res["id"]
+            avis.id_avis = res["id_avis"]
             created = True
 
         return created
@@ -225,8 +227,29 @@ class AvisDAO:
                     result = cursor.fetchall()
                     for row in result:
                         avis = Avis(id_avis=row["id_avis"], texte=row["texte"])
-                        avis_liste.append(avis)
+                        avis2 = [avis]+[row["id_manga"]]
+                        avis_liste.append(avis2)
         except Exception as e:
             logging.info(e)
             raise
         return avis_liste
+
+    def recuperer_avis_manga(self, id_manga):
+        avis_liste = []
+        liste_manga =[]
+        try:
+            with DBConnection().connection as connection:
+                with connection.cursor() as cursor:
+                    cursor.execute(
+                        "SELECT * FROM avis WHERE id_manga = %(id_manga)s ORDER BY id_avis;",
+                        {"id_manga": id_manga},
+                    )
+                    result = cursor.fetchall()
+                    for row in result:
+                        avis = Avis(id_avis=row["id_avis"], texte=row["texte"])
+                        avis_liste.append(avis)
+                        liste_manga.append(row["id_manga"])
+        except Exception as e:
+            logging.info(e)
+            raise
+        return avis_liste, liste_manga

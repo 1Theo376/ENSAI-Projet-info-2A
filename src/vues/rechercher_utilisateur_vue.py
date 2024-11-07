@@ -1,8 +1,8 @@
 from InquirerPy import inquirer
-import logging
+
 from vues.vue_abstraite import VueAbstraite
 from vues.session import Session
-
+from service.avis_service import AvisService
 from service.recherche_service import RechercheService
 
 
@@ -42,11 +42,10 @@ class RechercheUtilisateurVue(VueAbstraite):
                 n = 0
                 a = 0
                 long = RechercheService().recherche_utilisateur(pseudo, n, a)["longueur"]
-                res_entier = (long // 8)
+                res_entier = long // 8
                 res_reste = long % 8
-                logging.info(f"res_entier : {res_entier}, res_reste : {res_reste}")
 
-                while True:
+                while n >= 0:
                     choix2 = RechercheService().recherche_utilisateur(pseudo, n, a)["liste"]
 
                     if not choix2:
@@ -66,6 +65,7 @@ class RechercheUtilisateurVue(VueAbstraite):
 
                     if choix3 == "Retour au menu précédent":
                         from vues.menu_utilisateur_vue import MenuUtilisateurVue
+
                         return MenuUtilisateurVue()
 
                     elif choix3 == "Afficher la page suivante":
@@ -75,7 +75,6 @@ class RechercheUtilisateurVue(VueAbstraite):
                         if res_entier == 0 and res_reste != 0:
                             n = n + 8
                             a = res_reste - 8
-                        logging.info(f"res_entier : {res_entier}, res_reste : {res_reste}")
 
                     elif choix3 == "Afficher la page précédente":
                         if res_entier == 0:
@@ -84,25 +83,49 @@ class RechercheUtilisateurVue(VueAbstraite):
                         if res_entier != 0 and res_reste == 0:
                             n = n - 8
                             a = res_reste + 8
-                        logging.info(f"res_entier : {res_entier}, res_reste : {res_reste}")
 
                     else:
                         n = -1
                         choix4 = inquirer.select(
                             message="Faites votre choix : ",
-                            choices=["Consulter les collections", "Consulter les avis", "Retour au menu précédent", "Retour vers l'écran d'accueil"],
+                            choices=[
+                                "Consulter les collections",
+                                "Consulter les avis",
+                                "Retour au menu précédent",
+                                "Retour vers l'écran d'accueil",
+                            ],
                         ).execute()
                         match choix4:
                             case "Consulter les collections":
                                 pass
                             case "Consulter les avis":
-                                pass
+                                liste_avis = AvisService().recuperer_avis_utilisateur(Session().utilisateur.id)
+                                for i in range(len(liste_avis)):
+                                    print(
+                                        "\n" + "-" * 50 + f"\n{liste_avis[i]}\n" + "-" * 50 + "\n"
+                                    )
+                                choixavis = inquirer.select(
+                                    message="Faites votre choix : ",
+                                    choices=["Retour au menu précédent", "Retour à l'accueil"],
+                                ).execute()
+                                match choixavis:
+                                    case "Retour au menu précédent":
+                                        from vues.recherche_vue import RechercheVue
+
+                                        return RechercheVue()
+                                    case "Retour à l'accueil":
+                                        from vues.menu_utilisateur_vue import MenuUtilisateurVue
+
+                                        return MenuUtilisateurVue()
                             case "Retour au menu précédent":
                                 from vues.recherche_vue import RechercheVue
+
                                 return RechercheVue()
                             case "Retour vers l'écran d'accueil":
                                 from vues.menu_utilisateur_vue import MenuUtilisateurVue
+
                                 return MenuUtilisateurVue("Bon retour")
 
         from vues.menu_utilisateur_vue import MenuUtilisateurVue
+
         return MenuUtilisateurVue()
