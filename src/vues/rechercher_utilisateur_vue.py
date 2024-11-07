@@ -93,7 +93,7 @@ class RechercheUtilisateurVue(VueAbstraite):
                             case "Consulter les collections":
                                 pass
                             case "Consulter les avis":
-                                liste_avis = AvisService().recuperer_avis_utilisateur(manga.id_manga)
+                                liste_avis = AvisService().recuperer_avis_utilisateur(Session().utilisateur.id)
                                 for i in range(len(liste_avis)):
                                     print("\n" + "-" * 50 + f"\n{liste_avis[i]}\n" + "-" * 50 + "\n")
                                 choixavis = inquirer.select(
