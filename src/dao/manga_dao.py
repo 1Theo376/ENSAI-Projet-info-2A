@@ -26,24 +26,48 @@ class MangaDao(metaclass=Singleton):
             with DBConnection().connection as connection:
                 with connection.cursor() as cursor:
                     cursor.execute(
-                        "Select *",
-                        "From manga",
-                        "Where id_manga = %(id_manga)s ",
+                        "SELECT id_manga, titre, synopsis, genre_name as genre, name_auteur as auteur         "
+                        "FROM manga join association_manga_genre using(id_manga) "
+                        "join genre using(id_genre)                              "
+                        "join association_manga_auteur using(id_manga)           "
+                        "join auteur using(id_auteur)                            "
+                        "WHERE id_manga = %(id_manga)s;                                ",
                         {"id_manga": id_manga},
                     )
                     res = cursor.fetchone()
+
+            with DBConnection().connection as connection:
+                with connection.cursor() as cursor:
+                    cursor.execute(
+                        "SELECT theme_name as theme                                      "
+                        "FROM manga left join association_manga_theme using(id_manga)  "
+                        "left join theme using(id_theme)                               "
+                        "WHERE id_manga = %(id_manga)s;                                 ",
+                        {"id_manga": id_manga},
+                    )
+                    res2 = cursor.fetchall()
+
         except Exception as e:
             logging.info(e)
             raise
         manga = None
+        liste_themes = []
+
+        if res2:
+            for row in res2:
+                liste_themes.append(row["theme"])
+
+        delimiter = ', '
+        liste_themes = delimiter.join(liste_themes)
+
         if res:
             manga = Manga(
                 id_manga=res["id_manga"],
-                titre=res["titre"],
-                synopsis=res["synopsis"],
-                auteur=res["auteur"],
-                themes=res["themes"],
-                genre=res["genre"],
+                titre=res.get("titre", "Titre inconnu"),  # res.get permet de donner une valeur par défaut si absent
+                synopsis=res.get("synopsis") if res.get("synopsis") is not None else "Synopsis non disponible",  # Si val=null, ce serait mieux de gérer dans la BDD et mettre none
+                auteur=res.get("auteur", "Auteur inconnu"),
+                themes=liste_themes if liste_themes else ["Thèmes non disponibles"],
+                genre=res.get("genre", "Genre non disponible")
             )
         return manga
 
