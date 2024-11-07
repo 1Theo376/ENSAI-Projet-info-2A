@@ -99,13 +99,7 @@ class RechercheUtilisateurVue(VueAbstraite):
                             case "Consulter les collections":
                                 pass
                             case "Consulter les avis":
-<<<<<<< HEAD
                                 liste_avis = AvisService().recuperer_avis_utilisateur(Session().utilisateur.id)
-=======
-                                liste_avis = AvisService().recuperer_avis_utilisateur(
-                                    manga.id_manga
-                                )
->>>>>>> 871678963019864d70df18a0eeb779127302ee8d
                                 for i in range(len(liste_avis)):
                                     print(
                                         "\n" + "-" * 50 + f"\n{liste_avis[i]}\n" + "-" * 50 + "\n"
@@ -114,6 +108,15 @@ class RechercheUtilisateurVue(VueAbstraite):
                                     message="Faites votre choix : ",
                                     choices=["Retour au menu précédent", "Retour à l'accueil"],
                                 ).execute()
+                                match choixavis:
+                                    case "Retour au menu précédent":
+                                        from vues.recherche_vue import RechercheVue
+
+                                        return RechercheVue()
+                                    case "Retour à l'accueil":
+                                        from vues.menu_utilisateur_vue import MenuUtilisateurVue
+
+                                        return MenuUtilisateurVue()
                             case "Retour au menu précédent":
                                 from vues.recherche_vue import RechercheVue
 

@@ -1,6 +1,7 @@
 from business_object.avis import Avis
 from dao.avis_dao import AvisDAO
 import logging
+from dao.manga_dao import MangaDao
 
 
 class AvisService:
@@ -47,9 +48,12 @@ class AvisService:
     def recuperer_avis_utilisateur(self, id_utilisateur):
         """Simule la récupération des avis d'un utilisateur"""
         # Simuler une liste d'avis pour l'exemple
-        liste_avis = AvisDAO().recuperer_avis_utilisateur(id_utilisateur)
+        liste_avis, liste_manga = AvisDAO().recuperer_avis_utilisateur(id_utilisateur)
+        liste_titre_mangas =[]
+        for i in range(0, len(liste_manga)):
+            liste_titre_mangas.append(MangaDao().trouver_manga_par_id(liste_manga[i]))
         if liste_avis:
-            return liste_avis
+            return liste_avis, liste_titre_mangas
         return None
 
     def recuperer_avis_manga(self, id_manga):
