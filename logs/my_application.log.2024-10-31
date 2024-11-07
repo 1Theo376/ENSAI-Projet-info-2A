@@ -1,456 +1,85 @@
-31/10/2024 17:13:02 - INFO     - --------------------------------------------------
-31/10/2024 17:13:02 - INFO     - Lancement Application                           
-31/10/2024 17:13:02 - INFO     - --------------------------------------------------
-31/10/2024 17:13:02 - INFO     - AccueilVue
-31/10/2024 17:13:19 - INFO     - InscriptionVue
-31/10/2024 17:13:25 - INFO     - Pseudo : Azer (length: 4)
-31/10/2024 17:13:25 - INFO     -     UtilisateurDao.lister_tous() - DEBUT
-31/10/2024 17:13:25 - INFO     -     UtilisateurDao.lister_tous() - FIN
-31/10/2024 17:13:25 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x0000022D164D9CC0>', '<business_object.utilisateur.Utilisateur object at 0x0000022D164D9D20>', '<business_object.utilisateur.Utilisateur object at 0x0000022D164D9BA0>'] ... (5 elements)
-31/10/2024 17:13:29 - INFO     - Mot de passe haché : 147a25f800b4c7b754d98bbde38a0f1323dec1c19e4470453c2c77cda9951184 (length: 64)
-31/10/2024 17:13:29 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x0000022D165C4CD0>',) - DEBUT
-31/10/2024 17:13:29 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x0000022D165C4CD0>',) - FIN
-31/10/2024 17:13:29 - INFO     -        └─> Sortie : True
-31/10/2024 17:13:29 - INFO     - AccueilVue
-31/10/2024 17:13:34 - INFO     - ConnexionVue
-31/10/2024 17:13:42 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
-31/10/2024 17:13:42 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
-31/10/2024 17:13:42 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000022D16695660>
-31/10/2024 17:13:42 - INFO     - MenuUtilisateurVue
-31/10/2024 17:13:44 - INFO     - RechercheVue
-31/10/2024 17:13:49 - INFO     - RechercheMangaVue
-31/10/2024 17:14:04 - INFO     - MangaDao.trouver_manga_par_titre() missing 1 required positional argument: 'titre'
-31/10/2024 17:14:04 - INFO     - AccueilVue
-31/10/2024 17:14:07 - INFO     - Fin de l'application
-31/10/2024 17:30:37 - INFO     - --------------------------------------------------
-31/10/2024 17:30:37 - INFO     - Lancement Application                           
-31/10/2024 17:30:37 - INFO     - --------------------------------------------------
-31/10/2024 17:30:37 - INFO     - AccueilVue
-31/10/2024 17:30:39 - INFO     - ConnexionVue
-31/10/2024 17:30:45 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
-31/10/2024 17:30:45 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
-31/10/2024 17:30:45 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000029C8A965A80>
-31/10/2024 17:30:45 - INFO     - MenuUtilisateurVue
-31/10/2024 17:30:47 - INFO     - RechercheVue
-31/10/2024 17:30:48 - INFO     - invalid syntax (rechercher_manga_vue.py, line 61)
-31/10/2024 17:30:48 - INFO     - AccueilVue
-31/10/2024 17:31:09 - INFO     - Fin de l'application
-31/10/2024 17:39:23 - INFO     - --------------------------------------------------
-31/10/2024 17:39:23 - INFO     - Lancement Application                           
-31/10/2024 17:39:23 - INFO     - --------------------------------------------------
-31/10/2024 17:39:23 - INFO     - AccueilVue
-31/10/2024 17:39:25 - INFO     - ConnexionVue
-31/10/2024 17:39:31 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
-31/10/2024 17:39:32 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
-31/10/2024 17:39:32 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x00000218471256C0>
-31/10/2024 17:39:32 - INFO     - MenuUtilisateurVue
-31/10/2024 17:39:35 - INFO     - RechercheVue
-31/10/2024 17:39:36 - INFO     - invalid syntax (rechercher_manga_vue.py, line 61)
-31/10/2024 17:39:36 - INFO     - AccueilVue
-31/10/2024 17:47:26 - INFO     - ConnexionVue
-31/10/2024 17:47:32 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
-31/10/2024 17:47:32 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
-31/10/2024 17:47:32 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000002184736CF70>
-31/10/2024 17:47:32 - INFO     - MenuUtilisateurVue
-31/10/2024 17:47:34 - INFO     - RechercheVue
-31/10/2024 17:47:35 - INFO     - RechercheMangaVue
-31/10/2024 17:47:58 - INFO     - RealDictCursor.execute() takes from 2 to 3 positional arguments but 5 were given
-31/10/2024 17:47:58 - INFO     - RealDictCursor.execute() takes from 2 to 3 positional arguments but 5 were given
-31/10/2024 17:47:58 - INFO     - AccueilVue
-31/10/2024 17:48:00 - INFO     - Fin de l'application
-31/10/2024 17:48:04 - INFO     - --------------------------------------------------
-31/10/2024 17:48:04 - INFO     - Lancement Application                           
-31/10/2024 17:48:04 - INFO     - --------------------------------------------------
-31/10/2024 17:48:04 - INFO     - AccueilVue
-31/10/2024 17:48:05 - INFO     - ConnexionVue
-31/10/2024 17:48:11 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
-31/10/2024 17:48:11 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
-31/10/2024 17:48:11 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x00000249C2121A80>
-31/10/2024 17:48:11 - INFO     - MenuUtilisateurVue
-31/10/2024 17:48:13 - INFO     - RechercheVue
-31/10/2024 17:48:14 - INFO     - RechercheMangaVue
-31/10/2024 17:48:34 - INFO     - RealDictCursor.execute() takes from 2 to 3 positional arguments but 5 were given
-31/10/2024 17:48:34 - INFO     - RealDictCursor.execute() takes from 2 to 3 positional arguments but 5 were given
-31/10/2024 17:48:34 - INFO     - AccueilVue
-31/10/2024 17:48:36 - INFO     - Fin de l'application
-31/10/2024 17:54:33 - INFO     - --------------------------------------------------
-31/10/2024 17:54:33 - INFO     - Lancement Application                           
-31/10/2024 17:54:33 - INFO     - --------------------------------------------------
-31/10/2024 17:54:33 - INFO     - AccueilVue
-31/10/2024 17:54:41 - INFO     - ConnexionVue
-31/10/2024 17:54:51 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
-31/10/2024 17:54:51 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
-31/10/2024 17:54:51 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001BFAB035960>
-31/10/2024 17:54:51 - INFO     - MenuUtilisateurVue
-31/10/2024 17:55:01 - INFO     - RechercheVue
-31/10/2024 17:55:02 - INFO     - RechercheMangaVue
-31/10/2024 17:55:18 - INFO     - RealDictCursor.execute() takes from 2 to 3 positional arguments but 5 were given
-31/10/2024 17:55:18 - INFO     - RealDictCursor.execute() takes from 2 to 3 positional arguments but 5 were given
-31/10/2024 17:55:18 - INFO     - AccueilVue
-31/10/2024 17:57:59 - INFO     - ConnexionVue
-31/10/2024 17:58:04 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
-31/10/2024 17:58:04 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
-31/10/2024 17:58:04 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001BFAB4F51E0>
-31/10/2024 17:58:04 - INFO     - MenuUtilisateurVue
-31/10/2024 17:58:06 - INFO     - AccueilVue
-31/10/2024 17:58:07 - INFO     - Fin de l'application
-31/10/2024 17:58:10 - INFO     - --------------------------------------------------
-31/10/2024 17:58:10 - INFO     - Lancement Application                           
-31/10/2024 17:58:10 - INFO     - --------------------------------------------------
-31/10/2024 17:58:10 - INFO     - AccueilVue
-31/10/2024 17:58:11 - INFO     - ConnexionVue
-31/10/2024 17:58:16 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
-31/10/2024 17:58:16 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
-31/10/2024 17:58:16 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000017C59AF1A80>
-31/10/2024 17:58:16 - INFO     - MenuUtilisateurVue
-31/10/2024 17:58:24 - INFO     - RechercheVue
-31/10/2024 17:58:28 - INFO     - RechercheMangaVue
-31/10/2024 17:58:38 - INFO     - 'list' object has no attribute 'titre'
-31/10/2024 17:58:38 - INFO     - AccueilVue
-31/10/2024 18:00:35 - INFO     - Fin de l'application
-31/10/2024 18:00:38 - INFO     - --------------------------------------------------
-31/10/2024 18:00:38 - INFO     - Lancement Application                           
-31/10/2024 18:00:38 - INFO     - --------------------------------------------------
-31/10/2024 18:00:38 - INFO     - AccueilVue
-31/10/2024 18:00:39 - INFO     - ConnexionVue
-31/10/2024 18:00:44 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
-31/10/2024 18:00:44 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
-31/10/2024 18:00:44 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000023D7D375A80>
-31/10/2024 18:00:44 - INFO     - MenuUtilisateurVue
-31/10/2024 18:00:47 - INFO     - RechercheVue
-31/10/2024 18:00:47 - INFO     - RechercheMangaVue
-31/10/2024 18:00:53 - INFO     - RealDictCursor.execute() takes from 2 to 3 positional arguments but 5 were given
-31/10/2024 18:00:53 - INFO     - RealDictCursor.execute() takes from 2 to 3 positional arguments but 5 were given
-31/10/2024 18:00:53 - INFO     - AccueilVue
-31/10/2024 18:05:39 - INFO     - Fin de l'application
-31/10/2024 18:05:42 - INFO     - --------------------------------------------------
-31/10/2024 18:05:42 - INFO     - Lancement Application                           
-31/10/2024 18:05:42 - INFO     - --------------------------------------------------
-31/10/2024 18:05:42 - INFO     - AccueilVue
-31/10/2024 18:05:43 - INFO     - ConnexionVue
-31/10/2024 18:05:49 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
-31/10/2024 18:05:49 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
-31/10/2024 18:05:49 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001E2D0725A80>
-31/10/2024 18:05:49 - INFO     - MenuUtilisateurVue
-31/10/2024 18:05:51 - INFO     - RechercheVue
-31/10/2024 18:05:52 - INFO     - RechercheMangaVue
-31/10/2024 18:05:57 - INFO     - ERREUR:  erreur de syntaxe sur ou près de « titre »
-LINE 1: SELECT id_manga, titre, synopsisFROM mangaWhere titre = 'Mon...
-                                                        ^
-
-31/10/2024 18:05:57 - INFO     - ERREUR:  erreur de syntaxe sur ou près de « titre »
-LINE 1: SELECT id_manga, titre, synopsisFROM mangaWhere titre = 'Mon...
-                                                        ^
-
-31/10/2024 18:05:57 - INFO     - AccueilVue
-31/10/2024 18:06:54 - INFO     - Fin de l'application
-31/10/2024 18:06:57 - INFO     - --------------------------------------------------
-31/10/2024 18:06:57 - INFO     - Lancement Application                           
-31/10/2024 18:06:57 - INFO     - --------------------------------------------------
-31/10/2024 18:06:57 - INFO     - AccueilVue
-31/10/2024 18:06:58 - INFO     - ConnexionVue
-31/10/2024 18:07:03 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
-31/10/2024 18:07:03 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
-31/10/2024 18:07:03 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000028E50C35960>
-31/10/2024 18:07:03 - INFO     - MenuUtilisateurVue
-31/10/2024 18:07:05 - INFO     - RechercheVue
-31/10/2024 18:07:05 - INFO     - RechercheMangaVue
-31/10/2024 18:09:05 - INFO     - MenuUtilisateurVue
-31/10/2024 18:09:06 - INFO     - AccueilVue
-31/10/2024 18:09:08 - INFO     - Fin de l'application
-31/10/2024 18:38:09 - INFO     - --------------------------------------------------
-31/10/2024 18:38:09 - INFO     - Lancement Application                           
-31/10/2024 18:38:09 - INFO     - --------------------------------------------------
-31/10/2024 18:38:09 - INFO     - AccueilVue
-31/10/2024 18:38:11 - INFO     - ConnexionVue
-31/10/2024 18:38:16 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
-31/10/2024 18:38:16 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
-31/10/2024 18:38:16 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001703A261A80>
-31/10/2024 18:38:16 - INFO     - MenuUtilisateurVue
-31/10/2024 18:38:18 - INFO     - RechercheVue
-31/10/2024 18:38:19 - INFO     - RechercheMangaVue
-31/10/2024 18:38:24 - INFO     - Débogage : requête exécutée avec succès.
-31/10/2024 18:38:25 - INFO     - Débogage : manga récupéré avec la valeur : Monster
-31/10/2024 18:38:35 - INFO     - RechercheVue
-31/10/2024 18:38:39 - INFO     - RechercheUtilisateurVue
-31/10/2024 18:38:46 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('Ana',) - DEBUT
-31/10/2024 18:38:46 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('Ana',) - FIN
-31/10/2024 18:38:46 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000001703A86FB80>'] ... (1 elements)
-31/10/2024 18:38:51 - INFO     - MenuUtilisateurVue
-31/10/2024 18:38:54 - INFO     - AccueilVue
-31/10/2024 18:38:55 - INFO     - Fin de l'application
-31/10/2024 18:48:11 - INFO     - --------------------------------------------------
-31/10/2024 18:48:11 - INFO     - Lancement Application                           
-31/10/2024 18:48:11 - INFO     - --------------------------------------------------
-31/10/2024 18:48:11 - INFO     - AccueilVue
-31/10/2024 18:48:15 - INFO     - ConnexionVue
-31/10/2024 18:48:20 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
-31/10/2024 18:48:20 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
-31/10/2024 18:48:20 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001D7CEF91960>
-31/10/2024 18:48:20 - INFO     - MenuUtilisateurVue
-31/10/2024 18:48:23 - INFO     - RechercheVue
-31/10/2024 18:48:24 - INFO     - RechercheUtilisateurVue
-31/10/2024 18:48:26 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('Ana',) - DEBUT
-31/10/2024 18:48:26 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('Ana',) - FIN
-31/10/2024 18:48:26 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000001D7CF1051E0>'] ... (1 elements)
-31/10/2024 18:48:34 - INFO     - MenuUtilisateurVue
-31/10/2024 18:48:36 - INFO     - RechercheVue
-31/10/2024 18:48:38 - INFO     - RechercheUtilisateurVue
-31/10/2024 18:48:43 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('A',) - DEBUT
-31/10/2024 18:48:43 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('A',) - FIN
-31/10/2024 18:48:43 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000001D7CF4DB910>', '<business_object.utilisateur.Utilisateur object at 0x000001D7CF4DB8B0>', '<business_object.utilisateur.Utilisateur object at 0x000001D7CF4DB850>'] ... (5 elements)
-31/10/2024 18:48:48 - INFO     - MenuUtilisateurVue
-31/10/2024 18:48:50 - INFO     - AccueilVue
-31/10/2024 18:48:51 - INFO     - Fin de l'application
-31/10/2024 18:48:56 - INFO     - --------------------------------------------------
-31/10/2024 18:48:56 - INFO     - Lancement Application                           
-31/10/2024 18:48:56 - INFO     - --------------------------------------------------
-31/10/2024 18:48:56 - INFO     - AccueilVue
-31/10/2024 18:48:58 - INFO     - ConnexionVue
-31/10/2024 18:49:04 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
-31/10/2024 18:49:04 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
-31/10/2024 18:49:04 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001654CB3D810>
-31/10/2024 18:49:04 - INFO     - MenuUtilisateurVue
-31/10/2024 18:49:06 - INFO     - RechercheVue
-31/10/2024 18:49:07 - INFO     - RechercheMangaVue
-31/10/2024 18:49:10 - INFO     - Débogage : requête exécutée avec succès.
-31/10/2024 18:49:19 - INFO     - Débogage : requête exécutée avec succès.
-31/10/2024 18:49:22 - INFO     - Débogage : manga récupéré avec la valeur : Hungry Monster
-31/10/2024 18:49:37 - INFO     - Débogage : requête exécutée avec succès.
-31/10/2024 18:49:38 - INFO     - Débogage : manga récupéré avec la valeur : Pokémon Pocket Monsters
-31/10/2024 18:49:43 - INFO     - Débogage : requête exécutée avec succès.
-31/10/2024 18:49:47 - INFO     - Débogage : manga récupéré avec la valeur : Rose Colored Monster
-31/10/2024 18:49:51 - INFO     - RechercheVue
-31/10/2024 18:49:55 - INFO     - Fin de l'application
-31/10/2024 20:52:33 - INFO     - --------------------------------------------------
-31/10/2024 20:52:33 - INFO     - Lancement Application                           
-31/10/2024 20:52:33 - INFO     - --------------------------------------------------
-31/10/2024 20:52:33 - INFO     - AccueilVue
-31/10/2024 20:52:37 - INFO     - ConnexionVue
-31/10/2024 20:52:43 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
-31/10/2024 20:52:43 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
-31/10/2024 20:52:43 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001739E241B10>
-31/10/2024 20:52:43 - INFO     - MenuUtilisateurVue
-31/10/2024 20:52:45 - INFO     - RechercheVue
-31/10/2024 20:52:47 - INFO     - No module named 'avis'
-31/10/2024 20:52:47 - INFO     - AccueilVue
-31/10/2024 20:53:47 - INFO     - ConnexionVue
-31/10/2024 20:53:52 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
-31/10/2024 20:53:52 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
-31/10/2024 20:53:52 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001739E49CFA0>
-31/10/2024 20:53:52 - INFO     - MenuUtilisateurVue
-31/10/2024 20:53:54 - INFO     - RechercheVue
-31/10/2024 20:53:55 - INFO     - No module named 'avis'
-31/10/2024 20:53:55 - INFO     - AccueilVue
-31/10/2024 20:55:37 - INFO     - Fin de l'application
-31/10/2024 20:55:40 - INFO     - --------------------------------------------------
-31/10/2024 20:55:40 - INFO     - Lancement Application                           
-31/10/2024 20:55:40 - INFO     - --------------------------------------------------
-31/10/2024 20:55:40 - INFO     - AccueilVue
-31/10/2024 20:55:41 - INFO     - ConnexionVue
-31/10/2024 20:55:46 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
-31/10/2024 20:55:46 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
-31/10/2024 20:55:46 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000029728825A80>
-31/10/2024 20:55:46 - INFO     - MenuUtilisateurVue
-31/10/2024 20:56:08 - INFO     - RechercheVue
-31/10/2024 20:56:08 - INFO     - No module named 'avis'
-31/10/2024 20:56:08 - INFO     - AccueilVue
-31/10/2024 20:57:28 - INFO     - Fin de l'application
-31/10/2024 20:57:30 - INFO     - --------------------------------------------------
-31/10/2024 20:57:30 - INFO     - Lancement Application                           
-31/10/2024 20:57:30 - INFO     - --------------------------------------------------
-31/10/2024 20:57:30 - INFO     - AccueilVue
-31/10/2024 20:57:31 - INFO     - ConnexionVue
-31/10/2024 20:57:36 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
-31/10/2024 20:57:36 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
-31/10/2024 20:57:36 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000002932EE65960>
-31/10/2024 20:57:36 - INFO     - MenuUtilisateurVue
-31/10/2024 20:57:38 - INFO     - RechercheVue
-31/10/2024 20:57:39 - INFO     - No module named 'avis'
-31/10/2024 20:57:39 - INFO     - AccueilVue
-31/10/2024 20:58:08 - INFO     - Fin de l'application
-31/10/2024 20:58:12 - INFO     - --------------------------------------------------
-31/10/2024 20:58:12 - INFO     - Lancement Application                           
-31/10/2024 20:58:12 - INFO     - --------------------------------------------------
-31/10/2024 20:58:12 - INFO     - AccueilVue
-31/10/2024 20:58:13 - INFO     - ConnexionVue
-31/10/2024 20:58:18 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
-31/10/2024 20:58:18 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
-31/10/2024 20:58:18 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001F3B3AF5A80>
-31/10/2024 20:58:18 - INFO     - MenuUtilisateurVue
-31/10/2024 20:58:20 - INFO     - RechercheVue
-31/10/2024 20:58:21 - INFO     - RechercheMangaVue
-31/10/2024 20:58:28 - INFO     - Débogage : requête exécutée avec succès.
-31/10/2024 20:58:33 - INFO     - MangaDao.trouver_manga_par_titre() missing 1 required positional argument: 'titre'
-31/10/2024 20:58:33 - INFO     - AccueilVue
-31/10/2024 21:02:29 - INFO     - ConnexionVue
-31/10/2024 21:02:34 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
-31/10/2024 21:02:34 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
-31/10/2024 21:02:34 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001F3B3FB57E0>
-31/10/2024 21:02:34 - INFO     - MenuUtilisateurVue
-31/10/2024 21:02:36 - INFO     - RechercheVue
-31/10/2024 21:02:37 - INFO     - RechercheMangaVue
-31/10/2024 21:02:40 - INFO     - Débogage : requête exécutée avec succès.
-31/10/2024 21:03:12 - INFO     - MangaDao.trouver_manga_par_titre() missing 1 required positional argument: 'titre'
-31/10/2024 21:03:12 - INFO     - AccueilVue
-31/10/2024 21:03:37 - INFO     - Fin de l'application
-31/10/2024 21:05:22 - INFO     - --------------------------------------------------
-31/10/2024 21:05:22 - INFO     - Lancement Application                           
-31/10/2024 21:05:22 - INFO     - --------------------------------------------------
-31/10/2024 21:05:22 - INFO     - AccueilVue
-31/10/2024 21:05:22 - INFO     - ConnexionVue
-31/10/2024 21:05:27 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
-31/10/2024 21:05:27 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
-31/10/2024 21:05:27 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x00000171D8D15A50>
-31/10/2024 21:05:27 - INFO     - MenuUtilisateurVue
-31/10/2024 21:05:28 - INFO     - RechercheVue
-31/10/2024 21:05:30 - INFO     - RechercheMangaVue
-31/10/2024 21:05:34 - INFO     - Débogage : requête exécutée avec succès.
-31/10/2024 21:05:35 - INFO     - MangaDao.trouver_manga_par_titre() missing 1 required positional argument: 'titre'
-31/10/2024 21:05:35 - INFO     - AccueilVue
-31/10/2024 21:08:43 - INFO     - Fin de l'application
-31/10/2024 21:08:46 - INFO     - --------------------------------------------------
-31/10/2024 21:08:46 - INFO     - Lancement Application                           
-31/10/2024 21:08:46 - INFO     - --------------------------------------------------
-31/10/2024 21:08:46 - INFO     - AccueilVue
-31/10/2024 21:08:47 - INFO     - ConnexionVue
-31/10/2024 21:08:52 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
-31/10/2024 21:08:52 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
-31/10/2024 21:08:52 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x00000201CCA35A50>
-31/10/2024 21:08:52 - INFO     - MenuUtilisateurVue
-31/10/2024 21:08:59 - INFO     - RechercheVue
-31/10/2024 21:09:00 - INFO     - RechercheMangaVue
-31/10/2024 21:09:02 - INFO     - Débogage : requête exécutée avec succès.
-31/10/2024 21:09:10 - INFO     - MenuUtilisateurVue
-31/10/2024 21:09:13 - INFO     - AccueilVue
-31/10/2024 21:09:14 - INFO     - Fin de l'application
-31/10/2024 21:11:17 - INFO     - --------------------------------------------------
-31/10/2024 21:11:17 - INFO     - Lancement Application                           
-31/10/2024 21:11:17 - INFO     - --------------------------------------------------
-31/10/2024 21:11:17 - INFO     - AccueilVue
-31/10/2024 21:11:18 - INFO     - ConnexionVue
-31/10/2024 21:11:23 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
-31/10/2024 21:11:23 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
-31/10/2024 21:11:23 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000019A4C545A80>
-31/10/2024 21:11:23 - INFO     - MenuUtilisateurVue
-31/10/2024 21:11:24 - INFO     - RechercheVue
-31/10/2024 21:11:25 - INFO     - RechercheMangaVue
-31/10/2024 21:11:29 - INFO     - Débogage : requête exécutée avec succès.
-31/10/2024 21:11:35 - INFO     - MenuUtilisateurVue
-31/10/2024 21:11:37 - INFO     - RechercheVue
-31/10/2024 21:11:38 - INFO     - RechercheMangaVue
-31/10/2024 21:11:46 - INFO     - Débogage : requête exécutée avec succès.
-31/10/2024 21:11:48 - INFO     - MangaDao.trouver_manga_par_titre() missing 1 required positional argument: 'titre'
-31/10/2024 21:11:48 - INFO     - AccueilVue
-31/10/2024 21:11:55 - INFO     - Fin de l'application
-31/10/2024 21:18:02 - INFO     - --------------------------------------------------
-31/10/2024 21:18:02 - INFO     - Lancement Application                           
-31/10/2024 21:18:02 - INFO     - --------------------------------------------------
-31/10/2024 21:18:02 - INFO     - AccueilVue
-31/10/2024 21:18:03 - INFO     - ConnexionVue
-31/10/2024 21:18:08 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
-31/10/2024 21:18:08 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
-31/10/2024 21:18:08 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000021FDDC85A80>
-31/10/2024 21:18:08 - INFO     - MenuUtilisateurVue
-31/10/2024 21:18:10 - INFO     - RechercheVue
-31/10/2024 21:18:10 - INFO     - RechercheMangaVue
-31/10/2024 21:18:14 - INFO     - Débogage : requête exécutée avec succès.
-31/10/2024 21:18:15 - INFO     - MangaDao.trouver_manga_par_titre() missing 1 required positional argument: 'titre'
-31/10/2024 21:18:15 - INFO     - AccueilVue
-31/10/2024 21:18:39 - INFO     - Fin de l'application
-31/10/2024 21:20:20 - INFO     - --------------------------------------------------
-31/10/2024 21:20:20 - INFO     - Lancement Application                           
-31/10/2024 21:20:20 - INFO     - --------------------------------------------------
-31/10/2024 21:20:20 - INFO     - AccueilVue
-31/10/2024 21:20:21 - INFO     - ConnexionVue
-31/10/2024 21:20:26 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
-31/10/2024 21:20:26 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
-31/10/2024 21:20:26 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001AC0CA01A80>
-31/10/2024 21:20:26 - INFO     - MenuUtilisateurVue
-31/10/2024 21:20:27 - INFO     - RechercheVue
-31/10/2024 21:20:28 - INFO     - RechercheMangaVue
-31/10/2024 21:20:32 - INFO     - Débogage : requête exécutée avec succès.
-31/10/2024 21:20:44 - INFO     - AvisService.rediger_avis() missing 1 required positional argument: 'texte'
-31/10/2024 21:20:44 - INFO     - AccueilVue
-31/10/2024 21:21:07 - INFO     - Fin de l'application
-31/10/2024 21:21:09 - INFO     - --------------------------------------------------
-31/10/2024 21:21:09 - INFO     - Lancement Application                           
-31/10/2024 21:21:09 - INFO     - --------------------------------------------------
-31/10/2024 21:21:09 - INFO     - AccueilVue
-31/10/2024 21:21:10 - INFO     - ConnexionVue
-31/10/2024 21:21:15 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
-31/10/2024 21:21:15 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
-31/10/2024 21:21:15 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000020971385A50>
-31/10/2024 21:21:15 - INFO     - MenuUtilisateurVue
-31/10/2024 21:21:16 - INFO     - RechercheVue
-31/10/2024 21:21:17 - INFO     - RechercheMangaVue
-31/10/2024 21:21:20 - INFO     - Débogage : requête exécutée avec succès.
-31/10/2024 21:21:25 - INFO     - __enter__
-31/10/2024 21:21:25 - INFO     - Débogage : requête exécutée avec succès.
-31/10/2024 21:23:20 - INFO     - MenuUtilisateurVue
-31/10/2024 21:23:51 - INFO     - AccueilVue
-31/10/2024 21:23:53 - INFO     - Fin de l'application
-31/10/2024 21:23:57 - INFO     - --------------------------------------------------
-31/10/2024 21:23:57 - INFO     - Lancement Application                           
-31/10/2024 21:23:57 - INFO     - --------------------------------------------------
-31/10/2024 21:23:57 - INFO     - AccueilVue
-31/10/2024 21:24:01 - INFO     - ConnexionVue
-31/10/2024 21:24:09 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
-31/10/2024 21:24:09 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
-31/10/2024 21:24:09 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000002156AAF5A80>
-31/10/2024 21:24:09 - INFO     - MenuUtilisateurVue
-31/10/2024 21:24:22 - INFO     - RechercheVue
-31/10/2024 21:24:24 - INFO     - RechercheMangaVue
-31/10/2024 21:24:29 - INFO     - Débogage : requête exécutée avec succès.
-31/10/2024 21:24:45 - INFO     - MenuUtilisateurVue
-31/10/2024 21:26:19 - INFO     - RechercheVue
-31/10/2024 21:26:20 - INFO     - RechercheMangaVue
-31/10/2024 21:26:23 - INFO     - Débogage : requête exécutée avec succès.
-31/10/2024 21:27:09 - INFO     - MenuUtilisateurVue
-31/10/2024 21:27:11 - INFO     - expected an indented block after class definition on line 1 (collection_coherente_vue.py, line 1)
-31/10/2024 21:27:11 - INFO     - AccueilVue
-31/10/2024 21:27:14 - INFO     - Fin de l'application
-31/10/2024 21:27:52 - INFO     - --------------------------------------------------
-31/10/2024 21:27:52 - INFO     - Lancement Application                           
-31/10/2024 21:27:52 - INFO     - --------------------------------------------------
-31/10/2024 21:27:52 - INFO     - AccueilVue
-31/10/2024 21:27:54 - INFO     - ConnexionVue
-31/10/2024 21:28:00 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
-31/10/2024 21:28:00 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
-31/10/2024 21:28:00 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000026D66E45A50>
-31/10/2024 21:28:00 - INFO     - MenuUtilisateurVue
-31/10/2024 21:28:02 - INFO     - RechercheVue
-31/10/2024 21:28:03 - INFO     - RechercheMangaVue
-31/10/2024 21:28:07 - INFO     - Débogage : requête exécutée avec succès.
-31/10/2024 21:28:16 - INFO     - __enter__
-31/10/2024 21:28:16 - INFO     - Débogage : requête exécutée avec succès.
-31/10/2024 21:29:48 - INFO     - MenuUtilisateurVue
-31/10/2024 21:29:51 - INFO     - RechercheVue
-31/10/2024 21:29:53 - INFO     - RechercheUtilisateurVue
-31/10/2024 21:29:55 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - DEBUT
-31/10/2024 21:29:55 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - FIN
-31/10/2024 21:29:55 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x0000026D6720A770>', '<business_object.utilisateur.Utilisateur object at 0x0000026D6720A830>', '<business_object.utilisateur.Utilisateur object at 0x0000026D6720AA10>'] ... (3 elements)
-31/10/2024 21:30:04 - INFO     - MenuUtilisateurVue
-31/10/2024 21:30:32 - INFO     - AccueilVue
-31/10/2024 21:30:34 - INFO     - Fin de l'application
-31/10/2024 21:30:36 - INFO     - --------------------------------------------------
-31/10/2024 21:30:36 - INFO     - Lancement Application                           
-31/10/2024 21:30:36 - INFO     - --------------------------------------------------
-31/10/2024 21:30:36 - INFO     - AccueilVue
-31/10/2024 21:30:53 - INFO     - ConnexionVue
-31/10/2024 21:30:59 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
-31/10/2024 21:31:00 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
-31/10/2024 21:31:00 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001FD63105A80>
-31/10/2024 21:31:00 - INFO     - MenuUtilisateurVue
-31/10/2024 21:31:04 - INFO     - RechercheVue
-31/10/2024 21:31:16 - INFO     - RechercheMangaVue
-31/10/2024 21:31:25 - INFO     - Débogage : requête exécutée avec succès.
-31/10/2024 21:31:42 - INFO     - MenuUtilisateurVue
-31/10/2024 21:31:44 - INFO     - RechercheVue
-31/10/2024 21:31:46 - INFO     - RechercheUtilisateurVue
-31/10/2024 21:31:49 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - DEBUT
-31/10/2024 21:31:49 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - FIN
-31/10/2024 21:31:49 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000001FD63745600>', '<business_object.utilisateur.Utilisateur object at 0x000001FD637455D0>', '<business_object.utilisateur.Utilisateur object at 0x000001FD63745540>'] ... (3 elements)
-31/10/2024 21:31:55 - INFO     - MenuUtilisateurVue
-31/10/2024 21:32:53 - INFO     - AccueilVue
-31/10/2024 21:32:55 - INFO     - Fin de l'application
+31/10/2024 15:15:19 - INFO     - --------------------------------------------------
+31/10/2024 15:15:19 - INFO     - Lancement Application                           
+31/10/2024 15:15:19 - INFO     - --------------------------------------------------
+31/10/2024 15:15:19 - INFO     - AccueilVue
+31/10/2024 15:15:27 - INFO     - InscriptionVue
+31/10/2024 15:15:32 - INFO     - Pseudo : Enguerrand90 (length: 12)
+31/10/2024 15:15:32 - INFO     -     UtilisateurDao.lister_tous() - DEBUT
+31/10/2024 15:15:32 - INFO     - 'POSTGRES_HOST'
+31/10/2024 15:15:32 - INFO     - 'POSTGRES_HOST'
+31/10/2024 15:15:32 - INFO     - AccueilVue
+31/10/2024 15:15:36 - INFO     - InscriptionVue
+31/10/2024 15:15:41 - INFO     - Pseudo : Enguerrand90 (length: 12)
+31/10/2024 15:15:41 - INFO     -         UtilisateurDao.lister_tous() - DEBUT
+31/10/2024 15:15:41 - INFO     - 'POSTGRES_HOST'
+31/10/2024 15:15:41 - INFO     - 'POSTGRES_HOST'
+31/10/2024 15:15:41 - INFO     - AccueilVue
+31/10/2024 15:15:46 - INFO     - InscriptionVue
+31/10/2024 15:15:53 - INFO     - Pseudo : AAAAA (length: 5)
+31/10/2024 15:15:53 - INFO     -             UtilisateurDao.lister_tous() - DEBUT
+31/10/2024 15:15:53 - INFO     - 'POSTGRES_HOST'
+31/10/2024 15:15:53 - INFO     - 'POSTGRES_HOST'
+31/10/2024 15:15:53 - INFO     - AccueilVue
+31/10/2024 15:15:57 - INFO     - ConnexionVue
+31/10/2024 15:16:14 - INFO     -                 UtilisateurDao.se_connecter('AAAAA', '*****') - DEBUT
+31/10/2024 15:16:14 - INFO     - 'POSTGRES_HOST'
+31/10/2024 15:16:14 - INFO     -                 UtilisateurDao.se_connecter('AAAAA', '*****') - FIN
+31/10/2024 15:16:14 - INFO     -                    └─> Sortie : None
+31/10/2024 15:16:14 - INFO     - AccueilVue
+31/10/2024 15:16:24 - INFO     - Fin de l'application
+31/10/2024 15:16:29 - INFO     - --------------------------------------------------
+31/10/2024 15:16:29 - INFO     - Lancement Application                           
+31/10/2024 15:16:29 - INFO     - --------------------------------------------------
+31/10/2024 15:16:29 - INFO     - AccueilVue
+31/10/2024 15:16:39 - INFO     - InscriptionVue
+31/10/2024 15:16:45 - INFO     - Pseudo : ENGUERRAND (length: 10)
+31/10/2024 15:16:45 - INFO     -     UtilisateurDao.lister_tous() - DEBUT
+31/10/2024 15:16:45 - INFO     - 'POSTGRES_HOST'
+31/10/2024 15:16:45 - INFO     - 'POSTGRES_HOST'
+31/10/2024 15:16:45 - INFO     - AccueilVue
+31/10/2024 15:16:48 - INFO     - InscriptionVue
+31/10/2024 15:16:54 - INFO     - Pseudo : Enguerrand90 (length: 12)
+31/10/2024 15:16:54 - INFO     -         UtilisateurDao.lister_tous() - DEBUT
+31/10/2024 15:16:54 - INFO     - 'POSTGRES_HOST'
+31/10/2024 15:16:54 - INFO     - 'POSTGRES_HOST'
+31/10/2024 15:16:54 - INFO     - AccueilVue
+31/10/2024 15:17:18 - INFO     - Fin de l'application
+31/10/2024 15:17:36 - INFO     - --------------------------------------------------
+31/10/2024 15:17:36 - INFO     - Lancement Application                           
+31/10/2024 15:17:36 - INFO     - --------------------------------------------------
+31/10/2024 15:17:36 - INFO     - AccueilVue
+31/10/2024 15:17:42 - INFO     - InscriptionVue
+31/10/2024 15:17:46 - INFO     - Pseudo : abcde (length: 5)
+31/10/2024 15:17:46 - INFO     -     UtilisateurDao.lister_tous() - DEBUT
+31/10/2024 15:17:46 - INFO     - 'POSTGRES_HOST'
+31/10/2024 15:17:46 - INFO     - 'POSTGRES_HOST'
+31/10/2024 15:17:46 - INFO     - AccueilVue
+31/10/2024 15:18:05 - INFO     - Fin de l'application
+31/10/2024 15:18:39 - INFO     - --------------------------------------------------
+31/10/2024 15:18:39 - INFO     - Lancement Application                           
+31/10/2024 15:18:39 - INFO     - --------------------------------------------------
+31/10/2024 15:18:39 - INFO     - AccueilVue
+31/10/2024 15:18:45 - INFO     - InscriptionVue
+31/10/2024 15:18:54 - INFO     - Pseudo : ananas35 (length: 8)
+31/10/2024 15:18:54 - INFO     -     UtilisateurDao.lister_tous() - DEBUT
+31/10/2024 15:18:54 - INFO     - 'POSTGRES_HOST'
+31/10/2024 15:18:54 - INFO     - 'POSTGRES_HOST'
+31/10/2024 15:18:54 - INFO     - AccueilVue
+31/10/2024 15:19:04 - INFO     - ConnexionVue
+31/10/2024 15:19:12 - INFO     -         UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+31/10/2024 15:19:12 - INFO     - 'POSTGRES_HOST'
+31/10/2024 15:19:12 - INFO     -         UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+31/10/2024 15:19:12 - INFO     -            └─> Sortie : None
+31/10/2024 15:19:12 - INFO     - AccueilVue
+31/10/2024 15:19:23 - INFO     - ConnexionVue
+31/10/2024 15:19:28 - INFO     -         UtilisateurDao.se_connecter('s', '*****') - DEBUT
+31/10/2024 15:19:28 - INFO     - 'POSTGRES_HOST'
+31/10/2024 15:19:28 - INFO     -         UtilisateurDao.se_connecter('s', '*****') - FIN
+31/10/2024 15:19:28 - INFO     -            └─> Sortie : None
+31/10/2024 15:19:28 - INFO     - AccueilVue
+31/10/2024 15:19:31 - INFO     - InscriptionVue
+31/10/2024 15:19:40 - INFO     - Pseudo : Pseudopseudo (length: 12)
+31/10/2024 15:19:40 - INFO     -         UtilisateurDao.lister_tous() - DEBUT
+31/10/2024 15:19:40 - INFO     - 'POSTGRES_HOST'
+31/10/2024 15:19:40 - INFO     - 'POSTGRES_HOST'
+31/10/2024 15:19:40 - INFO     - AccueilVue
