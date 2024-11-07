@@ -42,25 +42,40 @@ class MenuAvis(VueAbstraite):
 
         match choix:
             case "Accéder à ses avis":
-                self.afficher_avis()
+                from service.avis_service import AvisService
 
-            case "Modifier un avis":
-                # Ici, on doit encore implémenter la logique pour modifier un avis
-                print("La fonctionnalité de modification n'est pas encore implémentée.")
+                liste_avis, liste_titre = AvisService().recuperer_avis_utilisateur(
+                    Session().utilisateur.id
+                )
+                choices = []
+                for i in range(len(liste_avis)):
+                    option = f"titre : {liste_titre[i]} | Avis: {liste_avis[i]}"
+                    choices.append(option)
+                choix_utilisateur = inquirer.select(
+                    message="Faites votre choix : ", choices=choices
+                ).execute()
 
-            case "Supprimer un avis":
-                # Ici, on doit encore implémenter la logique pour supprimer un avis
-                print("La fonctionnalité de suppression n'est pas encore implémentée.")
+                choix2 = inquirer.select(
+                    message="Faites votre choix : ", choices=["Modifier l'avis", "Supprimer l'avis"]
+                ).execute()
+                match choix2:
+                    case "Modifier l'avis":
+                        # Ici, on doit encore implémenter la logique pour modifier un avis
+                        print("La fonctionnalité de modification n'est pas encore implémentée.")
+                    case "Supprimer un avis":
+                        from service.avis_service import AvisService
+
+                        AvisService.supprimer_avis()
 
             case "Retour au menu précédent":
+                from profil_utilisateur_vue import EcranDuProfilVue
+
+                return EcranDuProfilVue()
+
+            case "Retour vers l'écran de Menu":
                 from vues.menu_utilisateur_vue import MenuUtilisateurVue
 
                 return MenuUtilisateurVue()
-
-            case "Retour vers l'écran d'accueil":
-                from vues.accueil.accueil_vue import AccueilVue
-
-                return AccueilVue()
 
     def afficher_avis(self):
         """Affiche les avis de l'utilisateur avec pagination"""

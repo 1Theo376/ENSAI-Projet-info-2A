@@ -15,6 +15,12 @@ class CollectionPhysiqueVue(VueAbstraite):
         """
         collec = RechercheService().recherche_collec_phys_par_id(Session().utilisateur.id)
 
+        if not collec:
+            print(f"Aucune collection trouvée")
+            from vues.menu_utilisateur_vue import MenuUtilisateurVue
+
+            return MenuUtilisateurVue()
+
         print(
             "\n"
             + "-" * 50
@@ -23,22 +29,16 @@ class CollectionPhysiqueVue(VueAbstraite):
             + "\n"
         )
 
-        if not collec:
-            print(f"Aucune collection trouvée")
-            from vues.menu_utilisateur_vue import MenuUtilisateurVue
-
-            return MenuUtilisateurVue()
-
         choix = inquirer.select(
             message="Que voulez vous faire dans votre collection Physique : ",
             choices=[
-                "Consulter les mangas de la collection",
+                "Consulter/Modifier les mangas de la collection",
                 "Modifier titre de la collection",
                 "Modifier description de la collection",
                 "Retour au menu précédent",
             ],
         ).execute()
-        if choix == "Consulter/Modifier les mangas et leurs avis de la collection":
+        if choix == "Consulter/Modifier les mangas de la collection":
             pass
         if choix == "Modifier titre de la collection":
             pass

@@ -40,13 +40,13 @@ class CollectionCoherenteVue(VueAbstraite):
         choix3 = inquirer.select(
             message="Que voulez vous faire dans votre collection Cohérente : ",
             choices=[
-                "Consulter/Modifier les mangas et leurs avis de la collection",
+                "Consulter/Modifier les mangas de la collection",
                 "Modifier titre de la collection",
                 "Modifier description de la collection",
                 "Retour au menu précédent",
             ],
         ).execute()
-        if choix3 == "Consulter les mangas de la collection":
+        if choix3 == "Consulter/Modifier les mangas de la collection":
             pass
         if choix3 == "Modifier titre de la collection":
             pass
