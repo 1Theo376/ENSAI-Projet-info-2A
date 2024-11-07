@@ -4,6 +4,8 @@ from vues.vue_abstraite import VueAbstraite
 from vues.session import Session
 from service.avis_service import AvisService
 from service.recherche_service import RechercheService
+from dao.utilisateur_dao import UtilisateurDao
+import logging
 
 
 class RechercheUtilisateurVue(VueAbstraite):
@@ -56,7 +58,6 @@ class RechercheUtilisateurVue(VueAbstraite):
 
                     if res_entier == 0 and res_reste == 0:
                         choix2.remove("Afficher la page suivante")
-                        choix2.extend(["Afficher la page précédente"])
 
                     choix3 = inquirer.select(
                         message="Choisissez un utilisateur : ",
@@ -76,14 +77,6 @@ class RechercheUtilisateurVue(VueAbstraite):
                             n = n + 8
                             a = res_reste - 8
 
-                    elif choix3 == "Afficher la page précédente":
-                        if res_entier == 0:
-                            n = n - 8
-                            res_entier += 1
-                        if res_entier != 0 and res_reste == 0:
-                            n = n - 8
-                            a = res_reste + 8
-
                     else:
                         n = -1
                         choix4 = inquirer.select(
@@ -99,7 +92,8 @@ class RechercheUtilisateurVue(VueAbstraite):
                             case "Consulter les collections":
                                 pass
                             case "Consulter les avis":
-                                liste_avis, liste_titre = AvisService().recuperer_avis_utilisateur(Session().utilisateur.id)
+                                id_utilisateur = UtilisateurDao().recherche_id_par_pseudo(choix3)
+                                liste_avis, liste_titre = AvisService().recuperer_avis_utilisateur(id_utilisateur)
                                 for i in range(len(liste_avis)):
                                     print(
                                         "\n" + "-" * 50 + f"\n{liste_avis[i]} Titre: {liste_titre[i]}\n" + "-" * 50 + "\n"

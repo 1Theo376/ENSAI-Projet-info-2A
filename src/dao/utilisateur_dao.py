@@ -322,6 +322,38 @@ class UtilisateurDao(metaclass=Singleton):
                     liste_utilisateurs.append(utilisateur)
         return liste_utilisateurs
 
+    @log
+    def recherche_id_par_pseudo(self, pseudo):
+        """recherche l'identifiant d'un utilisateur selon son pseudo
+
+        Parameters
+        ----------
+        pseudo : str
+
+        Returns
+        -------
+        id_utilisateur : int
+            renvoie l'id_utilisateur dans la base de données
+        """
+
+        try:
+            with DBConnection().connection as connection:
+                with connection.cursor() as cursor:
+                    cursor.execute(
+                        "SELECT id_utilisateur                  "
+                        "FROM utilisateur                       "
+                        "WHERE pseudo = %(pseudo)s;             ",
+                        {"pseudo": pseudo},
+                    )
+                    res = cursor.fetchone()
+        except Exception as e:
+            logging.info(e)
+            raise
+
+        id_utilisateur = res["id_utilisateur"]
+
+        return id_utilisateur
+
 # user1 = Utilisateur(1, "ananas", "Emilien62")
 # test = UtilisateurDao()
 # test.creer(user1)

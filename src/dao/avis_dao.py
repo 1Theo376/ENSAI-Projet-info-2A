@@ -225,9 +225,11 @@ class AvisDAO:
                         "SELECT * FROM avis WHERE id_utilisateur = %(id_utilisateur)s ORDER BY id_avis;",
                         {"id_utilisateur": id_utilisateur},
                     )
-                    result = cursor.fetchall()
-                    for row in result:
-                        avis = Avis(id_avis=row["id_avis"], texte=row["texte"])
+                    res = cursor.fetchall()
+                    logging.info(f"res : {res}")
+                    for row in res:
+                        avis = Avis(id_avis=row["id_avis"],
+                                    texte=row["texte"])
                         avis_liste.append(avis)
                         liste_manga.append(row["id_manga"])
         except Exception as e:

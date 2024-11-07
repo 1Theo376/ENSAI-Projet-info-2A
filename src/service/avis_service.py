@@ -49,9 +49,14 @@ class AvisService:
         """Simule la récupération des avis d'un utilisateur"""
         # Simuler une liste d'avis pour l'exemple
         liste_avis, liste_manga = AvisDAO().recuperer_avis_utilisateur(id_utilisateur)
+        logging.info(f"liste_avis : {liste_avis}")
+        logging.info(f"liste_manga : {liste_manga}")
         liste_titre_mangas = []
-        for i in range(0, len(liste_manga)):
-            liste_titre_mangas.append(MangaDao().trouver_manga_par_id(liste_manga[i]).titre)
+        for i in liste_manga:
+            logging.info(f"i : {i}")
+            manga = MangaDao().trouver_manga_par_id(i)
+            logging.info(f"manga : {manga.titre}")
+            liste_titre_mangas.append(manga.titre)
         if liste_avis:
             return liste_avis, liste_titre_mangas
         return None
