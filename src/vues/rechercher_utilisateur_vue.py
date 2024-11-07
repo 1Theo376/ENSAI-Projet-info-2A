@@ -45,7 +45,7 @@ class RechercheUtilisateurVue(VueAbstraite):
                 res_entier = (long // 8)
                 res_reste = long % 8
 
-                while n >= 0:
+                while n >=0:
                     choix2 = RechercheService().recherche_utilisateur(pseudo, n, a)["liste"]
 
                     if not choix2:
