@@ -1,5 +1,6 @@
 from business_object.avis import Avis
 from dao.avis_dao import AvisDAO
+import logging
 
 
 class AvisService:
@@ -20,7 +21,7 @@ class AvisService:
             raise ValueError("Ce n'est pas une description")
 
         nouvel_avis = Avis(id_avis=id_avis, texte=texte)
-
+        logging.info(f"Avis : {nouvel_avis}")
         return nouvel_avis if AvisDAO().creer_avis(nouvel_avis, id_user, id_manga) else None
 
     def supprimer_avis(self, avis):
@@ -47,3 +48,8 @@ class AvisService:
         """Simule la récupération des avis d'un utilisateur"""
         # Simuler une liste d'avis pour l'exemple
         return [f"Avis {i} de l'utilisateur {id_utilisateur}" for i in range(1, 21)]
+
+    def recuperer_avis_manga(self, id_manga):
+        """Simule la récupération des avis d'un utilisateur"""
+        # Simuler une liste d'avis pour l'exemple
+        return [f"Avis {i} de l'utilisateur {id_manga}" for i in range(1, 21)]
