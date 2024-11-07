@@ -16,8 +16,8 @@ class SelectionMangaVuerecherche(VueAbstraite):
         vue
             Retourne la vue choisie par l'utilisateur dans le terminal
         """
-        print("\n" + "-" * 50 + "\nRecherche d'un manga\n" + "-" * 50 + "\n")
         manga = MangaDao().trouver_manga_par_titre(choix3)
+        print("\n" + "-" * 50 + "\nManga :", manga.titre, " \n" + "-" * 50 + "\n")
         choix4 = inquirer.select(
             message="Faites votre choix : ",
             choices=[
@@ -48,58 +48,13 @@ class SelectionMangaVuerecherche(VueAbstraite):
                     "\n" + "-" * 50 + "\n" + manga.themes + "\n" + "-" * 50 + "\n"
                     )
                 print("\n" + "-" * 50 + "\n" + manga.genre + "\n" + "-" * 50 + "\n")
-                choix5 = inquirer.select(
-                    message="Faites votre choix : ",
-                    choices=["Retour au menu précédent"],
-                ).execute()
-                if choix5:
-                    from vues.menu_utilisateur_vue import MenuUtilisateurVue
-
-                    return MenuUtilisateurVue()
+                SelectionMangaVuerecherche().choisir_menu(choix3)
             case "Consulter les avis":
-                liste_avis = AvisService().recuperer_avis_manga(manga.id_manga)
-                for i in range(len(liste_avis)):
-                    print("\n" + "-" * 50 + f"\n{liste_avis[i]}\n" + "-" * 50 + "\n")
-                choixavis = inquirer.select(
-                                    message="Faites votre choix : ",
-                                    choices=["Retour au menu précédent", "Retour à l'accueil"],
-                ).execute()
-                match choixavis:
-                    case "Retour au menu précédent":
-                        from vues.rechercher_manga_vue import RechercheMangaVue
-
-                        return RechercheMangaVue()
-                    case "Retour à l'accueil":
-                        from vues.menu_utilisateur_vue import MenuUtilisateurVue
-
-                        return MenuUtilisateurVue()
+                from vues.ConsulterAvisVue import ConsulterAvisMangaVuerecherche
+                return ConsulterAvisMangaVuerecherche().choisir_menu(choix3)
             case "Ajouter un avis":
-                avis = inquirer.text(
-                                    message="Entrer votre avis sur ce manga : "
-                                ).execute()
-                aviscreer = AvisService().rediger_avis(
-                                    texte=avis,
-                                    id_user=Session().utilisateur.id,
-                                    id_manga=manga.id_manga,
-                                    id_avis=None,
-                                )
-                logging.info(
-                                    f"id:{Session().utilisateur.id} et manga:{manga.id_manga}"
-                                )
-                logging.info(f"Avis : {aviscreer}")
-                choixavis = inquirer.select(
-                                    message="Faites votre choix : ",
-                                    choices=["Retour au menu précédent", "Retour à l'accueil"],
-                ).execute()
-                match choixavis:
-                    case "Retour au menu précédent":
-                        from vues.rechercher_manga_vue import RechercheMangaVue
-
-                        return RechercheMangaVue()
-                    case "Retour à l'accueil":
-                        from vues.menu_utilisateur_vue import MenuUtilisateurVue
-
-                        return MenuUtilisateurVue()
+                from vues.AjouterAvisVue import AjouterAvisVuerecherche
+                return AjouterAvisVuerecherche().choisir_menu(choix3)
             case "Retour au menu précédent":
                 from vues.recherche_vue import RechercheVue
 
