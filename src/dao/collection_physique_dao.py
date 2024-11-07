@@ -183,3 +183,39 @@ class CollectionPhysiqueDAO:
             created = True
 
         return created
+
+    def trouver_collec_phys_id_user(self, id_utilisateur) -> Collection_physique:
+        """trouver des collections grace à l'id de l'utilisateur
+
+        Parameters
+        ----------
+        id_utilisateur : int
+            numéro id de l'utilisateur
+
+           Returns
+           -------
+           collections : List[Collection_physique]
+               renvoie la liste de collection physique de l'utilisateur
+        """
+        try:
+            with DBConnection().connection as connection:
+                with connection.cursor() as cursor:
+                    cursor.execute(
+                        "SELECT id_collec_physique, titre_collection, description_collection "
+                        "  FROM collection_physique                     "
+                        " WHERE id_utilisateur = %(id_utilisateur)s;  ",
+                        {"id_utilisateur": id_utilisateur},
+                    )
+                    res = cursor.fetchone()
+        except Exception as e:
+            logging.info(e)
+            raise
+        collection = None
+        if res:
+            collection = Collection_physique(
+                id_collectionphysique=res["id_collec_physique"],
+                titre_collection=res["titre_collection"],
+                description_collection=res["description_collection"],
+                Liste_manga=None,
+            )
+        return collection

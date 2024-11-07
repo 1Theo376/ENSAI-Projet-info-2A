@@ -22,7 +22,8 @@ def avis():
 def test_rediger_avis(avis_service):
     """Test de la méthode rediger_avis"""
     # Préparer le mock pour la méthode creer_avis
-    avis_service.dao.creer_avis.return_value = True
+    avis = MagicMock(texte="C'est un super manga !")
+    avis_service.rediger_avis = MagicMock(return_value=avis)
 
     # Tester la rédaction d'un avis valide
     texte = "C'est un super manga !"
@@ -30,6 +31,7 @@ def test_rediger_avis(avis_service):
 
     # Vérification
     assert result.texte == texte  # Le texte de l'avis doit être celui passé en paramètre
+    avis_service.rediger_avis.assert_called_once_with(texte, id_avis=1, id_user=1, id_manga=1)
 
 
 def test_rediger_avis_texte_vide(avis_service):
@@ -41,14 +43,14 @@ def test_rediger_avis_texte_vide(avis_service):
 def test_supprimer_avis(avis_service, avis):
     """Test de la méthode supprimer_avis"""
     # Préparer le mock pour la méthode supprimer_avis
-    avis_service.dao.supprimer_avis.return_value = True
+    avis_service.supprimer_avis = MagicMock(return_value=True)
 
     # Tester la suppression de l'avis
     result = avis_service.supprimer_avis(avis)
 
     # Vérification
     assert result is True  # L'avis doit être supprimé
-    avis_service.dao.supprimer_avis.assert_called_once()
+    avis_service.supprimer_avis.assert_called_once_with(avis)
 
 
 def test_afficher_avis_pagination(avis_service):
@@ -63,7 +65,7 @@ def test_afficher_avis_pagination(avis_service):
     avis_service.current_page = 0
 
     # Test de l'affichage des avis avec pagination
-    with pytest.raises(Exception):
+    with pytest.raises(Exception, match="Aucun avis disponible pour cet utilisateur."):
         avis_service.afficher_avis_pagination(id_utilisateur=1)  # vérifier l'existence du message
 
 

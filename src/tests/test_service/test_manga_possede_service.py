@@ -2,6 +2,7 @@ import pytest
 from unittest.mock import MagicMock
 from service.manga_possede_service import MangaPossedeService
 from business_object.manga_possede import MangaPossede
+from dao.manga_possede_dao import MangaPossedeDao
 
 
 @pytest.fixture

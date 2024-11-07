@@ -181,3 +181,43 @@ class CollectionCoherenteDAO:
             created = True
 
         return created
+
+    def trouver_collec_cohe_id_user(self, id_utilisateur) -> CollectionCoherente:
+        """trouver des collections grace à l'id de l'utilisateur
+
+        Parameters
+        ----------
+        id_utilisateur : int
+            numéro id de l'utilisateur
+
+           Returns
+           -------
+           collections : List[CollectionCoherente]
+               renvoie la liste de collection cohérente de l'utilisateur
+        """
+        try:
+            with DBConnection().connection as connection:
+                with connection.cursor() as cursor:
+                    cursor.execute(
+                        "SELECT id_collec_coherente, titre_collection, description_collection "
+                        "  FROM collection_coherente                      "
+                        " WHERE id_utilisateur = %(id_utilisateur)s;  ",
+                        {"id_utilisateur": id_utilisateur},
+                    )
+                    res = cursor.fetchall()
+        except Exception as e:
+            logging.info(e)
+            raise
+        collections = []
+        if res:
+            for elt in res:
+                collections.append(
+                    CollectionCoherente(
+                        id_collectioncoherente=elt["id_collec_coherente"],
+                        titre_collection=elt["titre_collection"],
+                        desc_collection=elt["description_collection"],
+                        Liste_manga=None,
+                    )
+                )
+
+        return collections

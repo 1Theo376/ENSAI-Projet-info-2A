@@ -28,6 +28,7 @@ def manga_possede():
     """Fixture pour une instance de MangaPossede."""
     return MangaPossede(
         id_manga_p=10,
+<<<<<<< HEAD
         manga=Manga(
             id_manga=1,
             titre="One Piece",
@@ -36,6 +37,9 @@ def manga_possede():
             themes=["Aventures", "Action", "Fantasie"],
             genre="Shonen",
         ),
+=======
+        manga=Manga(id_manga=1, titre="One Piece", synopsis="Un Manga sur les aventures de Monkey D. Luffy", auteur="Eiichiro Oda", themes=["Aventures", "Action", "Fantasie"], genre="Shonen"),
+>>>>>>> 55fc9a369faaeee2d2989d9b26321c7f4aa82dff
         num_dernier_acquis=5,
         num_manquant=[2, 4],
         statut="En cours",

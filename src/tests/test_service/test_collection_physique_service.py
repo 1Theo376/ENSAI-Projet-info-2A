@@ -17,18 +17,22 @@ def test_creer_collectionphys():
     # Données de test
     id_collectionphysique = 1
     titre_collection = "Collection Shonen"
-    desc_collection = "Description de la collection Shonen"
+    description_collection = "Description de la collection Shonen"
 
     # Exécution de la fonction
+<<<<<<< HEAD
     nouvelle_collection = service.creer_collectionphys(
         id_collectionphysique, titre_collection, desc_collection
     )
+=======
+    nouvelle_collection = service.créer_collectionphys(id_collectionphysique, titre_collection, description_collection)
+>>>>>>> 55fc9a369faaeee2d2989d9b26321c7f4aa82dff
 
     # Vérifications
     assert nouvelle_collection is not None, "La collection physique n'a pas été créée correctement."
     assert nouvelle_collection.id_collectionphysique == id_collectionphysique
     assert nouvelle_collection.titre_collection == titre_collection
-    assert nouvelle_collection.desc_collection == desc_collection
+    assert nouvelle_collection.description_collection == description_collection
     assert nouvelle_collection.Liste_manga == []
 
     # Vérifie que le DAO a bien été appelé
