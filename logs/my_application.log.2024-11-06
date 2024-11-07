@@ -1,0 +1,789 @@
+06/11/2024 14:05:18 - INFO     - --------------------------------------------------
+06/11/2024 14:05:18 - INFO     - Lancement Application
+06/11/2024 14:05:18 - INFO     - --------------------------------------------------
+06/11/2024 14:05:18 - INFO     - AccueilVue
+06/11/2024 14:05:24 - INFO     - ConnexionVue
+06/11/2024 14:05:35 - INFO     -     UtilisateurDao.se_connecter('Chamois03', '*****') - DEBUT
+06/11/2024 14:05:35 - INFO     -     UtilisateurDao.se_connecter('Chamois03', '*****') - FIN
+06/11/2024 14:05:35 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x00000273B3C39F60>
+06/11/2024 14:05:35 - INFO     - MenuUtilisateurVue
+06/11/2024 14:05:38 - INFO     - RechercheVue
+06/11/2024 14:05:42 - INFO     - RechercheMangaVue
+06/11/2024 14:05:47 - INFO     - Débogage : requête exécutée avec succès.
+06/11/2024 14:05:47 - INFO     - 'str' object has no attribute 'extend'
+06/11/2024 14:05:47 - INFO     - AccueilVue
+06/11/2024 14:05:50 - INFO     - ConnexionVue
+06/11/2024 14:05:56 - INFO     -     UtilisateurDao.se_connecter('Chamois03', '*****') - DEBUT
+06/11/2024 14:05:56 - INFO     -     UtilisateurDao.se_connecter('Chamois03', '*****') - FIN
+06/11/2024 14:05:56 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x00000273B402DC60>
+06/11/2024 14:05:56 - INFO     - MenuUtilisateurVue
+06/11/2024 14:05:58 - INFO     - RechercheVue
+06/11/2024 14:05:59 - INFO     - RechercheMangaVue
+06/11/2024 14:06:03 - INFO     - Débogage : requête exécutée avec succès.
+06/11/2024 14:06:21 - INFO     - MenuUtilisateurVue
+06/11/2024 14:06:24 - INFO     - RechercheVue
+06/11/2024 14:06:29 - INFO     - RechercheUtilisateurVue
+06/11/2024 14:06:39 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('ana',) - DEBUT
+06/11/2024 14:06:39 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('ana',) - FIN
+06/11/2024 14:06:39 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x00000273B4D96BC0>'] ... (1 elements)
+06/11/2024 14:06:47 - INFO     - MenuUtilisateurVue
+06/11/2024 14:06:53 - INFO     - expected an indented block after class definition on line 1 (collection_coherente_vue.py, line 1)
+06/11/2024 14:06:53 - INFO     - AccueilVue
+06/11/2024 14:06:56 - INFO     - Fin de l'application
+06/11/2024 14:08:26 - INFO     - --------------------------------------------------
+06/11/2024 14:08:26 - INFO     - Lancement Application
+06/11/2024 14:08:26 - INFO     - --------------------------------------------------
+06/11/2024 14:08:26 - INFO     - AccueilVue
+06/11/2024 14:08:27 - INFO     - ConnexionVue
+06/11/2024 14:08:35 - INFO     -     UtilisateurDao.se_connecter('Chamois03', '*****') - DEBUT
+06/11/2024 14:08:35 - INFO     -     UtilisateurDao.se_connecter('Chamois03', '*****') - FIN
+06/11/2024 14:08:35 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000018B26B61C60>
+06/11/2024 14:08:35 - INFO     - MenuUtilisateurVue
+06/11/2024 14:08:37 - INFO     - RechercheVue
+06/11/2024 14:08:38 - INFO     - RechercheMangaVue
+06/11/2024 14:08:46 - INFO     - Débogage : requête exécutée avec succès.
+06/11/2024 14:09:22 - INFO     - MenuUtilisateurVue
+06/11/2024 14:09:23 - INFO     - AccueilVue
+06/11/2024 14:09:24 - INFO     - Fin de l'application
+06/11/2024 14:09:27 - INFO     - --------------------------------------------------
+06/11/2024 14:09:27 - INFO     - Lancement Application
+06/11/2024 14:09:27 - INFO     - --------------------------------------------------
+06/11/2024 14:09:27 - INFO     - AccueilVue
+06/11/2024 14:09:28 - INFO     - ConnexionVue
+06/11/2024 14:09:36 - INFO     -     UtilisateurDao.se_connecter('Chamois03', '*****') - DEBUT
+06/11/2024 14:09:36 - INFO     -     UtilisateurDao.se_connecter('Chamois03', '*****') - FIN
+06/11/2024 14:09:36 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001D913C21C60>
+06/11/2024 14:09:36 - INFO     - MenuUtilisateurVue
+06/11/2024 14:09:37 - INFO     - RechercheVue
+06/11/2024 14:09:38 - INFO     - RechercheMangaVue
+06/11/2024 14:09:42 - INFO     - Débogage : requête exécutée avec succès.
+06/11/2024 14:10:09 - INFO     - MenuUtilisateurVue
+06/11/2024 14:10:11 - INFO     - AccueilVue
+06/11/2024 14:10:12 - INFO     - Fin de l'application
+06/11/2024 14:10:15 - INFO     - --------------------------------------------------
+06/11/2024 14:10:15 - INFO     - Lancement Application
+06/11/2024 14:10:15 - INFO     - --------------------------------------------------
+06/11/2024 14:10:15 - INFO     - AccueilVue
+06/11/2024 14:10:17 - INFO     - ConnexionVue
+06/11/2024 14:10:24 - INFO     -     UtilisateurDao.se_connecter('Chamois03', '*****') - DEBUT
+06/11/2024 14:10:24 - INFO     -     UtilisateurDao.se_connecter('Chamois03', '*****') - FIN
+06/11/2024 14:10:24 - INFO     -        └─> Sortie : None
+06/11/2024 14:10:24 - INFO     - AccueilVue
+06/11/2024 14:10:25 - INFO     - ConnexionVue
+06/11/2024 14:10:32 - INFO     -     UtilisateurDao.se_connecter('Chamois03', '*****') - DEBUT
+06/11/2024 14:10:32 - INFO     -     UtilisateurDao.se_connecter('Chamois03', '*****') - FIN
+06/11/2024 14:10:32 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000020B530E9960>
+06/11/2024 14:10:32 - INFO     - MenuUtilisateurVue
+06/11/2024 14:10:34 - INFO     - RechercheVue
+06/11/2024 14:10:34 - INFO     - RechercheMangaVue
+06/11/2024 14:10:38 - INFO     - Débogage : requête exécutée avec succès.
+06/11/2024 14:11:15 - INFO     - MenuUtilisateurVue
+06/11/2024 14:14:36 - INFO     - RechercheVue
+06/11/2024 14:14:37 - INFO     - RechercheMangaVue
+06/11/2024 14:14:40 - INFO     - Débogage : requête exécutée avec succès.
+06/11/2024 14:14:40 - INFO     - 'str' object has no attribute 'extend'
+06/11/2024 14:14:40 - INFO     - AccueilVue
+06/11/2024 14:14:51 - INFO     - Fin de l'application
+06/11/2024 14:17:45 - INFO     - --------------------------------------------------
+06/11/2024 14:17:45 - INFO     - Lancement Application
+06/11/2024 14:17:45 - INFO     - --------------------------------------------------
+06/11/2024 14:17:45 - INFO     - AccueilVue
+06/11/2024 14:18:11 - INFO     - ConnexionVue
+06/11/2024 14:18:18 - INFO     -     UtilisateurDao.se_connecter('Chamois03', '*****') - DEBUT
+06/11/2024 14:18:18 - INFO     -     UtilisateurDao.se_connecter('Chamois03', '*****') - FIN
+06/11/2024 14:18:18 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001C37ACA5C60>
+06/11/2024 14:18:18 - INFO     - MenuUtilisateurVue
+06/11/2024 14:18:19 - INFO     - RechercheVue
+06/11/2024 14:18:20 - INFO     - RechercheMangaVue
+06/11/2024 14:18:23 - INFO     - Débogage : requête exécutée avec succès.
+06/11/2024 14:18:23 - INFO     - Débogage : res récupéré avec la valeur : [RealDictRow([('id_manga', 1), ('titre', 'Monster'), ('synopsis', "Kenzou Tenma, a renowned Japanese neurosurgeon working in post-war Germany, faces a difficult choice: to operate on Johan Liebert, an orphan boy on the verge of death, or on the mayor of Düsseldorf. In the end, Tenma decides to gamble his reputation by saving Johan, effectively leaving the mayor for dead.\n\nAs a consequence of his actions, hospital director Heinemann strips Tenma of his position, and Heinemann's daughter Eva breaks off their engagement. Disgraced and shunned by his colleagues, Tenma loses all hope of a successful career—that is, until the mysterious killing of Heinemann gives him another chance.\n\nNine years later, Tenma is the head of the surgical department and close to becoming the director himself. Although all seems well for him at first, he soon becomes entangled in a chain of gruesome murders that have taken place throughout Germany. The culprit is a monster—the same one that Tenma saved on that fateful day nine years ago.\n\n[Written by MAL Rewrite]")]), RealDictRow([('id_manga', 1029), ('titre', 'GoGo Monster'), ('synopsis', "Yuki Tachibana, a withdrawn first grader, is convinced that the fourth floor of his school is home to supernatural creatures that few kids (and no adults) can see and he's worried about a recent influx of new, less friendly creatures and about his ability to perceive the true shape of things waning as he gets older. Most of the other kids mock Yuki, who they think is crazy due to his strange pronouncements and peculiar actions, and, aside from the creatures he sees, his only social interactions are with the school's kindly and open-minded caretaker, a new transfer student named Makoto Suzuki who's allocated the desk next to his and an enigmatic boy named IQ who always wears a box over his head. \n\n(Source: MU)")]), RealDictRow([('id_manga', 1127), ('titre', 'Monster Collection: The Girl Who Can Deal with Magic Monsters'), ('synopsis', "Kasche may have a talent for controlling beasts, but she's got a lot to learn about self-control before she can become a full-fledged summoner. When disaster strikes, her principal chooses her to avert it.\n\nJoined by an unusual crew of allies both human and not, Kasche must recapture the relic from an evil summoner before he can use it to unlock the ancient Encyclopedia Verum and call up the most powerful monsters ever seen!\n\n(Source: CMX)")]), RealDictRow([('id_manga', 8952), ('titre', "The Twenty-Faced Monster's Daughter"), ('synopsis', None)]), RealDictRow([('id_manga', 1166), ('titre', 'Eensy-Weensy Monster'), ('synopsis', "Nanoha Satsuki is your average, ordinary high school student. Okay grades, kinda cute, kinda short, Nanoha's most notable quality is that her best friends are both total overachieving babes. But when Nanoha runs into Hazuki Tokiwa, the gorgeous prince of the school, her gentle disposition disappears and she turns into a total monster! And Hazuki is more than happy to be a jerk right back at her. Thus begins our hilarious love battle.\n\n(Source: Tokyopop)")]), RealDictRow([('id_manga', 3036), ('titre', 'Little Monster'), ('synopsis', 'Kaibutsu-kun and his companions, Dracula, Wolfman, and Franken, travel from Kaibutsu Land to the Human Realm, where they encounter and battle several monsters, mainly assassins from the demon group Demonish.')]), RealDictRow([('id_manga', 1895), ('titre', 'Monster Soul'), ('synopsis', 'The tale of Monster Soul takes place in the land of Elfenland where humans and monsters inhabit. The main characters is a group of monsters called the Black Airs. The Black Airs is recorded as the strongest group of the monster forces in the great war between the humans and monsters.')]), RealDictRow([('id_manga', 2383), ('titre', 'Monster Hunter Orage'), ('synopsis', "Shiki Ryuuhou is a Monster Hunter in a world full of fantastic creatures. Before his master, Gurelli Jescar, met an untimely death, he taught Shiki the most important skill of being a Monster Hunter: teamwork.\n\nSeveral years later, wielding his dual blades, Shiki heads to Akayama Town's Guild to find himself a partner. He takes a liking to the unwilling Irie Jescar, a girl notorious for rejecting any attempt at camaraderie. But her attitude soon changes; when Shiki saves her from a Rathian attack, he reveals that he has the mark of a Forbidden Hunter—meaning he is free to hunt—and that he has only one goal: to fight the legendary Miogaruna.\n\nIrie is surprised that Shiki believes in the Miogaruna, as the only other person who believed in its existence was her late father, Gurelli. Motivated by the discovery of their shared connection, Irie and Shiki team up to fulfill Gurelli's lifelong dream. Thus, the two embark on their legendary journey, gaining allies and rivals while hunting monsters in the grand quest to find the Miogaruna.\n\n[Written by MAL Rewrite]")]), RealDictRow([('id_manga', 2598), ('titre', 'Pokémon Pocket Monsters'), ('synopsis', "In a world filled with talking Pokemon, Red and Green compete with each other in a race to gather all the data needed for the new Pokedex! Bumbling Clefairy frustrates Red with its extreme incompetence and silly behaviour... However, sometimes Clefairy's bizarre ideas to work out in the most surprising ways!\n\n(Source: Chuang-Yi)")]), RealDictRow([('id_manga', 3789), ('titre', 'Hungry Monster'), ('synopsis', 'Kabutani is a “man-eater” who lives off human energy. One day, he becomes “in-heat” for his classmate, Kiriyama. Though he didn’t believe when his kindred said, “…Nothing compares to the taste of the ‘human’ you love!”, he couldn’t resist a “taste” of Kiriyama… And once he had, he became addicted to that tantalizing taste only Kiriyama can provide. What would a hungry and ruthless Kabutani do to curb his craving…!?\n(from Fantasy Shrine)')]), RealDictRow([('id_manga', 3838), ('titre', 'Rose Colored Monster'), ('synopsis', "An anthology of Suehiro Maruo's early works depicting grotesque violence and sex.")]), RealDictRow([('id_manga', 3862), ('titre', 'My Little Monster'), ('synopsis', 'Shizuku Mizutani is a so-called "study bug" who cares little about her classmates and instead strives to become a successful working person like her mother. However, her world changes when she is bribed into bringing notes to the class delinquent, Haru Yoshida, who had quit school after a violent fight got him suspended.\n\nDespite his abrasive introduction, Haru soon becomes convinced that they are friends, even going as far as confessing his love for her. As she spends more time with Haru, Shizuku learns that beneath his rough exterior, he has a kind and honest spirit.\n\n[Written by MAL Rewrite]')]), RealDictRow([('id_manga', 4349), ('titre', 'Dragon Quest Monsters+'), ('synopsis', 'This story acts as a sequel to the original Dragon Quest Monsters game for the Gameboy.\n\nKurio, a child who wishes to be a hero, is thrown to a world where monsters are found all over, and is asked to become their new Monster Master hero since the great tree is withering, the monsters are going berserk, and Terry, the previous monster master, has gone missing.\n\n(Source: MU)')]), RealDictRow([('id_manga', 4950), ('titre', 'Monster Men Bureiko Lullaby'), ('synopsis', 'A seminal work of manga from the mid-1980s, Monster Man Bureiko Lullaby is a Candide-esque tale–if you can picture Candide as a mutated sperm brought to life by radioactivity. Unremittingly explicit, this is the comics equivalent of Henry Miller at his best: direct, honest and insightful while simultaneously beautiful and grotesque.\n\n(Source: PictureBox)')]), RealDictRow([('id_manga', 5172), ('titre', 'Monster Hunter Trip Edition'), ('synopsis', 'About some funny cats in their village.')]), RealDictRow([('id_manga', 5780), ('titre', 'Monster Musume: Everyday Life with Monster Girls'), ('synopsis', 'Monsters—they\'re real, and they want to date us! Three years ago, the world learned that harpies, centaurs, catgirls, and all manners of fabulous creatures are not merely fiction; they are flesh and blood—not to mention scale, feather, horn, and fang. Thanks to the "Cultural Exchange Between Species Act," these once-mythical creatures have assimilated into society, or at least, they\'re trying.\n\nWhen a hapless human named Kurusu Kimihito is inducted as a "volunteer" into the government exchange program, his world is turned upside down. A snake-like lamia named Miia comes to live with him, and it is Kurusu\'s job to take care of her and make sure she integrates into his everyday life. Unfortunately for Kurusu, Miia is undeniably sexy, and the law against interspecies breeding is very strict. Even worse, when a ravishing centaur girl and a flirtatious harpy move in, what\'s a full-blooded young man with raging hormones to do?!\n\n(Source: Seven Seas Entertainment)')]), RealDictRow([('id_manga', 5895), ('titre', 'Monster Hunter: Flash Hunter'), ('synopsis', 'In a world where gigantic, ferocious monsters and humans live together, monster hunters exist to protect humanity from becoming extinct. Raiga is a hot headed but passionate warrior that relies on his brute strength to cut through monsters. Keres uses his long range attacks to asses the situation calmly and calculate the ideal next move. Tolche is timid and shy but her deadly traps are anything but cute. These three hunters decide to form a team to hunt the deadliest of monsters hundreds of times their size and impossible to kill alone.\n\n(Source: MangaHelpers)')]), RealDictRow([('id_manga', 6042), ('titre', 'Love Monster'), ('synopsis', '"A bad boy should be punished".\nThe college student Akira is confessed to by Itsuki, his younger childhood friend. Akira always considered Itsuki to be his "younger brother", so he decided to answer the confession sincerely.\nAfter the confession, Itsuki keeps acting as usual, as he did before he talked about his feelings. Akira gets confused by his unchanging attitude and everytime Itsuki gets close to him or touches him, Akira\'s heart beats faster.')]), RealDictRow([('id_manga', 6208), ('titre', "My Monster Girl's Too Cool For You"), ('synopsis', 'While attending a Human/Youkai Co-ed school Fukuzumi confesses to Shiroishi Muku, classmate who happens to be a Snow Woman. He gets dumped and hilarity ensues.\n\n(Source: Population GO)\n\nAlso includes the spin-off Hyoutenka no Kanojo ni Nanika Youkai.')]), RealDictRow([('id_manga', 6281), ('titre', 'Sweet Monster'), ('synopsis', 'They’re called Monsters: people with the power to assume animal forms, kept segregated from the rest of society. When he was young, Riku befriended a Monster boy named Tsukasa, only to be separated from him. Now, at an academy for Monsters, Riku has finally found his childhood friend. But can he overcome the distrust of his more-than-human classmates and reconnect with Tsukasa? And will their adult relationship be as close as their childhood friendship... or even closer?\n\n(Source: SuBLime)')]), RealDictRow([('id_manga', 6512), ('titre', 'My Monster Secret: "Actually, I am..."'), ('synopsis', 'Meet Kuromine Asahi, "the man who can\'t lie." On the way home, he learns an important secret. His crush, Shiragami Youko, is actually a vampire! Can Asahi actually keep her secret?\n\nIt\'s a fun, clumsy, one-of-a kind vampire romantic comedy!')]), RealDictRow([('id_manga', 6594), ('titre', "Nurse Hitomi's Monster Infirmary"), ('synopsis', '"Come up and see me sometime!"\n\nWelcome to the nurse\'s office! School Nurse Hitomi is more than happy to help you with any health concerns you might have. Whether you\'re dealing with growing pains or shrinking spurts, body parts that won\'t stay attached, or a pesky invisibility problem, Nurse Hitomi can provide a fresh look at the problem with her giant, all-seeing eye. So come on in! The nurse is ready to see you!\n\n(Source: Seven Seas)')]), RealDictRow([('id_manga', 6802), ('titre', 'First Love Monster'), ('synopsis', "When fifteen-year-old Kaho Nikaidou leaves her sheltered home to start life anew in Tokyo, the last thing she expects is to nearly get hit by a truck! Saved in the nick of time by a handsome stranger, Kaho falls head over heels for him and boldly confesses her feelings. The handsome object of Kaho's affection agrees to go out with her, but her newfound bliss is short lived when it turns out that her new boyfriend... is a fifth grader?!\n\n(Source: Yen Press)")]), RealDictRow([('id_manga', 7124), ('titre', 'Re:Monster'), ('synopsis', "Tomokui Kanata has been re-incarnated in the weakest goblin, named Goburou, after having undergone an unfortunate death. However Goburou has retained his previous life's memories, an unusual evolution, as well as becoming strong enough to gain status boosts from eating.\n\nIn this alternate world of survival of the fittest, events unfold with competent subordinates and comrades, delightful case of the tail-wagging dog...")]), RealDictRow([('id_manga', 7240), ('titre', 'Tomodachi x Monster'), ('synopsis', 'In a small mountainous village in rural Japan, strange creatures lurk. It\'s here that young Wataru hears a voice calling out to him. Wandering from his school, he soon discovers a new "friend" that will transform his life forever―or drastically shorten it. Wataru learns of a hidden world of monsters who seek to befriend young children, and together with them enter a horrifying death match. Watch what really happens when kids with no conscience get hold of monstrous friends to do their bidding.\n\n(Source: Seven Seas)')]), RealDictRow([('id_manga', 7617), ('titre', 'Interviews with Monster Girls'), ('synopsis', 'Succubus, Dullahan and Vampire. They are known as Ajin, or "demi"s and are slightly different than the average human. They have lived alongside humans for ages under persecution. However, in recent years, they have become accepted as members of society. This manga follows a high school biology teacher who has a great interest in demis and his interaction with the various demis in his school, each with their own cute problems.\n\n(Source: MU)')]), RealDictRow([('id_manga', 7990), ('titre', 'The Maiden Called Hero or Monster'), ('synopsis', 'That girl was once called "Hero."\n\nShe was seen as the savior of Humanity and as the ultimate obliterator of Demons plaguing the world. Her magic was rule-breaking, her healing powers almighty, her weapon mastery unparalleled, and her will is of steel.\n\nAnd then, she was called "monster," and her tremendous power and abnegation was feared. Betrayed by her own comrades, she continued alone in her mission. She will not stop until all Demons are eradicated. Killing, killing, killing them all. Because that\'s the Hero\'s duty.\n\nLosing her past, gaining new companions won\'t alter her path. There is only one reason guiding her actions.\n\n"Because I\'m a Hero."')]), RealDictRow([('id_manga', 8788), ('titre', 'Monster Idols'), ('synopsis', 'Choi Hong suddenly becomes the stylist of a popular boy band, Real Monsters, after discovering they are actually supernatural beings who desperately want to be human. It becomes her task to transform the band of fashion misfits into fashion icons so that they can obtain the love from their fans they need, in order to become human for good.\n\n(Source: Spottoon)')]), RealDictRow([('id_manga', 8878), ('titre', 'Monster Musume: I ♥ Monster Girls'), ('synopsis', '4-koma anthology comic of Monster Musume no Iru Nichijou by various mangaka.')]), RealDictRow([('id_manga', 9064), ('titre', 'Monster Breeder in Another World'), ('synopsis', 'When sent to a different world, Souta was given the unpopular profession of "Monster Tamer." However, Souta also got the skill "Absolute Domination" which gives him a 100% chance to capture anything!\n\nContinue to combine Monsters! Monster raising fantasy!\n\n(Source: Rumanshi\'s Lair)')]), RealDictRow([('id_manga', 9222), ('titre', 'Monster Girl Doctor'), ('synopsis', 'In the town of Lindworm where monsters and humans coexist, Dr. Glenn runs an exemplary medical clinic for monster girls with his lamia assistant, Sapphee. Whether receiving a marriage proposal by a centaur injured in battle, palpating the injury of a mermaid, or suturing the delicate wounds of a flesh golem, Dr. Glenn performs his job with grace and confidence. But when an unsavory character seeks to steal a harpy egg, how will the unflappable Dr. Glenn respond...?\n\n(Source: Seven Seas Entertainment)')]), RealDictRow([('id_manga', 9361), ('titre', 'The Sock Monster'), ('synopsis', 'Sujin Park is a young girl from a small village who suddenly finds herself moving to a big city far away from home because of a new job. For the very first time, she must learn to navigate life and work all by herself while also suddenly becoming the caretaker of a creature known as the sock monster.\n\n(Source: SpotToon)')]), RealDictRow([('id_manga', 9753), ('titre', 'Monster Tamer'), ('synopsis', 'Everyone in a certain high school is suddenly transported to another world. As they are attacked by monsters they find that some of the students now have superpowers. They organize themselves into two groups. Those without powers are called the Stay Home group and those with are called the Exploration group. On a day where most of the Exploration group is out, the remaining ones that stay behind start the slaughtering and raping of the Stay Home group.\n\nHere we meet our protagonist, an average guy with no abilities who had just barely escaped death at the hands of his schoolmates. He ends up far away in a cave on the verge of death, exhausted and wounded when a slime enters the cave and starts eating away at his hand. All he can do is utter, "…please… someone out there… help me."\n\n(Source: Batoto)')]), RealDictRow([('id_manga', 10103), ('titre', 'That Time I Got Reincarnated as a Slime: The Ways of the Monster Nation'), ('synopsis', "With all its innovations, the kingdom of Tempest—founded by the demon lord Rimuru—is a veritable paradise for travelers such as Framea, the rabbitfolk chief's daughter. Framea has always had a nose for adventure, an inquisitive mind, and a knack for discovering and identifying the latest and greatest the world has to offer! Her notepad is open at all times, ready for any three-star delights she may encounter, so when Rimuru himself gives Framea a mission to catalog the area's attractions, she'll have her work cut out for her—and tons of stars to hand out!\n\n(Source: Yen Press)")]), RealDictRow([('id_manga', 10251), ('titre', 'The Sock Monster'), ('synopsis', 'Sujin Park is a young girl from a small village who suddenly finds herself moving to a big city far away from home because of a new job. For the very first time, she must learn to navigate life and work all by herself while also suddenly becoming the caretaker of a creature known as the sock monster.\n\n(Source: SpotToon)')]), RealDictRow([('id_manga', 10244), ('titre', 'The Sock Monster'), ('synopsis', 'Sujin Park is a young girl from a small village who suddenly finds herself moving to a big city far away from home because of a new job. For the very first time, she must learn to navigate life and work all by herself while also suddenly becoming the caretaker of a creature known as the sock monster.\n\n(Source: SpotToon)')]), RealDictRow([('id_manga', 10252), ('titre', 'The Sock Monster'), ('synopsis', "Sujin's little sister comes to visit Snowfall Village.")]), RealDictRow([('id_manga', 10474), ('titre', 'Hella Chill Monsters'), ('synopsis', "Not everyone wishes for a peaceful afterlife... least of all Bonzo Scalobania, whose dearest wish is to find a case for a skeleton detective like him to solve! Along with his unreliable assistant, Vampy Vinegret, and zombie frenemy/bounty hunter Nero Lichman, Bonzo swears to solve the problems of Limbo City! But does it still count if the problems he's solving are ones of his and his friends' own making?? A wacky, weird, heartwarming tale for the undead in us all.\n\n(Source: Kodansha USA)")]), RealDictRow([('id_manga', 10556), ('titre', 'Monster Tamer Girls'), ('synopsis', 'It is now about twenty years that monsters of unknown origin, baptized as "Kaiju," arrived on Earth. Since it was discovered that the aggressiveness of these monsters could be calmed down and controlled by the voice of a young girl, the human species decided to try to cohabit with them.\n\nThe school for girls in Tatara thus proposes as a learning option the very particular profession of "trainer" of Kaijus. Ion Hidaka, a sixth grade pupil, chose to begin this unusual course. Elected at the beginning of the school year as a member of the breeding club, she must also take care every day of a gigantic monster that lives in the forest behind the school.\n\n(Source: Nautiljon)')]), RealDictRow([('id_manga', 10672), ('titre', "Now I'm a Demon Lord! Happily Ever After with Monster Girls in My Dungeon"), ('synopsis', "Yuki finds himself reincarnated as a demon lord in another world, and he's been put in charge of a dungeon to boot! Once Yuki accepts that his fate hinges on the dungeon's survival in a world where powerful monsters roam free and danger lurks at every corner, he begins gathering allies and bolstering his defenses. Within a few days, he takes on a legendary dragon, an adorable pet slime, and a vampire girl, but despite all his precautions, life as a demon lord in a dungeon constantly under threat...is surprisingly mellow?\n\nOf course, with such a colorful cast of characters (and possibly more on their way), Yuki's bound to wind up in some trouble. Will he be able to pull off a reckless rescue mission? And how will he and his monster girls survive an invasion by a hostile human kingdom?!\n\nJoin him as he juggles daily life, responsibilities as a freshly minted demon lord, and his growing family of monster girls and pets!\n\n(Source: J-Novel Club)")]), RealDictRow([('id_manga', 11018), ('titre', 'The monster of 1st grade, class A.'), ('synopsis', 'When Tarou Jimi is assigned as the homeroom teacher of class 1-A at an all girls\' high school, the rest of the staff feel sorry for him. On the surface, class 1-A is full of pretty and talented girls on the cusp of adulthood. But under the pretense of grace and elegance, the girls of 1-A are akin to the spawn of the devil, known to drive all their homeroom teachers to resignation. Every teacher they have had has already been forced to quit with poorly disguised bullying and blatant blackmailing.\n\nAt the forefront of class 1-A is Momo Hananaka, a model who knows exactly how to use her charm to her advantage. As soon as she learns about Jimi, she gears up to make him regret being chosen as her newest homeroom teacher. However, Momo and the "monsters" of 1-A might be in for a surprise, as beneath Jimi\'s plain demeanor hides a dark past—a past that might make him nothing less of a monster himself.\n\n[Written by MAL Rewrite]')]), RealDictRow([('id_manga', 11107), ('titre', 'The doctor for "Monster girls."'), ('synopsis', 'In the town of Lindworm where monsters and humans coexist, Dr. Glenn runs an exemplary medical clinic for monster girls with his lamia assistant, Sapphee. Whether receiving a marriage proposal by a centaur injured in battle, palpating the injury of a mermaid, or suturing the delicate wounds of a flesh golem, Dr. Glenn performs his job with grace and confidence. But when an unsavory character seeks to steal a harpy egg, how will the unflappable Dr. Glenn respond...?\n\n(Source: Seven Seas Entertainment)')]), RealDictRow([('id_manga', 11135), ('titre', "I'm a Behemoth, an S-Ranked Monster, but Mistaken for a Cat, I Live as an Elf Girl's Pet"), ('synopsis', "A proud knight, slain in battle, finds himself alive once more-reincarnated in the body of a fearsome behemoth. As if he wasn't confused enough by this turn of events, apparently behemoth cubs look exactly like adorable kittens?! Even if the rest of the world sees him as soft and cuddly, he has the honor of a noble warrior and the strength of an unstoppable S-ranked monster, both of which will be put to the test as he fights to protect the beautiful elf who has taken him as her pet!\n\n(Source: Yen Press)")]), RealDictRow([('id_manga', 11440), ('titre', "I'm a Behemoth, an S-Ranked Monster, but Mistaken for a Cat, I Live as an Elf Girl's Pet"), ('synopsis', "Nobody asked to be a cat!\n\nAfter dying in a fight against the forces of evil, a knight is shocked to discover that instead of being reborn as a hero of humanity, he starts his new life as a behemoth-one of the most powerful monsters in the world! The only problem is that a baby behemoth looks an awful lot like...an adorable house cat?! Things grow even more confusing when a beautiful elf adventurer rescues him from the brink of death rather than finishing him off. This house-cat-slash-knight's baffling journey is just getting started... \n\n(Source: Yen Press)")]), RealDictRow([('id_manga', 11462), ('titre', 'Monster Smash'), ('synopsis', '1. Otomari wa Youkai-sou e\n2. Asedaku Otoko to Akaname-san\n3. OL Centaur to Kouhai-kun\n4. Karada wa Shoujikimono\n5. Itoshi no Charlotte\n6. Oni dakedo Onnanoko!\n7. Ayakashi no Omotenashi\n8. Shokubutsu no Sodatekata\n9. Ningyo no Kaikata')]), RealDictRow([('id_manga', 11491), ('titre', "Now I'm a Demon Lord! Happily Ever After with Monster Girls in My Dungeon"), ('synopsis', "Yuki finds himself reincarnated as a demon lord in another world, and he's been put in charge of a dungeon to boot! Once Yuki accepts that his fate hinges on the dungeon's survival in a world where powerful monsters roam free and danger lurks at every corner, he begins gathering allies and bolstering his defenses. Within a few days, he takes on a legendary dragon, an adorable pet slime, and a vampire girl, but despite all his precautions, life as a demon lord in a dungeon constantly under threat...is surprisingly mellow?\n\nOf course, with such a colorful cast of characters (and possibly more on their way), Yuki's bound to wind up in some trouble. Will he be able to pull off a reckless rescue mission? And how will he and his monster girls survive an invasion by a hostile human kingdom?!\n\nJoin him as he juggles daily life, responsibilities as a freshly minted demon lord, and his growing family of monster girls and pets!\n\n(Source: J-Novel Club)")]), RealDictRow([('id_manga', 11544), ('titre', 'Monster and Parent'), ('synopsis', "Saika Kannagi is a run-of-the-mill high school girl whose world is turned upside down after her mother passes away. As if the shock of being adopted by her mother's distant relative and having three handsome new stepbrothers wasn't enough, she's tasked with the divine duty of god-rearing—raising an infant god until it's strong enough to return home and take on its role as an all-powerful being! With the stress of a new family, a new school, and some unexpected twists along the way, this task won't be as easy as it sounds.\n\n(Source: J-Novel Club)")]), RealDictRow([('id_manga', 11555), ('titre', 'Our Torsos Align: Human x Monster Love'), ('synopsis', "This manga collection of stories about beastly love is from the point of view of the devourers and the devoured. A woman's bird-like rescuer expresses his love in a language she doesn't understand. Mermaids bring luck, but drag you into the depths. An extraterrestrial angel with no limbs learns to feel. Enjoy these tales of monstrous and, at times, haunting romance in this beautifully illustrated collection that's sure to thrill.\n\n(Source: Seven Seas Entertainment)")]), RealDictRow([('id_manga', 11675), ('titre', 'Monster and the Beast'), ('synopsis', "Cavo is a hideous monster with a pure heart. Liam, on the other hand, might look like the perfect gentleman, but he's a beast on the inside, and he has an eccentric personality to boot. When Cavo rescues Liam from an unfortunate situation in the forest, the paths of the monster and the beast cross for the first time. Will their meeting be a fleeting encounter or a timeless entanglement? And will Liam succeed in leading the innocent Cavo astray?\n\n(Source: Yen Press)")]), RealDictRow([('id_manga', 11922), ('titre', 'Monster Wrestling: Interspecies Combat Girls'), ('synopsis', "It's claws versus tentacles as monstrous beauties grapple with one another in the global sensation that is monster wrestling! A young Cerberus girl named Tirol dreams of stardom in the squared circle, but can she stand up to all the thirsty predators ready to dominate her into submission? Winning in the ring means walking a fine line between pain and pleasure...and unleashing the beast inside!\n\n(Source: Yen Press)")]), RealDictRow([('id_manga', 11981), ('titre', 'The World Is Full of Monsters Now, Therefore I Want to Live as I Wish.'), ('synopsis', 'On his way home from his office, the main protagonist drove and ran over a big dog. At that moment, he suddenly heard a voice inside his head. "The monster has been defeated, you have gained experience points." "Eh?" Before anyone knew, the world had changed. Monsters appear, this is a game-like world where levels, skills, and status exist. This is an adventure where the modern world becomes fantasy and where the main protagonist has to strive hard for his survival.\n\n(Source: Shousetsuka ni Narou, translated)')]), RealDictRow([('id_manga', 11982), ('titre', 'The World is Full of Monsters, So I Want to Live as I Wish'), ('synopsis', '"You have acquired experience points. Kazuto Kudou has risen to Level 1," echoes through Kazuto\'s mind after he runs over a mysterious dog on his way home from work. The next morning, he awakens to a changed world, full of vicious monsters. The world now features a game-like system of levels and skills, alongside danger at every turn. Will Kazuto be able to survive by leveling up and taking advantage of the special skill he acquired the previous night? His survival adventure begins now!\n\n(Source: Square Enix)')]), RealDictRow([('id_manga', 12044), ('titre', "Monster's Kindergarten"), ('synopsis', "Koe Komori is a batgirl who is a newcomer to monster kindergarten! She's a little older than the other students, but starts fitting in with the other students right away. They may only be little monsters learning about the human world right now, but one day they'll be all grown up and headed for world conquest!\n\n(Source: MangaHelpers)")]), RealDictRow([('id_manga', 12122), ('titre', 'Monster Prop'), ('synopsis', None)]), RealDictRow([('id_manga', 12187), ('titre', "I'm the Only Monster Tamer in the World and Was Mistaken for the Demon Lord"), ('synopsis', 'After searching for a long time, Noah finally found the "Job Change Tome." With it, he just might be able to get away from his current job of "Hero" and its responsibility! Or so he thought. Because the new job that had been granted to him, "Monster Tamer," was one he\'d never heard of...!?\n\n(Source: Kadokawa, translated)')]), RealDictRow([('id_manga', 12201), ('titre', 'The Strongest Hero: Envoy of Darkness - Betrayed by His Comrades, the Strongest Hero Joins Forces with the Strongest Monster'), ('synopsis', 'Shion, the "Hero of Darkness," was said to be the strongest hero ever. He believed one thing, and that was his current party members.\n\n"I\'ll defeat the Demon Lord with this party!"\n\nThat is what he swore to do, but a tragedy occurs. He was painfully betrayed by the girls that he trusted. He barely held onto his life, but the incident left a deep scar in his heart. He gave up on living, and while he was wandering around in a forest, looking for a way to die, a single monster appeared in front of him.\n\n"Will you kill me, please?"\n\nThe monster asked Shion, who was still strong, despite losing his powers. What Shion, who wanted to die as well, did was...\n\n(Source: Shousetsuka ni Narou, translated)')]), RealDictRow([('id_manga', 12492), ('titre', 'The Illustrated Guide to Monster Girls'), ('synopsis', 'In the world of monsters, where scaring and tormenting humans is a way of life, even monster girls need to pass their classes, graduate, and get a job! Enter Class Z: a bunch of failures more likely to be frightened and bullied themselves. Can this ragtag group of underdogs become successful, full-fledged monsters?\n\n(Source: Yen Press)')]), RealDictRow([('id_manga', 12646), ('titre', 'How to Conquer Monster Girls'), ('synopsis', '1-3. Zasshoku Yuusha (Omnivorous Hero)\n4. Jikyuu 1500-en!!: Gyogyou wo Tetsudau Kantan na Oshigoto desu.\n5. Gyoryuushima no Okite - Jikyuu 1500-en!!: Gyogyou wo Tetsudau Kantan na Oshigoto desu.\n6-7. Ajin Iryou Sougou Center e Youkoso! (Welcome to the Demi-Human Medical Center!)\n8-9. Kindan no Shohousen (The Forbidden Prescription)')]), RealDictRow([('id_manga', 13467), ('titre', 'The Splendid Work of a Monster Maid'), ('synopsis', 'Sumire, a nekomata who lost her beloved master, was wandering around, got lost, and arrived in a foreign country in the demon world!? In order to take back "a certain something," she will clean the cluttered rooms with the undead Rose and the android Ivy!\n\n(Source: Kadokawa, translated)')]), RealDictRow([('id_manga', 13485), ('titre', 'A case where girls were kidnapped by monsters. Naked slimy island'), ('synopsis', None)]), RealDictRow([('id_manga', 13519), ('titre', "Monster Guild: The Dark Lord's (No-Good) Comeback!"), ('synopsis', "The Demon King has had a rough day. Just when he thought he finally defeated the hero, he came back. And back. And back. And sooner or later, the hero who constantly resurrected was bound to defeat a Demon Lord who couldn't. And he did. The hero vanquished the Demon Lord, peace spread across the land, and so on and so forth. The end. That's it. That's the whole story.\n\n... Kidding. The Demon Lord sent his soul to a empty vessel, which saved his life but unfortunately also is incredibly weak. So what's a Demon King to do when he wants to rule the world, but couldn't even defeat a child?\n\n(Source: MU)")]), RealDictRow([('id_manga', 13704), ('titre', "He's a Cute-faced Monster: I'm a Former School Gang Leader, But This Kid Wants My Body."), ('synopsis', 'When he was in high school, Eiji was the legendary leader of the school gang at Ara High School, only for delinquents. Now he works as a carpenter and lives a peaceful life. But then, his younger brother gets into some trouble and Eiji ends up helping him. He meets the present gang leader at Ara High, Rui, who falls in love with him at first sight. Now Rui is relentlessly pursuing him...!! An aggressive sweet-faced rebel and a straight, tough former gang leader. A battle to protect his pride and chastity begins!\n\n(Source: Renta!)')]), RealDictRow([('id_manga', 13867), ('titre', 'This Monster Wants to Eat Me'), ('synopsis', '"I\'ve come to eat you," so softly utters the mermaid Shiori as she emerges from the sea and takes high school girl Hinako by the hand. Hinako lives alone in a town by the sea and possesses an unusually delicious body that is irresistible to nearby monsters. To ensure that she matures to the best condition, Shiori seeks to protect Hinako—all so that someday, she can devour every piece of her. What will become of Hinako\'s feelings as this looming unjust death closes in on her...?\n\n(Source: Yen Press)')]), RealDictRow([('id_manga', 13957), ('titre', 'How He Tamed My Monster'), ('synopsis', "Shinobu has a huge problem, and he doesn't know what to do about it! He's tried everything from going to an all-boys school to staying away from the types of magazines his classmates like, but it's not helping as much as he'd hoped. One day, he gets so desperate, he almost falls into the hands of a female con artist... but Nao comes to his rescue! It turns out Nao just might be the key to saving Shinobu from himself... This is a love story between two close friends!\n\n(Source: Renta!)")]), RealDictRow([('id_manga', 14119), ('titre', 'Taking My Reincarnation One Step at a Time: No One Told Me There Would Be Monsters!'), ('synopsis', 'Even as a working adult, Sarasa Ichinokura suffers from an unshakable fatigue that\'s plagued her since childhood. She goes to bed one night, exhausted from her office job, and encounters a goddess(?) who informs her that her perpetual lack of energy is actually due to a deficit of "mana." Then, without any further explanation or time to process what\'s happening to her, Sarasa is thrust into a fantasy world! She awakens in the body of a ten-year-old girl in a strange land filled with flying beasts and oversized wolves. She accordingly prepares for the worst, but a monster hunter named Nelly takes her in. The hitch is...now that Sarasa finally has the energy to do everything she wants to, being cooped up in a cabin is just no fun! She seeks to stand on her own in this scary new world—and that\'s going to mean learning magic. It may be slow going, but Sarasa knows what to do—the best way to take her reincarnation is one step at a time!\n\n(Source: J-Novel Club)')]), RealDictRow([('id_manga', 14129), ('titre', "The Reincarnation of the Strongest Exorcist in Another World: Monsters Can't Match my Youkai!"), ('synopsis', "Haruyoshi Kuga's power as the strongest exorcist is all for naught when he is betrayed by his closest ally. With his dying breath, he casts the secret Spell of Reincarnation—when he next opens his eyes, he finds himself in a different world altogether, reincarnated as Seika Lamprogue, the son of a family of magic scholars! He quickly learns that the magic in this new world is quite unlike the sorcery he learned in his past life and that he can't use it. Fortunately for him, with his mastery of curses and the hordes of youkai at his disposal, he doesn't need to. Haruyoshi (now Seika) is determined not to repeat his past mistakes in his second life by smartly laying low and avoiding flaunting his power. Yet accomplishing his goals and without drawing attention to himself proves to be easier said than done—will his powers be enough to live a happy life?!\n\n(Source: J-Novel Club)")]), RealDictRow([('id_manga', 14547), ('titre', 'When the Monsters Cry'), ('synopsis', "Year 25 of the Showa era (1950). In the late summer, a young man, Raichi Shiozawa, visits the village of Mishirushi, where old superstitions and folklore still remain. The purpose of his visit is to tutor Matsurika Mishirushi, the daughter of a prominent village family. However, Matsurika is not an ordinary human; she is a monster that eats human flesh. Why this beautiful and graceful girl has turned into a monster? Because of an illness? A curse? Afterward, eight girls disappears all of a sudden. What's the truth behind the disappearance?\n\nOn the boundary between humans and monsters, lady monster's private tutor, Raichi Shiozawa, will reveal all the mysteries! The author of the When They Cry series presents to you a new story full of mystery and strangeness.\n\n(Source: Kadokawa, translated)")]), RealDictRow([('id_manga', 14578), ('titre', 'Monster Musume: Monster Girls on the Job!'), ('synopsis', "Ordinary twentysomething Kurusu Kimihito thought living with a bunch of monster girls was complicated enough, but now there's a new directive sent down from the government: get a job! Now lamia Miia, centaur Centoria, and all your favorites have to join the working world, leading to sexy uniforms, on-the-job shenanigans, and all-new hilarity!\n\n(Source: Seven Seas Entertainment)")]), RealDictRow([('id_manga', 14867), ('titre', 'The Monster with Blue Eyes'), ('synopsis', "Ever since he was born, Tatsumi Kodama has possessed blue eyes, a familial trait that grants them supernatural abilities. Whenever he meets gazes with someone, he can see every thought that person has ever thought. But forced to live on an isolated island with other blue-eyed family members, this power has only proved itself a curse. His childhood friend is Kei Arima, the adopted son of a family who looks after the secluded members of the Kodama family.\n\nTatsumi is well-aware of Kei's romantic interest in him, but he refuses to acknowledge his feelings. The burden of bearing blue eyes is insurmountable, and as Tatsumi slowly distances himself from Kei, their bond grows fractured. Will Tatsumi ever be able to meet Kei's gaze?\n\n[Written by MAL Rewrite]")]), RealDictRow([('id_manga', 15129), ('titre', 'Monster Marriage Shop'), ('synopsis', "Professional matchmaker Yuuto Nakao has helped scores of people find their perfect match. But as a hopeless mama's boy, he's never had a relationship of his own. Everything changes the night he stumbles upon Monster Town, a hidden enclave bustling with sexy, supernatural singles. From a werewolf bachelorette to an irresistible succubus, many beauties struggle with finding love. Yuuto decides this is the perfect place to set up shop–and maybe even find action for himself. Except there's one major problem—local matchmaker and God of Love Cupid doesn't appreciate a mortal showing him up on the job!\n\n(Source: Seven Seas Entertainment)")]), RealDictRow([('id_manga', 15345), ('titre', 'Kuroitsu-san from the Monster Development Department'), ('synopsis', "Touka Kuroitsu is a research assistant who belongs to the Monster Development Department of the evil organization Agastia. However, the enemy she has to fight right now isn't the heroes of justice, but her boss.\n\nSo long as justice exists, evil too, will exist. This is the story of those who fight secretly in the shadows of justice and evil's confrontation.\n\n(Source: MAL News)")]), RealDictRow([('id_manga', 15386), ('titre', 'Mr. Monster Wants to Watch'), ('synopsis', None)]), RealDictRow([('id_manga', 15450), ('titre', "Emperor's Mark to Rule the Monsters: Reborn Sage to Strongest Adventurer"), ('synopsis', "Emperor Ludis suffered an unjustified death because of his Emperor's Mark, which allowed him to make servants out of monsters. But instead of dying for good, he reincarnated a thousand years into the future. His previous life gave him no freedom, so this time, he'll take it all and travel the world as an adventurer! But although he pretends to be normal, he gathers servants again and becomes the strongest adventurer!\n\n(Source: Square Enix)")]), RealDictRow([('id_manga', 15774), ('titre', 'Monster Romance'), ('synopsis', "In a country where all races of human and creature live together, love is blossoming as people don't worry about each other's quirks or appearances. Among them is a clumsy dullahan who's head over heels about her track star boyfriend, a confused boy who questions how to talk to his mermaid crush, and a cute centaur wondering how to confess to her childhood friend.\n\nEveryone seems to be catching the love bug except for Setsuka, an icy oni who usually gives humans the cold shoulder. That changes when a determined, kind classmate named Eiji confesses his love to her, lighting a small spark in her chest. With advice from her monstrous friends and equally lovestruck sister, Setsuka's cold heart might turn red hot soon enough!\n\n(Source: FAKKU)\n\nIncluded one-shot: Risou no Kanojo")]), RealDictRow([('id_manga', 15778), ('titre', 'Plant Monster Girl Diary'), ('synopsis', None)]), RealDictRow([('id_manga', 15825), ('titre', 'Monster Girls With a Need for Seed'), ('synopsis', 'An anthology about concupiscent monster girls.')]), RealDictRow([('id_manga', 15903), ('titre', 'Soara and the House of Monsters'), ('synopsis', 'Soara is a young orphan girl who was raised by knights and trained to battle the monsters that constantly attacked their kingdom. But by the time Soara is ready to join the fight herself, peace has been declared and her blade is no longer needed. Searching for a new home and a new purpose, Soara stumbles across Krik the dwarf, leader of the Monster Architects. Suddenly, instead of fighting monsters, Soara finds herself working with Krik to build comfortable homes for them! In the process, will she discover a new home and family for herself?\n\n(Source: Seven Seas Entertainment)')]), RealDictRow([('id_manga', 15902), ('titre', 'Just Love, the Monster.'), ('synopsis', "Reiji Kuze is the son of doctors and the new transfer student in his last year of high school. As someone whose socioeconomic background and academic grades are in the top 98th percentile, Reiji immediately stands out like a sore thumb in his new school. And in high school, standing out means you will be targeted. Presumed to be a delicate prince swimming in cash, Reiji gets picked on by the third strongest person in the school... and beats him and his entire gang to a pulp without breaking a sweat. As if Reiji didn't stand out enough already, he seems to have caught the interest of the king of the hill, Akira Ohara, the cat-like lone-wolf that nobody can seem to tame...\n\n(Source: Fantasista Inc.)")]), RealDictRow([('id_manga', 16181), ('titre', 'Otherworldly Maidens: Monster Girls from Another World'), ('synopsis', "1. Itoshi no Orc-sama♥ (My Beloved Mr Orc ♥ )\n2. Boukensha no Koiji wa Kemonomichi (The Adventure's Path to Love is an Animal Trail)\n3. Akuma no Hanayome Shugyou (The Demon's Bridal Training)\n4. Nekko made Aishite (I Love You From Head to Root)\n5. Mendori no Butoubi (Harpy Valentine's Day) \n6. Hebi na Otome wa Juusha wo Nomu (A Serpent Maiden Devours Her Servant)\n7. Isekai Renai (Love in Another World) \n8. Hebi na Otome wa Juusha wo Nomu After")]), RealDictRow([('id_manga', 16227), ('titre', "The Reincarnation of the Strongest Exorcist in Another World: Monsters Can't Match my Youkai!"), ('synopsis', "Betrayed by his allies and on the verge of death, the strongest exorcist, Haruyoshi Kuga, desired only one thing—to be happy in his next life. Using the secret art of reincarnation, he was transported to another world. Reborn as Seika Lamprogue, third son of a distinguished family of magic scholars, he's found to have no magical power whatsoever, which is an unacceptable shame in a family of mages. However, he soon comes to realize that his new world's magic is nothing compared to the sorcery he mastered as an exorcist. With his control over divination, curses, and legions of youkai who serve him, his life in this new world should be a breeze! The only question is: how can he make use of those powers while laying low to avoid another untimely demise?\n\n(Source: J-Novel Club)")]), RealDictRow([('id_manga', 16351), ('titre', "A Heroine's Isekai Monster Wives Harem"), ('synopsis', "Unlucky-in-life Reiko goes to bed one night dreaming about what it would be like to be a different person... and then she wakes up in the body of Laina, the hero of (insert isekai realm here)! But all is not well in paradise, and the future of the world may hinge on Reiko satisfying all five of Laina's demonic wives, including the beast champion Gagaka! Can Reiko protect her virtue, or will wifey number one make her howl!?\n\n(Source: Irodori Comics)")]), RealDictRow([('id_manga', 17072), ('titre', 'Dress of Illusional Monster'), ('synopsis', "Kinuyo Shigaraki has been working as a couturiere at her family's fashion shop ever since she was little. With a little help from her talking pet hedgehog, Harriet, they sew custom-tailored outfits made for the many different mythical creatures that inhabit the world of Royal Warrant. To obtain the material to create such outfits, she and Harriet must go on daring adventures together, atop her flying broomstick.\n\n(Source: MU)")]), RealDictRow([('id_manga', 17453), ('titre', "Monster Duke's Daughter"), ('synopsis', 'When her mom goes missing, three-year-old Lotilucia stumbles on a magic crest that transports her to the estate of House Frodium, one of the empire\'s most powerful noble families. Little Lottie immediately recognizes Duke Damian Frodium as her dad; he is the so-called "Monster Duke" of demon descent. Once taken into the house, Lottie does her best to stay out of his way. But then she stumbles on a magic book that shows her a story about Duke Frodium\'s adopted daughter replacing his dead daughter named Lotilucia! Lottie is shocked but also emboldened by the prophetic tale. If she is meant to die anyway, she might as well be her cheeky self and do as she pleases! This new Lottie wins over her demon dad along with his staff, but will she manage to stay alive and thrive as the Monster Duke\'s daughter?\n\n(Source: Tappytoon)')]), RealDictRow([('id_manga', 17588), ('titre', 'Spring Storm and Monster'), ('synopsis', "High school freshman Ranko Haruno's sole desire in life is to keep her head down and get by with as little human interaction as possible. It's working well until a random guy is literally hurled into her path (and knocked out when his head hits the wall). The one responsible? A guy she later finds out is her new stepbrother, Kaya Amamine... How exactly is she supposed to live with such a creepy jerk who seemingly has a penchant for violence?!\n\n(Source: Yen Press)")]), RealDictRow([('id_manga', 17737), ('titre', 'A Monster Hunter Becomes a Princess'), ('synopsis', "I, a great monster killer, was about to plunge my knife into a vampire's heart to avenge my parents' death... when I woke up in a princess's body instead! All I want is to return to my world so I can complete my revenge. But here I am, stuck in the body of a princess who is considered bad luck by the entire kingdom. Well, at least there's one other man who got tossed here from another world, too. Hopefully, we can find a way back, or else I might be killed!\n\n(Source: Tapas Media)")]), RealDictRow([('id_manga', 17758), ('titre', "The Monster's Bride"), ('synopsis', 'Haena has been struggling to balance life and school ever since her father disappeared after winning the lottery. But one day, the appearance of some eccentric but attractive guys shakes up her world: Chaebin Do, a popular cute guy at school and a goblin, Yamagami Onisuke, a Japanese demon known as an Oni, and Wolfgang Lucifer Junior, a wolf-boy. They ask Haena to be their bride and claim to have met her father: will she trust them? Where will these relationships lead her?\n\n(Source: Webtoon Entertainment)')]), RealDictRow([('id_manga', 17784), ('titre', 'In My Seventh Life, I Met a Monster Princess'), ('synopsis', "Hugo is stuck in a time loop, forced to relive the same life up until the moment he is slain by one of his own relatives. But, after swearing revenge on his murderous family during his seventh reset, he meets a beautiful girl. According to rumor, this girl is a monster in human flesh, but he agrees to become her servant all the same. The birth of their partnership heralds an intertwining of fates, and Hugo's life will never be the same again...\n\n(Source: Yen Press)")]), RealDictRow([('id_manga', 17847), ('titre', 'My Noisy Roommate: The Roof Over My Head Comes with Monsters and a Hottie'), ('synopsis', "Osuke's excited about finally getting to live on his own, but on his first day in his new apartment, he finds himself kicked out onto the street! So, when a real estate agent appears out of nowhere offering him a beautiful, new place (with just a couple conditions), he jumps at the chance. But when he opens the door, a drop-dead gorgeous blond guy pops out! It turns out living with him is one of the conditions! His name is Nanami, and he tells Osuke that, not only are ghosts real, but Osuke himself is a magnet for all things supernatural...\n\n(Source: Kodansha USA)")]), RealDictRow([('id_manga', 17855), ('titre', "My Childhood Friend's an Overly-Attached Love Monster!"), ('synopsis', 'Mitsuki\'s troubled. His friend since childhood, Minoru, is stuck to him like glue every moment of the day, be it at lunch break, when he\'s taking a bath, or when he\'s sleeping. There\'s no way this isn\'t weird...!! To top it all off, he finds out that his friend has a trauma after he brings him to a mixer...!! Minoru asks him to help him practice to fix it, which somehow leads to Mitsuki having his tip rubbed in the restroom while his friend calls his name in a feverish voice. "We\'re best friends, right...?"\n\n(Source: Mobile Media Research)')]), RealDictRow([('id_manga', 17869), ('titre', 'Twisted Love Monster'), ('synopsis', '"A collaboration where you act out the scenarios I write! In other words, sex?!"\n\nSatake, a screenwriter and casual stalker, hides his identity while chasing after his middle school classmate, Yoshiya, a rising young actor. One day, the video game Satake worked on is set for a drama adaptation, with Yoshiya playing the main character.\n\nWhile Satake\'s excited to get up close and personal with his favorite actor (person), it turns out Yoshiya actually remembers him. And to top it all off, Yoshiya gives him a blowjob out of the blue?! A pure and erotic love session between a broody otaku and a bright young actor!\n\n(Source: Kaiohsha, translated)')]), RealDictRow([('id_manga', 18010), ('titre', 'The Monster in My Womb'), ('synopsis', None)]), RealDictRow([('id_manga', 18061), ('titre', 'Monster Girl Doctor Zero'), ('synopsis', "Before Glenn Litbeit opened his own clinic, he was just a med student—in an academy full of monsters! Take a trip back through time in this prequel volume about young Glenn's trainee days at the lab run by his upperclassmen Sapphee and Lime. Dog-headed girls, hypersensitive marionettes, amorous silkworm-ladies and more—with such tantalizing adventures in consultation under his belt, it's no wonder Glenn became the doctoral sensation he did!\n\n(Source: Seven Seas Entertainment)")]), RealDictRow([('id_manga', 18167), ('titre', 'Monsterholic'), ('synopsis', 'This is the Masked Ballroom: a place where people revert to beasts, let go of reason, and revel in freedom and anonymity. Here, with the help of a "monster supplement," anyone can transform into beasts and do as they please. It\'s the only "government-approved slum," where people can forget the suffocating atmosphere of the surveillance state. It\'s in this city where Reiji, a young vampire and a real monster, and his werewolf partner Tsuki take on the task of keeping the streets clean. They search for centaurs who have committed hit-and-runs and fight life-and-death battles against the urban legends that manifest. And a meeting with the "Medicine Witch" will change the fate of Reiji and his friends...\n\n(Source: Yen Press)')]), RealDictRow([('id_manga', 18451), ('titre', 'Monster Streamer for Gods'), ('synopsis', "In Gangshik Choi's world, monster attacks are a common occurrence. Humanity is protected by hunters with superpowers who stream their fights online, and it is Gangshik's job to get it all on camera as the cameraman for a below-average monster streamer. In a stream gone wrong, he suddenly finds himself in front of the camera... but human viewers aren't the only ones watching him. Now, he is a streamer for the Gods, and more viewers mean more power. With monsters at every turn, how long can Gangshik keep the cameras rolling?\n\n(Source: Tapas Media)")]), RealDictRow([('id_manga', 18822), ('titre', 'Wooed by a Monster and a Snake Spirit'), ('synopsis', "The old man who adopted orphan Chiaki Kuroiwa and raised him as his own has died. Knowing he'll be alone on his birthday tomorrow, Chiaki's feeling depressed when a snake suddenly appears in front of him. The next thing he knows, a monster breaks down the door and comes charging in!! The jock spirit and the seductive snake are both determined to make him theirs, and Chiaki isn't sure he'll be able to survive!!\n\n(Source: Renta!)")]), RealDictRow([('id_manga', 18829), ('titre', 'Seducing the Monster Duke'), ('synopsis', 'About 20 years in future, the world will be in ruins because of the invasion of the beasts. There\'s only one way to stop the destruction: marry the "monstrous" duke and bear his hero-to-be child! Upon glimpsing the future, Elena succeeded in marrying him, but... "You may be my wife, but I won\'t lay a single finger on you." She wanted to get it quickly out of the way, but her husband\'s impregnable fortress is stronger than she could have imagined! Will Elena be able to safely give birth to the hero and save the world?\n\n(Source: Kakao Entertainment Corp., translated)')]), RealDictRow([('id_manga', 19053), ('titre', 'Ganzi Monster'), ('synopsis', "Eunho Cha is, without a doubt, the biggest outcast at school. He spends his days avoiding bullies and daydreaming about his crush. He'd give anything to be popular, so when he discovers a face editing app called Icing, he spies an opportunity. With Icing's help, Eunho now looks like a superstar... or at least Ganzi Monster (GM), his online alter ego, does. But just when GM and his dance videos are starting to get popular, someone discovers his secret, and Eunho's days of being invisible are about to come to an end...\n\n(Source: Tapas Media)")]), RealDictRow([('id_manga', 19181), ('titre', 'I Got a Monster Princess in My Seventh Life.'), ('synopsis', "Hugo is stuck in a time loop, forced to relive the same life up until the moment he is slain by one of his own relatives. But, after swearing revenge on his murderous family during his seventh reset, he meets a beautiful girl. According to rumor, this girl is a monster in human flesh, but he agrees to become her servant all the same. The birth of their partnership heralds an intertwining of fates, and Hugo's life will never be the same again...\n\n(Source: Yen Press)")]), RealDictRow([('id_manga', 19359), ('titre', 'The Monster Princess'), ('synopsis', 'In a mysterious dream, Princess Arbella Leon Camulita discovers a book that tells a story about her future. Princess Judith, a newly recognized royal and the daughter of a slave, takes on the role of the protagonist. She is bullied by her half-siblings until she awakens to her unrivaled magical abilities, eventually reaching a sweet and satisfying ending. On the other hand, Arbella, who was previously thought to be the most powerful magician, descends into madness with envy, and her greed brings about her demise.\n\nUpset by the uncanny resemblances between her dream and reality, Arbella starts to notice her shortcomings and the rotten treatment that Judith receives daily. Determined to cure her own illness—the rare and incurable "magician\'s fever"—and avoid becoming a monster, Arbella leverages the power she still has as the first princess to both help Judith and escape her own grim fate.\n\n[Written by MAL Rewrite]')]), RealDictRow([('id_manga', 19419), ('titre', 'Pass the Monster Meat, Milady!'), ('synopsis', 'Like any proper noble lady, one must have certain acquired tastes. For Melphiera Marchalrayd, she just happens to crave a rather exotic protein—monsters! But do not judge! Despite its bad reputation, monster meat can be used in exquisite cuisine and Melphiera is determined to change the kingdom\'s opinion of it! Unfortunately, since debuting in society, Melphiera has been struggling to find her perfect match...until she meets the fearless "Blood-Mad Duke" of Galbraith!\n\n(Source: Kodansha USA)')]), RealDictRow([('id_manga', 19430), ('titre', "Pocket Monster: Liko's Treasure"), ('synopsis', 'A comicalization of the new Pokémon anime.')]), RealDictRow([('id_manga', 19803), ('titre', "The Monster's Sweet Fangs"), ('synopsis', "Noa Kiritani, secretary to the president of a major corporation, finds every day working under her gentle and kind boss fulfilling. One day, however, the company president collapses from a sudden but mild stroke. As a result, he steps down as president and assumes the role of company chairman. In his stead, Wataru, his son, takes on the position as company president. Much to Noa's dismay, Wataru is the complete opposite of his father—he is hardheaded, pompous... a complete monster! On top of that, Wataru pummels Noa with unreasonable request after unreasonable request... can Noa, now secretary to both the company president and the chairman, catch a break?!\n\n(Source: NTT Solmare)")]), RealDictRow([('id_manga', 19871), ('titre', 'Monster Holic'), ('synopsis', None)]), RealDictRow([('id_manga', 20079), ('titre', 'Emperor and Monster'), ('synopsis', '"I am the first emperor, Utosa"\n\nIn the basement of the palace, a mausoleum was protected by heavy metal doors. A monster was said to sleep there. Tao, a mere puppet to his ministers, had never once tasted power. Even his only friend was executed by the ministers under him. Desperate, he enters the forbidden depths, encountering a man with white hair...?\n\n(Source: Libre, translated)')]), RealDictRow([('id_manga', 20178), ('titre', 'Monsters in the Art Room'), ('synopsis', 'Blake is a high school girl who isn\'t very good at talking to others. At school, she tends to end up at one spot, "an art room where no one else comes." Yet one day, a monster girl suddenly appears in the room, and it seems as if she\'s after the artwork in the room...\n\nA story where a girl and a monster communicate to each other through "art" begins.\n\n(Source: Shogakukan, translated)')]), RealDictRow([('id_manga', 20358), ('titre', 'Black Museum: Crescent Moon, Dance with the Monster'), ('synopsis', "Mary Shelley is short of money after the publication of her famous novel. Despite the critical success of the work, the widow struggles to make ends meet and provide for her son's needs. One day, she makes a most astonishing discovery: the creature she had imagined in her novel has come to life, but this time in female form! Mary is then entrusted with a mission by the British secret services: to tame and make presentable this strange creature before Queen Victoria's big ball. The inventor of Frankenstein's monster will have to draw on her imagination to coax this resurrected fighter, whose body is marked with scars...")]), RealDictRow([('id_manga', 20424), ('titre', 'Even Monsters Like Fairytales'), ('synopsis', "Sylph Biebel, the duke's daughter, has just suffered a sinister plot by a friend resulting in her engagement to the prince being called off and her own banishment! But she's not just sent anywhere—she gets exiled to a kingdom where an infamous monster resides. Will her quick wit win this king's favor as she begins a new life as a librarian in a mysterious land?\n\n(Source: Square Enix)")]), RealDictRow([('id_manga', 20440), ('titre', 'The Monster Male Lead Living Under My Bed'), ('synopsis', 'Waking up as a character destined to be killed by her family, Irina Sordier refuses to follow the script. She plans to survive by escaping after her father marries her off to Archduke Alexei Ruslan. That is until she is saved from her abusive circumstances by a slime! The two bond quickly, but the slime suddenly vanishes, and Irina laments its loss. Years later, she meets Alexei, but he seems to know things about her that only the slime would! Can Irina save herself and the slime after all?\n\n(Source: Tapas Media)')]), RealDictRow([('id_manga', 20466), ('titre', 'Monster Cats'), ('synopsis', "Is it a banshee, a yeti, a gorgon, or...a cat? Monster Cats are a purrfect new breed of familiar furry friends crossed with freaky fun! If you think life with regular cats can get complicated, wait till you see what it's like for people who live with these charming supernatural pets.\n\n(Source: Seven Seas Entertainment)")]), RealDictRow([('id_manga', 20535), ('titre', 'My Dear Monster "R"'), ('synopsis', 'Rei Kureno, the straight-laced, over-serious president of the student council, is the type of person that treats everybody equally. Day after day, he strives to carry out his duties. Suddenly one day, an evil monster called "Dark Genesis" came flying in from space. His aim is "to obliterate the hero who\'s occupying the body of a student in the academy." In order to protect the students, Rei let himself be possessed by the monster...! And then, showing up in front of Rei\'s eyes is Minori Fuwa, a delinquent who had no idea that he\'s the hero. Rei wanted to clean up the villain in the most amicable way possible, so he approached Minori and deepened their relationship. However, Minori got attracted by Rei and when Minori confessed to him, Rei\'s body changed into a monster\'s. The way for him to return to normal is through the hero\'s kiss...?!!\n\n(Source: Kaiohsha, translated)')]), RealDictRow([('id_manga', 20607), ('titre', 'They Said My Translator Skill Was Useless, but I Used It to Form an Invincible Party: How I Used My Power to Communicate with Monsters and Demons to Rise to the Top! @comic'), ('synopsis', 'The adventurer Zion, who possesses the "Translator" skill, the ability to understand the language of demons and animals, spends his days and nights on quests with his childhood friends in order to make the A-Class party. However, he is suddenly kicked out of the party because his abilities are not useful in battle. Disappointed, Zion makes a new start as a solo adventurer, thanks to the encouragement of Angelina, the guild receptionist. Later, several races join Zion\'s party, including a female slime swordsman and half-demon whose skills were deemed useless, and form a party of outsiders who are later described as heroes.\n\n(Source: TO Books, translated)')]), RealDictRow([('id_manga', 21325), ('titre', 'Act Like a Boss Monster, Mr. Swallow!'), ('synopsis', "The Primordial Core's an unconquerable dungeon, the lair of the most powerful monster ever to exist, the Original Monster, the incarnation of evil—Swallow... who happens to be a lazy boss monster who just wants to sleep. Taking care of this lazy bum is Renee, a homunculus maid whose obsession with Swallow knows no bounds. At this point, the only one keeping the dungeon running is Patrick, the last brain cell of the bunch—and he's a skeleton! Will Mr. Swallow get any rest amid all this chaos?\n\n(Source: Tapas Media)")]), RealDictRow([('id_manga', 21419), ('titre', 'Logging in as a Monster'), ('synopsis', 'Lee Jinhyuk has enjoyed his decade-long reign as Cornsilk, the undefeated number one PVP player in virtual reality game "The Abyss." But with the sequel "Abyss World" resetting all players as newbies, Jinhyuk accepts a sudden sweet deal from his Abyss Studios developer half-brother Jinho to log in as the infamous boss monster Black Knight. After slaying 100 rankers during the opening event, Jinhyuk agrees to keep the monster login scheme going... but will his unmatched talent blow his cover?\n\n(Source: Tapas Media)')]), RealDictRow([('id_manga', 21581), ('titre', "Mistaken as the Monster Duke's Wife"), ('synopsis', "When Lia Dellis comes across a dying man in need of help, she never could have imagined a curse would drive him to attack her. That's why she hits him over the head with a rock! Feeling guilty, Lia nurses him back to health only to realize that he's Dillian Synaize, the ruthless monster duke. To make matters worse, Dillian has lost all his memories and inexplicably thinks Lia is his wife. Can Lia escape the grasp of this so-called monster before he remembers that she was the one who hit him?\n\n(Source: Tapas Media)")]), RealDictRow([('id_manga', 21609), ('titre', 'Monster Princess of the Snowy Mountain'), ('synopsis', "Valerie Beloff, a princess in exile, decides to take her own life on her 19th birthday. Abused by her own mother and exiled for her mother's crimes, she had to live in the freezing Makleroad palace by herself, and she somehow acquired the powers of an ancient monster—the power to freeze things. Hopeless, she seeks an escape in death... only to find herself before her cruel mother, yelling at her once again. Is she dead? Is she reliving a memory? When her mother strikes her, the throbbing pain lets her know that this is neither a dream nor a memory!\n\n(Source: Webtoon Entertainment)")]), RealDictRow([('id_manga', 21623), ('titre', 'The Story about a Monster Teaching Common Sense.'), ('synopsis', 'Ito-san, who has a communication disorder and longs to be "normal," secretly admires her classmate Takahashi-san, who is mild-mannered and gets along with everyone. However, one day, Ito-san ends up discovering Takahashi-san\'s true identity! Ito-san decides to learn about "normal" human society from Takahashi-san, a monster who mimics humanity. But will she really be able to blend in with society!?\n\n(Source: Kadokawa, translated)')]), RealDictRow([('id_manga', 22093), ('titre', 'Monster Therapy'), ('synopsis', 'Ares, a lackluster tamer, has started doing "monster therapy," a folk remedy that utilizes the special characteristics of monsters. He straightaway tries using a slime for treatment, but for some reason the female client gets sexually excited!\n\n(Source: Kadokawa, translated)')]), RealDictRow([('id_manga', 22172), ('titre', 'The Boy Who Ruled the Monsters'), ('synopsis', 'Sol Rock plays the role of support in Black Tiger, an up-and-coming party of prodigies known as the Miracle Children. His party sees him as deadweight and he\'s expelled by the leader, but the truth is that he has a special talent that gives him the godlike power to bestow incredibly OP skills and stats upon his companions! Only two members of his party, "Iron Wall" Reen and "Saint of Healing" Julia, realize that Sol is the source of their amazing powers, and they choose to leave with him. With no one holding him back, Sol can finally unleash his true potential, and he decides to use it to create the world\'s most powerful party. When Sol is offered five cards, each depicting a monster powerful enough to take on the world on its own, he begins a journey to gather them all to his side and fulfill his dream!\n\n(Source: J-Novel Club)')]), RealDictRow([('id_manga', 22173), ('titre', "The Boy Who Ruled the Monsters: Before I Knew It, the Ultimate Specialized Support Skill Led to the World's Ultimate Party!"), ('synopsis', 'Sol Rock plays the role of support in Black Tiger, an up-and-coming party of prodigies known as the Miracle Children. His party sees him as deadweight and he\'s expelled by the leader, but the truth is that he has a special talent that gives him the godlike power to bestow incredibly OP skills and stats upon his companions! Only two members of his party, "Iron Wall" Reen and "Saint of Healing" Julia, realize that Sol is the source of their amazing powers, and they choose to leave with him. With no one holding him back, Sol can finally unleash his true potential, and he decides to use it to create the world\'s most powerful party. When Sol is offered five cards, each depicting a monster powerful enough to take on the world on its own, he begins a journey to gather them all to his side and fulfill his dream!\n\n(Source: J-Novel Club)')]), RealDictRow([('id_manga', 22336), ('titre', 'Lovely Passion Monster'), ('synopsis', None)]), RealDictRow([('id_manga', 22348), ('titre', 'My Monster Lover'), ('synopsis', "Yume Sonozaki is a shy, reserved college girl who's inexperienced with love. At her after-school club, she hits it off with a nice older student, Aoi, who becomes her first boyfriend. She's happy with him, but for some reason, they haven't gotten to first base! As the days go by, she finds herself sadder and more desperate. Yume finally bites the bullet and asks if she can stay the night, and a bewildered Aoi agrees. Nervously, she waits for Aoi to step out of the shower, only to discover his personality has changed completely. What is this strange, animalistic allure? Thus begins a love triangle with two men in the same body!\n\n(Source: Renta!)")]), RealDictRow([('id_manga', 22439), ('titre', 'Armonia the Monster Whisperer'), ('synopsis', "Armonia has lived alongside monsters all her life. They've raised, protected, and loved her since she was a toddler. So when she heard about a monster hunt that would threaten her monster friends, she saw no other choice but to try and stop it. But to do that, she can no longer avoid interacting with humans. Now, she's on her way to meet the leader of the monster hunt, Kansler Hydeh, in hopes of changing his mind. And if he doesn't listen to her as well as monsters do, Armonia will make him!\n\n(Source: Tapas Media)")]), RealDictRow([('id_manga', 22478), ('titre', 'How I Became King by Eating Monsters'), ('synopsis', '"Eat Or Die!" The first prince of the kingdom of Farune, Mars, is only twelve years old, yet he lives in fear of assassination. In order to avoid the deadly poison in nearly all of his meals, he slips out of the castle into the nearby monster-infested forest, where, battling monsters and his own hunger, he has to hunt for his meals in order to stave off starvation. Then, one night, as he\'s searching for his next bite of monster meat, a red-haired woman shouldering a greatsword appears before him and says to him, "You have promise. Become my apprentice." How is he supposed to tell her that this must be some sort of mistake? But there\'s a secret that only she knows, and that he\'s stumbled upon: eating monsters makes you stronger! With her training and his newfound power, Mars will finally overcome all those pesky assassination attempts. However, that doesn\'t end things; no, it\'s only the beginning of a nationwide—even continent-spanning—series of wars and plots with him right in the middle!\n\n(Source: Cross Infinite World)')])]
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 1
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 2
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 3
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 4
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 5
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 6
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 7
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 8
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 9
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 10
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 11
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 12
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 13
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 14
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 15
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 16
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 17
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 18
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 19
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 20
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 21
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 22
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 23
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 24
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 25
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 26
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 27
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 28
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 29
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 30
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 31
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 32
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 33
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 34
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 35
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 36
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 37
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 38
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 39
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 40
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 41
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 42
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 43
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 44
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 45
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 46
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 47
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 48
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 49
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 50
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 51
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 52
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 53
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 54
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 55
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 56
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 57
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 58
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 59
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 60
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 61
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 62
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 63
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 64
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 65
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 66
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 67
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 68
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 69
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 70
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 71
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 72
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 73
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 74
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 75
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 76
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 77
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 78
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 79
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 80
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 81
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 82
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 83
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 84
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 85
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 86
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 87
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 88
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 89
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 90
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 91
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 92
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 93
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 94
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 95
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 96
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 97
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 98
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 99
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 100
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 101
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 102
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 103
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 104
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 105
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 106
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 107
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 108
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 109
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 110
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 111
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 112
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 113
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 114
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 115
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 116
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 117
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 118
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 119
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 120
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 121
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 122
+06/11/2024 14:18:23 - INFO     - Débogage : manga ajouté à liste_mangas, taille actuelle: 123
+06/11/2024 14:18:40 - INFO     - RechercheVue
+06/11/2024 14:18:41 - INFO     - RechercheMangaVue
+06/11/2024 14:18:56 - INFO     - Débogage : requête exécutée avec succès.
+06/11/2024 14:18:56 - INFO     - Débogage : res récupéré avec la valeur : []
+06/11/2024 14:18:56 - INFO     - 'str' object has no attribute 'extend'
+06/11/2024 14:18:56 - INFO     - AccueilVue
+06/11/2024 14:18:58 - INFO     - Fin de l'application
+06/11/2024 14:34:29 - INFO     - --------------------------------------------------
+06/11/2024 14:34:29 - INFO     - Lancement Application
+06/11/2024 14:34:29 - INFO     - --------------------------------------------------
+06/11/2024 14:34:29 - INFO     - AccueilVue
+06/11/2024 14:34:30 - INFO     - ConnexionVue
+06/11/2024 14:34:37 - INFO     -     UtilisateurDao.se_connecter('Chamois03', '*****') - DEBUT
+06/11/2024 14:34:37 - INFO     -     UtilisateurDao.se_connecter('Chamois03', '*****') - FIN
+06/11/2024 14:34:37 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000028DE7771C60>
+06/11/2024 14:34:37 - INFO     - MenuUtilisateurVue
+06/11/2024 14:34:39 - INFO     - RechercheVue
+06/11/2024 14:34:41 - INFO     - RechercheMangaVue
+06/11/2024 14:34:46 - INFO     - Débogage : requête exécutée avec succès.
+06/11/2024 14:34:53 - INFO     - RechercheVue
+06/11/2024 14:34:59 - INFO     - RechercheMangaVue
+06/11/2024 14:35:02 - INFO     - Débogage : requête exécutée avec succès.
+06/11/2024 14:35:15 - INFO     - MenuUtilisateurVue
+06/11/2024 14:35:17 - INFO     - AccueilVue
+06/11/2024 14:35:18 - INFO     - Fin de l'application
+06/11/2024 14:45:19 - INFO     - --------------------------------------------------
+06/11/2024 14:45:19 - INFO     - Lancement Application
+06/11/2024 14:45:19 - INFO     - --------------------------------------------------
+06/11/2024 14:45:19 - INFO     - AccueilVue
+06/11/2024 14:45:21 - INFO     - Fin de l'application
+06/11/2024 14:47:22 - INFO     - --------------------------------------------------
+06/11/2024 14:47:22 - INFO     - Lancement Application
+06/11/2024 14:47:22 - INFO     - --------------------------------------------------
+06/11/2024 14:47:22 - INFO     - AccueilVue
+06/11/2024 14:47:28 - INFO     - InscriptionVue
+06/11/2024 14:47:32 - INFO     - Pseudo : Aaaaaaaa (length: 8)
+06/11/2024 14:47:32 - INFO     -     UtilisateurDao.lister_tous() - DEBUT
+06/11/2024 14:47:32 - INFO     -     UtilisateurDao.lister_tous() - FIN
+06/11/2024 14:47:32 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000001D129F26DA0>', '<business_object.utilisateur.Utilisateur object at 0x000001D129F25AB0>', '<business_object.utilisateur.Utilisateur object at 0x000001D129F26530>'] ... (6 elements)
+06/11/2024 14:47:50 - INFO     - Mot de passe haché : bfa07250dca4ecf88aca7692dfe8eedf909dc250dae65c3a8739bfbee413fe48 (length: 64)
+06/11/2024 14:47:50 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x000001D12A0197E0>',) - DEBUT
+06/11/2024 14:47:50 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x000001D12A0197E0>',) - FIN
+06/11/2024 14:47:50 - INFO     -        └─> Sortie : True
+06/11/2024 14:47:50 - INFO     - AccueilVue
+06/11/2024 14:47:52 - INFO     - InscriptionVue
+06/11/2024 14:47:55 - INFO     - Pseudo : Baaaaaaa (length: 8)
+06/11/2024 14:47:55 - INFO     -     UtilisateurDao.lister_tous() - DEBUT
+06/11/2024 14:47:55 - INFO     -     UtilisateurDao.lister_tous() - FIN
+06/11/2024 14:47:55 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000001D12A0C3C40>', '<business_object.utilisateur.Utilisateur object at 0x000001D12A0C1FF0>', '<business_object.utilisateur.Utilisateur object at 0x000001D12A0C2710>'] ... (7 elements)
+06/11/2024 14:48:03 - INFO     - Mot de passe haché : 837b3200cc820cce9d9ecb4dc7ffa2d81d4a97ab660d2d678f32d45c954e73c4 (length: 64)
+06/11/2024 14:48:03 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x000001D12A1322C0>',) - DEBUT
+06/11/2024 14:48:03 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x000001D12A1322C0>',) - FIN
+06/11/2024 14:48:03 - INFO     -        └─> Sortie : True
+06/11/2024 14:48:03 - INFO     - AccueilVue
+06/11/2024 14:48:04 - INFO     - InscriptionVue
+06/11/2024 14:48:07 - INFO     - Pseudo : Caaaaaaa (length: 8)
+06/11/2024 14:48:07 - INFO     -     UtilisateurDao.lister_tous() - DEBUT
+06/11/2024 14:48:07 - INFO     -     UtilisateurDao.lister_tous() - FIN
+06/11/2024 14:48:07 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000001D12A2E0130>', '<business_object.utilisateur.Utilisateur object at 0x000001D12A2CDD20>', '<business_object.utilisateur.Utilisateur object at 0x000001D12A2CDCC0>'] ... (8 elements)
+06/11/2024 14:48:17 - INFO     - Mot de passe haché : 57bf846a9ed76b38ea112064a464fb0b054fe6b2cbb34f72cde9f41a68a9df80 (length: 64)
+06/11/2024 14:48:17 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x000001D12A3B1A80>',) - DEBUT
+06/11/2024 14:48:17 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x000001D12A3B1A80>',) - FIN
+06/11/2024 14:48:17 - INFO     -        └─> Sortie : True
+06/11/2024 14:48:17 - INFO     - AccueilVue
+06/11/2024 14:48:19 - INFO     - InscriptionVue
+06/11/2024 14:48:21 - INFO     - Pseudo : Raaaaa (length: 6)
+06/11/2024 14:48:21 - INFO     -     UtilisateurDao.lister_tous() - DEBUT
+06/11/2024 14:48:21 - INFO     -     UtilisateurDao.lister_tous() - FIN
+06/11/2024 14:48:21 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000001D12A5458D0>', '<business_object.utilisateur.Utilisateur object at 0x000001D12A5458A0>', '<business_object.utilisateur.Utilisateur object at 0x000001D12A545840>'] ... (9 elements)
+06/11/2024 14:48:26 - INFO     - Mot de passe haché : 9ec5e89f7aed6e43d5b04d006da3fa4716bf667d53e6e998195ce6b9089ea6d4 (length: 64)
+06/11/2024 14:48:26 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x000001D12A68EAA0>',) - DEBUT
+06/11/2024 14:48:26 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x000001D12A68EAA0>',) - FIN
+06/11/2024 14:48:26 - INFO     -        └─> Sortie : True
+06/11/2024 14:48:26 - INFO     - AccueilVue
+06/11/2024 14:48:27 - INFO     - InscriptionVue
+06/11/2024 14:48:31 - INFO     - Pseudo : Faaaaaaa (length: 8)
+06/11/2024 14:48:31 - INFO     -     UtilisateurDao.lister_tous() - DEBUT
+06/11/2024 14:48:31 - INFO     -     UtilisateurDao.lister_tous() - FIN
+06/11/2024 14:48:31 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000001D12A5CF730>', '<business_object.utilisateur.Utilisateur object at 0x000001D12A5CFE20>', '<business_object.utilisateur.Utilisateur object at 0x000001D12A5DE620>'] ... (10 elements)
+06/11/2024 14:48:41 - INFO     - Mot de passe haché : ba4dfa2f41ac4c1955409bc4c348cb85e006697893985ba5840f5074000442ff (length: 64)
+06/11/2024 14:48:41 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x000001D12A378190>',) - DEBUT
+06/11/2024 14:48:41 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x000001D12A378190>',) - FIN
+06/11/2024 14:48:41 - INFO     -        └─> Sortie : True
+06/11/2024 14:48:41 - INFO     - AccueilVue
+06/11/2024 14:48:43 - INFO     - InscriptionVue
+06/11/2024 14:48:46 - INFO     - Pseudo : Gaaaaa (length: 6)
+06/11/2024 14:48:46 - INFO     -     UtilisateurDao.lister_tous() - DEBUT
+06/11/2024 14:48:46 - INFO     -     UtilisateurDao.lister_tous() - FIN
+06/11/2024 14:48:46 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000001D129F54B20>', '<business_object.utilisateur.Utilisateur object at 0x000001D129F549D0>', '<business_object.utilisateur.Utilisateur object at 0x000001D129F56410>'] ... (11 elements)
+06/11/2024 14:48:57 - INFO     - Mot de passe haché : 8e92dee290f27605bd783e57b0beafe5f813ea4751e5628d4d5fbb9b52ea4c37 (length: 64)
+06/11/2024 14:48:57 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x000001D129E83C10>',) - DEBUT
+06/11/2024 14:48:57 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x000001D129E83C10>',) - FIN
+06/11/2024 14:48:57 - INFO     -        └─> Sortie : True
+06/11/2024 14:48:57 - INFO     - AccueilVue
+06/11/2024 14:49:00 - INFO     - ConnexionVue
+06/11/2024 14:49:06 - INFO     -     UtilisateurDao.se_connecter('Chamois03', '*****') - DEBUT
+06/11/2024 14:49:06 - INFO     -     UtilisateurDao.se_connecter('Chamois03', '*****') - FIN
+06/11/2024 14:49:06 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001D12A3941C0>
+06/11/2024 14:49:06 - INFO     - MenuUtilisateurVue
+06/11/2024 14:49:07 - INFO     - RechercheVue
+06/11/2024 14:49:09 - INFO     - RechercheUtilisateurVue
+06/11/2024 14:49:12 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - DEBUT
+06/11/2024 14:49:12 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - FIN
+06/11/2024 14:49:12 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000001D12A648370>', '<business_object.utilisateur.Utilisateur object at 0x000001D12A648130>', '<business_object.utilisateur.Utilisateur object at 0x000001D12A6485B0>'] ... (9 elements)
+06/11/2024 14:49:16 - INFO     - MenuUtilisateurVue
+06/11/2024 14:50:15 - INFO     - AccueilVue
+06/11/2024 14:50:17 - INFO     - Fin de l'application
+06/11/2024 14:53:54 - INFO     - --------------------------------------------------
+06/11/2024 14:53:54 - INFO     - Lancement Application
+06/11/2024 14:53:54 - INFO     - --------------------------------------------------
+06/11/2024 14:53:54 - INFO     - AccueilVue
+06/11/2024 14:54:10 - INFO     - ConnexionVue
+06/11/2024 14:54:19 - INFO     -     UtilisateurDao.se_connecter('Chamois03', '*****') - DEBUT
+06/11/2024 14:54:19 - INFO     -     UtilisateurDao.se_connecter('Chamois03', '*****') - FIN
+06/11/2024 14:54:19 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x00000172BF5D1C60>
+06/11/2024 14:54:19 - INFO     - MenuUtilisateurVue
+06/11/2024 14:54:20 - INFO     - RechercheVue
+06/11/2024 14:54:22 - INFO     - RechercheUtilisateurVue
+06/11/2024 14:54:24 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - DEBUT
+06/11/2024 14:54:24 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - FIN
+06/11/2024 14:54:24 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x00000172BF78C070>', '<business_object.utilisateur.Utilisateur object at 0x00000172BF741240>', '<business_object.utilisateur.Utilisateur object at 0x00000172BF7411E0>'] ... (9 elements)
+06/11/2024 14:54:29 - INFO     - MenuUtilisateurVue
+06/11/2024 14:54:31 - INFO     - RechercheVue
+06/11/2024 14:54:32 - INFO     - RechercheUtilisateurVue
+06/11/2024 14:54:35 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - DEBUT
+06/11/2024 14:54:35 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - FIN
+06/11/2024 14:54:35 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x00000172BFB2BE20>', '<business_object.utilisateur.Utilisateur object at 0x00000172BFB2BDF0>', '<business_object.utilisateur.Utilisateur object at 0x00000172BFB2BD60>'] ... (9 elements)
+06/11/2024 14:54:44 - INFO     - MenuUtilisateurVue
+06/11/2024 14:54:46 - INFO     - AccueilVue
+06/11/2024 14:54:47 - INFO     - Fin de l'application
+06/11/2024 14:56:10 - INFO     - --------------------------------------------------
+06/11/2024 14:56:10 - INFO     - Lancement Application
+06/11/2024 14:56:10 - INFO     - --------------------------------------------------
+06/11/2024 14:56:10 - INFO     - AccueilVue
+06/11/2024 14:56:11 - INFO     - ConnexionVue
+06/11/2024 14:56:16 - INFO     -     UtilisateurDao.se_connecter('Chamois03', '*****') - DEBUT
+06/11/2024 14:56:16 - INFO     -     UtilisateurDao.se_connecter('Chamois03', '*****') - FIN
+06/11/2024 14:56:16 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000002760DD85C60>
+06/11/2024 14:56:16 - INFO     - MenuUtilisateurVue
+06/11/2024 14:56:18 - INFO     - RechercheVue
+06/11/2024 14:56:19 - INFO     - RechercheUtilisateurVue
+06/11/2024 14:56:21 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - DEBUT
+06/11/2024 14:56:21 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - FIN
+06/11/2024 14:56:21 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000002760DF44070>', '<business_object.utilisateur.Utilisateur object at 0x000002760DEF51E0>', '<business_object.utilisateur.Utilisateur object at 0x000002760DEF5180>'] ... (9 elements)
+06/11/2024 14:56:23 - INFO     - MenuUtilisateurVue
+06/11/2024 14:56:27 - INFO     - RechercheVue
+06/11/2024 14:56:29 - INFO     - Fin de l'application
+06/11/2024 15:03:11 - INFO     - --------------------------------------------------
+06/11/2024 15:03:11 - INFO     - Lancement Application
+06/11/2024 15:03:11 - INFO     - --------------------------------------------------
+06/11/2024 15:03:11 - INFO     - AccueilVue
+06/11/2024 15:03:13 - INFO     - ConnexionVue
+06/11/2024 15:03:19 - INFO     -     UtilisateurDao.se_connecter('Chamois03', '*****') - DEBUT
+06/11/2024 15:03:19 - INFO     -     UtilisateurDao.se_connecter('Chamois03', '*****') - FIN
+06/11/2024 15:03:19 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000018EA8EC1C60>
+06/11/2024 15:03:19 - INFO     - MenuUtilisateurVue
+06/11/2024 15:03:20 - INFO     - RechercheVue
+06/11/2024 15:03:22 - INFO     - RechercheUtilisateurVue
+06/11/2024 15:03:25 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - DEBUT
+06/11/2024 15:03:25 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - FIN
+06/11/2024 15:03:25 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x0000018EA9031240>', '<business_object.utilisateur.Utilisateur object at 0x0000018EA9031210>', '<business_object.utilisateur.Utilisateur object at 0x0000018EA9031180>'] ... (9 elements)
+06/11/2024 15:03:29 - INFO     - MenuUtilisateurVue
+06/11/2024 15:03:32 - INFO     - AccueilVue
+06/11/2024 15:07:00 - INFO     - Fin de l'application
+06/11/2024 15:14:12 - INFO     - --------------------------------------------------
+06/11/2024 15:14:12 - INFO     - Lancement Application
+06/11/2024 15:14:12 - INFO     - --------------------------------------------------
+06/11/2024 15:14:12 - INFO     - AccueilVue
+06/11/2024 15:14:13 - INFO     - ConnexionVue
+06/11/2024 15:14:21 - INFO     -     UtilisateurDao.se_connecter('Chamois03', '*****') - DEBUT
+06/11/2024 15:14:22 - INFO     -     UtilisateurDao.se_connecter('Chamois03', '*****') - FIN
+06/11/2024 15:14:22 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x00000208516F1B40>
+06/11/2024 15:14:22 - INFO     - MenuUtilisateurVue
+06/11/2024 15:14:37 - INFO     - RechercheVue
+06/11/2024 15:14:39 - INFO     - RechercheUtilisateurVue
+06/11/2024 15:14:46 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - DEBUT
+06/11/2024 15:14:46 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - FIN
+06/11/2024 15:14:46 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x00000208518B52D0>', '<business_object.utilisateur.Utilisateur object at 0x00000208518B52A0>', '<business_object.utilisateur.Utilisateur object at 0x00000208518B5210>'] ... (9 elements)
+06/11/2024 15:14:50 - INFO     - MenuUtilisateurVue
+06/11/2024 15:15:28 - INFO     - AccueilVue
+06/11/2024 15:15:29 - INFO     - InscriptionVue
+06/11/2024 15:15:33 - INFO     - Pseudo : Paaaaa (length: 6)
+06/11/2024 15:15:33 - INFO     -     UtilisateurDao.lister_tous() - DEBUT
+06/11/2024 15:15:33 - INFO     -     UtilisateurDao.lister_tous() - FIN
+06/11/2024 15:15:33 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x0000020851BDBE20>', '<business_object.utilisateur.Utilisateur object at 0x0000020851BDBE80>', '<business_object.utilisateur.Utilisateur object at 0x0000020851BE81F0>'] ... (13 elements)
+06/11/2024 15:15:37 - INFO     - Mot de passe haché : e9a7cefbe5f0f70d44dfee0fd0ea88f2c56fc1e87eab113ae89ae64006d1b4a1 (length: 64)
+06/11/2024 15:15:37 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x0000020851CB7D90>',) - DEBUT
+06/11/2024 15:15:37 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x0000020851CB7D90>',) - FIN
+06/11/2024 15:15:37 - INFO     -        └─> Sortie : True
+06/11/2024 15:15:37 - INFO     - AccueilVue
+06/11/2024 15:15:39 - INFO     - InscriptionVue
+06/11/2024 15:15:42 - INFO     - Pseudo : Yaaaa (length: 5)
+06/11/2024 15:15:42 - INFO     -     UtilisateurDao.lister_tous() - DEBUT
+06/11/2024 15:15:42 - INFO     -     UtilisateurDao.lister_tous() - FIN
+06/11/2024 15:15:42 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x0000020851D80CD0>', '<business_object.utilisateur.Utilisateur object at 0x0000020851AF6290>', '<business_object.utilisateur.Utilisateur object at 0x000002085166DF60>'] ... (14 elements)
+06/11/2024 15:15:52 - INFO     - Mot de passe haché : e9f96827c28fa7160515dc7a26899c3f8b74826ab8b98159811243b995195b8b (length: 64)
+06/11/2024 15:15:52 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x0000020851D1F820>',) - DEBUT
+06/11/2024 15:15:52 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x0000020851D1F820>',) - FIN
+06/11/2024 15:15:52 - INFO     -        └─> Sortie : True
+06/11/2024 15:15:52 - INFO     - AccueilVue
+06/11/2024 15:15:54 - INFO     - InscriptionVue
+06/11/2024 15:15:58 - INFO     - Pseudo : Gaaaaa (length: 6)
+06/11/2024 15:15:58 - INFO     -     UtilisateurDao.lister_tous() - DEBUT
+06/11/2024 15:15:58 - INFO     -     UtilisateurDao.lister_tous() - FIN
+06/11/2024 15:15:58 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x0000020851BB8B50>', '<business_object.utilisateur.Utilisateur object at 0x0000020851BB80A0>', '<business_object.utilisateur.Utilisateur object at 0x0000020851BB88E0>'] ... (15 elements)
+06/11/2024 15:15:58 - INFO     - AccueilVue
+06/11/2024 15:16:03 - INFO     - InscriptionVue
+06/11/2024 15:16:05 - INFO     - Pseudo : Maaaa (length: 5)
+06/11/2024 15:16:05 - INFO     -     UtilisateurDao.lister_tous() - DEBUT
+06/11/2024 15:16:05 - INFO     -     UtilisateurDao.lister_tous() - FIN
+06/11/2024 15:16:05 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x0000020851FC0760>', '<business_object.utilisateur.Utilisateur object at 0x0000020851FC1120>', '<business_object.utilisateur.Utilisateur object at 0x0000020851FC0EE0>'] ... (15 elements)
+06/11/2024 15:16:09 - INFO     - Mot de passe haché : 0761a08bcf5d2ded4acb8c314f856bed1a7d719b635978ecf0fd4523800af659 (length: 64)
+06/11/2024 15:16:09 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x000002085209C040>',) - DEBUT
+06/11/2024 15:16:09 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x000002085209C040>',) - FIN
+06/11/2024 15:16:09 - INFO     -        └─> Sortie : True
+06/11/2024 15:16:09 - INFO     - AccueilVue
+06/11/2024 15:16:24 - INFO     - Fin de l'application
+06/11/2024 15:17:18 - INFO     - --------------------------------------------------
+06/11/2024 15:17:18 - INFO     - Lancement Application
+06/11/2024 15:17:18 - INFO     - --------------------------------------------------
+06/11/2024 15:17:18 - INFO     - AccueilVue
+06/11/2024 15:17:19 - INFO     - ConnexionVue
+06/11/2024 15:17:25 - INFO     -     UtilisateurDao.se_connecter('Chamois03', '*****') - DEBUT
+06/11/2024 15:17:25 - INFO     -     UtilisateurDao.se_connecter('Chamois03', '*****') - FIN
+06/11/2024 15:17:25 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000002097BAA5C30>
+06/11/2024 15:17:25 - INFO     - MenuUtilisateurVue
+06/11/2024 15:17:26 - INFO     - RechercheVue
+06/11/2024 15:17:29 - INFO     - RechercheUtilisateurVue
+06/11/2024 15:17:31 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - DEBUT
+06/11/2024 15:17:31 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - FIN
+06/11/2024 15:17:31 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000002097BC151B0>', '<business_object.utilisateur.Utilisateur object at 0x000002097BC151E0>', '<business_object.utilisateur.Utilisateur object at 0x000002097BC15150>'] ... (12 elements)
+06/11/2024 15:17:34 - INFO     - MenuUtilisateurVue
+06/11/2024 15:17:38 - INFO     - AccueilVue
+06/11/2024 15:17:40 - INFO     - Fin de l'application
+06/11/2024 15:18:09 - INFO     - --------------------------------------------------
+06/11/2024 15:18:09 - INFO     - Lancement Application
+06/11/2024 15:18:09 - INFO     - --------------------------------------------------
+06/11/2024 15:18:09 - INFO     - AccueilVue
+06/11/2024 15:18:10 - INFO     - ConnexionVue
+06/11/2024 15:18:16 - INFO     -     UtilisateurDao.se_connecter('Chamois03', '*****') - DEBUT
+06/11/2024 15:18:16 - INFO     -     UtilisateurDao.se_connecter('Chamois03', '*****') - FIN
+06/11/2024 15:18:16 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001D578E11C60>
+06/11/2024 15:18:16 - INFO     - MenuUtilisateurVue
+06/11/2024 15:18:17 - INFO     - RechercheVue
+06/11/2024 15:18:18 - INFO     - RechercheUtilisateurVue
+06/11/2024 15:18:21 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - DEBUT
+06/11/2024 15:18:21 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - FIN
+06/11/2024 15:18:21 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000001D578F812A0>', '<business_object.utilisateur.Utilisateur object at 0x000001D578F812D0>', '<business_object.utilisateur.Utilisateur object at 0x000001D578F81240>'] ... (12 elements)
+06/11/2024 15:18:33 - INFO     - MenuUtilisateurVue
+06/11/2024 15:18:35 - INFO     - RechercheVue
+06/11/2024 15:18:37 - INFO     - RechercheUtilisateurVue
+06/11/2024 15:18:41 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - DEBUT
+06/11/2024 15:18:41 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - FIN
+06/11/2024 15:18:41 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000001D579380850>', '<business_object.utilisateur.Utilisateur object at 0x000001D579380820>', '<business_object.utilisateur.Utilisateur object at 0x000001D579380790>'] ... (12 elements)
+06/11/2024 15:18:44 - INFO     - MenuUtilisateurVue
+06/11/2024 15:18:46 - INFO     - AccueilVue
+06/11/2024 15:18:47 - INFO     - Fin de l'application
+06/11/2024 15:25:21 - INFO     - --------------------------------------------------
+06/11/2024 15:25:21 - INFO     - Lancement Application
+06/11/2024 15:25:21 - INFO     - --------------------------------------------------
+06/11/2024 15:25:21 - INFO     - AccueilVue
+06/11/2024 15:25:23 - INFO     - ConnexionVue
+06/11/2024 15:25:29 - INFO     -     UtilisateurDao.se_connecter('Chamois03', '*****') - DEBUT
+06/11/2024 15:25:29 - INFO     -     UtilisateurDao.se_connecter('Chamois03', '*****') - FIN
+06/11/2024 15:25:29 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000021EBC545C30>
+06/11/2024 15:25:29 - INFO     - MenuUtilisateurVue
+06/11/2024 15:25:30 - INFO     - RechercheVue
+06/11/2024 15:25:31 - INFO     - RechercheUtilisateurVue
+06/11/2024 15:25:33 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - DEBUT
+06/11/2024 15:25:33 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - FIN
+06/11/2024 15:25:33 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x0000021EBC6B5210>', '<business_object.utilisateur.Utilisateur object at 0x0000021EBC6B5240>', '<business_object.utilisateur.Utilisateur object at 0x0000021EBC6B51B0>'] ... (12 elements)
+06/11/2024 15:25:36 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - DEBUT
+06/11/2024 15:25:36 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - FIN
+06/11/2024 15:25:36 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x0000021EBC780820>', '<business_object.utilisateur.Utilisateur object at 0x0000021EBC7807F0>', '<business_object.utilisateur.Utilisateur object at 0x0000021EBC780520>'] ... (12 elements)
+06/11/2024 15:25:38 - INFO     - MenuUtilisateurVue
+06/11/2024 15:25:40 - INFO     - expected an indented block after class definition on line 1 (collection_coherente_vue.py, line 1)
+06/11/2024 15:25:40 - INFO     - AccueilVue
+06/11/2024 15:25:42 - INFO     - Fin de l'application
+06/11/2024 15:26:23 - INFO     - --------------------------------------------------
+06/11/2024 15:26:23 - INFO     - Lancement Application
+06/11/2024 15:26:23 - INFO     - --------------------------------------------------
+06/11/2024 15:26:23 - INFO     - AccueilVue
+06/11/2024 15:26:28 - INFO     - ConnexionVue
+06/11/2024 15:26:34 - INFO     -     UtilisateurDao.se_connecter('Chamois03', '*****') - DEBUT
+06/11/2024 15:26:34 - INFO     -     UtilisateurDao.se_connecter('Chamois03', '*****') - FIN
+06/11/2024 15:26:34 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000002ED9FED1C60>
+06/11/2024 15:26:34 - INFO     - MenuUtilisateurVue
+06/11/2024 15:26:36 - INFO     - RechercheVue
+06/11/2024 15:26:38 - INFO     - RechercheMangaVue
+06/11/2024 15:26:42 - INFO     - Débogage : requête exécutée avec succès.
+06/11/2024 15:26:44 - INFO     - MenuUtilisateurVue
+06/11/2024 15:26:46 - INFO     - RechercheVue
+06/11/2024 15:26:48 - INFO     - RechercheUtilisateurVue
+06/11/2024 15:26:50 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - DEBUT
+06/11/2024 15:26:50 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - FIN
+06/11/2024 15:26:50 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000002EDA042FB80>', '<business_object.utilisateur.Utilisateur object at 0x000002EDA042FB50>', '<business_object.utilisateur.Utilisateur object at 0x000002EDA042FAC0>'] ... (12 elements)
+06/11/2024 15:26:56 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - DEBUT
+06/11/2024 15:26:56 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - FIN
+06/11/2024 15:26:56 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000002EDA0547970>', '<business_object.utilisateur.Utilisateur object at 0x000002EDA04E6F20>', '<business_object.utilisateur.Utilisateur object at 0x000002EDA04E6C50>'] ... (12 elements)
+06/11/2024 15:26:58 - INFO     - MenuUtilisateurVue
+06/11/2024 15:27:03 - INFO     - RechercheVue
+06/11/2024 15:27:04 - INFO     - RechercheUtilisateurVue
+06/11/2024 15:27:06 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - DEBUT
+06/11/2024 15:27:06 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - FIN
+06/11/2024 15:27:06 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000002EDA06F8940>', '<business_object.utilisateur.Utilisateur object at 0x000002EDA06F8910>', '<business_object.utilisateur.Utilisateur object at 0x000002EDA06F8880>'] ... (12 elements)
+06/11/2024 15:27:08 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - DEBUT
+06/11/2024 15:27:08 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - FIN
+06/11/2024 15:27:08 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000002EDA07AFDF0>', '<business_object.utilisateur.Utilisateur object at 0x000002EDA07AFD90>', '<business_object.utilisateur.Utilisateur object at 0x000002EDA07B80A0>'] ... (12 elements)
+06/11/2024 15:27:10 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - DEBUT
+06/11/2024 15:27:10 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - FIN
+06/11/2024 15:27:10 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000002EDA087BFA0>', '<business_object.utilisateur.Utilisateur object at 0x000002EDA087BD00>', '<business_object.utilisateur.Utilisateur object at 0x000002EDA087BF70>'] ... (12 elements)
+06/11/2024 15:27:10 - INFO     - 'str' object has no attribute 'extend'
+06/11/2024 15:27:10 - INFO     - AccueilVue
+06/11/2024 15:27:11 - INFO     - Fin de l'application
+06/11/2024 15:27:41 - INFO     - --------------------------------------------------
+06/11/2024 15:27:41 - INFO     - Lancement Application
+06/11/2024 15:27:41 - INFO     - --------------------------------------------------
+06/11/2024 15:27:41 - INFO     - AccueilVue
+06/11/2024 15:27:44 - INFO     - ConnexionVue
+06/11/2024 15:27:51 - INFO     -     UtilisateurDao.se_connecter('Chamois03', '*****') - DEBUT
+06/11/2024 15:27:51 - INFO     -     UtilisateurDao.se_connecter('Chamois03', '*****') - FIN
+06/11/2024 15:27:51 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000002845CD05E70>
+06/11/2024 15:27:51 - INFO     - MenuUtilisateurVue
+06/11/2024 15:27:52 - INFO     - RechercheVue
+06/11/2024 15:28:03 - INFO     - RechercheUtilisateurVue
+06/11/2024 15:28:05 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - DEBUT
+06/11/2024 15:28:05 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - FIN
+06/11/2024 15:28:05 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000002845CE71300>', '<business_object.utilisateur.Utilisateur object at 0x000002845CE71330>', '<business_object.utilisateur.Utilisateur object at 0x000002845CE712A0>'] ... (12 elements)
+06/11/2024 15:28:08 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - DEBUT
+06/11/2024 15:28:08 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - FIN
+06/11/2024 15:28:08 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000002845CF8C310>', '<business_object.utilisateur.Utilisateur object at 0x000002845CF8C220>', '<business_object.utilisateur.Utilisateur object at 0x000002845CF3C730>'] ... (12 elements)
+06/11/2024 15:28:12 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - DEBUT
+06/11/2024 15:28:12 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - FIN
+06/11/2024 15:28:12 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000002845D014310>', '<business_object.utilisateur.Utilisateur object at 0x000002845D0142E0>', '<business_object.utilisateur.Utilisateur object at 0x000002845D014E50>'] ... (12 elements)
+06/11/2024 15:28:12 - INFO     - 'str' object has no attribute 'extend'
+06/11/2024 15:28:12 - INFO     - AccueilVue
+06/11/2024 15:28:15 - INFO     - Fin de l'application
+06/11/2024 15:35:46 - INFO     - --------------------------------------------------
+06/11/2024 15:35:46 - INFO     - Lancement Application
+06/11/2024 15:35:46 - INFO     - --------------------------------------------------
+06/11/2024 15:35:46 - INFO     - AccueilVue
+06/11/2024 15:35:55 - INFO     - ConnexionVue
+06/11/2024 15:36:00 - INFO     -     UtilisateurDao.se_connecter('Chamois03', '*****') - DEBUT
+06/11/2024 15:36:00 - INFO     -     UtilisateurDao.se_connecter('Chamois03', '*****') - FIN
+06/11/2024 15:36:00 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001D24452DF00>
+06/11/2024 15:36:00 - INFO     - MenuUtilisateurVue
+06/11/2024 15:36:01 - INFO     - RechercheVue
+06/11/2024 15:36:17 - INFO     - RechercheUtilisateurVue
+06/11/2024 15:36:19 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - DEBUT
+06/11/2024 15:36:19 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - FIN
+06/11/2024 15:36:19 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000001D244695480>', '<business_object.utilisateur.Utilisateur object at 0x000001D2446954B0>', '<business_object.utilisateur.Utilisateur object at 0x000001D244695420>'] ... (12 elements)
+06/11/2024 15:36:19 - INFO     - 'tuple' object has no attribute 'extend'
+06/11/2024 15:36:19 - INFO     - AccueilVue
+06/11/2024 15:36:20 - INFO     - Fin de l'application
+06/11/2024 16:16:39 - INFO     - --------------------------------------------------
+06/11/2024 16:16:39 - INFO     - Lancement Application
+06/11/2024 16:16:39 - INFO     - --------------------------------------------------
+06/11/2024 16:16:39 - INFO     - AccueilVue
+06/11/2024 16:16:41 - INFO     - ConnexionVue
+06/11/2024 16:16:48 - INFO     -     UtilisateurDao.se_connecter('Chamois03', '*****') - DEBUT
+06/11/2024 16:16:48 - INFO     -     UtilisateurDao.se_connecter('Chamois03', '*****') - FIN
+06/11/2024 16:16:48 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001BA4E621C60>
+06/11/2024 16:16:48 - INFO     - MenuUtilisateurVue
+06/11/2024 16:16:49 - INFO     - RechercheVue
+06/11/2024 16:16:52 - INFO     - RechercheUtilisateurVue
+06/11/2024 16:16:53 - INFO     - RechercheService.recherche_utilisateur() missing 1 required positional argument: 'a'
+06/11/2024 16:16:53 - INFO     - AccueilVue
+06/11/2024 16:16:55 - INFO     - Fin de l'application
+06/11/2024 16:17:34 - INFO     - --------------------------------------------------
+06/11/2024 16:17:34 - INFO     - Lancement Application
+06/11/2024 16:17:34 - INFO     - --------------------------------------------------
+06/11/2024 16:17:34 - INFO     - AccueilVue
+06/11/2024 16:17:35 - INFO     - ConnexionVue
+06/11/2024 16:17:41 - INFO     -     UtilisateurDao.se_connecter('Chamois03', '*****') - DEBUT
+06/11/2024 16:17:41 - INFO     -     UtilisateurDao.se_connecter('Chamois03', '*****') - FIN
+06/11/2024 16:17:41 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000022AD8171C60>
+06/11/2024 16:17:41 - INFO     - MenuUtilisateurVue
+06/11/2024 16:17:42 - INFO     - RechercheVue
+06/11/2024 16:17:44 - INFO     - RechercheUtilisateurVue
+06/11/2024 16:17:46 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - DEBUT
+06/11/2024 16:17:46 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - FIN
+06/11/2024 16:17:46 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x0000022AD82E1240>', '<business_object.utilisateur.Utilisateur object at 0x0000022AD82E1210>', '<business_object.utilisateur.Utilisateur object at 0x0000022AD82E1180>'] ... (12 elements)
+06/11/2024 16:17:46 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - DEBUT
+06/11/2024 16:17:46 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - FIN
+06/11/2024 16:17:46 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x0000022AD82E11B0>', '<business_object.utilisateur.Utilisateur object at 0x0000022AD82E1210>', '<business_object.utilisateur.Utilisateur object at 0x0000022AD82E2020>'] ... (12 elements)
+06/11/2024 16:17:46 - INFO     - 'sous_liste'
+06/11/2024 16:17:46 - INFO     - AccueilVue
+06/11/2024 16:17:48 - INFO     - Fin de l'application
+06/11/2024 16:18:28 - INFO     - --------------------------------------------------
+06/11/2024 16:18:28 - INFO     - Lancement Application
+06/11/2024 16:18:28 - INFO     - --------------------------------------------------
+06/11/2024 16:18:28 - INFO     - AccueilVue
+06/11/2024 16:18:29 - INFO     - ConnexionVue
+06/11/2024 16:18:35 - INFO     -     UtilisateurDao.se_connecter('Chamois03', '*****') - DEBUT
+06/11/2024 16:18:35 - INFO     -     UtilisateurDao.se_connecter('Chamois03', '*****') - FIN
+06/11/2024 16:18:35 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000023E58C91C30>
+06/11/2024 16:18:35 - INFO     - MenuUtilisateurVue
+06/11/2024 16:18:36 - INFO     - RechercheVue
+06/11/2024 16:18:38 - INFO     - RechercheUtilisateurVue
+06/11/2024 16:18:39 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - DEBUT
+06/11/2024 16:18:39 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - FIN
+06/11/2024 16:18:39 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x0000023E58E05240>', '<business_object.utilisateur.Utilisateur object at 0x0000023E58E05270>', '<business_object.utilisateur.Utilisateur object at 0x0000023E58E051E0>'] ... (12 elements)
+06/11/2024 16:18:39 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - DEBUT
+06/11/2024 16:18:39 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - FIN
+06/11/2024 16:18:39 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x0000023E58E05210>', '<business_object.utilisateur.Utilisateur object at 0x0000023E58E05240>', '<business_object.utilisateur.Utilisateur object at 0x0000023E58E051B0>'] ... (12 elements)
+06/11/2024 16:18:44 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - DEBUT
+06/11/2024 16:18:44 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - FIN
+06/11/2024 16:18:44 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x0000023E58ECC670>', '<business_object.utilisateur.Utilisateur object at 0x0000023E58ECC640>', '<business_object.utilisateur.Utilisateur object at 0x0000023E58ECC370>'] ... (12 elements)
+06/11/2024 16:18:55 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - DEBUT
+06/11/2024 16:18:55 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - FIN
+06/11/2024 16:18:55 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x0000023E59022200>', '<business_object.utilisateur.Utilisateur object at 0x0000023E59022EC0>', '<business_object.utilisateur.Utilisateur object at 0x0000023E59022B00>'] ... (12 elements)
+06/11/2024 16:18:57 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - DEBUT
+06/11/2024 16:18:57 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - FIN
+06/11/2024 16:18:57 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x0000023E59080BE0>', '<business_object.utilisateur.Utilisateur object at 0x0000023E59080BB0>', '<business_object.utilisateur.Utilisateur object at 0x0000023E590808E0>'] ... (12 elements)
+06/11/2024 16:19:02 - INFO     - MenuUtilisateurVue
+06/11/2024 16:19:04 - INFO     - AccueilVue
+06/11/2024 16:19:05 - INFO     - Fin de l'application
+06/11/2024 16:22:45 - INFO     - --------------------------------------------------
+06/11/2024 16:22:45 - INFO     - Lancement Application
+06/11/2024 16:22:45 - INFO     - --------------------------------------------------
+06/11/2024 16:22:45 - INFO     - AccueilVue
+06/11/2024 16:22:46 - INFO     - ConnexionVue
+06/11/2024 16:22:52 - INFO     -     UtilisateurDao.se_connecter('Chamois03', '*****') - DEBUT
+06/11/2024 16:22:52 - INFO     -     UtilisateurDao.se_connecter('Chamois03', '*****') - FIN
+06/11/2024 16:22:52 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001FCC97D1C60>
+06/11/2024 16:22:52 - INFO     - MenuUtilisateurVue
+06/11/2024 16:22:53 - INFO     - RechercheVue
+06/11/2024 16:22:55 - INFO     - RechercheUtilisateurVue
+06/11/2024 16:23:00 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - DEBUT
+06/11/2024 16:23:00 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - FIN
+06/11/2024 16:23:00 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000001FCC998C040>', '<business_object.utilisateur.Utilisateur object at 0x000001FCC9941270>', '<business_object.utilisateur.Utilisateur object at 0x000001FCC9941210>'] ... (12 elements)
+06/11/2024 16:23:00 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - DEBUT
+06/11/2024 16:23:00 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - FIN
+06/11/2024 16:23:00 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000001FCC998C0A0>', '<business_object.utilisateur.Utilisateur object at 0x000001FCC9941240>', '<business_object.utilisateur.Utilisateur object at 0x000001FCC99411E0>'] ... (12 elements)
+06/11/2024 16:23:04 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - DEBUT
+06/11/2024 16:23:04 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - FIN
+06/11/2024 16:23:04 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000001FCC9A08640>', '<business_object.utilisateur.Utilisateur object at 0x000001FCC9A083A0>', '<business_object.utilisateur.Utilisateur object at 0x000001FCC9A091B0>'] ... (12 elements)
+06/11/2024 16:23:09 - INFO     - list.remove(x): x not in list
+06/11/2024 16:23:09 - INFO     - AccueilVue
+06/11/2024 16:23:11 - INFO     - Fin de l'application
+06/11/2024 16:23:38 - INFO     - --------------------------------------------------
+06/11/2024 16:23:38 - INFO     - Lancement Application
+06/11/2024 16:23:38 - INFO     - --------------------------------------------------
+06/11/2024 16:23:38 - INFO     - AccueilVue
+06/11/2024 16:23:39 - INFO     - ConnexionVue
+06/11/2024 16:23:46 - INFO     -     UtilisateurDao.se_connecter('Chamois03', '*****') - DEBUT
+06/11/2024 16:23:46 - INFO     -     UtilisateurDao.se_connecter('Chamois03', '*****') - FIN
+06/11/2024 16:23:46 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x00000211FC8C5C30>
+06/11/2024 16:23:46 - INFO     - MenuUtilisateurVue
+06/11/2024 16:23:47 - INFO     - RechercheVue
+06/11/2024 16:23:48 - INFO     - RechercheUtilisateurVue
+06/11/2024 16:23:50 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - DEBUT
+06/11/2024 16:23:50 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - FIN
+06/11/2024 16:23:50 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x00000211FCA35240>', '<business_object.utilisateur.Utilisateur object at 0x00000211FCA35270>', '<business_object.utilisateur.Utilisateur object at 0x00000211FCA351E0>'] ... (12 elements)
+06/11/2024 16:23:50 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - DEBUT
+06/11/2024 16:23:50 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - FIN
+06/11/2024 16:23:50 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x00000211FCA35210>', '<business_object.utilisateur.Utilisateur object at 0x00000211FCA35240>', '<business_object.utilisateur.Utilisateur object at 0x00000211FCA351B0>'] ... (12 elements)
+06/11/2024 16:23:54 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - DEBUT
+06/11/2024 16:23:54 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - FIN
+06/11/2024 16:23:54 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x00000211FCAFC670>', '<business_object.utilisateur.Utilisateur object at 0x00000211FCAFC640>', '<business_object.utilisateur.Utilisateur object at 0x00000211FCAFC370>'] ... (12 elements)
+06/11/2024 16:23:54 - INFO     - list.remove(x): x not in list
+06/11/2024 16:23:54 - INFO     - AccueilVue
+06/11/2024 16:23:58 - INFO     - Fin de l'application
+06/11/2024 16:24:07 - INFO     - --------------------------------------------------
+06/11/2024 16:24:07 - INFO     - Lancement Application
+06/11/2024 16:24:07 - INFO     - --------------------------------------------------
+06/11/2024 16:24:07 - INFO     - AccueilVue
+06/11/2024 16:24:08 - INFO     - ConnexionVue
+06/11/2024 16:24:15 - INFO     -     UtilisateurDao.se_connecter('Chamois03', '*****') - DEBUT
+06/11/2024 16:24:15 - INFO     -     UtilisateurDao.se_connecter('Chamois03', '*****') - FIN
+06/11/2024 16:24:15 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000027CC9301C60>
+06/11/2024 16:24:15 - INFO     - MenuUtilisateurVue
+06/11/2024 16:24:17 - INFO     - RechercheVue
+06/11/2024 16:24:28 - INFO     - RechercheUtilisateurVue
+06/11/2024 16:24:30 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - DEBUT
+06/11/2024 16:24:30 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - FIN
+06/11/2024 16:24:30 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x0000027CC94C81C0>', '<business_object.utilisateur.Utilisateur object at 0x0000027CC9475300>', '<business_object.utilisateur.Utilisateur object at 0x0000027CC94752A0>'] ... (12 elements)
+06/11/2024 16:24:30 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - DEBUT
+06/11/2024 16:24:30 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - FIN
+06/11/2024 16:24:30 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x0000027CC94C8100>', '<business_object.utilisateur.Utilisateur object at 0x0000027CC94752D0>', '<business_object.utilisateur.Utilisateur object at 0x0000027CC9475270>'] ... (12 elements)
+06/11/2024 16:24:46 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - DEBUT
+06/11/2024 16:24:46 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - FIN
+06/11/2024 16:24:46 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x0000027CC953C700>', '<business_object.utilisateur.Utilisateur object at 0x0000027CC953C6D0>', '<business_object.utilisateur.Utilisateur object at 0x0000027CC953C400>'] ... (12 elements)
+06/11/2024 16:24:46 - INFO     - list.remove(x): x not in list
+06/11/2024 16:24:46 - INFO     - AccueilVue
+06/11/2024 16:24:47 - INFO     - Fin de l'application
+06/11/2024 16:26:20 - INFO     - --------------------------------------------------
+06/11/2024 16:26:20 - INFO     - Lancement Application
+06/11/2024 16:26:20 - INFO     - --------------------------------------------------
+06/11/2024 16:26:20 - INFO     - AccueilVue
+06/11/2024 16:26:22 - INFO     - ConnexionVue
+06/11/2024 16:26:28 - INFO     -     UtilisateurDao.se_connecter('Chamois03', '*****') - DEBUT
+06/11/2024 16:26:29 - INFO     -     UtilisateurDao.se_connecter('Chamois03', '*****') - FIN
+06/11/2024 16:26:29 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x00000142A1365EA0>
+06/11/2024 16:26:29 - INFO     - MenuUtilisateurVue
+06/11/2024 16:26:30 - INFO     - RechercheVue
+06/11/2024 16:26:31 - INFO     - RechercheUtilisateurVue
+06/11/2024 16:26:33 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - DEBUT
+06/11/2024 16:26:33 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - FIN
+06/11/2024 16:26:33 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x00000142A14D5390>', '<business_object.utilisateur.Utilisateur object at 0x00000142A14D53C0>', '<business_object.utilisateur.Utilisateur object at 0x00000142A14D5330>'] ... (12 elements)
+06/11/2024 16:26:33 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - DEBUT
+06/11/2024 16:26:33 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - FIN
+06/11/2024 16:26:33 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x00000142A14D5360>', '<business_object.utilisateur.Utilisateur object at 0x00000142A14D5390>', '<business_object.utilisateur.Utilisateur object at 0x00000142A14D5300>'] ... (12 elements)
+06/11/2024 16:26:39 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - DEBUT
+06/11/2024 16:26:39 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - FIN
+06/11/2024 16:26:39 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x00000142A159C790>', '<business_object.utilisateur.Utilisateur object at 0x00000142A159C7C0>', '<business_object.utilisateur.Utilisateur object at 0x00000142A159C520>'] ... (12 elements)
+06/11/2024 16:26:43 - INFO     - MenuUtilisateurVue
+06/11/2024 16:26:45 - INFO     - AccueilVue
+06/11/2024 16:26:47 - INFO     - Fin de l'application
+06/11/2024 16:31:39 - INFO     - --------------------------------------------------
+06/11/2024 16:31:39 - INFO     - Lancement Application
+06/11/2024 16:31:39 - INFO     - --------------------------------------------------
+06/11/2024 16:31:39 - INFO     - AccueilVue
+06/11/2024 16:31:43 - INFO     - ConnexionVue
+06/11/2024 16:31:50 - INFO     -     UtilisateurDao.se_connecter('Chamois03', '*****') - DEBUT
+06/11/2024 16:31:50 - INFO     -     UtilisateurDao.se_connecter('Chamois03', '*****') - FIN
+06/11/2024 16:31:50 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000002B6AF071C60>
+06/11/2024 16:31:50 - INFO     - MenuUtilisateurVue
+06/11/2024 16:31:52 - INFO     - RechercheVue
+06/11/2024 16:31:54 - INFO     - RechercheUtilisateurVue
+06/11/2024 16:31:56 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - DEBUT
+06/11/2024 16:31:56 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - FIN
+06/11/2024 16:31:56 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000002B6AF1E1240>', '<business_object.utilisateur.Utilisateur object at 0x000002B6AF1E1270>', '<business_object.utilisateur.Utilisateur object at 0x000002B6AF1E11E0>'] ... (12 elements)
+06/11/2024 16:31:56 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - DEBUT
+06/11/2024 16:31:56 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - FIN
+06/11/2024 16:31:56 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000002B6AF1E1210>', '<business_object.utilisateur.Utilisateur object at 0x000002B6AF1E1240>', '<business_object.utilisateur.Utilisateur object at 0x000002B6AF1E11B0>'] ... (12 elements)
+06/11/2024 16:32:00 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - DEBUT
+06/11/2024 16:32:00 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - FIN
+06/11/2024 16:32:00 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000002B6AF2A8640>', '<business_object.utilisateur.Utilisateur object at 0x000002B6AF2A8670>', '<business_object.utilisateur.Utilisateur object at 0x000002B6AF2A83D0>'] ... (12 elements)
+06/11/2024 16:32:34 - INFO     - RechercheVue
+06/11/2024 16:32:35 - INFO     - RechercheUtilisateurVue
+06/11/2024 16:32:38 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - DEBUT
+06/11/2024 16:32:38 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - FIN
+06/11/2024 16:32:38 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000002B6AF6ED0F0>', '<business_object.utilisateur.Utilisateur object at 0x000002B6AF6ED0C0>', '<business_object.utilisateur.Utilisateur object at 0x000002B6AF6EDBD0>'] ... (12 elements)
+06/11/2024 16:32:38 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - DEBUT
+06/11/2024 16:32:38 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - FIN
+06/11/2024 16:32:38 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000002B6AF6ED060>', '<business_object.utilisateur.Utilisateur object at 0x000002B6AF6ED0C0>', '<business_object.utilisateur.Utilisateur object at 0x000002B6AF6EDF30>'] ... (12 elements)
+06/11/2024 16:32:41 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - DEBUT
+06/11/2024 16:32:41 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - FIN
+06/11/2024 16:32:41 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000002B6AF24B910>', '<business_object.utilisateur.Utilisateur object at 0x000002B6AF24A020>', '<business_object.utilisateur.Utilisateur object at 0x000002B6AF2493C0>'] ... (12 elements)
+06/11/2024 16:32:48 - INFO     - MenuUtilisateurVue
+06/11/2024 16:32:49 - INFO     - expected an indented block after class definition on line 1 (collection_coherente_vue.py, line 1)
+06/11/2024 16:32:49 - INFO     - AccueilVue
+06/11/2024 16:32:50 - INFO     - Fin de l'application
+06/11/2024 16:33:43 - INFO     - --------------------------------------------------
+06/11/2024 16:33:43 - INFO     - Lancement Application
+06/11/2024 16:33:43 - INFO     - --------------------------------------------------
+06/11/2024 16:33:43 - INFO     - AccueilVue
+06/11/2024 16:33:44 - INFO     - ConnexionVue
+06/11/2024 16:33:54 - INFO     -     UtilisateurDao.se_connecter('Chamois03', '*****') - DEBUT
+06/11/2024 16:33:54 - INFO     -     UtilisateurDao.se_connecter('Chamois03', '*****') - FIN
+06/11/2024 16:33:54 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000002000543B700>
+06/11/2024 16:33:54 - INFO     - MenuUtilisateurVue
+06/11/2024 16:33:56 - INFO     - RechercheVue
+06/11/2024 16:34:01 - INFO     - RechercheUtilisateurVue
+06/11/2024 16:34:02 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - DEBUT
+06/11/2024 16:34:02 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - FIN
+06/11/2024 16:34:02 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x00000200055352A0>', '<business_object.utilisateur.Utilisateur object at 0x00000200055352D0>', '<business_object.utilisateur.Utilisateur object at 0x0000020005535240>'] ... (12 elements)
+06/11/2024 16:34:02 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - DEBUT
+06/11/2024 16:34:02 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - FIN
+06/11/2024 16:34:02 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x0000020005535270>', '<business_object.utilisateur.Utilisateur object at 0x00000200055352A0>', '<business_object.utilisateur.Utilisateur object at 0x0000020005535210>'] ... (12 elements)
+06/11/2024 16:34:05 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - DEBUT
+06/11/2024 16:34:05 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - FIN
+06/11/2024 16:34:05 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x00000200056501C0>', '<business_object.utilisateur.Utilisateur object at 0x0000020005650220>', '<business_object.utilisateur.Utilisateur object at 0x0000020005650280>'] ... (12 elements)
+06/11/2024 16:34:07 - INFO     - MenuUtilisateurVue
+06/11/2024 16:34:10 - INFO     - AccueilVue
+06/11/2024 16:34:13 - INFO     - Fin de l'application

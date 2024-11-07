@@ -1,5 +1,5 @@
 from InquirerPy import inquirer
-
+import logging
 from vues.vue_abstraite import VueAbstraite
 from vues.session import Session
 
@@ -44,8 +44,9 @@ class RechercheUtilisateurVue(VueAbstraite):
                 long = RechercheService().recherche_utilisateur(pseudo, n, a)["longueur"]
                 res_entier = (long // 8)
                 res_reste = long % 8
+                logging.info(f"res_entier : {res_entier}, res_reste : {res_reste}")
 
-                while n >= 0:
+                while True:
                     choix2 = RechercheService().recherche_utilisateur(pseudo, n, a)["liste"]
 
                     if not choix2:
@@ -74,6 +75,7 @@ class RechercheUtilisateurVue(VueAbstraite):
                         if res_entier == 0 and res_reste != 0:
                             n = n + 8
                             a = res_reste - 8
+                        logging.info(f"res_entier : {res_entier}, res_reste : {res_reste}")
 
                     elif choix3 == "Afficher la page précédente":
                         if res_entier == 0:
@@ -82,6 +84,7 @@ class RechercheUtilisateurVue(VueAbstraite):
                         if res_entier != 0 and res_reste == 0:
                             n = n - 8
                             a = res_reste + 8
+                        logging.info(f"res_entier : {res_entier}, res_reste : {res_reste}")
 
                     else:
                         n = -1
