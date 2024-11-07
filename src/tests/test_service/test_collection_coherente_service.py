@@ -31,23 +31,24 @@ def manga():
         id_manga=1,
         titre="Naruto",
         synopsis="L'histoire de Naruto",
-        auteurs=["Masashi Kishimoto"],
-        genres=["Action", "Aventure"],
-        statut="En cours"
+        auteur=["Masashi Kishimoto"],
+        themes=["Aventures", "Action", "Fantasie"],
+        genre=["Action", "Aventure"],
     )
 
 
 def test_creer_collectioncohe(collection_coherente_service):
     """Test de la création d'une collection cohérente"""
-    # Préparer le mock pour la méthode DAO
-    collection_coherente_service.dao.CollectionCoherenteDAO.créer_collection.return_value = True
+    # Mock du DAO
+    collection_coherente_service.dao = MagicMock()
+    collection_coherente_service.dao.creer_collectioncohe.return_value = True
 
-    # Appeler la méthode du service
+    # Appel de la méthode du service
     result = collection_coherente_service.creer_collectioncohe("Ma Collection", "Description")
 
-    # Vérification
+    # Vérifications
     assert result is not None  # La collection doit être créée
-    collection_coherente_service.dao.CollectionCoherenteDAO.créer_collection.assert_called_once()
+    collection_coherente_service.dao.creer_collectioncohe.assert_called_once()
 
 
 def test_supprimer_collectioncohe(collection_coherente_service, collection_coherente):

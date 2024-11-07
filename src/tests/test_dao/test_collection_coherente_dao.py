@@ -1,7 +1,7 @@
 import pytest
 from unittest.mock import patch
 from dao.collection_coherente_dao import CollectionCoherenteDAO
-from business_object.collection_coherente import CollectionCoherente
+from business_object.CollectionCoherente import CollectionCoherente
 from business_object.manga import Manga
 
 
