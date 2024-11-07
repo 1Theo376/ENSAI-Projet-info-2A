@@ -5,6 +5,7 @@ from dao.manga_dao import MangaDao
 from service.avis_service import AvisService
 from vues.session import Session
 import logging
+from dao.avis_dao import AvisDAO
 
 
 class AjouterAvisVuerecherche(VueAbstraite):
@@ -17,6 +18,9 @@ class AjouterAvisVuerecherche(VueAbstraite):
             Retourne la vue choisie par l'utilisateur dans le terminal
         """
         manga = MangaDao().trouver_manga_par_titre(choix3)
+        if AvisDAO().AvisUtilisateurMangaExistant(Session().utilisateur.id, manga.id_manga):
+            from vues.Selection_manga_vue_recherche import SelectionMangaVuerecherche
+            SelectionMangaVuerecherche("Vous avez déjà donné un avis sur ce manga.").choisir_menu(choix3)
         print("\n" + "-" * 50 + "\nManga :", manga.titre, " \n" + "-" * 50 + "\n")
         avis = inquirer.text(
                                     message="Entrer votre avis sur ce manga : "
@@ -32,4 +36,5 @@ class AjouterAvisVuerecherche(VueAbstraite):
                                 )
         logging.info(f"Avis : {aviscreer}")
         from vues.Selection_manga_vue_recherche import SelectionMangaVuerecherche
-        SelectionMangaVuerecherche("Avis crée avec succés").choisir_menu(choix3)
+        message = "Avis crée avec succés"
+        SelectionMangaVuerecherche(message).choisir_menu(choix3)

@@ -254,3 +254,21 @@ class AvisDAO:
             logging.info(e)
             raise
         return avis_liste
+
+    def AvisUtilisateurMangaExistant(self, id_utilisateur, id_manga):
+        """Vérifie si l'utiliosateur a déjà fait un avis sur ce manga"""
+        try:
+            with DBConnection().connection as connection:
+                with connection.cursor() as cursor:
+                    cursor.execute(
+                        "SELECT * FROM avis WHERE id_utilisateur = %(id_utilisateur)s and id_manga =%(id_manga)s;",
+                        {"id_utilisateur": id_utilisateur, "id_manga": id_manga},
+                    )
+                    res = cursor.fetchone()
+        except Exception as e:
+            logging.info(e)
+            raise
+        exist = False
+        if res:
+            exist = True
+        return exist
