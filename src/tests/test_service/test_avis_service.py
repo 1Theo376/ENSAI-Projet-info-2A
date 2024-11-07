@@ -29,7 +29,6 @@ def test_rediger_avis(avis_service):
     result = avis_service.rediger_avis(texte, id_avis=1, id_user=1, id_manga=1)
 
     # Vérification
-    assert result is not None  # Un nouvel avis doit être créé
     assert result.texte == texte  # Le texte de l'avis doit être celui passé en paramètre
 
 

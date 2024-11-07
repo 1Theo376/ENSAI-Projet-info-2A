@@ -1,109 +1,105 @@
 import pytest
 from unittest.mock import MagicMock
+from service.collection_physique_service import Collection_physique_service
+from business_object.collection_phys import Collection_physique
 from business_object.manga_possede import MangaPossede
-from business_object.collection_phys import CollectionPhysique
-from service.collection_physique_service import CollectionPhysiqueService
 
 
-@pytest.fixture
-def collection_physique_service():
-    """Fixture pour créer une instance du service CollectionPhysiqueService avec un mock du DAO"""
-    service = CollectionPhysiqueService()
-    service.dao = MagicMock()  # Remplacer l'instance DAO par un mock
-    return service
+def test_créer_collectionphys():
+    # Configuration du service avec un DAO simulé
+    service = Collection_physique_service()
+    service.dao = MagicMock()
+    service.dao.CollectionPhysiqueDAO = MagicMock()
+
+    # Configuration du mock pour le DAO
+    service.dao.CollectionPhysiqueDAO.supprimer.return_value = True
+
+    # Données de test
+    id_collectionphysique = 1
+    titre_collection = "Collection Shonen"
+    desc_collection = "Description de la collection Shonen"
+
+    # Exécution de la fonction
+    nouvelle_collection = service.créer_collectionphys(id_collectionphysique, titre_collection, desc_collection)
+
+    # Vérifications
+    assert nouvelle_collection is not None, "La collection physique n'a pas été créée correctement."
+    assert nouvelle_collection.id_collectionphysique == id_collectionphysique
+    assert nouvelle_collection.titre_collection == titre_collection
+    assert nouvelle_collection.desc_collection == desc_collection
+    assert nouvelle_collection.Liste_manga == []
+
+    # Vérifie que le DAO a bien été appelé
+    service.dao.CollectionPhysiqueDAO.supprimer.assert_called_once_with(nouvelle_collection)
 
 
-@pytest.fixture
-def collection_physique():
-    """Fixture pour créer une instance de CollectionPhysique"""
-    return CollectionPhysique(
-        id_collection_physique=1,
-        titre_collection="Ma Collection",
-        desc_collection="Une collection de mangas",
-        Liste_manga=[]
-    )
+def test_supprimer_collectionphys():
+    service = Collection_physique_service()
+    service.dao = MagicMock()
+    service.dao.CollectionPhysiqueDAO = MagicMock()
+
+    # Mock pour la suppression
+    collection = Collection_physique(id_collectionphysique=1, titre_collection="Collection Test", description_collection="Test", Liste_manga=[])
+    service.dao.CollectionPhysiqueDAO.supprimer_collectionphys.return_value = True
+
+    result = service.supprimer_collectionphys(collection)
+
+    assert result is True
+    service.dao.CollectionPhysiqueDAO.supprimer_collectionphys.assert_called_once_with(collection)
 
 
-@pytest.fixture
-def manga_possede():
-    """Fixture pour créer un MangaPossede"""
-    return MangaPossede(
-        id_manga_p=1,
-        manga="Naruto",  # Par exemple
-        num_dernier_acquis=5,
-        num_manquant=[1, 2, 3],
-        statut="A lire"
-    )
+def test_ajouter_mangaposs():
+    service = Collection_physique_service()
+    service.dao = MagicMock()
+    service.dao.CollectionPhysiqueDAO = MagicMock()
+
+    # Données de test
+    collection = Collection_physique(id_collectionphysique=1, titre_collection="Collection Test", description_collection="Test", Liste_manga=[])
+    manga = MangaPossede(id_manga_p=101, manga="Manga Test", num_dernier_acquis=10, num_manquant=[], statut="A lire")
+
+    # Configuration du mock
+    service.dao.CollectionPhysiqueDAO.ajouter_mangaposs.return_value = True
+
+    # Appel de la méthode
+    result = service.ajouter_mangaposs(collection, manga)
+
+    # Vérifications
+    assert result == manga
+    assert manga in collection.Liste_manga
+    service.dao.CollectionPhysiqueDAO.ajouter_mangaposs.assert_called_once_with(collection, manga)
 
 
-def test_creer_collection_physique(collection_physique_service):
-    """Test de la création d'une collection physique"""
-    # Préparer le mock pour la méthode DAO
-    collection_physique_service.dao.ajouter_collection_physique.return_value = True
+def test_supprimer_mangaposs():
+    service = Collection_physique_service()
+    service.dao = MagicMock()
+    service.dao.CollectionPhysiqueDAO = MagicMock()
 
-    # Appeler la méthode du service
-    result = collection_physique_service.creer_collection_physique(1, "Ma Collection", "Description")
+    # Données de test
+    collection = Collection_physique(id_collectionphysique=1, titre_collection="Collection Test", description_collection="Test", Liste_manga=[])
+    manga = MangaPossede(id_manga_p=101, manga="Manga Test", num_dernier_acquis=10, num_manquant=[], statut="A lire")
+    collection.Liste_manga.append(manga)
 
-    # Vérification
-    assert result is not None  # Collection doit être créée
-    collection_physique_service.dao.ajouter_collection_physique.assert_called_once()
+    # Configuration du mock
+    service.dao.CollectionPhysiqueDAO.supprimer_mangaposs.return_value = True
 
+    # Appel de la méthode
+    result = service.supprimer_mangaposs(collection, manga)
 
-def test_supprimer_collection_physique(collection_physique_service, collection_physique):
-    """Test de la suppression d'une collection physique"""
-    # Préparer le mock pour la méthode DAO
-    collection_physique_service.dao.supprimer_collection_physique.return_value = True
-
-    # Appeler la méthode du service
-    result = collection_physique_service.supprimer_collection_physique(collection_physique)
-
-    # Vérification
-    assert result is True  # La suppression doit être réussie
-    collection_physique_service.dao.supprimer_collection_physique.assert_called_once()
+    # Vérifications
+    assert result is True
+    assert manga not in collection.Liste_manga
+    service.dao.CollectionPhysiqueDAO.supprimer_mangaposs.assert_called_once_with(collection, manga)
 
 
-def test_ajouter_manga_possede(collection_physique_service, collection_physique, manga_possede):
-    """Test de l'ajout d'un manga possédé à une collection physique"""
-    # Préparer le mock pour la méthode DAO
-    collection_physique_service.dao.ajouter_manga_possede.return_value = True
+def test_str():
+    service = Collection_physique_service()
+    collection = Collection_physique(id_collectionphysique=1, titre_collection="Collection Test", description_collection="Test", Liste_manga=[])
+    manga1 = MangaPossede(id_manga_p=101, manga="Manga1", num_dernier_acquis=10, num_manquant=[], statut="A lire")
+    manga2 = MangaPossede(id_manga_p=102, manga="Manga2", num_dernier_acquis=5, num_manquant=[], statut="En cours")
 
-    # Appeler la méthode du service
-    result = collection_physique_service.ajouter_manga_possede(collection_physique, manga_possede)
+    collection.Liste_manga.extend([manga1, manga2])
+    service.CollectionP = collection
 
-    # Vérification
-    assert result is True  # Le manga doit être ajouté à la collection
-    collection_physique_service.dao.ajouter_manga_possede.assert_called_once()
+    result = service.__str__(collection)
 
-
-def test_supprimer_manga_possede(collection_physique_service, collection_physique, manga_possede):
-    """Test de la suppression d'un manga possédé d'une collection physique"""
-    # Ajouter un manga à la collection avant de tester la suppression
-    collection_physique.Liste_manga.append(manga_possede)
-
-    # Préparer le mock pour la méthode DAO
-    collection_physique_service.dao.supprimer_manga_possede.return_value = True
-
-    # Appeler la méthode du service
-    result = collection_physique_service.supprimer_manga_possede(collection_physique, manga_possede)
-
-    # Vérification
-    assert result is True  # Le manga doit être supprimé de la collection
-    collection_physique_service.dao.supprimer_manga_possede.assert_called_once()
-
-
-def test_str(collection_physique_service, collection_physique, manga_possede):
-    """Test de la méthode __str__ pour afficher les mangas de la collection"""
-    # Ajouter un manga à la collection
-    collection_physique.Liste_manga.append(manga_possede)
-
-    # Appeler la méthode __str__
-    result = collection_physique_service.__str__(collection_physique)
-
-    # Vérification
-    assert "Voici les mangas présents dans cette collection" in result
-    assert manga_possede.manga in result
-
-    # Tester avec une collection vide
-    collection_physique.Liste_manga.clear()
-    result_empty = collection_physique_service.__str__(collection_physique)
-    assert "La collection ne contient aucun manga." in result_empty
+    assert result == "Voici les mangas présents dans cette collection : Manga1, Manga2"

@@ -41,4 +41,4 @@ class RechercheService:
             sous_liste = liste[n:n + 8 + a]
             long = len(sous_liste)
             return {"longueur": long, "liste": sous_liste} if sous_liste else f"Aucun manga trouvé pour l'indice {n}."
-        return f"Aucun manga trouvé pour l'indice {n}."
+        return f"Aucun manga trouvé pour l'indice."

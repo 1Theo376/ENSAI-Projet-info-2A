@@ -1,4 +1,4 @@
-from business_object import Avis
+from business_object.avis import Avis
 import pytest
 
 
