@@ -18,9 +18,9 @@ class ConsulterAvisMangaVuerecherche(VueAbstraite):
         """
         manga = MangaDao().trouver_manga_par_titre(choix3)
         print("\n" + "-" * 50 + "\nManga :", manga.titre, " \n" + "-" * 50 + "\n")
-        liste_avis = AvisService().recuperer_avis_manga(manga.id_manga)
+        liste_avis, liste_user = AvisService().recuperer_avis_manga(manga.id_manga)
         for i in range(len(liste_avis)):
-            print("\n" + "-" * 50 + f"\n{liste_avis[i]}\n" + "-" * 50 + "\n")
+            print("\n" + "-" * 50 + f"\n{liste_avis[i]} Utilisateur : {liste_user[i]}\n" + "-" * 50 + "\n")
         choixavis = inquirer.select(
                                     message="Faites votre choix : ",
                                     choices=["Retour au menu précédent", "Retour à l'accueil"],

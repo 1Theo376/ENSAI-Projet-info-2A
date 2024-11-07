@@ -20,7 +20,9 @@ class AjouterAvisVuerecherche(VueAbstraite):
         manga = MangaDao().trouver_manga_par_titre(choix3)
         if AvisDAO().AvisUtilisateurMangaExistant(Session().utilisateur.id, manga.id_manga):
             from vues.Selection_manga_vue_recherche import SelectionMangaVuerecherche
-            SelectionMangaVuerecherche("Vous avez déjà donné un avis sur ce manga.").choisir_menu(choix3)
+            print("\n"*30)
+            print("Vous avez déjà donné un avis sur ce manga.")
+            return SelectionMangaVuerecherche().choisir_menu(choix3)
         print("\n" + "-" * 50 + "\nManga :", manga.titre, " \n" + "-" * 50 + "\n")
         avis = inquirer.text(
                                     message="Entrer votre avis sur ce manga : "
@@ -36,5 +38,6 @@ class AjouterAvisVuerecherche(VueAbstraite):
                                 )
         logging.info(f"Avis : {aviscreer}")
         from vues.Selection_manga_vue_recherche import SelectionMangaVuerecherche
-        message = "Avis crée avec succés"
-        SelectionMangaVuerecherche(message).choisir_menu(choix3)
+        print("\n"*30)
+        print("Avis crée avec succés")
+        return SelectionMangaVuerecherche().choisir_menu(choix3)

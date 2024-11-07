@@ -238,7 +238,9 @@ class AvisDAO:
         return avis_liste, liste_manga
 
     def recuperer_avis_manga(self, id_manga):
+        """Récupère tous les avis d'un utilisateur"""
         avis_liste = []
+        liste_user = []
         try:
             with DBConnection().connection as connection:
                 with connection.cursor() as cursor:
@@ -246,14 +248,17 @@ class AvisDAO:
                         "SELECT * FROM avis WHERE id_manga = %(id_manga)s ORDER BY id_avis;",
                         {"id_manga": id_manga},
                     )
-                    result = cursor.fetchall()
-                    for row in result:
-                        avis = Avis(id_avis=row["id_avis"], texte=row["texte"])
+                    res = cursor.fetchall()
+                    logging.info(f"res : {res}")
+                    for row in res:
+                        avis = Avis(id_avis=row["id_avis"],
+                                    texte=row["texte"])
                         avis_liste.append(avis)
+                        liste_user.append(row["id_utilisateur"])
         except Exception as e:
             logging.info(e)
             raise
-        return avis_liste
+        return avis_liste, liste_user
 
     def AvisUtilisateurMangaExistant(self, id_utilisateur, id_manga):
         """Vérifie si l'utiliosateur a déjà fait un avis sur ce manga"""
