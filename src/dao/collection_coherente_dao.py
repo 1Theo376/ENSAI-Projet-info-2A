@@ -1,6 +1,6 @@
 import logging
 
-from vue.session.py import Session
+from vues.session import Session
 from dao.db_connection import DBConnection
 from business_object.CollectionCoherente import CollectionCoherente
 from business_object.manga import Manga
