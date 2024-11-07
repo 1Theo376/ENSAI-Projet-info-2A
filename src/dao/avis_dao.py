@@ -217,6 +217,7 @@ class AvisDAO:
     def recuperer_avis_utilisateur(self, id_utilisateur):
         """Récupère tous les avis d'un utilisateur"""
         avis_liste = []
+        liste_manga = []
         try:
             with DBConnection().connection as connection:
                 with connection.cursor() as cursor:
@@ -227,16 +228,15 @@ class AvisDAO:
                     result = cursor.fetchall()
                     for row in result:
                         avis = Avis(id_avis=row["id_avis"], texte=row["texte"])
-                        avis2 = [avis]+[row["id_manga"]]
-                        avis_liste.append(avis2)
+                        avis_liste.append(avis)
+                        liste_manga.append(row["id_manga"])
         except Exception as e:
             logging.info(e)
             raise
-        return avis_liste
+        return avis_liste, liste_manga
 
     def recuperer_avis_manga(self, id_manga):
         avis_liste = []
-        liste_manga =[]
         try:
             with DBConnection().connection as connection:
                 with connection.cursor() as cursor:
@@ -248,8 +248,7 @@ class AvisDAO:
                     for row in result:
                         avis = Avis(id_avis=row["id_avis"], texte=row["texte"])
                         avis_liste.append(avis)
-                        liste_manga.append(row["id_manga"])
         except Exception as e:
             logging.info(e)
             raise
-        return avis_liste, liste_manga
+        return avis_liste
