@@ -1,14 +1,15 @@
 import pytest
 from unittest.mock import patch, MagicMock
-from dao.collection_physiquedao import CollectionPhysiqueDAO
+from dao.collection_physique_dao import CollectionPhysiqueDAO
 from business_object.collection_phys import Collection_physique
 from business_object.manga_possede import MangaPossede
+from business_object.manga import Manga
 
 
 @pytest.fixture
 def mock_db_connection():
     """Mock pour DBConnection."""
-    with patch("dao.collection_physiquedao.DBConnection") as mock_db:
+    with patch("dao.collection_physique_dao.DBConnection") as mock_db:
         yield mock_db
 
 
@@ -18,7 +19,7 @@ def collection_physique():
     return Collection_physique(
         id_collectionphysique=1,
         titre_collection="Ma Collection",
-        desc_collection="Description de la collection"
+        description_collection="Description de la collection"
     )
 
 
@@ -26,7 +27,8 @@ def collection_physique():
 def manga_possede():
     """Fixture pour une instance de MangaPossede."""
     return MangaPossede(
-        id_mangapossede=10,
+        id_manga_p=10,
+        manga=Manga(id_manga=1, titre="One Piece", Synopsis="Un Manga sur les aventures de Monkey D. Luffy", auteurs="Eiichiro Oda", themes=["Aventures", "Action", "Fantasie"], genre="Shonen"),
         num_dernier_acquis=5,
         num_manquant=[2, 4],
         statut="En cours"
@@ -49,14 +51,14 @@ def test_supprimer_collectionphys(mock_db_connection, collection_physique):
     assert result is True
 
 
-def test_creer_collectionphys(mock_db_connection, collection_physique):
+def test_créer_collectionphys(mock_db_connection, collection_physique):
     """Test de la méthode creer_collectionphys."""
     mock_cursor = MagicMock()
     mock_cursor.fetchone.return_value = {"id_collec_physique": 1}  # Simule un ID renvoyé
     mock_db_connection.return_value.connection.cursor.return_value = mock_cursor
 
     dao = CollectionPhysiqueDAO()
-    result = dao.creer_collectionphys(collection_physique)
+    result = dao.créer_collectionphys(collection_physique)
 
     mock_cursor.execute.assert_called_once_with(
         "INSERT INTO collection_physique (id_collec_physique, titre_collection, description_collection) "
@@ -64,7 +66,7 @@ def test_creer_collectionphys(mock_db_connection, collection_physique):
         {
             "id": collection_physique.id_collectionphysique,
             "titre": collection_physique.titre_collection,
-            "desc": collection_physique.desc_collection,
+            "desc": collection_physique.description_collection,
         }
     )
     assert result is True
