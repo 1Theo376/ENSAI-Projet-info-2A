@@ -1,5 +1,6 @@
 from business_object.manga_possede import MangaPossede
 from business_object.collection_phys import Collection_physique
+from dao.collection_physique_dao import CollectionPhysiqueDAO
 
 
 class Collection_physique_service:
@@ -9,7 +10,7 @@ class Collection_physique_service:
 
     def supprimer_collectionphys(self, collectionphys):
         """Suppression d'une collection dans la base de données"""
-        return self.dao.CollectionPhysiqueDAO.supprimer_collectionphys(collectionphys)
+        return CollectionPhysiqueDAO().supprimer_collectionphys(collectionphys)
 
     def créer_collectionphys(self, id_collectionphysique, titre_collection, desc_collection):
         """ """
@@ -22,28 +23,28 @@ class Collection_physique_service:
 
         return (
             nouvelle_collection_phys
-            if self.dao.CollectionPhysiqueDAO.supprimer(nouvelle_collection_phys)
+            if CollectionPhysiqueDAO().supprimer(nouvelle_collection_phys)
             else None
         )
 
     def supprimer_mangaposs(self, CollectionP, MangaPoss: MangaPossede) -> bool:
         """ """
-        return self.dao.CollectionPhysiqueDAO.supprimer_mangaposs(CollectionP, MangaPoss)
+        return CollectionPhysiqueDAO().supprimer_mangaposs(CollectionP, MangaPoss)
 
     def ajouter_mangaposs(self, CollectionP, MangaPoss) -> bool:
         """ """
-        self.CollectionP.Liste_manga.append(MangaPoss)
+        CollectionP.Liste_manga.append(MangaPoss)
         return (
             MangaPoss
-            if self.dao.CollectionPhysiqueDAOajouter_mangaposs(CollectionP, MangaPoss)
+            if CollectionPhysiqueDAO().ajouter_mangaposs(CollectionP, MangaPoss)
             else None
         )
 
     def __str__(self, CollectionP):
         """Affiche tous les titres des mangas présents dans la collection."""
-        if len(self.CollectionP.Liste_manga) == 0:
+        if len(CollectionP.Liste_manga) == 0:
             return "La collection ne contient aucun manga."
 
-        Texte_Liste_Titre_Manga = ", ".join(manga.titre for manga in self.Liste_manga)
+        Texte_Liste_Titre_Manga = ", ".join(manga.titre for manga in CollectionP.Liste_manga)
 
         return f"Voici les mangas présents dans cette collection : {Texte_Liste_Titre_Manga}"
