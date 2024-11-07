@@ -51,5 +51,7 @@ class AvisService:
 
     def recuperer_avis_manga(self, id_manga):
         """Simule la récupération des avis d'un utilisateur"""
-        # Simuler une liste d'avis pour l'exemple
-        return [f"Avis {i} de l'utilisateur {id_manga}" for i in range(1, 21)]
+        liste_avis = AvisDAO().recuperer_avis_manga(id_manga)
+        if liste_avis:
+            return liste_avis
+        return None

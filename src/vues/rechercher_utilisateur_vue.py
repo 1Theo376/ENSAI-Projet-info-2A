@@ -2,7 +2,7 @@ from InquirerPy import inquirer
 
 from vues.vue_abstraite import VueAbstraite
 from vues.session import Session
-
+from service.avis_service import
 from service.recherche_service import RechercheService
 
 
@@ -93,7 +93,13 @@ class RechercheUtilisateurVue(VueAbstraite):
                             case "Consulter les collections":
                                 pass
                             case "Consulter les avis":
-                                pass
+                                liste_avis = AvisService().recuperer_avis_utilisateur(manga.id_manga)
+                                for i in range(len(liste_avis)):
+                                    print("\n" + "-" * 50 + f"\n{liste_avis[i]}\n" + "-" * 50 + "\n")
+                                choixavis = inquirer.select(
+                                                    message="Faites votre choix : ",
+                                                    choices=["Retour au menu précédent", "Retour à l'accueil"],
+                                                        ).execute()
                             case "Retour au menu précédent":
                                 from vues.recherche_vue import RechercheVue
                                 return RechercheVue()

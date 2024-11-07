@@ -90,8 +90,22 @@ class RechercheMangaVue(VueAbstraite):
 
                                     return MenuUtilisateurVue()
                             case "Consulter les avis":
-                                liste_avis = 
-                                print("\n" + "-" * 50 + "\nRecherche d'un manga\n" + "-" * 50 + "\n")
+                                liste_avis = AvisService().recuperer_avis_manga(manga.id_manga)
+                                for i in range(len(liste_avis)):
+                                    print("\n" + "-" * 50 + f"\n{liste_avis[i]}\n" + "-" * 50 + "\n")
+                                choixavis = inquirer.select(
+                                                    message="Faites votre choix : ",
+                                                    choices=["Retour au menu précédent", "Retour à l'accueil"],
+                                                        ).execute()
+                                match choixavis:
+                                    case "Retour au menu précédent":
+                                        from vues.recherche_vue import RechercheVue
+
+                                        return RechercheVue()
+                                    case "Retour à l'accueil":
+                                        from vues.menu_utilisateur_vue import MenuUtilisateurVue
+
+                                        return MenuUtilisateurVue()
                             case "Ajouter un avis":
                                 avis = inquirer.text(
                                     message="Entrer votre avis sur ce manga : "
