@@ -2,7 +2,7 @@ from InquirerPy import inquirer
 
 from vues.vue_abstraite import VueAbstraite
 from vues.session import Session
-from service.avis_service import
+from service.avis_service import AvisService
 from service.recherche_service import RechercheService
 
 
@@ -42,10 +42,10 @@ class RechercheUtilisateurVue(VueAbstraite):
                 n = 0
                 a = 0
                 long = RechercheService().recherche_utilisateur(pseudo, n, a)["longueur"]
-                res_entier = (long // 8)
+                res_entier = long // 8
                 res_reste = long % 8
 
-                while n >=0:
+                while n >= 0:
                     choix2 = RechercheService().recherche_utilisateur(pseudo, n, a)["liste"]
 
                     if not choix2:
@@ -65,6 +65,7 @@ class RechercheUtilisateurVue(VueAbstraite):
 
                     if choix3 == "Retour au menu précédent":
                         from vues.menu_utilisateur_vue import MenuUtilisateurVue
+
                         return MenuUtilisateurVue()
 
                     elif choix3 == "Afficher la page suivante":
@@ -87,25 +88,41 @@ class RechercheUtilisateurVue(VueAbstraite):
                         n = -1
                         choix4 = inquirer.select(
                             message="Faites votre choix : ",
-                            choices=["Consulter les collections", "Consulter les avis", "Retour au menu précédent", "Retour vers l'écran d'accueil"],
+                            choices=[
+                                "Consulter les collections",
+                                "Consulter les avis",
+                                "Retour au menu précédent",
+                                "Retour vers l'écran d'accueil",
+                            ],
                         ).execute()
                         match choix4:
                             case "Consulter les collections":
                                 pass
                             case "Consulter les avis":
+<<<<<<< HEAD
                                 liste_avis = AvisService().recuperer_avis_utilisateur(Session().utilisateur.id)
+=======
+                                liste_avis = AvisService().recuperer_avis_utilisateur(
+                                    manga.id_manga
+                                )
+>>>>>>> 871678963019864d70df18a0eeb779127302ee8d
                                 for i in range(len(liste_avis)):
-                                    print("\n" + "-" * 50 + f"\n{liste_avis[i]}\n" + "-" * 50 + "\n")
+                                    print(
+                                        "\n" + "-" * 50 + f"\n{liste_avis[i]}\n" + "-" * 50 + "\n"
+                                    )
                                 choixavis = inquirer.select(
-                                                    message="Faites votre choix : ",
-                                                    choices=["Retour au menu précédent", "Retour à l'accueil"],
-                                                        ).execute()
+                                    message="Faites votre choix : ",
+                                    choices=["Retour au menu précédent", "Retour à l'accueil"],
+                                ).execute()
                             case "Retour au menu précédent":
                                 from vues.recherche_vue import RechercheVue
+
                                 return RechercheVue()
                             case "Retour vers l'écran d'accueil":
                                 from vues.menu_utilisateur_vue import MenuUtilisateurVue
+
                                 return MenuUtilisateurVue("Bon retour")
 
         from vues.menu_utilisateur_vue import MenuUtilisateurVue
+
         return MenuUtilisateurVue()
