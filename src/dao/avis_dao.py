@@ -12,7 +12,7 @@ class AvisDAO:
         Parameters
         ----------
         avis : Avis
-            L'avis à créer
+            L'avis à creer
 
         Returns
         -------
@@ -116,10 +116,7 @@ class AvisDAO:
 
         if res:
             for row in res:
-                avis = Avis(
-                    id_avis=row["id_avis"],
-                    texte=row["texte"]
-                )
+                avis = Avis(id_avis=row["id_avis"], texte=row["texte"])
                 liste_avis.append(avis)
 
         return avis

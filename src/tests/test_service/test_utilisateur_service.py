@@ -8,7 +8,7 @@ from utils.securite import hash_password
 
 @pytest.fixture
 def utilisateur_service():
-    """Fixture pour créer une instance du service UtilisateurService avec un mock du DAO"""
+    """Fixture pour creer une instance du service UtilisateurService avec un mock du DAO"""
     service = UtilisateurService()
     service.dao = MagicMock()  # Remplacer l'instance DAO par un mock
     return service
@@ -16,14 +16,16 @@ def utilisateur_service():
 
 @pytest.fixture
 def utilisateur():
-    """Fixture pour créer une instance d'Utilisateur"""
+    """Fixture pour creer une instance d'Utilisateur"""
     return Utilisateur(id=1, pseudo="testuser", mdp="hashedpassword")
 
 
 def test_pseudo_deja_utilise(utilisateur_service):
     """Test de la méthode pseudo_deja_utilise"""
     # Préparer le mock pour la méthode lister_tous
-    utilisateur_service.dao.lister_tous.return_value = [Utilisateur(id=1, pseudo="testuser", mdp="hashedpassword")]
+    utilisateur_service.dao.lister_tous.return_value = [
+        Utilisateur(id=1, pseudo="testuser", mdp="hashedpassword")
+    ]
 
     # Tester le cas où le pseudo existe déjà
     result = utilisateur_service.pseudo_deja_utilise("testuser")
@@ -50,7 +52,9 @@ def test_creer_compte(utilisateur_service):
 def test_se_connecter(utilisateur_service):
     """Test de la connexion d'un utilisateur"""
     # Préparer le mock pour la méthode se_connecter
-    utilisateur_service.dao.se_connecter.return_value = Utilisateur(id=1, pseudo="testuser", mdp="hashedpassword")
+    utilisateur_service.dao.se_connecter.return_value = Utilisateur(
+        id=1, pseudo="testuser", mdp="hashedpassword"
+    )
 
     # Tester la connexion avec des informations valides
     result = utilisateur_service.se_connecter("testuser", "password123")

@@ -6,20 +6,22 @@ from unittest.mock import MagicMock
 
 @pytest.fixture
 def manga_dao():
-    """Fixture pour créer une instance de MangaDao."""
+    """Fixture pour creer une instance de MangaDao."""
     return MangaDao()
 
 
 def test_trouver_manga_par_id(manga_dao):
     # Mock de DBConnection et de cursor
-    manga_dao.trouver_manga_par_id = MagicMock(return_value=Manga(
-        id_manga=1,
-        titre="Naruto",
-        synopsis="Un jeune ninja rêve de devenir Hokage.",
-        auteur="Masashi Kishimoto",
-        themes="Aventure, Action",
-        genre="Shonen"
-    ))
+    manga_dao.trouver_manga_par_id = MagicMock(
+        return_value=Manga(
+            id_manga=1,
+            titre="Naruto",
+            synopsis="Un jeune ninja rêve de devenir Hokage.",
+            auteur="Masashi Kishimoto",
+            themes="Aventure, Action",
+            genre="Shonen",
+        )
+    )
     manga = manga_dao.trouver_manga_par_id(1)
 
     assert manga is not None
@@ -29,14 +31,16 @@ def test_trouver_manga_par_id(manga_dao):
 
 
 def test_trouver_manga_par_titre(manga_dao):
-    manga_dao.trouver_manga_par_titre = MagicMock(return_value=Manga(
-        id_manga=2,
-        titre="One Piece",
-        synopsis="Luffy, un pirate en quête de trésors.",
-        auteur="Eiichiro Oda",
-        themes="Aventure, Comédie",
-        genre="Shonen"
-    ))
+    manga_dao.trouver_manga_par_titre = MagicMock(
+        return_value=Manga(
+            id_manga=2,
+            titre="One Piece",
+            synopsis="Luffy, un pirate en quête de trésors.",
+            auteur="Eiichiro Oda",
+            themes="Aventure, Comédie",
+            genre="Shonen",
+        )
+    )
     manga = manga_dao.trouver_manga_par_titre("One Piece")
 
     assert manga is not None
@@ -46,10 +50,26 @@ def test_trouver_manga_par_titre(manga_dao):
 
 def test_rechercher_manga_par_titre(manga_dao):
     # Mock de DBConnection pour retourner plusieurs mangas avec le même titre
-    manga_dao.rechercher_manga_par_titre = MagicMock(return_value=[
-        Manga(id_manga=1, titre="Naruto", synopsis="Un jeune ninja...", auteur=None, themes=None, genre=None),
-        Manga(id_manga=2, titre="Naruto Shippuden", synopsis="Naruto revient plus fort.", auteur=None, themes=None, genre=None)
-    ])
+    manga_dao.rechercher_manga_par_titre = MagicMock(
+        return_value=[
+            Manga(
+                id_manga=1,
+                titre="Naruto",
+                synopsis="Un jeune ninja...",
+                auteur=None,
+                themes=None,
+                genre=None,
+            ),
+            Manga(
+                id_manga=2,
+                titre="Naruto Shippuden",
+                synopsis="Naruto revient plus fort.",
+                auteur=None,
+                themes=None,
+                genre=None,
+            ),
+        ]
+    )
     result = manga_dao.rechercher_manga_par_titre("Naruto")
 
     assert result is not None

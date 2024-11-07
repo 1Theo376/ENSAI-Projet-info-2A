@@ -7,7 +7,7 @@ from service.collection_coherente_service import CollectionCoherenteService
 
 @pytest.fixture
 def collection_coherente_service():
-    """Fixture pour créer une instance du service CollectionCoherenteService avec un mock du DAO"""
+    """Fixture pour creer une instance du service CollectionCoherenteService avec un mock du DAO"""
     service = CollectionCoherenteService()
     service.dao = MagicMock()  # Remplacer l'instance DAO par un mock
     return service
@@ -15,39 +15,39 @@ def collection_coherente_service():
 
 @pytest.fixture
 def collection_coherente():
-    """Fixture pour créer une instance de CollectionCoherente"""
+    """Fixture pour creer une instance de CollectionCoherente"""
     return CollectionCoherente(
         id_collectioncoherente=1,
         titre_collection="Ma Collection Coherente",
         desc_collection="Une collection cohérente de mangas",
-        Liste_manga=[]
+        Liste_manga=[],
     )
 
 
 @pytest.fixture
 def manga():
-    """Fixture pour créer un instance de Manga"""
+    """Fixture pour creer un instance de Manga"""
     return Manga(
         id_manga=1,
         titre="Naruto",
         synopsis="L'histoire de Naruto",
         auteurs=["Masashi Kishimoto"],
         genres=["Action", "Aventure"],
-        statut="En cours"
+        statut="En cours",
     )
 
 
 def test_creer_collectioncohe(collection_coherente_service):
     """Test de la création d'une collection cohérente"""
     # Préparer le mock pour la méthode DAO
-    collection_coherente_service.dao.CollectionCoherenteDAO.créer_collection.return_value = True
+    collection_coherente_service.dao.CollectionCoherenteDAO.creer_collection.return_value = True
 
     # Appeler la méthode du service
     result = collection_coherente_service.creer_collectioncohe("Ma Collection", "Description")
 
     # Vérification
     assert result is not None  # La collection doit être créée
-    collection_coherente_service.dao.CollectionCoherenteDAO.créer_collection.assert_called_once()
+    collection_coherente_service.dao.CollectionCoherenteDAO.creer_collection.assert_called_once()
 
 
 def test_supprimer_collectioncohe(collection_coherente_service, collection_coherente):

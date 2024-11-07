@@ -7,7 +7,7 @@ from dao.avis_dao import AvisDAO
 
 @pytest.fixture
 def avis_service():
-    """Fixture pour créer une instance du service AvisService avec un mock du DAO"""
+    """Fixture pour creer une instance du service AvisService avec un mock du DAO"""
     service = AvisService()
     service.dao = MagicMock()  # Remplacer l'instance DAO par un mock
     return service
@@ -15,7 +15,7 @@ def avis_service():
 
 @pytest.fixture
 def avis():
-    """Fixture pour créer une instance d'Avis"""
+    """Fixture pour creer une instance d'Avis"""
     return Avis(id_avis=1, texte="C'est un super manga !")
 
 
@@ -54,7 +54,9 @@ def test_supprimer_avis(avis_service, avis):
 def test_afficher_avis_pagination(avis_service):
     """Test de la méthode afficher_avis_pagination"""
     # Simuler des avis pour un utilisateur donné
-    avis_service.recuperer_avis_utilisateur = MagicMock(return_value=[f"Avis {i}" for i in range(1, 21)])
+    avis_service.recuperer_avis_utilisateur = MagicMock(
+        return_value=[f"Avis {i}" for i in range(1, 21)]
+    )
 
     # Paramètres de pagination
     avis_service.page_size = 5
@@ -68,7 +70,9 @@ def test_afficher_avis_pagination(avis_service):
 def test_afficher_avis_pagination_page_suivante(avis_service):
     """Test de la méthode afficher_avis_pagination avec la pagination activée"""
     # Simuler des avis pour un utilisateur donné
-    avis_service.recuperer_avis_utilisateur = MagicMock(return_value=[f"Avis {i}" for i in range(1, 21)])
+    avis_service.recuperer_avis_utilisateur = MagicMock(
+        return_value=[f"Avis {i}" for i in range(1, 21)]
+    )
 
     # Paramètres de pagination
     avis_service.page_size = 5
@@ -89,4 +93,6 @@ def test_recuperer_avis_utilisateur(avis_service):
 
     # Vérification
     assert len(result) == 20  # Il y a 20 avis simulés
-    assert result[0] == "Avis 1 de l'utilisateur 1"  # Le premier avis doit être celui de l'utilisateur 1
+    assert (
+        result[0] == "Avis 1 de l'utilisateur 1"
+    )  # Le premier avis doit être celui de l'utilisateur 1

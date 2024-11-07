@@ -12,18 +12,18 @@ class Collection_physique_service:
         """Suppression d'une collection dans la base de données"""
         return CollectionPhysiqueDAO().supprimer_collectionphys(collectionphys)
 
-    def créer_collectionphys(self, id_collectionphysique, titre_collection, desc_collection):
+    def creer_collectionphys(self, titre_collection, desc_collection):
         """ """
         nouvelle_collection_phys = Collection_physique(
-            id_collectionphysique=id_collectionphysique,
+            id_collectionphysique=None,
             titre_collection=titre_collection,
-            desc_collection=desc_collection,
+            description_collection=desc_collection,
             Liste_manga=[],
         )
 
         return (
             nouvelle_collection_phys
-            if CollectionPhysiqueDAO().supprimer(nouvelle_collection_phys)
+            if CollectionPhysiqueDAO().creer_collectionphys(nouvelle_collection_phys)
             else None
         )
 
@@ -35,9 +35,7 @@ class Collection_physique_service:
         """ """
         CollectionP.Liste_manga.append(MangaPoss)
         return (
-            MangaPoss
-            if CollectionPhysiqueDAO().ajouter_mangaposs(CollectionP, MangaPoss)
-            else None
+            MangaPoss if CollectionPhysiqueDAO().ajouter_mangaposs(CollectionP, MangaPoss) else None
         )
 
     def __str__(self, CollectionP):

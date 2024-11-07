@@ -1,6 +1,6 @@
 import logging
 
-
+from vues.session import Session
 from dao.db_connection import DBConnection
 from business_object.collection_phys import Collection_physique
 from business_object.manga_possede import MangaPossede
@@ -74,7 +74,7 @@ class CollectionPhysiqueDAO:
 
         return res > 0
 
-    def créer_collectionphys(self, CollectionP: Collection_physique) -> bool:
+    def creer_collectionphys(self, CollectionP: Collection_physique) -> bool:
         """Creation d'une collection physique dans la base de données
 
         Parameters
@@ -93,13 +93,13 @@ class CollectionPhysiqueDAO:
             with DBConnection().connection as connection:
                 with connection.cursor() as cursor:
                     cursor.execute(
-                        "INSERT INTO collection_physique (id_collec_physique, titre_collection, description_collection) VALUES"
-                        "(%(id)s, %(titre)s, %(desc)s) "
+                        "INSERT INTO collection_physique (id_utilisateur, titre_collection, description_collection) VALUES"
+                        "(%(id_utilisateur)s, %(titre)s, %(description_collection)s) "
                         "  RETURNING id_collec_physique; ",
                         {
-                            "id": CollectionP.id_collectionphysique,
+                            "id_utilisateur": Session().utilisateur.id,
                             "titre": CollectionP.titre_collection,
-                            "desc": CollectionP.desc_collection,
+                            "description_collection": CollectionP.description_collection,
                         },
                     )
                     res = cursor.fetchone()
@@ -108,7 +108,7 @@ class CollectionPhysiqueDAO:
 
         created = False
         if res:
-            CollectionP.id = res["id"]
+            CollectionP.id = res["id_collec_physique"]
             created = True
 
         return created

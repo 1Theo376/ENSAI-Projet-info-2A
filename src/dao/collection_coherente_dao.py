@@ -96,7 +96,7 @@ class CollectionCoherenteDAO:
             with DBConnection().connection as connection:
                 with connection.cursor() as cursor:
                     cursor.execute(
-                        "INSERT INTO CollectionCoherente(id_utilisateur, titre_collection, description_collection) VALUES"
+                        "INSERT INTO collection_coherente(id_utilisateur, titre_collection, description_collection) VALUES"
                         "(%(id_utilisateur)s, %(titre)s, %(desc)s) "
                         "  RETURNING id_collec_coherente; ",
                         {

@@ -3,9 +3,10 @@ from unittest.mock import MagicMock
 from service.manga_possede_service import MangaPossedeService
 from business_object.manga_possede import MangaPossede
 
+
 @pytest.fixture
 def manga_possede_service():
-    """Fixture pour créer une instance de MangaPossedeService avec un mock du DAO"""
+    """Fixture pour creer une instance de MangaPossedeService avec un mock du DAO"""
     service = MangaPossedeService()
     service.dao = MagicMock()  # Remplace l'instance DAO par un mock
     return service
@@ -13,8 +14,14 @@ def manga_possede_service():
 
 @pytest.fixture
 def manga_possede():
-    """Fixture pour créer une instance de MangaPossede"""
-    return MangaPossede(id_manga_p=1, manga="Titre Manga", num_dernier_acquis=5, num_manquant=[1, 3], statut="en cours")
+    """Fixture pour creer une instance de MangaPossede"""
+    return MangaPossede(
+        id_manga_p=1,
+        manga="Titre Manga",
+        num_dernier_acquis=5,
+        num_manquant=[1, 3],
+        statut="en cours",
+    )
 
 
 def test_creer_manga_possede(manga_possede_service, manga_possede):
@@ -28,7 +35,7 @@ def test_creer_manga_possede(manga_possede_service, manga_possede):
         manga=manga_possede.manga,
         num_dernier_acquis=5,
         num_manquant=[1, 3],
-        statut="en cours"
+        statut="en cours",
     )
 
     # Vérifications
@@ -60,7 +67,9 @@ def test_modifier_num_manquant(manga_possede_service, manga_possede):
 
     # Test de suppression d'un numéro manquant après acquisition
     num_acquis = 1
-    result = manga_possede_service.modifier_num_manquant(manga_possede, manga_possede.num_manquant, num_acquis)
+    result = manga_possede_service.modifier_num_manquant(
+        manga_possede, manga_possede.num_manquant, num_acquis
+    )
 
     # Vérifications
     assert result == [3]  # Le numéro manquant doit être supprimé de la liste

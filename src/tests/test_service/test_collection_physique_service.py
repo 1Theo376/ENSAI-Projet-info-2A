@@ -5,7 +5,7 @@ from business_object.collection_phys import Collection_physique
 from business_object.manga_possede import MangaPossede
 
 
-def test_créer_collectionphys():
+def test_creer_collectionphys():
     # Configuration du service avec un DAO simulé
     service = Collection_physique_service()
     service.dao = MagicMock()
@@ -20,7 +20,9 @@ def test_créer_collectionphys():
     desc_collection = "Description de la collection Shonen"
 
     # Exécution de la fonction
-    nouvelle_collection = service.créer_collectionphys(id_collectionphysique, titre_collection, desc_collection)
+    nouvelle_collection = service.creer_collectionphys(
+        id_collectionphysique, titre_collection, desc_collection
+    )
 
     # Vérifications
     assert nouvelle_collection is not None, "La collection physique n'a pas été créée correctement."
@@ -39,7 +41,12 @@ def test_supprimer_collectionphys():
     service.dao.CollectionPhysiqueDAO = MagicMock()
 
     # Mock pour la suppression
-    collection = Collection_physique(id_collectionphysique=1, titre_collection="Collection Test", description_collection="Test", Liste_manga=[])
+    collection = Collection_physique(
+        id_collectionphysique=1,
+        titre_collection="Collection Test",
+        description_collection="Test",
+        Liste_manga=[],
+    )
     service.dao.CollectionPhysiqueDAO.supprimer_collectionphys.return_value = True
 
     result = service.supprimer_collectionphys(collection)
@@ -54,8 +61,15 @@ def test_ajouter_mangaposs():
     service.dao.CollectionPhysiqueDAO = MagicMock()
 
     # Données de test
-    collection = Collection_physique(id_collectionphysique=1, titre_collection="Collection Test", description_collection="Test", Liste_manga=[])
-    manga = MangaPossede(id_manga_p=101, manga="Manga Test", num_dernier_acquis=10, num_manquant=[], statut="A lire")
+    collection = Collection_physique(
+        id_collectionphysique=1,
+        titre_collection="Collection Test",
+        description_collection="Test",
+        Liste_manga=[],
+    )
+    manga = MangaPossede(
+        id_manga_p=101, manga="Manga Test", num_dernier_acquis=10, num_manquant=[], statut="A lire"
+    )
 
     # Configuration du mock
     service.dao.CollectionPhysiqueDAO.ajouter_mangaposs.return_value = True
@@ -75,8 +89,15 @@ def test_supprimer_mangaposs():
     service.dao.CollectionPhysiqueDAO = MagicMock()
 
     # Données de test
-    collection = Collection_physique(id_collectionphysique=1, titre_collection="Collection Test", description_collection="Test", Liste_manga=[])
-    manga = MangaPossede(id_manga_p=101, manga="Manga Test", num_dernier_acquis=10, num_manquant=[], statut="A lire")
+    collection = Collection_physique(
+        id_collectionphysique=1,
+        titre_collection="Collection Test",
+        description_collection="Test",
+        Liste_manga=[],
+    )
+    manga = MangaPossede(
+        id_manga_p=101, manga="Manga Test", num_dernier_acquis=10, num_manquant=[], statut="A lire"
+    )
     collection.Liste_manga.append(manga)
 
     # Configuration du mock
@@ -93,9 +114,18 @@ def test_supprimer_mangaposs():
 
 def test_str():
     service = Collection_physique_service()
-    collection = Collection_physique(id_collectionphysique=1, titre_collection="Collection Test", description_collection="Test", Liste_manga=[])
-    manga1 = MangaPossede(id_manga_p=101, manga="Manga1", num_dernier_acquis=10, num_manquant=[], statut="A lire")
-    manga2 = MangaPossede(id_manga_p=102, manga="Manga2", num_dernier_acquis=5, num_manquant=[], statut="En cours")
+    collection = Collection_physique(
+        id_collectionphysique=1,
+        titre_collection="Collection Test",
+        description_collection="Test",
+        Liste_manga=[],
+    )
+    manga1 = MangaPossede(
+        id_manga_p=101, manga="Manga1", num_dernier_acquis=10, num_manquant=[], statut="A lire"
+    )
+    manga2 = MangaPossede(
+        id_manga_p=102, manga="Manga2", num_dernier_acquis=5, num_manquant=[], statut="En cours"
+    )
 
     collection.Liste_manga.extend([manga1, manga2])
     service.CollectionP = collection
