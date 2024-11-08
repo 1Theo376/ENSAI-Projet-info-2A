@@ -1,0 +1,905 @@
+07/11/2024 00:43:35 - INFO     - --------------------------------------------------
+07/11/2024 00:43:35 - INFO     - Lancement Application                           
+07/11/2024 00:43:35 - INFO     - --------------------------------------------------
+07/11/2024 00:43:35 - INFO     - AccueilVue
+07/11/2024 00:43:43 - INFO     - ConnexionVue
+07/11/2024 00:43:55 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+07/11/2024 00:43:55 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+07/11/2024 00:43:55 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000020E047DDC90>
+07/11/2024 00:43:55 - INFO     - MenuUtilisateurVue
+07/11/2024 00:43:58 - INFO     - No module named 'vue'
+07/11/2024 00:43:58 - INFO     - AccueilVue
+07/11/2024 00:47:58 - INFO     - ConnexionVue
+07/11/2024 00:48:07 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+07/11/2024 00:48:07 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+07/11/2024 00:48:07 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000020E049714B0>
+07/11/2024 00:48:07 - INFO     - MenuUtilisateurVue
+07/11/2024 00:48:09 - INFO     - RechercheVue
+07/11/2024 00:48:11 - INFO     - RechercheMangaVue
+07/11/2024 00:48:26 - INFO     - Débogage : requête exécutée avec succès.
+07/11/2024 00:49:19 - INFO     - MenuUtilisateurVue
+07/11/2024 00:49:24 - INFO     - No module named 'vue'
+07/11/2024 00:49:24 - INFO     - AccueilVue
+07/11/2024 00:49:28 - INFO     - Fin de l'application
+07/11/2024 00:54:35 - INFO     - --------------------------------------------------
+07/11/2024 00:54:35 - INFO     - Lancement Application                           
+07/11/2024 00:54:35 - INFO     - --------------------------------------------------
+07/11/2024 00:54:35 - INFO     - AccueilVue
+07/11/2024 00:54:39 - INFO     - ConnexionVue
+07/11/2024 00:54:48 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+07/11/2024 00:54:48 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+07/11/2024 00:54:48 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000028AE195D7E0>
+07/11/2024 00:54:48 - INFO     - MenuUtilisateurVue
+07/11/2024 00:54:52 - INFO     - No module named 'vues.session.py'; 'vues.session' is not a package
+07/11/2024 00:54:52 - INFO     - AccueilVue
+07/11/2024 00:56:41 - INFO     - Fin de l'application
+07/11/2024 00:56:44 - INFO     - --------------------------------------------------
+07/11/2024 00:56:44 - INFO     - Lancement Application                           
+07/11/2024 00:56:44 - INFO     - --------------------------------------------------
+07/11/2024 00:56:44 - INFO     - AccueilVue
+07/11/2024 00:56:45 - INFO     - ConnexionVue
+07/11/2024 00:56:59 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+07/11/2024 00:56:59 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+07/11/2024 00:56:59 - INFO     -        └─> Sortie : None
+07/11/2024 00:56:59 - INFO     - AccueilVue
+07/11/2024 00:57:02 - INFO     - ConnexionVue
+07/11/2024 00:57:16 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+07/11/2024 00:57:16 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+07/11/2024 00:57:16 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000025E08E89150>
+07/11/2024 00:57:16 - INFO     - MenuUtilisateurVue
+07/11/2024 00:57:17 - INFO     - No module named 'vues.session.py'; 'vues.session' is not a package
+07/11/2024 00:57:17 - INFO     - AccueilVue
+07/11/2024 00:57:43 - INFO     - Fin de l'application
+07/11/2024 00:57:52 - INFO     - --------------------------------------------------
+07/11/2024 00:57:52 - INFO     - Lancement Application                           
+07/11/2024 00:57:52 - INFO     - --------------------------------------------------
+07/11/2024 00:57:52 - INFO     - AccueilVue
+07/11/2024 00:57:57 - INFO     - ConnexionVue
+07/11/2024 00:58:08 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+07/11/2024 00:58:08 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+07/11/2024 00:58:08 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000021653AC9A20>
+07/11/2024 00:58:08 - INFO     - MenuUtilisateurVue
+07/11/2024 00:58:09 - INFO     - EcranDuProfilVue
+07/11/2024 00:58:15 - INFO     - name 'VueAbstraite' is not defined
+07/11/2024 00:58:15 - INFO     - AccueilVue
+07/11/2024 00:58:48 - INFO     - ConnexionVue
+07/11/2024 00:59:05 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+07/11/2024 00:59:05 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+07/11/2024 00:59:05 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000021653D35900>
+07/11/2024 00:59:05 - INFO     - MenuUtilisateurVue
+07/11/2024 00:59:07 - INFO     - EcranDuProfilVue
+07/11/2024 00:59:23 - INFO     - 'CollectionCoherenteService' object has no attribute 'dao'
+07/11/2024 00:59:23 - INFO     - AccueilVue
+07/11/2024 11:25:48 - INFO     - --------------------------------------------------
+07/11/2024 11:25:48 - INFO     - Lancement Application                           
+07/11/2024 11:25:48 - INFO     - --------------------------------------------------
+07/11/2024 11:25:48 - INFO     - AccueilVue
+07/11/2024 11:26:12 - INFO     - InscriptionVue
+07/11/2024 11:26:15 - INFO     - Pseudo :  (length: 0)
+07/11/2024 11:26:15 - INFO     -     UtilisateurDao.lister_tous() - DEBUT
+07/11/2024 11:26:15 - INFO     -     UtilisateurDao.lister_tous() - FIN
+07/11/2024 11:26:15 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x0000020024745D20>', '<business_object.utilisateur.Utilisateur object at 0x0000020024745CF0>', '<business_object.utilisateur.Utilisateur object at 0x0000020024745CC0>'] ... (19 elements)
+07/11/2024 11:26:32 - INFO     - Mot de passe haché : 909354b51f322890b4e7530b1e9987589edccdc82e0553c50d8e3aa3e5cb810f (length: 64)
+07/11/2024 11:26:32 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x00000200248C1030>',) - DEBUT
+07/11/2024 11:26:32 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x00000200248C1030>',) - FIN
+07/11/2024 11:26:32 - INFO     -        └─> Sortie : True
+07/11/2024 11:26:32 - INFO     - AccueilVue
+07/11/2024 11:26:34 - INFO     - ConnexionVue
+07/11/2024 11:26:42 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+07/11/2024 11:26:42 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+07/11/2024 11:26:42 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000020024905A80>
+07/11/2024 11:26:42 - INFO     - MenuUtilisateurVue
+07/11/2024 11:26:44 - INFO     - EcranDuProfilVue
+07/11/2024 11:26:57 - INFO     - 'CollectionCoherenteDAO' object has no attribute 'creer_collection'
+07/11/2024 11:26:57 - INFO     - AccueilVue
+07/11/2024 11:27:34 - INFO     - Fin de l'application
+07/11/2024 11:36:11 - INFO     - --------------------------------------------------
+07/11/2024 11:36:11 - INFO     - Lancement Application                           
+07/11/2024 11:36:11 - INFO     - --------------------------------------------------
+07/11/2024 11:36:11 - INFO     - AccueilVue
+07/11/2024 11:36:14 - INFO     - ConnexionVue
+07/11/2024 11:36:27 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+07/11/2024 11:36:27 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+07/11/2024 11:36:27 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001D45A1F9C60>
+07/11/2024 11:36:27 - INFO     - MenuUtilisateurVue
+07/11/2024 11:36:29 - INFO     - EcranDuProfilVue
+07/11/2024 11:36:53 - INFO     - ERREUR:  la relation « collectioncoherente » n'existe pas
+LINE 1: INSERT INTO CollectionCoherente(id_utilisateur, titre_collec...
+                    ^
+
+07/11/2024 11:36:53 - INFO     - Fin de l'application
+07/11/2024 11:39:04 - INFO     - --------------------------------------------------
+07/11/2024 11:39:04 - INFO     - Lancement Application                           
+07/11/2024 11:39:04 - INFO     - --------------------------------------------------
+07/11/2024 11:39:04 - INFO     - AccueilVue
+07/11/2024 11:39:08 - INFO     - ConnexionVue
+07/11/2024 11:39:16 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+07/11/2024 11:39:16 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+07/11/2024 11:39:16 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x00000281B26A9A20>
+07/11/2024 11:39:16 - INFO     - MenuUtilisateurVue
+07/11/2024 11:39:19 - INFO     - EcranDuProfilVue
+07/11/2024 11:39:31 - INFO     - ERREUR:  valeur trop longue pour le type character(1)
+
+07/11/2024 11:39:31 - INFO     - Fin de l'application
+07/11/2024 11:47:28 - INFO     - --------------------------------------------------
+07/11/2024 11:47:28 - INFO     - Lancement Application                           
+07/11/2024 11:47:28 - INFO     - --------------------------------------------------
+07/11/2024 11:47:28 - INFO     - AccueilVue
+07/11/2024 11:47:30 - INFO     - InscriptionVue
+07/11/2024 11:47:33 - INFO     - Pseudo : Emilien (length: 7)
+07/11/2024 11:47:33 - INFO     -     UtilisateurDao.lister_tous() - DEBUT
+07/11/2024 11:47:33 - INFO     -     UtilisateurDao.lister_tous() - FIN
+07/11/2024 11:47:33 - INFO     -        └─> Sortie : [] ... (0 elements)
+07/11/2024 11:47:37 - INFO     - Mot de passe haché : 9cec9e870d627f180d54ea159f56ef8be13aaa200f5de67ee34b3280f116758b (length: 64)
+07/11/2024 11:47:37 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x00000225E100D060>',) - DEBUT
+07/11/2024 11:47:37 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x00000225E100D060>',) - FIN
+07/11/2024 11:47:37 - INFO     -        └─> Sortie : True
+07/11/2024 11:47:37 - INFO     - AccueilVue
+07/11/2024 11:47:38 - INFO     - ConnexionVue
+07/11/2024 11:47:43 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+07/11/2024 11:47:43 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+07/11/2024 11:47:43 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x00000225E10D56C0>
+07/11/2024 11:47:43 - INFO     - MenuUtilisateurVue
+07/11/2024 11:47:44 - INFO     - EcranDuProfilVue
+07/11/2024 11:48:00 - INFO     - Fin de l'application
+07/11/2024 11:55:34 - INFO     - --------------------------------------------------
+07/11/2024 11:55:34 - INFO     - Lancement Application                           
+07/11/2024 11:55:34 - INFO     - --------------------------------------------------
+07/11/2024 11:55:34 - INFO     - AccueilVue
+07/11/2024 11:55:56 - INFO     - ConnexionVue
+07/11/2024 11:56:02 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+07/11/2024 11:56:02 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+07/11/2024 11:56:02 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000024F85415A20>
+07/11/2024 11:56:02 - INFO     - MenuUtilisateurVue
+07/11/2024 11:56:04 - INFO     - EcranDuProfilVue
+07/11/2024 11:56:21 - INFO     - Collection_physique.__init__() got an unexpected keyword argument 'desc_collection'
+07/11/2024 11:56:21 - INFO     - AccueilVue
+07/11/2024 11:58:26 - INFO     - Fin de l'application
+07/11/2024 11:58:29 - INFO     - --------------------------------------------------
+07/11/2024 11:58:29 - INFO     - Lancement Application                           
+07/11/2024 11:58:29 - INFO     - --------------------------------------------------
+07/11/2024 11:58:29 - INFO     - AccueilVue
+07/11/2024 11:58:31 - INFO     - ConnexionVue
+07/11/2024 11:58:36 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+07/11/2024 11:58:36 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+07/11/2024 11:58:36 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001D1030A99F0>
+07/11/2024 11:58:36 - INFO     - MenuUtilisateurVue
+07/11/2024 11:58:37 - INFO     - EcranDuProfilVue
+07/11/2024 11:59:05 - INFO     - 'CollectionPhysiqueDAO' object has no attribute 'supprimer'
+07/11/2024 11:59:05 - INFO     - AccueilVue
+07/11/2024 12:04:43 - INFO     - ConnexionVue
+07/11/2024 12:04:48 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+07/11/2024 12:04:48 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+07/11/2024 12:04:48 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001D1034DBC10>
+07/11/2024 12:04:48 - INFO     - MenuUtilisateurVue
+07/11/2024 12:04:49 - INFO     - EcranDuProfilVue
+07/11/2024 12:05:01 - INFO     - 'CollectionPhysiqueDAO' object has no attribute 'supprimer'
+07/11/2024 12:05:01 - INFO     - AccueilVue
+07/11/2024 12:05:27 - INFO     - Fin de l'application
+07/11/2024 12:05:29 - INFO     - --------------------------------------------------
+07/11/2024 12:05:29 - INFO     - Lancement Application                           
+07/11/2024 12:05:29 - INFO     - --------------------------------------------------
+07/11/2024 12:05:29 - INFO     - AccueilVue
+07/11/2024 12:05:30 - INFO     - ConnexionVue
+07/11/2024 12:05:36 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+07/11/2024 12:05:36 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+07/11/2024 12:05:36 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000002486C799A20>
+07/11/2024 12:05:36 - INFO     - MenuUtilisateurVue
+07/11/2024 12:05:37 - INFO     - EcranDuProfilVue
+07/11/2024 12:05:48 - INFO     - name 'Session' is not defined
+07/11/2024 12:05:48 - INFO     - Fin de l'application
+07/11/2024 12:07:23 - INFO     - --------------------------------------------------
+07/11/2024 12:07:23 - INFO     - Lancement Application                           
+07/11/2024 12:07:23 - INFO     - --------------------------------------------------
+07/11/2024 12:07:23 - INFO     - AccueilVue
+07/11/2024 12:07:24 - INFO     - ConnexionVue
+07/11/2024 12:07:29 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+07/11/2024 12:07:29 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+07/11/2024 12:07:29 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001726C1C9A20>
+07/11/2024 12:07:29 - INFO     - MenuUtilisateurVue
+07/11/2024 12:07:32 - INFO     - EcranDuProfilVue
+07/11/2024 12:07:40 - INFO     - 'description_collection'
+07/11/2024 12:07:40 - INFO     - Fin de l'application
+07/11/2024 12:10:01 - INFO     - --------------------------------------------------
+07/11/2024 12:10:01 - INFO     - Lancement Application                           
+07/11/2024 12:10:01 - INFO     - --------------------------------------------------
+07/11/2024 12:10:01 - INFO     - AccueilVue
+07/11/2024 12:10:08 - INFO     - ConnexionVue
+07/11/2024 12:10:14 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+07/11/2024 12:10:14 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+07/11/2024 12:10:14 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001DE8EBD5A20>
+07/11/2024 12:10:14 - INFO     - MenuUtilisateurVue
+07/11/2024 12:10:15 - INFO     - EcranDuProfilVue
+07/11/2024 12:10:24 - INFO     - 'id'
+07/11/2024 12:10:24 - INFO     - AccueilVue
+07/11/2024 12:11:12 - INFO     - Fin de l'application
+07/11/2024 12:11:15 - INFO     - --------------------------------------------------
+07/11/2024 12:11:15 - INFO     - Lancement Application                           
+07/11/2024 12:11:15 - INFO     - --------------------------------------------------
+07/11/2024 12:11:15 - INFO     - AccueilVue
+07/11/2024 12:11:17 - INFO     - ConnexionVue
+07/11/2024 12:11:21 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+07/11/2024 12:11:21 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+07/11/2024 12:11:21 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x00000212C9E65C60>
+07/11/2024 12:11:21 - INFO     - MenuUtilisateurVue
+07/11/2024 12:11:22 - INFO     - EcranDuProfilVue
+07/11/2024 12:11:30 - INFO     - Fin de l'application
+07/11/2024 12:39:07 - INFO     - --------------------------------------------------
+07/11/2024 12:39:07 - INFO     - Lancement Application                           
+07/11/2024 12:39:07 - INFO     - --------------------------------------------------
+07/11/2024 12:39:07 - INFO     - AccueilVue
+07/11/2024 12:39:10 - INFO     - ConnexionVue
+07/11/2024 12:39:15 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+07/11/2024 12:39:15 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+07/11/2024 12:39:15 - INFO     -        └─> Sortie : None
+07/11/2024 12:39:15 - INFO     - AccueilVue
+07/11/2024 12:39:23 - INFO     - ConnexionVue
+07/11/2024 12:39:27 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+07/11/2024 12:39:27 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+07/11/2024 12:39:27 - INFO     -        └─> Sortie : None
+07/11/2024 12:39:27 - INFO     - AccueilVue
+07/11/2024 12:39:28 - INFO     - ConnexionVue
+07/11/2024 12:39:35 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+07/11/2024 12:39:35 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+07/11/2024 12:39:35 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000002713469F880>
+07/11/2024 12:39:35 - INFO     - MenuUtilisateurVue
+07/11/2024 12:39:37 - INFO     - CollectionCoherente.__init__() got an unexpected keyword argument 'id_collec_coherente'
+07/11/2024 12:39:37 - INFO     - AccueilVue
+07/11/2024 12:39:39 - INFO     - ConnexionVue
+07/11/2024 12:39:44 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+07/11/2024 12:39:44 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+07/11/2024 12:39:44 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x00000271350E1840>
+07/11/2024 12:39:44 - INFO     - MenuUtilisateurVue
+07/11/2024 12:39:45 - INFO     - CollectionCoherente.__init__() got an unexpected keyword argument 'id_collec_coherente'
+07/11/2024 12:39:45 - INFO     - AccueilVue
+07/11/2024 12:40:33 - INFO     - Fin de l'application
+07/11/2024 12:40:36 - INFO     - --------------------------------------------------
+07/11/2024 12:40:36 - INFO     - Lancement Application                           
+07/11/2024 12:40:36 - INFO     - --------------------------------------------------
+07/11/2024 12:40:36 - INFO     - AccueilVue
+07/11/2024 12:40:37 - INFO     - ConnexionVue
+07/11/2024 12:40:42 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+07/11/2024 12:40:42 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+07/11/2024 12:40:42 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001C4F7BE9A20>
+07/11/2024 12:40:42 - INFO     - MenuUtilisateurVue
+07/11/2024 12:40:43 - INFO     - EcranDuProfilVue
+07/11/2024 12:41:15 - INFO     - Fin de l'application
+07/11/2024 12:41:18 - INFO     - --------------------------------------------------
+07/11/2024 12:41:18 - INFO     - Lancement Application                           
+07/11/2024 12:41:18 - INFO     - --------------------------------------------------
+07/11/2024 12:41:18 - INFO     - AccueilVue
+07/11/2024 12:41:20 - INFO     - ConnexionVue
+07/11/2024 12:41:24 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+07/11/2024 12:41:24 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+07/11/2024 12:41:24 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000021A44519A20>
+07/11/2024 12:41:24 - INFO     - MenuUtilisateurVue
+07/11/2024 12:41:26 - INFO     - EcranDuProfilVue
+07/11/2024 12:41:36 - INFO     - Fin de l'application
+07/11/2024 14:37:13 - INFO     - --------------------------------------------------
+07/11/2024 14:37:13 - INFO     - Lancement Application                           
+07/11/2024 14:37:13 - INFO     - --------------------------------------------------
+07/11/2024 14:37:13 - INFO     - AccueilVue
+07/11/2024 14:37:16 - INFO     - ConnexionVue
+07/11/2024 14:37:25 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+07/11/2024 14:37:25 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+07/11/2024 14:37:25 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000028D76409DB0>
+07/11/2024 14:37:25 - INFO     - MenuUtilisateurVue
+07/11/2024 14:37:26 - INFO     - EcranDuProfilVue
+07/11/2024 14:37:33 - INFO     - cannot import name 'CollectionCoherenteVue' from 'vues.collection_coherente_vue' (p:\Cours2A\projet_info\ENSAI-Projet-info-2A\src\vues\collection_coherente_vue.py)
+07/11/2024 14:37:33 - INFO     - AccueilVue
+07/11/2024 14:38:21 - INFO     - Fin de l'application
+07/11/2024 14:38:23 - INFO     - --------------------------------------------------
+07/11/2024 14:38:23 - INFO     - Lancement Application                           
+07/11/2024 14:38:23 - INFO     - --------------------------------------------------
+07/11/2024 14:38:23 - INFO     - AccueilVue
+07/11/2024 14:38:24 - INFO     - ConnexionVue
+07/11/2024 14:38:29 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+07/11/2024 14:38:29 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+07/11/2024 14:38:29 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001DBE25A5A20>
+07/11/2024 14:38:29 - INFO     - MenuUtilisateurVue
+07/11/2024 14:38:30 - INFO     - EcranDuProfilVue
+07/11/2024 14:38:31 - INFO     - CollectionCoherenteVue
+07/11/2024 14:38:38 - INFO     - RechercheService.recherche_collec_cohe_par_id() takes 2 positional arguments but 3 were given
+07/11/2024 14:38:38 - INFO     - AccueilVue
+07/11/2024 14:39:08 - INFO     - Fin de l'application
+07/11/2024 14:39:12 - INFO     - --------------------------------------------------
+07/11/2024 14:39:12 - INFO     - Lancement Application                           
+07/11/2024 14:39:12 - INFO     - --------------------------------------------------
+07/11/2024 14:39:12 - INFO     - AccueilVue
+07/11/2024 14:39:15 - INFO     - ConnexionVue
+07/11/2024 14:39:21 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+07/11/2024 14:39:21 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+07/11/2024 14:39:21 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000027C22F05A20>
+07/11/2024 14:39:21 - INFO     - MenuUtilisateurVue
+07/11/2024 14:39:22 - INFO     - EcranDuProfilVue
+07/11/2024 14:39:23 - INFO     - CollectionCoherenteVue
+07/11/2024 14:39:24 - INFO     - 'CollectionCoherente' object has no attribute 'titre'
+07/11/2024 14:39:24 - INFO     - AccueilVue
+07/11/2024 14:40:09 - INFO     - Fin de l'application
+07/11/2024 14:40:11 - INFO     - --------------------------------------------------
+07/11/2024 14:40:11 - INFO     - Lancement Application                           
+07/11/2024 14:40:11 - INFO     - --------------------------------------------------
+07/11/2024 14:40:11 - INFO     - AccueilVue
+07/11/2024 14:40:12 - INFO     - ConnexionVue
+07/11/2024 14:40:17 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+07/11/2024 14:40:17 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+07/11/2024 14:40:17 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001D37CC05A20>
+07/11/2024 14:40:17 - INFO     - MenuUtilisateurVue
+07/11/2024 14:40:19 - INFO     - EcranDuProfilVue
+07/11/2024 14:40:20 - INFO     - CollectionCoherenteVue
+07/11/2024 14:40:26 - INFO     - MenuUtilisateurVue
+07/11/2024 14:40:33 - INFO     - AccueilVue
+07/11/2024 14:40:35 - INFO     - Fin de l'application
+07/11/2024 14:42:42 - INFO     - --------------------------------------------------
+07/11/2024 14:42:42 - INFO     - Lancement Application                           
+07/11/2024 14:42:42 - INFO     - --------------------------------------------------
+07/11/2024 14:42:42 - INFO     - AccueilVue
+07/11/2024 14:42:43 - INFO     - ConnexionVue
+07/11/2024 14:42:49 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+07/11/2024 14:42:49 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+07/11/2024 14:42:49 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x00000194DBF35A20>
+07/11/2024 14:42:49 - INFO     - MenuUtilisateurVue
+07/11/2024 14:42:50 - INFO     - EcranDuProfilVue
+07/11/2024 14:42:51 - INFO     - CollectionCoherenteVue
+07/11/2024 14:43:19 - INFO     - --------------------------------------------------
+07/11/2024 14:43:19 - INFO     - Lancement Application                           
+07/11/2024 14:43:19 - INFO     - --------------------------------------------------
+07/11/2024 14:43:19 - INFO     - AccueilVue
+07/11/2024 14:43:20 - INFO     - ConnexionVue
+07/11/2024 14:43:25 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+07/11/2024 14:43:25 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+07/11/2024 14:43:25 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000024D16905A20>
+07/11/2024 14:43:25 - INFO     - MenuUtilisateurVue
+07/11/2024 14:43:25 - INFO     - EcranDuProfilVue
+07/11/2024 14:43:26 - INFO     - CollectionCoherenteVue
+07/11/2024 14:44:01 - INFO     - MenuUtilisateurVue
+07/11/2024 14:44:03 - INFO     - AccueilVue
+07/11/2024 14:44:05 - INFO     - Fin de l'application
+07/11/2024 14:46:41 - INFO     - --------------------------------------------------
+07/11/2024 14:46:41 - INFO     - Lancement Application                           
+07/11/2024 14:46:41 - INFO     - --------------------------------------------------
+07/11/2024 14:46:41 - INFO     - AccueilVue
+07/11/2024 14:46:43 - INFO     - ConnexionVue
+07/11/2024 14:46:49 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+07/11/2024 14:46:49 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+07/11/2024 14:46:49 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001D463415A20>
+07/11/2024 14:46:49 - INFO     - MenuUtilisateurVue
+07/11/2024 14:46:50 - INFO     - EcranDuProfilVue
+07/11/2024 14:46:51 - INFO     - 'break' outside loop (collection_coherente_vue.py, line 21)
+07/11/2024 14:46:51 - INFO     - AccueilVue
+07/11/2024 14:47:12 - INFO     - Fin de l'application
+07/11/2024 14:47:16 - INFO     - --------------------------------------------------
+07/11/2024 14:47:16 - INFO     - Lancement Application                           
+07/11/2024 14:47:16 - INFO     - --------------------------------------------------
+07/11/2024 14:47:16 - INFO     - AccueilVue
+07/11/2024 14:47:17 - INFO     - ConnexionVue
+07/11/2024 14:47:21 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+07/11/2024 14:47:21 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+07/11/2024 14:47:21 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000022BFC4C59F0>
+07/11/2024 14:47:21 - INFO     - MenuUtilisateurVue
+07/11/2024 14:47:22 - INFO     - EcranDuProfilVue
+07/11/2024 14:47:23 - INFO     - CollectionCoherenteVue
+07/11/2024 14:47:27 - INFO     - Fin de l'application
+07/11/2024 14:48:38 - INFO     - --------------------------------------------------
+07/11/2024 14:48:38 - INFO     - Lancement Application                           
+07/11/2024 14:48:38 - INFO     - --------------------------------------------------
+07/11/2024 14:48:38 - INFO     - AccueilVue
+07/11/2024 14:48:39 - INFO     - ConnexionVue
+07/11/2024 14:48:44 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+07/11/2024 14:48:44 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+07/11/2024 14:48:44 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000025D502E5A20>
+07/11/2024 14:48:44 - INFO     - MenuUtilisateurVue
+07/11/2024 14:48:46 - INFO     - EcranDuProfilVue
+07/11/2024 14:48:48 - INFO     - CollectionCoherenteVue
+07/11/2024 14:49:12 - INFO     - MenuUtilisateurVue
+07/11/2024 14:49:16 - INFO     - AccueilVue
+07/11/2024 14:49:19 - INFO     - Fin de l'application
+07/11/2024 15:01:12 - INFO     - --------------------------------------------------
+07/11/2024 15:01:12 - INFO     - Lancement Application                           
+07/11/2024 15:01:12 - INFO     - --------------------------------------------------
+07/11/2024 15:01:12 - INFO     - AccueilVue
+07/11/2024 15:01:13 - INFO     - ConnexionVue
+07/11/2024 15:01:19 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+07/11/2024 15:01:19 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+07/11/2024 15:01:19 - INFO     -        └─> Sortie : None
+07/11/2024 15:01:19 - INFO     - AccueilVue
+07/11/2024 15:01:23 - INFO     - ConnexionVue
+07/11/2024 15:01:27 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+07/11/2024 15:01:27 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+07/11/2024 15:01:27 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x00000254CA4C5180>
+07/11/2024 15:01:27 - INFO     - MenuUtilisateurVue
+07/11/2024 15:01:28 - INFO     - EcranDuProfilVue
+07/11/2024 15:01:30 - INFO     - CollectionPhysiqueVue
+07/11/2024 15:01:30 - INFO     - 'Collection_physique' object is not iterable
+07/11/2024 15:01:30 - INFO     - AccueilVue
+07/11/2024 15:01:49 - INFO     - Fin de l'application
+07/11/2024 15:06:07 - INFO     - --------------------------------------------------
+07/11/2024 15:06:07 - INFO     - Lancement Application                           
+07/11/2024 15:06:07 - INFO     - --------------------------------------------------
+07/11/2024 15:06:07 - INFO     - AccueilVue
+07/11/2024 15:06:09 - INFO     - ConnexionVue
+07/11/2024 15:06:13 - INFO     -     UtilisateurDao.se_connecter('', '*****') - DEBUT
+07/11/2024 15:06:13 - INFO     -     UtilisateurDao.se_connecter('', '*****') - FIN
+07/11/2024 15:06:13 - INFO     -        └─> Sortie : None
+07/11/2024 15:06:13 - INFO     - AccueilVue
+07/11/2024 15:06:14 - INFO     - Fin de l'application
+07/11/2024 15:08:32 - INFO     - --------------------------------------------------
+07/11/2024 15:08:32 - INFO     - Lancement Application                           
+07/11/2024 15:08:32 - INFO     - --------------------------------------------------
+07/11/2024 15:08:32 - INFO     - AccueilVue
+07/11/2024 15:08:39 - INFO     - ConnexionVue
+07/11/2024 15:08:44 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+07/11/2024 15:08:44 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+07/11/2024 15:08:44 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000002538F6757B0>
+07/11/2024 15:08:44 - INFO     - MenuUtilisateurVue
+07/11/2024 15:08:45 - INFO     - EcranDuProfilVue
+07/11/2024 15:08:46 - INFO     - CollectionCoherenteVue
+07/11/2024 15:08:48 - INFO     - MenuUtilisateurVue
+07/11/2024 15:08:49 - INFO     - EcranDuProfilVue
+07/11/2024 15:08:52 - INFO     - CollectionPhysiqueVue
+07/11/2024 15:08:52 - INFO     - 'Collection_physique' object is not iterable
+07/11/2024 15:08:52 - INFO     - AccueilVue
+07/11/2024 15:12:21 - INFO     - Fin de l'application
+07/11/2024 15:13:57 - INFO     - --------------------------------------------------
+07/11/2024 15:13:57 - INFO     - Lancement Application                           
+07/11/2024 15:13:57 - INFO     - --------------------------------------------------
+07/11/2024 15:13:57 - INFO     - AccueilVue
+07/11/2024 15:13:58 - INFO     - ConnexionVue
+07/11/2024 15:14:04 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+07/11/2024 15:14:04 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+07/11/2024 15:14:04 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001A68AE25A20>
+07/11/2024 15:14:04 - INFO     - MenuUtilisateurVue
+07/11/2024 15:14:05 - INFO     - EcranDuProfilVue
+07/11/2024 15:14:07 - INFO     - CollectionPhysiqueVue
+07/11/2024 15:14:07 - INFO     - 'Collection_physique' object has no attribute 'extend'
+07/11/2024 15:14:07 - INFO     - AccueilVue
+07/11/2024 15:20:52 - INFO     - Fin de l'application
+07/11/2024 15:20:58 - INFO     - --------------------------------------------------
+07/11/2024 15:20:58 - INFO     - Lancement Application                           
+07/11/2024 15:20:58 - INFO     - --------------------------------------------------
+07/11/2024 15:20:58 - INFO     - AccueilVue
+07/11/2024 15:21:00 - INFO     - ConnexionVue
+07/11/2024 15:21:05 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+07/11/2024 15:21:05 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+07/11/2024 15:21:05 - INFO     -        └─> Sortie : None
+07/11/2024 15:21:05 - INFO     - AccueilVue
+07/11/2024 15:21:10 - INFO     - ConnexionVue
+07/11/2024 15:21:16 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+07/11/2024 15:21:16 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+07/11/2024 15:21:16 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001490C789330>
+07/11/2024 15:21:16 - INFO     - MenuUtilisateurVue
+07/11/2024 15:21:18 - INFO     - EcranDuProfilVue
+07/11/2024 15:21:19 - INFO     - CollectionPhysiqueVue
+07/11/2024 15:21:27 - INFO     - MenuUtilisateurVue
+07/11/2024 15:21:29 - INFO     - AccueilVue
+07/11/2024 15:21:30 - INFO     - Fin de l'application
+07/11/2024 15:25:10 - INFO     - --------------------------------------------------
+07/11/2024 15:25:10 - INFO     - Lancement Application                           
+07/11/2024 15:25:10 - INFO     - --------------------------------------------------
+07/11/2024 15:25:10 - INFO     - AccueilVue
+07/11/2024 15:25:11 - INFO     - ConnexionVue
+07/11/2024 15:25:17 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+07/11/2024 15:25:17 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+07/11/2024 15:25:17 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x00000194244F9A20>
+07/11/2024 15:25:17 - INFO     - MenuUtilisateurVue
+07/11/2024 15:25:18 - INFO     - EcranDuProfilVue
+07/11/2024 15:25:19 - INFO     - CollectionCoherenteVue
+07/11/2024 15:25:25 - INFO     - MenuUtilisateurVue
+07/11/2024 15:25:27 - INFO     - EcranDuProfilVue
+07/11/2024 15:25:28 - INFO     - CollectionPhysiqueVue
+07/11/2024 15:25:32 - INFO     - MenuUtilisateurVue
+07/11/2024 15:25:34 - INFO     - AccueilVue
+07/11/2024 15:25:35 - INFO     - Fin de l'application
+07/11/2024 15:47:38 - INFO     - --------------------------------------------------
+07/11/2024 15:47:38 - INFO     - Lancement Application                           
+07/11/2024 15:47:38 - INFO     - --------------------------------------------------
+07/11/2024 15:47:38 - INFO     - AccueilVue
+07/11/2024 15:47:40 - INFO     - ConnexionVue
+07/11/2024 15:47:48 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+07/11/2024 15:47:48 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+07/11/2024 15:47:48 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001A2A7469CC0>
+07/11/2024 15:47:48 - INFO     - MenuUtilisateurVue
+07/11/2024 15:47:49 - INFO     - EcranDuProfilVue
+07/11/2024 15:47:54 - INFO     -     UtilisateurDao.supprimer('<business_object.utilisateur.Utilisateur object at 0x000001A2A7469CC0>',) - DEBUT
+07/11/2024 15:47:54 - INFO     -     UtilisateurDao.supprimer('<business_object.utilisateur.Utilisateur object at 0x000001A2A7469CC0>',) - FIN
+07/11/2024 15:47:54 - INFO     -        └─> Sortie : True
+07/11/2024 15:47:54 - INFO     - AccueilVue
+07/11/2024 15:48:01 - INFO     - ConnexionVue
+07/11/2024 15:48:07 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+07/11/2024 15:48:07 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+07/11/2024 15:48:07 - INFO     -        └─> Sortie : None
+07/11/2024 15:48:07 - INFO     - AccueilVue
+07/11/2024 15:48:30 - INFO     - InscriptionVue
+07/11/2024 15:48:32 - INFO     - Pseudo : Emilien (length: 7)
+07/11/2024 15:48:32 - INFO     -     UtilisateurDao.lister_tous() - DEBUT
+07/11/2024 15:48:32 - INFO     -     UtilisateurDao.lister_tous() - FIN
+07/11/2024 15:48:32 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000001A2A786A7A0>', '<business_object.utilisateur.Utilisateur object at 0x000001A2A786A770>', '<business_object.utilisateur.Utilisateur object at 0x000001A2A786A710>'] ... (3 elements)
+07/11/2024 15:48:36 - INFO     - Mot de passe haché : 9cec9e870d627f180d54ea159f56ef8be13aaa200f5de67ee34b3280f116758b (length: 64)
+07/11/2024 15:48:36 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x000001A2A794CC70>',) - DEBUT
+07/11/2024 15:48:36 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x000001A2A794CC70>',) - FIN
+07/11/2024 15:48:36 - INFO     -        └─> Sortie : True
+07/11/2024 15:48:36 - INFO     - AccueilVue
+07/11/2024 15:48:38 - INFO     - ConnexionVue
+07/11/2024 15:48:43 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+07/11/2024 15:48:43 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+07/11/2024 15:48:43 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001A2A8399F60>
+07/11/2024 15:48:43 - INFO     - MenuUtilisateurVue
+07/11/2024 15:48:44 - INFO     - EcranDuProfilVue
+07/11/2024 15:48:46 - INFO     - CollectionCoherenteVue
+07/11/2024 15:48:46 - INFO     - 'str' object has no attribute 'extend'
+07/11/2024 15:48:46 - INFO     - AccueilVue
+07/11/2024 15:51:09 - INFO     - Fin de l'application
+07/11/2024 15:51:12 - INFO     - --------------------------------------------------
+07/11/2024 15:51:12 - INFO     - Lancement Application                           
+07/11/2024 15:51:12 - INFO     - --------------------------------------------------
+07/11/2024 15:51:12 - INFO     - AccueilVue
+07/11/2024 15:51:15 - INFO     - ConnexionVue
+07/11/2024 15:51:21 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+07/11/2024 15:51:21 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+07/11/2024 15:51:21 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001D4A8DD5A80>
+07/11/2024 15:51:21 - INFO     - MenuUtilisateurVue
+07/11/2024 15:51:22 - INFO     - EcranDuProfilVue
+07/11/2024 15:51:25 - INFO     - CollectionPhysiqueVue
+07/11/2024 15:51:25 - INFO     - 'str' object has no attribute 'titre_collection'
+07/11/2024 15:51:25 - INFO     - AccueilVue
+07/11/2024 15:59:24 - INFO     - ConnexionVue
+07/11/2024 15:59:33 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+07/11/2024 15:59:33 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+07/11/2024 15:59:33 - INFO     -        └─> Sortie : None
+07/11/2024 15:59:33 - INFO     - AccueilVue
+07/11/2024 15:59:35 - INFO     - ConnexionVue
+07/11/2024 15:59:41 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+07/11/2024 15:59:41 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+07/11/2024 15:59:41 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001D4A92B6620>
+07/11/2024 15:59:41 - INFO     - MenuUtilisateurVue
+07/11/2024 15:59:42 - INFO     - EcranDuProfilVue
+07/11/2024 15:59:56 - INFO     - Fin de l'application
+07/11/2024 16:02:14 - INFO     - --------------------------------------------------
+07/11/2024 16:02:14 - INFO     - Lancement Application                           
+07/11/2024 16:02:14 - INFO     - --------------------------------------------------
+07/11/2024 16:02:14 - INFO     - AccueilVue
+07/11/2024 16:02:16 - INFO     - ConnexionVue
+07/11/2024 16:02:21 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+07/11/2024 16:02:21 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+07/11/2024 16:02:21 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001E8C9839C00>
+07/11/2024 16:02:21 - INFO     - MenuUtilisateurVue
+07/11/2024 16:02:23 - INFO     - EcranDuProfilVue
+07/11/2024 16:02:48 - INFO     - EcranDuProfilVue
+07/11/2024 16:02:54 - INFO     - CollectionCoherenteVue
+07/11/2024 16:02:54 - INFO     - 'str' object has no attribute 'extend'
+07/11/2024 16:02:54 - INFO     - AccueilVue
+07/11/2024 16:03:52 - INFO     - ConnexionVue
+07/11/2024 16:08:55 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+07/11/2024 16:08:55 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+07/11/2024 16:08:55 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001E8C9D12A70>
+07/11/2024 16:08:55 - INFO     - MenuUtilisateurVue
+07/11/2024 16:08:56 - INFO     - EcranDuProfilVue
+07/11/2024 16:08:59 - INFO     -     UtilisateurDao.supprimer('<business_object.utilisateur.Utilisateur object at 0x000001E8C9D12A70>',) - DEBUT
+07/11/2024 16:08:59 - INFO     -     UtilisateurDao.supprimer('<business_object.utilisateur.Utilisateur object at 0x000001E8C9D12A70>',) - FIN
+07/11/2024 16:08:59 - INFO     -        └─> Sortie : True
+07/11/2024 16:08:59 - INFO     - AccueilVue
+07/11/2024 16:09:02 - INFO     - Fin de l'application
+07/11/2024 16:09:25 - INFO     - --------------------------------------------------
+07/11/2024 16:09:25 - INFO     - Lancement Application                           
+07/11/2024 16:09:25 - INFO     - --------------------------------------------------
+07/11/2024 16:09:25 - INFO     - AccueilVue
+07/11/2024 16:09:26 - INFO     - ConnexionVue
+07/11/2024 16:09:28 - INFO     -     UtilisateurDao.se_connecter('', '*****') - DEBUT
+07/11/2024 16:09:28 - INFO     -     UtilisateurDao.se_connecter('', '*****') - FIN
+07/11/2024 16:09:28 - INFO     -        └─> Sortie : None
+07/11/2024 16:09:28 - INFO     - AccueilVue
+07/11/2024 16:09:29 - INFO     - InscriptionVue
+07/11/2024 16:09:32 - INFO     - Pseudo : Emilien (length: 7)
+07/11/2024 16:09:32 - INFO     -     UtilisateurDao.lister_tous() - DEBUT
+07/11/2024 16:09:32 - INFO     -     UtilisateurDao.lister_tous() - FIN
+07/11/2024 16:09:32 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x00000172FE657880>', '<business_object.utilisateur.Utilisateur object at 0x00000172FE657B80>', '<business_object.utilisateur.Utilisateur object at 0x00000172FE6558A0>'] ... (3 elements)
+07/11/2024 16:09:35 - INFO     - Mot de passe haché : 9cec9e870d627f180d54ea159f56ef8be13aaa200f5de67ee34b3280f116758b (length: 64)
+07/11/2024 16:09:35 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x00000172FE6E5FF0>',) - DEBUT
+07/11/2024 16:09:35 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x00000172FE6E5FF0>',) - FIN
+07/11/2024 16:09:35 - INFO     -        └─> Sortie : True
+07/11/2024 16:09:35 - INFO     - AccueilVue
+07/11/2024 16:09:36 - INFO     - ConnexionVue
+07/11/2024 16:09:40 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+07/11/2024 16:09:40 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+07/11/2024 16:09:40 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x00000172FE9DCFA0>
+07/11/2024 16:09:40 - INFO     - MenuUtilisateurVue
+07/11/2024 16:09:42 - INFO     - EcranDuProfilVue
+07/11/2024 16:10:34 - INFO     - MenuUtilisateurVue
+07/11/2024 16:10:37 - INFO     - AccueilVue
+07/11/2024 16:10:39 - INFO     - Fin de l'application
+07/11/2024 16:11:11 - INFO     - --------------------------------------------------
+07/11/2024 16:11:11 - INFO     - Lancement Application                           
+07/11/2024 16:11:11 - INFO     - --------------------------------------------------
+07/11/2024 16:11:11 - INFO     - AccueilVue
+07/11/2024 16:11:13 - INFO     - ConnexionVue
+07/11/2024 16:11:18 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+07/11/2024 16:11:18 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+07/11/2024 16:11:18 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001B39083DBD0>
+07/11/2024 16:11:18 - INFO     - MenuUtilisateurVue
+07/11/2024 16:11:20 - INFO     - EcranDuProfilVue
+07/11/2024 16:11:24 - INFO     - CollectionPhysiqueVue
+07/11/2024 16:11:24 - INFO     - 'str' object has no attribute 'titre_collection'
+07/11/2024 16:11:24 - INFO     - AccueilVue
+07/11/2024 16:11:28 - INFO     - Fin de l'application
+07/11/2024 16:12:43 - INFO     - --------------------------------------------------
+07/11/2024 16:12:43 - INFO     - Lancement Application                           
+07/11/2024 16:12:43 - INFO     - --------------------------------------------------
+07/11/2024 16:12:43 - INFO     - AccueilVue
+07/11/2024 16:12:45 - INFO     - ConnexionVue
+07/11/2024 16:12:51 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+07/11/2024 16:12:51 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+07/11/2024 16:12:51 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001C56C8D5A50>
+07/11/2024 16:12:51 - INFO     - MenuUtilisateurVue
+07/11/2024 16:12:52 - INFO     - EcranDuProfilVue
+07/11/2024 16:12:53 - INFO     - CollectionCoherenteVue
+07/11/2024 16:12:53 - INFO     - MenuUtilisateurVue
+07/11/2024 16:12:59 - INFO     - EcranDuProfilVue
+07/11/2024 16:13:00 - INFO     - CollectionPhysiqueVue
+07/11/2024 16:13:00 - INFO     - MenuUtilisateurVue
+07/11/2024 16:13:05 - INFO     - EcranDuProfilVue
+07/11/2024 16:13:09 - INFO     - '<' not supported between instances of 'NoneType' and 'int'
+07/11/2024 16:13:09 - INFO     - AccueilVue
+07/11/2024 16:14:12 - INFO     - Fin de l'application
+07/11/2024 16:14:37 - INFO     - --------------------------------------------------
+07/11/2024 16:14:37 - INFO     - Lancement Application                           
+07/11/2024 16:14:37 - INFO     - --------------------------------------------------
+07/11/2024 16:14:37 - INFO     - AccueilVue
+07/11/2024 16:14:38 - INFO     - ConnexionVue
+07/11/2024 16:14:42 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+07/11/2024 16:14:43 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+07/11/2024 16:14:43 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001B773E75A50>
+07/11/2024 16:14:43 - INFO     - MenuUtilisateurVue
+07/11/2024 16:14:43 - INFO     - EcranDuProfilVue
+07/11/2024 16:14:47 - INFO     - EcranDuProfilVue
+07/11/2024 16:15:42 - INFO     - MenuUtilisateurVue
+07/11/2024 16:15:44 - INFO     - AccueilVue
+07/11/2024 16:15:45 - INFO     - Fin de l'application
+07/11/2024 16:15:49 - INFO     - --------------------------------------------------
+07/11/2024 16:15:49 - INFO     - Lancement Application                           
+07/11/2024 16:15:49 - INFO     - --------------------------------------------------
+07/11/2024 16:15:49 - INFO     - AccueilVue
+07/11/2024 16:15:52 - INFO     - ConnexionVue
+07/11/2024 16:15:59 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+07/11/2024 16:15:59 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+07/11/2024 16:15:59 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001F2D2619C00>
+07/11/2024 16:15:59 - INFO     - MenuUtilisateurVue
+07/11/2024 16:16:02 - INFO     - EcranDuProfilVue
+07/11/2024 16:16:18 - INFO     - EcranDuProfilVue
+07/11/2024 16:16:24 - INFO     - CollectionPhysiqueVue
+07/11/2024 16:16:30 - INFO     - Fin de l'application
+07/11/2024 16:16:37 - INFO     - --------------------------------------------------
+07/11/2024 16:16:37 - INFO     - Lancement Application                           
+07/11/2024 16:16:37 - INFO     - --------------------------------------------------
+07/11/2024 16:16:37 - INFO     - AccueilVue
+07/11/2024 16:16:40 - INFO     - ConnexionVue
+07/11/2024 16:17:00 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+07/11/2024 16:17:00 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+07/11/2024 16:17:00 - INFO     -        └─> Sortie : None
+07/11/2024 16:17:00 - INFO     - AccueilVue
+07/11/2024 16:17:02 - INFO     - ConnexionVue
+07/11/2024 16:17:09 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+07/11/2024 16:17:09 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+07/11/2024 16:17:09 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001277052FAC0>
+07/11/2024 16:17:09 - INFO     - MenuUtilisateurVue
+07/11/2024 16:17:11 - INFO     - EcranDuProfilVue
+07/11/2024 16:17:24 - INFO     - EcranDuProfilVue
+07/11/2024 16:17:26 - INFO     - CollectionCoherenteVue
+07/11/2024 16:17:28 - INFO     - MenuUtilisateurVue
+07/11/2024 16:17:30 - INFO     - EcranDuProfilVue
+07/11/2024 16:17:39 - INFO     - EcranDuProfilVue
+07/11/2024 16:17:41 - INFO     - CollectionCoherenteVue
+07/11/2024 16:17:45 - INFO     - MenuUtilisateurVue
+07/11/2024 16:18:01 - INFO     - EcranDuProfilVue
+07/11/2024 16:18:06 - INFO     - MenuAvis
+07/11/2024 16:32:45 - INFO     - Fin de l'application
+07/11/2024 16:32:51 - INFO     - --------------------------------------------------
+07/11/2024 16:32:51 - INFO     - Lancement Application                           
+07/11/2024 16:32:51 - INFO     - --------------------------------------------------
+07/11/2024 16:32:51 - INFO     - AccueilVue
+07/11/2024 16:32:54 - INFO     - ConnexionVue
+07/11/2024 16:33:04 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+07/11/2024 16:33:04 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+07/11/2024 16:33:04 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000024487A59B40>
+07/11/2024 16:33:04 - INFO     - MenuUtilisateurVue
+07/11/2024 16:33:06 - INFO     - EcranDuProfilVue
+07/11/2024 16:33:08 - INFO     - MenuAvis
+07/11/2024 16:33:09 - INFO     - No module named 'avis_service'
+07/11/2024 16:33:09 - INFO     - AccueilVue
+07/11/2024 16:34:04 - INFO     - Fin de l'application
+07/11/2024 16:34:07 - INFO     - --------------------------------------------------
+07/11/2024 16:34:07 - INFO     - Lancement Application                           
+07/11/2024 16:34:07 - INFO     - --------------------------------------------------
+07/11/2024 16:34:07 - INFO     - AccueilVue
+07/11/2024 16:34:12 - INFO     - ConnexionVue
+07/11/2024 16:34:20 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+07/11/2024 16:34:20 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+07/11/2024 16:34:20 - INFO     -        └─> Sortie : None
+07/11/2024 16:34:20 - INFO     - AccueilVue
+07/11/2024 16:34:22 - INFO     - ConnexionVue
+07/11/2024 16:34:31 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+07/11/2024 16:34:31 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+07/11/2024 16:34:31 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001D8AB3152A0>
+07/11/2024 16:34:31 - INFO     - MenuUtilisateurVue
+07/11/2024 16:34:38 - INFO     - EcranDuProfilVue
+07/11/2024 16:34:40 - INFO     - MenuAvis
+07/11/2024 16:34:42 - INFO     - No module named 'servive'
+07/11/2024 16:34:42 - INFO     - AccueilVue
+07/11/2024 16:35:01 - INFO     - Fin de l'application
+07/11/2024 16:35:04 - INFO     - --------------------------------------------------
+07/11/2024 16:35:04 - INFO     - Lancement Application                           
+07/11/2024 16:35:04 - INFO     - --------------------------------------------------
+07/11/2024 16:35:04 - INFO     - AccueilVue
+07/11/2024 16:35:06 - INFO     - ConnexionVue
+07/11/2024 16:35:14 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+07/11/2024 16:35:14 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+07/11/2024 16:35:14 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001FC6333DC90>
+07/11/2024 16:35:14 - INFO     - MenuUtilisateurVue
+07/11/2024 16:35:15 - INFO     - EcranDuProfilVue
+07/11/2024 16:35:17 - INFO     - MenuAvis
+07/11/2024 16:35:17 - INFO     - res : [RealDictRow([('id_avis', 1), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'Nul')]), RealDictRow([('id_avis', 2), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'a')]), RealDictRow([('id_avis', 3), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'assez bien')]), RealDictRow([('id_avis', 4), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'p')]), RealDictRow([('id_avis', 5), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'ppp')]), RealDictRow([('id_avis', 6), ('id_utilisateur', 1), ('id_manga', 1166), ('texte', 'ok')]), RealDictRow([('id_avis', 7), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'a')]), RealDictRow([('id_avis', 8), ('id_utilisateur', 1), ('id_manga', 9), ('texte', 'Bien')]), RealDictRow([('id_avis', 9), ('id_utilisateur', 1), ('id_manga', 519), ('texte', 'Bien')])]
+07/11/2024 16:35:17 - INFO     - liste_avis : [<business_object.avis.Avis object at 0x000001FC63382230>, <business_object.avis.Avis object at 0x000001FC63381F60>, <business_object.avis.Avis object at 0x000001FC63381F30>, <business_object.avis.Avis object at 0x000001FC63382FB0>, <business_object.avis.Avis object at 0x000001FC633830D0>, <business_object.avis.Avis object at 0x000001FC63383130>, <business_object.avis.Avis object at 0x000001FC63383010>, <business_object.avis.Avis object at 0x000001FC63383040>, <business_object.avis.Avis object at 0x000001FC63382EC0>]
+07/11/2024 16:35:17 - INFO     - liste_manga : [1, 1, 1, 1, 1, 1166, 1, 9, 519]
+07/11/2024 16:35:17 - INFO     - i : 1
+07/11/2024 16:35:18 - INFO     - manga : Monster
+07/11/2024 16:35:18 - INFO     - i : 1
+07/11/2024 16:35:18 - INFO     - manga : Monster
+07/11/2024 16:35:18 - INFO     - i : 1
+07/11/2024 16:35:18 - INFO     - manga : Monster
+07/11/2024 16:35:18 - INFO     - i : 1
+07/11/2024 16:35:18 - INFO     - manga : Monster
+07/11/2024 16:35:18 - INFO     - i : 1
+07/11/2024 16:35:18 - INFO     - manga : Monster
+07/11/2024 16:35:18 - INFO     - i : 1166
+07/11/2024 16:35:18 - INFO     - manga : Eensy-Weensy Monster
+07/11/2024 16:35:18 - INFO     - i : 1
+07/11/2024 16:35:18 - INFO     - manga : Monster
+07/11/2024 16:35:18 - INFO     - i : 9
+07/11/2024 16:35:18 - INFO     - manga : Naruto
+07/11/2024 16:35:18 - INFO     - i : 519
+07/11/2024 16:35:18 - INFO     - manga : Fairy Tail
+07/11/2024 16:35:18 - INFO     - Fin de l'application
+07/11/2024 16:37:31 - INFO     - --------------------------------------------------
+07/11/2024 16:37:31 - INFO     - Lancement Application                           
+07/11/2024 16:37:31 - INFO     - --------------------------------------------------
+07/11/2024 16:37:31 - INFO     - AccueilVue
+07/11/2024 16:37:32 - INFO     - ConnexionVue
+07/11/2024 16:37:38 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+07/11/2024 16:37:38 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+07/11/2024 16:37:38 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001ADE0A79B40>
+07/11/2024 16:37:38 - INFO     - MenuUtilisateurVue
+07/11/2024 16:37:39 - INFO     - EcranDuProfilVue
+07/11/2024 16:37:41 - INFO     - MenuAvis
+07/11/2024 16:37:42 - INFO     - res : [RealDictRow([('id_avis', 1), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'Nul')]), RealDictRow([('id_avis', 2), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'a')]), RealDictRow([('id_avis', 3), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'assez bien')]), RealDictRow([('id_avis', 4), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'p')]), RealDictRow([('id_avis', 5), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'ppp')]), RealDictRow([('id_avis', 6), ('id_utilisateur', 1), ('id_manga', 1166), ('texte', 'ok')]), RealDictRow([('id_avis', 7), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'a')]), RealDictRow([('id_avis', 8), ('id_utilisateur', 1), ('id_manga', 9), ('texte', 'Bien')]), RealDictRow([('id_avis', 9), ('id_utilisateur', 1), ('id_manga', 519), ('texte', 'Bien')])]
+07/11/2024 16:37:42 - INFO     - liste_avis : [<business_object.avis.Avis object at 0x000001ADE0ACA230>, <business_object.avis.Avis object at 0x000001ADE0AC9F60>, <business_object.avis.Avis object at 0x000001ADE0AC9F30>, <business_object.avis.Avis object at 0x000001ADE0ACAFB0>, <business_object.avis.Avis object at 0x000001ADE0ACB0D0>, <business_object.avis.Avis object at 0x000001ADE0ACB130>, <business_object.avis.Avis object at 0x000001ADE0ACB010>, <business_object.avis.Avis object at 0x000001ADE0ACB040>, <business_object.avis.Avis object at 0x000001ADE0ACAEC0>]
+07/11/2024 16:37:42 - INFO     - liste_manga : [1, 1, 1, 1, 1, 1166, 1, 9, 519]
+07/11/2024 16:37:42 - INFO     - i : 1
+07/11/2024 16:37:42 - INFO     - manga : Monster
+07/11/2024 16:37:42 - INFO     - i : 1
+07/11/2024 16:37:42 - INFO     - manga : Monster
+07/11/2024 16:37:42 - INFO     - i : 1
+07/11/2024 16:37:42 - INFO     - manga : Monster
+07/11/2024 16:37:42 - INFO     - i : 1
+07/11/2024 16:37:42 - INFO     - manga : Monster
+07/11/2024 16:37:42 - INFO     - i : 1
+07/11/2024 16:37:42 - INFO     - manga : Monster
+07/11/2024 16:37:42 - INFO     - i : 1166
+07/11/2024 16:37:42 - INFO     - manga : Eensy-Weensy Monster
+07/11/2024 16:37:42 - INFO     - i : 1
+07/11/2024 16:37:42 - INFO     - manga : Monster
+07/11/2024 16:37:42 - INFO     - i : 9
+07/11/2024 16:37:42 - INFO     - manga : Naruto
+07/11/2024 16:37:42 - INFO     - i : 519
+07/11/2024 16:37:42 - INFO     - manga : Fairy Tail
+07/11/2024 16:37:42 - INFO     - Fin de l'application
+07/11/2024 16:46:26 - INFO     - --------------------------------------------------
+07/11/2024 16:46:26 - INFO     - Lancement Application                           
+07/11/2024 16:46:26 - INFO     - --------------------------------------------------
+07/11/2024 16:46:26 - INFO     - AccueilVue
+07/11/2024 16:46:27 - INFO     - ConnexionVue
+07/11/2024 16:46:35 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+07/11/2024 16:46:35 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+07/11/2024 16:46:35 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000002307A82DB10>
+07/11/2024 16:46:35 - INFO     - MenuUtilisateurVue
+07/11/2024 16:46:36 - INFO     - EcranDuProfilVue
+07/11/2024 16:46:39 - INFO     - MenuAvis
+07/11/2024 16:46:40 - INFO     - res : [RealDictRow([('id_avis', 1), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'Nul')]), RealDictRow([('id_avis', 2), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'a')]), RealDictRow([('id_avis', 3), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'assez bien')]), RealDictRow([('id_avis', 4), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'p')]), RealDictRow([('id_avis', 5), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'ppp')]), RealDictRow([('id_avis', 6), ('id_utilisateur', 1), ('id_manga', 1166), ('texte', 'ok')]), RealDictRow([('id_avis', 7), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'a')]), RealDictRow([('id_avis', 8), ('id_utilisateur', 1), ('id_manga', 9), ('texte', 'Bien')]), RealDictRow([('id_avis', 9), ('id_utilisateur', 1), ('id_manga', 519), ('texte', 'Bien')])]
+07/11/2024 16:46:40 - INFO     - liste_avis : [<business_object.avis.Avis object at 0x000002307A87E260>, <business_object.avis.Avis object at 0x000002307A87DF90>, <business_object.avis.Avis object at 0x000002307A87DF60>, <business_object.avis.Avis object at 0x000002307A87EFE0>, <business_object.avis.Avis object at 0x000002307A87F100>, <business_object.avis.Avis object at 0x000002307A87F160>, <business_object.avis.Avis object at 0x000002307A87F040>, <business_object.avis.Avis object at 0x000002307A87F070>, <business_object.avis.Avis object at 0x000002307A87EEF0>]
+07/11/2024 16:46:40 - INFO     - liste_manga : [1, 1, 1, 1, 1, 1166, 1, 9, 519]
+07/11/2024 16:46:40 - INFO     - i : 1
+07/11/2024 16:46:40 - INFO     - manga : Monster
+07/11/2024 16:46:40 - INFO     - i : 1
+07/11/2024 16:46:40 - INFO     - manga : Monster
+07/11/2024 16:46:40 - INFO     - i : 1
+07/11/2024 16:46:40 - INFO     - manga : Monster
+07/11/2024 16:46:40 - INFO     - i : 1
+07/11/2024 16:46:40 - INFO     - manga : Monster
+07/11/2024 16:46:40 - INFO     - i : 1
+07/11/2024 16:46:40 - INFO     - manga : Monster
+07/11/2024 16:46:40 - INFO     - i : 1166
+07/11/2024 16:46:40 - INFO     - manga : Eensy-Weensy Monster
+07/11/2024 16:46:40 - INFO     - i : 1
+07/11/2024 16:46:40 - INFO     - manga : Monster
+07/11/2024 16:46:40 - INFO     - i : 9
+07/11/2024 16:46:40 - INFO     - manga : Naruto
+07/11/2024 16:46:40 - INFO     - i : 519
+07/11/2024 16:46:40 - INFO     - manga : Fairy Tail
+07/11/2024 16:48:23 - INFO     - --------------------------------------------------
+07/11/2024 16:48:23 - INFO     - Lancement Application                           
+07/11/2024 16:48:23 - INFO     - --------------------------------------------------
+07/11/2024 16:48:23 - INFO     - AccueilVue
+07/11/2024 16:48:24 - INFO     - ConnexionVue
+07/11/2024 16:48:32 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+07/11/2024 16:48:32 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+07/11/2024 16:48:32 - INFO     -        └─> Sortie : None
+07/11/2024 16:48:32 - INFO     - AccueilVue
+07/11/2024 16:48:33 - INFO     - ConnexionVue
+07/11/2024 16:48:39 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+07/11/2024 16:48:39 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+07/11/2024 16:48:39 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000015DDF2FD1E0>
+07/11/2024 16:48:39 - INFO     - MenuUtilisateurVue
+07/11/2024 16:48:43 - INFO     - EcranDuProfilVue
+07/11/2024 16:48:45 - INFO     - MenuAvis
+07/11/2024 16:48:46 - INFO     - res : [RealDictRow([('id_avis', 1), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'Nul')]), RealDictRow([('id_avis', 2), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'a')]), RealDictRow([('id_avis', 3), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'assez bien')]), RealDictRow([('id_avis', 4), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'p')]), RealDictRow([('id_avis', 5), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'ppp')]), RealDictRow([('id_avis', 6), ('id_utilisateur', 1), ('id_manga', 1166), ('texte', 'ok')]), RealDictRow([('id_avis', 7), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'a')]), RealDictRow([('id_avis', 8), ('id_utilisateur', 1), ('id_manga', 9), ('texte', 'Bien')]), RealDictRow([('id_avis', 9), ('id_utilisateur', 1), ('id_manga', 519), ('texte', 'Bien')])]
+07/11/2024 16:48:46 - INFO     - liste_avis : [<business_object.avis.Avis object at 0x0000015DDF575DE0>, <business_object.avis.Avis object at 0x0000015DDF576BC0>, <business_object.avis.Avis object at 0x0000015DDF576EF0>, <business_object.avis.Avis object at 0x0000015DDF576F50>, <business_object.avis.Avis object at 0x0000015DDF576FB0>, <business_object.avis.Avis object at 0x0000015DDF576EC0>, <business_object.avis.Avis object at 0x0000015DDF576C50>, <business_object.avis.Avis object at 0x0000015DDF576CB0>, <business_object.avis.Avis object at 0x0000015DDF5761D0>]
+07/11/2024 16:48:46 - INFO     - liste_manga : [1, 1, 1, 1, 1, 1166, 1, 9, 519]
+07/11/2024 16:48:46 - INFO     - i : 1
+07/11/2024 16:48:46 - INFO     - manga : Monster
+07/11/2024 16:48:46 - INFO     - i : 1
+07/11/2024 16:48:46 - INFO     - manga : Monster
+07/11/2024 16:48:46 - INFO     - i : 1
+07/11/2024 16:48:46 - INFO     - manga : Monster
+07/11/2024 16:48:46 - INFO     - i : 1
+07/11/2024 16:48:46 - INFO     - manga : Monster
+07/11/2024 16:48:46 - INFO     - i : 1
+07/11/2024 16:48:46 - INFO     - manga : Monster
+07/11/2024 16:48:46 - INFO     - i : 1166
+07/11/2024 16:48:46 - INFO     - manga : Eensy-Weensy Monster
+07/11/2024 16:48:46 - INFO     - i : 1
+07/11/2024 16:48:46 - INFO     - manga : Monster
+07/11/2024 16:48:46 - INFO     - i : 9
+07/11/2024 16:48:46 - INFO     - manga : Naruto
+07/11/2024 16:48:46 - INFO     - i : 519
+07/11/2024 16:48:46 - INFO     - manga : Fairy Tail
+07/11/2024 23:07:02 - INFO     - --------------------------------------------------
+07/11/2024 23:07:02 - INFO     - Lancement Application                           
+07/11/2024 23:07:02 - INFO     - --------------------------------------------------
+07/11/2024 23:07:02 - INFO     - AccueilVue
+07/11/2024 23:08:43 - INFO     - ConnexionVue
+07/11/2024 23:10:58 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+07/11/2024 23:10:58 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+07/11/2024 23:10:58 - INFO     -        └─> Sortie : None
+07/11/2024 23:10:58 - INFO     - AccueilVue
+07/11/2024 23:11:00 - INFO     - ConnexionVue
+07/11/2024 23:11:17 - INFO     -     UtilisateurDao.se_connecter('Anans35', '*****') - DEBUT
+07/11/2024 23:11:17 - INFO     -     UtilisateurDao.se_connecter('Anans35', '*****') - FIN
+07/11/2024 23:11:17 - INFO     -        └─> Sortie : None
+07/11/2024 23:11:17 - INFO     - AccueilVue
+07/11/2024 23:11:18 - INFO     - ConnexionVue
+07/11/2024 23:11:24 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+07/11/2024 23:11:24 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+07/11/2024 23:11:24 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001AC831DC9D0>
+07/11/2024 23:11:24 - INFO     - MenuUtilisateurVue
+07/11/2024 23:12:53 - INFO     - EcranDuProfilVue
+07/11/2024 23:12:55 - INFO     - MenuAvis
+07/11/2024 23:12:56 - INFO     - res : [RealDictRow([('id_avis', 1), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'Nul')]), RealDictRow([('id_avis', 2), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'a')]), RealDictRow([('id_avis', 3), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'assez bien')]), RealDictRow([('id_avis', 4), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'p')]), RealDictRow([('id_avis', 5), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'ppp')]), RealDictRow([('id_avis', 6), ('id_utilisateur', 1), ('id_manga', 1166), ('texte', 'ok')]), RealDictRow([('id_avis', 7), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'a')]), RealDictRow([('id_avis', 8), ('id_utilisateur', 1), ('id_manga', 9), ('texte', 'Bien')]), RealDictRow([('id_avis', 9), ('id_utilisateur', 1), ('id_manga', 519), ('texte', 'Bien')])]
+07/11/2024 23:12:56 - INFO     - liste_avis : [<business_object.avis.Avis object at 0x000001AC83431F90>, <business_object.avis.Avis object at 0x000001AC83431CC0>, <business_object.avis.Avis object at 0x000001AC83431C90>, <business_object.avis.Avis object at 0x000001AC83432D10>, <business_object.avis.Avis object at 0x000001AC83432E30>, <business_object.avis.Avis object at 0x000001AC83432E90>, <business_object.avis.Avis object at 0x000001AC83432D70>, <business_object.avis.Avis object at 0x000001AC83432DA0>, <business_object.avis.Avis object at 0x000001AC83432C20>]
+07/11/2024 23:12:56 - INFO     - liste_manga : [1, 1, 1, 1, 1, 1166, 1, 9, 519]
+07/11/2024 23:12:56 - INFO     - i : 1
+07/11/2024 23:12:56 - INFO     - manga : Monster
+07/11/2024 23:12:56 - INFO     - i : 1
+07/11/2024 23:12:56 - INFO     - manga : Monster
+07/11/2024 23:12:56 - INFO     - i : 1
+07/11/2024 23:12:56 - INFO     - manga : Monster
+07/11/2024 23:12:56 - INFO     - i : 1
+07/11/2024 23:12:56 - INFO     - manga : Monster
+07/11/2024 23:12:56 - INFO     - i : 1
+07/11/2024 23:12:56 - INFO     - manga : Monster
+07/11/2024 23:12:56 - INFO     - i : 1166
+07/11/2024 23:12:56 - INFO     - manga : Eensy-Weensy Monster
+07/11/2024 23:12:56 - INFO     - i : 1
+07/11/2024 23:12:56 - INFO     - manga : Monster
+07/11/2024 23:12:56 - INFO     - i : 9
+07/11/2024 23:12:56 - INFO     - manga : Naruto
+07/11/2024 23:12:56 - INFO     - i : 519
+07/11/2024 23:12:56 - INFO     - manga : Fairy Tail
+07/11/2024 23:14:23 - INFO     - Fin de l'application
