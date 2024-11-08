@@ -39,26 +39,28 @@ class MenuAvis(VueAbstraite):
         choix_utilisateur = inquirer.select(
             message="Choisissez un avis : ", choices=choices
         ).execute()
-        titre = choix_utilisateur.split("titre : ")[1].split(" |")[0].strip()
-        id_manga = (MangaDao().trouver_manga_par_titre(titre)).id_manga
-        avis = AvisService().recuperer_avis_user_manga(id_manga, Session().utilisateur.id)
-        choix2 = inquirer.select(
-            message="Faites votre choix : ",
-            choices=["Modifier l'avis", "Supprimer l'avis", "Retour au menu précédent"],
-        ).execute()
-        match choix2:
-            case "Modifier l'avis":
-                from dao.avis_dao import AvisDAO
+        if choix_utilisateur != "Retour au menu précédent" and choix_utilisateur != "Retour au menu précédent":
+            titre = choix_utilisateur.split("titre : ")[1].split(" |")[0].strip()
+            id_manga = (MangaDao().trouver_manga_par_titre(titre)).id_manga
+            avis = AvisService().recuperer_avis_user_manga(id_manga, Session().utilisateur.id)
+            choix2 = inquirer.select(
+                message="Faites votre choix : ",
+                choices=["Modifier l'avis", "Supprimer l'avis", "Retour au menu précédent"],
+            ).execute()
+            match choix2:
+                case "Modifier l'avis":
+                    from dao.avis_dao import AvisDAO
 
-                nouvel_avis = input(f"Entrez votre nouvel avis sur le manga {titre} : ")
-                AvisDAO().modifier_avis(avis, nouvel_avis)
-                return MenuAvis()
-            case "Supprimer l'avis":
-                AvisService().supprimer_avis(avis)
-                return MenuAvis()
+                    nouvel_avis = input(f"Entrez votre nouvel avis sur le manga {titre} : ")
+                    AvisDAO().modifier_avis(avis, nouvel_avis)
+                    return MenuAvis()
+                case "Supprimer l'avis":
+                    print("Avis supprimé avec succés")
+                    AvisService().supprimer_avis(avis)
+                    return MenuAvis()
 
-            case "Retour au menu précédent":
-                return MenuAvis()
+                case "Retour au menu précédent":
+                    return MenuAvis()
 
         if choix_utilisateur == "Retour au menu précédent":
             from vues.profil_utilisateur_vue import EcranDuProfilVue

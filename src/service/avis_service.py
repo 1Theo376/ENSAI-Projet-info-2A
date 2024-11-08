@@ -65,15 +65,15 @@ class AvisService:
     def recuperer_avis_manga(self, id_manga):
         """Simule la récupération des avis d'un utilisateur"""
         # Simuler une liste d'avis pour l'exemple
-        liste_avis, liste_user = AvisDAO().recuperer_avis_utilisateur(id_manga)
+        liste_avis, liste_user = AvisDAO().recuperer_avis_manga(id_manga)
         logging.info(f"liste_avis : {liste_avis}")
         logging.info(f"liste_user : {liste_user}")
         liste_pseudo = []
         for i in liste_user:
             logging.info(f"i : {i}")
             user = UtilisateurDao().recherche_pseudo_par_id(i)
-            logging.info(f"manga : {user.pseudo}")
-            liste_pseudo.append(user.pseudo)
+            logging.info(f"manga : {user}")
+            liste_pseudo.append(user)
         if liste_avis:
             return liste_avis, liste_pseudo
         return None

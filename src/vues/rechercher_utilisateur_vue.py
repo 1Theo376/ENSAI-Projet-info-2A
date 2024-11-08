@@ -90,7 +90,8 @@ class RechercheUtilisateurVue(VueAbstraite):
                         ).execute()
                         match choix4:
                             case "Consulter les collections":
-                                pass
+                                from vues.ConsulterCollecVue import CollectionCoherenteVueRecherche
+                                return CollectionCoherenteVueRecherche().choisir_menu(choix3)
                             case "Consulter les avis":
                                 id_utilisateur = UtilisateurDao().recherche_id_par_pseudo(choix3)
                                 liste_avis, liste_titre = AvisService().recuperer_avis_utilisateur(id_utilisateur)
