@@ -28,7 +28,7 @@ class AvisService:
 
     def supprimer_avis(self, avis):
         """Suppression d'un avis"""
-        return self.dao.avis_dao.supprimer_avis(avis)
+        return AvisDAO().supprimer_avis(avis)
 
     def afficher_avis_pagination(self, id_utilisateur, page_suivante=False):
         """Affiche les avis d'un utilisateur avec pagination"""
@@ -76,4 +76,11 @@ class AvisService:
             liste_pseudo.append(user.pseudo)
         if liste_avis:
             return liste_avis, liste_pseudo
+        return None
+
+    def recuperer_avis_user_manga(self, id_manga, id_utilisateur):
+        """Simule la récupération des avis d'un utilisateur"""
+        avis = AvisDAO().recuperer_avis_user_et_manga(id_manga, id_utilisateur)
+        if avis:
+            return avis
         return None

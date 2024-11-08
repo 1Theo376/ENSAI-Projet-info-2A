@@ -33,7 +33,7 @@ class EcranDuProfilVue(VueAbstraite):
                 "Consulter ses avis",
                 "Créer une collection cohérente",
                 "Créer une collection physique",
-                "Retour vers l'écran d'acceuil",
+                "Retour vers le menu précédent",
                 "Supprimer mon compte",
             ],
         ).execute()
@@ -60,21 +60,32 @@ class EcranDuProfilVue(VueAbstraite):
                 ).execute()
                 desc = inquirer.text(message="Decrivez votre collection : ").execute()
                 CollectionCoherenteService().creer_collectioncohe(titre, desc)
+                return EcranDuProfilVue()
 
             case "Créer une collection physique":
-                titre = inquirer.text(
-                    message="Entrez le nom de la collection que vous voulez creer : "
-                ).execute()
-                desc = inquirer.text(message="Decrivez votre collection : ").execute()
-                Collection_physique_service().creer_collectionphys(titre, desc)
+                from service.recherche_service import RechercheService
 
-            case "Retour vers l'écran d'accueil":
+                if RechercheService().recherche_collec_phys_par_id(Session().utilisateur.id):
+                    print("Votre collection physique existe déjà.")
+                    return EcranDuProfilVue()
+                else:
+                    titre = inquirer.text(
+                        message="Entrez le nom de la collection que vous voulez creer : "
+                    ).execute()
+                    desc = inquirer.text(message="Decrivez votre collection : ").execute()
+                    Collection_physique_service().creer_collectionphys(titre, desc)
+                    return EcranDuProfilVue()
+
+            case "Retour vers le menu précédent":
+                from vues.menu_utilisateur_vue import MenuUtilisateurVue
+
+                return MenuUtilisateurVue()
+
+            case "Supprimer mon compte":
+                from dao.utilisateur_dao import UtilisateurDao
+
+                UtilisateurDao().supprimer(Session().utilisateur)
                 Session().deconnexion()
                 from vues.accueil.accueil_vue import AccueilVue
 
-                return AccueilVue()
-
-            case "Supprimer mon compte":
-                user = Session().utilisateur
-                user.supprimer()
                 return AccueilVue()

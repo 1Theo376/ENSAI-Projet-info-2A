@@ -1,6 +1,7 @@
 from InquirerPy import inquirer
 from vues.vue_abstraite import VueAbstraite
 from vues.session import Session
+from dao.manga_dao import MangaDao
 from service.avis_service import AvisService
 
 
@@ -29,63 +30,42 @@ class MenuAvis(VueAbstraite):
 
         print("\n" + "-" * 50 + "\nMenu Avis\n" + "-" * 50 + "\n")
 
-        choix = inquirer.select(
-            message="Faites votre choix : ",
-            choices=[
-                "Accéder à ses avis",
-                "Modifier un avis",
-                "Supprimer un avis",
-                "Retour au menu précédent",
-                "Retour vers l'écran d'accueil",
-            ],
+        liste_avis, liste_titre = AvisService().recuperer_avis_utilisateur(Session().utilisateur.id)
+        choices = []
+        for i in range(len(liste_avis)):
+            option = f"titre : {liste_titre[i]} | Avis: {liste_avis[i]}"
+            choices.append(option)
+        choices.extend(["Retour au menu précédent", "Retour vers l'écran d'accueil"])
+        choix_utilisateur = inquirer.select(
+            message="Choisissez un avis : ", choices=choices
         ).execute()
+        titre = choix_utilisateur.split("titre : ")[1].split(" |")[0].strip()
+        id_manga = (MangaDao().trouver_manga_par_titre(titre)).id_manga
+        avis = AvisService().recuperer_avis_user_manga(id_manga, Session().utilisateur.id)
+        choix2 = inquirer.select(
+            message="Faites votre choix : ",
+            choices=["Modifier l'avis", "Supprimer l'avis", "Retour au menu précédent"],
+        ).execute()
+        match choix2:
+            case "Modifier l'avis":
+                from dao.avis_dao import AvisDAO
 
-        match choix:
-            case "Accéder à ses avis":
-                self.afficher_avis()
-
-            case "Modifier un avis":
-                # Ici, on doit encore implémenter la logique pour modifier un avis
-                print("La fonctionnalité de modification n'est pas encore implémentée.")
-
-            case "Supprimer un avis":
-                # Ici, on doit encore implémenter la logique pour supprimer un avis
-                print("La fonctionnalité de suppression n'est pas encore implémentée.")
+                nouvel_avis = input(f"Entrez votre nouvel avis sur le manga {titre} : ")
+                AvisDAO().modifier_avis(avis, nouvel_avis)
+                return MenuAvis()
+            case "Supprimer l'avis":
+                AvisService().supprimer_avis(avis)
+                return MenuAvis()
 
             case "Retour au menu précédent":
-                from vues.menu_utilisateur_vue import MenuUtilisateurVue
-
-                return MenuUtilisateurVue()
-
-            case "Retour vers l'écran d'accueil":
-                from vues.accueil.accueil_vue import AccueilVue
-
-                return AccueilVue()
-
-    def afficher_avis(self):
-        """Affiche les avis de l'utilisateur avec pagination"""
-
-        # Récupérer l'ID utilisateur depuis la session
-        id_utilisateur = Session().get_utilisateur_id()
-        avis_service = AvisService()
-
-        # Commence par afficher les avis avec pagination
-        avis_service.afficher_avis_pagination(id_utilisateur)
-
-        # Menu de pagination interactif après affichage
-        while True:
-            choix2 = inquirer.select(
-                message="Faites votre choix :",
-                choices=[
-                    "Lire les 5 avis suivants",
-                    "Retourner au meu des avis",
-                ],
-            ).execute()
-
-            if choix2 == "Lire les 5 avis suivants":
-                # Incrémente la page actuelle et continue l'affichage
-                avis_service.afficher_avis_pagination(id_utilisateur, page_suivante=True)
-            elif choix2 == "Retourner au menu des avis":
-                from vues.avis_utilisateur_vue import MenuAvis
-
                 return MenuAvis()
+
+        if choix_utilisateur == "Retour au menu précédent":
+            from vues.profil_utilisateur_vue import EcranDuProfilVue
+
+            return EcranDuProfilVue()
+
+        if choix_utilisateur == "Retour vers l'écran de Menu":
+            from vues.menu_utilisateur_vue import MenuUtilisateurVue
+
+            return MenuUtilisateurVue()

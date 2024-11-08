@@ -63,11 +63,11 @@ class MangaDao(metaclass=Singleton):
         if res:
             manga = Manga(
                 id_manga=res["id_manga"],
-                titre=res.get("titre", "Titre inconnu"),  # res.get permet de donner une valeur par défaut si absent
-                synopsis=res.get("synopsis") if res.get("synopsis") is not None else "Synopsis non disponible",  # Si val=null, ce serait mieux de gérer dans la BDD et mettre none
-                auteur=res.get("auteur", "Auteur inconnu"),
+                titre=res.get("titre", "Titre inconnu") if res.get("titre") is not None else "Titre inconnu",  # res.get permet de donner une valeur par défaut si absent
+                synopsis=res.get("synopsis", "Synopsis indisponible") if res.get("synopsis") is not None else "Synopsis non disponible",  # Si val=null, ce serait mieux de gérer dans la BDD et mettre none
+                auteur=res.get("auteur", "Auteur inconnu") if res.get("auteur") is not None else "Auteur inconnu",
                 themes=liste_themes if liste_themes else ["Thèmes non disponibles"],
-                genre=res.get("genre", "Genre non disponible")
+                genre=res.get("genre", "Genre non disponible") if res.get("genre") is not None else "Genre non disponible"
             )
         return manga
 
@@ -122,21 +122,14 @@ class MangaDao(metaclass=Singleton):
 
         delimiter = ", "
         liste_themes = delimiter.join(liste_themes)
-
         if res:
             manga = Manga(
                 id_manga=res["id_manga"],
-                titre=res.get(
-                    "titre", "Titre inconnu"
-                ),  # res.get permet de donner une valeur par défaut si absent
-                synopsis=(
-                    res.get("synopsis")
-                    if res.get("synopsis") is not None
-                    else "Synopsis non disponible"
-                ),  # Si val=null, ce serait mieux de gérer dans la BDD et mettre none
-                auteur=res.get("auteur", "Auteur inconnu"),
+                titre=res.get("titre", "Titre inconnu") if res.get("titre") is not None else "Titre inconnu",  # res.get permet de donner une valeur par défaut si absent
+                synopsis=res.get("synopsis", "Synopsis indisponible") if res.get("synopsis") is not None else "Synopsis non disponible",  # Si val=null, ce serait mieux de gérer dans la BDD et mettre none
+                auteur=res.get("auteur", "Auteur inconnu") if res.get("auteur") is not None else "Auteur inconnu",
                 themes=liste_themes if liste_themes else ["Thèmes non disponibles"],
-                genre=res.get("genre", "Genre non disponible"),
+                genre=res.get("genre", "Genre non disponible") if res.get("genre") is not None else "Genre non disponible"
             )
         return manga
 

@@ -150,7 +150,7 @@ class AvisDAO:
 
         return res > 0
 
-    def modifier_avis(self, avis) -> bool:
+    def modifier_avis(self, avis, nouveau_texte) -> bool:
         """Modification d'un avis dans la base de données
         Parameters
         ----------
@@ -168,10 +168,10 @@ class AvisDAO:
                 with connection.cursor() as cursor:
                     cursor.execute(
                         "UPDATE avis                                     "
-                        "SET texte = %(texte)s,                        "
-                        "   WHERE id_avis      = %(id_avis)s,        ",
+                        "SET texte = %(texte)s                       "
+                        "   WHERE id_avis = %(id_avis)s        ",
                         {
-                            "texte": avis.texte,
+                            "texte": nouveau_texte,
                             "id_avis": avis.id_avis,
                         },
                     )
@@ -228,8 +228,7 @@ class AvisDAO:
                     res = cursor.fetchall()
                     logging.info(f"res : {res}")
                     for row in res:
-                        avis = Avis(id_avis=row["id_avis"],
-                                    texte=row["texte"])
+                        avis = Avis(id_avis=row["id_avis"], texte=row["texte"])
                         avis_liste.append(avis)
                         liste_manga.append(row["id_manga"])
         except Exception as e:
@@ -277,3 +276,20 @@ class AvisDAO:
         if res:
             exist = True
         return exist
+
+    def recuperer_avis_user_et_manga(self, id_manga, id_utilisateur):
+        try:
+            with DBConnection().connection as connection:
+                with connection.cursor() as cursor:
+                    cursor.execute(
+                        "SELECT * FROM avis WHERE id_manga = %(id_manga)s "
+                        "AND id_utilisateur = %(id_utilisateur)s; ",
+                        {"id_manga": id_manga, "id_utilisateur": id_utilisateur},
+                    )
+                    result = cursor.fetchone()
+                    if result:
+                        avis = Avis(id_avis=result["id_avis"], texte=result["texte"])
+                        return avis
+        except Exception as e:
+            logging.info(e)
+            raise

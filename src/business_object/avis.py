@@ -21,4 +21,4 @@ class Avis:
 
         Returns : str
         """
-        return f"Avis ID: {self.id_avis}, Texte : {self.texte}"
+        return f"{self.texte}"

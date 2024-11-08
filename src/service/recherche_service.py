@@ -54,10 +54,10 @@ class RechercheService:
         if res:
             liste = [collec.titre_collection for collec in res]
             return liste
-        return f"Aucune collection trouvée."
+        return None
 
     def recherche_collec_phys_par_id(self, id):
         res = CollectionPhysiqueDAO().trouver_collec_phys_id_user(id)
         if res:
             return res
-        return f"Aucune collection trouvée."
+        return None
