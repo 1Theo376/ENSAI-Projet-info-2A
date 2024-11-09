@@ -89,12 +89,13 @@ class MangaDao(metaclass=Singleton):
             with DBConnection().connection as connection:
                 with connection.cursor() as cursor:
                     cursor.execute(
-                        "SELECT id_manga, titre, synopsis, genre_name as genre, name_auteur as auteur         "
-                        "FROM manga join association_manga_genre using(id_manga) "
-                        "join genre using(id_genre)                              "
-                        "join association_manga_auteur using(id_manga)           "
-                        "join auteur using(id_auteur)                            "
-                        "WHERE titre = %(titre)s;                                ",
+                        "SELECT id_manga, titre, coalesce(synopsis, 'None') as synopsis,                "
+                        "coalesce(genre_name, 'None') as genre, coalesce(name_auteur, 'None') as auteur "
+                        "FROM manga left join association_manga_genre using(id_manga)                   "
+                        "left join genre using(id_genre)                                                "
+                        "left join association_manga_auteur using(id_manga)                             "
+                        "left join auteur using(id_auteur)                                              "
+                        "WHERE titre = %(titre)s;                                                       ",
                         {"titre": titre},
                     )
                     res = cursor.fetchone()
@@ -102,7 +103,7 @@ class MangaDao(metaclass=Singleton):
             with DBConnection().connection as connection:
                 with connection.cursor() as cursor:
                     cursor.execute(
-                        "SELECT theme_name as theme                                      "
+                        "SELECT coalesce(theme_name, 'None') as theme                  "
                         "FROM manga left join association_manga_theme using(id_manga)  "
                         "left join theme using(id_theme)                               "
                         "WHERE titre = %(titre)s;                                 ",
@@ -125,11 +126,11 @@ class MangaDao(metaclass=Singleton):
         if res:
             manga = Manga(
                 id_manga=res["id_manga"],
-                titre=res.get("titre", "Titre inconnu") if res.get("titre") is not None else "Titre inconnu",  # res.get permet de donner une valeur par défaut si absent
-                synopsis=res.get("synopsis", "Synopsis indisponible") if res.get("synopsis") is not None else "Synopsis non disponible",  # Si val=null, ce serait mieux de gérer dans la BDD et mettre none
-                auteur=res.get("auteur", "Auteur inconnu") if res.get("auteur") is not None else "Auteur inconnu",
-                themes=liste_themes if liste_themes else ["Thèmes non disponibles"],
-                genre=res.get("genre", "Genre non disponible") if res.get("genre") is not None else "Genre non disponible"
+                titre=res["titre"] if res["titre"] != "None" else "Titre inconnu",
+                synopsis=res["synopsis"] if res["synopsis"] != "None" else "Indisponible",
+                auteur=res["auteur"] if res["auteur"] != "None" else "Indisponible",
+                themes=liste_themes if "None" not in liste_themes else ["Indisponibles"],
+                genre=res["genre"] if res["genre"] != "None" else "Indisponible",
             )
         return manga
 
@@ -156,7 +157,6 @@ class MangaDao(metaclass=Singleton):
                         "WHERE LOWER(titre) LIKE LOWER(%(titre)s);",
                         {"titre": f"%{titre}%"},
                     )
-                    logging.info("Débogage : requête exécutée avec succès.")
                     res = cursor.fetchall()
                     # logging.info(f"Débogage : res récupéré avec la valeur : {res}")
                     liste_mangas = []
