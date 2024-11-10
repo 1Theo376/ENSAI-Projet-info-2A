@@ -37,17 +37,11 @@ class SelectionMangaVuerecherche(VueAbstraite):
                 print(
                     "\n" + "-" * 50 + "\nInformation du manga\n" + "-" * 50 + "\n"
                     )
-                print("\n" + "-" * 50 + "\n" + manga.titre + "\n" + "-" * 50 + "\n")
-                print(
-                     "\n" + "-" * 50 + "\n" + manga.synopsis + "\n" + "-" * 50 + "\n"
-                    )
-                print(
-                    "\n" + "-" * 50 + "\n" + manga.auteur + "\n" + "-" * 50 + "\n"
-                    )
-                print(
-                    "\n" + "-" * 50 + "\n" + manga.themes + "\n" + "-" * 50 + "\n"
-                    )
-                print("\n" + "-" * 50 + "\n" + manga.genre + "\n" + "-" * 50 + "\n")
+                print("Titre: " + manga.titre + "\n")
+                print("Synopsis: " + manga.synopsis + "\n")
+                print("Auteur: " + manga.auteur + "\n")
+                print("Thèmes: " + manga.themes + "\n")
+                print("Genre: " + manga.genre + "\n")
                 SelectionMangaVuerecherche().choisir_menu(choix3)
             case "Consulter les avis":
                 from vues.ConsulterAvisVue import ConsulterAvisMangaVuerecherche
@@ -57,9 +51,7 @@ class SelectionMangaVuerecherche(VueAbstraite):
                 return AjouterAvisVuerecherche().choisir_menu(choix3)
             case "Retour au menu précédent":
                 from vues.recherche_vue import RechercheVue
-
                 return RechercheVue()
             case "Retour vers l'écran d'accueil":
                 from vues.menu_utilisateur_vue import MenuUtilisateurVue
-
                 return MenuUtilisateurVue()

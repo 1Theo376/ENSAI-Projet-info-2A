@@ -23,8 +23,8 @@ class RechercheService:
         if res:
             liste = [j.titre for j in res]
             sous_liste = liste[n : n + 8]
-            return sous_liste if sous_liste else f"Aucun manga trouvé pour l'indice {n}."
-        return f"Aucun manga trouvé pour le titre '{titre}'."
+            return sous_liste if sous_liste else "Aucun manga trouvé."
+        return "Aucun manga trouvé."
 
     def recherche_utilisateur(self, pseudo, n, a):
         """Recherche un utilisateur par son pseudo

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 08/11/2024 11:25:15 - INFO     - --------------------------------------------------
 08/11/2024 11:25:15 - INFO     - Lancement Application                           
 08/11/2024 11:25:15 - INFO     - --------------------------------------------------
@@ -563,3 +564,856 @@
 08/11/2024 13:41:53 - INFO     - MenuUtilisateurVue
 08/11/2024 13:42:04 - INFO     - AccueilVue
 08/11/2024 13:42:07 - INFO     - Fin de l'application
+=======
+08/11/2024 00:11:02 - INFO     - --------------------------------------------------
+08/11/2024 00:11:02 - INFO     - Lancement Application                           
+08/11/2024 00:11:02 - INFO     - --------------------------------------------------
+08/11/2024 00:11:02 - INFO     - AccueilVue
+08/11/2024 00:11:15 - INFO     - ConnexionVue
+08/11/2024 00:11:30 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+08/11/2024 00:11:30 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+08/11/2024 00:11:30 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001ED659DDE40>
+08/11/2024 00:11:30 - INFO     - MenuUtilisateurVue
+08/11/2024 00:11:33 - INFO     - EcranDuProfilVue
+08/11/2024 00:11:36 - INFO     - MenuAvis
+08/11/2024 00:11:53 - INFO     - No module named 'profil_utilisateur_vue'
+08/11/2024 00:11:53 - INFO     - AccueilVue
+08/11/2024 00:11:55 - INFO     - ConnexionVue
+08/11/2024 00:12:05 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+08/11/2024 00:12:05 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+08/11/2024 00:12:05 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001ED65E2BEE0>
+08/11/2024 00:12:05 - INFO     - MenuUtilisateurVue
+08/11/2024 00:12:06 - INFO     - EcranDuProfilVue
+08/11/2024 00:12:09 - INFO     - MenuAvis
+08/11/2024 00:12:14 - INFO     - res : [RealDictRow([('id_avis', 1), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'Nul')]), RealDictRow([('id_avis', 2), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'a')]), RealDictRow([('id_avis', 3), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'assez bien')]), RealDictRow([('id_avis', 4), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'p')]), RealDictRow([('id_avis', 5), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'ppp')]), RealDictRow([('id_avis', 6), ('id_utilisateur', 1), ('id_manga', 1166), ('texte', 'ok')]), RealDictRow([('id_avis', 7), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'a')]), RealDictRow([('id_avis', 8), ('id_utilisateur', 1), ('id_manga', 9), ('texte', 'Bien')]), RealDictRow([('id_avis', 9), ('id_utilisateur', 1), ('id_manga', 519), ('texte', 'Bien')])]
+08/11/2024 00:12:14 - INFO     - liste_avis : [<business_object.avis.Avis object at 0x000001ED65FFE770>, <business_object.avis.Avis object at 0x000001ED65FFF520>, <business_object.avis.Avis object at 0x000001ED65FFF850>, <business_object.avis.Avis object at 0x000001ED65FFF8B0>, <business_object.avis.Avis object at 0x000001ED65FFF910>, <business_object.avis.Avis object at 0x000001ED65FFF820>, <business_object.avis.Avis object at 0x000001ED65FFF5B0>, <business_object.avis.Avis object at 0x000001ED65FFF610>, <business_object.avis.Avis object at 0x000001ED65FFEB60>]
+08/11/2024 00:12:14 - INFO     - liste_manga : [1, 1, 1, 1, 1, 1166, 1, 9, 519]
+08/11/2024 00:12:14 - INFO     - i : 1
+08/11/2024 00:12:14 - INFO     - manga : Monster
+08/11/2024 00:12:14 - INFO     - i : 1
+08/11/2024 00:12:14 - INFO     - manga : Monster
+08/11/2024 00:12:14 - INFO     - i : 1
+08/11/2024 00:12:14 - INFO     - manga : Monster
+08/11/2024 00:12:14 - INFO     - i : 1
+08/11/2024 00:12:14 - INFO     - manga : Monster
+08/11/2024 00:12:14 - INFO     - i : 1
+08/11/2024 00:12:14 - INFO     - manga : Monster
+08/11/2024 00:12:14 - INFO     - i : 1166
+08/11/2024 00:12:14 - INFO     - manga : Eensy-Weensy Monster
+08/11/2024 00:12:14 - INFO     - i : 1
+08/11/2024 00:12:14 - INFO     - manga : Monster
+08/11/2024 00:12:14 - INFO     - i : 9
+08/11/2024 00:12:14 - INFO     - manga : Naruto
+08/11/2024 00:12:14 - INFO     - i : 519
+08/11/2024 00:12:14 - INFO     - manga : Fairy Tail
+08/11/2024 00:12:36 - INFO     - Fin de l'application
+08/11/2024 00:12:39 - INFO     - --------------------------------------------------
+08/11/2024 00:12:39 - INFO     - Lancement Application                           
+08/11/2024 00:12:39 - INFO     - --------------------------------------------------
+08/11/2024 00:12:39 - INFO     - AccueilVue
+08/11/2024 00:12:45 - INFO     - ConnexionVue
+08/11/2024 00:29:38 - INFO     - --------------------------------------------------
+08/11/2024 00:29:38 - INFO     - Lancement Application                           
+08/11/2024 00:29:38 - INFO     - --------------------------------------------------
+08/11/2024 00:29:38 - INFO     - AccueilVue
+08/11/2024 00:29:49 - INFO     - ConnexionVue
+08/11/2024 00:30:30 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+08/11/2024 00:30:30 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+08/11/2024 00:30:30 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001CD8E77DD20>
+08/11/2024 00:30:30 - INFO     - MenuUtilisateurVue
+08/11/2024 00:30:32 - INFO     - EcranDuProfilVue
+08/11/2024 00:30:34 - INFO     - MenuAvis
+08/11/2024 00:30:37 - INFO     - res : [RealDictRow([('id_avis', 1), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'Nul')]), RealDictRow([('id_avis', 2), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'a')]), RealDictRow([('id_avis', 3), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'assez bien')]), RealDictRow([('id_avis', 4), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'p')]), RealDictRow([('id_avis', 5), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'ppp')]), RealDictRow([('id_avis', 6), ('id_utilisateur', 1), ('id_manga', 1166), ('texte', 'ok')]), RealDictRow([('id_avis', 7), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'a')]), RealDictRow([('id_avis', 8), ('id_utilisateur', 1), ('id_manga', 9), ('texte', 'Bien')]), RealDictRow([('id_avis', 9), ('id_utilisateur', 1), ('id_manga', 519), ('texte', 'Bien')])]
+08/11/2024 00:30:37 - INFO     - liste_avis : [<business_object.avis.Avis object at 0x000001CD8E897520>, <business_object.avis.Avis object at 0x000001CD8E8262F0>, <business_object.avis.Avis object at 0x000001CD8E826080>, <business_object.avis.Avis object at 0x000001CD8E826E60>, <business_object.avis.Avis object at 0x000001CD8E827190>, <business_object.avis.Avis object at 0x000001CD8E8271F0>, <business_object.avis.Avis object at 0x000001CD8E827250>, <business_object.avis.Avis object at 0x000001CD8E827160>, <business_object.avis.Avis object at 0x000001CD8E826EF0>]
+08/11/2024 00:30:37 - INFO     - liste_manga : [1, 1, 1, 1, 1, 1166, 1, 9, 519]
+08/11/2024 00:30:37 - INFO     - i : 1
+08/11/2024 00:30:37 - INFO     - manga : Monster
+08/11/2024 00:30:37 - INFO     - i : 1
+08/11/2024 00:30:37 - INFO     - manga : Monster
+08/11/2024 00:30:37 - INFO     - i : 1
+08/11/2024 00:30:37 - INFO     - manga : Monster
+08/11/2024 00:30:37 - INFO     - i : 1
+08/11/2024 00:30:37 - INFO     - manga : Monster
+08/11/2024 00:30:37 - INFO     - i : 1
+08/11/2024 00:30:37 - INFO     - manga : Monster
+08/11/2024 00:30:37 - INFO     - i : 1166
+08/11/2024 00:30:37 - INFO     - manga : Eensy-Weensy Monster
+08/11/2024 00:30:37 - INFO     - i : 1
+08/11/2024 00:30:37 - INFO     - manga : Monster
+08/11/2024 00:30:37 - INFO     - i : 9
+08/11/2024 00:30:37 - INFO     - manga : Naruto
+08/11/2024 00:30:37 - INFO     - i : 519
+08/11/2024 00:30:37 - INFO     - manga : Fairy Tail
+08/11/2024 00:31:05 - INFO     - AvisDAO.recuperer_avis_user_et_manga() missing 1 required positional argument: 'id_utilisateur'
+08/11/2024 00:31:05 - INFO     - AccueilVue
+08/11/2024 00:32:23 - INFO     - Fin de l'application
+08/11/2024 00:33:07 - INFO     - --------------------------------------------------
+08/11/2024 00:33:07 - INFO     - Lancement Application                           
+08/11/2024 00:33:07 - INFO     - --------------------------------------------------
+08/11/2024 00:33:07 - INFO     - AccueilVue
+08/11/2024 00:33:09 - INFO     - ConnexionVue
+08/11/2024 00:33:17 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+08/11/2024 00:33:17 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+08/11/2024 00:33:17 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001F6E2939B10>
+08/11/2024 00:33:17 - INFO     - MenuUtilisateurVue
+08/11/2024 00:33:19 - INFO     - EcranDuProfilVue
+08/11/2024 00:33:21 - INFO     - MenuAvis
+08/11/2024 00:33:22 - INFO     - res : [RealDictRow([('id_avis', 1), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'Nul')]), RealDictRow([('id_avis', 2), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'a')]), RealDictRow([('id_avis', 3), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'assez bien')]), RealDictRow([('id_avis', 4), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'p')]), RealDictRow([('id_avis', 5), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'ppp')]), RealDictRow([('id_avis', 6), ('id_utilisateur', 1), ('id_manga', 1166), ('texte', 'ok')]), RealDictRow([('id_avis', 7), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'a')]), RealDictRow([('id_avis', 8), ('id_utilisateur', 1), ('id_manga', 9), ('texte', 'Bien')]), RealDictRow([('id_avis', 9), ('id_utilisateur', 1), ('id_manga', 519), ('texte', 'Bien')])]
+08/11/2024 00:33:22 - INFO     - liste_avis : [<business_object.avis.Avis object at 0x000001F6E2985FF0>, <business_object.avis.Avis object at 0x000001F6E2986DD0>, <business_object.avis.Avis object at 0x000001F6E2987100>, <business_object.avis.Avis object at 0x000001F6E2987160>, <business_object.avis.Avis object at 0x000001F6E29871C0>, <business_object.avis.Avis object at 0x000001F6E29870D0>, <business_object.avis.Avis object at 0x000001F6E2986E60>, <business_object.avis.Avis object at 0x000001F6E2986EC0>, <business_object.avis.Avis object at 0x000001F6E29863E0>]
+08/11/2024 00:33:22 - INFO     - liste_manga : [1, 1, 1, 1, 1, 1166, 1, 9, 519]
+08/11/2024 00:33:22 - INFO     - i : 1
+08/11/2024 00:33:22 - INFO     - manga : Monster
+08/11/2024 00:33:22 - INFO     - i : 1
+08/11/2024 00:33:22 - INFO     - manga : Monster
+08/11/2024 00:33:22 - INFO     - i : 1
+08/11/2024 00:33:22 - INFO     - manga : Monster
+08/11/2024 00:33:22 - INFO     - i : 1
+08/11/2024 00:33:22 - INFO     - manga : Monster
+08/11/2024 00:33:22 - INFO     - i : 1
+08/11/2024 00:33:22 - INFO     - manga : Monster
+08/11/2024 00:33:22 - INFO     - i : 1166
+08/11/2024 00:33:22 - INFO     - manga : Eensy-Weensy Monster
+08/11/2024 00:33:22 - INFO     - i : 1
+08/11/2024 00:33:22 - INFO     - manga : Monster
+08/11/2024 00:33:22 - INFO     - i : 9
+08/11/2024 00:33:22 - INFO     - manga : Naruto
+08/11/2024 00:33:22 - INFO     - i : 519
+08/11/2024 00:33:22 - INFO     - manga : Fairy Tail
+08/11/2024 00:33:27 - INFO     - ERREUR:  syntaxe en entrée invalide pour l'entier : « Naruto »
+LINE 1: SELECT * FROM avis WHERE id_manga = 'Naruto' AND id_utilisat...
+                                            ^
+
+08/11/2024 00:33:27 - INFO     - ERREUR:  syntaxe en entrée invalide pour l'entier : « Naruto »
+LINE 1: SELECT * FROM avis WHERE id_manga = 'Naruto' AND id_utilisat...
+                                            ^
+
+08/11/2024 00:33:27 - INFO     - AccueilVue
+08/11/2024 00:40:47 - INFO     - Fin de l'application
+08/11/2024 00:40:49 - INFO     - --------------------------------------------------
+08/11/2024 00:40:49 - INFO     - Lancement Application                           
+08/11/2024 00:40:49 - INFO     - --------------------------------------------------
+08/11/2024 00:40:49 - INFO     - AccueilVue
+08/11/2024 00:40:51 - INFO     - ConnexionVue
+08/11/2024 00:40:59 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+08/11/2024 00:40:59 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+08/11/2024 00:40:59 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000022282DF9B40>
+08/11/2024 00:40:59 - INFO     - MenuUtilisateurVue
+08/11/2024 00:41:00 - INFO     - EcranDuProfilVue
+08/11/2024 00:41:02 - INFO     - MenuAvis
+08/11/2024 00:41:06 - INFO     - res : [RealDictRow([('id_avis', 1), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'Nul')]), RealDictRow([('id_avis', 2), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'a')]), RealDictRow([('id_avis', 3), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'assez bien')]), RealDictRow([('id_avis', 4), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'p')]), RealDictRow([('id_avis', 5), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'ppp')]), RealDictRow([('id_avis', 6), ('id_utilisateur', 1), ('id_manga', 1166), ('texte', 'ok')]), RealDictRow([('id_avis', 7), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'a')]), RealDictRow([('id_avis', 8), ('id_utilisateur', 1), ('id_manga', 9), ('texte', 'Bien')]), RealDictRow([('id_avis', 9), ('id_utilisateur', 1), ('id_manga', 519), ('texte', 'Bien')])]
+08/11/2024 00:41:06 - INFO     - liste_avis : [<business_object.avis.Avis object at 0x0000022282EA2C80>, <business_object.avis.Avis object at 0x0000022282EA2B90>, <business_object.avis.Avis object at 0x0000022282EA1ED0>, <business_object.avis.Avis object at 0x0000022282EA20E0>, <business_object.avis.Avis object at 0x0000022282EA2170>, <business_object.avis.Avis object at 0x0000022282EA1E10>, <business_object.avis.Avis object at 0x0000022282EA1DB0>, <business_object.avis.Avis object at 0x0000022282EA2B00>, <business_object.avis.Avis object at 0x0000022282EA2020>]
+08/11/2024 00:41:06 - INFO     - liste_manga : [1, 1, 1, 1, 1, 1166, 1, 9, 519]
+08/11/2024 00:41:06 - INFO     - i : 1
+08/11/2024 00:41:06 - INFO     - manga : Monster
+08/11/2024 00:41:06 - INFO     - i : 1
+08/11/2024 00:41:06 - INFO     - manga : Monster
+08/11/2024 00:41:06 - INFO     - i : 1
+08/11/2024 00:41:06 - INFO     - manga : Monster
+08/11/2024 00:41:06 - INFO     - i : 1
+08/11/2024 00:41:06 - INFO     - manga : Monster
+08/11/2024 00:41:06 - INFO     - i : 1
+08/11/2024 00:41:06 - INFO     - manga : Monster
+08/11/2024 00:41:06 - INFO     - i : 1166
+08/11/2024 00:41:06 - INFO     - manga : Eensy-Weensy Monster
+08/11/2024 00:41:06 - INFO     - i : 1
+08/11/2024 00:41:06 - INFO     - manga : Monster
+08/11/2024 00:41:06 - INFO     - i : 9
+08/11/2024 00:41:06 - INFO     - manga : Naruto
+08/11/2024 00:41:06 - INFO     - i : 519
+08/11/2024 00:41:06 - INFO     - manga : Fairy Tail
+08/11/2024 00:41:09 - INFO     - can't adapt type 'Manga'
+08/11/2024 00:41:09 - INFO     - can't adapt type 'Manga'
+08/11/2024 00:41:09 - INFO     - AccueilVue
+08/11/2024 00:43:14 - INFO     - Fin de l'application
+08/11/2024 00:43:16 - INFO     - --------------------------------------------------
+08/11/2024 00:43:16 - INFO     - Lancement Application                           
+08/11/2024 00:43:16 - INFO     - --------------------------------------------------
+08/11/2024 00:43:16 - INFO     - AccueilVue
+08/11/2024 00:43:17 - INFO     - ConnexionVue
+08/11/2024 00:43:23 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+08/11/2024 00:43:23 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+08/11/2024 00:43:23 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001D57E84DB10>
+08/11/2024 00:43:23 - INFO     - MenuUtilisateurVue
+08/11/2024 00:43:25 - INFO     - EcranDuProfilVue
+08/11/2024 00:43:26 - INFO     - MenuAvis
+08/11/2024 00:43:27 - INFO     - res : [RealDictRow([('id_avis', 1), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'Nul')]), RealDictRow([('id_avis', 2), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'a')]), RealDictRow([('id_avis', 3), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'assez bien')]), RealDictRow([('id_avis', 4), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'p')]), RealDictRow([('id_avis', 5), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'ppp')]), RealDictRow([('id_avis', 6), ('id_utilisateur', 1), ('id_manga', 1166), ('texte', 'ok')]), RealDictRow([('id_avis', 7), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'a')]), RealDictRow([('id_avis', 8), ('id_utilisateur', 1), ('id_manga', 9), ('texte', 'Bien')]), RealDictRow([('id_avis', 9), ('id_utilisateur', 1), ('id_manga', 519), ('texte', 'Bien')])]
+08/11/2024 00:43:27 - INFO     - liste_avis : [<business_object.avis.Avis object at 0x000001D57E892C80>, <business_object.avis.Avis object at 0x000001D57E892B90>, <business_object.avis.Avis object at 0x000001D57E891ED0>, <business_object.avis.Avis object at 0x000001D57E8920E0>, <business_object.avis.Avis object at 0x000001D57E892170>, <business_object.avis.Avis object at 0x000001D57E891E10>, <business_object.avis.Avis object at 0x000001D57E891DB0>, <business_object.avis.Avis object at 0x000001D57E892B00>, <business_object.avis.Avis object at 0x000001D57E892020>]
+08/11/2024 00:43:27 - INFO     - liste_manga : [1, 1, 1, 1, 1, 1166, 1, 9, 519]
+08/11/2024 00:43:27 - INFO     - i : 1
+08/11/2024 00:43:27 - INFO     - manga : Monster
+08/11/2024 00:43:27 - INFO     - i : 1
+08/11/2024 00:43:27 - INFO     - manga : Monster
+08/11/2024 00:43:27 - INFO     - i : 1
+08/11/2024 00:43:27 - INFO     - manga : Monster
+08/11/2024 00:43:27 - INFO     - i : 1
+08/11/2024 00:43:27 - INFO     - manga : Monster
+08/11/2024 00:43:27 - INFO     - i : 1
+08/11/2024 00:43:27 - INFO     - manga : Monster
+08/11/2024 00:43:27 - INFO     - i : 1166
+08/11/2024 00:43:27 - INFO     - manga : Eensy-Weensy Monster
+08/11/2024 00:43:27 - INFO     - i : 1
+08/11/2024 00:43:27 - INFO     - manga : Monster
+08/11/2024 00:43:27 - INFO     - i : 9
+08/11/2024 00:43:27 - INFO     - manga : Naruto
+08/11/2024 00:43:27 - INFO     - i : 519
+08/11/2024 00:43:27 - INFO     - manga : Fairy Tail
+08/11/2024 00:43:37 - INFO     - Fin de l'application
+08/11/2024 00:43:47 - INFO     - --------------------------------------------------
+08/11/2024 00:43:47 - INFO     - Lancement Application                           
+08/11/2024 00:43:47 - INFO     - --------------------------------------------------
+08/11/2024 00:43:47 - INFO     - AccueilVue
+08/11/2024 00:43:48 - INFO     - ConnexionVue
+08/11/2024 00:43:53 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+08/11/2024 00:43:53 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+08/11/2024 00:43:53 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000017C7C48DB40>
+08/11/2024 00:43:53 - INFO     - MenuUtilisateurVue
+08/11/2024 00:43:54 - INFO     - EcranDuProfilVue
+08/11/2024 00:43:55 - INFO     - MenuAvis
+08/11/2024 00:43:57 - INFO     - res : [RealDictRow([('id_avis', 1), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'Nul')]), RealDictRow([('id_avis', 2), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'a')]), RealDictRow([('id_avis', 3), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'assez bien')]), RealDictRow([('id_avis', 4), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'p')]), RealDictRow([('id_avis', 5), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'ppp')]), RealDictRow([('id_avis', 6), ('id_utilisateur', 1), ('id_manga', 1166), ('texte', 'ok')]), RealDictRow([('id_avis', 7), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'a')]), RealDictRow([('id_avis', 8), ('id_utilisateur', 1), ('id_manga', 9), ('texte', 'Bien')]), RealDictRow([('id_avis', 9), ('id_utilisateur', 1), ('id_manga', 519), ('texte', 'Bien')])]
+08/11/2024 00:43:57 - INFO     - liste_avis : [<business_object.avis.Avis object at 0x0000017C7C4D2C80>, <business_object.avis.Avis object at 0x0000017C7C4D2B90>, <business_object.avis.Avis object at 0x0000017C7C4D1ED0>, <business_object.avis.Avis object at 0x0000017C7C4D20E0>, <business_object.avis.Avis object at 0x0000017C7C4D2170>, <business_object.avis.Avis object at 0x0000017C7C4D1E10>, <business_object.avis.Avis object at 0x0000017C7C4D1DB0>, <business_object.avis.Avis object at 0x0000017C7C4D2B00>, <business_object.avis.Avis object at 0x0000017C7C4D2020>]
+08/11/2024 00:43:57 - INFO     - liste_manga : [1, 1, 1, 1, 1, 1166, 1, 9, 519]
+08/11/2024 00:43:57 - INFO     - i : 1
+08/11/2024 00:43:57 - INFO     - manga : Monster
+08/11/2024 00:43:57 - INFO     - i : 1
+08/11/2024 00:43:57 - INFO     - manga : Monster
+08/11/2024 00:43:57 - INFO     - i : 1
+08/11/2024 00:43:57 - INFO     - manga : Monster
+08/11/2024 00:43:57 - INFO     - i : 1
+08/11/2024 00:43:57 - INFO     - manga : Monster
+08/11/2024 00:43:57 - INFO     - i : 1
+08/11/2024 00:43:57 - INFO     - manga : Monster
+08/11/2024 00:43:57 - INFO     - i : 1166
+08/11/2024 00:43:57 - INFO     - manga : Eensy-Weensy Monster
+08/11/2024 00:43:57 - INFO     - i : 1
+08/11/2024 00:43:57 - INFO     - manga : Monster
+08/11/2024 00:43:57 - INFO     - i : 9
+08/11/2024 00:43:57 - INFO     - manga : Naruto
+08/11/2024 00:43:57 - INFO     - i : 519
+08/11/2024 00:43:57 - INFO     - manga : Fairy Tail
+08/11/2024 00:45:40 - INFO     - Fin de l'application
+08/11/2024 00:48:35 - INFO     - --------------------------------------------------
+08/11/2024 00:48:35 - INFO     - Lancement Application                           
+08/11/2024 00:48:35 - INFO     - --------------------------------------------------
+08/11/2024 00:48:36 - INFO     - AccueilVue
+08/11/2024 00:51:13 - INFO     - ConnexionVue
+08/11/2024 00:51:27 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+08/11/2024 00:51:27 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+08/11/2024 00:51:27 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001399669DDE0>
+08/11/2024 00:51:27 - INFO     - MenuUtilisateurVue
+08/11/2024 00:51:29 - INFO     - EcranDuProfilVue
+08/11/2024 00:51:32 - INFO     - MenuAvis
+08/11/2024 00:51:36 - INFO     - res : [RealDictRow([('id_avis', 1), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'Nul')]), RealDictRow([('id_avis', 2), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'a')]), RealDictRow([('id_avis', 3), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'assez bien')]), RealDictRow([('id_avis', 4), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'p')]), RealDictRow([('id_avis', 5), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'ppp')]), RealDictRow([('id_avis', 6), ('id_utilisateur', 1), ('id_manga', 1166), ('texte', 'ok')]), RealDictRow([('id_avis', 7), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'a')]), RealDictRow([('id_avis', 8), ('id_utilisateur', 1), ('id_manga', 9), ('texte', 'Bien')]), RealDictRow([('id_avis', 9), ('id_utilisateur', 1), ('id_manga', 519), ('texte', 'Bien')])]
+08/11/2024 00:51:36 - INFO     - liste_avis : [<business_object.avis.Avis object at 0x00000139967C0100>, <business_object.avis.Avis object at 0x00000139967C1210>, <business_object.avis.Avis object at 0x00000139967C1150>, <business_object.avis.Avis object at 0x00000139967C1390>, <business_object.avis.Avis object at 0x00000139967C13C0>, <business_object.avis.Avis object at 0x00000139967C1330>, <business_object.avis.Avis object at 0x00000139967C1450>, <business_object.avis.Avis object at 0x00000139967C14B0>, <business_object.avis.Avis object at 0x00000139967C1510>]
+08/11/2024 00:51:36 - INFO     - liste_manga : [1, 1, 1, 1, 1, 1166, 1, 9, 519]
+08/11/2024 00:51:36 - INFO     - i : 1
+08/11/2024 00:51:36 - INFO     - manga : Monster
+08/11/2024 00:51:36 - INFO     - i : 1
+08/11/2024 00:51:36 - INFO     - manga : Monster
+08/11/2024 00:51:36 - INFO     - i : 1
+08/11/2024 00:51:36 - INFO     - manga : Monster
+08/11/2024 00:51:36 - INFO     - i : 1
+08/11/2024 00:51:36 - INFO     - manga : Monster
+08/11/2024 00:51:36 - INFO     - i : 1
+08/11/2024 00:51:36 - INFO     - manga : Monster
+08/11/2024 00:51:36 - INFO     - i : 1166
+08/11/2024 00:51:36 - INFO     - manga : Eensy-Weensy Monster
+08/11/2024 00:51:36 - INFO     - i : 1
+08/11/2024 00:51:36 - INFO     - manga : Monster
+08/11/2024 00:51:36 - INFO     - i : 9
+08/11/2024 00:51:36 - INFO     - manga : Naruto
+08/11/2024 00:51:36 - INFO     - i : 519
+08/11/2024 00:51:36 - INFO     - manga : Fairy Tail
+08/11/2024 00:51:43 - INFO     - Fin de l'application
+08/11/2024 00:51:49 - INFO     - --------------------------------------------------
+08/11/2024 00:51:49 - INFO     - Lancement Application                           
+08/11/2024 00:51:49 - INFO     - --------------------------------------------------
+08/11/2024 00:51:49 - INFO     - AccueilVue
+08/11/2024 00:51:50 - INFO     - ConnexionVue
+08/11/2024 00:51:55 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+08/11/2024 00:51:55 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+08/11/2024 00:51:55 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001CEF64D9B10>
+08/11/2024 00:51:55 - INFO     - MenuUtilisateurVue
+08/11/2024 00:51:56 - INFO     - EcranDuProfilVue
+08/11/2024 00:51:57 - INFO     - MenuAvis
+08/11/2024 00:51:58 - INFO     - res : [RealDictRow([('id_avis', 1), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'Nul')]), RealDictRow([('id_avis', 2), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'a')]), RealDictRow([('id_avis', 3), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'assez bien')]), RealDictRow([('id_avis', 4), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'p')]), RealDictRow([('id_avis', 5), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'ppp')]), RealDictRow([('id_avis', 6), ('id_utilisateur', 1), ('id_manga', 1166), ('texte', 'ok')]), RealDictRow([('id_avis', 7), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'a')]), RealDictRow([('id_avis', 8), ('id_utilisateur', 1), ('id_manga', 9), ('texte', 'Bien')]), RealDictRow([('id_avis', 9), ('id_utilisateur', 1), ('id_manga', 519), ('texte', 'Bien')])]
+08/11/2024 00:51:58 - INFO     - liste_avis : [<business_object.avis.Avis object at 0x000001CEF652EC80>, <business_object.avis.Avis object at 0x000001CEF652EB90>, <business_object.avis.Avis object at 0x000001CEF652DED0>, <business_object.avis.Avis object at 0x000001CEF652E710>, <business_object.avis.Avis object at 0x000001CEF652E170>, <business_object.avis.Avis object at 0x000001CEF652DE10>, <business_object.avis.Avis object at 0x000001CEF652DDB0>, <business_object.avis.Avis object at 0x000001CEF652EB00>, <business_object.avis.Avis object at 0x000001CEF652E020>]
+08/11/2024 00:51:58 - INFO     - liste_manga : [1, 1, 1, 1, 1, 1166, 1, 9, 519]
+08/11/2024 00:51:58 - INFO     - i : 1
+08/11/2024 00:51:58 - INFO     - manga : Monster
+08/11/2024 00:51:58 - INFO     - i : 1
+08/11/2024 00:51:58 - INFO     - manga : Monster
+08/11/2024 00:51:58 - INFO     - i : 1
+08/11/2024 00:51:58 - INFO     - manga : Monster
+08/11/2024 00:51:58 - INFO     - i : 1
+08/11/2024 00:51:58 - INFO     - manga : Monster
+08/11/2024 00:51:58 - INFO     - i : 1
+08/11/2024 00:51:58 - INFO     - manga : Monster
+08/11/2024 00:51:58 - INFO     - i : 1166
+08/11/2024 00:51:58 - INFO     - manga : Eensy-Weensy Monster
+08/11/2024 00:51:58 - INFO     - i : 1
+08/11/2024 00:51:58 - INFO     - manga : Monster
+08/11/2024 00:51:58 - INFO     - i : 9
+08/11/2024 00:51:58 - INFO     - manga : Naruto
+08/11/2024 00:51:58 - INFO     - i : 519
+08/11/2024 00:51:58 - INFO     - manga : Fairy Tail
+08/11/2024 00:52:01 - INFO     - Fin de l'application
+08/11/2024 00:55:23 - INFO     - --------------------------------------------------
+08/11/2024 00:55:23 - INFO     - Lancement Application                           
+08/11/2024 00:55:23 - INFO     - --------------------------------------------------
+08/11/2024 00:55:23 - INFO     - AccueilVue
+08/11/2024 00:55:24 - INFO     - ConnexionVue
+08/11/2024 00:55:30 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+08/11/2024 00:55:30 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+08/11/2024 00:55:30 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001FD1CAF9B40>
+08/11/2024 00:55:30 - INFO     - MenuUtilisateurVue
+08/11/2024 00:57:03 - INFO     - EcranDuProfilVue
+08/11/2024 00:57:05 - INFO     - MenuAvis
+08/11/2024 00:57:06 - INFO     - res : [RealDictRow([('id_avis', 1), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'Nul')]), RealDictRow([('id_avis', 2), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'a')]), RealDictRow([('id_avis', 3), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'assez bien')]), RealDictRow([('id_avis', 4), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'p')]), RealDictRow([('id_avis', 5), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'ppp')]), RealDictRow([('id_avis', 6), ('id_utilisateur', 1), ('id_manga', 1166), ('texte', 'ok')]), RealDictRow([('id_avis', 7), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'a')]), RealDictRow([('id_avis', 8), ('id_utilisateur', 1), ('id_manga', 9), ('texte', 'Bien')]), RealDictRow([('id_avis', 9), ('id_utilisateur', 1), ('id_manga', 519), ('texte', 'Bien')])]
+08/11/2024 00:57:06 - INFO     - liste_avis : [<business_object.avis.Avis object at 0x000001FD1CBD8130>, <business_object.avis.Avis object at 0x000001FD1CBD8250>, <business_object.avis.Avis object at 0x000001FD1CBD8190>, <business_object.avis.Avis object at 0x000001FD1CBD8370>, <business_object.avis.Avis object at 0x000001FD1CBD9BD0>, <business_object.avis.Avis object at 0x000001FD1CBD9C30>, <business_object.avis.Avis object at 0x000001FD1CBD9C90>, <business_object.avis.Avis object at 0x000001FD1CBD9CF0>, <business_object.avis.Avis object at 0x000001FD1CBD9D50>]
+08/11/2024 00:57:06 - INFO     - liste_manga : [1, 1, 1, 1, 1, 1166, 1, 9, 519]
+08/11/2024 00:57:06 - INFO     - i : 1
+08/11/2024 00:57:06 - INFO     - manga : Monster
+08/11/2024 00:57:06 - INFO     - i : 1
+08/11/2024 00:57:06 - INFO     - manga : Monster
+08/11/2024 00:57:06 - INFO     - i : 1
+08/11/2024 00:57:06 - INFO     - manga : Monster
+08/11/2024 00:57:06 - INFO     - i : 1
+08/11/2024 00:57:06 - INFO     - manga : Monster
+08/11/2024 00:57:06 - INFO     - i : 1
+08/11/2024 00:57:06 - INFO     - manga : Monster
+08/11/2024 00:57:06 - INFO     - i : 1166
+08/11/2024 00:57:06 - INFO     - manga : Eensy-Weensy Monster
+08/11/2024 00:57:06 - INFO     - i : 1
+08/11/2024 00:57:06 - INFO     - manga : Monster
+08/11/2024 00:57:06 - INFO     - i : 9
+08/11/2024 00:57:06 - INFO     - manga : Naruto
+08/11/2024 00:57:06 - INFO     - i : 519
+08/11/2024 00:57:06 - INFO     - manga : Fairy Tail
+08/11/2024 00:57:12 - INFO     - Fin de l'application
+08/11/2024 00:57:41 - INFO     - --------------------------------------------------
+08/11/2024 00:57:41 - INFO     - Lancement Application                           
+08/11/2024 00:57:41 - INFO     - --------------------------------------------------
+08/11/2024 00:57:41 - INFO     - AccueilVue
+08/11/2024 00:57:42 - INFO     - ConnexionVue
+08/11/2024 00:57:47 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+08/11/2024 00:57:47 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+08/11/2024 00:57:47 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001839E489B40>
+08/11/2024 00:57:47 - INFO     - MenuUtilisateurVue
+08/11/2024 00:57:49 - INFO     - EcranDuProfilVue
+08/11/2024 00:57:50 - INFO     - MenuAvis
+08/11/2024 00:57:51 - INFO     - res : [RealDictRow([('id_avis', 1), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'Nul')]), RealDictRow([('id_avis', 2), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'a')]), RealDictRow([('id_avis', 3), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'assez bien')]), RealDictRow([('id_avis', 4), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'p')]), RealDictRow([('id_avis', 5), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'ppp')]), RealDictRow([('id_avis', 6), ('id_utilisateur', 1), ('id_manga', 1166), ('texte', 'ok')]), RealDictRow([('id_avis', 7), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'a')]), RealDictRow([('id_avis', 8), ('id_utilisateur', 1), ('id_manga', 9), ('texte', 'Bien')]), RealDictRow([('id_avis', 9), ('id_utilisateur', 1), ('id_manga', 519), ('texte', 'Bien')])]
+08/11/2024 00:57:51 - INFO     - liste_avis : [<business_object.avis.Avis object at 0x000001839E4DEC80>, <business_object.avis.Avis object at 0x000001839E4DEB90>, <business_object.avis.Avis object at 0x000001839E4DDED0>, <business_object.avis.Avis object at 0x000001839E4DDE40>, <business_object.avis.Avis object at 0x000001839E4DE170>, <business_object.avis.Avis object at 0x000001839E4DDE10>, <business_object.avis.Avis object at 0x000001839E4DDDB0>, <business_object.avis.Avis object at 0x000001839E4DEB00>, <business_object.avis.Avis object at 0x000001839E4DE020>]
+08/11/2024 00:57:51 - INFO     - liste_manga : [1, 1, 1, 1, 1, 1166, 1, 9, 519]
+08/11/2024 00:57:51 - INFO     - i : 1
+08/11/2024 00:57:51 - INFO     - manga : Monster
+08/11/2024 00:57:51 - INFO     - i : 1
+08/11/2024 00:57:51 - INFO     - manga : Monster
+08/11/2024 00:57:51 - INFO     - i : 1
+08/11/2024 00:57:51 - INFO     - manga : Monster
+08/11/2024 00:57:51 - INFO     - i : 1
+08/11/2024 00:57:51 - INFO     - manga : Monster
+08/11/2024 00:57:51 - INFO     - i : 1
+08/11/2024 00:57:51 - INFO     - manga : Monster
+08/11/2024 00:57:51 - INFO     - i : 1166
+08/11/2024 00:57:51 - INFO     - manga : Eensy-Weensy Monster
+08/11/2024 00:57:51 - INFO     - i : 1
+08/11/2024 00:57:51 - INFO     - manga : Monster
+08/11/2024 00:57:51 - INFO     - i : 9
+08/11/2024 00:57:51 - INFO     - manga : Naruto
+08/11/2024 00:57:51 - INFO     - i : 519
+08/11/2024 00:57:51 - INFO     - manga : Fairy Tail
+08/11/2024 00:58:00 - INFO     - Fin de l'application
+08/11/2024 00:58:24 - INFO     - --------------------------------------------------
+08/11/2024 00:58:24 - INFO     - Lancement Application                           
+08/11/2024 00:58:24 - INFO     - --------------------------------------------------
+08/11/2024 00:58:24 - INFO     - AccueilVue
+08/11/2024 00:58:25 - INFO     - ConnexionVue
+08/11/2024 00:58:32 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+08/11/2024 00:58:32 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+08/11/2024 00:58:32 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001D52215DB10>
+08/11/2024 00:58:32 - INFO     - MenuUtilisateurVue
+08/11/2024 00:58:33 - INFO     - EcranDuProfilVue
+08/11/2024 00:58:40 - INFO     - MenuAvis
+08/11/2024 00:58:42 - INFO     - res : [RealDictRow([('id_avis', 1), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'Nul')]), RealDictRow([('id_avis', 2), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'a')]), RealDictRow([('id_avis', 3), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'assez bien')]), RealDictRow([('id_avis', 4), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'p')]), RealDictRow([('id_avis', 5), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'ppp')]), RealDictRow([('id_avis', 6), ('id_utilisateur', 1), ('id_manga', 1166), ('texte', 'ok')]), RealDictRow([('id_avis', 7), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'a')]), RealDictRow([('id_avis', 8), ('id_utilisateur', 1), ('id_manga', 9), ('texte', 'Bien')]), RealDictRow([('id_avis', 9), ('id_utilisateur', 1), ('id_manga', 519), ('texte', 'Bien')])]
+08/11/2024 00:58:42 - INFO     - liste_avis : [<business_object.avis.Avis object at 0x000001D5221B2CE0>, <business_object.avis.Avis object at 0x000001D5221B2BF0>, <business_object.avis.Avis object at 0x000001D5221B1F30>, <business_object.avis.Avis object at 0x000001D5221B2740>, <business_object.avis.Avis object at 0x000001D5221B21D0>, <business_object.avis.Avis object at 0x000001D5221B1E70>, <business_object.avis.Avis object at 0x000001D5221B1E10>, <business_object.avis.Avis object at 0x000001D5221B2B60>, <business_object.avis.Avis object at 0x000001D5221B2080>]
+08/11/2024 00:58:42 - INFO     - liste_manga : [1, 1, 1, 1, 1, 1166, 1, 9, 519]
+08/11/2024 00:58:42 - INFO     - i : 1
+08/11/2024 00:58:42 - INFO     - manga : Monster
+08/11/2024 00:58:42 - INFO     - i : 1
+08/11/2024 00:58:42 - INFO     - manga : Monster
+08/11/2024 00:58:42 - INFO     - i : 1
+08/11/2024 00:58:42 - INFO     - manga : Monster
+08/11/2024 00:58:42 - INFO     - i : 1
+08/11/2024 00:58:42 - INFO     - manga : Monster
+08/11/2024 00:58:42 - INFO     - i : 1
+08/11/2024 00:58:42 - INFO     - manga : Monster
+08/11/2024 00:58:42 - INFO     - i : 1166
+08/11/2024 00:58:42 - INFO     - manga : Eensy-Weensy Monster
+08/11/2024 00:58:42 - INFO     - i : 1
+08/11/2024 00:58:42 - INFO     - manga : Monster
+08/11/2024 00:58:42 - INFO     - i : 9
+08/11/2024 00:58:42 - INFO     - manga : Naruto
+08/11/2024 00:58:42 - INFO     - i : 519
+08/11/2024 00:58:42 - INFO     - manga : Fairy Tail
+08/11/2024 00:58:46 - INFO     - Fin de l'application
+08/11/2024 00:59:34 - INFO     - --------------------------------------------------
+08/11/2024 00:59:34 - INFO     - Lancement Application                           
+08/11/2024 00:59:34 - INFO     - --------------------------------------------------
+08/11/2024 00:59:34 - INFO     - AccueilVue
+08/11/2024 00:59:39 - INFO     - ConnexionVue
+08/11/2024 00:59:44 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+08/11/2024 00:59:44 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+08/11/2024 00:59:44 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001DE97CDDBA0>
+08/11/2024 00:59:44 - INFO     - MenuUtilisateurVue
+08/11/2024 00:59:45 - INFO     - EcranDuProfilVue
+08/11/2024 00:59:47 - INFO     - MenuAvis
+08/11/2024 00:59:48 - INFO     - res : [RealDictRow([('id_avis', 1), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'Nul')]), RealDictRow([('id_avis', 2), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'a')]), RealDictRow([('id_avis', 3), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'assez bien')]), RealDictRow([('id_avis', 4), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'p')]), RealDictRow([('id_avis', 5), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'ppp')]), RealDictRow([('id_avis', 6), ('id_utilisateur', 1), ('id_manga', 1166), ('texte', 'ok')]), RealDictRow([('id_avis', 7), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'a')]), RealDictRow([('id_avis', 8), ('id_utilisateur', 1), ('id_manga', 9), ('texte', 'Bien')]), RealDictRow([('id_avis', 9), ('id_utilisateur', 1), ('id_manga', 519), ('texte', 'Bien')])]
+08/11/2024 00:59:48 - INFO     - liste_avis : [<business_object.avis.Avis object at 0x000001DE97D7ECB0>, <business_object.avis.Avis object at 0x000001DE97D7EB90>, <business_object.avis.Avis object at 0x000001DE97D7DFC0>, <business_object.avis.Avis object at 0x000001DE97D7E9E0>, <business_object.avis.Avis object at 0x000001DE97D7E350>, <business_object.avis.Avis object at 0x000001DE97D7E1D0>, <business_object.avis.Avis object at 0x000001DE97D7DE10>, <business_object.avis.Avis object at 0x000001DE97D7EB60>, <business_object.avis.Avis object at 0x000001DE97D7E0B0>]
+08/11/2024 00:59:48 - INFO     - liste_manga : [1, 1, 1, 1, 1, 1166, 1, 9, 519]
+08/11/2024 00:59:48 - INFO     - i : 1
+08/11/2024 00:59:48 - INFO     - manga : Monster
+08/11/2024 00:59:48 - INFO     - i : 1
+08/11/2024 00:59:48 - INFO     - manga : Monster
+08/11/2024 00:59:48 - INFO     - i : 1
+08/11/2024 00:59:48 - INFO     - manga : Monster
+08/11/2024 00:59:48 - INFO     - i : 1
+08/11/2024 00:59:48 - INFO     - manga : Monster
+08/11/2024 00:59:48 - INFO     - i : 1
+08/11/2024 00:59:48 - INFO     - manga : Monster
+08/11/2024 00:59:48 - INFO     - i : 1166
+08/11/2024 00:59:48 - INFO     - manga : Eensy-Weensy Monster
+08/11/2024 00:59:48 - INFO     - i : 1
+08/11/2024 00:59:48 - INFO     - manga : Monster
+08/11/2024 00:59:48 - INFO     - i : 9
+08/11/2024 00:59:48 - INFO     - manga : Naruto
+08/11/2024 00:59:48 - INFO     - i : 519
+08/11/2024 00:59:48 - INFO     - manga : Fairy Tail
+08/11/2024 00:59:55 - INFO     - Fin de l'application
+08/11/2024 01:00:13 - INFO     - --------------------------------------------------
+08/11/2024 01:00:13 - INFO     - Lancement Application                           
+08/11/2024 01:00:13 - INFO     - --------------------------------------------------
+08/11/2024 01:00:13 - INFO     - AccueilVue
+08/11/2024 01:00:14 - INFO     - ConnexionVue
+08/11/2024 01:00:23 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+08/11/2024 01:00:23 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+08/11/2024 01:00:23 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000022821B8DB40>
+08/11/2024 01:00:23 - INFO     - MenuUtilisateurVue
+08/11/2024 01:00:23 - INFO     - EcranDuProfilVue
+08/11/2024 01:00:25 - INFO     - MenuAvis
+08/11/2024 01:00:26 - INFO     - res : [RealDictRow([('id_avis', 1), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'Nul')]), RealDictRow([('id_avis', 2), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'a')]), RealDictRow([('id_avis', 3), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'assez bien')]), RealDictRow([('id_avis', 4), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'p')]), RealDictRow([('id_avis', 5), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'ppp')]), RealDictRow([('id_avis', 6), ('id_utilisateur', 1), ('id_manga', 1166), ('texte', 'ok')]), RealDictRow([('id_avis', 7), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'a')]), RealDictRow([('id_avis', 9), ('id_utilisateur', 1), ('id_manga', 519), ('texte', 'Bien')])]
+08/11/2024 01:00:26 - INFO     - liste_avis : [<business_object.avis.Avis object at 0x0000022821C2ACB0>, <business_object.avis.Avis object at 0x0000022821C2ABC0>, <business_object.avis.Avis object at 0x0000022821C29F00>, <business_object.avis.Avis object at 0x0000022821C2A110>, <business_object.avis.Avis object at 0x0000022821C2A1A0>, <business_object.avis.Avis object at 0x0000022821C29E40>, <business_object.avis.Avis object at 0x0000022821C29DE0>, <business_object.avis.Avis object at 0x0000022821C2AB30>]
+08/11/2024 01:00:26 - INFO     - liste_manga : [1, 1, 1, 1, 1, 1166, 1, 519]
+08/11/2024 01:00:26 - INFO     - i : 1
+08/11/2024 01:00:26 - INFO     - manga : Monster
+08/11/2024 01:00:26 - INFO     - i : 1
+08/11/2024 01:00:26 - INFO     - manga : Monster
+08/11/2024 01:00:26 - INFO     - i : 1
+08/11/2024 01:00:26 - INFO     - manga : Monster
+08/11/2024 01:00:26 - INFO     - i : 1
+08/11/2024 01:00:26 - INFO     - manga : Monster
+08/11/2024 01:00:26 - INFO     - i : 1
+08/11/2024 01:00:26 - INFO     - manga : Monster
+08/11/2024 01:00:26 - INFO     - i : 1166
+08/11/2024 01:00:26 - INFO     - manga : Eensy-Weensy Monster
+08/11/2024 01:00:26 - INFO     - i : 1
+08/11/2024 01:00:26 - INFO     - manga : Monster
+08/11/2024 01:00:26 - INFO     - i : 519
+08/11/2024 01:00:26 - INFO     - manga : Fairy Tail
+08/11/2024 01:00:32 - INFO     - Fin de l'application
+08/11/2024 01:10:45 - INFO     - --------------------------------------------------
+08/11/2024 01:10:45 - INFO     - Lancement Application                           
+08/11/2024 01:10:45 - INFO     - --------------------------------------------------
+08/11/2024 01:10:45 - INFO     - AccueilVue
+08/11/2024 01:10:59 - INFO     - --------------------------------------------------
+08/11/2024 01:10:59 - INFO     - Lancement Application                           
+08/11/2024 01:10:59 - INFO     - --------------------------------------------------
+08/11/2024 01:10:59 - INFO     - AccueilVue
+08/11/2024 01:11:22 - INFO     - ConnexionVue
+08/11/2024 01:11:26 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+08/11/2024 01:11:26 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+08/11/2024 01:11:26 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000002613EB5DB10>
+08/11/2024 01:11:26 - INFO     - MenuUtilisateurVue
+08/11/2024 01:11:28 - INFO     - EcranDuProfilVue
+08/11/2024 01:11:35 - INFO     - MenuAvis
+08/11/2024 01:11:55 - INFO     - res : [RealDictRow([('id_avis', 2), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'a')]), RealDictRow([('id_avis', 3), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'assez bien')]), RealDictRow([('id_avis', 4), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'p')]), RealDictRow([('id_avis', 5), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'ppp')]), RealDictRow([('id_avis', 6), ('id_utilisateur', 1), ('id_manga', 1166), ('texte', 'ok')]), RealDictRow([('id_avis', 7), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'a')]), RealDictRow([('id_avis', 9), ('id_utilisateur', 1), ('id_manga', 519), ('texte', 'Bien')])]
+08/11/2024 01:11:55 - INFO     - liste_avis : [<business_object.avis.Avis object at 0x000002613EC84940>, <business_object.avis.Avis object at 0x000002613EC84A00>, <business_object.avis.Avis object at 0x000002613EC84820>, <business_object.avis.Avis object at 0x000002613EC85C60>, <business_object.avis.Avis object at 0x000002613EC85BD0>, <business_object.avis.Avis object at 0x000002613EC85060>, <business_object.avis.Avis object at 0x000002613EC85270>]
+08/11/2024 01:11:55 - INFO     - liste_manga : [1, 1, 1, 1, 1166, 1, 519]
+08/11/2024 01:11:55 - INFO     - i : 1
+08/11/2024 01:11:55 - INFO     - manga : Monster
+08/11/2024 01:11:55 - INFO     - i : 1
+08/11/2024 01:11:55 - INFO     - manga : Monster
+08/11/2024 01:11:55 - INFO     - i : 1
+08/11/2024 01:11:55 - INFO     - manga : Monster
+08/11/2024 01:11:55 - INFO     - i : 1
+08/11/2024 01:11:55 - INFO     - manga : Monster
+08/11/2024 01:11:55 - INFO     - i : 1166
+08/11/2024 01:11:55 - INFO     - manga : Eensy-Weensy Monster
+08/11/2024 01:11:55 - INFO     - i : 1
+08/11/2024 01:11:55 - INFO     - manga : Monster
+08/11/2024 01:11:55 - INFO     - i : 519
+08/11/2024 01:11:55 - INFO     - manga : Fairy Tail
+08/11/2024 01:12:24 - INFO     - ERREUR:  erreur de syntaxe sur ou près de « WHERE »
+LINE 1: ...exte = 'vraiment bien',                           WHERE id_a...
+                                                             ^
+
+08/11/2024 01:12:24 - INFO     - No module named 'profil_utilisateur_vue'
+08/11/2024 01:12:24 - INFO     - AccueilVue
+08/11/2024 01:15:56 - INFO     - Fin de l'application
+08/11/2024 01:15:59 - INFO     - --------------------------------------------------
+08/11/2024 01:15:59 - INFO     - Lancement Application                           
+08/11/2024 01:15:59 - INFO     - --------------------------------------------------
+08/11/2024 01:15:59 - INFO     - AccueilVue
+08/11/2024 01:16:00 - INFO     - ConnexionVue
+08/11/2024 01:16:04 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+08/11/2024 01:16:04 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+08/11/2024 01:16:04 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001F11CA4DB10>
+08/11/2024 01:16:04 - INFO     - MenuUtilisateurVue
+08/11/2024 01:16:05 - INFO     - EcranDuProfilVue
+08/11/2024 01:16:07 - INFO     - MenuAvis
+08/11/2024 01:16:08 - INFO     - res : [RealDictRow([('id_avis', 2), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'a')]), RealDictRow([('id_avis', 3), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'assez bien')]), RealDictRow([('id_avis', 4), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'p')]), RealDictRow([('id_avis', 5), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'ppp')]), RealDictRow([('id_avis', 6), ('id_utilisateur', 1), ('id_manga', 1166), ('texte', 'ok')]), RealDictRow([('id_avis', 7), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'a')]), RealDictRow([('id_avis', 9), ('id_utilisateur', 1), ('id_manga', 519), ('texte', 'Bien')])]
+08/11/2024 01:16:08 - INFO     - liste_avis : [<business_object.avis.Avis object at 0x000001F11CAA2CB0>, <business_object.avis.Avis object at 0x000001F11CAA2BC0>, <business_object.avis.Avis object at 0x000001F11CAA1F00>, <business_object.avis.Avis object at 0x000001F11CAA2110>, <business_object.avis.Avis object at 0x000001F11CAA21A0>, <business_object.avis.Avis object at 0x000001F11CAA1E40>, <business_object.avis.Avis object at 0x000001F11CAA1DE0>]
+08/11/2024 01:16:08 - INFO     - liste_manga : [1, 1, 1, 1, 1166, 1, 519]
+08/11/2024 01:16:08 - INFO     - i : 1
+08/11/2024 01:16:08 - INFO     - manga : Monster
+08/11/2024 01:16:08 - INFO     - i : 1
+08/11/2024 01:16:08 - INFO     - manga : Monster
+08/11/2024 01:16:08 - INFO     - i : 1
+08/11/2024 01:16:08 - INFO     - manga : Monster
+08/11/2024 01:16:08 - INFO     - i : 1
+08/11/2024 01:16:08 - INFO     - manga : Monster
+08/11/2024 01:16:08 - INFO     - i : 1166
+08/11/2024 01:16:08 - INFO     - manga : Eensy-Weensy Monster
+08/11/2024 01:16:08 - INFO     - i : 1
+08/11/2024 01:16:08 - INFO     - manga : Monster
+08/11/2024 01:16:08 - INFO     - i : 519
+08/11/2024 01:16:08 - INFO     - manga : Fairy Tail
+08/11/2024 01:16:18 - INFO     - ERREUR:  erreur de syntaxe sur ou près de « WHERE »
+LINE 1: ...T texte = 'Super bien',                           WHERE id_a...
+                                                             ^
+
+08/11/2024 01:16:18 - INFO     - MenuAvis
+08/11/2024 01:16:56 - INFO     - res : [RealDictRow([('id_avis', 2), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'a')]), RealDictRow([('id_avis', 3), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'assez bien')]), RealDictRow([('id_avis', 4), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'p')]), RealDictRow([('id_avis', 5), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'ppp')]), RealDictRow([('id_avis', 6), ('id_utilisateur', 1), ('id_manga', 1166), ('texte', 'ok')]), RealDictRow([('id_avis', 7), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'a')]), RealDictRow([('id_avis', 9), ('id_utilisateur', 1), ('id_manga', 519), ('texte', 'Bien')])]
+08/11/2024 01:16:56 - INFO     - liste_avis : [<business_object.avis.Avis object at 0x000001F11CE11E70>, <business_object.avis.Avis object at 0x000001F11CE11E40>, <business_object.avis.Avis object at 0x000001F11CE12EC0>, <business_object.avis.Avis object at 0x000001F11CE12FE0>, <business_object.avis.Avis object at 0x000001F11CE13040>, <business_object.avis.Avis object at 0x000001F11CE12F20>, <business_object.avis.Avis object at 0x000001F11CE12F50>]
+08/11/2024 01:16:56 - INFO     - liste_manga : [1, 1, 1, 1, 1166, 1, 519]
+08/11/2024 01:16:56 - INFO     - i : 1
+08/11/2024 01:16:56 - INFO     - manga : Monster
+08/11/2024 01:16:56 - INFO     - i : 1
+08/11/2024 01:16:56 - INFO     - manga : Monster
+08/11/2024 01:16:56 - INFO     - i : 1
+08/11/2024 01:16:56 - INFO     - manga : Monster
+08/11/2024 01:16:56 - INFO     - i : 1
+08/11/2024 01:16:56 - INFO     - manga : Monster
+08/11/2024 01:16:56 - INFO     - i : 1166
+08/11/2024 01:16:56 - INFO     - manga : Eensy-Weensy Monster
+08/11/2024 01:16:56 - INFO     - i : 1
+08/11/2024 01:16:56 - INFO     - manga : Monster
+08/11/2024 01:16:56 - INFO     - i : 519
+08/11/2024 01:16:56 - INFO     - manga : Fairy Tail
+08/11/2024 01:17:37 - INFO     - --------------------------------------------------
+08/11/2024 01:17:37 - INFO     - Lancement Application                           
+08/11/2024 01:17:37 - INFO     - --------------------------------------------------
+08/11/2024 01:17:37 - INFO     - AccueilVue
+08/11/2024 01:17:39 - INFO     - ConnexionVue
+08/11/2024 01:17:49 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+08/11/2024 01:17:49 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+08/11/2024 01:17:49 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001AA2B18DB10>
+08/11/2024 01:17:49 - INFO     - MenuUtilisateurVue
+08/11/2024 01:17:50 - INFO     - EcranDuProfilVue
+08/11/2024 01:17:51 - INFO     - MenuAvis
+08/11/2024 01:17:53 - INFO     - res : [RealDictRow([('id_avis', 2), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'a')]), RealDictRow([('id_avis', 3), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'assez bien')]), RealDictRow([('id_avis', 4), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'p')]), RealDictRow([('id_avis', 5), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'ppp')]), RealDictRow([('id_avis', 6), ('id_utilisateur', 1), ('id_manga', 1166), ('texte', 'ok')]), RealDictRow([('id_avis', 7), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'a')]), RealDictRow([('id_avis', 9), ('id_utilisateur', 1), ('id_manga', 519), ('texte', 'Bien')])]
+08/11/2024 01:17:53 - INFO     - liste_avis : [<business_object.avis.Avis object at 0x000001AA2B268B80>, <business_object.avis.Avis object at 0x000001AA2B268C10>, <business_object.avis.Avis object at 0x000001AA2B268C70>, <business_object.avis.Avis object at 0x000001AA2B268CD0>, <business_object.avis.Avis object at 0x000001AA2B268D60>, <business_object.avis.Avis object at 0x000001AA2B268DC0>, <business_object.avis.Avis object at 0x000001AA2B268E20>]
+08/11/2024 01:17:53 - INFO     - liste_manga : [1, 1, 1, 1, 1166, 1, 519]
+08/11/2024 01:17:53 - INFO     - i : 1
+08/11/2024 01:17:53 - INFO     - manga : Monster
+08/11/2024 01:17:53 - INFO     - i : 1
+08/11/2024 01:17:53 - INFO     - manga : Monster
+08/11/2024 01:17:53 - INFO     - i : 1
+08/11/2024 01:17:54 - INFO     - manga : Monster
+08/11/2024 01:17:54 - INFO     - i : 1
+08/11/2024 01:17:54 - INFO     - manga : Monster
+08/11/2024 01:17:54 - INFO     - i : 1166
+08/11/2024 01:17:54 - INFO     - manga : Eensy-Weensy Monster
+08/11/2024 01:17:54 - INFO     - i : 1
+08/11/2024 01:17:54 - INFO     - manga : Monster
+08/11/2024 01:17:54 - INFO     - i : 519
+08/11/2024 01:17:54 - INFO     - manga : Fairy Tail
+08/11/2024 01:18:05 - INFO     - ERREUR:  erreur de syntaxe sur ou près de « , »
+LINE 1: ...er bien'                          WHERE id_avis = 2,        
+                                                              ^
+
+08/11/2024 01:18:05 - INFO     - MenuAvis
+08/11/2024 01:18:07 - INFO     - res : [RealDictRow([('id_avis', 2), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'a')]), RealDictRow([('id_avis', 3), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'assez bien')]), RealDictRow([('id_avis', 4), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'p')]), RealDictRow([('id_avis', 5), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'ppp')]), RealDictRow([('id_avis', 6), ('id_utilisateur', 1), ('id_manga', 1166), ('texte', 'ok')]), RealDictRow([('id_avis', 7), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'a')]), RealDictRow([('id_avis', 9), ('id_utilisateur', 1), ('id_manga', 519), ('texte', 'Bien')])]
+08/11/2024 01:18:07 - INFO     - liste_avis : [<business_object.avis.Avis object at 0x000001AA2B55D6C0>, <business_object.avis.Avis object at 0x000001AA2B55D7B0>, <business_object.avis.Avis object at 0x000001AA2B549D20>, <business_object.avis.Avis object at 0x000001AA2B549AB0>, <business_object.avis.Avis object at 0x000001AA2B54A890>, <business_object.avis.Avis object at 0x000001AA2B54ABC0>, <business_object.avis.Avis object at 0x000001AA2B54AC20>]
+08/11/2024 01:18:07 - INFO     - liste_manga : [1, 1, 1, 1, 1166, 1, 519]
+08/11/2024 01:18:07 - INFO     - i : 1
+08/11/2024 01:18:07 - INFO     - manga : Monster
+08/11/2024 01:18:07 - INFO     - i : 1
+08/11/2024 01:18:07 - INFO     - manga : Monster
+08/11/2024 01:18:07 - INFO     - i : 1
+08/11/2024 01:18:07 - INFO     - manga : Monster
+08/11/2024 01:18:07 - INFO     - i : 1
+08/11/2024 01:18:07 - INFO     - manga : Monster
+08/11/2024 01:18:07 - INFO     - i : 1166
+08/11/2024 01:18:07 - INFO     - manga : Eensy-Weensy Monster
+08/11/2024 01:18:07 - INFO     - i : 1
+08/11/2024 01:18:07 - INFO     - manga : Monster
+08/11/2024 01:18:07 - INFO     - i : 519
+08/11/2024 01:18:07 - INFO     - manga : Fairy Tail
+08/11/2024 01:18:41 - INFO     - ERREUR:  erreur de syntaxe sur ou près de « , »
+LINE 1: ...royable'                          WHERE id_avis = 9,        
+                                                              ^
+
+08/11/2024 01:18:41 - INFO     - MenuAvis
+08/11/2024 01:19:28 - INFO     - --------------------------------------------------
+08/11/2024 01:19:28 - INFO     - Lancement Application                           
+08/11/2024 01:19:28 - INFO     - --------------------------------------------------
+08/11/2024 01:19:28 - INFO     - AccueilVue
+08/11/2024 01:19:29 - INFO     - ConnexionVue
+08/11/2024 01:19:33 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+08/11/2024 01:19:34 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+08/11/2024 01:19:34 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000014A6A3A9B40>
+08/11/2024 01:19:34 - INFO     - MenuUtilisateurVue
+08/11/2024 01:19:35 - INFO     - EcranDuProfilVue
+08/11/2024 01:19:36 - INFO     - MenuAvis
+08/11/2024 01:19:36 - INFO     - res : [RealDictRow([('id_avis', 2), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'a')]), RealDictRow([('id_avis', 3), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'assez bien')]), RealDictRow([('id_avis', 4), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'p')]), RealDictRow([('id_avis', 5), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'ppp')]), RealDictRow([('id_avis', 6), ('id_utilisateur', 1), ('id_manga', 1166), ('texte', 'ok')]), RealDictRow([('id_avis', 7), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'a')]), RealDictRow([('id_avis', 9), ('id_utilisateur', 1), ('id_manga', 519), ('texte', 'Bien')])]
+08/11/2024 01:19:36 - INFO     - liste_avis : [<business_object.avis.Avis object at 0x0000014A6A48CBB0>, <business_object.avis.Avis object at 0x0000014A6A48CC40>, <business_object.avis.Avis object at 0x0000014A6A48CCA0>, <business_object.avis.Avis object at 0x0000014A6A48CD00>, <business_object.avis.Avis object at 0x0000014A6A48CD90>, <business_object.avis.Avis object at 0x0000014A6A48CDF0>, <business_object.avis.Avis object at 0x0000014A6A48CE50>]
+08/11/2024 01:19:36 - INFO     - liste_manga : [1, 1, 1, 1, 1166, 1, 519]
+08/11/2024 01:19:36 - INFO     - i : 1
+08/11/2024 01:19:36 - INFO     - manga : Monster
+08/11/2024 01:19:36 - INFO     - i : 1
+08/11/2024 01:19:36 - INFO     - manga : Monster
+08/11/2024 01:19:36 - INFO     - i : 1
+08/11/2024 01:19:37 - INFO     - manga : Monster
+08/11/2024 01:19:37 - INFO     - i : 1
+08/11/2024 01:19:37 - INFO     - manga : Monster
+08/11/2024 01:19:37 - INFO     - i : 1166
+08/11/2024 01:19:37 - INFO     - manga : Eensy-Weensy Monster
+08/11/2024 01:19:37 - INFO     - i : 1
+08/11/2024 01:19:37 - INFO     - manga : Monster
+08/11/2024 01:19:37 - INFO     - i : 519
+08/11/2024 01:19:37 - INFO     - manga : Fairy Tail
+08/11/2024 01:19:45 - INFO     - MenuAvis
+08/11/2024 01:19:46 - INFO     - res : [RealDictRow([('id_avis', 2), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'Super bien')]), RealDictRow([('id_avis', 3), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'assez bien')]), RealDictRow([('id_avis', 4), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'p')]), RealDictRow([('id_avis', 5), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'ppp')]), RealDictRow([('id_avis', 6), ('id_utilisateur', 1), ('id_manga', 1166), ('texte', 'ok')]), RealDictRow([('id_avis', 7), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'a')]), RealDictRow([('id_avis', 9), ('id_utilisateur', 1), ('id_manga', 519), ('texte', 'Bien')])]
+08/11/2024 01:19:46 - INFO     - liste_avis : [<business_object.avis.Avis object at 0x0000014A6A7A10F0>, <business_object.avis.Avis object at 0x0000014A6A7A11B0>, <business_object.avis.Avis object at 0x0000014A6A7617B0>, <business_object.avis.Avis object at 0x0000014A6A761540>, <business_object.avis.Avis object at 0x0000014A6A762320>, <business_object.avis.Avis object at 0x0000014A6A762650>, <business_object.avis.Avis object at 0x0000014A6A7626B0>]
+08/11/2024 01:19:46 - INFO     - liste_manga : [1, 1, 1, 1, 1166, 1, 519]
+08/11/2024 01:19:46 - INFO     - i : 1
+08/11/2024 01:19:46 - INFO     - manga : Monster
+08/11/2024 01:19:46 - INFO     - i : 1
+08/11/2024 01:19:46 - INFO     - manga : Monster
+08/11/2024 01:19:46 - INFO     - i : 1
+08/11/2024 01:19:46 - INFO     - manga : Monster
+08/11/2024 01:19:46 - INFO     - i : 1
+08/11/2024 01:19:46 - INFO     - manga : Monster
+08/11/2024 01:19:46 - INFO     - i : 1166
+08/11/2024 01:19:46 - INFO     - manga : Eensy-Weensy Monster
+08/11/2024 01:19:46 - INFO     - i : 1
+08/11/2024 01:19:46 - INFO     - manga : Monster
+08/11/2024 01:19:46 - INFO     - i : 519
+08/11/2024 01:19:46 - INFO     - manga : Fairy Tail
+08/11/2024 01:20:12 - INFO     - MenuAvis
+08/11/2024 01:21:06 - INFO     - Fin de l'application
+08/11/2024 01:27:14 - INFO     - --------------------------------------------------
+08/11/2024 01:27:14 - INFO     - Lancement Application                           
+08/11/2024 01:27:14 - INFO     - --------------------------------------------------
+08/11/2024 01:27:14 - INFO     - AccueilVue
+08/11/2024 01:27:16 - INFO     - ConnexionVue
+08/11/2024 01:27:21 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+08/11/2024 01:27:21 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+08/11/2024 01:27:21 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000017DFE059B10>
+08/11/2024 01:27:21 - INFO     - MenuUtilisateurVue
+08/11/2024 01:27:28 - INFO     - EcranDuProfilVue
+08/11/2024 01:27:30 - INFO     - invalid syntax (avis_utilisateur_vue.py, line 78)
+08/11/2024 01:27:30 - INFO     - AccueilVue
+08/11/2024 01:30:09 - INFO     - Fin de l'application
+08/11/2024 01:30:11 - INFO     - --------------------------------------------------
+08/11/2024 01:30:11 - INFO     - Lancement Application                           
+08/11/2024 01:30:11 - INFO     - --------------------------------------------------
+08/11/2024 01:30:11 - INFO     - AccueilVue
+08/11/2024 01:30:13 - INFO     - ConnexionVue
+08/11/2024 01:30:18 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+08/11/2024 01:30:18 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+08/11/2024 01:30:18 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000019F79CEDB40>
+08/11/2024 01:30:18 - INFO     - MenuUtilisateurVue
+08/11/2024 01:30:19 - INFO     - EcranDuProfilVue
+08/11/2024 01:30:20 - INFO     - MenuAvis
+08/11/2024 01:30:24 - INFO     - res : [RealDictRow([('id_avis', 2), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'Super bien')]), RealDictRow([('id_avis', 3), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'Super bien')]), RealDictRow([('id_avis', 4), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'p')]), RealDictRow([('id_avis', 5), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'ppp')]), RealDictRow([('id_avis', 6), ('id_utilisateur', 1), ('id_manga', 1166), ('texte', 'ok')]), RealDictRow([('id_avis', 7), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'a')]), RealDictRow([('id_avis', 9), ('id_utilisateur', 1), ('id_manga', 519), ('texte', 'Bien')])]
+08/11/2024 01:30:24 - INFO     - liste_avis : [<business_object.avis.Avis object at 0x0000019F79D96C20>, <business_object.avis.Avis object at 0x0000019F79D96C80>, <business_object.avis.Avis object at 0x0000019F79D95F60>, <business_object.avis.Avis object at 0x0000019F79D96950>, <business_object.avis.Avis object at 0x0000019F79D95DB0>, <business_object.avis.Avis object at 0x0000019F79D96320>, <business_object.avis.Avis object at 0x0000019F79D96A70>]
+08/11/2024 01:30:24 - INFO     - liste_manga : [1, 1, 1, 1, 1166, 1, 519]
+08/11/2024 01:30:24 - INFO     - i : 1
+08/11/2024 01:30:24 - INFO     - manga : Monster
+08/11/2024 01:30:24 - INFO     - i : 1
+08/11/2024 01:30:24 - INFO     - manga : Monster
+08/11/2024 01:30:24 - INFO     - i : 1
+08/11/2024 01:30:24 - INFO     - manga : Monster
+08/11/2024 01:30:24 - INFO     - i : 1
+08/11/2024 01:30:24 - INFO     - manga : Monster
+08/11/2024 01:30:24 - INFO     - i : 1166
+08/11/2024 01:30:24 - INFO     - manga : Eensy-Weensy Monster
+08/11/2024 01:30:24 - INFO     - i : 1
+08/11/2024 01:30:24 - INFO     - manga : Monster
+08/11/2024 01:30:24 - INFO     - i : 519
+08/11/2024 01:30:24 - INFO     - manga : Fairy Tail
+08/11/2024 01:30:57 - INFO     - MenuAvis
+08/11/2024 01:31:00 - INFO     - Fin de l'application
+08/11/2024 01:34:07 - INFO     - --------------------------------------------------
+08/11/2024 01:34:07 - INFO     - Lancement Application                           
+08/11/2024 01:34:07 - INFO     - --------------------------------------------------
+08/11/2024 01:34:07 - INFO     - AccueilVue
+08/11/2024 01:34:08 - INFO     - ConnexionVue
+08/11/2024 01:34:18 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+08/11/2024 01:34:18 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+08/11/2024 01:34:18 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000002C82AA29B40>
+08/11/2024 01:34:18 - INFO     - MenuUtilisateurVue
+08/11/2024 01:34:19 - INFO     - EcranDuProfilVue
+08/11/2024 01:34:21 - INFO     - MenuAvis
+08/11/2024 01:34:21 - INFO     - local variable 'AvisService' referenced before assignment
+08/11/2024 01:34:21 - INFO     - AccueilVue
+08/11/2024 01:35:25 - INFO     - Fin de l'application
+08/11/2024 01:35:27 - INFO     - --------------------------------------------------
+08/11/2024 01:35:27 - INFO     - Lancement Application                           
+08/11/2024 01:35:27 - INFO     - --------------------------------------------------
+08/11/2024 01:35:27 - INFO     - AccueilVue
+08/11/2024 01:35:28 - INFO     - ConnexionVue
+08/11/2024 01:35:33 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+08/11/2024 01:35:33 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+08/11/2024 01:35:33 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001E1DC53D780>
+08/11/2024 01:35:33 - INFO     - MenuUtilisateurVue
+08/11/2024 01:35:35 - INFO     - EcranDuProfilVue
+08/11/2024 01:35:36 - INFO     - MenuAvis
+08/11/2024 01:35:36 - INFO     - res : [RealDictRow([('id_avis', 2), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'Super bien')]), RealDictRow([('id_avis', 3), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'Super bien')]), RealDictRow([('id_avis', 4), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'p')]), RealDictRow([('id_avis', 5), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'ppp')]), RealDictRow([('id_avis', 6), ('id_utilisateur', 1), ('id_manga', 1166), ('texte', 'ok')]), RealDictRow([('id_avis', 7), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'a')]), RealDictRow([('id_avis', 9), ('id_utilisateur', 1), ('id_manga', 519), ('texte', 'Bien')])]
+08/11/2024 01:35:36 - INFO     - liste_avis : [<business_object.avis.Avis object at 0x000001E1DC4B49A0>, <business_object.avis.Avis object at 0x000001E1DC4B5330>, <business_object.avis.Avis object at 0x000001E1DC4B53F0>, <business_object.avis.Avis object at 0x000001E1DC4B5CF0>, <business_object.avis.Avis object at 0x000001E1DC4B5510>, <business_object.avis.Avis object at 0x000001E1DC4B5C60>, <business_object.avis.Avis object at 0x000001E1DC4B77C0>]
+08/11/2024 01:35:36 - INFO     - liste_manga : [1, 1, 1, 1, 1166, 1, 519]
+08/11/2024 01:35:36 - INFO     - i : 1
+08/11/2024 01:35:36 - INFO     - manga : Monster
+08/11/2024 01:35:36 - INFO     - i : 1
+08/11/2024 01:35:36 - INFO     - manga : Monster
+08/11/2024 01:35:36 - INFO     - i : 1
+08/11/2024 01:35:36 - INFO     - manga : Monster
+08/11/2024 01:35:36 - INFO     - i : 1
+08/11/2024 01:35:36 - INFO     - manga : Monster
+08/11/2024 01:35:36 - INFO     - i : 1166
+08/11/2024 01:35:36 - INFO     - manga : Eensy-Weensy Monster
+08/11/2024 01:35:36 - INFO     - i : 1
+08/11/2024 01:35:36 - INFO     - manga : Monster
+08/11/2024 01:35:36 - INFO     - i : 519
+08/11/2024 01:35:36 - INFO     - manga : Fairy Tail
+08/11/2024 01:35:45 - INFO     - MenuAvis
+08/11/2024 01:35:45 - INFO     - res : [RealDictRow([('id_avis', 2), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'Super bien')]), RealDictRow([('id_avis', 3), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'Super bien')]), RealDictRow([('id_avis', 4), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'p')]), RealDictRow([('id_avis', 5), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'ppp')]), RealDictRow([('id_avis', 6), ('id_utilisateur', 1), ('id_manga', 1166), ('texte', 'ok')]), RealDictRow([('id_avis', 7), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'a')]), RealDictRow([('id_avis', 9), ('id_utilisateur', 1), ('id_manga', 519), ('texte', 'Bien')])]
+08/11/2024 01:35:45 - INFO     - liste_avis : [<business_object.avis.Avis object at 0x000001E1DC4B49A0>, <business_object.avis.Avis object at 0x000001E1DC4B5330>, <business_object.avis.Avis object at 0x000001E1DC4B53F0>, <business_object.avis.Avis object at 0x000001E1DC4B5CF0>, <business_object.avis.Avis object at 0x000001E1DC4B5510>, <business_object.avis.Avis object at 0x000001E1DC4B5C60>, <business_object.avis.Avis object at 0x000001E1DC4B77C0>]
+08/11/2024 01:35:45 - INFO     - liste_manga : [1, 1, 1, 1, 1166, 1, 519]
+08/11/2024 01:35:45 - INFO     - i : 1
+08/11/2024 01:35:45 - INFO     - manga : Monster
+08/11/2024 01:35:45 - INFO     - i : 1
+08/11/2024 01:35:45 - INFO     - manga : Monster
+08/11/2024 01:35:45 - INFO     - i : 1
+08/11/2024 01:35:45 - INFO     - manga : Monster
+08/11/2024 01:35:45 - INFO     - i : 1
+08/11/2024 01:35:45 - INFO     - manga : Monster
+08/11/2024 01:35:45 - INFO     - i : 1166
+08/11/2024 01:35:45 - INFO     - manga : Eensy-Weensy Monster
+08/11/2024 01:35:45 - INFO     - i : 1
+08/11/2024 01:35:45 - INFO     - manga : Monster
+08/11/2024 01:35:45 - INFO     - i : 519
+08/11/2024 01:35:45 - INFO     - manga : Fairy Tail
+08/11/2024 01:35:52 - INFO     - list index out of range
+08/11/2024 01:35:52 - INFO     - AccueilVue
+08/11/2024 01:37:03 - INFO     - Fin de l'application
+08/11/2024 01:37:05 - INFO     - --------------------------------------------------
+08/11/2024 01:37:05 - INFO     - Lancement Application                           
+08/11/2024 01:37:05 - INFO     - --------------------------------------------------
+08/11/2024 01:37:05 - INFO     - AccueilVue
+08/11/2024 01:37:06 - INFO     - ConnexionVue
+08/11/2024 01:37:11 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+08/11/2024 01:37:11 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+08/11/2024 01:37:11 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001E4AA91DC30>
+08/11/2024 01:37:11 - INFO     - MenuUtilisateurVue
+08/11/2024 01:37:12 - INFO     - EcranDuProfilVue
+08/11/2024 01:37:14 - INFO     - MenuAvis
+08/11/2024 01:37:14 - INFO     - res : [RealDictRow([('id_avis', 2), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'Super bien')]), RealDictRow([('id_avis', 3), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'Super bien')]), RealDictRow([('id_avis', 4), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'p')]), RealDictRow([('id_avis', 5), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'ppp')]), RealDictRow([('id_avis', 6), ('id_utilisateur', 1), ('id_manga', 1166), ('texte', 'ok')]), RealDictRow([('id_avis', 7), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'a')]), RealDictRow([('id_avis', 9), ('id_utilisateur', 1), ('id_manga', 519), ('texte', 'Bien')])]
+08/11/2024 01:37:14 - INFO     - liste_avis : [<business_object.avis.Avis object at 0x000001E4AA7A56C0>, <business_object.avis.Avis object at 0x000001E4AA7A6980>, <business_object.avis.Avis object at 0x000001E4AA7A6B60>, <business_object.avis.Avis object at 0x000001E4AA7A5D80>, <business_object.avis.Avis object at 0x000001E4AA7A5ED0>, <business_object.avis.Avis object at 0x000001E4AA7A5DB0>, <business_object.avis.Avis object at 0x000001E4AA7A6290>]
+08/11/2024 01:37:14 - INFO     - liste_manga : [1, 1, 1, 1, 1166, 1, 519]
+08/11/2024 01:37:14 - INFO     - i : 1
+08/11/2024 01:37:14 - INFO     - manga : Monster
+08/11/2024 01:37:14 - INFO     - i : 1
+08/11/2024 01:37:14 - INFO     - manga : Monster
+08/11/2024 01:37:14 - INFO     - i : 1
+08/11/2024 01:37:14 - INFO     - manga : Monster
+08/11/2024 01:37:14 - INFO     - i : 1
+08/11/2024 01:37:14 - INFO     - manga : Monster
+08/11/2024 01:37:14 - INFO     - i : 1166
+08/11/2024 01:37:14 - INFO     - manga : Eensy-Weensy Monster
+08/11/2024 01:37:14 - INFO     - i : 1
+08/11/2024 01:37:14 - INFO     - manga : Monster
+08/11/2024 01:37:14 - INFO     - i : 519
+08/11/2024 01:37:14 - INFO     - manga : Fairy Tail
+08/11/2024 01:37:17 - INFO     - MenuAvis
+08/11/2024 01:37:17 - INFO     - res : [RealDictRow([('id_avis', 2), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'Super bien')]), RealDictRow([('id_avis', 3), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'Super bien')]), RealDictRow([('id_avis', 4), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'p')]), RealDictRow([('id_avis', 5), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'ppp')]), RealDictRow([('id_avis', 6), ('id_utilisateur', 1), ('id_manga', 1166), ('texte', 'ok')]), RealDictRow([('id_avis', 7), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'a')]), RealDictRow([('id_avis', 9), ('id_utilisateur', 1), ('id_manga', 519), ('texte', 'Bien')])]
+08/11/2024 01:37:17 - INFO     - liste_avis : [<business_object.avis.Avis object at 0x000001E4AA7A56C0>, <business_object.avis.Avis object at 0x000001E4AA7A6980>, <business_object.avis.Avis object at 0x000001E4AA7A6B60>, <business_object.avis.Avis object at 0x000001E4AA7A5D80>, <business_object.avis.Avis object at 0x000001E4AA7A5ED0>, <business_object.avis.Avis object at 0x000001E4AA7A5DB0>, <business_object.avis.Avis object at 0x000001E4AA7A6290>]
+08/11/2024 01:37:17 - INFO     - liste_manga : [1, 1, 1, 1, 1166, 1, 519]
+08/11/2024 01:37:17 - INFO     - i : 1
+08/11/2024 01:37:17 - INFO     - manga : Monster
+08/11/2024 01:37:17 - INFO     - i : 1
+08/11/2024 01:37:17 - INFO     - manga : Monster
+08/11/2024 01:37:17 - INFO     - i : 1
+08/11/2024 01:37:17 - INFO     - manga : Monster
+08/11/2024 01:37:17 - INFO     - i : 1
+08/11/2024 01:37:17 - INFO     - manga : Monster
+08/11/2024 01:37:17 - INFO     - i : 1166
+08/11/2024 01:37:17 - INFO     - manga : Eensy-Weensy Monster
+08/11/2024 01:37:17 - INFO     - i : 1
+08/11/2024 01:37:17 - INFO     - manga : Monster
+08/11/2024 01:37:17 - INFO     - i : 519
+08/11/2024 01:37:17 - INFO     - manga : Fairy Tail
+08/11/2024 01:37:21 - INFO     - MenuAvis
+08/11/2024 01:37:21 - INFO     - res : [RealDictRow([('id_avis', 2), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'Super bien')]), RealDictRow([('id_avis', 3), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'Super bien')]), RealDictRow([('id_avis', 4), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'p')]), RealDictRow([('id_avis', 5), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'ppp')]), RealDictRow([('id_avis', 6), ('id_utilisateur', 1), ('id_manga', 1166), ('texte', 'ok')]), RealDictRow([('id_avis', 7), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'a')]), RealDictRow([('id_avis', 9), ('id_utilisateur', 1), ('id_manga', 519), ('texte', 'Bien')])]
+08/11/2024 01:37:21 - INFO     - liste_avis : [<business_object.avis.Avis object at 0x000001E4AA7A56C0>, <business_object.avis.Avis object at 0x000001E4AA7A6980>, <business_object.avis.Avis object at 0x000001E4AA7A6B60>, <business_object.avis.Avis object at 0x000001E4AA7A5D80>, <business_object.avis.Avis object at 0x000001E4AA7A5ED0>, <business_object.avis.Avis object at 0x000001E4AA7A5DB0>, <business_object.avis.Avis object at 0x000001E4AA7A6290>]
+08/11/2024 01:37:21 - INFO     - liste_manga : [1, 1, 1, 1, 1166, 1, 519]
+08/11/2024 01:37:21 - INFO     - i : 1
+08/11/2024 01:37:21 - INFO     - manga : Monster
+08/11/2024 01:37:21 - INFO     - i : 1
+08/11/2024 01:37:21 - INFO     - manga : Monster
+08/11/2024 01:37:21 - INFO     - i : 1
+08/11/2024 01:37:21 - INFO     - manga : Monster
+08/11/2024 01:37:21 - INFO     - i : 1
+08/11/2024 01:37:21 - INFO     - manga : Monster
+08/11/2024 01:37:21 - INFO     - i : 1166
+08/11/2024 01:37:21 - INFO     - manga : Eensy-Weensy Monster
+08/11/2024 01:37:21 - INFO     - i : 1
+08/11/2024 01:37:21 - INFO     - manga : Monster
+08/11/2024 01:37:21 - INFO     - i : 519
+08/11/2024 01:37:21 - INFO     - manga : Fairy Tail
+08/11/2024 01:37:27 - INFO     - list index out of range
+08/11/2024 01:37:27 - INFO     - AccueilVue
+08/11/2024 01:39:15 - INFO     - Fin de l'application
+08/11/2024 01:39:17 - INFO     - --------------------------------------------------
+08/11/2024 01:39:17 - INFO     - Lancement Application                           
+08/11/2024 01:39:17 - INFO     - --------------------------------------------------
+08/11/2024 01:39:17 - INFO     - AccueilVue
+08/11/2024 01:39:18 - INFO     - ConnexionVue
+08/11/2024 01:39:22 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+08/11/2024 01:39:22 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+08/11/2024 01:39:22 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001F4FE66DB10>
+08/11/2024 01:39:22 - INFO     - MenuUtilisateurVue
+08/11/2024 01:39:26 - INFO     - EcranDuProfilVue
+08/11/2024 01:39:27 - INFO     - MenuAvis
+08/11/2024 01:39:27 - INFO     - res : [RealDictRow([('id_avis', 2), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'Super bien')]), RealDictRow([('id_avis', 3), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'Super bien')]), RealDictRow([('id_avis', 4), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'p')]), RealDictRow([('id_avis', 5), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'ppp')]), RealDictRow([('id_avis', 6), ('id_utilisateur', 1), ('id_manga', 1166), ('texte', 'ok')]), RealDictRow([('id_avis', 7), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'a')]), RealDictRow([('id_avis', 9), ('id_utilisateur', 1), ('id_manga', 519), ('texte', 'Bien')])]
+08/11/2024 01:39:27 - INFO     - liste_avis : [<business_object.avis.Avis object at 0x000001F4FE5E3F70>, <business_object.avis.Avis object at 0x000001F4FE5E11B0>, <business_object.avis.Avis object at 0x000001F4FE5E06A0>, <business_object.avis.Avis object at 0x000001F4FE5E2350>, <business_object.avis.Avis object at 0x000001F4FE5E1180>, <business_object.avis.Avis object at 0x000001F4FE5E22F0>, <business_object.avis.Avis object at 0x000001F4FE5E23E0>]
+08/11/2024 01:39:27 - INFO     - liste_manga : [1, 1, 1, 1, 1166, 1, 519]
+08/11/2024 01:39:27 - INFO     - i : 1
+08/11/2024 01:39:27 - INFO     - manga : Monster
+08/11/2024 01:39:27 - INFO     - i : 1
+08/11/2024 01:39:27 - INFO     - manga : Monster
+08/11/2024 01:39:27 - INFO     - i : 1
+08/11/2024 01:39:27 - INFO     - manga : Monster
+08/11/2024 01:39:27 - INFO     - i : 1
+08/11/2024 01:39:27 - INFO     - manga : Monster
+08/11/2024 01:39:27 - INFO     - i : 1166
+08/11/2024 01:39:27 - INFO     - manga : Eensy-Weensy Monster
+08/11/2024 01:39:27 - INFO     - i : 1
+08/11/2024 01:39:27 - INFO     - manga : Monster
+08/11/2024 01:39:27 - INFO     - i : 519
+08/11/2024 01:39:27 - INFO     - manga : Fairy Tail
+08/11/2024 01:39:29 - INFO     - list index out of range
+08/11/2024 01:39:29 - INFO     - AccueilVue
+08/11/2024 01:39:35 - INFO     - Fin de l'application
+>>>>>>> refs/remotes/origin/main
