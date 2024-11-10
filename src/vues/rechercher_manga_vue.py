@@ -45,12 +45,12 @@ class RechercheMangaVue(VueAbstraite):
                             choices=choix2,
                         ).execute()
 
-                    if choix3 == "Retour au menu précédent":
-                        from vues.menu_utilisateur_vue import MenuUtilisateurVue
-                        return MenuUtilisateurVue()
-
-                    elif choix3 == "Afficher la page suivante":
+                    if choix3 == "Afficher la page suivante":
                         n += 8
+
+                    elif choix3 == "Retour au menu précédent":
+                        from vues.recherche_vue import RechercheVue
+                        return RechercheVue()
 
                     else:
                         from vues.Selection_manga_vue_recherche import SelectionMangaVuerecherche
@@ -58,5 +58,4 @@ class RechercheMangaVue(VueAbstraite):
 
                 # Retour à l'accueil si aucune option choisie
                 from vues.menu_utilisateur_vue import MenuUtilisateurVue
-
                 return MenuUtilisateurVue()

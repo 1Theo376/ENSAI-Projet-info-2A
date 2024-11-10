@@ -19,8 +19,7 @@ class CollectionCoherenteVue(VueAbstraite):
         if not choix:
             print(f"Aucune collection trouvée")
             from vues.menu_utilisateur_vue import MenuUtilisateurVue
-
-            return MenuUtilisateurVue()
+            return MenuUtilisateurVue().choisir_menu()
 
         choix.extend(["Retour au menu précédent", "Afficher la page suivante"])
 
