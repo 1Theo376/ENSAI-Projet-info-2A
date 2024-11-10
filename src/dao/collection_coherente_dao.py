@@ -135,10 +135,10 @@ class CollectionCoherenteDAO:
                     # Supprimer le manga d'une collection
                     cursor.execute(
                         "DELETE FROM association_manga_collection_coherente                 "
-                        " WHERE (id_collec_coherente=%(id_collec_coherente)s and id_manga=%(idm)s ",
+                        " WHERE id_collec_coherente = %(id_collec_coherente)s AND id_manga = %(id_manga)s ;",
                         {
                             "id_collec_coherente": CollectionC.id_collectioncoherente,
-                            "idm": MangaC.id_manga,
+                            "id_manga": MangaC.id_manga,
                         },
                     )
                     res = cursor.rowcount
