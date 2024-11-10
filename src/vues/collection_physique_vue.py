@@ -16,10 +16,9 @@ class CollectionPhysiqueVue(VueAbstraite):
         collec = RechercheService().recherche_collec_phys_par_id(Session().utilisateur.id)
 
         if not collec:
-            print(f"Aucune collection trouvée")
-            from vues.menu_utilisateur_vue import MenuUtilisateurVue
-
-            return MenuUtilisateurVue()
+            print("Aucune collection trouvée")
+            from vues.profil_utilisateur_vue import EcranDuProfilVue
+            return EcranDuProfilVue().choisir_menu()
 
         print(
             "\n"
@@ -45,6 +44,5 @@ class CollectionPhysiqueVue(VueAbstraite):
         if choix == "Modifier description de la collection":
             pass
         if choix == "Retour au menu précédent":
-            from vues.menu_utilisateur_vue import MenuUtilisateurVue
-
-            return MenuUtilisateurVue()
+            from vues.profil_utilisateur_vue import EcranDuProfilVue
+            return EcranDuProfilVue().choisir_menu()
