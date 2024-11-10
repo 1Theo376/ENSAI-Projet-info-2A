@@ -41,17 +41,14 @@ class EcranDuProfilVue(VueAbstraite):
         match choix:
             case "Consulter mes collections cohérentes":
                 from vues.collection_coherente_vue import CollectionCoherenteVue
-
                 return CollectionCoherenteVue()
 
             case "Consulter ma collection physique":
                 from vues.collection_physique_vue import CollectionPhysiqueVue
-
                 return CollectionPhysiqueVue()
 
             case "Consulter ses avis":
                 from vues.avis_utilisateur_vue import MenuAvis
-
                 return MenuAvis()
 
             case "Créer une collection cohérente":
