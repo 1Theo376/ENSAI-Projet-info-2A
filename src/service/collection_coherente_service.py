@@ -35,12 +35,3 @@ class CollectionCoherenteService:
         """ """
         CollectionC.Liste_manga.append(MangaC)
         return CollectionC if CollectionCoherenteDAO().ajouter_manga(CollectionC, MangaC) else None
-
-    def __str__(self, CollectionC):
-        """Affiche tous les titres des mangas présents dans la collection."""
-        if len(CollectionC.Liste_manga) == 0:
-            return "La collection ne contient aucun manga."
-
-        Texte_Liste_Titre_Manga = ", ".join(manga.titre for manga in CollectionC.Liste_manga)
-
-        return f"Voici les mangas présents dans cette collection : {Texte_Liste_Titre_Manga}"

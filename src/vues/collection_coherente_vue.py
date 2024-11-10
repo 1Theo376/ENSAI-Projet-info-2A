@@ -47,7 +47,8 @@ class CollectionCoherenteVue(VueAbstraite):
             ],
         ).execute()
         if choix3 == "Consulter/Modifier les mangas de la collection":
-            pass
+
+            print(choix2.Liste_manga)
         if choix3 == "Modifier titre de la collection":
             pass
         if choix3 == "Modifier description de la collection":

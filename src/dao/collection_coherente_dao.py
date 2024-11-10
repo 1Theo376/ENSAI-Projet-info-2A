@@ -4,6 +4,7 @@ from vues.session import Session
 from dao.db_connection import DBConnection
 from business_object.CollectionCoherente import CollectionCoherente
 from business_object.manga import Manga
+from dao.manga_dao import MangaDao
 
 
 class CollectionCoherenteDAO:
@@ -221,3 +222,47 @@ class CollectionCoherenteDAO:
                 )
 
         return collections
+
+    def trouver_collec_cohe_nom(self, nom) -> CollectionCoherente:
+        """trouver une collection grâce à son nom
+
+        Parameters
+        ----------
+        nom : str
+            nom de la collection cohérente
+
+           Returns
+           -------
+           collection : CollectionCoherente
+               renvoie la collection cohérente correspondant au nom
+        """
+        try:
+            with DBConnection().connection as connection:
+                with connection.cursor() as cursor:
+                    cursor.execute(
+                        "SELECT coll.id_collec_coherente, coll.description_collection, manga.id_manga "
+                        "  FROM collection_coherente as coll                    "
+                        " JOIN association_manga_collection_coherente as asso "
+                        "ON asso.id_collec_coherente = coll.id_collec_coherente "
+                        "Join manga ON manga.id_manga = asso.id_manga "
+                        " WHERE titre_collection = %(titre_collection)s;  ",
+                        {"titre_collection": nom},
+                    )
+                    res = cursor.fetchall()
+        except Exception as e:
+            logging.info(e)
+            raise
+        collection = None
+        if res:
+            L_mangas = []
+            for elt in res:
+                id = elt["id_collec_coherente"]
+                desc = elt["description_collection"]
+                L_mangas.append(MangaDao().trouver_manga_par_id(elt["id_manga"]))
+            collection = CollectionCoherente(
+                id_collectioncoherente=id,
+                titre_collection=nom,
+                desc_collection=desc,
+                Liste_manga=L_mangas,
+            )
+        return collection
