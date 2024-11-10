@@ -1,14 +1,11 @@
 from InquirerPy import inquirer
 from vues.vue_abstraite import VueAbstraite
-from service.recherche_service import RechercheService
 from dao.manga_dao import MangaDao
-from service.avis_service import AvisService
-from vues.session import Session
 import logging
 
 
 class SelectionMangaVuerecherche(VueAbstraite):
-    def choisir_menu(self, choix3):
+    def choisir_menu(self, choix):
         """Choix du menu suivant de l'utilisateur
 
         Return
@@ -16,7 +13,7 @@ class SelectionMangaVuerecherche(VueAbstraite):
         vue
             Retourne la vue choisie par l'utilisateur dans le terminal
         """
-        manga = MangaDao().trouver_manga_par_titre(choix3)
+        manga = MangaDao().trouver_manga_par_titre(choix)
         print("\n" + "-" * 50 + "\nManga :", manga.titre, " \n" + "-" * 50 + "\n")
         choix4 = inquirer.select(
             message="Faites votre choix : ",
@@ -42,16 +39,16 @@ class SelectionMangaVuerecherche(VueAbstraite):
                 print("Auteur: " + manga.auteur + "\n")
                 print("Thèmes: " + manga.themes + "\n")
                 print("Genre: " + manga.genre + "\n")
-                SelectionMangaVuerecherche().choisir_menu(choix3)
+                self.choisir_menu(choix)
             case "Consulter les avis":
                 from vues.ConsulterAvisVue import ConsulterAvisMangaVuerecherche
-                return ConsulterAvisMangaVuerecherche().choisir_menu(choix3)
+                return ConsulterAvisMangaVuerecherche().choisir_menu(choix)
             case "Ajouter un avis":
                 from vues.AjouterAvisVue import AjouterAvisVuerecherche
-                return AjouterAvisVuerecherche().choisir_menu(choix3)
+                return AjouterAvisVuerecherche().choisir_menu(choix)
             case "Retour au menu précédent":
-                from vues.recherche_vue import RechercheVue
-                return RechercheVue()
+                from vues.rechercher_manga_vue import RechercheMangaVue
+                return RechercheMangaVue().choisir_menu()
             case "Retour vers l'écran d'accueil":
                 from vues.menu_utilisateur_vue import MenuUtilisateurVue
-                return MenuUtilisateurVue()
+                return MenuUtilisateurVue().choisir_menu()
