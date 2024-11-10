@@ -146,7 +146,7 @@ class CollectionCoherenteDAO:
             raise
         return res > 0
 
-    def ajouter_manga(self, CollectionC: CollectionCoherente, MangaC: Manga) -> bool:
+    def ajouter_manga(self, idcollec: CollectionCoherente, idmanga: Manga) -> bool:
         """Ajout d'un manga dans une collection coherente
 
         Parameters
@@ -168,7 +168,7 @@ class CollectionCoherenteDAO:
                         "INSERT INTO association_manga_collection_coherente(id_collec_coherente, id_manga) VALUES"
                         "(%(idc)s, %(idm)s) "
                         "  RETURNING id_collec_coherente, id_manga; ",
-                        {"idc": CollectionC.id_collectioncoherente, "idm": MangaC.id_manga},
+                        {"idc": idcollec, "idm": idmanga},
                     )
                     res = cursor.fetchone()
         except Exception as e:
@@ -176,8 +176,6 @@ class CollectionCoherenteDAO:
 
         created = False
         if res:
-            CollectionC.id = res["id_collec_coherente"]
-            MangaC.id_manga = res["id_manga"]
             created = True
 
         return created

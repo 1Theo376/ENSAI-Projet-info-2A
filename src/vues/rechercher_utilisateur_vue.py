@@ -93,25 +93,8 @@ class RechercheUtilisateurVue(VueAbstraite):
                                 from vues.ConsulterCollecVue import CollectionCoherenteVueRecherche
                                 return CollectionCoherenteVueRecherche().choisir_menu(choix3)
                             case "Consulter les avis":
-                                id_utilisateur = UtilisateurDao().recherche_id_par_pseudo(choix3)
-                                liste_avis, liste_titre = AvisService().recuperer_avis_utilisateur(id_utilisateur)
-                                for i in range(len(liste_avis)):
-                                    print(
-                                        "\n" + "-" * 50 + f"\n{liste_avis[i]} Titre: {liste_titre[i]}\n" + "-" * 50 + "\n"
-                                    )
-                                choixavis = inquirer.select(
-                                    message="Faites votre choix : ",
-                                    choices=["Retour au menu précédent", "Retour à l'accueil"],
-                                ).execute()
-                                match choixavis:
-                                    case "Retour au menu précédent":
-                                        from vues.recherche_vue import RechercheVue
-
-                                        return RechercheVue()
-                                    case "Retour à l'accueil":
-                                        from vues.menu_utilisateur_vue import MenuUtilisateurVue
-
-                                        return MenuUtilisateurVue()
+                                from vues.AvisRechercheUtilisateurVue import AvisRechercheUtilisateurVue
+                                return AvisRechercheUtilisateurVue().choisir_menu(choix3)
                             case "Retour au menu précédent":
                                 from vues.recherche_vue import RechercheVue
 

@@ -31,10 +31,9 @@ class CollectionCoherenteService:
         """ """
         return CollectionCoherenteDAO().supprimer_manga(CollectionC, MangaC)
 
-    def ajouter_mangaposs(self, CollectionC, MangaC: Manga) -> bool:
+    def ajouter_mangaposs(self, idcollec, idmanga) -> bool:
         """ """
-        CollectionC.Liste_manga.append(MangaC)
-        return CollectionC if CollectionCoherenteDAO().ajouter_manga(CollectionC, MangaC) else None
+        return True if CollectionCoherenteDAO().ajouter_manga(idcollec, idmanga) else None
 
     def __str__(self, CollectionC):
         """Affiche tous les titres des mangas présents dans la collection."""
