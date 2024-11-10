@@ -19,6 +19,7 @@ class CollectionCoherenteVue(VueAbstraite):
         if not choix:
             print(f"Aucune collection trouvée")
             from vues.menu_utilisateur_vue import MenuUtilisateurVue
+
             return MenuUtilisateurVue().choisir_menu()
 
         choix.extend(["Retour au menu précédent", "Afficher la page suivante"])
@@ -46,8 +47,9 @@ class CollectionCoherenteVue(VueAbstraite):
             ],
         ).execute()
         if choix3 == "Consulter/Modifier les mangas de la collection":
+            from dao.collection_coherente_dao import CollectionCoherenteDAO
 
-            print(choix2.Liste_manga)
+            print(CollectionCoherenteDAO.trouver_collec_cohe_nom(choix2))
         if choix3 == "Modifier titre de la collection":
             pass
         if choix3 == "Modifier description de la collection":
