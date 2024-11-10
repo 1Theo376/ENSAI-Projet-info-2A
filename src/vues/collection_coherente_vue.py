@@ -49,7 +49,7 @@ class CollectionCoherenteVue(VueAbstraite):
         if choix3 == "Consulter/Modifier les mangas de la collection":
             from dao.collection_coherente_dao import CollectionCoherenteDAO
 
-            print(CollectionCoherenteDAO.trouver_collec_cohe_nom(choix2))
+            print(CollectionCoherenteDAO().trouver_collec_cohe_nom(choix2))
         if choix3 == "Modifier titre de la collection":
             pass
         if choix3 == "Modifier description de la collection":
