@@ -4,6 +4,7 @@ from vues.session import Session
 from dao.db_connection import DBConnection
 from business_object.collection_phys import Collection_physique
 from business_object.manga_possede import MangaPossede
+from dao.manga_dao import MangaDao
 
 
 class CollectionPhysiqueDAO:
@@ -217,5 +218,49 @@ class CollectionPhysiqueDAO:
                 titre_collection=res["titre_collection"],
                 description_collection=res["description_collection"],
                 Liste_manga=None,
+            )
+        return collection
+
+    def trouver_collec_phys_nom(self, nom) -> Collection_physique:
+        """trouver une collection grâce à son nom
+
+        Parameters
+        ----------
+        nom : str
+            nom de la collection cohérente
+
+           Returns
+           -------
+           collection : CollectionCoherente
+               renvoie la collection cohérente correspondant au nom
+        """
+        try:
+            with DBConnection().connection as connection:
+                with connection.cursor() as cursor:
+                    cursor.execute(
+                        "SELECT id_collec_physique, description_collection, id_manga "
+                        "  FROM collection_physique                   "
+                        " JOIN association_manga_collection_physique "
+                        "USING(id_collec_physique) "
+                        "Join manga USING(id_manga)  "
+                        " WHERE titre_collection = %(titre_collection)s;  ",
+                        {"titre_collection": nom},
+                    )
+                    res = cursor.fetchall()
+        except Exception as e:
+            logging.info(e)
+            raise
+        collection = None
+        if res:
+            L_mangas = []
+            for elt in res:
+                id = elt["id_collec_physique"]
+                desc = elt["description_collection"]
+                L_mangas.append(MangaDao().trouver_manga_par_id(elt["id_manga"]))
+            collection = Collection_physique(
+                id_collectionphysique=id,
+                titre_collection=nom,
+                desc_collection=desc,
+                Liste_manga=L_mangas,
             )
         return collection

@@ -33,5 +33,5 @@ class CollectionCoherenteService:
 
     def ajouter_mangaposs(self, idcollec, idmanga) -> bool:
         """ """
-        return True if CollectionCoherenteDAO().ajouter_manga(idcollec, idmanga) else None
-
+        CollectionC = CollectionCoherenteDAO().ajouter_manga(idcollec, idmanga)
+        return CollectionC if CollectionCoherenteDAO().ajouter_manga(idcollec, idmanga) else None
