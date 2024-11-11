@@ -3,7 +3,6 @@ from business_object.manga import Manga
 from dao.manga_dao import MangaDao
 from dao.collection_coherente_dao import CollectionCoherenteDAO
 from dao.collection_physique_dao import CollectionPhysiqueDAO
-from business_object.utilisateur import Utilisateur
 
 
 class RechercheService:
