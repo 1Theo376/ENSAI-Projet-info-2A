@@ -1,0 +1,894 @@
+11/11/2024 17:01:06 - INFO     - --------------------------------------------------
+11/11/2024 17:01:06 - INFO     - Lancement Application                           
+11/11/2024 17:01:06 - INFO     - --------------------------------------------------
+11/11/2024 17:01:06 - INFO     - AccueilVue
+11/11/2024 17:01:11 - INFO     - ConnexionVue
+11/11/2024 17:01:19 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+11/11/2024 17:01:19 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+11/11/2024 17:01:19 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001AE76C35A50>
+11/11/2024 17:01:19 - INFO     - MenuUtilisateurVue
+11/11/2024 17:01:22 - INFO     - RechercheVue
+11/11/2024 17:01:23 - INFO     - RechercheMangaVue
+11/11/2024 17:01:27 - INFO     - choix2 : ['Monster', 'Full Moon wo Sagashite', 'Sailor Moon', 'BECK: Mongolian Chop Squad', 'Living for Tomorrow', 'Mobile Police Patlabor', 'Mobile Suit Gundam 0079', 'Almost Crying']
+11/11/2024 17:01:28 - INFO     - SelectionMangaVuerecherche
+11/11/2024 17:01:30 - INFO     - ConsulterAvisMangaVuerecherche
+11/11/2024 17:01:30 - INFO     - res : [RealDictRow([('id_avis', 12), ('id_utilisateur', 8), ('id_manga', 1), ('texte', 'blablabla')])]
+11/11/2024 17:01:30 - INFO     - liste_avis : [<business_object.avis.Avis object at 0x000001AE777EBF10>]
+11/11/2024 17:01:30 - INFO     - liste_user : [8]
+11/11/2024 17:01:30 - INFO     - res : [RealDictRow([('id_avis', 12), ('id_utilisateur', 8), ('id_manga', 1), ('texte', 'blablabla')])]
+11/11/2024 17:01:30 - INFO     - liste_avis : [<business_object.avis.Avis object at 0x000001AE777EBFA0>]
+11/11/2024 17:01:30 - INFO     - liste_user : [8]
+11/11/2024 17:01:44 - INFO     - SelectionMangaVuerecherche
+11/11/2024 17:01:44 - INFO     - 'NoneType' object has no attribute 'titre'
+11/11/2024 17:01:44 - INFO     - AccueilVue
+11/11/2024 17:01:46 - INFO     - Fin de l'application
+11/11/2024 17:05:04 - INFO     - --------------------------------------------------
+11/11/2024 17:05:04 - INFO     - Lancement Application                           
+11/11/2024 17:05:04 - INFO     - --------------------------------------------------
+11/11/2024 17:05:04 - INFO     - AccueilVue
+11/11/2024 17:05:06 - INFO     - ConnexionVue
+11/11/2024 17:05:11 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+11/11/2024 17:05:11 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+11/11/2024 17:05:11 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001CC414D1AB0>
+11/11/2024 17:05:11 - INFO     - MenuUtilisateurVue
+11/11/2024 17:05:12 - INFO     - RechercheVue
+11/11/2024 17:05:13 - INFO     - RechercheMangaVue
+11/11/2024 17:05:17 - INFO     - choix2 : ['Monster', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul', 'Monster Hunter Orage']
+11/11/2024 17:05:17 - INFO     - SelectionMangaVuerecherche
+11/11/2024 17:05:19 - INFO     - ConsulterAvisMangaVuerecherche
+11/11/2024 17:05:20 - INFO     - res : [RealDictRow([('id_avis', 12), ('id_utilisateur', 8), ('id_manga', 1), ('texte', 'blablabla')])]
+11/11/2024 17:05:20 - INFO     - liste_avis : [<business_object.avis.Avis object at 0x000001CC4187DE10>]
+11/11/2024 17:05:20 - INFO     - liste_user : [8]
+11/11/2024 17:05:20 - INFO     - sous_liste : ['\n--------------------------------------------------\n Utilisateur : mavie03\n Avis : blablabla \n--------------------------------------------------\n']
+11/11/2024 17:05:20 - INFO     - name 'ogging' is not defined
+11/11/2024 17:05:20 - INFO     - AccueilVue
+11/11/2024 17:05:22 - INFO     - Fin de l'application
+11/11/2024 17:05:32 - INFO     - --------------------------------------------------
+11/11/2024 17:05:32 - INFO     - Lancement Application                           
+11/11/2024 17:05:32 - INFO     - --------------------------------------------------
+11/11/2024 17:05:32 - INFO     - AccueilVue
+11/11/2024 17:05:33 - INFO     - ConnexionVue
+11/11/2024 17:05:38 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+11/11/2024 17:05:38 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+11/11/2024 17:05:38 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000022C68435AB0>
+11/11/2024 17:05:38 - INFO     - MenuUtilisateurVue
+11/11/2024 17:05:40 - INFO     - RechercheVue
+11/11/2024 17:05:41 - INFO     - RechercheMangaVue
+11/11/2024 17:05:45 - INFO     - choix2 : ['Monster', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul', 'Monster Hunter Orage']
+11/11/2024 17:05:47 - INFO     - SelectionMangaVuerecherche
+11/11/2024 17:05:49 - INFO     - ConsulterAvisMangaVuerecherche
+11/11/2024 17:05:49 - INFO     - res : [RealDictRow([('id_avis', 12), ('id_utilisateur', 8), ('id_manga', 1), ('texte', 'blablabla')])]
+11/11/2024 17:05:49 - INFO     - liste_avis : [<business_object.avis.Avis object at 0x0000022C687E4A30>]
+11/11/2024 17:05:49 - INFO     - liste_user : [8]
+11/11/2024 17:05:49 - INFO     - sous_liste : ['\n--------------------------------------------------\n Utilisateur : mavie03\n Avis : blablabla \n--------------------------------------------------\n']
+11/11/2024 17:05:49 - INFO     - long : 1
+11/11/2024 17:05:49 - INFO     - res : [RealDictRow([('id_avis', 12), ('id_utilisateur', 8), ('id_manga', 1), ('texte', 'blablabla')])]
+11/11/2024 17:05:49 - INFO     - liste_avis : [<business_object.avis.Avis object at 0x0000022C687E7FA0>]
+11/11/2024 17:05:49 - INFO     - liste_user : [8]
+11/11/2024 17:05:49 - INFO     - choix : ['Retour au menu précédent', "Retour à l'accueil", 'Afficher la page suivante']
+11/11/2024 17:05:52 - INFO     - SelectionMangaVuerecherche
+11/11/2024 17:05:52 - INFO     - 'NoneType' object has no attribute 'titre'
+11/11/2024 17:05:52 - INFO     - AccueilVue
+11/11/2024 17:05:53 - INFO     - Fin de l'application
+11/11/2024 17:08:41 - INFO     - --------------------------------------------------
+11/11/2024 17:08:41 - INFO     - Lancement Application                           
+11/11/2024 17:08:41 - INFO     - --------------------------------------------------
+11/11/2024 17:08:41 - INFO     - AccueilVue
+11/11/2024 17:08:42 - INFO     - ConnexionVue
+11/11/2024 17:08:48 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+11/11/2024 17:08:48 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+11/11/2024 17:08:48 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x00000211B2AF1990>
+11/11/2024 17:08:48 - INFO     - MenuUtilisateurVue
+11/11/2024 17:08:49 - INFO     - RechercheVue
+11/11/2024 17:08:50 - INFO     - RechercheMangaVue
+11/11/2024 17:08:53 - INFO     - choix2 : ['Monster', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul', 'Monster Hunter Orage']
+11/11/2024 17:08:54 - INFO     - SelectionMangaVuerecherche
+11/11/2024 17:08:58 - INFO     - ConsulterAvisMangaVuerecherche
+11/11/2024 17:08:58 - INFO     - res : [RealDictRow([('id_avis', 12), ('id_utilisateur', 8), ('id_manga', 1), ('texte', 'blablabla')])]
+11/11/2024 17:08:58 - INFO     - liste_avis : [<business_object.avis.Avis object at 0x00000211B2E9C310>]
+11/11/2024 17:08:58 - INFO     - liste_user : [8]
+11/11/2024 17:08:58 - INFO     - sous_liste : ['\n--------------------------------------------------\n Utilisateur : mavie03\n Avis : blablabla \n--------------------------------------------------\n']
+11/11/2024 17:08:58 - INFO     - long : 1
+11/11/2024 17:08:58 - INFO     - res : [RealDictRow([('id_avis', 12), ('id_utilisateur', 8), ('id_manga', 1), ('texte', 'blablabla')])]
+11/11/2024 17:08:58 - INFO     - liste_avis : [<business_object.avis.Avis object at 0x00000211B2E9CBE0>]
+11/11/2024 17:08:58 - INFO     - liste_user : [8]
+11/11/2024 17:08:58 - INFO     - choix : ['Retour au menu précédent', "Retour à l'accueil", 'Afficher la page suivante']
+11/11/2024 17:09:09 - INFO     - SelectionMangaVuerecherche
+11/11/2024 17:09:11 - INFO     - RechercheMangaVue
+11/11/2024 17:09:13 - INFO     - Fin de l'application
+11/11/2024 17:11:28 - INFO     - --------------------------------------------------
+11/11/2024 17:11:28 - INFO     - Lancement Application                           
+11/11/2024 17:11:28 - INFO     - --------------------------------------------------
+11/11/2024 17:11:28 - INFO     - AccueilVue
+11/11/2024 17:11:29 - INFO     - ConnexionVue
+11/11/2024 17:11:35 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+11/11/2024 17:11:35 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+11/11/2024 17:11:35 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000002B5C7D51A80>
+11/11/2024 17:11:35 - INFO     - MenuUtilisateurVue
+11/11/2024 17:11:36 - INFO     - RechercheVue
+11/11/2024 17:11:37 - INFO     - RechercheMangaVue
+11/11/2024 17:11:40 - INFO     - choix2 : ['Monster', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul', 'Monster Hunter Orage']
+11/11/2024 17:11:41 - INFO     - SelectionMangaVuerecherche
+11/11/2024 17:11:42 - INFO     - ConsulterAvisMangaVuerecherche
+11/11/2024 17:11:42 - INFO     - res : [RealDictRow([('id_avis', 12), ('id_utilisateur', 8), ('id_manga', 1), ('texte', 'blablabla')])]
+11/11/2024 17:11:42 - INFO     - liste_avis : [<business_object.avis.Avis object at 0x000002B5C8109B10>]
+11/11/2024 17:11:42 - INFO     - liste_user : [8]
+11/11/2024 17:11:42 - INFO     - sous_liste : ['Utilisateur : mavie03 Avis : blablabla']
+11/11/2024 17:11:42 - INFO     - long : 1
+11/11/2024 17:11:42 - INFO     - res : [RealDictRow([('id_avis', 12), ('id_utilisateur', 8), ('id_manga', 1), ('texte', 'blablabla')])]
+11/11/2024 17:11:42 - INFO     - liste_avis : [<business_object.avis.Avis object at 0x000002B5C8109AB0>]
+11/11/2024 17:11:42 - INFO     - liste_user : [8]
+11/11/2024 17:11:42 - INFO     - choix : ['Retour au menu précédent', "Retour à l'accueil", 'Afficher la page suivante']
+11/11/2024 17:12:03 - INFO     - SelectionMangaVuerecherche
+11/11/2024 17:12:07 - INFO     - ConsulterAvisMangaVuerecherche
+11/11/2024 17:12:07 - INFO     - res : [RealDictRow([('id_avis', 12), ('id_utilisateur', 8), ('id_manga', 1), ('texte', 'blablabla')])]
+11/11/2024 17:12:07 - INFO     - liste_avis : [<business_object.avis.Avis object at 0x000002B5C8201DB0>]
+11/11/2024 17:12:07 - INFO     - liste_user : [8]
+11/11/2024 17:12:07 - INFO     - sous_liste : ['Utilisateur : mavie03 Avis : blablabla']
+11/11/2024 17:12:07 - INFO     - long : 1
+11/11/2024 17:12:07 - INFO     - res : [RealDictRow([('id_avis', 12), ('id_utilisateur', 8), ('id_manga', 1), ('texte', 'blablabla')])]
+11/11/2024 17:12:07 - INFO     - liste_avis : [<business_object.avis.Avis object at 0x000002B5C8202080>]
+11/11/2024 17:12:07 - INFO     - liste_user : [8]
+11/11/2024 17:12:07 - INFO     - choix : ['Retour au menu précédent', "Retour à l'accueil", 'Afficher la page suivante']
+11/11/2024 17:12:11 - INFO     - res : [RealDictRow([('id_avis', 12), ('id_utilisateur', 8), ('id_manga', 1), ('texte', 'blablabla')])]
+11/11/2024 17:12:11 - INFO     - liste_avis : [<business_object.avis.Avis object at 0x000002B5C82C1F30>]
+11/11/2024 17:12:11 - INFO     - liste_user : [8]
+11/11/2024 17:12:11 - INFO     - choix : ['Retour au menu précédent', "Retour à l'accueil", 'Afficher la page suivante', 'Afficher la page suivante']
+11/11/2024 17:12:15 - INFO     - SelectionMangaVuerecherche
+11/11/2024 17:12:22 - INFO     - RechercheMangaVue
+11/11/2024 17:12:24 - INFO     - Fin de l'application
+11/11/2024 17:12:27 - INFO     - --------------------------------------------------
+11/11/2024 17:12:27 - INFO     - Lancement Application                           
+11/11/2024 17:12:27 - INFO     - --------------------------------------------------
+11/11/2024 17:12:27 - INFO     - AccueilVue
+11/11/2024 17:12:28 - INFO     - ConnexionVue
+11/11/2024 17:12:34 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+11/11/2024 17:12:34 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+11/11/2024 17:12:34 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000016B56A45D20>
+11/11/2024 17:12:34 - INFO     - MenuUtilisateurVue
+11/11/2024 17:12:37 - INFO     - RechercheVue
+11/11/2024 17:12:38 - INFO     - RechercheMangaVue
+11/11/2024 17:12:41 - INFO     - choix2 : ['Monster', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul', 'Monster Hunter Orage']
+11/11/2024 17:12:42 - INFO     - SelectionMangaVuerecherche
+11/11/2024 17:12:44 - INFO     - AjouterAvisVuerecherche
+11/11/2024 17:12:44 - INFO     - SelectionMangaVuerecherche
+11/11/2024 17:12:53 - INFO     - MenuUtilisateurVue
+11/11/2024 17:12:57 - INFO     - AccueilVue
+11/11/2024 17:12:59 - INFO     - Fin de l'application
+11/11/2024 17:18:47 - INFO     - --------------------------------------------------
+11/11/2024 17:18:47 - INFO     - Lancement Application                           
+11/11/2024 17:18:47 - INFO     - --------------------------------------------------
+11/11/2024 17:18:47 - INFO     - AccueilVue
+11/11/2024 17:18:49 - INFO     - Fin de l'application
+11/11/2024 17:22:04 - INFO     - --------------------------------------------------
+11/11/2024 17:22:04 - INFO     - Lancement Application                           
+11/11/2024 17:22:04 - INFO     - --------------------------------------------------
+11/11/2024 17:22:04 - INFO     - AccueilVue
+11/11/2024 17:22:05 - INFO     - ConnexionVue
+11/11/2024 17:22:10 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+11/11/2024 17:22:10 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+11/11/2024 17:22:10 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001EBF8CF5AB0>
+11/11/2024 17:22:10 - INFO     - MenuUtilisateurVue
+11/11/2024 17:22:11 - INFO     - RechercheVue
+11/11/2024 17:22:12 - INFO     - RechercheMangaVue
+11/11/2024 17:22:14 - INFO     - choix2 : ['Monster', 'BECK: Mongolian Chop Squad', 'Demon Diary', 'Demon Lord Dante vs. Getter Robo G', 'Love or Money', 'Missing: Kamikakushi no Monogatari', 'Monochrome Factor', 'The Demon Ororon']
+11/11/2024 17:22:15 - INFO     - SelectionMangaVuerecherche
+11/11/2024 17:22:17 - INFO     - ConsulterAvisMangaVuerecherche
+11/11/2024 17:22:17 - INFO     - res : [RealDictRow([('id_avis', 12), ('id_utilisateur', 8), ('id_manga', 1), ('texte', 'blablabla')])]
+11/11/2024 17:22:17 - INFO     - liste_avis : [<business_object.avis.Avis object at 0x000001EBF909D7B0>]
+11/11/2024 17:22:17 - INFO     - liste_user : [8]
+11/11/2024 17:22:17 - INFO     - sous_liste : ['Utilisateur : mavie03 Avis : blablabla']
+11/11/2024 17:22:17 - INFO     - long : 1
+11/11/2024 17:22:17 - INFO     - res : [RealDictRow([('id_avis', 12), ('id_utilisateur', 8), ('id_manga', 1), ('texte', 'blablabla')])]
+11/11/2024 17:22:17 - INFO     - liste_avis : [<business_object.avis.Avis object at 0x000001EBF909D4B0>]
+11/11/2024 17:22:17 - INFO     - liste_user : [8]
+11/11/2024 17:22:17 - INFO     - choix : ['Retour au menu précédent', "Retour à l'accueil", 'Afficher la page suivante']
+11/11/2024 17:22:43 - INFO     - SelectionMangaVuerecherche
+11/11/2024 17:22:47 - INFO     - MenuUtilisateurVue
+11/11/2024 17:22:49 - INFO     - AccueilVue
+11/11/2024 17:22:50 - INFO     - Fin de l'application
+11/11/2024 17:25:16 - INFO     - --------------------------------------------------
+11/11/2024 17:25:16 - INFO     - Lancement Application                           
+11/11/2024 17:25:16 - INFO     - --------------------------------------------------
+11/11/2024 17:25:16 - INFO     - AccueilVue
+11/11/2024 17:25:17 - INFO     - ConnexionVue
+11/11/2024 17:25:23 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+11/11/2024 17:25:23 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+11/11/2024 17:25:23 - INFO     -        └─> Sortie : None
+11/11/2024 17:25:23 - INFO     - AccueilVue
+11/11/2024 17:25:25 - INFO     - ConnexionVue
+11/11/2024 17:25:30 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+11/11/2024 17:25:30 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+11/11/2024 17:25:30 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000002221D985270>
+11/11/2024 17:25:30 - INFO     - MenuUtilisateurVue
+11/11/2024 17:25:31 - INFO     - RechercheVue
+11/11/2024 17:25:32 - INFO     - RechercheMangaVue
+11/11/2024 17:25:35 - INFO     - choix2 : ['Monster', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul', 'Monster Hunter Orage']
+11/11/2024 17:25:36 - INFO     - SelectionMangaVuerecherche
+11/11/2024 17:25:38 - INFO     - ConsulterAvisMangaVuerecherche
+11/11/2024 17:25:38 - INFO     - res : [RealDictRow([('id_avis', 12), ('id_utilisateur', 8), ('id_manga', 1), ('texte', 'blablabla')])]
+11/11/2024 17:25:38 - INFO     - liste_avis : [<business_object.avis.Avis object at 0x000002221DEDA020>]
+11/11/2024 17:25:38 - INFO     - liste_user : [8]
+11/11/2024 17:25:38 - INFO     - sous_liste : ['Utilisateur : mavie03 Avis : blablabla']
+11/11/2024 17:25:38 - INFO     - long : 1
+11/11/2024 17:25:38 - INFO     - res : [RealDictRow([('id_avis', 12), ('id_utilisateur', 8), ('id_manga', 1), ('texte', 'blablabla')])]
+11/11/2024 17:25:38 - INFO     - liste_avis : [<business_object.avis.Avis object at 0x000002221DED87F0>]
+11/11/2024 17:25:38 - INFO     - liste_user : [8]
+11/11/2024 17:25:38 - INFO     - choix : ['Retour au menu précédent', "Retour à l'accueil", 'Modifier votre avis sur ce manga']
+11/11/2024 17:25:57 - INFO     - SelectionMangaVuerecherche
+11/11/2024 17:25:59 - INFO     - RechercheMangaVue
+11/11/2024 17:26:00 - INFO     - Fin de l'application
+11/11/2024 17:27:18 - INFO     - --------------------------------------------------
+11/11/2024 17:27:18 - INFO     - Lancement Application                           
+11/11/2024 17:27:18 - INFO     - --------------------------------------------------
+11/11/2024 17:27:18 - INFO     - AccueilVue
+11/11/2024 17:27:20 - INFO     - ConnexionVue
+11/11/2024 17:27:25 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+11/11/2024 17:27:25 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+11/11/2024 17:27:25 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x00000207436C5A80>
+11/11/2024 17:27:25 - INFO     - MenuUtilisateurVue
+11/11/2024 17:27:26 - INFO     - RechercheVue
+11/11/2024 17:27:28 - INFO     - RechercheMangaVue
+11/11/2024 17:27:31 - INFO     - choix2 : ['Monster', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul', 'Monster Hunter Orage']
+11/11/2024 17:27:32 - INFO     - SelectionMangaVuerecherche
+11/11/2024 17:27:34 - INFO     - ConsulterAvisMangaVuerecherche
+11/11/2024 17:27:34 - INFO     - res : [RealDictRow([('id_avis', 12), ('id_utilisateur', 8), ('id_manga', 1), ('texte', 'blablabla')])]
+11/11/2024 17:27:34 - INFO     - liste_avis : [<business_object.avis.Avis object at 0x0000020743A79CC0>]
+11/11/2024 17:27:34 - INFO     - liste_user : [8]
+11/11/2024 17:27:34 - INFO     - sous_liste : [['mavie03', <business_object.avis.Avis object at 0x0000020743A79CC0>]]
+11/11/2024 17:27:34 - INFO     - long : 1
+11/11/2024 17:27:34 - INFO     - res : [RealDictRow([('id_avis', 12), ('id_utilisateur', 8), ('id_manga', 1), ('texte', 'blablabla')])]
+11/11/2024 17:27:34 - INFO     - liste_avis : [<business_object.avis.Avis object at 0x0000020743A79BD0>]
+11/11/2024 17:27:34 - INFO     - liste_user : [8]
+11/11/2024 17:27:34 - INFO     - choix : ['Retour au menu précédent', "Retour à l'accueil", 'Modifier votre avis sur ce manga']
+11/11/2024 17:31:41 - INFO     - SelectionMangaVuerecherche
+11/11/2024 17:31:43 - INFO     - MenuUtilisateurVue
+11/11/2024 17:31:45 - INFO     - RechercheVue
+11/11/2024 17:31:46 - INFO     - VueAbstraite.afficher() missing 1 required positional argument: 'self'
+11/11/2024 17:31:46 - INFO     - AccueilVue
+11/11/2024 17:31:47 - INFO     - Fin de l'application
+11/11/2024 17:31:49 - INFO     - --------------------------------------------------
+11/11/2024 17:31:49 - INFO     - Lancement Application                           
+11/11/2024 17:31:49 - INFO     - --------------------------------------------------
+11/11/2024 17:31:49 - INFO     - AccueilVue
+11/11/2024 17:31:50 - INFO     - ConnexionVue
+11/11/2024 17:31:55 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+11/11/2024 17:31:55 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+11/11/2024 17:31:55 - INFO     -        └─> Sortie : None
+11/11/2024 17:31:55 - INFO     - AccueilVue
+11/11/2024 17:31:57 - INFO     - ConnexionVue
+11/11/2024 17:32:03 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+11/11/2024 17:32:03 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+11/11/2024 17:32:03 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001BBCB075300>
+11/11/2024 17:32:03 - INFO     - MenuUtilisateurVue
+11/11/2024 17:32:04 - INFO     - RechercheVue
+11/11/2024 17:32:05 - INFO     - RechercheMangaVue
+11/11/2024 17:32:08 - INFO     - choix2 : ['Monster', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul', 'Monster Hunter Orage']
+11/11/2024 17:32:10 - INFO     - SelectionMangaVuerecherche
+11/11/2024 17:32:13 - INFO     - ConsulterAvisMangaVuerecherche
+11/11/2024 17:32:13 - INFO     - res : [RealDictRow([('id_avis', 12), ('id_utilisateur', 8), ('id_manga', 1), ('texte', 'blablabla')])]
+11/11/2024 17:32:13 - INFO     - liste_avis : [<business_object.avis.Avis object at 0x000001BBCB5D9E40>]
+11/11/2024 17:32:13 - INFO     - liste_user : [8]
+11/11/2024 17:32:13 - INFO     - sous_liste : [['Utilisateur : mavie03', 'Utilisateur : blablabla']]
+11/11/2024 17:32:13 - INFO     - long : 1
+11/11/2024 17:32:13 - INFO     - res : [RealDictRow([('id_avis', 12), ('id_utilisateur', 8), ('id_manga', 1), ('texte', 'blablabla')])]
+11/11/2024 17:32:13 - INFO     - liste_avis : [<business_object.avis.Avis object at 0x000001BBCB5D9C00>]
+11/11/2024 17:32:13 - INFO     - liste_user : [8]
+11/11/2024 17:32:13 - INFO     - choix : ['Retour au menu précédent', "Retour à l'accueil", 'Modifier votre avis sur ce manga']
+11/11/2024 17:32:27 - INFO     - MenuUtilisateurVue
+11/11/2024 17:32:28 - INFO     - AccueilVue
+11/11/2024 17:32:31 - INFO     - Fin de l'application
+11/11/2024 17:35:55 - INFO     - --------------------------------------------------
+11/11/2024 17:35:55 - INFO     - Lancement Application                           
+11/11/2024 17:35:55 - INFO     - --------------------------------------------------
+11/11/2024 17:35:55 - INFO     - AccueilVue
+11/11/2024 17:35:55 - INFO     - ConnexionVue
+11/11/2024 17:36:00 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+11/11/2024 17:36:00 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+11/11/2024 17:36:00 - INFO     -        └─> Sortie : None
+11/11/2024 17:36:00 - INFO     - AccueilVue
+11/11/2024 17:36:01 - INFO     - ConnexionVue
+11/11/2024 17:36:06 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+11/11/2024 17:36:06 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+11/11/2024 17:36:06 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000002138BB25120>
+11/11/2024 17:36:06 - INFO     - MenuUtilisateurVue
+11/11/2024 17:36:07 - INFO     - RechercheVue
+11/11/2024 17:36:09 - INFO     - RechercheMangaVue
+11/11/2024 17:36:12 - INFO     - choix2 : ['Monster', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul', 'Monster Hunter Orage']
+11/11/2024 17:36:12 - INFO     - SelectionMangaVuerecherche
+11/11/2024 17:36:14 - INFO     - ConsulterAvisMangaVuerecherche
+11/11/2024 17:36:14 - INFO     - res : [RealDictRow([('id_avis', 12), ('id_utilisateur', 8), ('id_manga', 1), ('texte', 'blablabla')])]
+11/11/2024 17:36:14 - INFO     - liste_avis : [<business_object.avis.Avis object at 0x000002138C0887C0>]
+11/11/2024 17:36:14 - INFO     - liste_user : [8]
+11/11/2024 17:36:14 - INFO     - sous_liste : [['Utilisateur : mavie03', 'Avis : blablabla']]
+11/11/2024 17:36:14 - INFO     - long : 1
+11/11/2024 17:36:14 - INFO     - res : [RealDictRow([('id_avis', 12), ('id_utilisateur', 8), ('id_manga', 1), ('texte', 'blablabla')])]
+11/11/2024 17:36:14 - INFO     - liste_avis : [<business_object.avis.Avis object at 0x000002138C088A00>]
+11/11/2024 17:36:14 - INFO     - liste_user : [8]
+11/11/2024 17:36:14 - INFO     - list indices must be integers or slices, not list
+11/11/2024 17:36:14 - INFO     - AccueilVue
+11/11/2024 17:36:20 - INFO     - Fin de l'application
+11/11/2024 17:36:46 - INFO     - --------------------------------------------------
+11/11/2024 17:36:46 - INFO     - Lancement Application                           
+11/11/2024 17:36:46 - INFO     - --------------------------------------------------
+11/11/2024 17:36:46 - INFO     - AccueilVue
+11/11/2024 17:36:47 - INFO     - ConnexionVue
+11/11/2024 17:36:52 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+11/11/2024 17:36:52 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+11/11/2024 17:36:52 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000017D8B665AB0>
+11/11/2024 17:36:52 - INFO     - MenuUtilisateurVue
+11/11/2024 17:36:53 - INFO     - RechercheVue
+11/11/2024 17:36:54 - INFO     - RechercheMangaVue
+11/11/2024 17:36:57 - INFO     - choix2 : ['Monster', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul', 'Monster Hunter Orage']
+11/11/2024 17:36:57 - INFO     - SelectionMangaVuerecherche
+11/11/2024 17:36:59 - INFO     - ConsulterAvisMangaVuerecherche
+11/11/2024 17:36:59 - INFO     - res : [RealDictRow([('id_avis', 12), ('id_utilisateur', 8), ('id_manga', 1), ('texte', 'blablabla')])]
+11/11/2024 17:36:59 - INFO     - liste_avis : [<business_object.avis.Avis object at 0x0000017D8BA10580>]
+11/11/2024 17:36:59 - INFO     - liste_user : [8]
+11/11/2024 17:36:59 - INFO     - sous_liste : [['Utilisateur : mavie03', 'Avis : blablabla']]
+11/11/2024 17:36:59 - INFO     - long : 1
+11/11/2024 17:36:59 - INFO     - res : [RealDictRow([('id_avis', 12), ('id_utilisateur', 8), ('id_manga', 1), ('texte', 'blablabla')])]
+11/11/2024 17:36:59 - INFO     - liste_avis : [<business_object.avis.Avis object at 0x0000017D8BA10370>]
+11/11/2024 17:36:59 - INFO     - liste_user : [8]
+11/11/2024 17:36:59 - INFO     - can only concatenate str (not "list") to str
+11/11/2024 17:36:59 - INFO     - AccueilVue
+11/11/2024 17:37:01 - INFO     - Fin de l'application
+11/11/2024 17:38:40 - INFO     - --------------------------------------------------
+11/11/2024 17:38:40 - INFO     - Lancement Application                           
+11/11/2024 17:38:40 - INFO     - --------------------------------------------------
+11/11/2024 17:38:40 - INFO     - AccueilVue
+11/11/2024 17:38:42 - INFO     - ConnexionVue
+11/11/2024 17:38:48 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+11/11/2024 17:38:48 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+11/11/2024 17:38:48 - INFO     -        └─> Sortie : None
+11/11/2024 17:38:48 - INFO     - AccueilVue
+11/11/2024 17:38:49 - INFO     - ConnexionVue
+11/11/2024 17:38:55 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+11/11/2024 17:38:55 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+11/11/2024 17:38:55 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x00000286EA185120>
+11/11/2024 17:38:55 - INFO     - MenuUtilisateurVue
+11/11/2024 17:38:56 - INFO     - RechercheVue
+11/11/2024 17:38:58 - INFO     - RechercheMangaVue
+11/11/2024 17:39:00 - INFO     - choix2 : ['Monster', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul', 'Monster Hunter Orage']
+11/11/2024 17:39:01 - INFO     - SelectionMangaVuerecherche
+11/11/2024 17:39:04 - INFO     - ConsulterAvisMangaVuerecherche
+11/11/2024 17:39:04 - INFO     - res : [RealDictRow([('id_avis', 12), ('id_utilisateur', 8), ('id_manga', 1), ('texte', 'blablabla')])]
+11/11/2024 17:39:04 - INFO     - liste_avis : [<business_object.avis.Avis object at 0x00000286EA6DDD20>]
+11/11/2024 17:39:04 - INFO     - liste_user : [8]
+11/11/2024 17:39:04 - INFO     - liste_affichage : [['Utilisateur : mavie03', 'Avis : blablabla']]
+11/11/2024 17:39:04 - INFO     - sous_liste : [['Utilisateur : mavie03', 'Avis : blablabla']]
+11/11/2024 17:39:04 - INFO     - long : 1
+11/11/2024 17:39:04 - INFO     - res : [RealDictRow([('id_avis', 12), ('id_utilisateur', 8), ('id_manga', 1), ('texte', 'blablabla')])]
+11/11/2024 17:39:04 - INFO     - liste_avis : [<business_object.avis.Avis object at 0x00000286EA6DDCC0>]
+11/11/2024 17:39:04 - INFO     - liste_user : [8]
+11/11/2024 17:39:04 - INFO     - liste_affichage : [['Utilisateur : mavie03', 'Avis : blablabla']]
+11/11/2024 17:39:04 - INFO     - can only concatenate str (not "list") to str
+11/11/2024 17:39:04 - INFO     - AccueilVue
+11/11/2024 17:39:05 - INFO     - Fin de l'application
+11/11/2024 17:39:58 - INFO     - --------------------------------------------------
+11/11/2024 17:39:58 - INFO     - Lancement Application                           
+11/11/2024 17:39:58 - INFO     - --------------------------------------------------
+11/11/2024 17:39:58 - INFO     - AccueilVue
+11/11/2024 17:39:59 - INFO     - ConnexionVue
+11/11/2024 17:40:04 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+11/11/2024 17:40:04 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+11/11/2024 17:40:04 - INFO     -        └─> Sortie : None
+11/11/2024 17:40:04 - INFO     - AccueilVue
+11/11/2024 17:40:05 - INFO     - ConnexionVue
+11/11/2024 17:40:11 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+11/11/2024 17:40:11 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+11/11/2024 17:40:11 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000026FF0279240>
+11/11/2024 17:40:11 - INFO     - MenuUtilisateurVue
+11/11/2024 17:40:12 - INFO     - RechercheVue
+11/11/2024 17:40:13 - INFO     - RechercheMangaVue
+11/11/2024 17:40:17 - INFO     - choix2 : ['Monster', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul', 'Monster Hunter Orage']
+11/11/2024 17:40:20 - INFO     - SelectionMangaVuerecherche
+11/11/2024 17:40:22 - INFO     - ConsulterAvisMangaVuerecherche
+11/11/2024 17:40:22 - INFO     - res : [RealDictRow([('id_avis', 12), ('id_utilisateur', 8), ('id_manga', 1), ('texte', 'blablabla')])]
+11/11/2024 17:40:22 - INFO     - liste_avis : [<business_object.avis.Avis object at 0x0000026FF07E0280>]
+11/11/2024 17:40:22 - INFO     - liste_user : [8]
+11/11/2024 17:40:22 - INFO     - liste_affichage : [['Utilisateur : mavie03', 'Avis : blablabla']]
+11/11/2024 17:40:22 - INFO     - sous_liste : [['Utilisateur : mavie03', 'Avis : blablabla']]
+11/11/2024 17:40:22 - INFO     - sous_liste : [['Utilisateur : mavie03', 'Avis : blablabla']]
+11/11/2024 17:40:22 - INFO     - long : 1
+11/11/2024 17:40:22 - INFO     - res : [RealDictRow([('id_avis', 12), ('id_utilisateur', 8), ('id_manga', 1), ('texte', 'blablabla')])]
+11/11/2024 17:40:22 - INFO     - liste_avis : [<business_object.avis.Avis object at 0x0000026FF07E0070>]
+11/11/2024 17:40:22 - INFO     - liste_user : [8]
+11/11/2024 17:40:22 - INFO     - liste_affichage : [['Utilisateur : mavie03', 'Avis : blablabla']]
+11/11/2024 17:40:22 - INFO     - sous_liste : [['Utilisateur : mavie03', 'Avis : blablabla']]
+11/11/2024 17:40:22 - INFO     - can only concatenate str (not "list") to str
+11/11/2024 17:40:22 - INFO     - AccueilVue
+11/11/2024 17:40:23 - INFO     - Fin de l'application
+11/11/2024 17:41:35 - INFO     - --------------------------------------------------
+11/11/2024 17:41:35 - INFO     - Lancement Application                           
+11/11/2024 17:41:35 - INFO     - --------------------------------------------------
+11/11/2024 17:41:35 - INFO     - AccueilVue
+11/11/2024 17:41:39 - INFO     - ConnexionVue
+11/11/2024 17:41:47 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+11/11/2024 17:41:47 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+11/11/2024 17:41:47 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000002E7973C5A80>
+11/11/2024 17:41:47 - INFO     - MenuUtilisateurVue
+11/11/2024 17:41:48 - INFO     - RechercheVue
+11/11/2024 17:41:49 - INFO     - RechercheMangaVue
+11/11/2024 17:41:52 - INFO     - choix2 : ['Monster', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul', 'Monster Hunter Orage']
+11/11/2024 17:41:53 - INFO     - SelectionMangaVuerecherche
+11/11/2024 17:41:55 - INFO     - ConsulterAvisMangaVuerecherche
+11/11/2024 17:41:55 - INFO     - res : [RealDictRow([('id_avis', 12), ('id_utilisateur', 8), ('id_manga', 1), ('texte', 'blablabla')])]
+11/11/2024 17:41:55 - INFO     - liste_avis : [<business_object.avis.Avis object at 0x000002E79776CC70>]
+11/11/2024 17:41:55 - INFO     - liste_user : [8]
+11/11/2024 17:41:55 - INFO     - liste_affichage : [['Utilisateur : mavie03', 'Avis : blablabla']]
+11/11/2024 17:41:55 - INFO     - sous_liste : [['Utilisateur : mavie03', 'Avis : blablabla']]
+11/11/2024 17:41:55 - INFO     - sous_liste : [['Utilisateur : mavie03', 'Avis : blablabla']]
+11/11/2024 17:41:55 - INFO     - long : 1
+11/11/2024 17:41:55 - INFO     - res : [RealDictRow([('id_avis', 12), ('id_utilisateur', 8), ('id_manga', 1), ('texte', 'blablabla')])]
+11/11/2024 17:41:55 - INFO     - liste_avis : [<business_object.avis.Avis object at 0x000002E79776CA00>]
+11/11/2024 17:41:55 - INFO     - liste_user : [8]
+11/11/2024 17:41:55 - INFO     - liste_affichage : [['Utilisateur : mavie03', 'Avis : blablabla']]
+11/11/2024 17:41:55 - INFO     - sous_liste : [['Utilisateur : mavie03', 'Avis : blablabla']]
+11/11/2024 17:41:55 - INFO     - choix : ['Retour au menu précédent', "Retour à l'accueil", 'Modifier votre avis sur ce manga']
+11/11/2024 17:42:32 - INFO     - MenuUtilisateurVue
+11/11/2024 17:42:33 - INFO     - AccueilVue
+11/11/2024 17:42:34 - INFO     - Fin de l'application
+11/11/2024 17:42:36 - INFO     - --------------------------------------------------
+11/11/2024 17:42:36 - INFO     - Lancement Application                           
+11/11/2024 17:42:36 - INFO     - --------------------------------------------------
+11/11/2024 17:42:36 - INFO     - AccueilVue
+11/11/2024 17:42:37 - INFO     - ConnexionVue
+11/11/2024 17:42:44 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+11/11/2024 17:42:44 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+11/11/2024 17:42:44 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000018F698A1AB0>
+11/11/2024 17:42:44 - INFO     - MenuUtilisateurVue
+11/11/2024 17:42:45 - INFO     - RechercheVue
+11/11/2024 17:42:45 - INFO     - RechercheMangaVue
+11/11/2024 17:42:48 - INFO     - choix2 : ['Monster', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul', 'Monster Hunter Orage']
+11/11/2024 17:42:49 - INFO     - SelectionMangaVuerecherche
+11/11/2024 17:42:51 - INFO     - ConsulterAvisMangaVuerecherche
+11/11/2024 17:42:51 - INFO     - res : [RealDictRow([('id_avis', 12), ('id_utilisateur', 8), ('id_manga', 1), ('texte', 'blablabla')])]
+11/11/2024 17:42:51 - INFO     - liste_avis : [<business_object.avis.Avis object at 0x0000018F69C548B0>]
+11/11/2024 17:42:51 - INFO     - liste_user : [8]
+11/11/2024 17:42:51 - INFO     - liste_affichage : [['Utilisateur : mavie03', 'Avis : blablabla']]
+11/11/2024 17:42:51 - INFO     - sous_liste : [['Utilisateur : mavie03', 'Avis : blablabla']]
+11/11/2024 17:42:51 - INFO     - sous_liste : [['Utilisateur : mavie03', 'Avis : blablabla']]
+11/11/2024 17:42:51 - INFO     - long : 1
+11/11/2024 17:42:51 - INFO     - res : [RealDictRow([('id_avis', 12), ('id_utilisateur', 8), ('id_manga', 1), ('texte', 'blablabla')])]
+11/11/2024 17:42:51 - INFO     - liste_avis : [<business_object.avis.Avis object at 0x0000018F69C546A0>]
+11/11/2024 17:42:51 - INFO     - liste_user : [8]
+11/11/2024 17:42:51 - INFO     - liste_affichage : [['Utilisateur : mavie03', 'Avis : blablabla']]
+11/11/2024 17:42:51 - INFO     - sous_liste : [['Utilisateur : mavie03', 'Avis : blablabla']]
+11/11/2024 17:42:51 - INFO     - choix : ['Retour au menu précédent', "Retour à l'accueil", 'Modifier votre avis sur ce manga']
+11/11/2024 17:44:02 - INFO     - MenuUtilisateurVue
+11/11/2024 17:44:03 - INFO     - AccueilVue
+11/11/2024 17:44:05 - INFO     - Fin de l'application
+11/11/2024 17:44:07 - INFO     - --------------------------------------------------
+11/11/2024 17:44:07 - INFO     - Lancement Application                           
+11/11/2024 17:44:07 - INFO     - --------------------------------------------------
+11/11/2024 17:44:07 - INFO     - AccueilVue
+11/11/2024 17:44:08 - INFO     - ConnexionVue
+11/11/2024 17:44:16 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+11/11/2024 17:44:16 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+11/11/2024 17:44:16 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000020A0A1E1A80>
+11/11/2024 17:44:16 - INFO     - MenuUtilisateurVue
+11/11/2024 17:44:17 - INFO     - RechercheVue
+11/11/2024 17:44:17 - INFO     - RechercheMangaVue
+11/11/2024 17:44:20 - INFO     - choix2 : ['Monster', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul', 'Monster Hunter Orage']
+11/11/2024 17:44:20 - INFO     - SelectionMangaVuerecherche
+11/11/2024 17:44:22 - INFO     - ConsulterAvisMangaVuerecherche
+11/11/2024 17:44:22 - INFO     - res : [RealDictRow([('id_avis', 12), ('id_utilisateur', 8), ('id_manga', 1), ('texte', 'blablabla')])]
+11/11/2024 17:44:22 - INFO     - liste_avis : [<business_object.avis.Avis object at 0x0000020A0A58DAE0>]
+11/11/2024 17:44:22 - INFO     - liste_user : [8]
+11/11/2024 17:44:22 - INFO     - liste_affichage : [['Utilisateur : mavie03', 'Avis : blablabla']]
+11/11/2024 17:44:22 - INFO     - sous_liste : [['Utilisateur : mavie03', 'Avis : blablabla']]
+11/11/2024 17:44:22 - INFO     - sous_liste : [['Utilisateur : mavie03', 'Avis : blablabla']]
+11/11/2024 17:44:22 - INFO     - long : 1
+11/11/2024 17:44:22 - INFO     - res : [RealDictRow([('id_avis', 12), ('id_utilisateur', 8), ('id_manga', 1), ('texte', 'blablabla')])]
+11/11/2024 17:44:22 - INFO     - liste_avis : [<business_object.avis.Avis object at 0x0000020A0A58D840>]
+11/11/2024 17:44:22 - INFO     - liste_user : [8]
+11/11/2024 17:44:22 - INFO     - liste_affichage : [['Utilisateur : mavie03', 'Avis : blablabla']]
+11/11/2024 17:44:22 - INFO     - sous_liste : [['Utilisateur : mavie03', 'Avis : blablabla']]
+11/11/2024 17:44:22 - INFO     - can only concatenate list (not "int") to list
+11/11/2024 17:44:22 - INFO     - AccueilVue
+11/11/2024 17:44:25 - INFO     - Fin de l'application
+11/11/2024 17:45:42 - INFO     - --------------------------------------------------
+11/11/2024 17:45:42 - INFO     - Lancement Application                           
+11/11/2024 17:45:42 - INFO     - --------------------------------------------------
+11/11/2024 17:45:42 - INFO     - AccueilVue
+11/11/2024 17:45:44 - INFO     - ConnexionVue
+11/11/2024 17:45:53 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+11/11/2024 17:45:53 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+11/11/2024 17:45:53 - INFO     -        └─> Sortie : None
+11/11/2024 17:45:53 - INFO     - AccueilVue
+11/11/2024 17:45:55 - INFO     - Fin de l'application
+11/11/2024 17:46:30 - INFO     - --------------------------------------------------
+11/11/2024 17:46:30 - INFO     - Lancement Application                           
+11/11/2024 17:46:30 - INFO     - --------------------------------------------------
+11/11/2024 17:46:30 - INFO     - AccueilVue
+11/11/2024 17:46:31 - INFO     - ConnexionVue
+11/11/2024 17:46:38 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+11/11/2024 17:46:38 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+11/11/2024 17:46:38 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x00000225FCF85AB0>
+11/11/2024 17:46:38 - INFO     - MenuUtilisateurVue
+11/11/2024 17:46:39 - INFO     - RechercheVue
+11/11/2024 17:46:39 - INFO     - RechercheMangaVue
+11/11/2024 17:46:42 - INFO     - choix2 : ['Monster', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul', 'Monster Hunter Orage']
+11/11/2024 17:46:43 - INFO     - SelectionMangaVuerecherche
+11/11/2024 17:46:45 - INFO     - ConsulterAvisMangaVuerecherche
+11/11/2024 17:46:45 - INFO     - res : [RealDictRow([('id_avis', 12), ('id_utilisateur', 8), ('id_manga', 1), ('texte', 'blablabla')])]
+11/11/2024 17:46:45 - INFO     - liste_avis : [<business_object.avis.Avis object at 0x00000225FD324550>]
+11/11/2024 17:46:45 - INFO     - liste_user : [8]
+11/11/2024 17:46:45 - INFO     - liste_affichage : [['Utilisateur : mavie03', 'Avis : blablabla']]
+11/11/2024 17:46:45 - INFO     - sous_liste : [['Utilisateur : mavie03', 'Avis : blablabla']]
+11/11/2024 17:46:45 - INFO     - sous_liste : [['Utilisateur : mavie03', 'Avis : blablabla']]
+11/11/2024 17:46:45 - INFO     - long : 1
+11/11/2024 17:46:45 - INFO     - res : [RealDictRow([('id_avis', 12), ('id_utilisateur', 8), ('id_manga', 1), ('texte', 'blablabla')])]
+11/11/2024 17:46:45 - INFO     - liste_avis : [<business_object.avis.Avis object at 0x00000225FD324340>]
+11/11/2024 17:46:45 - INFO     - liste_user : [8]
+11/11/2024 17:46:45 - INFO     - liste_affichage : [['Utilisateur : mavie03', 'Avis : blablabla']]
+11/11/2024 17:46:45 - INFO     - sous_liste : [['Utilisateur : mavie03', 'Avis : blablabla']]
+11/11/2024 17:46:45 - INFO     - choix : ['Retour au menu précédent', "Retour à l'accueil", 'Modifier votre avis sur ce manga']
+11/11/2024 17:47:26 - INFO     - MenuUtilisateurVue
+11/11/2024 17:47:27 - INFO     - AccueilVue
+11/11/2024 17:47:28 - INFO     - Fin de l'application
+11/11/2024 17:47:31 - INFO     - --------------------------------------------------
+11/11/2024 17:47:31 - INFO     - Lancement Application                           
+11/11/2024 17:47:31 - INFO     - --------------------------------------------------
+11/11/2024 17:47:31 - INFO     - AccueilVue
+11/11/2024 17:47:32 - INFO     - ConnexionVue
+11/11/2024 17:47:39 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+11/11/2024 17:47:39 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+11/11/2024 17:47:39 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000024D441C5AB0>
+11/11/2024 17:47:39 - INFO     - MenuUtilisateurVue
+11/11/2024 17:47:40 - INFO     - RechercheVue
+11/11/2024 17:47:41 - INFO     - RechercheMangaVue
+11/11/2024 17:47:45 - INFO     - choix2 : ['Monster', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul', 'Monster Hunter Orage']
+11/11/2024 17:47:45 - INFO     - SelectionMangaVuerecherche
+11/11/2024 17:47:47 - INFO     - ConsulterAvisMangaVuerecherche
+11/11/2024 17:47:47 - INFO     - res : [RealDictRow([('id_avis', 12), ('id_utilisateur', 8), ('id_manga', 1), ('texte', 'blablabla')])]
+11/11/2024 17:47:47 - INFO     - liste_avis : [<business_object.avis.Avis object at 0x0000024D44574550>]
+11/11/2024 17:47:47 - INFO     - liste_user : [8]
+11/11/2024 17:47:47 - INFO     - liste_affichage : [['Utilisateur : mavie03', 'Avis : blablabla']]
+11/11/2024 17:47:47 - INFO     - sous_liste : [['Utilisateur : mavie03', 'Avis : blablabla']]
+11/11/2024 17:47:47 - INFO     - sous_liste : [['Utilisateur : mavie03', 'Avis : blablabla']]
+11/11/2024 17:47:47 - INFO     - long : 1
+11/11/2024 17:47:47 - INFO     - res : [RealDictRow([('id_avis', 12), ('id_utilisateur', 8), ('id_manga', 1), ('texte', 'blablabla')])]
+11/11/2024 17:47:47 - INFO     - liste_avis : [<business_object.avis.Avis object at 0x0000024D44574340>]
+11/11/2024 17:47:47 - INFO     - liste_user : [8]
+11/11/2024 17:47:47 - INFO     - liste_affichage : [['Utilisateur : mavie03', 'Avis : blablabla']]
+11/11/2024 17:47:47 - INFO     - sous_liste : [['Utilisateur : mavie03', 'Avis : blablabla']]
+11/11/2024 17:47:47 - INFO     - choix : ['Retour au menu précédent', "Retour à l'accueil", 'Modifier votre avis sur ce manga']
+11/11/2024 17:47:52 - INFO     - MenuUtilisateurVue
+11/11/2024 17:47:53 - INFO     - AccueilVue
+11/11/2024 17:47:55 - INFO     - Fin de l'application
+11/11/2024 17:49:47 - INFO     - --------------------------------------------------
+11/11/2024 17:49:47 - INFO     - Lancement Application                           
+11/11/2024 17:49:47 - INFO     - --------------------------------------------------
+11/11/2024 17:49:47 - INFO     - AccueilVue
+11/11/2024 17:49:48 - INFO     - ConnexionVue
+11/11/2024 17:49:50 - INFO     -     UtilisateurDao.se_connecter('zfdg', '*****') - DEBUT
+11/11/2024 17:49:51 - INFO     -     UtilisateurDao.se_connecter('zfdg', '*****') - FIN
+11/11/2024 17:49:51 - INFO     -        └─> Sortie : None
+11/11/2024 17:49:51 - INFO     - AccueilVue
+11/11/2024 17:49:53 - INFO     - InscriptionVue
+11/11/2024 17:49:59 - INFO     - Pseudo : choucroute (length: 10)
+11/11/2024 17:49:59 - INFO     -     UtilisateurDao.lister_tous() - DEBUT
+11/11/2024 17:49:59 - INFO     -     UtilisateurDao.lister_tous() - FIN
+11/11/2024 17:49:59 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000001CC6183DAB0>', '<business_object.utilisateur.Utilisateur object at 0x000001CC6183E920>', '<business_object.utilisateur.Utilisateur object at 0x000001CC6183DA80>'] ... (6 elements)
+11/11/2024 17:50:05 - INFO     - Mot de passe haché : 913d8fe167fcf426dfa5b9aa5d02b44f2eddc05361b1d3078cb191e3f8c1bfee (length: 64)
+11/11/2024 17:50:05 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x000001CC618B58D0>',) - DEBUT
+11/11/2024 17:50:05 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x000001CC618B58D0>',) - FIN
+11/11/2024 17:50:05 - INFO     -        └─> Sortie : True
+11/11/2024 17:50:05 - INFO     - AccueilVue
+11/11/2024 17:50:08 - INFO     - InscriptionVue
+11/11/2024 17:50:15 - INFO     - Pseudo : Babar (length: 5)
+11/11/2024 17:50:15 - INFO     -     UtilisateurDao.lister_tous() - DEBUT
+11/11/2024 17:50:15 - INFO     -     UtilisateurDao.lister_tous() - FIN
+11/11/2024 17:50:15 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000001CC61AD1510>', '<business_object.utilisateur.Utilisateur object at 0x000001CC61AD14E0>', '<business_object.utilisateur.Utilisateur object at 0x000001CC61AD2020>'] ... (7 elements)
+11/11/2024 17:50:22 - INFO     - Mot de passe haché : ca81b8c2c510c0160e02b63ffe15fc8ae288b0e1f5c3860fef8e84980a8689b2 (length: 64)
+11/11/2024 17:50:22 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x000001CC61BA95A0>',) - DEBUT
+11/11/2024 17:50:22 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x000001CC61BA95A0>',) - FIN
+11/11/2024 17:50:22 - INFO     -        └─> Sortie : True
+11/11/2024 17:50:22 - INFO     - AccueilVue
+11/11/2024 17:50:24 - INFO     - InscriptionVue
+11/11/2024 17:50:34 - INFO     - Pseudo : AnaisChefDeProjet (length: 17)
+11/11/2024 17:50:34 - INFO     -     UtilisateurDao.lister_tous() - DEBUT
+11/11/2024 17:50:34 - INFO     -     UtilisateurDao.lister_tous() - FIN
+11/11/2024 17:50:34 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000001CC61D3DF00>', '<business_object.utilisateur.Utilisateur object at 0x000001CC61D3DED0>', '<business_object.utilisateur.Utilisateur object at 0x000001CC61D3EA10>'] ... (8 elements)
+11/11/2024 17:50:39 - INFO     - Mot de passe haché : e2f9809b684792fe08c8ff7ddb5b5f8e8d43f81487fb5a3e34f12cccc7936674 (length: 64)
+11/11/2024 17:50:39 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x000001CC61DC46A0>',) - DEBUT
+11/11/2024 17:50:39 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x000001CC61DC46A0>',) - FIN
+11/11/2024 17:50:39 - INFO     -        └─> Sortie : True
+11/11/2024 17:50:39 - INFO     - AccueilVue
+11/11/2024 17:50:40 - INFO     - InscriptionVue
+11/11/2024 17:50:50 - INFO     - Pseudo : LynxMalin (length: 9)
+11/11/2024 17:50:50 - INFO     -     UtilisateurDao.lister_tous() - DEBUT
+11/11/2024 17:50:50 - INFO     -     UtilisateurDao.lister_tous() - FIN
+11/11/2024 17:50:50 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000001CC61DF7E50>', '<business_object.utilisateur.Utilisateur object at 0x000001CC61DF7CA0>', '<business_object.utilisateur.Utilisateur object at 0x000001CC61DF77F0>'] ... (9 elements)
+11/11/2024 17:50:53 - INFO     - Mot de passe haché : 877c9e4eb86917031fa4327a3017c502a51e7e933cd3113a664b10e0e517a841 (length: 64)
+11/11/2024 17:50:53 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x000001CC61D4C190>',) - DEBUT
+11/11/2024 17:50:53 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x000001CC61D4C190>',) - FIN
+11/11/2024 17:50:53 - INFO     -        └─> Sortie : True
+11/11/2024 17:50:53 - INFO     - AccueilVue
+11/11/2024 17:50:56 - INFO     - InscriptionVue
+11/11/2024 17:51:05 - INFO     - Pseudo : ChupaMo (length: 7)
+11/11/2024 17:51:05 - INFO     -     UtilisateurDao.lister_tous() - DEBUT
+11/11/2024 17:51:05 - INFO     -     UtilisateurDao.lister_tous() - FIN
+11/11/2024 17:51:05 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000001CC6198D5D0>', '<business_object.utilisateur.Utilisateur object at 0x000001CC6198D5A0>', '<business_object.utilisateur.Utilisateur object at 0x000001CC6198D2D0>'] ... (10 elements)
+11/11/2024 17:51:08 - INFO     - Mot de passe haché : 61966d848f915b44cd2bdb9f8abddd4d96387d707af6c0d40aa5e6a31d92bf2b (length: 64)
+11/11/2024 17:51:08 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x000001CC6182B040>',) - DEBUT
+11/11/2024 17:51:08 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x000001CC6182B040>',) - FIN
+11/11/2024 17:51:08 - INFO     -        └─> Sortie : True
+11/11/2024 17:51:08 - INFO     - AccueilVue
+11/11/2024 17:51:10 - INFO     - Fin de l'application
+11/11/2024 17:58:27 - INFO     - --------------------------------------------------
+11/11/2024 17:58:27 - INFO     - Lancement Application                           
+11/11/2024 17:58:27 - INFO     - --------------------------------------------------
+11/11/2024 17:58:27 - INFO     - AccueilVue
+11/11/2024 17:58:28 - INFO     - ConnexionVue
+11/11/2024 17:58:37 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+11/11/2024 17:58:37 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+11/11/2024 17:58:37 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000021E58299D50>
+11/11/2024 17:58:37 - INFO     - MenuUtilisateurVue
+11/11/2024 17:58:38 - INFO     - RechercheVue
+11/11/2024 17:58:39 - INFO     - RechercheMangaVue
+11/11/2024 17:58:42 - INFO     - choix2 : ['Monster', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul', 'Monster Hunter Orage']
+11/11/2024 17:58:43 - INFO     - SelectionMangaVuerecherche
+11/11/2024 17:58:45 - INFO     - ConsulterAvisMangaVuerecherche
+11/11/2024 17:58:45 - INFO     - res : [RealDictRow([('id_avis', 1), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 2), ('id_utilisateur', 3), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 3), ('id_utilisateur', 4), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 4), ('id_utilisateur', 6), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 5), ('id_utilisateur', 7), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 6), ('id_utilisateur', 9), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 7), ('id_utilisateur', 10), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 8), ('id_utilisateur', 11), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 9), ('id_utilisateur', 12), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 12), ('id_utilisateur', 8), ('id_manga', 1), ('texte', 'blablabla')])]
+11/11/2024 17:58:45 - INFO     - liste_avis : [<business_object.avis.Avis object at 0x0000021E585B1ED0>, <business_object.avis.Avis object at 0x0000021E585B1450>, <business_object.avis.Avis object at 0x0000021E585B1120>, <business_object.avis.Avis object at 0x0000021E585B12A0>, <business_object.avis.Avis object at 0x0000021E585B1180>, <business_object.avis.Avis object at 0x0000021E585B13C0>, <business_object.avis.Avis object at 0x0000021E585B2200>, <business_object.avis.Avis object at 0x0000021E585B16F0>, <business_object.avis.Avis object at 0x0000021E585B1750>, <business_object.avis.Avis object at 0x0000021E585B17B0>]
+11/11/2024 17:58:45 - INFO     - liste_user : [1, 3, 4, 6, 7, 9, 10, 11, 12, 8]
+11/11/2024 17:58:45 - INFO     - liste_affichage : [['Utilisateur : Ananas35', 'Avis : ok'], ['Utilisateur : Enguerrand90', 'Avis : ok'], ['Utilisateur : Panda03', 'Avis : ok'], ['Utilisateur : Emilien', 'Avis : ok'], ['Utilisateur : ', 'Avis : ok'], ['Utilisateur : choucroute', 'Avis : ok'], ['Utilisateur : Babar', 'Avis : ok'], ['Utilisateur : AnaisChefDeProjet', 'Avis : ok'], ['Utilisateur : LynxMalin', 'Avis : ok'], ['Utilisateur : mavie03', 'Avis : blablabla']]
+11/11/2024 17:58:45 - INFO     - sous_liste : [['Utilisateur : Ananas35', 'Avis : ok'], ['Utilisateur : Enguerrand90', 'Avis : ok'], ['Utilisateur : Panda03', 'Avis : ok'], ['Utilisateur : Emilien', 'Avis : ok'], ['Utilisateur : ', 'Avis : ok'], ['Utilisateur : choucroute', 'Avis : ok'], ['Utilisateur : Babar', 'Avis : ok'], ['Utilisateur : AnaisChefDeProjet', 'Avis : ok']]
+11/11/2024 17:58:45 - INFO     - sous_liste : [['Utilisateur : Ananas35', 'Avis : ok'], ['Utilisateur : Enguerrand90', 'Avis : ok'], ['Utilisateur : Panda03', 'Avis : ok'], ['Utilisateur : Emilien', 'Avis : ok'], ['Utilisateur : ', 'Avis : ok'], ['Utilisateur : choucroute', 'Avis : ok'], ['Utilisateur : Babar', 'Avis : ok'], ['Utilisateur : AnaisChefDeProjet', 'Avis : ok']]
+11/11/2024 17:58:45 - INFO     - long : 8
+11/11/2024 17:58:45 - INFO     - res : [RealDictRow([('id_avis', 1), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 2), ('id_utilisateur', 3), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 3), ('id_utilisateur', 4), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 4), ('id_utilisateur', 6), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 5), ('id_utilisateur', 7), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 6), ('id_utilisateur', 9), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 7), ('id_utilisateur', 10), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 8), ('id_utilisateur', 11), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 9), ('id_utilisateur', 12), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 12), ('id_utilisateur', 8), ('id_manga', 1), ('texte', 'blablabla')])]
+11/11/2024 17:58:45 - INFO     - liste_avis : [<business_object.avis.Avis object at 0x0000021E585B1210>, <business_object.avis.Avis object at 0x0000021E585B14E0>, <business_object.avis.Avis object at 0x0000021E585B2140>, <business_object.avis.Avis object at 0x0000021E585B1E70>, <business_object.avis.Avis object at 0x0000021E585B1390>, <business_object.avis.Avis object at 0x0000021E585B16C0>, <business_object.avis.Avis object at 0x0000021E585B1720>, <business_object.avis.Avis object at 0x0000021E585B1780>, <business_object.avis.Avis object at 0x0000021E585B17E0>, <business_object.avis.Avis object at 0x0000021E585B1F60>]
+11/11/2024 17:58:45 - INFO     - liste_user : [1, 3, 4, 6, 7, 9, 10, 11, 12, 8]
+11/11/2024 17:58:45 - INFO     - liste_affichage : [['Utilisateur : Ananas35', 'Avis : ok'], ['Utilisateur : Enguerrand90', 'Avis : ok'], ['Utilisateur : Panda03', 'Avis : ok'], ['Utilisateur : Emilien', 'Avis : ok'], ['Utilisateur : ', 'Avis : ok'], ['Utilisateur : choucroute', 'Avis : ok'], ['Utilisateur : Babar', 'Avis : ok'], ['Utilisateur : AnaisChefDeProjet', 'Avis : ok'], ['Utilisateur : LynxMalin', 'Avis : ok'], ['Utilisateur : mavie03', 'Avis : blablabla']]
+11/11/2024 17:58:45 - INFO     - sous_liste : [['Utilisateur : Ananas35', 'Avis : ok'], ['Utilisateur : Enguerrand90', 'Avis : ok'], ['Utilisateur : Panda03', 'Avis : ok'], ['Utilisateur : Emilien', 'Avis : ok'], ['Utilisateur : ', 'Avis : ok'], ['Utilisateur : choucroute', 'Avis : ok'], ['Utilisateur : Babar', 'Avis : ok'], ['Utilisateur : AnaisChefDeProjet', 'Avis : ok']]
+11/11/2024 17:58:45 - INFO     - list index out of range
+11/11/2024 17:58:45 - INFO     - AccueilVue
+11/11/2024 17:58:47 - INFO     - Fin de l'application
+11/11/2024 18:01:52 - INFO     - --------------------------------------------------
+11/11/2024 18:01:52 - INFO     - Lancement Application                           
+11/11/2024 18:01:52 - INFO     - --------------------------------------------------
+11/11/2024 18:01:52 - INFO     - AccueilVue
+11/11/2024 18:01:53 - INFO     - ConnexionVue
+11/11/2024 18:01:59 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+11/11/2024 18:01:59 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+11/11/2024 18:01:59 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001AA42065AB0>
+11/11/2024 18:01:59 - INFO     - MenuUtilisateurVue
+11/11/2024 18:02:00 - INFO     - RechercheVue
+11/11/2024 18:02:01 - INFO     - RechercheMangaVue
+11/11/2024 18:02:03 - INFO     - choix2 : ['Monster', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul', 'Monster Hunter Orage']
+11/11/2024 18:02:04 - INFO     - SelectionMangaVuerecherche
+11/11/2024 18:02:06 - INFO     - ConsulterAvisMangaVuerecherche
+11/11/2024 18:02:06 - INFO     - res : [RealDictRow([('id_avis', 1), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 2), ('id_utilisateur', 3), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 3), ('id_utilisateur', 4), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 4), ('id_utilisateur', 6), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 5), ('id_utilisateur', 7), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 6), ('id_utilisateur', 9), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 7), ('id_utilisateur', 10), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 8), ('id_utilisateur', 11), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 9), ('id_utilisateur', 12), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 12), ('id_utilisateur', 8), ('id_manga', 1), ('texte', 'blablabla')])]
+11/11/2024 18:02:06 - INFO     - liste_affichage : [['Utilisateur : Ananas35', 'Avis : ok'], ['Utilisateur : Enguerrand90', 'Avis : ok'], ['Utilisateur : Panda03', 'Avis : ok'], ['Utilisateur : Emilien', 'Avis : ok'], ['Utilisateur : ', 'Avis : ok'], ['Utilisateur : choucroute', 'Avis : ok'], ['Utilisateur : Babar', 'Avis : ok'], ['Utilisateur : AnaisChefDeProjet', 'Avis : ok'], ['Utilisateur : LynxMalin', 'Avis : ok'], ['Utilisateur : mavie03', 'Avis : blablabla']]
+11/11/2024 18:02:06 - INFO     - sous_liste : [['Utilisateur : Ananas35', 'Avis : ok'], ['Utilisateur : Enguerrand90', 'Avis : ok'], ['Utilisateur : Panda03', 'Avis : ok'], ['Utilisateur : Emilien', 'Avis : ok'], ['Utilisateur : ', 'Avis : ok'], ['Utilisateur : choucroute', 'Avis : ok'], ['Utilisateur : Babar', 'Avis : ok'], ['Utilisateur : AnaisChefDeProjet', 'Avis : ok']]
+11/11/2024 18:02:06 - INFO     - sous_liste : [['Utilisateur : Ananas35', 'Avis : ok'], ['Utilisateur : Enguerrand90', 'Avis : ok'], ['Utilisateur : Panda03', 'Avis : ok'], ['Utilisateur : Emilien', 'Avis : ok'], ['Utilisateur : ', 'Avis : ok'], ['Utilisateur : choucroute', 'Avis : ok'], ['Utilisateur : Babar', 'Avis : ok'], ['Utilisateur : AnaisChefDeProjet', 'Avis : ok']]
+11/11/2024 18:02:06 - INFO     - long : 8
+11/11/2024 18:02:06 - INFO     - res : [RealDictRow([('id_avis', 1), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 2), ('id_utilisateur', 3), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 3), ('id_utilisateur', 4), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 4), ('id_utilisateur', 6), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 5), ('id_utilisateur', 7), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 6), ('id_utilisateur', 9), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 7), ('id_utilisateur', 10), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 8), ('id_utilisateur', 11), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 9), ('id_utilisateur', 12), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 12), ('id_utilisateur', 8), ('id_manga', 1), ('texte', 'blablabla')])]
+11/11/2024 18:02:06 - INFO     - liste_affichage : [['Utilisateur : Ananas35', 'Avis : ok'], ['Utilisateur : Enguerrand90', 'Avis : ok'], ['Utilisateur : Panda03', 'Avis : ok'], ['Utilisateur : Emilien', 'Avis : ok'], ['Utilisateur : ', 'Avis : ok'], ['Utilisateur : choucroute', 'Avis : ok'], ['Utilisateur : Babar', 'Avis : ok'], ['Utilisateur : AnaisChefDeProjet', 'Avis : ok'], ['Utilisateur : LynxMalin', 'Avis : ok'], ['Utilisateur : mavie03', 'Avis : blablabla']]
+11/11/2024 18:02:06 - INFO     - sous_liste : [['Utilisateur : Ananas35', 'Avis : ok'], ['Utilisateur : Enguerrand90', 'Avis : ok'], ['Utilisateur : Panda03', 'Avis : ok'], ['Utilisateur : Emilien', 'Avis : ok'], ['Utilisateur : ', 'Avis : ok'], ['Utilisateur : choucroute', 'Avis : ok'], ['Utilisateur : Babar', 'Avis : ok'], ['Utilisateur : AnaisChefDeProjet', 'Avis : ok']]
+11/11/2024 18:02:06 - INFO     - choix : ['Retour au menu précédent', "Retour à l'accueil", 'Modifier votre avis sur ce manga']
+11/11/2024 18:02:45 - INFO     - SelectionMangaVuerecherche
+11/11/2024 18:02:48 - INFO     - MenuUtilisateurVue
+11/11/2024 18:02:49 - INFO     - AccueilVue
+11/11/2024 18:02:51 - INFO     - Fin de l'application
+11/11/2024 18:05:17 - INFO     - --------------------------------------------------
+11/11/2024 18:05:17 - INFO     - Lancement Application                           
+11/11/2024 18:05:17 - INFO     - --------------------------------------------------
+11/11/2024 18:05:17 - INFO     - AccueilVue
+11/11/2024 18:05:18 - INFO     - ConnexionVue
+11/11/2024 18:05:24 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+11/11/2024 18:05:24 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+11/11/2024 18:05:24 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000002D01E415A80>
+11/11/2024 18:05:24 - INFO     - MenuUtilisateurVue
+11/11/2024 18:05:25 - INFO     - RechercheVue
+11/11/2024 18:05:26 - INFO     - RechercheMangaVue
+11/11/2024 18:05:28 - INFO     - choix2 : ['Monster', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul', 'Monster Hunter Orage']
+11/11/2024 18:05:29 - INFO     - SelectionMangaVuerecherche
+11/11/2024 18:05:30 - INFO     - ConsulterAvisMangaVuerecherche
+11/11/2024 18:05:30 - INFO     - res : [RealDictRow([('id_avis', 1), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 2), ('id_utilisateur', 3), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 3), ('id_utilisateur', 4), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 4), ('id_utilisateur', 6), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 5), ('id_utilisateur', 7), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 6), ('id_utilisateur', 9), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 7), ('id_utilisateur', 10), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 8), ('id_utilisateur', 11), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 9), ('id_utilisateur', 12), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 12), ('id_utilisateur', 8), ('id_manga', 1), ('texte', 'blablabla')])]
+11/11/2024 18:05:30 - INFO     - liste_affichage : [['Utilisateur : Ananas35', 'Avis : ok'], ['Utilisateur : Enguerrand90', 'Avis : ok'], ['Utilisateur : Panda03', 'Avis : ok'], ['Utilisateur : Emilien', 'Avis : ok'], ['Utilisateur : ', 'Avis : ok'], ['Utilisateur : choucroute', 'Avis : ok'], ['Utilisateur : Babar', 'Avis : ok'], ['Utilisateur : AnaisChefDeProjet', 'Avis : ok'], ['Utilisateur : LynxMalin', 'Avis : ok'], ['Utilisateur : mavie03', 'Avis : blablabla']]
+11/11/2024 18:05:30 - INFO     - sous_liste : [['Utilisateur : Ananas35', 'Avis : ok'], ['Utilisateur : Enguerrand90', 'Avis : ok'], ['Utilisateur : Panda03', 'Avis : ok'], ['Utilisateur : Emilien', 'Avis : ok'], ['Utilisateur : ', 'Avis : ok'], ['Utilisateur : choucroute', 'Avis : ok'], ['Utilisateur : Babar', 'Avis : ok'], ['Utilisateur : AnaisChefDeProjet', 'Avis : ok']]
+11/11/2024 18:05:30 - INFO     - sous_liste : [['Utilisateur : Ananas35', 'Avis : ok'], ['Utilisateur : Enguerrand90', 'Avis : ok'], ['Utilisateur : Panda03', 'Avis : ok'], ['Utilisateur : Emilien', 'Avis : ok'], ['Utilisateur : ', 'Avis : ok'], ['Utilisateur : choucroute', 'Avis : ok'], ['Utilisateur : Babar', 'Avis : ok'], ['Utilisateur : AnaisChefDeProjet', 'Avis : ok']]
+11/11/2024 18:05:30 - INFO     - long : 8
+11/11/2024 18:05:30 - INFO     - res : [RealDictRow([('id_avis', 1), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 2), ('id_utilisateur', 3), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 3), ('id_utilisateur', 4), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 4), ('id_utilisateur', 6), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 5), ('id_utilisateur', 7), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 6), ('id_utilisateur', 9), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 7), ('id_utilisateur', 10), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 8), ('id_utilisateur', 11), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 9), ('id_utilisateur', 12), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 12), ('id_utilisateur', 8), ('id_manga', 1), ('texte', 'blablabla')])]
+11/11/2024 18:05:31 - INFO     - liste_affichage : [['Utilisateur : Ananas35', 'Avis : ok'], ['Utilisateur : Enguerrand90', 'Avis : ok'], ['Utilisateur : Panda03', 'Avis : ok'], ['Utilisateur : Emilien', 'Avis : ok'], ['Utilisateur : ', 'Avis : ok'], ['Utilisateur : choucroute', 'Avis : ok'], ['Utilisateur : Babar', 'Avis : ok'], ['Utilisateur : AnaisChefDeProjet', 'Avis : ok'], ['Utilisateur : LynxMalin', 'Avis : ok'], ['Utilisateur : mavie03', 'Avis : blablabla']]
+11/11/2024 18:05:31 - INFO     - sous_liste : [['Utilisateur : Ananas35', 'Avis : ok'], ['Utilisateur : Enguerrand90', 'Avis : ok'], ['Utilisateur : Panda03', 'Avis : ok'], ['Utilisateur : Emilien', 'Avis : ok'], ['Utilisateur : ', 'Avis : ok'], ['Utilisateur : choucroute', 'Avis : ok'], ['Utilisateur : Babar', 'Avis : ok'], ['Utilisateur : AnaisChefDeProjet', 'Avis : ok']]
+11/11/2024 18:05:31 - INFO     - long : 8, res_entier : 1, res_reste : 0
+11/11/2024 18:05:31 - INFO     - choix : ['Retour au menu précédent', "Retour à l'accueil", 'Modifier votre avis sur ce manga']
+11/11/2024 18:05:38 - INFO     - MenuUtilisateurVue
+11/11/2024 18:05:39 - INFO     - AccueilVue
+11/11/2024 18:05:40 - INFO     - Fin de l'application
+11/11/2024 18:08:43 - INFO     - --------------------------------------------------
+11/11/2024 18:08:43 - INFO     - Lancement Application                           
+11/11/2024 18:08:43 - INFO     - --------------------------------------------------
+11/11/2024 18:08:43 - INFO     - AccueilVue
+11/11/2024 18:08:44 - INFO     - ConnexionVue
+11/11/2024 18:08:52 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+11/11/2024 18:08:52 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+11/11/2024 18:08:52 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000002BD4E0C5A80>
+11/11/2024 18:08:52 - INFO     - MenuUtilisateurVue
+11/11/2024 18:08:53 - INFO     - RechercheVue
+11/11/2024 18:08:53 - INFO     - RechercheMangaVue
+11/11/2024 18:08:56 - INFO     - choix2 : ['Monster', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul', 'Monster Hunter Orage']
+11/11/2024 18:08:57 - INFO     - SelectionMangaVuerecherche
+11/11/2024 18:09:00 - INFO     - ConsulterAvisMangaVuerecherche
+11/11/2024 18:09:00 - INFO     - res : [RealDictRow([('id_avis', 1), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 2), ('id_utilisateur', 3), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 3), ('id_utilisateur', 4), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 4), ('id_utilisateur', 6), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 5), ('id_utilisateur', 7), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 6), ('id_utilisateur', 9), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 7), ('id_utilisateur', 10), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 8), ('id_utilisateur', 11), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 9), ('id_utilisateur', 12), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 12), ('id_utilisateur', 8), ('id_manga', 1), ('texte', 'blablabla')])]
+11/11/2024 18:09:00 - INFO     - liste_affichage : [['Utilisateur : Ananas35', 'Avis : ok'], ['Utilisateur : Enguerrand90', 'Avis : ok'], ['Utilisateur : Panda03', 'Avis : ok'], ['Utilisateur : Emilien', 'Avis : ok'], ['Utilisateur : ', 'Avis : ok'], ['Utilisateur : choucroute', 'Avis : ok'], ['Utilisateur : Babar', 'Avis : ok'], ['Utilisateur : AnaisChefDeProjet', 'Avis : ok'], ['Utilisateur : LynxMalin', 'Avis : ok'], ['Utilisateur : mavie03', 'Avis : blablabla']]
+11/11/2024 18:09:00 - INFO     - sous_liste : [['Utilisateur : Ananas35', 'Avis : ok'], ['Utilisateur : Enguerrand90', 'Avis : ok'], ['Utilisateur : Panda03', 'Avis : ok'], ['Utilisateur : Emilien', 'Avis : ok'], ['Utilisateur : ', 'Avis : ok'], ['Utilisateur : choucroute', 'Avis : ok'], ['Utilisateur : Babar', 'Avis : ok'], ['Utilisateur : AnaisChefDeProjet', 'Avis : ok']]
+11/11/2024 18:09:00 - INFO     - sous_liste : [['Utilisateur : Ananas35', 'Avis : ok'], ['Utilisateur : Enguerrand90', 'Avis : ok'], ['Utilisateur : Panda03', 'Avis : ok'], ['Utilisateur : Emilien', 'Avis : ok'], ['Utilisateur : ', 'Avis : ok'], ['Utilisateur : choucroute', 'Avis : ok'], ['Utilisateur : Babar', 'Avis : ok'], ['Utilisateur : AnaisChefDeProjet', 'Avis : ok']]
+11/11/2024 18:09:00 - INFO     - long : 8
+11/11/2024 18:09:00 - INFO     - res : [RealDictRow([('id_avis', 1), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 2), ('id_utilisateur', 3), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 3), ('id_utilisateur', 4), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 4), ('id_utilisateur', 6), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 5), ('id_utilisateur', 7), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 6), ('id_utilisateur', 9), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 7), ('id_utilisateur', 10), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 8), ('id_utilisateur', 11), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 9), ('id_utilisateur', 12), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 12), ('id_utilisateur', 8), ('id_manga', 1), ('texte', 'blablabla')])]
+11/11/2024 18:09:00 - INFO     - liste_affichage : [['Utilisateur : Ananas35', 'Avis : ok'], ['Utilisateur : Enguerrand90', 'Avis : ok'], ['Utilisateur : Panda03', 'Avis : ok'], ['Utilisateur : Emilien', 'Avis : ok'], ['Utilisateur : ', 'Avis : ok'], ['Utilisateur : choucroute', 'Avis : ok'], ['Utilisateur : Babar', 'Avis : ok'], ['Utilisateur : AnaisChefDeProjet', 'Avis : ok'], ['Utilisateur : LynxMalin', 'Avis : ok'], ['Utilisateur : mavie03', 'Avis : blablabla']]
+11/11/2024 18:09:00 - INFO     - sous_liste : [['Utilisateur : Ananas35', 'Avis : ok'], ['Utilisateur : Enguerrand90', 'Avis : ok'], ['Utilisateur : Panda03', 'Avis : ok'], ['Utilisateur : Emilien', 'Avis : ok'], ['Utilisateur : ', 'Avis : ok'], ['Utilisateur : choucroute', 'Avis : ok'], ['Utilisateur : Babar', 'Avis : ok'], ['Utilisateur : AnaisChefDeProjet', 'Avis : ok']]
+11/11/2024 18:09:00 - INFO     - long : 8, res_entier : 1, res_reste : 0
+11/11/2024 18:09:00 - INFO     - choix : ['Retour au menu précédent', "Retour à l'accueil", 'Afficher la page suivante', 'Modifier votre avis sur ce manga']
+11/11/2024 18:09:03 - INFO     - long : 8, res_entier : 0, res_reste : 0
+11/11/2024 18:09:03 - INFO     - choix : ['Retour au menu précédent', "Retour à l'accueil", 'Modifier votre avis sur ce manga', 'Afficher la page suivante', 'Modifier votre avis sur ce manga']
+11/11/2024 18:09:18 - INFO     - long : 8, res_entier : 0, res_reste : 0
+11/11/2024 18:09:18 - INFO     - choix : ['Retour au menu précédent', "Retour à l'accueil", 'Modifier votre avis sur ce manga', 'Modifier votre avis sur ce manga', 'Afficher la page suivante', 'Modifier votre avis sur ce manga']
+11/11/2024 18:09:23 - INFO     - MenuUtilisateurVue
+11/11/2024 18:09:24 - INFO     - AccueilVue
+11/11/2024 18:09:27 - INFO     - Fin de l'application
+11/11/2024 18:12:31 - INFO     - --------------------------------------------------
+11/11/2024 18:12:31 - INFO     - Lancement Application                           
+11/11/2024 18:12:31 - INFO     - --------------------------------------------------
+11/11/2024 18:12:31 - INFO     - AccueilVue
+11/11/2024 18:12:32 - INFO     - ConnexionVue
+11/11/2024 18:12:39 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+11/11/2024 18:12:39 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+11/11/2024 18:12:39 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000002483CBC5AB0>
+11/11/2024 18:12:39 - INFO     - MenuUtilisateurVue
+11/11/2024 18:12:40 - INFO     - RechercheVue
+11/11/2024 18:12:41 - INFO     - RechercheMangaVue
+11/11/2024 18:12:45 - INFO     - choix2 : ['Monster', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul', 'Monster Hunter Orage']
+11/11/2024 18:12:46 - INFO     - SelectionMangaVuerecherche
+11/11/2024 18:12:48 - INFO     - ConsulterAvisMangaVuerecherche
+11/11/2024 18:12:48 - INFO     - res : [RealDictRow([('id_avis', 1), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 2), ('id_utilisateur', 3), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 3), ('id_utilisateur', 4), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 4), ('id_utilisateur', 6), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 5), ('id_utilisateur', 7), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 6), ('id_utilisateur', 9), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 7), ('id_utilisateur', 10), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 8), ('id_utilisateur', 11), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 9), ('id_utilisateur', 12), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 12), ('id_utilisateur', 8), ('id_manga', 1), ('texte', 'blablabla')])]
+11/11/2024 18:12:48 - INFO     - liste_affichage : [['Utilisateur : Ananas35', 'Avis : ok'], ['Utilisateur : Enguerrand90', 'Avis : ok'], ['Utilisateur : Panda03', 'Avis : ok'], ['Utilisateur : Emilien', 'Avis : ok'], ['Utilisateur : ', 'Avis : ok'], ['Utilisateur : choucroute', 'Avis : ok'], ['Utilisateur : Babar', 'Avis : ok'], ['Utilisateur : AnaisChefDeProjet', 'Avis : ok'], ['Utilisateur : LynxMalin', 'Avis : ok'], ['Utilisateur : mavie03', 'Avis : blablabla']]
+11/11/2024 18:12:48 - INFO     - sous_liste : [['Utilisateur : Ananas35', 'Avis : ok'], ['Utilisateur : Enguerrand90', 'Avis : ok'], ['Utilisateur : Panda03', 'Avis : ok'], ['Utilisateur : Emilien', 'Avis : ok'], ['Utilisateur : ', 'Avis : ok'], ['Utilisateur : choucroute', 'Avis : ok'], ['Utilisateur : Babar', 'Avis : ok'], ['Utilisateur : AnaisChefDeProjet', 'Avis : ok']]
+11/11/2024 18:12:48 - INFO     - sous_liste : [['Utilisateur : Ananas35', 'Avis : ok'], ['Utilisateur : Enguerrand90', 'Avis : ok'], ['Utilisateur : Panda03', 'Avis : ok'], ['Utilisateur : Emilien', 'Avis : ok'], ['Utilisateur : ', 'Avis : ok'], ['Utilisateur : choucroute', 'Avis : ok'], ['Utilisateur : Babar', 'Avis : ok'], ['Utilisateur : AnaisChefDeProjet', 'Avis : ok']]
+11/11/2024 18:12:48 - INFO     - long : 8
+11/11/2024 18:12:48 - INFO     - res : [RealDictRow([('id_avis', 1), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 2), ('id_utilisateur', 3), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 3), ('id_utilisateur', 4), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 4), ('id_utilisateur', 6), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 5), ('id_utilisateur', 7), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 6), ('id_utilisateur', 9), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 7), ('id_utilisateur', 10), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 8), ('id_utilisateur', 11), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 9), ('id_utilisateur', 12), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 12), ('id_utilisateur', 8), ('id_manga', 1), ('texte', 'blablabla')])]
+11/11/2024 18:12:48 - INFO     - liste_affichage : [['Utilisateur : Ananas35', 'Avis : ok'], ['Utilisateur : Enguerrand90', 'Avis : ok'], ['Utilisateur : Panda03', 'Avis : ok'], ['Utilisateur : Emilien', 'Avis : ok'], ['Utilisateur : ', 'Avis : ok'], ['Utilisateur : choucroute', 'Avis : ok'], ['Utilisateur : Babar', 'Avis : ok'], ['Utilisateur : AnaisChefDeProjet', 'Avis : ok'], ['Utilisateur : LynxMalin', 'Avis : ok'], ['Utilisateur : mavie03', 'Avis : blablabla']]
+11/11/2024 18:12:48 - INFO     - sous_liste : [['Utilisateur : Ananas35', 'Avis : ok'], ['Utilisateur : Enguerrand90', 'Avis : ok'], ['Utilisateur : Panda03', 'Avis : ok'], ['Utilisateur : Emilien', 'Avis : ok'], ['Utilisateur : ', 'Avis : ok'], ['Utilisateur : choucroute', 'Avis : ok'], ['Utilisateur : Babar', 'Avis : ok'], ['Utilisateur : AnaisChefDeProjet', 'Avis : ok']]
+11/11/2024 18:12:48 - INFO     - long : 8, res_entier : 1, res_reste : 0
+11/11/2024 18:12:48 - INFO     - choix : ['Retour au menu précédent', "Retour à l'accueil", 'Afficher la page suivante', 'Modifier votre avis sur ce manga']
+11/11/2024 18:12:52 - INFO     - long : 8, res_entier : 0, res_reste : 0
+11/11/2024 18:12:52 - INFO     - choix : ['Retour au menu précédent', "Retour à l'accueil", 'Modifier votre avis sur ce manga', 'Afficher la page suivante', 'Modifier votre avis sur ce manga']
+11/11/2024 18:12:56 - INFO     - long : 8, res_entier : 0, res_reste : 0
+11/11/2024 18:12:56 - INFO     - choix : ['Retour au menu précédent', "Retour à l'accueil", 'Modifier votre avis sur ce manga', 'Modifier votre avis sur ce manga', 'Afficher la page suivante', 'Modifier votre avis sur ce manga']
+11/11/2024 18:12:59 - INFO     - long : 8, res_entier : 0, res_reste : 0
+11/11/2024 18:12:59 - INFO     - choix : ['Retour au menu précédent', "Retour à l'accueil", 'Modifier votre avis sur ce manga', 'Modifier votre avis sur ce manga', 'Modifier votre avis sur ce manga', 'Afficher la page suivante', 'Modifier votre avis sur ce manga']
+11/11/2024 18:13:03 - INFO     - SelectionMangaVuerecherche
+11/11/2024 18:13:05 - INFO     - MenuUtilisateurVue
+11/11/2024 18:13:06 - INFO     - AccueilVue
+11/11/2024 18:13:07 - INFO     - Fin de l'application
+11/11/2024 18:17:27 - INFO     - --------------------------------------------------
+11/11/2024 18:17:27 - INFO     - Lancement Application                           
+11/11/2024 18:17:27 - INFO     - --------------------------------------------------
+11/11/2024 18:17:27 - INFO     - AccueilVue
+11/11/2024 18:17:28 - INFO     - ConnexionVue
+11/11/2024 18:17:35 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+11/11/2024 18:17:35 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+11/11/2024 18:17:35 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001F8E28D5C00>
+11/11/2024 18:17:35 - INFO     - MenuUtilisateurVue
+11/11/2024 18:17:36 - INFO     - RechercheVue
+11/11/2024 18:17:48 - INFO     - RechercheMangaVue
+11/11/2024 18:17:50 - INFO     - choix2 : ['Monster', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul', 'Monster Hunter Orage']
+11/11/2024 18:17:58 - INFO     - SelectionMangaVuerecherche
+11/11/2024 18:17:59 - INFO     - ConsulterAvisMangaVuerecherche
+11/11/2024 18:17:59 - INFO     - res : [RealDictRow([('id_avis', 1), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 2), ('id_utilisateur', 3), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 3), ('id_utilisateur', 4), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 4), ('id_utilisateur', 6), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 5), ('id_utilisateur', 7), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 6), ('id_utilisateur', 9), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 7), ('id_utilisateur', 10), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 8), ('id_utilisateur', 11), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 9), ('id_utilisateur', 12), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 12), ('id_utilisateur', 8), ('id_manga', 1), ('texte', 'blablabla')])]
+11/11/2024 18:18:00 - INFO     - liste_affichage : [['Utilisateur : Ananas35', 'Avis : ok'], ['Utilisateur : Enguerrand90', 'Avis : ok'], ['Utilisateur : Panda03', 'Avis : ok'], ['Utilisateur : Emilien', 'Avis : ok'], ['Utilisateur : ', 'Avis : ok'], ['Utilisateur : choucroute', 'Avis : ok'], ['Utilisateur : Babar', 'Avis : ok'], ['Utilisateur : AnaisChefDeProjet', 'Avis : ok'], ['Utilisateur : LynxMalin', 'Avis : ok'], ['Utilisateur : mavie03', 'Avis : blablabla']]
+11/11/2024 18:18:00 - INFO     - sous_liste : [['Utilisateur : Ananas35', 'Avis : ok'], ['Utilisateur : Enguerrand90', 'Avis : ok'], ['Utilisateur : Panda03', 'Avis : ok'], ['Utilisateur : Emilien', 'Avis : ok'], ['Utilisateur : ', 'Avis : ok'], ['Utilisateur : choucroute', 'Avis : ok'], ['Utilisateur : Babar', 'Avis : ok'], ['Utilisateur : AnaisChefDeProjet', 'Avis : ok']]
+11/11/2024 18:18:00 - INFO     - sous_liste : [['Utilisateur : Ananas35', 'Avis : ok'], ['Utilisateur : Enguerrand90', 'Avis : ok'], ['Utilisateur : Panda03', 'Avis : ok'], ['Utilisateur : Emilien', 'Avis : ok'], ['Utilisateur : ', 'Avis : ok'], ['Utilisateur : choucroute', 'Avis : ok'], ['Utilisateur : Babar', 'Avis : ok'], ['Utilisateur : AnaisChefDeProjet', 'Avis : ok']]
+11/11/2024 18:18:00 - INFO     - long : 8
+11/11/2024 18:18:00 - INFO     - res : [RealDictRow([('id_avis', 1), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 2), ('id_utilisateur', 3), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 3), ('id_utilisateur', 4), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 4), ('id_utilisateur', 6), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 5), ('id_utilisateur', 7), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 6), ('id_utilisateur', 9), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 7), ('id_utilisateur', 10), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 8), ('id_utilisateur', 11), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 9), ('id_utilisateur', 12), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 12), ('id_utilisateur', 8), ('id_manga', 1), ('texte', 'blablabla')])]
+11/11/2024 18:18:00 - INFO     - liste_affichage : [['Utilisateur : Ananas35', 'Avis : ok'], ['Utilisateur : Enguerrand90', 'Avis : ok'], ['Utilisateur : Panda03', 'Avis : ok'], ['Utilisateur : Emilien', 'Avis : ok'], ['Utilisateur : ', 'Avis : ok'], ['Utilisateur : choucroute', 'Avis : ok'], ['Utilisateur : Babar', 'Avis : ok'], ['Utilisateur : AnaisChefDeProjet', 'Avis : ok'], ['Utilisateur : LynxMalin', 'Avis : ok'], ['Utilisateur : mavie03', 'Avis : blablabla']]
+11/11/2024 18:18:00 - INFO     - sous_liste : [['Utilisateur : Ananas35', 'Avis : ok'], ['Utilisateur : Enguerrand90', 'Avis : ok'], ['Utilisateur : Panda03', 'Avis : ok'], ['Utilisateur : Emilien', 'Avis : ok'], ['Utilisateur : ', 'Avis : ok'], ['Utilisateur : choucroute', 'Avis : ok'], ['Utilisateur : Babar', 'Avis : ok'], ['Utilisateur : AnaisChefDeProjet', 'Avis : ok']]
+11/11/2024 18:18:00 - INFO     - long : 8, res_entier : 1, res_reste : 0
+11/11/2024 18:18:00 - INFO     - choix : ['Retour au menu précédent', "Retour à l'accueil", 'Afficher la page suivante', 'Modifier votre avis sur ce manga']
+11/11/2024 18:18:02 - INFO     - long : 8, res_entier : 0, res_reste : 0
+11/11/2024 18:18:02 - INFO     - choix : ['Retour au menu précédent', "Retour à l'accueil", 'Modifier votre avis sur ce manga', 'Afficher la page suivante', 'Modifier votre avis sur ce manga']
+11/11/2024 18:18:10 - INFO     - long : 8, res_entier : 0, res_reste : 0
+11/11/2024 18:18:10 - INFO     - choix : ['Retour au menu précédent', "Retour à l'accueil", 'Modifier votre avis sur ce manga', 'Modifier votre avis sur ce manga', 'Afficher la page suivante', 'Modifier votre avis sur ce manga']
+11/11/2024 18:18:13 - INFO     - long : 8, res_entier : 0, res_reste : 0
+11/11/2024 18:18:13 - INFO     - choix : ['Retour au menu précédent', "Retour à l'accueil", 'Modifier votre avis sur ce manga', 'Modifier votre avis sur ce manga', 'Modifier votre avis sur ce manga', 'Afficher la page suivante', 'Modifier votre avis sur ce manga']
+11/11/2024 18:18:17 - INFO     - long : 8, res_entier : 0, res_reste : 0
+11/11/2024 18:18:17 - INFO     - choix : ['Retour au menu précédent', "Retour à l'accueil", 'Modifier votre avis sur ce manga', 'Modifier votre avis sur ce manga', 'Modifier votre avis sur ce manga', 'Modifier votre avis sur ce manga', 'Afficher la page suivante', 'Modifier votre avis sur ce manga']
+11/11/2024 18:18:18 - INFO     - MenuUtilisateurVue
+11/11/2024 18:18:20 - INFO     - AccueilVue
+11/11/2024 18:18:22 - INFO     - Fin de l'application
+11/11/2024 18:19:20 - INFO     - --------------------------------------------------
+11/11/2024 18:19:21 - INFO     - Lancement Application                           
+11/11/2024 18:19:21 - INFO     - --------------------------------------------------
+11/11/2024 18:19:21 - INFO     - AccueilVue
+11/11/2024 18:19:22 - INFO     - ConnexionVue
+11/11/2024 18:19:27 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+11/11/2024 18:19:27 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+11/11/2024 18:19:27 - INFO     -        └─> Sortie : None
+11/11/2024 18:19:27 - INFO     - AccueilVue
+11/11/2024 18:19:29 - INFO     - ConnexionVue
+11/11/2024 18:19:35 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+11/11/2024 18:19:35 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+11/11/2024 18:19:35 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000002CA3102D270>
+11/11/2024 18:19:35 - INFO     - MenuUtilisateurVue
+11/11/2024 18:19:36 - INFO     - RechercheVue
+11/11/2024 18:19:37 - INFO     - RechercheMangaVue
+11/11/2024 18:19:40 - INFO     - choix2 : ['Monster', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul', 'Monster Hunter Orage']
+11/11/2024 18:19:41 - INFO     - SelectionMangaVuerecherche
+11/11/2024 18:20:07 - INFO     - ConsulterAvisMangaVuerecherche
+11/11/2024 18:20:07 - INFO     - res : [RealDictRow([('id_avis', 1), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 2), ('id_utilisateur', 3), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 3), ('id_utilisateur', 4), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 4), ('id_utilisateur', 6), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 5), ('id_utilisateur', 7), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 6), ('id_utilisateur', 9), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 7), ('id_utilisateur', 10), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 8), ('id_utilisateur', 11), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 9), ('id_utilisateur', 12), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 12), ('id_utilisateur', 8), ('id_manga', 1), ('texte', 'blablabla')])]
+11/11/2024 18:20:07 - INFO     - liste_affichage : [['Utilisateur : Ananas35', 'Avis : ok'], ['Utilisateur : Enguerrand90', 'Avis : ok'], ['Utilisateur : Panda03', 'Avis : ok'], ['Utilisateur : Emilien', 'Avis : ok'], ['Utilisateur : ', 'Avis : ok'], ['Utilisateur : choucroute', 'Avis : ok'], ['Utilisateur : Babar', 'Avis : ok'], ['Utilisateur : AnaisChefDeProjet', 'Avis : ok'], ['Utilisateur : LynxMalin', 'Avis : ok'], ['Utilisateur : mavie03', 'Avis : blablabla']]
+11/11/2024 18:20:07 - INFO     - sous_liste : [['Utilisateur : Ananas35', 'Avis : ok'], ['Utilisateur : Enguerrand90', 'Avis : ok'], ['Utilisateur : Panda03', 'Avis : ok'], ['Utilisateur : Emilien', 'Avis : ok'], ['Utilisateur : ', 'Avis : ok'], ['Utilisateur : choucroute', 'Avis : ok'], ['Utilisateur : Babar', 'Avis : ok'], ['Utilisateur : AnaisChefDeProjet', 'Avis : ok']]
+11/11/2024 18:20:07 - INFO     - sous_liste : [['Utilisateur : Ananas35', 'Avis : ok'], ['Utilisateur : Enguerrand90', 'Avis : ok'], ['Utilisateur : Panda03', 'Avis : ok'], ['Utilisateur : Emilien', 'Avis : ok'], ['Utilisateur : ', 'Avis : ok'], ['Utilisateur : choucroute', 'Avis : ok'], ['Utilisateur : Babar', 'Avis : ok'], ['Utilisateur : AnaisChefDeProjet', 'Avis : ok']]
+11/11/2024 18:20:07 - INFO     - long : 8
+11/11/2024 18:20:07 - INFO     - res : [RealDictRow([('id_avis', 1), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 2), ('id_utilisateur', 3), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 3), ('id_utilisateur', 4), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 4), ('id_utilisateur', 6), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 5), ('id_utilisateur', 7), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 6), ('id_utilisateur', 9), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 7), ('id_utilisateur', 10), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 8), ('id_utilisateur', 11), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 9), ('id_utilisateur', 12), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 12), ('id_utilisateur', 8), ('id_manga', 1), ('texte', 'blablabla')])]
+11/11/2024 18:20:07 - INFO     - liste_affichage : [['Utilisateur : Ananas35', 'Avis : ok'], ['Utilisateur : Enguerrand90', 'Avis : ok'], ['Utilisateur : Panda03', 'Avis : ok'], ['Utilisateur : Emilien', 'Avis : ok'], ['Utilisateur : ', 'Avis : ok'], ['Utilisateur : choucroute', 'Avis : ok'], ['Utilisateur : Babar', 'Avis : ok'], ['Utilisateur : AnaisChefDeProjet', 'Avis : ok'], ['Utilisateur : LynxMalin', 'Avis : ok'], ['Utilisateur : mavie03', 'Avis : blablabla']]
+11/11/2024 18:20:07 - INFO     - sous_liste : [['Utilisateur : Ananas35', 'Avis : ok'], ['Utilisateur : Enguerrand90', 'Avis : ok'], ['Utilisateur : Panda03', 'Avis : ok'], ['Utilisateur : Emilien', 'Avis : ok'], ['Utilisateur : ', 'Avis : ok'], ['Utilisateur : choucroute', 'Avis : ok'], ['Utilisateur : Babar', 'Avis : ok'], ['Utilisateur : AnaisChefDeProjet', 'Avis : ok']]
+11/11/2024 18:20:07 - INFO     - long : 8, res_entier : 1, res_reste : 0
+11/11/2024 18:20:07 - INFO     - choix : ['Retour au menu précédent', "Retour à l'accueil", 'Afficher la page suivante', 'Modifier votre avis sur ce manga']
+11/11/2024 18:20:11 - INFO     - long : 8, res_entier : 0, res_reste : 0
+11/11/2024 18:20:11 - INFO     - choix : ['Retour au menu précédent', "Retour à l'accueil", 'Modifier votre avis sur ce manga', 'Afficher la page suivante', 'Modifier votre avis sur ce manga']
+11/11/2024 18:20:15 - INFO     - long : 8, res_entier : 0, res_reste : 0
+11/11/2024 18:20:15 - INFO     - choix : ['Retour au menu précédent', "Retour à l'accueil", 'Modifier votre avis sur ce manga', 'Modifier votre avis sur ce manga', 'Afficher la page suivante', 'Modifier votre avis sur ce manga']
+11/11/2024 18:20:17 - INFO     - MenuUtilisateurVue
+11/11/2024 18:20:19 - INFO     - AccueilVue
+11/11/2024 18:20:25 - INFO     - Fin de l'application
+11/11/2024 18:25:14 - INFO     - --------------------------------------------------
+11/11/2024 18:25:14 - INFO     - Lancement Application                           
+11/11/2024 18:25:14 - INFO     - --------------------------------------------------
+11/11/2024 18:25:14 - INFO     - AccueilVue
+11/11/2024 18:25:15 - INFO     - ConnexionVue
+11/11/2024 18:25:21 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+11/11/2024 18:25:21 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+11/11/2024 18:25:21 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x00000181D58B5A80>
+11/11/2024 18:25:21 - INFO     - MenuUtilisateurVue
+11/11/2024 18:25:22 - INFO     - RechercheVue
+11/11/2024 18:25:23 - INFO     - RechercheMangaVue
+11/11/2024 18:25:26 - INFO     - choix2 : ['Monster', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul', 'Monster Hunter Orage']
+11/11/2024 18:25:28 - INFO     - SelectionMangaVuerecherche
+11/11/2024 18:25:30 - INFO     - ConsulterAvisMangaVuerecherche
+11/11/2024 18:25:30 - INFO     - res : [RealDictRow([('id_avis', 1), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 2), ('id_utilisateur', 3), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 3), ('id_utilisateur', 4), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 4), ('id_utilisateur', 6), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 5), ('id_utilisateur', 7), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 6), ('id_utilisateur', 9), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 7), ('id_utilisateur', 10), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 8), ('id_utilisateur', 11), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 9), ('id_utilisateur', 12), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 12), ('id_utilisateur', 8), ('id_manga', 1), ('texte', 'blablabla')])]
+11/11/2024 18:25:30 - INFO     - liste_affichage : [['Utilisateur : Ananas35', 'Avis : ok'], ['Utilisateur : Enguerrand90', 'Avis : ok'], ['Utilisateur : Panda03', 'Avis : ok'], ['Utilisateur : Emilien', 'Avis : ok'], ['Utilisateur : ', 'Avis : ok'], ['Utilisateur : choucroute', 'Avis : ok'], ['Utilisateur : Babar', 'Avis : ok'], ['Utilisateur : AnaisChefDeProjet', 'Avis : ok'], ['Utilisateur : LynxMalin', 'Avis : ok'], ['Utilisateur : mavie03', 'Avis : blablabla']]
+11/11/2024 18:25:30 - INFO     - sous_liste : [['Utilisateur : Ananas35', 'Avis : ok'], ['Utilisateur : Enguerrand90', 'Avis : ok'], ['Utilisateur : Panda03', 'Avis : ok'], ['Utilisateur : Emilien', 'Avis : ok'], ['Utilisateur : ', 'Avis : ok'], ['Utilisateur : choucroute', 'Avis : ok'], ['Utilisateur : Babar', 'Avis : ok'], ['Utilisateur : AnaisChefDeProjet', 'Avis : ok']]
+11/11/2024 18:25:30 - INFO     - sous_liste : [['Utilisateur : Ananas35', 'Avis : ok'], ['Utilisateur : Enguerrand90', 'Avis : ok'], ['Utilisateur : Panda03', 'Avis : ok'], ['Utilisateur : Emilien', 'Avis : ok'], ['Utilisateur : ', 'Avis : ok'], ['Utilisateur : choucroute', 'Avis : ok'], ['Utilisateur : Babar', 'Avis : ok'], ['Utilisateur : AnaisChefDeProjet', 'Avis : ok']]
+11/11/2024 18:25:30 - INFO     - long : 8
+11/11/2024 18:25:30 - INFO     - res : [RealDictRow([('id_avis', 1), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 2), ('id_utilisateur', 3), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 3), ('id_utilisateur', 4), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 4), ('id_utilisateur', 6), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 5), ('id_utilisateur', 7), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 6), ('id_utilisateur', 9), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 7), ('id_utilisateur', 10), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 8), ('id_utilisateur', 11), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 9), ('id_utilisateur', 12), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 12), ('id_utilisateur', 8), ('id_manga', 1), ('texte', 'blablabla')])]
+11/11/2024 18:25:30 - INFO     - liste_affichage : [['Utilisateur : Ananas35', 'Avis : ok'], ['Utilisateur : Enguerrand90', 'Avis : ok'], ['Utilisateur : Panda03', 'Avis : ok'], ['Utilisateur : Emilien', 'Avis : ok'], ['Utilisateur : ', 'Avis : ok'], ['Utilisateur : choucroute', 'Avis : ok'], ['Utilisateur : Babar', 'Avis : ok'], ['Utilisateur : AnaisChefDeProjet', 'Avis : ok'], ['Utilisateur : LynxMalin', 'Avis : ok'], ['Utilisateur : mavie03', 'Avis : blablabla']]
+11/11/2024 18:25:30 - INFO     - sous_liste : [['Utilisateur : Ananas35', 'Avis : ok'], ['Utilisateur : Enguerrand90', 'Avis : ok'], ['Utilisateur : Panda03', 'Avis : ok'], ['Utilisateur : Emilien', 'Avis : ok'], ['Utilisateur : ', 'Avis : ok'], ['Utilisateur : choucroute', 'Avis : ok'], ['Utilisateur : Babar', 'Avis : ok'], ['Utilisateur : AnaisChefDeProjet', 'Avis : ok']]
+11/11/2024 18:25:30 - INFO     - long : 8, res_entier : 1, res_reste : 0
+11/11/2024 18:25:30 - INFO     - choix : ['Retour au menu précédent', "Retour à l'accueil", 'Afficher la page suivante', 'Modifier votre avis sur ce manga']
+11/11/2024 18:25:32 - INFO     - long : 8, res_entier : 0, res_reste : 0
+11/11/2024 18:25:32 - INFO     - choix : ['Retour au menu précédent', "Retour à l'accueil", 'Modifier votre avis sur ce manga']
+11/11/2024 18:25:38 - INFO     - SelectionMangaVuerecherche
+11/11/2024 18:25:41 - INFO     - ConsulterAvisMangaVuerecherche
+11/11/2024 18:25:41 - INFO     - res : [RealDictRow([('id_avis', 1), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 2), ('id_utilisateur', 3), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 3), ('id_utilisateur', 4), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 4), ('id_utilisateur', 6), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 5), ('id_utilisateur', 7), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 6), ('id_utilisateur', 9), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 7), ('id_utilisateur', 10), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 8), ('id_utilisateur', 11), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 9), ('id_utilisateur', 12), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 12), ('id_utilisateur', 8), ('id_manga', 1), ('texte', 'blablabla')])]
+11/11/2024 18:25:41 - INFO     - liste_affichage : [['Utilisateur : Ananas35', 'Avis : ok'], ['Utilisateur : Enguerrand90', 'Avis : ok'], ['Utilisateur : Panda03', 'Avis : ok'], ['Utilisateur : Emilien', 'Avis : ok'], ['Utilisateur : ', 'Avis : ok'], ['Utilisateur : choucroute', 'Avis : ok'], ['Utilisateur : Babar', 'Avis : ok'], ['Utilisateur : AnaisChefDeProjet', 'Avis : ok'], ['Utilisateur : LynxMalin', 'Avis : ok'], ['Utilisateur : mavie03', 'Avis : blablabla']]
+11/11/2024 18:25:41 - INFO     - sous_liste : [['Utilisateur : Ananas35', 'Avis : ok'], ['Utilisateur : Enguerrand90', 'Avis : ok'], ['Utilisateur : Panda03', 'Avis : ok'], ['Utilisateur : Emilien', 'Avis : ok'], ['Utilisateur : ', 'Avis : ok'], ['Utilisateur : choucroute', 'Avis : ok'], ['Utilisateur : Babar', 'Avis : ok'], ['Utilisateur : AnaisChefDeProjet', 'Avis : ok']]
+11/11/2024 18:25:41 - INFO     - sous_liste : [['Utilisateur : Ananas35', 'Avis : ok'], ['Utilisateur : Enguerrand90', 'Avis : ok'], ['Utilisateur : Panda03', 'Avis : ok'], ['Utilisateur : Emilien', 'Avis : ok'], ['Utilisateur : ', 'Avis : ok'], ['Utilisateur : choucroute', 'Avis : ok'], ['Utilisateur : Babar', 'Avis : ok'], ['Utilisateur : AnaisChefDeProjet', 'Avis : ok']]
+11/11/2024 18:25:41 - INFO     - long : 8
+11/11/2024 18:25:41 - INFO     - res : [RealDictRow([('id_avis', 1), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 2), ('id_utilisateur', 3), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 3), ('id_utilisateur', 4), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 4), ('id_utilisateur', 6), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 5), ('id_utilisateur', 7), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 6), ('id_utilisateur', 9), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 7), ('id_utilisateur', 10), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 8), ('id_utilisateur', 11), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 9), ('id_utilisateur', 12), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 12), ('id_utilisateur', 8), ('id_manga', 1), ('texte', 'blablabla')])]
+11/11/2024 18:25:41 - INFO     - liste_affichage : [['Utilisateur : Ananas35', 'Avis : ok'], ['Utilisateur : Enguerrand90', 'Avis : ok'], ['Utilisateur : Panda03', 'Avis : ok'], ['Utilisateur : Emilien', 'Avis : ok'], ['Utilisateur : ', 'Avis : ok'], ['Utilisateur : choucroute', 'Avis : ok'], ['Utilisateur : Babar', 'Avis : ok'], ['Utilisateur : AnaisChefDeProjet', 'Avis : ok'], ['Utilisateur : LynxMalin', 'Avis : ok'], ['Utilisateur : mavie03', 'Avis : blablabla']]
+11/11/2024 18:25:41 - INFO     - sous_liste : [['Utilisateur : Ananas35', 'Avis : ok'], ['Utilisateur : Enguerrand90', 'Avis : ok'], ['Utilisateur : Panda03', 'Avis : ok'], ['Utilisateur : Emilien', 'Avis : ok'], ['Utilisateur : ', 'Avis : ok'], ['Utilisateur : choucroute', 'Avis : ok'], ['Utilisateur : Babar', 'Avis : ok'], ['Utilisateur : AnaisChefDeProjet', 'Avis : ok']]
+11/11/2024 18:25:41 - INFO     - long : 8, res_entier : 1, res_reste : 0
+11/11/2024 18:25:41 - INFO     - choix : ['Retour au menu précédent', "Retour à l'accueil", 'Afficher la page suivante', 'Modifier votre avis sur ce manga']
+11/11/2024 18:25:50 - INFO     - SelectionMangaVuerecherche
+11/11/2024 18:25:54 - INFO     - ConsulterAvisMangaVuerecherche
+11/11/2024 18:25:54 - INFO     - res : [RealDictRow([('id_avis', 1), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 2), ('id_utilisateur', 3), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 3), ('id_utilisateur', 4), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 4), ('id_utilisateur', 6), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 5), ('id_utilisateur', 7), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 6), ('id_utilisateur', 9), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 7), ('id_utilisateur', 10), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 8), ('id_utilisateur', 11), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 9), ('id_utilisateur', 12), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 12), ('id_utilisateur', 8), ('id_manga', 1), ('texte', 'blablabla')])]
+11/11/2024 18:25:54 - INFO     - liste_affichage : [['Utilisateur : Ananas35', 'Avis : ok'], ['Utilisateur : Enguerrand90', 'Avis : ok'], ['Utilisateur : Panda03', 'Avis : ok'], ['Utilisateur : Emilien', 'Avis : ok'], ['Utilisateur : ', 'Avis : ok'], ['Utilisateur : choucroute', 'Avis : ok'], ['Utilisateur : Babar', 'Avis : ok'], ['Utilisateur : AnaisChefDeProjet', 'Avis : ok'], ['Utilisateur : LynxMalin', 'Avis : ok'], ['Utilisateur : mavie03', 'Avis : blablabla']]
+11/11/2024 18:25:54 - INFO     - sous_liste : [['Utilisateur : Ananas35', 'Avis : ok'], ['Utilisateur : Enguerrand90', 'Avis : ok'], ['Utilisateur : Panda03', 'Avis : ok'], ['Utilisateur : Emilien', 'Avis : ok'], ['Utilisateur : ', 'Avis : ok'], ['Utilisateur : choucroute', 'Avis : ok'], ['Utilisateur : Babar', 'Avis : ok'], ['Utilisateur : AnaisChefDeProjet', 'Avis : ok']]
+11/11/2024 18:25:54 - INFO     - sous_liste : [['Utilisateur : Ananas35', 'Avis : ok'], ['Utilisateur : Enguerrand90', 'Avis : ok'], ['Utilisateur : Panda03', 'Avis : ok'], ['Utilisateur : Emilien', 'Avis : ok'], ['Utilisateur : ', 'Avis : ok'], ['Utilisateur : choucroute', 'Avis : ok'], ['Utilisateur : Babar', 'Avis : ok'], ['Utilisateur : AnaisChefDeProjet', 'Avis : ok']]
+11/11/2024 18:25:54 - INFO     - long : 8
+11/11/2024 18:25:54 - INFO     - res : [RealDictRow([('id_avis', 1), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 2), ('id_utilisateur', 3), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 3), ('id_utilisateur', 4), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 4), ('id_utilisateur', 6), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 5), ('id_utilisateur', 7), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 6), ('id_utilisateur', 9), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 7), ('id_utilisateur', 10), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 8), ('id_utilisateur', 11), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 9), ('id_utilisateur', 12), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 12), ('id_utilisateur', 8), ('id_manga', 1), ('texte', 'blablabla')])]
+11/11/2024 18:25:54 - INFO     - liste_affichage : [['Utilisateur : Ananas35', 'Avis : ok'], ['Utilisateur : Enguerrand90', 'Avis : ok'], ['Utilisateur : Panda03', 'Avis : ok'], ['Utilisateur : Emilien', 'Avis : ok'], ['Utilisateur : ', 'Avis : ok'], ['Utilisateur : choucroute', 'Avis : ok'], ['Utilisateur : Babar', 'Avis : ok'], ['Utilisateur : AnaisChefDeProjet', 'Avis : ok'], ['Utilisateur : LynxMalin', 'Avis : ok'], ['Utilisateur : mavie03', 'Avis : blablabla']]
+11/11/2024 18:25:54 - INFO     - sous_liste : [['Utilisateur : Ananas35', 'Avis : ok'], ['Utilisateur : Enguerrand90', 'Avis : ok'], ['Utilisateur : Panda03', 'Avis : ok'], ['Utilisateur : Emilien', 'Avis : ok'], ['Utilisateur : ', 'Avis : ok'], ['Utilisateur : choucroute', 'Avis : ok'], ['Utilisateur : Babar', 'Avis : ok'], ['Utilisateur : AnaisChefDeProjet', 'Avis : ok']]
+11/11/2024 18:25:54 - INFO     - long : 8, res_entier : 1, res_reste : 0
+11/11/2024 18:25:54 - INFO     - choix : ['Retour au menu précédent', "Retour à l'accueil", 'Afficher la page suivante', 'Modifier votre avis sur ce manga']
+11/11/2024 18:26:04 - INFO     - long : 8, res_entier : 0, res_reste : 0
+11/11/2024 18:26:04 - INFO     - choix : ['Retour au menu précédent', "Retour à l'accueil", 'Modifier votre avis sur ce manga']
+11/11/2024 18:26:16 - INFO     - MenuUtilisateurVue
+11/11/2024 18:26:18 - INFO     - AccueilVue
+11/11/2024 18:26:20 - INFO     - Fin de l'application

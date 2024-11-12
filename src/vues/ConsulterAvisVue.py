@@ -25,7 +25,6 @@ class ConsulterAvisMangaVuerecherche(VueAbstraite):
         sous_liste, long, longueur_tot = AvisService().recuperer_avis_manga2(manga.id_manga, n, a)
         res_entier = long // 8
         res_reste = long % 8
-
         logging.info(f"sous_liste : {sous_liste}")
         logging.info(f"long : {long}")
 
@@ -33,6 +32,8 @@ class ConsulterAvisMangaVuerecherche(VueAbstraite):
             print(f"Aucun avis trouvé pour le manga '{manga.titre}'.")
 
         while n >= 0:
+
+            sous_liste, long, longueur_tot = AvisService().recuperer_avis_manga2(manga.id_manga, n, a)
 
             choix = ["Retour au menu précédent", "Retour à l'accueil"]
 
