@@ -221,7 +221,7 @@ class CollectionPhysiqueDAO:
             )
         return collection
 
-    def trouver_collec_phys_nom(self, nom) -> CollectionCoherente:
+    def trouver_collec_phys_nom(self, nom):
         """trouver une collection grâce à son nom
 
         Parameters
