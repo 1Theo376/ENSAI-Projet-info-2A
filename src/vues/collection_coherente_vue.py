@@ -2,6 +2,7 @@ from vues.vue_abstraite import VueAbstraite
 from InquirerPy import inquirer
 from vues.session import Session
 from service.recherche_service import RechercheService
+from dao.manga_dao import MangaDao
 
 
 class CollectionCoherenteVue(VueAbstraite):
@@ -37,24 +38,6 @@ class CollectionCoherenteVue(VueAbstraite):
         elif choix2 == "Afficher la page suivante":
             pass
 
-        choix3 = inquirer.select(
-            message="Que voulez vous faire dans votre collection Cohérente : ",
-            choices=[
-                "Consulter/Modifier les mangas de la collection",
-                "Modifier titre de la collection",
-                "Modifier description de la collection",
-                "Retour au menu précédent",
-            ],
-        ).execute()
-        if choix3 == "Consulter/Modifier les mangas de la collection":
-            from dao.collection_coherente_dao import CollectionCoherenteDAO
+        from vues.manga_collection_cohe import MangaCollectionCoherenteVue
 
-            print(CollectionCoherenteDAO().trouver_collec_cohe_nom(choix2))
-        if choix3 == "Modifier titre de la collection":
-            pass
-        if choix3 == "Modifier description de la collection":
-            pass
-        if choix3 == "Retour au menu précédent":
-            from vues.menu_utilisateur_vue import MenuUtilisateurVue
-
-            return MenuUtilisateurVue()
+        return MangaCollectionCoherenteVue().choisir_menu(choix2)
