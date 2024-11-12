@@ -221,29 +221,28 @@ class CollectionPhysiqueDAO:
             )
         return collection
 
-    def trouver_collec_phys_nom(self, nom) -> Collection_physique:
+    def trouver_collec_phys_nom(self, nom) -> CollectionCoherente:
         """trouver une collection grâce à son nom
 
         Parameters
         ----------
         nom : str
-            nom de la collection cohérente
+            nom de la collection physique
 
            Returns
            -------
-           collection : CollectionCoherente
-               renvoie la collection cohérente correspondant au nom
+           collection : CollectionPhysique
+               renvoie la collection physique correspondant au nom
         """
         try:
             with DBConnection().connection as connection:
                 with connection.cursor() as cursor:
                     cursor.execute(
-                        "SELECT id_collec_physique, description_collection, id_manga "
-                        "  FROM collection_physique                   "
-                        " JOIN association_manga_collection_physique "
-                        "USING(id_collec_physique) "
-                        "Join manga USING(id_manga)  "
-                        " WHERE titre_collection = %(titre_collection)s;  ",
+                        "SELECT id_collec_physique, description_collection, id_manga                   "
+                        "FROM collection_physique                                                     "
+                        "LEFT JOIN association_manga_collection_physique USING(id_collec_physique)    "
+                        "LEFT JOIN manga USING(id_manga)                                                "
+                        " WHERE titre_collection = %(titre_collection)s;                                ",
                         {"titre_collection": nom},
                     )
                     res = cursor.fetchall()
@@ -256,11 +255,82 @@ class CollectionPhysiqueDAO:
             for elt in res:
                 id = elt["id_collec_physique"]
                 desc = elt["description_collection"]
-                L_mangas.append(MangaDao().trouver_manga_par_id(elt["id_manga"]))
-            collection = Collection_physique(
-                id_collectionphysique=id,
+                if elt["id_manga"]:
+                    L_mangas.append(MangaDao().trouver_manga_par_id(elt["id_manga"]))
+                else:
+                    L_mangas = []
+            collection = CollectionPhysique(
+                id_collectioncoherente=id,
                 titre_collection=nom,
                 desc_collection=desc,
                 Liste_manga=L_mangas,
             )
         return collection
+
+    def modifier_titre(self, id_collection: int, nouveau_titre: str) -> bool:
+        """Modifier le titre d'une collection physique
+
+        Parameters
+        ----------
+        id_collection : int
+        identifiant de la collection
+
+        nouveau_titre : str
+        nouveau titre de la collection
+
+        Returns
+        -------
+
+        """
+
+        try:
+            with DBConnection().connection as connection:
+                with connection.cursor() as cursor:
+                    cursor.execute(
+                        "UPDATE collection_physique                       "
+                        "SET titre_collection = %(nouveau_titre)s           "
+                        "WHERE id_collec_physique = %(id_collection)s;     ",
+                        {
+                            "id_collection": id_collection,
+                            "nouveau_titre": nouveau_titre,
+                        },
+                    )
+                    res = cursor.rowcount
+        except Exception as e:
+            logging.info(e)
+            raise
+        return res > 0
+
+    def modifier_desc(self, id_collection: int, nouvelle_desc: str) -> bool:
+        """Modifie la description d'une collection physique
+
+        Parameters
+        ----------
+        id_collection : int
+        identifiant de la collection
+
+        nouvelle_desc : str
+        nouvelle description de la collection
+
+        Returns
+        -------
+
+        """
+
+        try:
+            with DBConnection().connection as connection:
+                with connection.cursor() as cursor:
+                    cursor.execute(
+                        "UPDATE collection_physique                       "
+                        "SET description_collection = %(nouvelle_desc)s           "
+                        "WHERE id_collec_physique = %(id_collection)s;     ",
+                        {
+                            "id_collection": id_collection,
+                            "nouvelle_desc": nouvelle_desc,
+                        },
+                    )
+                    res = cursor.rowcount
+        except Exception as e:
+            logging.info(e)
+            raise
+        return res > 0

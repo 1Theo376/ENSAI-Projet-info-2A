@@ -258,7 +258,7 @@ class CollectionCoherenteDAO:
                 if elt["id_manga"]:
                     L_mangas.append(MangaDao().trouver_manga_par_id(elt["id_manga"]))
                 else:
-                    L_mangas = None
+                    L_mangas = []
             collection = CollectionCoherente(
                 id_collectioncoherente=id,
                 titre_collection=nom,
