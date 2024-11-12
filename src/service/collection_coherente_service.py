@@ -31,7 +31,7 @@ class CollectionCoherenteService:
         """ """
         return CollectionCoherenteDAO().supprimer_manga(CollectionC, MangaC)
 
-    def ajouter_mangaposs(self, idcollec, idmanga) -> bool:
+    def ajouter_manga(self, idcollec, idmanga) -> bool:
         """ """
         CollectionC = CollectionCoherenteDAO().ajouter_manga(idcollec, idmanga)
         return CollectionC if CollectionCoherenteDAO().ajouter_manga(idcollec, idmanga) else None

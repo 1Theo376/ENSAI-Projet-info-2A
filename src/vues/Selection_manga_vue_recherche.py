@@ -29,7 +29,8 @@ class SelectionMangaVuerecherche(VueAbstraite):
 
         match choix4:
             case "Ajouter à une collection":
-                pass
+                from vues.AjouterMangaCollec import AjouterMangaCollecVuerecherche
+                return AjouterMangaCollecVuerecherche().choisir_menu(choix)
             case "Afficher les informations du manga":
                 print(
                     "\n" + "-" * 50 + "\nInformation du manga\n" + "-" * 50 + "\n"

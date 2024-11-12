@@ -12,6 +12,7 @@ from service.collection_physique_service import Collection_physique_service
 from dao.collection_coherente_dao import CollectionCoherenteDAO
 from dao.collection_physique_dao import CollectionPhysiqueDAO
 
+
 class AjouterMangaCollecVuerecherche(VueAbstraite):
     def choisir_menu(self, choix3):
         """Choix du menu suivant de l'utilisateur
@@ -23,42 +24,68 @@ class AjouterMangaCollecVuerecherche(VueAbstraite):
         """
         manga = MangaDao().trouver_manga_par_titre(choix3)
         print("\n" + "-" * 50 + "\nManga :", manga.titre, " \n" + "-" * 50 + "\n")
-        id_utilisateur = UtilisateurDao().recherche_id_par_pseudo(Session().utilisateur.id)
+
+        id_utilisateur = Session().utilisateur.id
         choix = []
+
         listecolleccohe = RechercheService().recherche_collec_cohe_par_id(id_utilisateur)
-        if RechercheService().recherche_collec_phys_par_id(Session().utilisateur.id):
-            choix.append(RechercheService().recherche_collec_phys_par_id(Session().utilisateur.id))
-        listecollections = choix+listecolleccohe
+        logging.info(f"listecolleccohe type: {type(listecolleccohe)}, contenu: {listecolleccohe}")
+
+        collection_physique = RechercheService().recherche_collec_phys_par_id(Session().utilisateur.id)
+        logging.info(f"collection_physique type: {type(collection_physique)}, contenu: {collection_physique}")
+
+        if collection_physique:
+            choix.append(collection_physique)
+            logging.info(f"Contenu de `choix` après ajout de collection_physique: {choix}")
+
+        listecollections = choix + listecolleccohe
+        logging.info(f"listecollections: {listecollections}")
+
         if not listecollections:
             print("Aucune collection trouvée")
             from vues.menu_utilisateur_vue import MenuUtilisateurVue
             return MenuUtilisateurVue()
+
         choices = []
         for i in range(len(listecollections)):
-            if listecollections[0] == RechercheService().recherche_collec_phys_par_id(Session().utilisateur.id):
-                choix.append(RechercheService().recherche_collec_phys_par_id(Session().utilisateur.id))
-                option = f"Dans votre collection physique : {listecollections[0]}"
-                choices.append(option)
-            else:
-                option2 = f"Dans votre collection cohérente : {listecollections[i]}"
-                choices.append(option2)
+            if isinstance(listecollections[i], str):
+                if listecollections[0] == collection_physique:
+                    option = f"Dans votre collection physique : {listecollections[0]}"
+                    logging.info(f"Ajout de l'option physique : {option}")
+                    choices.append(option)
+                else:
+                    option2 = f"Dans votre collection cohérente : {listecollections[i]}"
+                    logging.info(f"Ajout de l'option cohérente : {option2}")
+                    choices.append(option2)
+
         choices.extend(["Retour au menu précédent", "Retour vers l'écran d'accueil"])
+        logging.info(f"Choices avant inquirer: {choices}")
+
         choixp = inquirer.select(
-                            message="Dans quelle collection?",
-                            choices=choices,
-                        ).execute()
+            message="Dans quelle collection ?",
+            choices=choices,
+        ).execute()
+
         if choixp == "Retour au menu précédent":
             pass
-        if choixp == "Retour vers l'écran d'accueil":
+        elif choixp == "Retour vers l'écran d'accueil":
             pass
         else:
-            if choixp == listecollections[0]:
-                nom = choix.split(": ")[1]
+            nom = choixp.split(": ")[1]
+            logging.info(f"Nom de la collection choisi: {nom}")
+
+            if nom == collection_physique:
                 collection = CollectionPhysiqueDAO().trouver_collec_phys_nom(nom)
-                Collection_physique_service().ajouter_mangaposs(collection.id_collectioncoherente, manga.id_manga)
+                Collection_physique_service().ajouter_manga(
+                    collection.id_collectioncoherente, manga.id_manga
+                )
                 from vues.Selection_manga_vue_recherche import SelectionMangaVuerecherche
                 return SelectionMangaVuerecherche().choisir_menu(choix3)
             else:
-                nom = choix.split(": ")[1]
                 collection = CollectionCoherenteDAO().trouver_collec_cohe_nom(nom)
-                CollectionCoherenteService().ajouter_mangaposs(collection.id_collectioncoherente, manga.id_manga)
+                logging.info(f"Collection cohérente trouvée : {nom}, {collection}")
+                CollectionCoherenteService().ajouter_manga(
+                    collection.id_collectioncoherente, manga.id_manga
+                )
+                from vues.Selection_manga_vue_recherche import SelectionMangaVuerecherche
+                return SelectionMangaVuerecherche().choisir_menu(choix3)
