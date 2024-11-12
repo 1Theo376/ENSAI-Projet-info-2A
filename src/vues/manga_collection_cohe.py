@@ -3,6 +3,7 @@ from InquirerPy import inquirer
 from vues.session import Session
 from dao.collection_coherente_dao import CollectionCoherenteDAO
 from dao.manga_dao import MangaDao
+import logging
 
 
 class MangaCollectionCoherenteVue(VueAbstraite):
@@ -18,13 +19,14 @@ class MangaCollectionCoherenteVue(VueAbstraite):
             message="Que voulez vous faire dans votre collection Cohérente : ",
             choices=[
                 "Consulter/Modifier les mangas de la collection",
-                "Modifier titre de la collection",
-                "Modifier description de la collection",
+                "Consulter la description de la collection",
+                "Modifier le titre de la collection",
+                "Modifier la description de la collection",
                 "Retour au menu précédent",
             ],
         ).execute()
-        if choix3 == "Consulter/Modifier les mangas de la collection":
 
+        if choix3 == "Consulter/Modifier les mangas de la collection":
             liste_titre = []
             for manga in (CollectionCoherenteDAO().trouver_collec_cohe_nom(choix2)).Liste_manga:
                 liste_titre.append(manga.titre)
@@ -34,13 +36,27 @@ class MangaCollectionCoherenteVue(VueAbstraite):
             ).execute()
             return self.choisir_menu_bis(choix2, choix4)
 
-        if choix3 == "Modifier titre de la collection":
-            pass
-        if choix3 == "Modifier description de la collection":
-            pass
+        if choix3 == "Consulter la description de la collection":
+            description = CollectionCoherenteDAO().trouver_collec_cohe_nom(choix2).desc_collection
+            print(print("\n" + "-"*50 + "\n" + description + "\n" + "-"*50 + "\n"))
+            return self.choisir_menu(choix2)
+
+        if choix3 == "Modifier le titre de la collection":
+            id_collection = CollectionCoherenteDAO().trouver_collec_cohe_nom(choix2).id_collectioncoherente
+            nouveau_titre = inquirer.text(message="Entrer le nouveau titre : ").execute()
+            CollectionCoherenteDAO().modifier_titre(id_collection, nouveau_titre)
+            print("\n" + "Titre modifié." + "\n")
+            return self.choisir_menu(choix2)
+
+        if choix3 == "Modifier la description de la collection":
+            id_collection = CollectionCoherenteDAO().trouver_collec_cohe_nom(choix2).id_collectioncoherente
+            nouvelle_desc = inquirer.text(message="Entrer la nouvelle description : ").execute()
+            CollectionCoherenteDAO().modifier_desc(id_collection, nouvelle_desc)
+            print("\n" + "Description modifiée." + "\n")
+            return self.choisir_menu(choix2)
+
         if choix3 == "Retour au menu précédent":
             from vues.collection_coherente_vue import CollectionCoherenteVue
-
             return CollectionCoherenteVue()
 
     def choisir_menu_bis(self, choix2, choix4):
@@ -82,5 +98,6 @@ class MangaCollectionCoherenteVue(VueAbstraite):
             else:
                 print("Vous n'avez pas encore écrit d'avis sur ce manga. ")
             return self.choisir_menu_bis(choix2, choix4)
+
         if choix5 == "Retour au menu précédent":
             return self.choisir_menu(choix2)

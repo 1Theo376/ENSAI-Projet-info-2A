@@ -93,7 +93,6 @@ class AvisService:
 
         for i in range(len(liste_avis)):
             liste_affichage.append([f"Utilisateur : {liste_pseudo[i]}", f"Avis : {liste_avis[i]}"])  # f"Utilisateur : {liste_pseudo[i]} Avis : {liste_avis[i]}"
-        logging.info(f"liste_affichage : {liste_affichage}")
 
         if len(liste_affichage) >= 8:
             sous_liste = liste_affichage[n: n + 8 + a]
@@ -101,8 +100,6 @@ class AvisService:
             sous_liste = liste_affichage
         longueur = len(sous_liste)
         longueur_tot = len(liste_affichage)
-
-        logging.info(f"sous_liste : {sous_liste}")
 
         return sous_liste, longueur, longueur_tot
 

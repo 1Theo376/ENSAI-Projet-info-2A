@@ -238,12 +238,11 @@ class CollectionCoherenteDAO:
             with DBConnection().connection as connection:
                 with connection.cursor() as cursor:
                     cursor.execute(
-                        "SELECT coll.id_collec_coherente, coll.description_collection, manga.id_manga "
-                        "  FROM collection_coherente as coll                    "
-                        " JOIN association_manga_collection_coherente as asso "
-                        "ON asso.id_collec_coherente = coll.id_collec_coherente "
-                        "Join manga ON manga.id_manga = asso.id_manga "
-                        " WHERE titre_collection = %(titre_collection)s;  ",
+                        "SELECT id_collec_coherente, description_collection, id_manga                   "
+                        "FROM collection_coherente                                                      "
+                        "LEFT JOIN association_manga_collection_coherente USING(id_collec_coherente)    "
+                        "LEFT JOIN manga USING(id_manga)                                                "
+                        " WHERE titre_collection = %(titre_collection)s;                                ",
                         {"titre_collection": nom},
                     )
                     res = cursor.fetchall()
@@ -256,7 +255,10 @@ class CollectionCoherenteDAO:
             for elt in res:
                 id = elt["id_collec_coherente"]
                 desc = elt["description_collection"]
-                L_mangas.append(MangaDao().trouver_manga_par_id(elt["id_manga"]))
+                if elt["id_manga"]:
+                    L_mangas.append(MangaDao().trouver_manga_par_id(elt["id_manga"]))
+                else:
+                    L_mangas = None
             collection = CollectionCoherente(
                 id_collectioncoherente=id,
                 titre_collection=nom,
@@ -264,3 +266,71 @@ class CollectionCoherenteDAO:
                 Liste_manga=L_mangas,
             )
         return collection
+
+    def modifier_titre(self, id_collection: int, nouveau_titre: str) -> bool:
+        """Modifier le titre d'une collection cohérente
+
+        Parameters
+        ----------
+        id_collection : int
+        identifiant de la collection
+
+        nouveau_titre : str
+        nouveau titre de la collection
+
+        Returns
+        -------
+
+        """
+
+        try:
+            with DBConnection().connection as connection:
+                with connection.cursor() as cursor:
+                    cursor.execute(
+                        "UPDATE collection_coherente                        "
+                        "SET titre_collection = %(nouveau_titre)s           "
+                        "WHERE id_collec_coherente = %(id_collection)s;     ",
+                        {
+                            "id_collection": id_collection,
+                            "nouveau_titre": nouveau_titre,
+                        },
+                    )
+                    res = cursor.rowcount
+        except Exception as e:
+            logging.info(e)
+            raise
+        return res > 0
+
+    def modifier_desc(self, id_collection: int, nouvelle_desc: str) -> bool:
+        """Modifie la description d'une collection cohérente
+
+        Parameters
+        ----------
+        id_collection : int
+        identifiant de la collection
+
+        nouvelle_desc : str
+        nouvelle description de la collection
+
+        Returns
+        -------
+
+        """
+
+        try:
+            with DBConnection().connection as connection:
+                with connection.cursor() as cursor:
+                    cursor.execute(
+                        "UPDATE collection_coherente                        "
+                        "SET description_collection = %(nouvelle_desc)s           "
+                        "WHERE id_collec_coherente = %(id_collection)s;     ",
+                        {
+                            "id_collection": id_collection,
+                            "nouvelle_desc": nouvelle_desc,
+                        },
+                    )
+                    res = cursor.rowcount
+        except Exception as e:
+            logging.info(e)
+            raise
+        return res > 0
