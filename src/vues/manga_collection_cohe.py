@@ -1,7 +1,6 @@
 from vues.vue_abstraite import VueAbstraite
 from InquirerPy import inquirer
 from vues.session import Session
-from service.recherche_service import RechercheService
 from dao.collection_coherente_dao import CollectionCoherenteDAO
 from dao.manga_dao import MangaDao
 
