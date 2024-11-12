@@ -22,7 +22,7 @@ class RechercheService:
         res = MangaDao().rechercher_manga_par_titre(titre)
         if res:
             liste = [j.titre for j in res]
-            sous_liste = liste[n : n + 8]
+            sous_liste = liste[n: n + 8]
             return sous_liste if sous_liste else "Aucun manga trouvé."
         return "Aucun manga trouvé."
 
