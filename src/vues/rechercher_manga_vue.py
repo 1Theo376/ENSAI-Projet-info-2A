@@ -34,7 +34,7 @@ class RechercheMangaVue(VueAbstraite):
                         choix2 = ["Retour au menu précédent"]
                         choix3 = inquirer.select(
                             message="Faites votre choix : ",
-                            choices=choix2,
+                            choices=choix2
                         ).execute()
 
                     else:

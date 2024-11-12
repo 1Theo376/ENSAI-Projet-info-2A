@@ -67,7 +67,7 @@ class RechercheUtilisateurVue(VueAbstraite):
                     if choix3 == "Retour au menu précédent":
                         from vues.menu_utilisateur_vue import MenuUtilisateurVue
 
-                        return MenuUtilisateurVue()
+                        return MenuUtilisateurVue().choisir_menu()
 
                     elif choix3 == "Afficher la page suivante":
                         if res_entier != 0:
