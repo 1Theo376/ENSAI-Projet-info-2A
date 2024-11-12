@@ -81,8 +81,21 @@ class CollectionCoherenteVue(VueAbstraite):
                 return CollectionCoherenteVue()
 
             if choix5 == "Consulter son avis sur ce manga":
-                pass
+                from service.avis_service import AvisService
+                from dao.avis_dao import AvisDAO
 
+                if AvisDAO().AvisUtilisateurMangaExistant(
+                    Session().utilisateur.id, MangaDao().trouver_manga_par_titre(choix4).id_manga
+                ):
+                    print(
+                        AvisService().recuperer_avis_user_manga(
+                            MangaDao().trouver_manga_par_titre(choix4).id_manga,
+                            Session().utilisateur.id,
+                        )
+                    )
+                else:
+                    print("Vous n'avez pas encore écrit d'avis sur ce manga. ")
+                return CollectionCoherenteVue()
             if choix5 == "Retour au menu précédent":
                 return CollectionCoherenteVue()
 
