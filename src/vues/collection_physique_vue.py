@@ -18,6 +18,7 @@ class CollectionPhysiqueVue(VueAbstraite):
             message="Que voulez vous faire dans votre collection Physique : ",
             choices=[
                 "Consulter/Modifier les mangas de la collection",
+                "Consulter la description de la collection",
                 "Modifier titre de la collection",
                 "Modifier description de la collection",
                 "Retour au menu précédent",
@@ -36,14 +37,39 @@ class CollectionPhysiqueVue(VueAbstraite):
             ).execute()
             return self.choisir_menu_bis(choix4)
 
-        if choix3 == "Modifier titre de la collection":
-            pass
-        if choix3 == "Modifier description de la collection":
-            pass
-        if choix3 == "Retour au menu précédent":
-            from vues.menu_utilisateur_vue import MenuUtilisateurVue
+        if choix3 == "Consulter la description de la collection":
+            description = (
+                CollectionPhysiqueDAO()
+                .trouver_collec_phys_id_user(Session().utilisateur.id)
+                .description_collection
+            )
+            print(print("\n" + "-" * 50 + "\n" + description + "\n" + "-" * 50 + "\n"))
+            return self.choisir_menu()
 
-            return MenuUtilisateurVue()
+        if choix3 == "Modifier titre de la collection":
+            id_collection = (
+                CollectionPhysiqueDAO()
+                .trouver_collec_phys_id_user(Session().utilisateur.id)
+                .id_collectionphysique
+            )
+            nouveau_titre = inquirer.text(message="Entrer le nouveau titre : ").execute()
+            CollectionPhysiqueDAO().modifier_titre(id_collection, nouveau_titre)
+            print("\n" + "Titre modifié." + "\n")
+            return self.choisir_menu()
+        if choix3 == "Modifier description de la collection":
+            id_collection = (
+                CollectionPhysiqueDAO()
+                .trouver_collec_phys_id_user(Session().utilisateur.id)
+                .id_collectionphysique
+            )
+            nouvelle_desc = inquirer.text(message="Entrer la nouvelle description : ").execute()
+            CollectionPhysiqueDAO().modifier_desc(id_collection, nouvelle_desc)
+            print("\n" + "Description modifiée." + "\n")
+            return self.choisir_menu()
+        if choix3 == "Retour au menu précédent":
+            from vues.profil_utilisateur_vue import EcranDuProfilVue
+
+            return EcranDuProfilVue()
 
     def choisir_menu_bis(self, choix4):
         choix5 = inquirer.select(

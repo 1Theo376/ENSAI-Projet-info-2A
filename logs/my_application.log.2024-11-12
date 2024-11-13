@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 12/11/2024 18:32:16 - INFO     - --------------------------------------------------
 12/11/2024 18:32:16 - INFO     - Lancement Application                           
 12/11/2024 18:32:16 - INFO     - --------------------------------------------------
@@ -725,3 +726,231 @@ DETAIL:  La clé « (id_manga, id_collec_coherente)=(1, 6) » existe déjà.
 12/11/2024 21:56:18 - INFO     - MenuUtilisateurVue
 12/11/2024 21:56:19 - INFO     - AccueilVue
 12/11/2024 21:56:20 - INFO     - Fin de l'application
+=======
+12/11/2024 16:19:24 - INFO     - --------------------------------------------------
+12/11/2024 16:19:24 - INFO     - Lancement Application                           
+12/11/2024 16:19:24 - INFO     - --------------------------------------------------
+12/11/2024 16:19:24 - INFO     - AccueilVue
+12/11/2024 16:19:32 - INFO     - ConnexionVue
+12/11/2024 16:19:39 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+12/11/2024 16:19:39 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+12/11/2024 16:19:39 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x00000274D3CB9D50>
+12/11/2024 16:19:39 - INFO     - MenuUtilisateurVue
+12/11/2024 16:19:41 - INFO     - EcranDuProfilVue
+12/11/2024 16:19:44 - INFO     - CollectionCoherenteVue
+12/11/2024 16:19:51 - INFO     - MenuUtilisateurVue
+12/11/2024 16:19:52 - INFO     - RechercheVue
+12/11/2024 16:19:53 - INFO     - RechercheMangaVue
+12/11/2024 16:20:00 - INFO     - choix2 : ['One Piece', 'Wanted! Eiichiro Oda Before One Piece', 'One Piece: Shokugeki no Sanji', 'One Piece: Boichi Covers Zolo vs. Mihawk', "One Piece: Ace's Story", "One Piece: Ace's Story", "One Piece: Vivi's Adventure", 'One Piece: Heroines']
+12/11/2024 16:20:10 - INFO     - SelectionMangaVuerecherche
+12/11/2024 16:20:17 - INFO     - ConsulterAvisMangaVuerecherche
+12/11/2024 16:20:17 - INFO     - res : [RealDictRow([('id_avis', 11), ('id_utilisateur', 1), ('id_manga', 11), ('texte', 'Ce manga est super !')])]
+12/11/2024 16:20:17 - INFO     - liste_avis : [<business_object.avis.Avis object at 0x00000274D42C49A0>]
+12/11/2024 16:20:17 - INFO     - liste_user : [1]
+12/11/2024 16:20:17 - INFO     - i : 1
+12/11/2024 16:20:17 - INFO     - manga : Ananas35
+12/11/2024 16:20:25 - INFO     - SelectionMangaVuerecherche
+12/11/2024 16:21:23 - INFO     - RechercheMangaVue
+12/11/2024 16:21:24 - INFO     - Fin de l'application
+12/11/2024 16:35:59 - INFO     - --------------------------------------------------
+12/11/2024 16:35:59 - INFO     - Lancement Application                           
+12/11/2024 16:35:59 - INFO     - --------------------------------------------------
+12/11/2024 16:35:59 - INFO     - AccueilVue
+12/11/2024 16:36:01 - INFO     - ConnexionVue
+12/11/2024 16:36:06 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+12/11/2024 16:36:06 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+12/11/2024 16:36:06 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000020157CA5A80>
+12/11/2024 16:36:06 - INFO     - MenuUtilisateurVue
+12/11/2024 16:36:08 - INFO     - EcranDuProfilVue
+12/11/2024 16:36:13 - INFO     - CollectionCoherenteVue
+12/11/2024 16:36:21 - INFO     - CollectionCoherenteVue
+12/11/2024 16:37:06 - INFO     - CollectionCoherenteVue
+12/11/2024 16:37:27 - INFO     - CollectionCoherenteVue
+12/11/2024 16:37:35 - INFO     - CollectionCoherenteVue
+12/11/2024 16:38:47 - INFO     - CollectionCoherenteVue
+12/11/2024 16:38:52 - INFO     - MenuUtilisateurVue
+12/11/2024 16:38:53 - INFO     - AccueilVue
+12/11/2024 16:38:54 - INFO     - Fin de l'application
+12/11/2024 16:38:57 - INFO     - --------------------------------------------------
+12/11/2024 16:38:57 - INFO     - Lancement Application                           
+12/11/2024 16:38:57 - INFO     - --------------------------------------------------
+12/11/2024 16:38:57 - INFO     - AccueilVue
+12/11/2024 16:38:58 - INFO     - ConnexionVue
+12/11/2024 16:39:05 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+12/11/2024 16:39:05 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+12/11/2024 16:39:05 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000025CF2FADCC0>
+12/11/2024 16:39:05 - INFO     - MenuUtilisateurVue
+12/11/2024 16:39:06 - INFO     - EcranDuProfilVue
+12/11/2024 16:39:07 - INFO     - CollectionCoherenteVue
+12/11/2024 16:39:12 - INFO     - CollectionCoherenteVue
+12/11/2024 16:39:18 - INFO     - MenuUtilisateurVue
+12/11/2024 16:39:20 - INFO     - AccueilVue
+12/11/2024 16:39:21 - INFO     - Fin de l'application
+12/11/2024 17:34:26 - INFO     - --------------------------------------------------
+12/11/2024 17:34:26 - INFO     - Lancement Application                           
+12/11/2024 17:34:26 - INFO     - --------------------------------------------------
+12/11/2024 17:34:26 - INFO     - AccueilVue
+12/11/2024 17:34:29 - INFO     - ConnexionVue
+12/11/2024 17:34:36 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+12/11/2024 17:34:36 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+12/11/2024 17:34:36 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000014C3394DCC0>
+12/11/2024 17:34:36 - INFO     - MenuUtilisateurVue
+12/11/2024 17:34:53 - INFO     - EcranDuProfilVue
+12/11/2024 17:35:14 - INFO     - CollectionCoherenteVue
+12/11/2024 17:35:15 - INFO     - No module named 'vue'
+12/11/2024 17:35:15 - INFO     - AccueilVue
+12/11/2024 17:43:51 - INFO     - Fin de l'application
+12/11/2024 17:50:18 - INFO     - --------------------------------------------------
+12/11/2024 17:50:18 - INFO     - Lancement Application                           
+12/11/2024 17:50:18 - INFO     - --------------------------------------------------
+12/11/2024 17:50:18 - INFO     - AccueilVue
+12/11/2024 17:50:19 - INFO     - ConnexionVue
+12/11/2024 17:50:25 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+12/11/2024 17:50:25 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+12/11/2024 17:50:25 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000025B44779CC0>
+12/11/2024 17:50:25 - INFO     - MenuUtilisateurVue
+12/11/2024 17:50:26 - INFO     - EcranDuProfilVue
+12/11/2024 17:50:30 - INFO     - CollectionCoherenteVue
+12/11/2024 17:50:31 - INFO     - MangaCollectionCoherenteVue
+12/11/2024 17:51:31 - INFO     - CollectionCoherenteVue
+12/11/2024 17:56:50 - INFO     - --------------------------------------------------
+12/11/2024 17:56:50 - INFO     - Lancement Application                           
+12/11/2024 17:56:50 - INFO     - --------------------------------------------------
+12/11/2024 17:56:50 - INFO     - AccueilVue
+12/11/2024 17:56:53 - INFO     - ConnexionVue
+12/11/2024 17:56:58 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+12/11/2024 17:56:58 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+12/11/2024 17:56:58 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001DFAD8FDA80>
+12/11/2024 17:56:58 - INFO     - MenuUtilisateurVue
+12/11/2024 17:56:59 - INFO     - EcranDuProfilVue
+12/11/2024 17:57:03 - INFO     - CollectionCoherenteVue
+12/11/2024 17:57:04 - INFO     - MangaCollectionCoherenteVue
+12/11/2024 17:58:02 - INFO     - CollectionCoherenteVue
+12/11/2024 17:58:05 - INFO     - MenuUtilisateurVue
+12/11/2024 17:58:06 - INFO     - AccueilVue
+12/11/2024 17:58:07 - INFO     - Fin de l'application
+12/11/2024 18:00:07 - INFO     - --------------------------------------------------
+12/11/2024 18:00:07 - INFO     - Lancement Application                           
+12/11/2024 18:00:07 - INFO     - --------------------------------------------------
+12/11/2024 18:00:07 - INFO     - AccueilVue
+12/11/2024 18:00:09 - INFO     - ConnexionVue
+12/11/2024 18:00:13 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+12/11/2024 18:00:13 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+12/11/2024 18:00:13 - INFO     -        └─> Sortie : None
+12/11/2024 18:00:13 - INFO     - AccueilVue
+12/11/2024 18:00:14 - INFO     - ConnexionVue
+12/11/2024 18:00:18 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+12/11/2024 18:00:18 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+12/11/2024 18:00:19 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000019514E951B0>
+12/11/2024 18:00:19 - INFO     - MenuUtilisateurVue
+12/11/2024 18:00:19 - INFO     - EcranDuProfilVue
+12/11/2024 18:00:20 - INFO     - CollectionCoherenteVue
+12/11/2024 18:00:21 - INFO     - MangaCollectionCoherenteVue
+12/11/2024 18:01:10 - INFO     - CollectionCoherenteVue
+12/11/2024 18:01:13 - INFO     - MenuUtilisateurVue
+12/11/2024 18:01:15 - INFO     - AccueilVue
+12/11/2024 18:01:23 - INFO     - Fin de l'application
+12/11/2024 18:06:19 - INFO     - --------------------------------------------------
+12/11/2024 18:06:19 - INFO     - Lancement Application                           
+12/11/2024 18:06:19 - INFO     - --------------------------------------------------
+12/11/2024 18:06:19 - INFO     - AccueilVue
+12/11/2024 18:06:20 - INFO     - ConnexionVue
+12/11/2024 18:06:26 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+12/11/2024 18:06:26 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+12/11/2024 18:06:26 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001F1A0ED9A80>
+12/11/2024 18:06:26 - INFO     - MenuUtilisateurVue
+12/11/2024 18:06:28 - INFO     - EcranDuProfilVue
+12/11/2024 18:06:31 - INFO     - CollectionCoherenteVue
+12/11/2024 18:06:32 - INFO     - MangaCollectionCoherenteVue
+12/11/2024 18:06:44 - INFO     - CollectionCoherenteVue
+12/11/2024 18:06:47 - INFO     - MangaCollectionCoherenteVue
+12/11/2024 18:06:50 - INFO     - CollectionCoherenteVue
+12/11/2024 18:06:53 - INFO     - MenuUtilisateurVue
+12/11/2024 18:06:54 - INFO     - AccueilVue
+12/11/2024 18:07:00 - INFO     - Fin de l'application
+12/11/2024 18:19:50 - INFO     - --------------------------------------------------
+12/11/2024 18:19:50 - INFO     - Lancement Application                           
+12/11/2024 18:19:50 - INFO     - --------------------------------------------------
+12/11/2024 18:19:50 - INFO     - AccueilVue
+12/11/2024 18:19:51 - INFO     - ConnexionVue
+12/11/2024 18:19:57 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+12/11/2024 18:19:57 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+12/11/2024 18:19:57 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001E925BFDCC0>
+12/11/2024 18:19:57 - INFO     - MenuUtilisateurVue
+12/11/2024 18:19:58 - INFO     - EcranDuProfilVue
+12/11/2024 18:19:59 - INFO     - CollectionCoherenteVue
+12/11/2024 18:20:03 - INFO     - MangaCollectionCoherenteVue
+12/11/2024 18:20:08 - INFO     - CollectionCoherenteVue
+12/11/2024 18:20:09 - INFO     - MenuUtilisateurVue
+12/11/2024 18:20:11 - INFO     - EcranDuProfilVue
+12/11/2024 18:20:15 - INFO     - cannot import name 'CollectionPhysiqueVue' from 'vues.collection_physique_vue' (p:\Cours2A\projet_info\ENSAI-Projet-info-2A\src\vues\collection_physique_vue.py)
+12/11/2024 18:20:15 - INFO     - AccueilVue
+12/11/2024 18:20:49 - INFO     - Fin de l'application
+12/11/2024 18:20:53 - INFO     - --------------------------------------------------
+12/11/2024 18:20:53 - INFO     - Lancement Application                           
+12/11/2024 18:20:53 - INFO     - --------------------------------------------------
+12/11/2024 18:20:53 - INFO     - AccueilVue
+12/11/2024 18:20:55 - INFO     - ConnexionVue
+12/11/2024 18:21:00 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+12/11/2024 18:21:00 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+12/11/2024 18:21:00 - INFO     -        └─> Sortie : None
+12/11/2024 18:21:00 - INFO     - AccueilVue
+12/11/2024 18:21:02 - INFO     - ConnexionVue
+12/11/2024 18:21:09 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+12/11/2024 18:21:09 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+12/11/2024 18:21:09 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000023678E89420>
+12/11/2024 18:21:09 - INFO     - MenuUtilisateurVue
+12/11/2024 18:21:10 - INFO     - EcranDuProfilVue
+12/11/2024 18:21:13 - INFO     - CollectionCoherenteVue
+12/11/2024 18:21:15 - INFO     - MenuUtilisateurVue
+12/11/2024 18:21:16 - INFO     - EcranDuProfilVue
+12/11/2024 18:21:26 - INFO     - CollectionPhysiqueVue
+12/11/2024 18:21:32 - INFO     - 'NoneType' object is not iterable
+12/11/2024 18:21:32 - INFO     - AccueilVue
+12/11/2024 18:21:42 - INFO     - ConnexionVue
+12/11/2024 18:21:49 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+12/11/2024 18:21:49 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+12/11/2024 18:21:49 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000023678E88610>
+12/11/2024 18:21:49 - INFO     - MenuUtilisateurVue
+12/11/2024 18:21:50 - INFO     - EcranDuProfilVue
+12/11/2024 18:22:24 - INFO     - EcranDuProfilVue
+12/11/2024 18:22:39 - INFO     - CollectionPhysiqueVue
+12/11/2024 18:22:44 - INFO     - MenuUtilisateurVue
+12/11/2024 18:22:46 - INFO     - RechercheVue
+12/11/2024 18:22:47 - INFO     - RechercheMangaVue
+12/11/2024 18:22:51 - INFO     - choix2 : ['Naruto', 'Naruto: Innocent Heart, Demonic Blood', "Naruto: Itachi's Story", 'Naruto - Mission: Protect the Waterfall Village!', "Naruto: Chibi Sasuke's Sharingan Legend", 'Naruto: The Seventh Hokage and the Scarlet Spring', 'Boruto: Naruto Next Generations', 'Naruto: The Path Lit by the Full Moon']
+12/11/2024 18:22:52 - INFO     - SelectionMangaVuerecherche
+12/11/2024 18:22:54 - INFO     - Fin de l'application
+12/11/2024 18:23:05 - INFO     - --------------------------------------------------
+12/11/2024 18:23:05 - INFO     - Lancement Application                           
+12/11/2024 18:23:05 - INFO     - --------------------------------------------------
+12/11/2024 18:23:05 - INFO     - AccueilVue
+12/11/2024 18:23:07 - INFO     - ConnexionVue
+12/11/2024 18:23:11 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+12/11/2024 18:23:11 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+12/11/2024 18:23:11 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x00000131FB959A80>
+12/11/2024 18:23:11 - INFO     - MenuUtilisateurVue
+12/11/2024 18:23:12 - INFO     - EcranDuProfilVue
+12/11/2024 18:23:17 - INFO     - MenuUtilisateurVue
+12/11/2024 18:23:18 - INFO     - EcranDuProfilVue
+12/11/2024 18:23:30 - INFO     - MenuUtilisateurVue
+12/11/2024 18:23:32 - INFO     - RechercheVue
+12/11/2024 18:23:34 - INFO     - RechercheMangaVue
+12/11/2024 18:23:42 - INFO     - choix2 : ['Naruto', 'Naruto: Innocent Heart, Demonic Blood', "Naruto: Itachi's Story", 'Naruto - Mission: Protect the Waterfall Village!', "Naruto: Chibi Sasuke's Sharingan Legend", 'Naruto: The Seventh Hokage and the Scarlet Spring', 'Boruto: Naruto Next Generations', 'Naruto: The Path Lit by the Full Moon']
+12/11/2024 18:23:43 - INFO     - SelectionMangaVuerecherche
+12/11/2024 18:23:50 - INFO     - Fin de l'application
+12/11/2024 18:23:59 - INFO     - --------------------------------------------------
+12/11/2024 18:23:59 - INFO     - Lancement Application                           
+12/11/2024 18:23:59 - INFO     - --------------------------------------------------
+12/11/2024 18:23:59 - INFO     - AccueilVue
+12/11/2024 18:24:00 - INFO     - ConnexionVue
+12/11/2024 18:24:04 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+12/11/2024 18:24:04 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+12/11/2024 18:24:04 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000020CD8269A80>
+12/11/2024 18:24:04 - INFO     - MenuUtilisateurVue
+12/11/2024 18:24:05 - INFO     - EcranDuProfilVue
+12/11/2024 18:24:14 - INFO     - CollectionPhysiqueVue
+12/11/2024 18:24:15 - INFO     - 'NoneType' object is not iterable
+12/11/2024 18:24:15 - INFO     - AccueilVue
+12/11/2024 18:25:04 - INFO     - Fin de l'application
+>>>>>>> f8936670052eb01b243c34ff70d39081957e6700
