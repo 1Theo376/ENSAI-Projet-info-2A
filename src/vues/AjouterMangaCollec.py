@@ -76,11 +76,8 @@ class AjouterMangaCollecVuerecherche(VueAbstraite):
 
             if nom == collection_physique.titre_collection:
                 collection = CollectionPhysiqueDAO().trouver_collec_phys_nom(nom)
-                Collection_physique_service().ajouter_mangaposs(
-                    collection.id_collectionphysique, manga.id_manga
-                )
-                from vues.Selection_manga_vue_recherche import SelectionMangaVuerecherche
-                return SelectionMangaVuerecherche().choisir_menu(choix3)
+                from vues.AjouterMangaPossCollPhys import AjouterMangaPossCollPhys
+                return AjouterMangaPossCollPhys().choisir_menu(choix3, collection)
             else:
                 collection = CollectionCoherenteDAO().trouver_collec_cohe_nom(nom)
                 logging.info(f"Collection cohérente trouvée : {nom}, {collection}")

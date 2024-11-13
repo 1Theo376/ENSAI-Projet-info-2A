@@ -7,7 +7,7 @@ from business_object.manga_possede import MangaPossede
 class MangaPossedeDao:
     """classe MangaDao"""
 
-    def ajouter_manga_p(self, manga) -> bool:
+    def ajouter_manga_p(self, mangap) -> bool:
         """Ajout d'un manga possédé dans la base de données
 
         Parameters
@@ -26,14 +26,13 @@ class MangaPossedeDao:
             with DBConnection().connection as connection:
                 with connection.cursor() as cursor:
                     cursor.execute(
-                        "INSERT INTO manga_possede (id_manga_p, id_manga, num_dernier_acquis, num_manquant) VALUES"
-                        "(%(id_manga_p)s, %(id_manga)s, %(num_dernier_acquis)s, %(num_manquant)s) "
+                        "INSERT INTO manga_possede (id_manga, num_dernier_acquis, statut) VALUES"
+                        "(%(id_manga)s, %(num_dernier_acquis)s, %(num_manquant)s) "
                         "  RETURNING id_manga_p; ",
                         {
-                            "id_manga": MangaPossede.id_collectionphysique,
-                            "id_manga_p": MangaPossede.titre_collection,
-                            "num_dernier_acquis": MangaPossede.desc_collection,
-                            "num_manquant": MangaPossede.desc_collection
+                            "id_manga": mangap.idmanga,
+                            "num_dernier_acquis": mangap.num_dernier_acquis,
+                            "statut": mangap.statut
                         },
                     )
                     res = cursor.fetchone()
@@ -42,7 +41,7 @@ class MangaPossedeDao:
 
         created = False
         if res:
-            MangaPossede.id = res["id_manga_p"]
+            mangap.id_manga_p = res["id_manga_p"]
             created = True
 
         return created

@@ -7,7 +7,7 @@ class MangaPossede:
     """
 
     def __init__(
-        self, id_manga_p: int, manga: Manga, num_dernier_acquis: int, statut: str, num_manquant=None
+        self, idmanga: int, num_dernier_acquis: int, statut: str, num_manquant=None, id_manga_p= None
     ):
         """
 
@@ -25,9 +25,9 @@ class MangaPossede:
             numéros de tomes manquantes
         """
         self.id_manga_p = id_manga_p
-        self.manga = manga
+        self.idmanga = idmanga
         self.num_dernier_acquis = num_dernier_acquis
-        self.num_manquant = list(range(1, manga.volume))
+#        self.num_manquant = list(range(1, manga.volume))
         self.statut = statut
 
     def __str__(self) -> str:
@@ -39,4 +39,4 @@ class MangaPossede:
             Une chaîne de caractères formatée contenant le titre,
             le numéro du dernier manga acquis et les numéros manquants.
         """
-        return f"Titre: {self.manga.titre}, Numéro du dernier tome acquis: {self.num_dernier_acquis}, Numéro manquant: {self.num_manquant}, Statut: {self.statut}"
+        return f"Titre: {self.manga.titre}, Numéro du dernier tome acquis: {self.num_dernier_acquis},Statut: {self.statut}"
