@@ -31,11 +31,10 @@ class Collection_physique_service:
         """ """
         return CollectionPhysiqueDAO().supprimer_mangaposs(CollectionP, MangaPoss)
 
-    def ajouter_mangaposs(self, CollectionP, MangaPoss) -> bool:
+    def ajouter_mangaposs(self, idcoll, idmanga) -> bool:
         """ """
-        CollectionP.Liste_manga.append(MangaPoss)
         return (
-            MangaPoss if CollectionPhysiqueDAO().ajouter_mangaposs(CollectionP, MangaPoss) else None
+            True if CollectionPhysiqueDAO().ajouter_mangaposs(idcoll, idmanga) else None
         )
 
     def __str__(self, CollectionP):

@@ -146,7 +146,7 @@ class CollectionPhysiqueDAO:
             raise
         return res > 0
 
-    def ajouter_mangaposs(self, CollectionP: Collection_physique, MangaPoss: MangaPossede) -> bool:
+    def ajouter_mangaposs(self, idcoll: Collection_physique, idmanga: MangaPossede) -> bool:
         """Ajout d'un manga dans une collection
 
         Parameters
@@ -165,12 +165,12 @@ class CollectionPhysiqueDAO:
             with DBConnection().connection as connection:
                 with connection.cursor() as cursor:
                     cursor.execute(
-                        "INSERT INTO association_manga_collection_physique(id_collec_physique, id_manga_physique) VALUES"
+                        "INSERT INTO association_manga_collection_physique(id_collec_physique, id_manga_p) VALUES "
                         "(%(idc)s, %(idm)s) "
-                        "  RETURNING id_collec_physique, id_manga_physique; ",
+                        "  RETURNING id_collec_physique, id_manga_p; ",
                         {
-                            "idc": CollectionP.id_collectioncoherente,
-                            "idm": MangaPoss.id_mangapossede,
+                            "idc": idcoll,
+                            "idm": idmanga,
                         },
                     )
                     res = cursor.fetchone()
@@ -179,8 +179,8 @@ class CollectionPhysiqueDAO:
 
         created = False
         if res:
-            CollectionP.id = res["id_collec_physique"]
-            MangaPoss.id_mangapossede = res["id_manga_physique"]
+            idcoll = res["id_collec_physique"]
+            idmanga = res["id_manga_physique"]
             created = True
 
         return created
@@ -238,10 +238,10 @@ class CollectionPhysiqueDAO:
             with DBConnection().connection as connection:
                 with connection.cursor() as cursor:
                     cursor.execute(
-                        "SELECT id_collec_physique, description_collection, id_manga                   "
+                        "SELECT id_collec_physique, description_collection, id_manga_p                   "
                         "FROM collection_physique                                                     "
                         "LEFT JOIN association_manga_collection_physique USING(id_collec_physique)    "
-                        "LEFT JOIN manga USING(id_manga)                                                "
+                        "LEFT JOIN manga_possede Using(id_manga_p)                                               "
                         " WHERE titre_collection = %(titre_collection)s;                                ",
                         {"titre_collection": nom},
                     )
@@ -255,14 +255,14 @@ class CollectionPhysiqueDAO:
             for elt in res:
                 id = elt["id_collec_physique"]
                 desc = elt["description_collection"]
-                if elt["id_manga"]:
-                    L_mangas.append(MangaDao().trouver_manga_par_id(elt["id_manga"]))
+                if elt["id_manga_p"]:
+                    L_mangas.append(MangaDao().trouver_manga_par_id(elt["id_manga_p"]))
                 else:
                     L_mangas = []
-            collection = CollectionPhysique(
-                id_collectioncoherente=id,
+            collection = Collection_physique(
+                id_collectionphysique=id,
                 titre_collection=nom,
-                desc_collection=desc,
+                description_collection=desc,
                 Liste_manga=L_mangas,
             )
         return collection
