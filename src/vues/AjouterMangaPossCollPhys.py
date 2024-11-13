@@ -29,21 +29,30 @@ class AjouterMangaPossCollPhys(VueAbstraite):
         print("\n" + "-" * 50 + "\nManga :", manga.titre, " \n" + "-" * 50 + "\n")
 
         id_utilisateur = Session().utilisateur.id
+        volume_manga = MangaPossedeDao().nb_volume_manga(manga.titre)
         nb_volumes_poss = int(
             inquirer.text(message="Entrez le nombre de volumes possédés du manga : ").execute()
         )
+        if nb_volumes_poss > volume_manga:
+            print("Nombre incorrect")
+            return AjouterMangaPossCollPhys().choisir_menu(choix3, collection)
         volumes_poss = []
         for i in range(0, nb_volumes_poss):
-            volumes_poss.append(
-                int(
+            num_vol = int(
                     inquirer.text(
                         message="Entrez le numéro des volumes possédés du manga : "
                     ).execute()
-                )
-            )
+                        )
+            if num_vol > volume_manga:
+                print("Erreur")
+                return AjouterMangaPossCollPhys().choisir_menu(choix3, collection)
+            volumes_poss.append(num_vol)
         num_dernier_acquis = int(
             inquirer.text(message="Entrez le numéro du dernier volume acquis du manga : ").execute()
         )
+        if num_dernier_acquis > volume_manga or num_dernier_acquis not in volumes_poss:
+            print("Erreur")
+            return AjouterMangaPossCollPhys().choisir_menu(choix3, collection)
         Statut = inquirer.select(
             message="Quel est votre statut de lecture ?",
             choices=[

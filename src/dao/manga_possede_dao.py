@@ -80,3 +80,33 @@ class MangaPossedeDao:
             logging.info(e)
 
         return res == 1
+
+    def nb_volume_manga(self, nom):
+        """trouver une collection grâce à son nom
+
+        Parameters
+        ----------
+        nom : str
+            nom de la collection cohérente
+
+           Returns
+           -------
+           collection : CollectionCoherente
+               renvoie la collection cohérente correspondant au nom
+        """
+        try:
+            with DBConnection().connection as connection:
+                with connection.cursor() as cursor:
+                    cursor.execute(
+                        "SELECT volumes                   "
+                        "FROM manga                                                     "
+                        " WHERE titre = %(titre)s;                                ",
+                        {"titre": nom},
+                    )
+                    res = cursor.fetchone()
+        except Exception as e:
+            logging.info(e)
+            raise
+        if res:
+            volumes = res["volumes"]
+        return volumes
