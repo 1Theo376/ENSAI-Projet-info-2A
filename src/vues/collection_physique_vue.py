@@ -41,7 +41,7 @@ class CollectionPhysiqueVue(VueAbstraite):
             description = (
                 CollectionPhysiqueDAO()
                 .trouver_collec_phys_id_user(Session().utilisateur.id)
-                .desc_collection
+                .description_collection
             )
             print(print("\n" + "-" * 50 + "\n" + description + "\n" + "-" * 50 + "\n"))
             return self.choisir_menu()
