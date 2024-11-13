@@ -27,7 +27,7 @@ class MangaPossede:
         self.id_manga_p = id_manga_p
         self.idmanga = idmanga
         self.num_dernier_acquis = num_dernier_acquis
-#        self.num_manquant = list(range(1, manga.volume))
+        self.num_manquant = num_manquant
         self.statut = statut
 
     def __str__(self) -> str:

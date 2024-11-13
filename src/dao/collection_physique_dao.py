@@ -134,7 +134,7 @@ class CollectionPhysiqueDAO:
                     # Supprimer le manga d'une collection
                     cursor.execute(
                         "DELETE FROM association_manga_collection_physique                 "
-                        " WHERE (id_collec_physique=%(id_collec_coherente)s and id_manga_physique=%(idm)s ",
+                        " WHERE (id_collec_physique=%(id_collec_coherente)s and id_manga_p=%(idm)s ",
                         {
                             "id_collec_physique": CollectionP.id_collectionphysique,
                             "idm": MangaPoss.id_mangapossede,
@@ -180,7 +180,7 @@ class CollectionPhysiqueDAO:
         created = False
         if res:
             idcoll = res["id_collec_physique"]
-            idmanga = res["id_manga_physique"]
+            idmanga = res["id_manga_p"]
             created = True
 
         return created

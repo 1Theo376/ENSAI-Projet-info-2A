@@ -26,8 +26,8 @@ class MangaPossedeDao:
             with DBConnection().connection as connection:
                 with connection.cursor() as cursor:
                     cursor.execute(
-                        "INSERT INTO manga_possede (id_manga, num_dernier_acquis, statut) VALUES"
-                        "(%(id_manga)s, %(num_dernier_acquis)s, %(num_manquant)s) "
+                        "INSERT INTO manga_possede(id_manga, num_dernier_acquis, statut) VALUES"
+                        "(%(id_manga)s, %(num_dernier_acquis)s, %(statut)s) "
                         "  RETURNING id_manga_p; ",
                         {
                             "id_manga": mangap.idmanga,
