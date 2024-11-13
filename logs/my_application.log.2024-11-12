@@ -1,0 +1,727 @@
+12/11/2024 18:32:16 - INFO     - --------------------------------------------------
+12/11/2024 18:32:16 - INFO     - Lancement Application                           
+12/11/2024 18:32:16 - INFO     - --------------------------------------------------
+12/11/2024 18:32:16 - INFO     - AccueilVue
+12/11/2024 18:32:17 - INFO     - ConnexionVue
+12/11/2024 18:32:24 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+12/11/2024 18:32:24 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+12/11/2024 18:32:24 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000002AF1416DAE0>
+12/11/2024 18:32:24 - INFO     - MenuUtilisateurVue
+12/11/2024 18:32:26 - INFO     - RechercheVue
+12/11/2024 18:32:28 - INFO     - RechercheMangaVue
+12/11/2024 18:32:31 - INFO     - choix2 : ['Monster', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul', 'Monster Hunter Orage']
+12/11/2024 18:32:32 - INFO     - SelectionMangaVuerecherche
+12/11/2024 18:32:34 - INFO     - Fin de l'application
+12/11/2024 18:35:37 - INFO     - --------------------------------------------------
+12/11/2024 18:35:37 - INFO     - Lancement Application                           
+12/11/2024 18:35:37 - INFO     - --------------------------------------------------
+12/11/2024 18:35:37 - INFO     - AccueilVue
+12/11/2024 18:35:39 - INFO     - ConnexionVue
+12/11/2024 18:35:43 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+12/11/2024 18:35:43 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+12/11/2024 18:35:43 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x00000122E71B1AB0>
+12/11/2024 18:35:43 - INFO     - MenuUtilisateurVue
+12/11/2024 18:35:44 - INFO     - RechercheVue
+12/11/2024 18:35:45 - INFO     - RechercheMangaVue
+12/11/2024 18:35:48 - INFO     - choix2 : ['Monster', 'Higurashi WHEN THEY CRY: Abducted by Demons Arc', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul']
+12/11/2024 18:35:48 - INFO     - SelectionMangaVuerecherche
+12/11/2024 18:35:50 - INFO     - cannot import name 'CollectionCoherenteService' from 'service.collection_coherente_service' (\\filer-eleves2\id2548\Cours2A\UE3-Projet-info\Projetinfo\ENSAI-Projet-info-2A\src\service\collection_coherente_service.py)
+12/11/2024 18:35:50 - INFO     - AccueilVue
+12/11/2024 18:41:12 - INFO     - Fin de l'application
+12/11/2024 18:41:15 - INFO     - --------------------------------------------------
+12/11/2024 18:41:15 - INFO     - Lancement Application                           
+12/11/2024 18:41:15 - INFO     - --------------------------------------------------
+12/11/2024 18:41:15 - INFO     - AccueilVue
+12/11/2024 18:41:15 - INFO     - ConnexionVue
+12/11/2024 18:41:19 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+12/11/2024 18:41:19 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+12/11/2024 18:41:19 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000024888C7DAE0>
+12/11/2024 18:41:20 - INFO     - MenuUtilisateurVue
+12/11/2024 18:41:21 - INFO     - RechercheVue
+12/11/2024 18:41:22 - INFO     - RechercheMangaVue
+12/11/2024 18:41:26 - INFO     - choix2 : ['Monster', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul', 'Monster Hunter Orage']
+12/11/2024 18:41:28 - INFO     - SelectionMangaVuerecherche
+12/11/2024 18:41:29 - INFO     - AjouterMangaCollecVuerecherche
+12/11/2024 18:41:29 - INFO     -     UtilisateurDao.recherche_id_par_pseudo(1,) - DEBUT
+12/11/2024 18:41:29 - INFO     - ERREUR:  l'opérateur n'existe pas : character varying = integer
+LINE 1: ...OM utilisateur                       WHERE pseudo = 1;      ...
+                                                             ^
+HINT:  Aucun opérateur ne correspond au nom donné et aux types d'arguments.
+Vous devez ajouter des conversions explicites de type.
+
+12/11/2024 18:41:29 - INFO     - ERREUR:  l'opérateur n'existe pas : character varying = integer
+LINE 1: ...OM utilisateur                       WHERE pseudo = 1;      ...
+                                                             ^
+HINT:  Aucun opérateur ne correspond au nom donné et aux types d'arguments.
+Vous devez ajouter des conversions explicites de type.
+
+12/11/2024 18:41:29 - INFO     - AccueilVue
+12/11/2024 18:42:53 - INFO     - Fin de l'application
+12/11/2024 18:42:55 - INFO     - --------------------------------------------------
+12/11/2024 18:42:55 - INFO     - Lancement Application                           
+12/11/2024 18:42:55 - INFO     - --------------------------------------------------
+12/11/2024 18:42:55 - INFO     - AccueilVue
+12/11/2024 18:42:56 - INFO     - ConnexionVue
+12/11/2024 18:43:00 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+12/11/2024 18:43:00 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+12/11/2024 18:43:00 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000002580CB31AE0>
+12/11/2024 18:43:00 - INFO     - MenuUtilisateurVue
+12/11/2024 18:43:04 - INFO     - RechercheVue
+12/11/2024 18:43:05 - INFO     - RechercheMangaVue
+12/11/2024 18:43:08 - INFO     - choix2 : ['Monster', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul', 'Monster Hunter Orage']
+12/11/2024 18:43:08 - INFO     - SelectionMangaVuerecherche
+12/11/2024 18:43:10 - INFO     - AjouterMangaCollecVuerecherche
+12/11/2024 18:43:12 - INFO     - 'list' object has no attribute 'split'
+12/11/2024 18:43:12 - INFO     - AccueilVue
+12/11/2024 18:46:28 - INFO     - Fin de l'application
+12/11/2024 18:46:30 - INFO     - --------------------------------------------------
+12/11/2024 18:46:30 - INFO     - Lancement Application                           
+12/11/2024 18:46:30 - INFO     - --------------------------------------------------
+12/11/2024 18:46:30 - INFO     - AccueilVue
+12/11/2024 18:46:31 - INFO     - ConnexionVue
+12/11/2024 18:46:35 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+12/11/2024 18:46:36 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+12/11/2024 18:46:36 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x00000223A64C5AE0>
+12/11/2024 18:46:36 - INFO     - MenuUtilisateurVue
+12/11/2024 18:46:38 - INFO     - RechercheVue
+12/11/2024 18:46:38 - INFO     - RechercheMangaVue
+12/11/2024 18:46:40 - INFO     - choix2 : ['Monster', 'Higurashi WHEN THEY CRY: Abducted by Demons Arc', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul']
+12/11/2024 18:46:41 - INFO     - SelectionMangaVuerecherche
+12/11/2024 18:46:42 - INFO     - AjouterMangaCollecVuerecherche
+12/11/2024 18:46:45 - INFO     - 'NoneType' object has no attribute 'id_collectioncoherente'
+12/11/2024 18:46:45 - INFO     - AccueilVue
+12/11/2024 18:49:30 - INFO     - Fin de l'application
+12/11/2024 18:49:33 - INFO     - --------------------------------------------------
+12/11/2024 18:49:33 - INFO     - Lancement Application                           
+12/11/2024 18:49:33 - INFO     - --------------------------------------------------
+12/11/2024 18:49:33 - INFO     - AccueilVue
+12/11/2024 18:49:34 - INFO     - ConnexionVue
+12/11/2024 18:49:36 - INFO     -     UtilisateurDao.se_connecter('', '*****') - DEBUT
+12/11/2024 18:49:36 - INFO     -     UtilisateurDao.se_connecter('', '*****') - FIN
+12/11/2024 18:49:36 - INFO     -        └─> Sortie : None
+12/11/2024 18:49:36 - INFO     - AccueilVue
+12/11/2024 18:49:36 - INFO     - ConnexionVue
+12/11/2024 18:49:41 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+12/11/2024 18:49:41 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+12/11/2024 18:49:41 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000002204E8313F0>
+12/11/2024 18:49:41 - INFO     - MenuUtilisateurVue
+12/11/2024 18:49:42 - INFO     - RechercheVue
+12/11/2024 18:49:44 - INFO     - RechercheMangaVue
+12/11/2024 18:49:46 - INFO     - choix2 : ['Monster', 'Higurashi WHEN THEY CRY: Abducted by Demons Arc', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul']
+12/11/2024 18:49:47 - INFO     - SelectionMangaVuerecherche
+12/11/2024 18:49:49 - INFO     - AjouterMangaCollecVuerecherche
+12/11/2024 18:49:51 - INFO     - 'module' object is not callable
+12/11/2024 18:49:51 - INFO     - AccueilVue
+12/11/2024 18:50:55 - INFO     - Fin de l'application
+12/11/2024 18:50:58 - INFO     - --------------------------------------------------
+12/11/2024 18:50:58 - INFO     - Lancement Application                           
+12/11/2024 18:50:58 - INFO     - --------------------------------------------------
+12/11/2024 18:50:58 - INFO     - AccueilVue
+12/11/2024 18:50:59 - INFO     - ConnexionVue
+12/11/2024 18:51:02 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+12/11/2024 18:51:02 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+12/11/2024 18:51:02 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000022950DB1AE0>
+12/11/2024 18:51:02 - INFO     - MenuUtilisateurVue
+12/11/2024 18:51:04 - INFO     - RechercheVue
+12/11/2024 18:51:05 - INFO     - RechercheMangaVue
+12/11/2024 18:51:07 - INFO     - choix2 : ['Monster', 'Higurashi WHEN THEY CRY: Abducted by Demons Arc', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul']
+12/11/2024 18:51:08 - INFO     - SelectionMangaVuerecherche
+12/11/2024 18:51:09 - INFO     - AjouterMangaCollecVuerecherche
+12/11/2024 18:51:09 - INFO     - Test coll cohere dans None
+12/11/2024 18:51:09 - INFO     - 'NoneType' object has no attribute 'id_collectioncoherente'
+12/11/2024 18:51:09 - INFO     - AccueilVue
+12/11/2024 18:53:23 - INFO     - Fin de l'application
+12/11/2024 18:53:25 - INFO     - --------------------------------------------------
+12/11/2024 18:53:25 - INFO     - Lancement Application                           
+12/11/2024 18:53:25 - INFO     - --------------------------------------------------
+12/11/2024 18:53:25 - INFO     - AccueilVue
+12/11/2024 18:53:26 - INFO     - ConnexionVue
+12/11/2024 18:53:31 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+12/11/2024 18:53:31 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+12/11/2024 18:53:31 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001528D9619C0>
+12/11/2024 18:53:31 - INFO     - MenuUtilisateurVue
+12/11/2024 18:53:42 - INFO     - RechercheVue
+12/11/2024 18:53:42 - INFO     - RechercheMangaVue
+12/11/2024 18:53:45 - INFO     - choix2 : ['Monster', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul', 'Monster Hunter Orage']
+12/11/2024 18:53:46 - INFO     - SelectionMangaVuerecherche
+12/11/2024 18:53:47 - INFO     - AjouterMangaCollecVuerecherche
+12/11/2024 18:53:48 - INFO     - unhashable type: 'list'
+12/11/2024 18:53:48 - INFO     - unhashable type: 'list'
+12/11/2024 18:53:48 - INFO     - AccueilVue
+12/11/2024 18:54:13 - INFO     - Fin de l'application
+12/11/2024 18:56:39 - INFO     - --------------------------------------------------
+12/11/2024 18:56:39 - INFO     - Lancement Application                           
+12/11/2024 18:56:39 - INFO     - --------------------------------------------------
+12/11/2024 18:56:39 - INFO     - AccueilVue
+12/11/2024 18:56:39 - INFO     - ConnexionVue
+12/11/2024 18:56:43 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+12/11/2024 18:56:43 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+12/11/2024 18:56:43 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x00000201BC445AE0>
+12/11/2024 18:56:43 - INFO     - MenuUtilisateurVue
+12/11/2024 18:56:44 - INFO     - RechercheVue
+12/11/2024 18:56:44 - INFO     - RechercheMangaVue
+12/11/2024 18:56:47 - INFO     - choix2 : ['Monster', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul', 'Monster Hunter Orage']
+12/11/2024 18:56:48 - INFO     - SelectionMangaVuerecherche
+12/11/2024 18:56:48 - INFO     - AjouterMangaCollecVuerecherche
+12/11/2024 18:56:49 - INFO     - Test coll cohere dans None
+12/11/2024 18:56:49 - INFO     - 'NoneType' object has no attribute 'id_collectioncoherente'
+12/11/2024 18:56:49 - INFO     - AccueilVue
+12/11/2024 18:58:41 - INFO     - Fin de l'application
+12/11/2024 18:58:43 - INFO     - --------------------------------------------------
+12/11/2024 18:58:43 - INFO     - Lancement Application                           
+12/11/2024 18:58:43 - INFO     - --------------------------------------------------
+12/11/2024 18:58:43 - INFO     - AccueilVue
+12/11/2024 18:58:44 - INFO     - ConnexionVue
+12/11/2024 18:58:49 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+12/11/2024 18:58:49 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+12/11/2024 18:58:49 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000025DA2181B10>
+12/11/2024 18:58:49 - INFO     - MenuUtilisateurVue
+12/11/2024 18:58:51 - INFO     - RechercheVue
+12/11/2024 18:58:51 - INFO     - RechercheMangaVue
+12/11/2024 18:58:54 - INFO     - choix2 : ['Monster', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul', 'Monster Hunter Orage']
+12/11/2024 18:58:54 - INFO     - SelectionMangaVuerecherche
+12/11/2024 18:58:55 - INFO     - AjouterMangaCollecVuerecherche
+12/11/2024 18:58:56 - INFO     - Test coll cohere dans None
+12/11/2024 18:58:56 - INFO     - 'NoneType' object has no attribute 'id_collectioncoherente'
+12/11/2024 18:58:56 - INFO     - AccueilVue
+12/11/2024 19:07:32 - INFO     - Fin de l'application
+12/11/2024 19:07:34 - INFO     - --------------------------------------------------
+12/11/2024 19:07:34 - INFO     - Lancement Application                           
+12/11/2024 19:07:34 - INFO     - --------------------------------------------------
+12/11/2024 19:07:34 - INFO     - AccueilVue
+12/11/2024 19:07:35 - INFO     - ConnexionVue
+12/11/2024 19:07:38 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+12/11/2024 19:07:38 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+12/11/2024 19:07:38 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x00000225374B1AE0>
+12/11/2024 19:07:38 - INFO     - MenuUtilisateurVue
+12/11/2024 19:07:40 - INFO     - RechercheVue
+12/11/2024 19:07:41 - INFO     - RechercheMangaVue
+12/11/2024 19:07:43 - INFO     - choix2 : ['Monster', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul', 'Monster Hunter Orage']
+12/11/2024 19:07:43 - INFO     - SelectionMangaVuerecherche
+12/11/2024 19:07:44 - INFO     - AjouterMangaCollecVuerecherche
+12/11/2024 19:07:45 - INFO     - object of type 'NoneType' has no len()
+12/11/2024 19:07:45 - INFO     - AccueilVue
+12/11/2024 19:10:37 - INFO     - Fin de l'application
+12/11/2024 19:10:39 - INFO     - --------------------------------------------------
+12/11/2024 19:10:39 - INFO     - Lancement Application                           
+12/11/2024 19:10:39 - INFO     - --------------------------------------------------
+12/11/2024 19:10:39 - INFO     - AccueilVue
+12/11/2024 19:10:40 - INFO     - ConnexionVue
+12/11/2024 19:10:44 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+12/11/2024 19:10:44 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+12/11/2024 19:10:44 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000016ED9EF5AE0>
+12/11/2024 19:10:44 - INFO     - MenuUtilisateurVue
+12/11/2024 19:10:46 - INFO     - RechercheVue
+12/11/2024 19:10:47 - INFO     - RechercheMangaVue
+12/11/2024 19:10:49 - INFO     - choix2 : ['Monster', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul', 'Monster Hunter Orage']
+12/11/2024 19:10:50 - INFO     - SelectionMangaVuerecherche
+12/11/2024 19:10:50 - INFO     - AjouterMangaCollecVuerecherche
+12/11/2024 19:10:51 - INFO     - object of type 'NoneType' has no len()
+12/11/2024 19:10:51 - INFO     - AccueilVue
+12/11/2024 19:12:34 - INFO     - Fin de l'application
+12/11/2024 19:12:37 - INFO     - --------------------------------------------------
+12/11/2024 19:12:37 - INFO     - Lancement Application                           
+12/11/2024 19:12:37 - INFO     - --------------------------------------------------
+12/11/2024 19:12:37 - INFO     - AccueilVue
+12/11/2024 19:12:37 - INFO     - ConnexionVue
+12/11/2024 19:12:41 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+12/11/2024 19:12:41 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+12/11/2024 19:12:41 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000002290AE81AB0>
+12/11/2024 19:12:41 - INFO     - MenuUtilisateurVue
+12/11/2024 19:12:42 - INFO     - RechercheVue
+12/11/2024 19:12:43 - INFO     - RechercheMangaVue
+12/11/2024 19:12:45 - INFO     - choix2 : ['Monster', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul', 'Monster Hunter Orage']
+12/11/2024 19:12:46 - INFO     - SelectionMangaVuerecherche
+12/11/2024 19:12:47 - INFO     - AjouterMangaCollecVuerecherche
+12/11/2024 19:12:47 - INFO     - object of type 'NoneType' has no len()
+12/11/2024 19:12:47 - INFO     - AccueilVue
+12/11/2024 19:20:07 - INFO     - Fin de l'application
+12/11/2024 19:20:09 - INFO     - --------------------------------------------------
+12/11/2024 19:20:09 - INFO     - Lancement Application                           
+12/11/2024 19:20:09 - INFO     - --------------------------------------------------
+12/11/2024 19:20:09 - INFO     - AccueilVue
+12/11/2024 19:20:10 - INFO     - ConnexionVue
+12/11/2024 19:20:14 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+12/11/2024 19:20:14 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+12/11/2024 19:20:14 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001D871FB59C0>
+12/11/2024 19:20:14 - INFO     - MenuUtilisateurVue
+12/11/2024 19:20:15 - INFO     - RechercheVue
+12/11/2024 19:20:16 - INFO     - RechercheMangaVue
+12/11/2024 19:20:18 - INFO     - choix2 : ['Monster', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul', 'Monster Hunter Orage']
+12/11/2024 19:20:19 - INFO     - SelectionMangaVuerecherche
+12/11/2024 19:20:20 - INFO     - AjouterMangaCollecVuerecherche
+12/11/2024 19:20:21 - INFO     - object of type 'NoneType' has no len()
+12/11/2024 19:20:21 - INFO     - AccueilVue
+12/11/2024 19:22:16 - INFO     - Fin de l'application
+12/11/2024 19:22:18 - INFO     - --------------------------------------------------
+12/11/2024 19:22:18 - INFO     - Lancement Application                           
+12/11/2024 19:22:18 - INFO     - --------------------------------------------------
+12/11/2024 19:22:18 - INFO     - AccueilVue
+12/11/2024 19:22:18 - INFO     - ConnexionVue
+12/11/2024 19:22:22 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+12/11/2024 19:22:22 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+12/11/2024 19:22:22 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001671EAA1AE0>
+12/11/2024 19:22:22 - INFO     - MenuUtilisateurVue
+12/11/2024 19:22:23 - INFO     - RechercheVue
+12/11/2024 19:22:24 - INFO     - RechercheMangaVue
+12/11/2024 19:22:26 - INFO     - choix2 : ['Monster', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul', 'Monster Hunter Orage']
+12/11/2024 19:22:27 - INFO     - SelectionMangaVuerecherche
+12/11/2024 19:22:28 - INFO     - AjouterMangaCollecVuerecherche
+12/11/2024 19:22:28 - INFO     - ERREUR:  la colonne « id_manga » spécifiée dans la clause USING n'existe pas dans la table
+de gauche
+
+12/11/2024 19:22:28 - INFO     - ERREUR:  la colonne « id_manga » spécifiée dans la clause USING n'existe pas dans la table
+de gauche
+
+12/11/2024 19:22:28 - INFO     - AccueilVue
+12/11/2024 19:29:52 - INFO     - Fin de l'application
+12/11/2024 19:29:54 - INFO     - --------------------------------------------------
+12/11/2024 19:29:54 - INFO     - Lancement Application                           
+12/11/2024 19:29:54 - INFO     - --------------------------------------------------
+12/11/2024 19:29:54 - INFO     - AccueilVue
+12/11/2024 19:29:55 - INFO     - ConnexionVue
+12/11/2024 19:29:58 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+12/11/2024 19:29:58 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+12/11/2024 19:29:58 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001B5D26E5AE0>
+12/11/2024 19:29:58 - INFO     - MenuUtilisateurVue
+12/11/2024 19:30:00 - INFO     - RechercheVue
+12/11/2024 19:30:01 - INFO     - RechercheMangaVue
+12/11/2024 19:30:02 - INFO     - choix2 : ['Monster', 'Higurashi WHEN THEY CRY: Abducted by Demons Arc', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul']
+12/11/2024 19:30:03 - INFO     - SelectionMangaVuerecherche
+12/11/2024 19:30:04 - INFO     - AjouterMangaCollecVuerecherche
+12/11/2024 19:30:05 - INFO     - ERREUR:  la colonne « id_manga » n'existe pas
+LINE 1: ...ELECT id_collec_physique, description_collection, id_manga  ...
+                                                             ^
+
+12/11/2024 19:30:05 - INFO     - ERREUR:  la colonne « id_manga » n'existe pas
+LINE 1: ...ELECT id_collec_physique, description_collection, id_manga  ...
+                                                             ^
+
+12/11/2024 19:30:05 - INFO     - AccueilVue
+12/11/2024 19:31:31 - INFO     - Fin de l'application
+12/11/2024 19:31:34 - INFO     - --------------------------------------------------
+12/11/2024 19:31:34 - INFO     - Lancement Application                           
+12/11/2024 19:31:34 - INFO     - --------------------------------------------------
+12/11/2024 19:31:34 - INFO     - AccueilVue
+12/11/2024 19:31:34 - INFO     - ConnexionVue
+12/11/2024 19:31:38 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+12/11/2024 19:31:38 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+12/11/2024 19:31:38 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000020D3FC41AB0>
+12/11/2024 19:31:38 - INFO     - MenuUtilisateurVue
+12/11/2024 19:31:39 - INFO     - RechercheVue
+12/11/2024 19:31:40 - INFO     - RechercheMangaVue
+12/11/2024 19:31:41 - INFO     - choix2 : ['Monster', 'Higurashi WHEN THEY CRY: Abducted by Demons Arc', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul']
+12/11/2024 19:31:42 - INFO     - SelectionMangaVuerecherche
+12/11/2024 19:31:43 - INFO     - AjouterMangaCollecVuerecherche
+12/11/2024 19:31:43 - INFO     - Collection physique 'Test coll cohere' introuvable.
+12/11/2024 19:31:43 - INFO     - SelectionMangaVuerecherche
+12/11/2024 19:32:42 - INFO     - MenuUtilisateurVue
+12/11/2024 19:32:44 - INFO     - AccueilVue
+12/11/2024 19:32:45 - INFO     - Fin de l'application
+12/11/2024 19:33:55 - INFO     - --------------------------------------------------
+12/11/2024 19:33:55 - INFO     - Lancement Application                           
+12/11/2024 19:33:55 - INFO     - --------------------------------------------------
+12/11/2024 19:33:55 - INFO     - AccueilVue
+12/11/2024 19:33:55 - INFO     - ConnexionVue
+12/11/2024 19:34:00 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+12/11/2024 19:34:00 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+12/11/2024 19:34:00 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000002104BF65AE0>
+12/11/2024 19:34:00 - INFO     - MenuUtilisateurVue
+12/11/2024 19:34:01 - INFO     - RechercheVue
+12/11/2024 19:34:02 - INFO     - RechercheMangaVue
+12/11/2024 19:34:05 - INFO     - choix2 : ['Monster', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul', 'Monster Hunter Orage']
+12/11/2024 19:34:05 - INFO     - SelectionMangaVuerecherche
+12/11/2024 19:34:06 - INFO     - AjouterMangaCollecVuerecherche
+12/11/2024 19:34:07 - INFO     - object of type 'NoneType' has no len()
+12/11/2024 19:34:07 - INFO     - AccueilVue
+12/11/2024 19:35:55 - INFO     - Fin de l'application
+12/11/2024 19:35:58 - INFO     - --------------------------------------------------
+12/11/2024 19:35:58 - INFO     - Lancement Application                           
+12/11/2024 19:35:58 - INFO     - --------------------------------------------------
+12/11/2024 19:35:58 - INFO     - AccueilVue
+12/11/2024 19:35:59 - INFO     - ConnexionVue
+12/11/2024 19:36:03 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+12/11/2024 19:36:03 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+12/11/2024 19:36:03 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001E39DE31AE0>
+12/11/2024 19:36:03 - INFO     - MenuUtilisateurVue
+12/11/2024 19:36:04 - INFO     - RechercheVue
+12/11/2024 19:36:05 - INFO     - RechercheMangaVue
+12/11/2024 19:36:08 - INFO     - choix2 : ['Monster', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul', 'Monster Hunter Orage']
+12/11/2024 19:36:08 - INFO     - SelectionMangaVuerecherche
+12/11/2024 19:36:09 - INFO     - AjouterMangaCollecVuerecherche
+12/11/2024 19:36:10 - INFO     - object of type 'NoneType' has no len()
+12/11/2024 19:36:10 - INFO     - AccueilVue
+12/11/2024 19:45:43 - INFO     - Fin de l'application
+12/11/2024 19:45:46 - INFO     - --------------------------------------------------
+12/11/2024 19:45:46 - INFO     - Lancement Application                           
+12/11/2024 19:45:46 - INFO     - --------------------------------------------------
+12/11/2024 19:45:46 - INFO     - AccueilVue
+12/11/2024 19:45:47 - INFO     - ConnexionVue
+12/11/2024 19:45:51 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+12/11/2024 19:45:51 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+12/11/2024 19:45:51 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000020E2774DAB0>
+12/11/2024 19:45:51 - INFO     - MenuUtilisateurVue
+12/11/2024 19:45:52 - INFO     - RechercheVue
+12/11/2024 19:45:52 - INFO     - RechercheMangaVue
+12/11/2024 19:45:55 - INFO     - choix2 : ['Monster', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul', 'Monster Hunter Orage']
+12/11/2024 19:45:55 - INFO     - SelectionMangaVuerecherche
+12/11/2024 19:45:56 - INFO     - AjouterMangaCollecVuerecherche
+12/11/2024 19:45:56 - INFO     - unhashable type: 'list'
+12/11/2024 19:45:56 - INFO     - AccueilVue
+12/11/2024 19:48:07 - INFO     - ConnexionVue
+12/11/2024 19:48:12 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+12/11/2024 19:48:12 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+12/11/2024 19:48:12 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000020E27CDDA50>
+12/11/2024 19:48:12 - INFO     - MenuUtilisateurVue
+12/11/2024 19:48:13 - INFO     - RechercheVue
+12/11/2024 19:48:13 - INFO     - RechercheMangaVue
+12/11/2024 19:48:15 - INFO     - choix2 : ['Monster', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul', 'Monster Hunter Orage']
+12/11/2024 19:48:15 - INFO     - SelectionMangaVuerecherche
+12/11/2024 19:48:16 - INFO     - AjouterMangaCollecVuerecherche
+12/11/2024 19:48:16 - INFO     - unhashable type: 'list'
+12/11/2024 19:48:16 - INFO     - AccueilVue
+12/11/2024 19:48:42 - INFO     - Fin de l'application
+12/11/2024 19:48:44 - INFO     - --------------------------------------------------
+12/11/2024 19:48:44 - INFO     - Lancement Application                           
+12/11/2024 19:48:44 - INFO     - --------------------------------------------------
+12/11/2024 19:48:44 - INFO     - AccueilVue
+12/11/2024 19:48:45 - INFO     - ConnexionVue
+12/11/2024 19:48:46 - INFO     -     UtilisateurDao.se_connecter('', '*****') - DEBUT
+12/11/2024 19:48:46 - INFO     -     UtilisateurDao.se_connecter('', '*****') - FIN
+12/11/2024 19:48:46 - INFO     -        └─> Sortie : None
+12/11/2024 19:48:46 - INFO     - AccueilVue
+12/11/2024 19:48:46 - INFO     - ConnexionVue
+12/11/2024 19:48:50 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+12/11/2024 19:48:50 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+12/11/2024 19:48:50 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000019A62E713F0>
+12/11/2024 19:48:50 - INFO     - MenuUtilisateurVue
+12/11/2024 19:48:51 - INFO     - RechercheVue
+12/11/2024 19:48:51 - INFO     - RechercheMangaVue
+12/11/2024 19:48:53 - INFO     - choix2 : ['Monster', 'Higurashi WHEN THEY CRY: Abducted by Demons Arc', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul']
+12/11/2024 19:48:54 - INFO     - SelectionMangaVuerecherche
+12/11/2024 19:48:54 - INFO     - AjouterMangaCollecVuerecherche
+12/11/2024 19:48:54 - INFO     - listecolleccohe type: <class 'list'>, contenu: ['Test coll cohere']
+12/11/2024 19:48:54 - INFO     - collection_physique type: <class 'NoneType'>, contenu: None
+12/11/2024 19:48:54 - INFO     - listecollections: ['Test coll cohere']
+12/11/2024 19:48:54 - INFO     - unhashable type: 'list'
+12/11/2024 19:48:54 - INFO     - AccueilVue
+12/11/2024 19:48:56 - INFO     - Fin de l'application
+12/11/2024 19:50:39 - INFO     - --------------------------------------------------
+12/11/2024 19:50:39 - INFO     - Lancement Application                           
+12/11/2024 19:50:39 - INFO     - --------------------------------------------------
+12/11/2024 19:50:39 - INFO     - AccueilVue
+12/11/2024 19:50:40 - INFO     - ConnexionVue
+12/11/2024 19:50:44 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+12/11/2024 19:50:44 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+12/11/2024 19:50:44 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001E6A4E21AB0>
+12/11/2024 19:50:44 - INFO     - MenuUtilisateurVue
+12/11/2024 19:50:46 - INFO     - RechercheVue
+12/11/2024 19:50:46 - INFO     - RechercheMangaVue
+12/11/2024 19:50:48 - INFO     - choix2 : ['Monster', 'Higurashi WHEN THEY CRY: Abducted by Demons Arc', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul']
+12/11/2024 19:50:49 - INFO     - SelectionMangaVuerecherche
+12/11/2024 19:50:50 - INFO     - AjouterMangaCollecVuerecherche
+12/11/2024 19:50:50 - INFO     - listecolleccohe type: <class 'list'>, contenu: ['Test coll cohere']
+12/11/2024 19:50:50 - INFO     - collection_physique type: <class 'NoneType'>, contenu: None
+12/11/2024 19:50:50 - INFO     - listecollections: ['Test coll cohere']
+12/11/2024 19:50:50 - INFO     - unhashable type: 'list'
+12/11/2024 19:50:50 - INFO     - AccueilVue
+12/11/2024 19:50:51 - INFO     - Fin de l'application
+12/11/2024 19:51:29 - INFO     - --------------------------------------------------
+12/11/2024 19:51:29 - INFO     - Lancement Application                           
+12/11/2024 19:51:29 - INFO     - --------------------------------------------------
+12/11/2024 19:51:29 - INFO     - AccueilVue
+12/11/2024 19:51:30 - INFO     - ConnexionVue
+12/11/2024 19:51:33 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+12/11/2024 19:51:33 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+12/11/2024 19:51:33 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001EF973A5AB0>
+12/11/2024 19:51:33 - INFO     - MenuUtilisateurVue
+12/11/2024 19:51:34 - INFO     - RechercheVue
+12/11/2024 19:51:35 - INFO     - RechercheMangaVue
+12/11/2024 19:51:36 - INFO     - choix2 : ['Monster', 'Higurashi WHEN THEY CRY: Abducted by Demons Arc', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul']
+12/11/2024 19:51:37 - INFO     - SelectionMangaVuerecherche
+12/11/2024 19:51:37 - INFO     - AjouterMangaCollecVuerecherche
+12/11/2024 19:51:37 - INFO     - listecolleccohe type: <class 'list'>, contenu: ['Test coll cohere']
+12/11/2024 19:51:37 - INFO     - collection_physique type: <class 'NoneType'>, contenu: None
+12/11/2024 19:51:37 - INFO     - listecollections: ['Test coll cohere']
+12/11/2024 19:51:37 - INFO     - unhashable type: 'list'
+12/11/2024 19:51:37 - INFO     - AccueilVue
+12/11/2024 19:51:39 - INFO     - Fin de l'application
+12/11/2024 19:51:56 - INFO     - --------------------------------------------------
+12/11/2024 19:51:56 - INFO     - Lancement Application                           
+12/11/2024 19:51:56 - INFO     - --------------------------------------------------
+12/11/2024 19:51:56 - INFO     - AccueilVue
+12/11/2024 19:51:57 - INFO     - ConnexionVue
+12/11/2024 19:52:01 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+12/11/2024 19:52:01 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+12/11/2024 19:52:01 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001D376951AE0>
+12/11/2024 19:52:01 - INFO     - MenuUtilisateurVue
+12/11/2024 19:52:02 - INFO     - RechercheVue
+12/11/2024 19:52:02 - INFO     - RechercheMangaVue
+12/11/2024 19:52:05 - INFO     - choix2 : ['Monster', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul', 'Monster Hunter Orage']
+12/11/2024 19:52:05 - INFO     - SelectionMangaVuerecherche
+12/11/2024 19:52:06 - INFO     - AjouterMangaCollecVuerecherche
+12/11/2024 19:52:06 - INFO     - listecolleccohe type: <class 'list'>, contenu: ['Test coll cohere']
+12/11/2024 19:52:06 - INFO     - collection_physique type: <class 'NoneType'>, contenu: None
+12/11/2024 19:52:06 - INFO     - listecollections: ['Test coll cohere']
+12/11/2024 19:52:06 - INFO     - unhashable type: 'list'
+12/11/2024 19:52:06 - INFO     - AccueilVue
+12/11/2024 19:52:08 - INFO     - Fin de l'application
+12/11/2024 19:54:59 - INFO     - --------------------------------------------------
+12/11/2024 19:54:59 - INFO     - Lancement Application                           
+12/11/2024 19:54:59 - INFO     - --------------------------------------------------
+12/11/2024 19:54:59 - INFO     - AccueilVue
+12/11/2024 19:54:59 - INFO     - ConnexionVue
+12/11/2024 19:55:03 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+12/11/2024 19:55:03 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+12/11/2024 19:55:03 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001E6B0845AB0>
+12/11/2024 19:55:03 - INFO     - MenuUtilisateurVue
+12/11/2024 19:55:04 - INFO     - RechercheVue
+12/11/2024 19:55:04 - INFO     - RechercheMangaVue
+12/11/2024 19:55:06 - INFO     - choix2 : ['Monster', 'Higurashi WHEN THEY CRY: Abducted by Demons Arc', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul']
+12/11/2024 19:55:07 - INFO     - SelectionMangaVuerecherche
+12/11/2024 19:55:07 - INFO     - AjouterMangaCollecVuerecherche
+12/11/2024 19:55:07 - INFO     - listecolleccohe type: <class 'list'>, contenu: ['Test coll cohere']
+12/11/2024 19:55:07 - INFO     - collection_physique type: <class 'NoneType'>, contenu: None
+12/11/2024 19:55:07 - INFO     - listecollections: ['Test coll cohere']
+12/11/2024 19:55:07 - INFO     - Ajout de l'option cohérente : Dans votre collection cohérente : Test coll cohere
+12/11/2024 19:55:07 - INFO     - Choices avant inquirer: ['Dans votre collection cohérente : Test coll cohere']
+12/11/2024 19:55:09 - INFO     - object of type 'NoneType' has no len()
+12/11/2024 19:55:09 - INFO     - AccueilVue
+12/11/2024 19:58:44 - INFO     - Fin de l'application
+12/11/2024 19:58:46 - INFO     - --------------------------------------------------
+12/11/2024 19:58:46 - INFO     - Lancement Application                           
+12/11/2024 19:58:46 - INFO     - --------------------------------------------------
+12/11/2024 19:58:46 - INFO     - AccueilVue
+12/11/2024 19:58:48 - INFO     - ConnexionVue
+12/11/2024 19:58:52 - INFO     -     UtilisateurDao.se_connecter('Ananas', '*****') - DEBUT
+12/11/2024 19:58:52 - INFO     -     UtilisateurDao.se_connecter('Ananas', '*****') - FIN
+12/11/2024 19:58:52 - INFO     -        └─> Sortie : None
+12/11/2024 19:58:52 - INFO     - AccueilVue
+12/11/2024 19:58:53 - INFO     - ConnexionVue
+12/11/2024 19:58:57 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+12/11/2024 19:58:57 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+12/11/2024 19:58:57 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000028E5FF15150>
+12/11/2024 19:58:57 - INFO     - MenuUtilisateurVue
+12/11/2024 19:58:58 - INFO     - RechercheVue
+12/11/2024 19:58:58 - INFO     - RechercheMangaVue
+12/11/2024 19:59:01 - INFO     - choix2 : ['Monster', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul', 'Monster Hunter Orage']
+12/11/2024 19:59:02 - INFO     - SelectionMangaVuerecherche
+12/11/2024 19:59:05 - INFO     - AjouterMangaCollecVuerecherche
+12/11/2024 19:59:05 - INFO     - listecolleccohe type: <class 'list'>, contenu: ['Test coll cohere']
+12/11/2024 19:59:05 - INFO     - collection_physique type: <class 'NoneType'>, contenu: None
+12/11/2024 19:59:05 - INFO     - listecollections: ['Test coll cohere']
+12/11/2024 19:59:05 - INFO     - Ajout de l'option cohérente : Dans votre collection cohérente : Test coll cohere
+12/11/2024 19:59:05 - INFO     - Choices avant inquirer: ['Dans votre collection cohérente : Test coll cohere']
+12/11/2024 19:59:07 - INFO     - nom:Test coll cohere
+12/11/2024 19:59:07 - INFO     - object of type 'NoneType' has no len()
+12/11/2024 19:59:07 - INFO     - AccueilVue
+12/11/2024 20:05:26 - INFO     - Fin de l'application
+12/11/2024 21:19:13 - INFO     - --------------------------------------------------
+12/11/2024 21:19:13 - INFO     - Lancement Application                           
+12/11/2024 21:19:13 - INFO     - --------------------------------------------------
+12/11/2024 21:19:13 - INFO     - AccueilVue
+12/11/2024 21:19:19 - INFO     - ConnexionVue
+12/11/2024 21:19:24 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+12/11/2024 21:19:24 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+12/11/2024 21:19:24 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000002AE65A4DAE0>
+12/11/2024 21:19:24 - INFO     - MenuUtilisateurVue
+12/11/2024 21:19:25 - INFO     - RechercheVue
+12/11/2024 21:19:26 - INFO     - RechercheMangaVue
+12/11/2024 21:19:28 - INFO     - choix2 : ['Monster', 'Higurashi WHEN THEY CRY: Abducted by Demons Arc', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul']
+12/11/2024 21:19:29 - INFO     - SelectionMangaVuerecherche
+12/11/2024 21:19:29 - INFO     - Fin de l'application
+12/11/2024 21:20:17 - INFO     - --------------------------------------------------
+12/11/2024 21:20:17 - INFO     - Lancement Application                           
+12/11/2024 21:20:17 - INFO     - --------------------------------------------------
+12/11/2024 21:20:17 - INFO     - AccueilVue
+12/11/2024 21:20:18 - INFO     - ConnexionVue
+12/11/2024 21:20:22 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+12/11/2024 21:20:22 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+12/11/2024 21:20:22 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001CB8DBE1AB0>
+12/11/2024 21:20:22 - INFO     - MenuUtilisateurVue
+12/11/2024 21:20:22 - INFO     - RechercheVue
+12/11/2024 21:20:23 - INFO     - RechercheMangaVue
+12/11/2024 21:20:25 - INFO     - choix2 : ['Monster', 'Higurashi WHEN THEY CRY: Abducted by Demons Arc', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul']
+12/11/2024 21:20:26 - INFO     - SelectionMangaVuerecherche
+12/11/2024 21:20:27 - INFO     - invalid decimal literal (collection_coherente_service.py, line 41)
+12/11/2024 21:20:27 - INFO     - AccueilVue
+12/11/2024 21:21:48 - INFO     - Fin de l'application
+12/11/2024 21:21:50 - INFO     - --------------------------------------------------
+12/11/2024 21:21:50 - INFO     - Lancement Application                           
+12/11/2024 21:21:50 - INFO     - --------------------------------------------------
+12/11/2024 21:21:50 - INFO     - AccueilVue
+12/11/2024 21:21:52 - INFO     - ConnexionVue
+12/11/2024 21:21:55 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+12/11/2024 21:21:55 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+12/11/2024 21:21:55 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x00000240AF855B40>
+12/11/2024 21:21:55 - INFO     - MenuUtilisateurVue
+12/11/2024 21:21:56 - INFO     - RechercheVue
+12/11/2024 21:21:56 - INFO     - RechercheMangaVue
+12/11/2024 21:21:59 - INFO     - choix2 : ['Monster', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul', 'Monster Hunter Orage']
+12/11/2024 21:21:59 - INFO     - SelectionMangaVuerecherche
+12/11/2024 21:21:59 - INFO     - AjouterMangaCollecVuerecherche
+12/11/2024 21:22:00 - INFO     -     UtilisateurDao.recherche_id_par_pseudo(1,) - DEBUT
+12/11/2024 21:22:00 - INFO     - ERREUR:  l'opérateur n'existe pas : character varying = integer
+LINE 1: ...OM utilisateur                       WHERE pseudo = 1;      ...
+                                                             ^
+HINT:  Aucun opérateur ne correspond au nom donné et aux types d'arguments.
+Vous devez ajouter des conversions explicites de type.
+
+12/11/2024 21:22:00 - INFO     - ERREUR:  l'opérateur n'existe pas : character varying = integer
+LINE 1: ...OM utilisateur                       WHERE pseudo = 1;      ...
+                                                             ^
+HINT:  Aucun opérateur ne correspond au nom donné et aux types d'arguments.
+Vous devez ajouter des conversions explicites de type.
+
+12/11/2024 21:22:00 - INFO     - AccueilVue
+12/11/2024 21:23:40 - INFO     - Fin de l'application
+12/11/2024 21:23:42 - INFO     - --------------------------------------------------
+12/11/2024 21:23:42 - INFO     - Lancement Application                           
+12/11/2024 21:23:42 - INFO     - --------------------------------------------------
+12/11/2024 21:23:42 - INFO     - AccueilVue
+12/11/2024 21:23:43 - INFO     - ConnexionVue
+12/11/2024 21:23:48 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+12/11/2024 21:23:48 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+12/11/2024 21:23:48 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001D660E61C30>
+12/11/2024 21:23:48 - INFO     - MenuUtilisateurVue
+12/11/2024 21:23:49 - INFO     - RechercheVue
+12/11/2024 21:23:49 - INFO     - RechercheMangaVue
+12/11/2024 21:23:51 - INFO     - choix2 : ['Monster', 'Higurashi WHEN THEY CRY: Abducted by Demons Arc', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul']
+12/11/2024 21:23:51 - INFO     - SelectionMangaVuerecherche
+12/11/2024 21:23:52 - INFO     - AjouterMangaCollecVuerecherche
+12/11/2024 21:23:52 - INFO     - listecolleccohe type: <class 'list'>, contenu: ['Test coll cohere']
+12/11/2024 21:23:52 - INFO     - collection_physique type: <class 'NoneType'>, contenu: None
+12/11/2024 21:23:52 - INFO     - listecollections: ['Test coll cohere']
+12/11/2024 21:23:52 - INFO     - Ajout de l'option cohérente : Dans votre collection cohérente : Test coll cohere
+12/11/2024 21:23:52 - INFO     - Choices avant inquirer: ['Dans votre collection cohérente : Test coll cohere', 'Retour au menu précédent', "Retour vers l'écran d'accueil"]
+12/11/2024 21:23:53 - INFO     - Nom de la collection choisi: Test coll cohere
+12/11/2024 21:23:53 - INFO     - Collection cohérente trouvée : Test coll cohere, <business_object.CollectionCoherente.CollectionCoherente object at 0x000001D66124D150>
+12/11/2024 21:23:53 - INFO     - 'CollectionCoherenteService' object has no attribute 'ajouter_manga'
+12/11/2024 21:23:53 - INFO     - AccueilVue
+12/11/2024 21:24:24 - INFO     - Fin de l'application
+12/11/2024 21:24:26 - INFO     - --------------------------------------------------
+12/11/2024 21:24:26 - INFO     - Lancement Application                           
+12/11/2024 21:24:26 - INFO     - --------------------------------------------------
+12/11/2024 21:24:26 - INFO     - AccueilVue
+12/11/2024 21:24:27 - INFO     - ConnexionVue
+12/11/2024 21:24:31 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+12/11/2024 21:24:31 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+12/11/2024 21:24:31 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000012FCFBD1AE0>
+12/11/2024 21:24:31 - INFO     - MenuUtilisateurVue
+12/11/2024 21:24:31 - INFO     - RechercheVue
+12/11/2024 21:24:32 - INFO     - RechercheMangaVue
+12/11/2024 21:24:33 - INFO     - choix2 : ['Monster', 'Higurashi WHEN THEY CRY: Abducted by Demons Arc', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul']
+12/11/2024 21:24:34 - INFO     - SelectionMangaVuerecherche
+12/11/2024 21:24:34 - INFO     - AjouterMangaCollecVuerecherche
+12/11/2024 21:24:34 - INFO     - listecolleccohe type: <class 'list'>, contenu: ['Test coll cohere']
+12/11/2024 21:24:34 - INFO     - collection_physique type: <class 'NoneType'>, contenu: None
+12/11/2024 21:24:34 - INFO     - listecollections: ['Test coll cohere']
+12/11/2024 21:24:34 - INFO     - Ajout de l'option cohérente : Dans votre collection cohérente : Test coll cohere
+12/11/2024 21:24:34 - INFO     - Choices avant inquirer: ['Dans votre collection cohérente : Test coll cohere', 'Retour au menu précédent', "Retour vers l'écran d'accueil"]
+12/11/2024 21:24:35 - INFO     - Nom de la collection choisi: Test coll cohere
+12/11/2024 21:24:35 - INFO     - Collection cohérente trouvée : Test coll cohere, <business_object.CollectionCoherente.CollectionCoherente object at 0x0000012FCFFBD0F0>
+12/11/2024 21:24:35 - INFO     - SelectionMangaVuerecherche
+12/11/2024 21:24:51 - INFO     - RechercheMangaVue
+12/11/2024 21:24:55 - INFO     - choix2 : ['One Piece', 'Wanted! Eiichiro Oda Before One Piece', 'One Piece: Shokugeki no Sanji', 'One Piece: Boichi Covers Zolo vs. Mihawk', "One Piece: Ace's Story", "One Piece: Ace's Story", "One Piece: Vivi's Adventure", 'One Piece: Heroines']
+12/11/2024 21:24:56 - INFO     - SelectionMangaVuerecherche
+12/11/2024 21:24:57 - INFO     - AjouterMangaCollecVuerecherche
+12/11/2024 21:24:57 - INFO     - listecolleccohe type: <class 'list'>, contenu: ['Test coll cohere']
+12/11/2024 21:24:57 - INFO     - collection_physique type: <class 'NoneType'>, contenu: None
+12/11/2024 21:24:57 - INFO     - listecollections: ['Test coll cohere']
+12/11/2024 21:24:57 - INFO     - Ajout de l'option cohérente : Dans votre collection cohérente : Test coll cohere
+12/11/2024 21:24:57 - INFO     - Choices avant inquirer: ['Dans votre collection cohérente : Test coll cohere', 'Retour au menu précédent', "Retour vers l'écran d'accueil"]
+12/11/2024 21:24:58 - INFO     - Nom de la collection choisi: Test coll cohere
+12/11/2024 21:24:59 - INFO     - Collection cohérente trouvée : Test coll cohere, <business_object.CollectionCoherente.CollectionCoherente object at 0x0000012FCFD5C940>
+12/11/2024 21:24:59 - INFO     - SelectionMangaVuerecherche
+12/11/2024 21:25:42 - INFO     - MenuUtilisateurVue
+12/11/2024 21:25:44 - INFO     - AccueilVue
+12/11/2024 21:25:45 - INFO     - Fin de l'application
+12/11/2024 21:28:34 - INFO     - --------------------------------------------------
+12/11/2024 21:28:34 - INFO     - Lancement Application                           
+12/11/2024 21:28:34 - INFO     - --------------------------------------------------
+12/11/2024 21:28:34 - INFO     - AccueilVue
+12/11/2024 21:28:35 - INFO     - ConnexionVue
+12/11/2024 21:28:40 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+12/11/2024 21:28:40 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+12/11/2024 21:28:40 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000023B44C31AB0>
+12/11/2024 21:28:40 - INFO     - MenuUtilisateurVue
+12/11/2024 21:28:41 - INFO     - RechercheVue
+12/11/2024 21:28:41 - INFO     - RechercheMangaVue
+12/11/2024 21:28:43 - INFO     - choix2 : ['Monster', 'Higurashi WHEN THEY CRY: Abducted by Demons Arc', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul']
+12/11/2024 21:28:44 - INFO     - SelectionMangaVuerecherche
+12/11/2024 21:28:45 - INFO     - AjouterMangaCollecVuerecherche
+12/11/2024 21:28:45 - INFO     - listecolleccohe type: <class 'list'>, contenu: ['Test coll cohere']
+12/11/2024 21:28:45 - INFO     - collection_physique type: <class 'NoneType'>, contenu: None
+12/11/2024 21:28:45 - INFO     - listecollections: ['Test coll cohere']
+12/11/2024 21:28:45 - INFO     - Ajout de l'option cohérente : Dans votre collection cohérente : Test coll cohere
+12/11/2024 21:28:45 - INFO     - Choices avant inquirer: ['Dans votre collection cohérente : Test coll cohere', 'Retour au menu précédent', "Retour vers l'écran d'accueil"]
+12/11/2024 21:28:46 - INFO     - Nom de la collection choisi: Test coll cohere
+12/11/2024 21:28:46 - INFO     - Collection cohérente trouvée : Test coll cohere, <business_object.CollectionCoherente.CollectionCoherente object at 0x0000023B4501D150>
+12/11/2024 21:28:46 - INFO     - ERREUR:  la valeur d'une clé dupliquée rompt la contrainte unique « association_manga_collection_coherente_pkey »
+DETAIL:  La clé « (id_manga, id_collec_coherente)=(1, 6) » existe déjà.
+
+12/11/2024 21:28:46 - INFO     - SelectionMangaVuerecherche
+12/11/2024 21:45:20 - INFO     - RechercheMangaVue
+12/11/2024 21:45:22 - INFO     - Fin de l'application
+12/11/2024 21:45:25 - INFO     - --------------------------------------------------
+12/11/2024 21:45:25 - INFO     - Lancement Application                           
+12/11/2024 21:45:25 - INFO     - --------------------------------------------------
+12/11/2024 21:45:25 - INFO     - AccueilVue
+12/11/2024 21:45:27 - INFO     - ConnexionVue
+12/11/2024 21:45:31 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+12/11/2024 21:45:31 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+12/11/2024 21:45:31 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x00000172E13B5870>
+12/11/2024 21:45:31 - INFO     - MenuUtilisateurVue
+12/11/2024 21:45:32 - INFO     - EcranDuProfilVue
+12/11/2024 21:46:02 - INFO     - MenuUtilisateurVue
+12/11/2024 21:46:05 - INFO     - AccueilVue
+12/11/2024 21:46:06 - INFO     - Fin de l'application
+12/11/2024 21:46:53 - INFO     - --------------------------------------------------
+12/11/2024 21:46:53 - INFO     - Lancement Application                           
+12/11/2024 21:46:53 - INFO     - --------------------------------------------------
+12/11/2024 21:46:53 - INFO     - AccueilVue
+12/11/2024 21:46:54 - INFO     - ConnexionVue
+12/11/2024 21:46:58 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+12/11/2024 21:46:58 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+12/11/2024 21:46:58 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000002A42EC41AE0>
+12/11/2024 21:46:58 - INFO     - MenuUtilisateurVue
+12/11/2024 21:46:59 - INFO     - name 'CollectionCoherente' is not defined
+12/11/2024 21:46:59 - INFO     - AccueilVue
+12/11/2024 21:51:24 - INFO     - Fin de l'application
+12/11/2024 21:51:26 - INFO     - --------------------------------------------------
+12/11/2024 21:51:26 - INFO     - Lancement Application                           
+12/11/2024 21:51:26 - INFO     - --------------------------------------------------
+12/11/2024 21:51:26 - INFO     - AccueilVue
+12/11/2024 21:51:27 - INFO     - ConnexionVue
+12/11/2024 21:51:31 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+12/11/2024 21:51:31 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+12/11/2024 21:51:31 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000024ED20A1AB0>
+12/11/2024 21:51:31 - INFO     - MenuUtilisateurVue
+12/11/2024 21:51:31 - INFO     - invalid syntax (CollectionCoherente.py, line 59)
+12/11/2024 21:51:31 - INFO     - AccueilVue
+12/11/2024 21:51:44 - INFO     - Fin de l'application
+12/11/2024 21:51:46 - INFO     - --------------------------------------------------
+12/11/2024 21:51:46 - INFO     - Lancement Application                           
+12/11/2024 21:51:46 - INFO     - --------------------------------------------------
+12/11/2024 21:51:46 - INFO     - AccueilVue
+12/11/2024 21:51:47 - INFO     - ConnexionVue
+12/11/2024 21:51:50 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+12/11/2024 21:51:50 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+12/11/2024 21:51:50 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x00000204C39F1AE0>
+12/11/2024 21:51:50 - INFO     - MenuUtilisateurVue
+12/11/2024 21:51:51 - INFO     - name 'CollectionCoherente' is not defined
+12/11/2024 21:51:51 - INFO     - AccueilVue
+12/11/2024 21:51:53 - INFO     - Fin de l'application
+12/11/2024 21:56:09 - INFO     - --------------------------------------------------
+12/11/2024 21:56:09 - INFO     - Lancement Application                           
+12/11/2024 21:56:09 - INFO     - --------------------------------------------------
+12/11/2024 21:56:09 - INFO     - AccueilVue
+12/11/2024 21:56:09 - INFO     - ConnexionVue
+12/11/2024 21:56:13 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+12/11/2024 21:56:13 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+12/11/2024 21:56:13 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000002A550075AE0>
+12/11/2024 21:56:13 - INFO     - MenuUtilisateurVue
+12/11/2024 21:56:14 - INFO     - EcranDuProfilVue
+12/11/2024 21:56:18 - INFO     - MenuUtilisateurVue
+12/11/2024 21:56:19 - INFO     - AccueilVue
+12/11/2024 21:56:20 - INFO     - Fin de l'application

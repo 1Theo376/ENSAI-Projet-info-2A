@@ -32,10 +32,10 @@ class AjouterMangaCollecVuerecherche(VueAbstraite):
         logging.info(f"listecolleccohe type: {type(listecolleccohe)}, contenu: {listecolleccohe}")
 
         collection_physique = RechercheService().recherche_collec_phys_par_id(Session().utilisateur.id)
-        logging.info(f"collection_physique type: {type(collection_physique)}, contenu: {collection_physique}")
+        logging.info(f"collection_physique type: {type(collection_physique.titre_collection)}, contenu: {collection_physique.titre_collection}")
 
-        if collection_physique:
-            choix.append(collection_physique)
+        if collection_physique.titre_collection:
+            choix.append(collection_physique.titre_collection)
             logging.info(f"Contenu de `choix` après ajout de collection_physique: {choix}")
 
         listecollections = choix + listecolleccohe
@@ -49,7 +49,7 @@ class AjouterMangaCollecVuerecherche(VueAbstraite):
         choices = []
         for i in range(len(listecollections)):
             if isinstance(listecollections[i], str):
-                if listecollections[0] == collection_physique:
+                if listecollections[i] == collection_physique.titre_collection:
                     option = f"Dans votre collection physique : {listecollections[0]}"
                     logging.info(f"Ajout de l'option physique : {option}")
                     choices.append(option)
@@ -74,7 +74,7 @@ class AjouterMangaCollecVuerecherche(VueAbstraite):
             nom = choixp.split(": ")[1]
             logging.info(f"Nom de la collection choisi: {nom}")
 
-            if nom == collection_physique:
+            if nom == collection_physique.titre_collection:
                 collection = CollectionPhysiqueDAO().trouver_collec_phys_nom(nom)
                 Collection_physique_service().ajouter_manga(
                     collection.id_collectioncoherente, manga.id_manga
