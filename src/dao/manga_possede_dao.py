@@ -32,7 +32,7 @@ class MangaPossedeDao:
                         {
                             "id_manga": mangap.idmanga,
                             "num_dernier_acquis": mangap.num_dernier_acquis,
-                            "statut": mangap.statut
+                            "statut": mangap.statut,
                         },
                     )
                     res = cursor.fetchone()
@@ -110,3 +110,49 @@ class MangaPossedeDao:
         if res:
             volumes = res["volumes"]
         return volumes
+
+    def trouver_manga_possede_collecphys(self, titre, id_collec_phys):
+        try:
+            with DBConnection().connection as connection:
+                with connection.cursor() as cursor:
+                    cursor.execute(
+                        "SELECT id_manga_p, id_manga, num_dernier_acquis, statut                "
+                        "FROM manga_possede                                                      "
+                        "left join manga using(id_manga)      "
+                        "left join association_manga_collection_physique using(id_manga_p)      "
+                        "left join collection_physique using(id_collec_physique)                "
+                        "WHERE id_collec_physique = %(id_collec_physique)s                  "
+                        "AND manga.titre = %(titre)s ;                   ",
+                        {"id_collec_physique": id_collec_phys, "titre": titre},
+                    )
+                    res = cursor.fetchone()
+        except Exception as e:
+            logging.info(e)
+            raise
+        try:
+            with DBConnection().connection as connection:
+                with connection.cursor() as cursor:
+                    cursor.execute(
+                        "SELECT num_manquant FROM num_manquant as mq            "
+                        "left join aassociation_manga_num_manquant using(id_num_manquant)      "
+                        "left join manga_possede using(id_manga_p)                "
+                        "WHERE id_manga_p = %(id_manga_p)s;                   ",
+                        {"id_manga_p": res["id_manga_p"]},
+                    )
+                    res2 = cursor.fetchall()
+        except Exception as e:
+            logging.info(e)
+            raise
+        liste = []
+        for elt in res2:
+            liste.append(res2["num_manquant"])
+        manga_possede = None
+        if res:
+            manga_possede = MangaPossede(
+                id_manga_p=res["id_manga_p"],
+                idmanga=res["id_manga"],
+                num_dernier_acquis=res["num_dernier_acquis"],
+                statut=res["statut"],
+                num_manquant=liste,
+            )
+        return manga_possede

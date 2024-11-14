@@ -3,6 +3,7 @@ from InquirerPy import inquirer
 from vues.session import Session
 from dao.collection_physique_dao import CollectionPhysiqueDAO
 from dao.manga_dao import MangaDao
+from dao.manga_possede_dao import MangaPossedeDao
 
 
 class CollectionPhysiqueVue(VueAbstraite):
@@ -72,10 +73,20 @@ class CollectionPhysiqueVue(VueAbstraite):
             return EcranDuProfilVue()
 
     def choisir_menu_bis(self, choix4):
+        print(MangaDao().trouver_manga_par_titre(choix4))
+        print(
+            MangaPossedeDao().trouver_manga_possede_collecphys(
+                choix4,
+                (
+                    CollectionPhysiqueDAO().trouver_collec_phys_id_user(Session().utilisateur.id)
+                ).id_collectionphysique,
+            )
+        )
+        print(f"Nombre de volumes possédés : {MangaPossedeDao().nb_volume_manga(choix4)}")
         choix5 = inquirer.select(
             message=f"Que voulez-vous faire avec le manga {choix4}: ",
             choices=[
-                "Afficher les informations du manga",
+                "Modifier les tomes possédés",
                 "Consulter son avis sur ce manga",
                 "Retirer le manga de la collection",
                 "Retour au menu précédent",
@@ -88,10 +99,6 @@ class CollectionPhysiqueVue(VueAbstraite):
                 CollectionPhysiqueDAO().trouver_collec_phys_id_user(Session().utilisateur.id),
                 MangaDao().trouver_manga_par_titre(choix4),
             )
-            return self.choisir_menu_bis(choix4)
-
-        if choix5 == "Afficher les informations du manga":
-            print(MangaDao().trouver_manga_par_titre(choix4))
             return self.choisir_menu_bis(choix4)
 
         if choix5 == "Consulter son avis sur ce manga":
@@ -112,3 +119,6 @@ class CollectionPhysiqueVue(VueAbstraite):
             return self.choisir_menu_bis(choix4)
         if choix5 == "Retour au menu précédent":
             return self.choisir_menu()
+
+        if choix5 == "Modifier les tomes possédés":
+            pass
