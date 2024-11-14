@@ -61,6 +61,7 @@ class RechercheService:
         if res:
             longueur_tot = len(res)
             liste = [j.pseudo for j in res]
+            logging.info(f"liste={liste}")
             sous_liste = liste[n: n + m + a]
             longueur = len(sous_liste)
             return longueur, sous_liste, longueur_tot if sous_liste else None

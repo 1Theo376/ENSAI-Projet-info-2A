@@ -320,8 +320,7 @@ class UtilisateurDao(metaclass=Singleton):
                 )
                 if utilisateur:
                     liste_utilisateurs.append(utilisateur)
-                else:
-                    return None
+            return liste_utilisateurs
         return None
 
     @log
