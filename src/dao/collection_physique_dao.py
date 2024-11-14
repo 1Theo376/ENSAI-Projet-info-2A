@@ -210,23 +210,23 @@ class CollectionPhysiqueDAO:
                         " WHERE id_utilisateur = %(id_utilisateur)s;  ",
                         {"id_utilisateur": id_utilisateur},
                     )
-                    res = cursor.fetchone()
+                    res = cursor.fetchall()
         except Exception as e:
             logging.info(e)
             raise
+        if not res:
+            return None
+        L_mangas = []
+        id_collectionphysique = res[0]["id_collec_physique"]
+        titre_collection = res[0]["titre_collection"]
+        description_collection = res[0]["description_collection"]
         collection = None
-        if res:
-            L_mangas = []
-            for elt in res:
-                id_collectionphysique = elt["id_collec_physique"]
-                titre_collection = elt["titre_collection"]
-                description_collection = elt["description_collection"]
-                if elt["id_manga_p"]:
-                    L_mangas.append(MangaPossedeDao().trouver_manga_possede_id(elt["id_manga_p"]))
-                else:
-                    L_mangas = []
+        for elt in res:
+            if elt["id_manga_p"]:
+                manga_possede = MangaPossedeDao().trouver_manga_possede_id(elt["id_manga_p"])
+                L_mangas.append(manga_possede)
 
-            collection = Collection_physique(
+        collection = Collection_physique(
                 id_collectionphysique=id_collectionphysique,
                 titre_collection=titre_collection,
                 description_collection=description_collection,

@@ -99,3 +99,5 @@ class AjouterMangaPossCollPhys(VueAbstraite):
         from vues.Selection_manga_vue_recherche import SelectionMangaVuerecherche
 
         return SelectionMangaVuerecherche().choisir_menu(choix3)
+
+    
