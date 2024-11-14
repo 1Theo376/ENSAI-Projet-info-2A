@@ -44,25 +44,29 @@ class RechercheUtilisateurVue(VueAbstraite):
                 n = 0
                 m = 8
                 a = 0
-                long = RechercheService().recherche_utilisateur(pseudo, n, m, a)["longueur"]
-                logging.info(f"longueur : {long}")
-                res_entier = long // m
-                res_reste = long % m
+                longueur, sous_liste, longueur_tot = RechercheService().recherche_utilisateur(pseudo, n, m, a)
+                logging.info(f"longueur : {longueur}")
+                res_entier = longueur // m
+                res_reste = longueur % m
+
+                if not RechercheService().recherche_utilisateur(pseudo, n, m, a):
+                    print(f"Aucun utilisateur trouvé pour le pseudo '{pseudo}'.")
+                    choix2 = ["Retour au menu précédent"]
+                    choix3 = inquirer.select(
+                        message="Faites votre choix : ",
+                        choices=choix2
+                        ).execute()
 
                 while n >= 0:
-                    choix2 = RechercheService().recherche_utilisateur(pseudo, n, m, a)["liste"]
-                    logging.info(f"mangas : {}")
-
-                    if not choix2:
-                        print(f"Aucun utilisateur trouvé pour le pseudo '{pseudo}'.")
-                        break
+                    longueur, sous_liste, longueur_tot = RechercheService().recherche_utilisateur(pseudo, n, m, a)
+                    choix2 = sous_liste
 
                     choix2.extend(["Afficher la page suivante", "Retour au menu précédent"])
 
-                    if res_entier == 0 and res_reste == 0:
+                    if (res_entier == 0 and res_reste == 0) or longueur_tot <= 8:
                         choix2.remove("Afficher la page suivante")
 
-                    if res_entier != (long // m):
+                    if res_entier != (longueur // m):
                         choix2.extend(["Afficher la page précédente"])
                         res_entier += 1
 
@@ -73,7 +77,6 @@ class RechercheUtilisateurVue(VueAbstraite):
 
                     if choix3 == "Retour au menu précédent":
                         from vues.menu_utilisateur_vue import MenuUtilisateurVue
-
                         return MenuUtilisateurVue().choisir_menu()
 
                     elif choix3 == "Afficher la page suivante":
@@ -98,8 +101,8 @@ class RechercheUtilisateurVue(VueAbstraite):
                         match choix4:
                             case "Consulter les collections":
                                 from vues.ConsulterCollecVue import CollectionCoherenteVueRecherche
-
                                 return CollectionCoherenteVueRecherche().choisir_menu(choix3)
+
                             case "Consulter les avis":
                                 from vues.AvisRechercheUtilisateurVue import (
                                     AvisRechercheUtilisateurVue,
@@ -108,11 +111,10 @@ class RechercheUtilisateurVue(VueAbstraite):
                                 return AvisRechercheUtilisateurVue().choisir_menu(choix3)
                             case "Retour au menu précédent":
                                 from vues.recherche_vue import RechercheVue
+                                return RechercheVue().choisir_menu()
 
-                                return RechercheVue()
                             case "Retour vers l'écran d'accueil":
                                 from vues.menu_utilisateur_vue import MenuUtilisateurVue
-
                                 return MenuUtilisateurVue("Bon retour")
 
         from vues.menu_utilisateur_vue import MenuUtilisateurVue

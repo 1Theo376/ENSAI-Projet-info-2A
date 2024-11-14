@@ -310,7 +310,7 @@ class UtilisateurDao(metaclass=Singleton):
             raise
 
         liste_utilisateurs = []
-
+        logging.info(f"res de rechercher tous pseudo : {res}")
         if res:
             for row in res:
                 utilisateur = Utilisateur(
@@ -318,9 +318,11 @@ class UtilisateurDao(metaclass=Singleton):
                     pseudo=row["pseudo"],
                     mdp=row["mdp"],
                 )
-                if utilisateur is not None:
+                if utilisateur:
                     liste_utilisateurs.append(utilisateur)
-        return liste_utilisateurs
+                else:
+                    return None
+        return None
 
     @log
     def recherche_id_par_pseudo(self, pseudo):

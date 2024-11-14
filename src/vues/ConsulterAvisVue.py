@@ -28,7 +28,7 @@ class ConsulterAvisMangaVuerecherche(VueAbstraite):
         logging.info(f"sous_liste : {sous_liste}")
         logging.info(f"long : {long}")
 
-        if AvisService().recuperer_avis_manga2(manga.id_manga, n, a) == "Aucun avis trouvé.":
+        if not AvisService().recuperer_avis_manga2(manga.id_manga, n, a):
             print(f"Aucun avis trouvé pour le manga '{manga.titre}'.")
 
         while n >= 0:

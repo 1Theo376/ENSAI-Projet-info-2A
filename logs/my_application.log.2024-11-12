@@ -1,956 +1,903 @@
-<<<<<<< HEAD
-12/11/2024 18:32:16 - INFO     - --------------------------------------------------
-12/11/2024 18:32:16 - INFO     - Lancement Application                           
-12/11/2024 18:32:16 - INFO     - --------------------------------------------------
-12/11/2024 18:32:16 - INFO     - AccueilVue
-12/11/2024 18:32:17 - INFO     - ConnexionVue
-12/11/2024 18:32:24 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
-12/11/2024 18:32:24 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
-12/11/2024 18:32:24 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000002AF1416DAE0>
-12/11/2024 18:32:24 - INFO     - MenuUtilisateurVue
-12/11/2024 18:32:26 - INFO     - RechercheVue
-12/11/2024 18:32:28 - INFO     - RechercheMangaVue
-12/11/2024 18:32:31 - INFO     - choix2 : ['Monster', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul', 'Monster Hunter Orage']
-12/11/2024 18:32:32 - INFO     - SelectionMangaVuerecherche
-12/11/2024 18:32:34 - INFO     - Fin de l'application
-12/11/2024 18:35:37 - INFO     - --------------------------------------------------
-12/11/2024 18:35:37 - INFO     - Lancement Application                           
-12/11/2024 18:35:37 - INFO     - --------------------------------------------------
-12/11/2024 18:35:37 - INFO     - AccueilVue
-12/11/2024 18:35:39 - INFO     - ConnexionVue
-12/11/2024 18:35:43 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
-12/11/2024 18:35:43 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
-12/11/2024 18:35:43 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x00000122E71B1AB0>
-12/11/2024 18:35:43 - INFO     - MenuUtilisateurVue
-12/11/2024 18:35:44 - INFO     - RechercheVue
-12/11/2024 18:35:45 - INFO     - RechercheMangaVue
-12/11/2024 18:35:48 - INFO     - choix2 : ['Monster', 'Higurashi WHEN THEY CRY: Abducted by Demons Arc', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul']
-12/11/2024 18:35:48 - INFO     - SelectionMangaVuerecherche
-12/11/2024 18:35:50 - INFO     - cannot import name 'CollectionCoherenteService' from 'service.collection_coherente_service' (\\filer-eleves2\id2548\Cours2A\UE3-Projet-info\Projetinfo\ENSAI-Projet-info-2A\src\service\collection_coherente_service.py)
-12/11/2024 18:35:50 - INFO     - AccueilVue
-12/11/2024 18:41:12 - INFO     - Fin de l'application
-12/11/2024 18:41:15 - INFO     - --------------------------------------------------
-12/11/2024 18:41:15 - INFO     - Lancement Application                           
-12/11/2024 18:41:15 - INFO     - --------------------------------------------------
-12/11/2024 18:41:15 - INFO     - AccueilVue
-12/11/2024 18:41:15 - INFO     - ConnexionVue
-12/11/2024 18:41:19 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
-12/11/2024 18:41:19 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
-12/11/2024 18:41:19 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000024888C7DAE0>
-12/11/2024 18:41:20 - INFO     - MenuUtilisateurVue
-12/11/2024 18:41:21 - INFO     - RechercheVue
-12/11/2024 18:41:22 - INFO     - RechercheMangaVue
-12/11/2024 18:41:26 - INFO     - choix2 : ['Monster', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul', 'Monster Hunter Orage']
-12/11/2024 18:41:28 - INFO     - SelectionMangaVuerecherche
-12/11/2024 18:41:29 - INFO     - AjouterMangaCollecVuerecherche
-12/11/2024 18:41:29 - INFO     -     UtilisateurDao.recherche_id_par_pseudo(1,) - DEBUT
-12/11/2024 18:41:29 - INFO     - ERREUR:  l'opérateur n'existe pas : character varying = integer
-LINE 1: ...OM utilisateur                       WHERE pseudo = 1;      ...
-                                                             ^
-HINT:  Aucun opérateur ne correspond au nom donné et aux types d'arguments.
-Vous devez ajouter des conversions explicites de type.
-
-12/11/2024 18:41:29 - INFO     - ERREUR:  l'opérateur n'existe pas : character varying = integer
-LINE 1: ...OM utilisateur                       WHERE pseudo = 1;      ...
-                                                             ^
-HINT:  Aucun opérateur ne correspond au nom donné et aux types d'arguments.
-Vous devez ajouter des conversions explicites de type.
-
-12/11/2024 18:41:29 - INFO     - AccueilVue
-12/11/2024 18:42:53 - INFO     - Fin de l'application
-12/11/2024 18:42:55 - INFO     - --------------------------------------------------
-12/11/2024 18:42:55 - INFO     - Lancement Application                           
-12/11/2024 18:42:55 - INFO     - --------------------------------------------------
-12/11/2024 18:42:55 - INFO     - AccueilVue
-12/11/2024 18:42:56 - INFO     - ConnexionVue
-12/11/2024 18:43:00 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
-12/11/2024 18:43:00 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
-12/11/2024 18:43:00 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000002580CB31AE0>
-12/11/2024 18:43:00 - INFO     - MenuUtilisateurVue
-12/11/2024 18:43:04 - INFO     - RechercheVue
-12/11/2024 18:43:05 - INFO     - RechercheMangaVue
-12/11/2024 18:43:08 - INFO     - choix2 : ['Monster', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul', 'Monster Hunter Orage']
-12/11/2024 18:43:08 - INFO     - SelectionMangaVuerecherche
-12/11/2024 18:43:10 - INFO     - AjouterMangaCollecVuerecherche
-12/11/2024 18:43:12 - INFO     - 'list' object has no attribute 'split'
-12/11/2024 18:43:12 - INFO     - AccueilVue
-12/11/2024 18:46:28 - INFO     - Fin de l'application
-12/11/2024 18:46:30 - INFO     - --------------------------------------------------
-12/11/2024 18:46:30 - INFO     - Lancement Application                           
-12/11/2024 18:46:30 - INFO     - --------------------------------------------------
-12/11/2024 18:46:30 - INFO     - AccueilVue
-12/11/2024 18:46:31 - INFO     - ConnexionVue
-12/11/2024 18:46:35 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
-12/11/2024 18:46:36 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
-12/11/2024 18:46:36 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x00000223A64C5AE0>
-12/11/2024 18:46:36 - INFO     - MenuUtilisateurVue
-12/11/2024 18:46:38 - INFO     - RechercheVue
-12/11/2024 18:46:38 - INFO     - RechercheMangaVue
-12/11/2024 18:46:40 - INFO     - choix2 : ['Monster', 'Higurashi WHEN THEY CRY: Abducted by Demons Arc', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul']
-12/11/2024 18:46:41 - INFO     - SelectionMangaVuerecherche
-12/11/2024 18:46:42 - INFO     - AjouterMangaCollecVuerecherche
-12/11/2024 18:46:45 - INFO     - 'NoneType' object has no attribute 'id_collectioncoherente'
-12/11/2024 18:46:45 - INFO     - AccueilVue
-12/11/2024 18:49:30 - INFO     - Fin de l'application
-12/11/2024 18:49:33 - INFO     - --------------------------------------------------
-12/11/2024 18:49:33 - INFO     - Lancement Application                           
-12/11/2024 18:49:33 - INFO     - --------------------------------------------------
-12/11/2024 18:49:33 - INFO     - AccueilVue
-12/11/2024 18:49:34 - INFO     - ConnexionVue
-12/11/2024 18:49:36 - INFO     -     UtilisateurDao.se_connecter('', '*****') - DEBUT
-12/11/2024 18:49:36 - INFO     -     UtilisateurDao.se_connecter('', '*****') - FIN
-12/11/2024 18:49:36 - INFO     -        └─> Sortie : None
-12/11/2024 18:49:36 - INFO     - AccueilVue
-12/11/2024 18:49:36 - INFO     - ConnexionVue
-12/11/2024 18:49:41 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
-12/11/2024 18:49:41 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
-12/11/2024 18:49:41 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000002204E8313F0>
-12/11/2024 18:49:41 - INFO     - MenuUtilisateurVue
-12/11/2024 18:49:42 - INFO     - RechercheVue
-12/11/2024 18:49:44 - INFO     - RechercheMangaVue
-12/11/2024 18:49:46 - INFO     - choix2 : ['Monster', 'Higurashi WHEN THEY CRY: Abducted by Demons Arc', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul']
-12/11/2024 18:49:47 - INFO     - SelectionMangaVuerecherche
-12/11/2024 18:49:49 - INFO     - AjouterMangaCollecVuerecherche
-12/11/2024 18:49:51 - INFO     - 'module' object is not callable
-12/11/2024 18:49:51 - INFO     - AccueilVue
-12/11/2024 18:50:55 - INFO     - Fin de l'application
-12/11/2024 18:50:58 - INFO     - --------------------------------------------------
-12/11/2024 18:50:58 - INFO     - Lancement Application                           
-12/11/2024 18:50:58 - INFO     - --------------------------------------------------
-12/11/2024 18:50:58 - INFO     - AccueilVue
-12/11/2024 18:50:59 - INFO     - ConnexionVue
-12/11/2024 18:51:02 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
-12/11/2024 18:51:02 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
-12/11/2024 18:51:02 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000022950DB1AE0>
-12/11/2024 18:51:02 - INFO     - MenuUtilisateurVue
-12/11/2024 18:51:04 - INFO     - RechercheVue
-12/11/2024 18:51:05 - INFO     - RechercheMangaVue
-12/11/2024 18:51:07 - INFO     - choix2 : ['Monster', 'Higurashi WHEN THEY CRY: Abducted by Demons Arc', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul']
-12/11/2024 18:51:08 - INFO     - SelectionMangaVuerecherche
-12/11/2024 18:51:09 - INFO     - AjouterMangaCollecVuerecherche
-12/11/2024 18:51:09 - INFO     - Test coll cohere dans None
-12/11/2024 18:51:09 - INFO     - 'NoneType' object has no attribute 'id_collectioncoherente'
-12/11/2024 18:51:09 - INFO     - AccueilVue
-12/11/2024 18:53:23 - INFO     - Fin de l'application
-12/11/2024 18:53:25 - INFO     - --------------------------------------------------
-12/11/2024 18:53:25 - INFO     - Lancement Application                           
-12/11/2024 18:53:25 - INFO     - --------------------------------------------------
-12/11/2024 18:53:25 - INFO     - AccueilVue
-12/11/2024 18:53:26 - INFO     - ConnexionVue
-12/11/2024 18:53:31 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
-12/11/2024 18:53:31 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
-12/11/2024 18:53:31 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001528D9619C0>
-12/11/2024 18:53:31 - INFO     - MenuUtilisateurVue
-12/11/2024 18:53:42 - INFO     - RechercheVue
-12/11/2024 18:53:42 - INFO     - RechercheMangaVue
-12/11/2024 18:53:45 - INFO     - choix2 : ['Monster', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul', 'Monster Hunter Orage']
-12/11/2024 18:53:46 - INFO     - SelectionMangaVuerecherche
-12/11/2024 18:53:47 - INFO     - AjouterMangaCollecVuerecherche
-12/11/2024 18:53:48 - INFO     - unhashable type: 'list'
-12/11/2024 18:53:48 - INFO     - unhashable type: 'list'
-12/11/2024 18:53:48 - INFO     - AccueilVue
-12/11/2024 18:54:13 - INFO     - Fin de l'application
-12/11/2024 18:56:39 - INFO     - --------------------------------------------------
-12/11/2024 18:56:39 - INFO     - Lancement Application                           
-12/11/2024 18:56:39 - INFO     - --------------------------------------------------
-12/11/2024 18:56:39 - INFO     - AccueilVue
-12/11/2024 18:56:39 - INFO     - ConnexionVue
-12/11/2024 18:56:43 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
-12/11/2024 18:56:43 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
-12/11/2024 18:56:43 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x00000201BC445AE0>
-12/11/2024 18:56:43 - INFO     - MenuUtilisateurVue
-12/11/2024 18:56:44 - INFO     - RechercheVue
-12/11/2024 18:56:44 - INFO     - RechercheMangaVue
-12/11/2024 18:56:47 - INFO     - choix2 : ['Monster', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul', 'Monster Hunter Orage']
-12/11/2024 18:56:48 - INFO     - SelectionMangaVuerecherche
-12/11/2024 18:56:48 - INFO     - AjouterMangaCollecVuerecherche
-12/11/2024 18:56:49 - INFO     - Test coll cohere dans None
-12/11/2024 18:56:49 - INFO     - 'NoneType' object has no attribute 'id_collectioncoherente'
-12/11/2024 18:56:49 - INFO     - AccueilVue
-12/11/2024 18:58:41 - INFO     - Fin de l'application
-12/11/2024 18:58:43 - INFO     - --------------------------------------------------
-12/11/2024 18:58:43 - INFO     - Lancement Application                           
-12/11/2024 18:58:43 - INFO     - --------------------------------------------------
-12/11/2024 18:58:43 - INFO     - AccueilVue
-12/11/2024 18:58:44 - INFO     - ConnexionVue
-12/11/2024 18:58:49 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
-12/11/2024 18:58:49 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
-12/11/2024 18:58:49 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000025DA2181B10>
-12/11/2024 18:58:49 - INFO     - MenuUtilisateurVue
-12/11/2024 18:58:51 - INFO     - RechercheVue
-12/11/2024 18:58:51 - INFO     - RechercheMangaVue
-12/11/2024 18:58:54 - INFO     - choix2 : ['Monster', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul', 'Monster Hunter Orage']
-12/11/2024 18:58:54 - INFO     - SelectionMangaVuerecherche
-12/11/2024 18:58:55 - INFO     - AjouterMangaCollecVuerecherche
-12/11/2024 18:58:56 - INFO     - Test coll cohere dans None
-12/11/2024 18:58:56 - INFO     - 'NoneType' object has no attribute 'id_collectioncoherente'
-12/11/2024 18:58:56 - INFO     - AccueilVue
-12/11/2024 19:07:32 - INFO     - Fin de l'application
-12/11/2024 19:07:34 - INFO     - --------------------------------------------------
-12/11/2024 19:07:34 - INFO     - Lancement Application                           
-12/11/2024 19:07:34 - INFO     - --------------------------------------------------
-12/11/2024 19:07:34 - INFO     - AccueilVue
-12/11/2024 19:07:35 - INFO     - ConnexionVue
-12/11/2024 19:07:38 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
-12/11/2024 19:07:38 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
-12/11/2024 19:07:38 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x00000225374B1AE0>
-12/11/2024 19:07:38 - INFO     - MenuUtilisateurVue
-12/11/2024 19:07:40 - INFO     - RechercheVue
-12/11/2024 19:07:41 - INFO     - RechercheMangaVue
-12/11/2024 19:07:43 - INFO     - choix2 : ['Monster', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul', 'Monster Hunter Orage']
-12/11/2024 19:07:43 - INFO     - SelectionMangaVuerecherche
-12/11/2024 19:07:44 - INFO     - AjouterMangaCollecVuerecherche
-12/11/2024 19:07:45 - INFO     - object of type 'NoneType' has no len()
-12/11/2024 19:07:45 - INFO     - AccueilVue
-12/11/2024 19:10:37 - INFO     - Fin de l'application
-12/11/2024 19:10:39 - INFO     - --------------------------------------------------
-12/11/2024 19:10:39 - INFO     - Lancement Application                           
-12/11/2024 19:10:39 - INFO     - --------------------------------------------------
-12/11/2024 19:10:39 - INFO     - AccueilVue
-12/11/2024 19:10:40 - INFO     - ConnexionVue
-12/11/2024 19:10:44 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
-12/11/2024 19:10:44 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
-12/11/2024 19:10:44 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000016ED9EF5AE0>
-12/11/2024 19:10:44 - INFO     - MenuUtilisateurVue
-12/11/2024 19:10:46 - INFO     - RechercheVue
-12/11/2024 19:10:47 - INFO     - RechercheMangaVue
-12/11/2024 19:10:49 - INFO     - choix2 : ['Monster', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul', 'Monster Hunter Orage']
-12/11/2024 19:10:50 - INFO     - SelectionMangaVuerecherche
-12/11/2024 19:10:50 - INFO     - AjouterMangaCollecVuerecherche
-12/11/2024 19:10:51 - INFO     - object of type 'NoneType' has no len()
-12/11/2024 19:10:51 - INFO     - AccueilVue
-12/11/2024 19:12:34 - INFO     - Fin de l'application
-12/11/2024 19:12:37 - INFO     - --------------------------------------------------
-12/11/2024 19:12:37 - INFO     - Lancement Application                           
-12/11/2024 19:12:37 - INFO     - --------------------------------------------------
-12/11/2024 19:12:37 - INFO     - AccueilVue
-12/11/2024 19:12:37 - INFO     - ConnexionVue
-12/11/2024 19:12:41 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
-12/11/2024 19:12:41 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
-12/11/2024 19:12:41 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000002290AE81AB0>
-12/11/2024 19:12:41 - INFO     - MenuUtilisateurVue
-12/11/2024 19:12:42 - INFO     - RechercheVue
-12/11/2024 19:12:43 - INFO     - RechercheMangaVue
-12/11/2024 19:12:45 - INFO     - choix2 : ['Monster', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul', 'Monster Hunter Orage']
-12/11/2024 19:12:46 - INFO     - SelectionMangaVuerecherche
-12/11/2024 19:12:47 - INFO     - AjouterMangaCollecVuerecherche
-12/11/2024 19:12:47 - INFO     - object of type 'NoneType' has no len()
-12/11/2024 19:12:47 - INFO     - AccueilVue
-12/11/2024 19:20:07 - INFO     - Fin de l'application
-12/11/2024 19:20:09 - INFO     - --------------------------------------------------
-12/11/2024 19:20:09 - INFO     - Lancement Application                           
-12/11/2024 19:20:09 - INFO     - --------------------------------------------------
-12/11/2024 19:20:09 - INFO     - AccueilVue
-12/11/2024 19:20:10 - INFO     - ConnexionVue
-12/11/2024 19:20:14 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
-12/11/2024 19:20:14 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
-12/11/2024 19:20:14 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001D871FB59C0>
-12/11/2024 19:20:14 - INFO     - MenuUtilisateurVue
-12/11/2024 19:20:15 - INFO     - RechercheVue
-12/11/2024 19:20:16 - INFO     - RechercheMangaVue
-12/11/2024 19:20:18 - INFO     - choix2 : ['Monster', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul', 'Monster Hunter Orage']
-12/11/2024 19:20:19 - INFO     - SelectionMangaVuerecherche
-12/11/2024 19:20:20 - INFO     - AjouterMangaCollecVuerecherche
-12/11/2024 19:20:21 - INFO     - object of type 'NoneType' has no len()
-12/11/2024 19:20:21 - INFO     - AccueilVue
-12/11/2024 19:22:16 - INFO     - Fin de l'application
-12/11/2024 19:22:18 - INFO     - --------------------------------------------------
-12/11/2024 19:22:18 - INFO     - Lancement Application                           
-12/11/2024 19:22:18 - INFO     - --------------------------------------------------
-12/11/2024 19:22:18 - INFO     - AccueilVue
-12/11/2024 19:22:18 - INFO     - ConnexionVue
-12/11/2024 19:22:22 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
-12/11/2024 19:22:22 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
-12/11/2024 19:22:22 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001671EAA1AE0>
-12/11/2024 19:22:22 - INFO     - MenuUtilisateurVue
-12/11/2024 19:22:23 - INFO     - RechercheVue
-12/11/2024 19:22:24 - INFO     - RechercheMangaVue
-12/11/2024 19:22:26 - INFO     - choix2 : ['Monster', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul', 'Monster Hunter Orage']
-12/11/2024 19:22:27 - INFO     - SelectionMangaVuerecherche
-12/11/2024 19:22:28 - INFO     - AjouterMangaCollecVuerecherche
-12/11/2024 19:22:28 - INFO     - ERREUR:  la colonne « id_manga » spécifiée dans la clause USING n'existe pas dans la table
-de gauche
-
-12/11/2024 19:22:28 - INFO     - ERREUR:  la colonne « id_manga » spécifiée dans la clause USING n'existe pas dans la table
-de gauche
-
-12/11/2024 19:22:28 - INFO     - AccueilVue
-12/11/2024 19:29:52 - INFO     - Fin de l'application
-12/11/2024 19:29:54 - INFO     - --------------------------------------------------
-12/11/2024 19:29:54 - INFO     - Lancement Application                           
-12/11/2024 19:29:54 - INFO     - --------------------------------------------------
-12/11/2024 19:29:54 - INFO     - AccueilVue
-12/11/2024 19:29:55 - INFO     - ConnexionVue
-12/11/2024 19:29:58 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
-12/11/2024 19:29:58 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
-12/11/2024 19:29:58 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001B5D26E5AE0>
-12/11/2024 19:29:58 - INFO     - MenuUtilisateurVue
-12/11/2024 19:30:00 - INFO     - RechercheVue
-12/11/2024 19:30:01 - INFO     - RechercheMangaVue
-12/11/2024 19:30:02 - INFO     - choix2 : ['Monster', 'Higurashi WHEN THEY CRY: Abducted by Demons Arc', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul']
-12/11/2024 19:30:03 - INFO     - SelectionMangaVuerecherche
-12/11/2024 19:30:04 - INFO     - AjouterMangaCollecVuerecherche
-12/11/2024 19:30:05 - INFO     - ERREUR:  la colonne « id_manga » n'existe pas
-LINE 1: ...ELECT id_collec_physique, description_collection, id_manga  ...
-                                                             ^
-
-12/11/2024 19:30:05 - INFO     - ERREUR:  la colonne « id_manga » n'existe pas
-LINE 1: ...ELECT id_collec_physique, description_collection, id_manga  ...
-                                                             ^
-
-12/11/2024 19:30:05 - INFO     - AccueilVue
-12/11/2024 19:31:31 - INFO     - Fin de l'application
-12/11/2024 19:31:34 - INFO     - --------------------------------------------------
-12/11/2024 19:31:34 - INFO     - Lancement Application                           
-12/11/2024 19:31:34 - INFO     - --------------------------------------------------
-12/11/2024 19:31:34 - INFO     - AccueilVue
-12/11/2024 19:31:34 - INFO     - ConnexionVue
-12/11/2024 19:31:38 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
-12/11/2024 19:31:38 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
-12/11/2024 19:31:38 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000020D3FC41AB0>
-12/11/2024 19:31:38 - INFO     - MenuUtilisateurVue
-12/11/2024 19:31:39 - INFO     - RechercheVue
-12/11/2024 19:31:40 - INFO     - RechercheMangaVue
-12/11/2024 19:31:41 - INFO     - choix2 : ['Monster', 'Higurashi WHEN THEY CRY: Abducted by Demons Arc', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul']
-12/11/2024 19:31:42 - INFO     - SelectionMangaVuerecherche
-12/11/2024 19:31:43 - INFO     - AjouterMangaCollecVuerecherche
-12/11/2024 19:31:43 - INFO     - Collection physique 'Test coll cohere' introuvable.
-12/11/2024 19:31:43 - INFO     - SelectionMangaVuerecherche
-12/11/2024 19:32:42 - INFO     - MenuUtilisateurVue
-12/11/2024 19:32:44 - INFO     - AccueilVue
-12/11/2024 19:32:45 - INFO     - Fin de l'application
-12/11/2024 19:33:55 - INFO     - --------------------------------------------------
-12/11/2024 19:33:55 - INFO     - Lancement Application                           
-12/11/2024 19:33:55 - INFO     - --------------------------------------------------
-12/11/2024 19:33:55 - INFO     - AccueilVue
-12/11/2024 19:33:55 - INFO     - ConnexionVue
-12/11/2024 19:34:00 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
-12/11/2024 19:34:00 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
-12/11/2024 19:34:00 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000002104BF65AE0>
-12/11/2024 19:34:00 - INFO     - MenuUtilisateurVue
-12/11/2024 19:34:01 - INFO     - RechercheVue
-12/11/2024 19:34:02 - INFO     - RechercheMangaVue
-12/11/2024 19:34:05 - INFO     - choix2 : ['Monster', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul', 'Monster Hunter Orage']
-12/11/2024 19:34:05 - INFO     - SelectionMangaVuerecherche
-12/11/2024 19:34:06 - INFO     - AjouterMangaCollecVuerecherche
-12/11/2024 19:34:07 - INFO     - object of type 'NoneType' has no len()
-12/11/2024 19:34:07 - INFO     - AccueilVue
-12/11/2024 19:35:55 - INFO     - Fin de l'application
-12/11/2024 19:35:58 - INFO     - --------------------------------------------------
-12/11/2024 19:35:58 - INFO     - Lancement Application                           
-12/11/2024 19:35:58 - INFO     - --------------------------------------------------
-12/11/2024 19:35:58 - INFO     - AccueilVue
-12/11/2024 19:35:59 - INFO     - ConnexionVue
-12/11/2024 19:36:03 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
-12/11/2024 19:36:03 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
-12/11/2024 19:36:03 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001E39DE31AE0>
-12/11/2024 19:36:03 - INFO     - MenuUtilisateurVue
-12/11/2024 19:36:04 - INFO     - RechercheVue
-12/11/2024 19:36:05 - INFO     - RechercheMangaVue
-12/11/2024 19:36:08 - INFO     - choix2 : ['Monster', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul', 'Monster Hunter Orage']
-12/11/2024 19:36:08 - INFO     - SelectionMangaVuerecherche
-12/11/2024 19:36:09 - INFO     - AjouterMangaCollecVuerecherche
-12/11/2024 19:36:10 - INFO     - object of type 'NoneType' has no len()
-12/11/2024 19:36:10 - INFO     - AccueilVue
-12/11/2024 19:45:43 - INFO     - Fin de l'application
-12/11/2024 19:45:46 - INFO     - --------------------------------------------------
-12/11/2024 19:45:46 - INFO     - Lancement Application                           
-12/11/2024 19:45:46 - INFO     - --------------------------------------------------
-12/11/2024 19:45:46 - INFO     - AccueilVue
-12/11/2024 19:45:47 - INFO     - ConnexionVue
-12/11/2024 19:45:51 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
-12/11/2024 19:45:51 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
-12/11/2024 19:45:51 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000020E2774DAB0>
-12/11/2024 19:45:51 - INFO     - MenuUtilisateurVue
-12/11/2024 19:45:52 - INFO     - RechercheVue
-12/11/2024 19:45:52 - INFO     - RechercheMangaVue
-12/11/2024 19:45:55 - INFO     - choix2 : ['Monster', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul', 'Monster Hunter Orage']
-12/11/2024 19:45:55 - INFO     - SelectionMangaVuerecherche
-12/11/2024 19:45:56 - INFO     - AjouterMangaCollecVuerecherche
-12/11/2024 19:45:56 - INFO     - unhashable type: 'list'
-12/11/2024 19:45:56 - INFO     - AccueilVue
-12/11/2024 19:48:07 - INFO     - ConnexionVue
-12/11/2024 19:48:12 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
-12/11/2024 19:48:12 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
-12/11/2024 19:48:12 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000020E27CDDA50>
-12/11/2024 19:48:12 - INFO     - MenuUtilisateurVue
-12/11/2024 19:48:13 - INFO     - RechercheVue
-12/11/2024 19:48:13 - INFO     - RechercheMangaVue
-12/11/2024 19:48:15 - INFO     - choix2 : ['Monster', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul', 'Monster Hunter Orage']
-12/11/2024 19:48:15 - INFO     - SelectionMangaVuerecherche
-12/11/2024 19:48:16 - INFO     - AjouterMangaCollecVuerecherche
-12/11/2024 19:48:16 - INFO     - unhashable type: 'list'
-12/11/2024 19:48:16 - INFO     - AccueilVue
-12/11/2024 19:48:42 - INFO     - Fin de l'application
-12/11/2024 19:48:44 - INFO     - --------------------------------------------------
-12/11/2024 19:48:44 - INFO     - Lancement Application                           
-12/11/2024 19:48:44 - INFO     - --------------------------------------------------
-12/11/2024 19:48:44 - INFO     - AccueilVue
-12/11/2024 19:48:45 - INFO     - ConnexionVue
-12/11/2024 19:48:46 - INFO     -     UtilisateurDao.se_connecter('', '*****') - DEBUT
-12/11/2024 19:48:46 - INFO     -     UtilisateurDao.se_connecter('', '*****') - FIN
-12/11/2024 19:48:46 - INFO     -        └─> Sortie : None
-12/11/2024 19:48:46 - INFO     - AccueilVue
-12/11/2024 19:48:46 - INFO     - ConnexionVue
-12/11/2024 19:48:50 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
-12/11/2024 19:48:50 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
-12/11/2024 19:48:50 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000019A62E713F0>
-12/11/2024 19:48:50 - INFO     - MenuUtilisateurVue
-12/11/2024 19:48:51 - INFO     - RechercheVue
-12/11/2024 19:48:51 - INFO     - RechercheMangaVue
-12/11/2024 19:48:53 - INFO     - choix2 : ['Monster', 'Higurashi WHEN THEY CRY: Abducted by Demons Arc', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul']
-12/11/2024 19:48:54 - INFO     - SelectionMangaVuerecherche
-12/11/2024 19:48:54 - INFO     - AjouterMangaCollecVuerecherche
-12/11/2024 19:48:54 - INFO     - listecolleccohe type: <class 'list'>, contenu: ['Test coll cohere']
-12/11/2024 19:48:54 - INFO     - collection_physique type: <class 'NoneType'>, contenu: None
-12/11/2024 19:48:54 - INFO     - listecollections: ['Test coll cohere']
-12/11/2024 19:48:54 - INFO     - unhashable type: 'list'
-12/11/2024 19:48:54 - INFO     - AccueilVue
-12/11/2024 19:48:56 - INFO     - Fin de l'application
-12/11/2024 19:50:39 - INFO     - --------------------------------------------------
-12/11/2024 19:50:39 - INFO     - Lancement Application                           
-12/11/2024 19:50:39 - INFO     - --------------------------------------------------
-12/11/2024 19:50:39 - INFO     - AccueilVue
-12/11/2024 19:50:40 - INFO     - ConnexionVue
-12/11/2024 19:50:44 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
-12/11/2024 19:50:44 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
-12/11/2024 19:50:44 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001E6A4E21AB0>
-12/11/2024 19:50:44 - INFO     - MenuUtilisateurVue
-12/11/2024 19:50:46 - INFO     - RechercheVue
-12/11/2024 19:50:46 - INFO     - RechercheMangaVue
-12/11/2024 19:50:48 - INFO     - choix2 : ['Monster', 'Higurashi WHEN THEY CRY: Abducted by Demons Arc', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul']
-12/11/2024 19:50:49 - INFO     - SelectionMangaVuerecherche
-12/11/2024 19:50:50 - INFO     - AjouterMangaCollecVuerecherche
-12/11/2024 19:50:50 - INFO     - listecolleccohe type: <class 'list'>, contenu: ['Test coll cohere']
-12/11/2024 19:50:50 - INFO     - collection_physique type: <class 'NoneType'>, contenu: None
-12/11/2024 19:50:50 - INFO     - listecollections: ['Test coll cohere']
-12/11/2024 19:50:50 - INFO     - unhashable type: 'list'
-12/11/2024 19:50:50 - INFO     - AccueilVue
-12/11/2024 19:50:51 - INFO     - Fin de l'application
-12/11/2024 19:51:29 - INFO     - --------------------------------------------------
-12/11/2024 19:51:29 - INFO     - Lancement Application                           
-12/11/2024 19:51:29 - INFO     - --------------------------------------------------
-12/11/2024 19:51:29 - INFO     - AccueilVue
-12/11/2024 19:51:30 - INFO     - ConnexionVue
-12/11/2024 19:51:33 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
-12/11/2024 19:51:33 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
-12/11/2024 19:51:33 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001EF973A5AB0>
-12/11/2024 19:51:33 - INFO     - MenuUtilisateurVue
-12/11/2024 19:51:34 - INFO     - RechercheVue
-12/11/2024 19:51:35 - INFO     - RechercheMangaVue
-12/11/2024 19:51:36 - INFO     - choix2 : ['Monster', 'Higurashi WHEN THEY CRY: Abducted by Demons Arc', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul']
-12/11/2024 19:51:37 - INFO     - SelectionMangaVuerecherche
-12/11/2024 19:51:37 - INFO     - AjouterMangaCollecVuerecherche
-12/11/2024 19:51:37 - INFO     - listecolleccohe type: <class 'list'>, contenu: ['Test coll cohere']
-12/11/2024 19:51:37 - INFO     - collection_physique type: <class 'NoneType'>, contenu: None
-12/11/2024 19:51:37 - INFO     - listecollections: ['Test coll cohere']
-12/11/2024 19:51:37 - INFO     - unhashable type: 'list'
-12/11/2024 19:51:37 - INFO     - AccueilVue
-12/11/2024 19:51:39 - INFO     - Fin de l'application
-12/11/2024 19:51:56 - INFO     - --------------------------------------------------
-12/11/2024 19:51:56 - INFO     - Lancement Application                           
-12/11/2024 19:51:56 - INFO     - --------------------------------------------------
-12/11/2024 19:51:56 - INFO     - AccueilVue
-12/11/2024 19:51:57 - INFO     - ConnexionVue
-12/11/2024 19:52:01 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
-12/11/2024 19:52:01 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
-12/11/2024 19:52:01 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001D376951AE0>
-12/11/2024 19:52:01 - INFO     - MenuUtilisateurVue
-12/11/2024 19:52:02 - INFO     - RechercheVue
-12/11/2024 19:52:02 - INFO     - RechercheMangaVue
-12/11/2024 19:52:05 - INFO     - choix2 : ['Monster', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul', 'Monster Hunter Orage']
-12/11/2024 19:52:05 - INFO     - SelectionMangaVuerecherche
-12/11/2024 19:52:06 - INFO     - AjouterMangaCollecVuerecherche
-12/11/2024 19:52:06 - INFO     - listecolleccohe type: <class 'list'>, contenu: ['Test coll cohere']
-12/11/2024 19:52:06 - INFO     - collection_physique type: <class 'NoneType'>, contenu: None
-12/11/2024 19:52:06 - INFO     - listecollections: ['Test coll cohere']
-12/11/2024 19:52:06 - INFO     - unhashable type: 'list'
-12/11/2024 19:52:06 - INFO     - AccueilVue
-12/11/2024 19:52:08 - INFO     - Fin de l'application
-12/11/2024 19:54:59 - INFO     - --------------------------------------------------
-12/11/2024 19:54:59 - INFO     - Lancement Application                           
-12/11/2024 19:54:59 - INFO     - --------------------------------------------------
-12/11/2024 19:54:59 - INFO     - AccueilVue
-12/11/2024 19:54:59 - INFO     - ConnexionVue
-12/11/2024 19:55:03 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
-12/11/2024 19:55:03 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
-12/11/2024 19:55:03 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001E6B0845AB0>
-12/11/2024 19:55:03 - INFO     - MenuUtilisateurVue
-12/11/2024 19:55:04 - INFO     - RechercheVue
-12/11/2024 19:55:04 - INFO     - RechercheMangaVue
-12/11/2024 19:55:06 - INFO     - choix2 : ['Monster', 'Higurashi WHEN THEY CRY: Abducted by Demons Arc', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul']
-12/11/2024 19:55:07 - INFO     - SelectionMangaVuerecherche
-12/11/2024 19:55:07 - INFO     - AjouterMangaCollecVuerecherche
-12/11/2024 19:55:07 - INFO     - listecolleccohe type: <class 'list'>, contenu: ['Test coll cohere']
-12/11/2024 19:55:07 - INFO     - collection_physique type: <class 'NoneType'>, contenu: None
-12/11/2024 19:55:07 - INFO     - listecollections: ['Test coll cohere']
-12/11/2024 19:55:07 - INFO     - Ajout de l'option cohérente : Dans votre collection cohérente : Test coll cohere
-12/11/2024 19:55:07 - INFO     - Choices avant inquirer: ['Dans votre collection cohérente : Test coll cohere']
-12/11/2024 19:55:09 - INFO     - object of type 'NoneType' has no len()
-12/11/2024 19:55:09 - INFO     - AccueilVue
-12/11/2024 19:58:44 - INFO     - Fin de l'application
-12/11/2024 19:58:46 - INFO     - --------------------------------------------------
-12/11/2024 19:58:46 - INFO     - Lancement Application                           
-12/11/2024 19:58:46 - INFO     - --------------------------------------------------
-12/11/2024 19:58:46 - INFO     - AccueilVue
-12/11/2024 19:58:48 - INFO     - ConnexionVue
-12/11/2024 19:58:52 - INFO     -     UtilisateurDao.se_connecter('Ananas', '*****') - DEBUT
-12/11/2024 19:58:52 - INFO     -     UtilisateurDao.se_connecter('Ananas', '*****') - FIN
-12/11/2024 19:58:52 - INFO     -        └─> Sortie : None
-12/11/2024 19:58:52 - INFO     - AccueilVue
-12/11/2024 19:58:53 - INFO     - ConnexionVue
-12/11/2024 19:58:57 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
-12/11/2024 19:58:57 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
-12/11/2024 19:58:57 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000028E5FF15150>
-12/11/2024 19:58:57 - INFO     - MenuUtilisateurVue
-12/11/2024 19:58:58 - INFO     - RechercheVue
-12/11/2024 19:58:58 - INFO     - RechercheMangaVue
-12/11/2024 19:59:01 - INFO     - choix2 : ['Monster', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul', 'Monster Hunter Orage']
-12/11/2024 19:59:02 - INFO     - SelectionMangaVuerecherche
-12/11/2024 19:59:05 - INFO     - AjouterMangaCollecVuerecherche
-12/11/2024 19:59:05 - INFO     - listecolleccohe type: <class 'list'>, contenu: ['Test coll cohere']
-12/11/2024 19:59:05 - INFO     - collection_physique type: <class 'NoneType'>, contenu: None
-12/11/2024 19:59:05 - INFO     - listecollections: ['Test coll cohere']
-12/11/2024 19:59:05 - INFO     - Ajout de l'option cohérente : Dans votre collection cohérente : Test coll cohere
-12/11/2024 19:59:05 - INFO     - Choices avant inquirer: ['Dans votre collection cohérente : Test coll cohere']
-12/11/2024 19:59:07 - INFO     - nom:Test coll cohere
-12/11/2024 19:59:07 - INFO     - object of type 'NoneType' has no len()
-12/11/2024 19:59:07 - INFO     - AccueilVue
-12/11/2024 20:05:26 - INFO     - Fin de l'application
-12/11/2024 21:19:13 - INFO     - --------------------------------------------------
-12/11/2024 21:19:13 - INFO     - Lancement Application                           
-12/11/2024 21:19:13 - INFO     - --------------------------------------------------
-12/11/2024 21:19:13 - INFO     - AccueilVue
+12/11/2024 17:19:28 - INFO     - --------------------------------------------------
+12/11/2024 17:19:28 - INFO     - Lancement Application                           
+12/11/2024 17:19:28 - INFO     - --------------------------------------------------
+12/11/2024 17:19:28 - INFO     - AccueilVue
+12/11/2024 17:19:34 - INFO     - ConnexionVue
+12/11/2024 17:19:43 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+12/11/2024 17:19:43 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+12/11/2024 17:19:43 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001F361E15D80>
+12/11/2024 17:19:43 - INFO     - MenuUtilisateurVue
+12/11/2024 17:19:45 - INFO     - RechercheVue
+12/11/2024 17:19:46 - INFO     - RechercheMangaVue
+12/11/2024 17:19:55 - INFO     - choix2 : ['Monster', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul', 'Monster Hunter Orage']
+12/11/2024 17:19:56 - INFO     - SelectionMangaVuerecherche
+12/11/2024 17:20:13 - INFO     - ConsulterAvisMangaVuerecherche
+12/11/2024 17:20:13 - INFO     - res : [RealDictRow([('id_avis', 1), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 2), ('id_utilisateur', 3), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 3), ('id_utilisateur', 4), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 4), ('id_utilisateur', 6), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 5), ('id_utilisateur', 7), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 6), ('id_utilisateur', 9), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 7), ('id_utilisateur', 10), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 8), ('id_utilisateur', 11), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 9), ('id_utilisateur', 12), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 12), ('id_utilisateur', 8), ('id_manga', 1), ('texte', 'blablabla')])]
+12/11/2024 17:20:13 - INFO     - liste_affichage : [['Utilisateur : Ananas35', 'Avis : ok'], ['Utilisateur : Enguerrand90', 'Avis : ok'], ['Utilisateur : Panda03', 'Avis : ok'], ['Utilisateur : Emilien', 'Avis : ok'], ['Utilisateur : ', 'Avis : ok'], ['Utilisateur : choucroute', 'Avis : ok'], ['Utilisateur : Babar', 'Avis : ok'], ['Utilisateur : AnaisChefDeProjet', 'Avis : ok'], ['Utilisateur : LynxMalin', 'Avis : ok'], ['Utilisateur : mavie03', 'Avis : blablabla']]
+12/11/2024 17:20:13 - INFO     - sous_liste : [['Utilisateur : Ananas35', 'Avis : ok'], ['Utilisateur : Enguerrand90', 'Avis : ok'], ['Utilisateur : Panda03', 'Avis : ok'], ['Utilisateur : Emilien', 'Avis : ok'], ['Utilisateur : ', 'Avis : ok'], ['Utilisateur : choucroute', 'Avis : ok'], ['Utilisateur : Babar', 'Avis : ok'], ['Utilisateur : AnaisChefDeProjet', 'Avis : ok']]
+12/11/2024 17:20:13 - INFO     - sous_liste : [['Utilisateur : Ananas35', 'Avis : ok'], ['Utilisateur : Enguerrand90', 'Avis : ok'], ['Utilisateur : Panda03', 'Avis : ok'], ['Utilisateur : Emilien', 'Avis : ok'], ['Utilisateur : ', 'Avis : ok'], ['Utilisateur : choucroute', 'Avis : ok'], ['Utilisateur : Babar', 'Avis : ok'], ['Utilisateur : AnaisChefDeProjet', 'Avis : ok']]
+12/11/2024 17:20:13 - INFO     - long : 8
+12/11/2024 17:20:13 - INFO     - res : [RealDictRow([('id_avis', 1), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 2), ('id_utilisateur', 3), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 3), ('id_utilisateur', 4), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 4), ('id_utilisateur', 6), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 5), ('id_utilisateur', 7), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 6), ('id_utilisateur', 9), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 7), ('id_utilisateur', 10), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 8), ('id_utilisateur', 11), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 9), ('id_utilisateur', 12), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 12), ('id_utilisateur', 8), ('id_manga', 1), ('texte', 'blablabla')])]
+12/11/2024 17:20:13 - INFO     - liste_affichage : [['Utilisateur : Ananas35', 'Avis : ok'], ['Utilisateur : Enguerrand90', 'Avis : ok'], ['Utilisateur : Panda03', 'Avis : ok'], ['Utilisateur : Emilien', 'Avis : ok'], ['Utilisateur : ', 'Avis : ok'], ['Utilisateur : choucroute', 'Avis : ok'], ['Utilisateur : Babar', 'Avis : ok'], ['Utilisateur : AnaisChefDeProjet', 'Avis : ok'], ['Utilisateur : LynxMalin', 'Avis : ok'], ['Utilisateur : mavie03', 'Avis : blablabla']]
+12/11/2024 17:20:13 - INFO     - sous_liste : [['Utilisateur : Ananas35', 'Avis : ok'], ['Utilisateur : Enguerrand90', 'Avis : ok'], ['Utilisateur : Panda03', 'Avis : ok'], ['Utilisateur : Emilien', 'Avis : ok'], ['Utilisateur : ', 'Avis : ok'], ['Utilisateur : choucroute', 'Avis : ok'], ['Utilisateur : Babar', 'Avis : ok'], ['Utilisateur : AnaisChefDeProjet', 'Avis : ok']]
+12/11/2024 17:20:13 - INFO     - long : 8, res_entier : 1, res_reste : 0
+12/11/2024 17:20:13 - INFO     - choix : ['Retour au menu précédent', "Retour à l'accueil", 'Afficher la page suivante', 'Modifier votre avis sur ce manga']
+12/11/2024 17:20:26 - INFO     - long : 8, res_entier : 0, res_reste : 0
+12/11/2024 17:20:26 - INFO     - choix : ['Retour au menu précédent', "Retour à l'accueil", 'Modifier votre avis sur ce manga']
+12/11/2024 17:20:34 - INFO     - MenuUtilisateurVue
+12/11/2024 17:20:36 - INFO     - AccueilVue
+12/11/2024 17:20:37 - INFO     - Fin de l'application
+12/11/2024 17:31:54 - INFO     - --------------------------------------------------
+12/11/2024 17:31:54 - INFO     - Lancement Application                           
+12/11/2024 17:31:54 - INFO     - --------------------------------------------------
+12/11/2024 17:31:54 - INFO     - AccueilVue
+12/11/2024 17:31:55 - INFO     - ConnexionVue
+12/11/2024 17:32:01 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+12/11/2024 17:32:01 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+12/11/2024 17:32:01 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001EC115D1A80>
+12/11/2024 17:32:01 - INFO     - MenuUtilisateurVue
+12/11/2024 17:32:02 - INFO     - RechercheVue
+12/11/2024 17:32:03 - INFO     - RechercheMangaVue
+12/11/2024 17:32:06 - INFO     - choix2 : ['Monster', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul', 'Monster Hunter Orage']
+12/11/2024 17:32:07 - INFO     - SelectionMangaVuerecherche
+12/11/2024 17:32:09 - INFO     - ConsulterAvisMangaVuerecherche
+12/11/2024 17:32:09 - INFO     - res : [RealDictRow([('id_avis', 1), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 2), ('id_utilisateur', 3), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 3), ('id_utilisateur', 4), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 4), ('id_utilisateur', 6), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 5), ('id_utilisateur', 7), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 6), ('id_utilisateur', 9), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 7), ('id_utilisateur', 10), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 8), ('id_utilisateur', 11), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 9), ('id_utilisateur', 12), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 12), ('id_utilisateur', 8), ('id_manga', 1), ('texte', 'blablabla')])]
+12/11/2024 17:32:09 - INFO     - liste_affichage : [['Utilisateur : Ananas35', 'Avis : ok'], ['Utilisateur : Enguerrand90', 'Avis : ok'], ['Utilisateur : Panda03', 'Avis : ok'], ['Utilisateur : Emilien', 'Avis : ok'], ['Utilisateur : ', 'Avis : ok'], ['Utilisateur : choucroute', 'Avis : ok'], ['Utilisateur : Babar', 'Avis : ok'], ['Utilisateur : AnaisChefDeProjet', 'Avis : ok'], ['Utilisateur : LynxMalin', 'Avis : ok'], ['Utilisateur : mavie03', 'Avis : blablabla']]
+12/11/2024 17:32:09 - INFO     - sous_liste : [['Utilisateur : Ananas35', 'Avis : ok'], ['Utilisateur : Enguerrand90', 'Avis : ok'], ['Utilisateur : Panda03', 'Avis : ok'], ['Utilisateur : Emilien', 'Avis : ok'], ['Utilisateur : ', 'Avis : ok'], ['Utilisateur : choucroute', 'Avis : ok'], ['Utilisateur : Babar', 'Avis : ok'], ['Utilisateur : AnaisChefDeProjet', 'Avis : ok']]
+12/11/2024 17:32:09 - INFO     - sous_liste : [['Utilisateur : Ananas35', 'Avis : ok'], ['Utilisateur : Enguerrand90', 'Avis : ok'], ['Utilisateur : Panda03', 'Avis : ok'], ['Utilisateur : Emilien', 'Avis : ok'], ['Utilisateur : ', 'Avis : ok'], ['Utilisateur : choucroute', 'Avis : ok'], ['Utilisateur : Babar', 'Avis : ok'], ['Utilisateur : AnaisChefDeProjet', 'Avis : ok']]
+12/11/2024 17:32:09 - INFO     - long : 8
+12/11/2024 17:32:09 - INFO     - res : [RealDictRow([('id_avis', 1), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 2), ('id_utilisateur', 3), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 3), ('id_utilisateur', 4), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 4), ('id_utilisateur', 6), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 5), ('id_utilisateur', 7), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 6), ('id_utilisateur', 9), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 7), ('id_utilisateur', 10), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 8), ('id_utilisateur', 11), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 9), ('id_utilisateur', 12), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 12), ('id_utilisateur', 8), ('id_manga', 1), ('texte', 'blablabla')])]
+12/11/2024 17:32:09 - INFO     - liste_affichage : [['Utilisateur : Ananas35', 'Avis : ok'], ['Utilisateur : Enguerrand90', 'Avis : ok'], ['Utilisateur : Panda03', 'Avis : ok'], ['Utilisateur : Emilien', 'Avis : ok'], ['Utilisateur : ', 'Avis : ok'], ['Utilisateur : choucroute', 'Avis : ok'], ['Utilisateur : Babar', 'Avis : ok'], ['Utilisateur : AnaisChefDeProjet', 'Avis : ok'], ['Utilisateur : LynxMalin', 'Avis : ok'], ['Utilisateur : mavie03', 'Avis : blablabla']]
+12/11/2024 17:32:09 - INFO     - sous_liste : [['Utilisateur : Ananas35', 'Avis : ok'], ['Utilisateur : Enguerrand90', 'Avis : ok'], ['Utilisateur : Panda03', 'Avis : ok'], ['Utilisateur : Emilien', 'Avis : ok'], ['Utilisateur : ', 'Avis : ok'], ['Utilisateur : choucroute', 'Avis : ok'], ['Utilisateur : Babar', 'Avis : ok'], ['Utilisateur : AnaisChefDeProjet', 'Avis : ok']]
+12/11/2024 17:32:09 - INFO     - long : 8, res_entier : 1, res_reste : 0
+12/11/2024 17:32:09 - INFO     - choix : ['Retour au menu précédent', "Retour à l'accueil", 'Afficher la page suivante', 'Modifier votre avis sur ce manga']
+12/11/2024 17:32:21 - INFO     - n : {n}
+12/11/2024 17:32:21 - INFO     - long : 8, res_entier : 0, res_reste : 0
+12/11/2024 17:32:21 - INFO     - choix : ['Retour au menu précédent', "Retour à l'accueil", 'Modifier votre avis sur ce manga']
+12/11/2024 17:32:30 - INFO     - SelectionMangaVuerecherche
+12/11/2024 17:32:36 - INFO     - ConsulterAvisMangaVuerecherche
+12/11/2024 17:32:36 - INFO     - res : [RealDictRow([('id_avis', 1), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 2), ('id_utilisateur', 3), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 3), ('id_utilisateur', 4), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 4), ('id_utilisateur', 6), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 5), ('id_utilisateur', 7), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 6), ('id_utilisateur', 9), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 7), ('id_utilisateur', 10), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 8), ('id_utilisateur', 11), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 9), ('id_utilisateur', 12), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 12), ('id_utilisateur', 8), ('id_manga', 1), ('texte', 'blablabla')])]
+12/11/2024 17:32:36 - INFO     - liste_affichage : [['Utilisateur : Ananas35', 'Avis : ok'], ['Utilisateur : Enguerrand90', 'Avis : ok'], ['Utilisateur : Panda03', 'Avis : ok'], ['Utilisateur : Emilien', 'Avis : ok'], ['Utilisateur : ', 'Avis : ok'], ['Utilisateur : choucroute', 'Avis : ok'], ['Utilisateur : Babar', 'Avis : ok'], ['Utilisateur : AnaisChefDeProjet', 'Avis : ok'], ['Utilisateur : LynxMalin', 'Avis : ok'], ['Utilisateur : mavie03', 'Avis : blablabla']]
+12/11/2024 17:32:36 - INFO     - sous_liste : [['Utilisateur : Ananas35', 'Avis : ok'], ['Utilisateur : Enguerrand90', 'Avis : ok'], ['Utilisateur : Panda03', 'Avis : ok'], ['Utilisateur : Emilien', 'Avis : ok'], ['Utilisateur : ', 'Avis : ok'], ['Utilisateur : choucroute', 'Avis : ok'], ['Utilisateur : Babar', 'Avis : ok'], ['Utilisateur : AnaisChefDeProjet', 'Avis : ok']]
+12/11/2024 17:32:36 - INFO     - sous_liste : [['Utilisateur : Ananas35', 'Avis : ok'], ['Utilisateur : Enguerrand90', 'Avis : ok'], ['Utilisateur : Panda03', 'Avis : ok'], ['Utilisateur : Emilien', 'Avis : ok'], ['Utilisateur : ', 'Avis : ok'], ['Utilisateur : choucroute', 'Avis : ok'], ['Utilisateur : Babar', 'Avis : ok'], ['Utilisateur : AnaisChefDeProjet', 'Avis : ok']]
+12/11/2024 17:32:36 - INFO     - long : 8
+12/11/2024 17:32:36 - INFO     - res : [RealDictRow([('id_avis', 1), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 2), ('id_utilisateur', 3), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 3), ('id_utilisateur', 4), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 4), ('id_utilisateur', 6), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 5), ('id_utilisateur', 7), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 6), ('id_utilisateur', 9), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 7), ('id_utilisateur', 10), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 8), ('id_utilisateur', 11), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 9), ('id_utilisateur', 12), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 12), ('id_utilisateur', 8), ('id_manga', 1), ('texte', 'blablabla')])]
+12/11/2024 17:32:36 - INFO     - liste_affichage : [['Utilisateur : Ananas35', 'Avis : ok'], ['Utilisateur : Enguerrand90', 'Avis : ok'], ['Utilisateur : Panda03', 'Avis : ok'], ['Utilisateur : Emilien', 'Avis : ok'], ['Utilisateur : ', 'Avis : ok'], ['Utilisateur : choucroute', 'Avis : ok'], ['Utilisateur : Babar', 'Avis : ok'], ['Utilisateur : AnaisChefDeProjet', 'Avis : ok'], ['Utilisateur : LynxMalin', 'Avis : ok'], ['Utilisateur : mavie03', 'Avis : blablabla']]
+12/11/2024 17:32:36 - INFO     - sous_liste : [['Utilisateur : Ananas35', 'Avis : ok'], ['Utilisateur : Enguerrand90', 'Avis : ok'], ['Utilisateur : Panda03', 'Avis : ok'], ['Utilisateur : Emilien', 'Avis : ok'], ['Utilisateur : ', 'Avis : ok'], ['Utilisateur : choucroute', 'Avis : ok'], ['Utilisateur : Babar', 'Avis : ok'], ['Utilisateur : AnaisChefDeProjet', 'Avis : ok']]
+12/11/2024 17:32:36 - INFO     - long : 8, res_entier : 1, res_reste : 0
+12/11/2024 17:32:36 - INFO     - choix : ['Retour au menu précédent', "Retour à l'accueil", 'Afficher la page suivante', 'Modifier votre avis sur ce manga']
+12/11/2024 17:32:47 - INFO     - n : {n}
+12/11/2024 17:32:47 - INFO     - long : 8, res_entier : 0, res_reste : 0
+12/11/2024 17:32:47 - INFO     - choix : ['Retour au menu précédent', "Retour à l'accueil", 'Modifier votre avis sur ce manga']
+12/11/2024 17:32:59 - INFO     - MenuUtilisateurVue
+12/11/2024 17:33:00 - INFO     - AccueilVue
+12/11/2024 17:33:02 - INFO     - Fin de l'application
+12/11/2024 17:35:10 - INFO     - --------------------------------------------------
+12/11/2024 17:35:10 - INFO     - Lancement Application                           
+12/11/2024 17:35:10 - INFO     - --------------------------------------------------
+12/11/2024 17:35:10 - INFO     - AccueilVue
+12/11/2024 17:35:11 - INFO     - ConnexionVue
+12/11/2024 17:35:18 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+12/11/2024 17:35:18 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+12/11/2024 17:35:18 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001C739CD1A80>
+12/11/2024 17:35:18 - INFO     - MenuUtilisateurVue
+12/11/2024 17:35:27 - INFO     - RechercheVue
+12/11/2024 17:35:46 - INFO     - RechercheMangaVue
+12/11/2024 17:35:52 - INFO     - choix2 : ['Monster', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul', 'Monster Hunter Orage']
+12/11/2024 17:35:54 - INFO     - SelectionMangaVuerecherche
+12/11/2024 17:35:57 - INFO     - ConsulterAvisMangaVuerecherche
+12/11/2024 17:35:57 - INFO     - res : [RealDictRow([('id_avis', 1), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 2), ('id_utilisateur', 3), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 3), ('id_utilisateur', 4), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 4), ('id_utilisateur', 6), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 5), ('id_utilisateur', 7), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 6), ('id_utilisateur', 9), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 7), ('id_utilisateur', 10), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 8), ('id_utilisateur', 11), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 9), ('id_utilisateur', 12), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 12), ('id_utilisateur', 8), ('id_manga', 1), ('texte', 'blablabla')])]
+12/11/2024 17:35:57 - INFO     - liste_affichage : [['Utilisateur : Ananas35', 'Avis : ok'], ['Utilisateur : Enguerrand90', 'Avis : ok'], ['Utilisateur : Panda03', 'Avis : ok'], ['Utilisateur : Emilien', 'Avis : ok'], ['Utilisateur : ', 'Avis : ok'], ['Utilisateur : choucroute', 'Avis : ok'], ['Utilisateur : Babar', 'Avis : ok'], ['Utilisateur : AnaisChefDeProjet', 'Avis : ok'], ['Utilisateur : LynxMalin', 'Avis : ok'], ['Utilisateur : mavie03', 'Avis : blablabla']]
+12/11/2024 17:35:57 - INFO     - sous_liste : [['Utilisateur : Ananas35', 'Avis : ok'], ['Utilisateur : Enguerrand90', 'Avis : ok'], ['Utilisateur : Panda03', 'Avis : ok'], ['Utilisateur : Emilien', 'Avis : ok'], ['Utilisateur : ', 'Avis : ok'], ['Utilisateur : choucroute', 'Avis : ok'], ['Utilisateur : Babar', 'Avis : ok'], ['Utilisateur : AnaisChefDeProjet', 'Avis : ok']]
+12/11/2024 17:35:57 - INFO     - sous_liste : [['Utilisateur : Ananas35', 'Avis : ok'], ['Utilisateur : Enguerrand90', 'Avis : ok'], ['Utilisateur : Panda03', 'Avis : ok'], ['Utilisateur : Emilien', 'Avis : ok'], ['Utilisateur : ', 'Avis : ok'], ['Utilisateur : choucroute', 'Avis : ok'], ['Utilisateur : Babar', 'Avis : ok'], ['Utilisateur : AnaisChefDeProjet', 'Avis : ok']]
+12/11/2024 17:35:57 - INFO     - long : 8
+12/11/2024 17:35:57 - INFO     - res : [RealDictRow([('id_avis', 1), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 2), ('id_utilisateur', 3), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 3), ('id_utilisateur', 4), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 4), ('id_utilisateur', 6), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 5), ('id_utilisateur', 7), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 6), ('id_utilisateur', 9), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 7), ('id_utilisateur', 10), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 8), ('id_utilisateur', 11), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 9), ('id_utilisateur', 12), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 12), ('id_utilisateur', 8), ('id_manga', 1), ('texte', 'blablabla')])]
+12/11/2024 17:35:57 - INFO     - liste_affichage : [['Utilisateur : Ananas35', 'Avis : ok'], ['Utilisateur : Enguerrand90', 'Avis : ok'], ['Utilisateur : Panda03', 'Avis : ok'], ['Utilisateur : Emilien', 'Avis : ok'], ['Utilisateur : ', 'Avis : ok'], ['Utilisateur : choucroute', 'Avis : ok'], ['Utilisateur : Babar', 'Avis : ok'], ['Utilisateur : AnaisChefDeProjet', 'Avis : ok'], ['Utilisateur : LynxMalin', 'Avis : ok'], ['Utilisateur : mavie03', 'Avis : blablabla']]
+12/11/2024 17:35:57 - INFO     - sous_liste : [['Utilisateur : Ananas35', 'Avis : ok'], ['Utilisateur : Enguerrand90', 'Avis : ok'], ['Utilisateur : Panda03', 'Avis : ok'], ['Utilisateur : Emilien', 'Avis : ok'], ['Utilisateur : ', 'Avis : ok'], ['Utilisateur : choucroute', 'Avis : ok'], ['Utilisateur : Babar', 'Avis : ok'], ['Utilisateur : AnaisChefDeProjet', 'Avis : ok']]
+12/11/2024 17:35:57 - INFO     - res : [RealDictRow([('id_avis', 1), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 2), ('id_utilisateur', 3), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 3), ('id_utilisateur', 4), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 4), ('id_utilisateur', 6), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 5), ('id_utilisateur', 7), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 6), ('id_utilisateur', 9), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 7), ('id_utilisateur', 10), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 8), ('id_utilisateur', 11), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 9), ('id_utilisateur', 12), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 12), ('id_utilisateur', 8), ('id_manga', 1), ('texte', 'blablabla')])]
+12/11/2024 17:35:57 - INFO     - liste_affichage : [['Utilisateur : Ananas35', 'Avis : ok'], ['Utilisateur : Enguerrand90', 'Avis : ok'], ['Utilisateur : Panda03', 'Avis : ok'], ['Utilisateur : Emilien', 'Avis : ok'], ['Utilisateur : ', 'Avis : ok'], ['Utilisateur : choucroute', 'Avis : ok'], ['Utilisateur : Babar', 'Avis : ok'], ['Utilisateur : AnaisChefDeProjet', 'Avis : ok'], ['Utilisateur : LynxMalin', 'Avis : ok'], ['Utilisateur : mavie03', 'Avis : blablabla']]
+12/11/2024 17:35:57 - INFO     - sous_liste : [['Utilisateur : Ananas35', 'Avis : ok'], ['Utilisateur : Enguerrand90', 'Avis : ok'], ['Utilisateur : Panda03', 'Avis : ok'], ['Utilisateur : Emilien', 'Avis : ok'], ['Utilisateur : ', 'Avis : ok'], ['Utilisateur : choucroute', 'Avis : ok'], ['Utilisateur : Babar', 'Avis : ok'], ['Utilisateur : AnaisChefDeProjet', 'Avis : ok']]
+12/11/2024 17:35:57 - INFO     - long : 8, res_entier : 1, res_reste : 0
+12/11/2024 17:35:57 - INFO     - choix : ['Retour au menu précédent', "Retour à l'accueil", 'Afficher la page suivante', 'Modifier votre avis sur ce manga']
+12/11/2024 17:36:09 - INFO     - n : {n}
+12/11/2024 17:36:09 - INFO     - res : [RealDictRow([('id_avis', 1), ('id_utilisateur', 1), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 2), ('id_utilisateur', 3), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 3), ('id_utilisateur', 4), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 4), ('id_utilisateur', 6), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 5), ('id_utilisateur', 7), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 6), ('id_utilisateur', 9), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 7), ('id_utilisateur', 10), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 8), ('id_utilisateur', 11), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 9), ('id_utilisateur', 12), ('id_manga', 1), ('texte', 'ok')]), RealDictRow([('id_avis', 12), ('id_utilisateur', 8), ('id_manga', 1), ('texte', 'blablabla')])]
+12/11/2024 17:36:09 - INFO     - liste_affichage : [['Utilisateur : Ananas35', 'Avis : ok'], ['Utilisateur : Enguerrand90', 'Avis : ok'], ['Utilisateur : Panda03', 'Avis : ok'], ['Utilisateur : Emilien', 'Avis : ok'], ['Utilisateur : ', 'Avis : ok'], ['Utilisateur : choucroute', 'Avis : ok'], ['Utilisateur : Babar', 'Avis : ok'], ['Utilisateur : AnaisChefDeProjet', 'Avis : ok'], ['Utilisateur : LynxMalin', 'Avis : ok'], ['Utilisateur : mavie03', 'Avis : blablabla']]
+12/11/2024 17:36:09 - INFO     - sous_liste : [['Utilisateur : LynxMalin', 'Avis : ok'], ['Utilisateur : mavie03', 'Avis : blablabla']]
+12/11/2024 17:36:09 - INFO     - long : 2, res_entier : 0, res_reste : 0
+12/11/2024 17:36:09 - INFO     - choix : ['Retour au menu précédent', "Retour à l'accueil", 'Modifier votre avis sur ce manga']
+12/11/2024 17:36:15 - INFO     - MenuUtilisateurVue
+12/11/2024 17:36:16 - INFO     - AccueilVue
+12/11/2024 17:36:20 - INFO     - Fin de l'application
+12/11/2024 17:51:04 - INFO     - --------------------------------------------------
+12/11/2024 17:51:04 - INFO     - Lancement Application                           
+12/11/2024 17:51:04 - INFO     - --------------------------------------------------
+12/11/2024 17:51:04 - INFO     - AccueilVue
+12/11/2024 17:51:05 - INFO     - ConnexionVue
+12/11/2024 17:51:14 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+12/11/2024 17:51:14 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+12/11/2024 17:51:14 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000023739101A80>
+12/11/2024 17:51:14 - INFO     - MenuUtilisateurVue
+12/11/2024 17:51:16 - INFO     - EcranDuProfilVue
+12/11/2024 17:51:34 - INFO     - EcranDuProfilVue
+12/11/2024 17:51:46 - INFO     - CollectionCoherenteVue
+12/11/2024 17:51:51 - INFO     - 'NoneType' object has no attribute 'Liste_manga'
+12/11/2024 17:51:51 - INFO     - AccueilVue
+12/11/2024 17:51:53 - INFO     - Fin de l'application
+12/11/2024 17:58:53 - INFO     - --------------------------------------------------
+12/11/2024 17:58:53 - INFO     - Lancement Application                           
+12/11/2024 17:58:53 - INFO     - --------------------------------------------------
+12/11/2024 17:58:53 - INFO     - AccueilVue
+12/11/2024 17:58:53 - INFO     - ConnexionVue
+12/11/2024 17:58:58 - INFO     -     UtilisateurDao.se_connecter('mavie02', '*****') - DEBUT
+12/11/2024 17:58:58 - INFO     -     UtilisateurDao.se_connecter('mavie02', '*****') - FIN
+12/11/2024 17:58:58 - INFO     -        └─> Sortie : None
+12/11/2024 17:58:58 - INFO     - AccueilVue
+12/11/2024 17:59:07 - INFO     - ConnexionVue
+12/11/2024 17:59:21 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+12/11/2024 17:59:21 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+12/11/2024 17:59:21 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000024A485B12D0>
+12/11/2024 17:59:21 - INFO     - MenuUtilisateurVue
+12/11/2024 17:59:23 - INFO     - EcranDuProfilVue
+12/11/2024 17:59:26 - INFO     - CollectionCoherenteVue
+12/11/2024 17:59:28 - INFO     - choix2, jsp
+12/11/2024 17:59:29 - INFO     - MenuUtilisateurVue
+12/11/2024 17:59:30 - INFO     - AccueilVue
+12/11/2024 17:59:31 - INFO     - Fin de l'application
+12/11/2024 19:18:30 - INFO     - --------------------------------------------------
+12/11/2024 19:18:30 - INFO     - Lancement Application                           
+12/11/2024 19:18:30 - INFO     - --------------------------------------------------
+12/11/2024 19:18:30 - INFO     - AccueilVue
+12/11/2024 19:18:36 - INFO     - ConnexionVue
+12/11/2024 19:18:45 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+12/11/2024 19:18:45 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+12/11/2024 19:18:45 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000027134249E70>
+12/11/2024 19:18:45 - INFO     - MenuUtilisateurVue
+12/11/2024 19:18:50 - INFO     - EcranDuProfilVue
+12/11/2024 19:18:51 - INFO     - CollectionCoherenteVue
+12/11/2024 19:18:53 - INFO     - MangaCollectionCoherenteVue
+12/11/2024 19:18:56 - INFO     - Fin de l'application
+12/11/2024 19:21:45 - INFO     - --------------------------------------------------
+12/11/2024 19:21:45 - INFO     - Lancement Application                           
+12/11/2024 19:21:45 - INFO     - --------------------------------------------------
+12/11/2024 19:21:45 - INFO     - AccueilVue
+12/11/2024 19:21:45 - INFO     - ConnexionVue
+12/11/2024 19:21:51 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+12/11/2024 19:21:51 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+12/11/2024 19:21:51 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000002BE08791A80>
+12/11/2024 19:21:51 - INFO     - MenuUtilisateurVue
+12/11/2024 19:21:53 - INFO     - EcranDuProfilVue
+12/11/2024 19:21:55 - INFO     - CollectionCoherenteVue
+12/11/2024 19:21:56 - INFO     - MangaCollectionCoherenteVue
+12/11/2024 19:21:57 - INFO     - Fin de l'application
+12/11/2024 19:22:36 - INFO     - --------------------------------------------------
+12/11/2024 19:22:36 - INFO     - Lancement Application                           
+12/11/2024 19:22:36 - INFO     - --------------------------------------------------
+12/11/2024 19:22:36 - INFO     - AccueilVue
+12/11/2024 19:22:37 - INFO     - ConnexionVue
+12/11/2024 19:22:41 - INFO     -     UtilisateurDao.se_connecter('mavie02', '*****') - DEBUT
+12/11/2024 19:22:41 - INFO     -     UtilisateurDao.se_connecter('mavie02', '*****') - FIN
+12/11/2024 19:22:41 - INFO     -        └─> Sortie : None
+12/11/2024 19:22:41 - INFO     - AccueilVue
+12/11/2024 19:22:42 - INFO     - ConnexionVue
+12/11/2024 19:22:50 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+12/11/2024 19:22:50 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+12/11/2024 19:22:50 - INFO     -        └─> Sortie : None
+12/11/2024 19:22:50 - INFO     - AccueilVue
+12/11/2024 19:22:51 - INFO     - ConnexionVue
+12/11/2024 19:23:00 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+12/11/2024 19:23:00 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+12/11/2024 19:23:00 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000025A03D88CA0>
+12/11/2024 19:23:00 - INFO     - MenuUtilisateurVue
+12/11/2024 19:23:02 - INFO     - EcranDuProfilVue
+12/11/2024 19:23:03 - INFO     - CollectionCoherenteVue
+12/11/2024 19:23:04 - INFO     - MangaCollectionCoherenteVue
+12/11/2024 19:23:06 - INFO     - Fin de l'application
+12/11/2024 19:23:32 - INFO     - --------------------------------------------------
+12/11/2024 19:23:32 - INFO     - Lancement Application                           
+12/11/2024 19:23:32 - INFO     - --------------------------------------------------
+12/11/2024 19:23:32 - INFO     - AccueilVue
+12/11/2024 19:23:33 - INFO     - ConnexionVue
+12/11/2024 19:23:44 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+12/11/2024 19:23:44 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+12/11/2024 19:23:44 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000012264545B70>
+12/11/2024 19:23:44 - INFO     - MenuUtilisateurVue
+12/11/2024 19:23:46 - INFO     - EcranDuProfilVue
+12/11/2024 19:23:47 - INFO     - CollectionCoherenteVue
+12/11/2024 19:23:48 - INFO     - MangaCollectionCoherenteVue
+12/11/2024 19:23:50 - INFO     - 'NoneType' object has no attribute 'id_collectioncoherente'
+12/11/2024 19:23:50 - INFO     - AccueilVue
+12/11/2024 19:23:52 - INFO     - Fin de l'application
+12/11/2024 19:25:31 - INFO     - --------------------------------------------------
+12/11/2024 19:25:31 - INFO     - Lancement Application                           
+12/11/2024 19:25:31 - INFO     - --------------------------------------------------
+12/11/2024 19:25:31 - INFO     - AccueilVue
+12/11/2024 19:25:32 - INFO     - ConnexionVue
+12/11/2024 19:25:38 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+12/11/2024 19:25:38 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+12/11/2024 19:25:38 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001DEBA4C1A80>
+12/11/2024 19:25:38 - INFO     - MenuUtilisateurVue
+12/11/2024 19:25:41 - INFO     - EcranDuProfilVue
+12/11/2024 19:25:42 - INFO     - CollectionCoherenteVue
+12/11/2024 19:25:43 - INFO     - MangaCollectionCoherenteVue
+12/11/2024 19:25:48 - INFO     - 'NoneType' object has no attribute 'Liste_manga'
+12/11/2024 19:25:48 - INFO     - AccueilVue
+12/11/2024 19:25:50 - INFO     - Fin de l'application
+12/11/2024 19:26:31 - INFO     - --------------------------------------------------
+12/11/2024 19:26:31 - INFO     - Lancement Application                           
+12/11/2024 19:26:31 - INFO     - --------------------------------------------------
+12/11/2024 19:26:31 - INFO     - AccueilVue
+12/11/2024 19:26:32 - INFO     - ConnexionVue
+12/11/2024 19:26:41 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+12/11/2024 19:26:41 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+12/11/2024 19:26:41 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001AFE58D5A80>
+12/11/2024 19:26:41 - INFO     - MenuUtilisateurVue
+12/11/2024 19:26:43 - INFO     - EcranDuProfilVue
+12/11/2024 19:26:47 - INFO     - CollectionCoherenteVue
+12/11/2024 19:26:48 - INFO     - MangaCollectionCoherenteVue
+12/11/2024 19:26:50 - INFO     - id_collection : None
+12/11/2024 19:26:55 - INFO     - nouveau_titre : ok
+12/11/2024 19:26:55 - INFO     - 'MangaCollectionCoherenteVue' object has no attribute 'modifier_titre'
+12/11/2024 19:26:55 - INFO     - AccueilVue
+12/11/2024 19:26:57 - INFO     - Fin de l'application
+12/11/2024 19:34:41 - INFO     - --------------------------------------------------
+12/11/2024 19:34:41 - INFO     - Lancement Application                           
+12/11/2024 19:34:41 - INFO     - --------------------------------------------------
+12/11/2024 19:34:41 - INFO     - AccueilVue
+12/11/2024 19:34:42 - INFO     - ConnexionVue
+12/11/2024 19:38:12 - INFO     -     UtilisateurDao.se_connecter('mads', '*****') - DEBUT
+12/11/2024 19:38:12 - INFO     -     UtilisateurDao.se_connecter('mads', '*****') - FIN
+12/11/2024 19:38:12 - INFO     -        └─> Sortie : None
+12/11/2024 19:38:12 - INFO     - AccueilVue
+12/11/2024 19:38:13 - INFO     - Fin de l'application
+12/11/2024 19:38:15 - INFO     - --------------------------------------------------
+12/11/2024 19:38:15 - INFO     - Lancement Application                           
+12/11/2024 19:38:15 - INFO     - --------------------------------------------------
+12/11/2024 19:38:15 - INFO     - AccueilVue
+12/11/2024 19:38:16 - INFO     - ConnexionVue
+12/11/2024 19:38:23 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+12/11/2024 19:38:23 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+12/11/2024 19:38:23 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000011F0E885AB0>
+12/11/2024 19:38:23 - INFO     - MenuUtilisateurVue
+12/11/2024 19:38:24 - INFO     - EcranDuProfilVue
+12/11/2024 19:38:26 - INFO     - CollectionCoherenteVue
+12/11/2024 19:38:26 - INFO     - MangaCollectionCoherenteVue
+12/11/2024 19:38:29 - INFO     - 'NoneType' object has no attribute 'titre'
+12/11/2024 19:38:29 - INFO     - AccueilVue
+12/11/2024 19:38:30 - INFO     - Fin de l'application
+12/11/2024 19:40:17 - INFO     - --------------------------------------------------
+12/11/2024 19:40:17 - INFO     - Lancement Application                           
+12/11/2024 19:40:17 - INFO     - --------------------------------------------------
+12/11/2024 19:40:17 - INFO     - AccueilVue
+12/11/2024 19:40:18 - INFO     - ConnexionVue
+12/11/2024 19:40:26 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+12/11/2024 19:40:26 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+12/11/2024 19:40:26 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001B8C2CB5AB0>
+12/11/2024 19:40:26 - INFO     - MenuUtilisateurVue
+12/11/2024 19:40:27 - INFO     - EcranDuProfilVue
+12/11/2024 19:40:28 - INFO     - CollectionCoherenteVue
+12/11/2024 19:40:29 - INFO     - MangaCollectionCoherenteVue
+12/11/2024 19:40:33 - INFO     - 'NoneType' object has no attribute 'titre'
+12/11/2024 19:40:33 - INFO     - AccueilVue
+12/11/2024 19:40:34 - INFO     - Fin de l'application
+12/11/2024 19:45:30 - INFO     - --------------------------------------------------
+12/11/2024 19:45:30 - INFO     - Lancement Application                           
+12/11/2024 19:45:30 - INFO     - --------------------------------------------------
+12/11/2024 19:45:30 - INFO     - AccueilVue
+12/11/2024 19:45:31 - INFO     - ConnexionVue
+12/11/2024 19:45:36 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+12/11/2024 19:45:36 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+12/11/2024 19:45:36 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x00000271CE7B1AB0>
+12/11/2024 19:45:36 - INFO     - MenuUtilisateurVue
+12/11/2024 19:45:38 - INFO     - EcranDuProfilVue
+12/11/2024 19:45:43 - INFO     - CollectionCoherenteVue
+12/11/2024 19:45:44 - INFO     - MangaCollectionCoherenteVue
+12/11/2024 19:45:47 - INFO     - 'NoneType' object has no attribute 'titre'
+12/11/2024 19:45:47 - INFO     - AccueilVue
+12/11/2024 19:45:49 - INFO     - Fin de l'application
+12/11/2024 19:51:05 - INFO     - --------------------------------------------------
+12/11/2024 19:51:05 - INFO     - Lancement Application                           
+12/11/2024 19:51:05 - INFO     - --------------------------------------------------
+12/11/2024 19:51:05 - INFO     - AccueilVue
+12/11/2024 19:51:07 - INFO     - ConnexionVue
+12/11/2024 19:51:18 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+12/11/2024 19:51:18 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+12/11/2024 19:51:18 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x00000186F2AD5AB0>
+12/11/2024 19:51:18 - INFO     - MenuUtilisateurVue
+12/11/2024 19:51:19 - INFO     - EcranDuProfilVue
+12/11/2024 19:51:21 - INFO     - CollectionCoherenteVue
+12/11/2024 19:51:22 - INFO     - MangaCollectionCoherenteVue
+12/11/2024 19:51:25 - INFO     - choix2 : jsp
+12/11/2024 19:51:25 - INFO     - 'NoneType' object has no attribute 'titre'
+12/11/2024 19:51:25 - INFO     - AccueilVue
+12/11/2024 19:51:26 - INFO     - Fin de l'application
+12/11/2024 19:54:33 - INFO     - --------------------------------------------------
+12/11/2024 19:54:33 - INFO     - Lancement Application                           
+12/11/2024 19:54:33 - INFO     - --------------------------------------------------
+12/11/2024 19:54:33 - INFO     - AccueilVue
+12/11/2024 19:54:35 - INFO     - ConnexionVue
+12/11/2024 19:54:40 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+12/11/2024 19:54:40 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+12/11/2024 19:54:41 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001CF09405AB0>
+12/11/2024 19:54:41 - INFO     - MenuUtilisateurVue
+12/11/2024 19:54:42 - INFO     - EcranDuProfilVue
+12/11/2024 19:54:43 - INFO     - CollectionCoherenteVue
+12/11/2024 19:54:44 - INFO     - MangaCollectionCoherenteVue
+12/11/2024 19:54:45 - INFO     - choix2 : jsp
+12/11/2024 19:54:45 - INFO     - res : {res}
+12/11/2024 19:54:45 - INFO     - 'NoneType' object has no attribute 'titre'
+12/11/2024 19:54:45 - INFO     - AccueilVue
+12/11/2024 19:54:46 - INFO     - Fin de l'application
+12/11/2024 19:56:18 - INFO     - --------------------------------------------------
+12/11/2024 19:56:18 - INFO     - Lancement Application                           
+12/11/2024 19:56:18 - INFO     - --------------------------------------------------
+12/11/2024 19:56:18 - INFO     - AccueilVue
+12/11/2024 19:56:21 - INFO     - ConnexionVue
+12/11/2024 19:56:29 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+12/11/2024 19:56:29 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+12/11/2024 19:56:29 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000016A0C2E1AB0>
+12/11/2024 19:56:29 - INFO     - MenuUtilisateurVue
+12/11/2024 19:56:31 - INFO     - EcranDuProfilVue
+12/11/2024 19:56:32 - INFO     - CollectionCoherenteVue
+12/11/2024 19:56:33 - INFO     - MangaCollectionCoherenteVue
+12/11/2024 19:56:40 - INFO     - choix2 : jsp
+12/11/2024 19:56:40 - INFO     - res : [RealDictRow([('id_collec_coherente', 7), ('description_collection', 'jsp nn plus'), ('id_manga', None)])]
+12/11/2024 19:56:40 - INFO     - 'NoneType' object has no attribute 'titre'
+12/11/2024 19:56:40 - INFO     - AccueilVue
+12/11/2024 19:56:41 - INFO     - Fin de l'application
+12/11/2024 20:02:22 - INFO     - --------------------------------------------------
+12/11/2024 20:02:22 - INFO     - Lancement Application                           
+12/11/2024 20:02:22 - INFO     - --------------------------------------------------
+12/11/2024 20:02:22 - INFO     - AccueilVue
+12/11/2024 20:02:22 - INFO     - ConnexionVue
+12/11/2024 20:02:29 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+12/11/2024 20:02:29 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+12/11/2024 20:02:29 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x00000266A44E1A80>
+12/11/2024 20:02:29 - INFO     - MenuUtilisateurVue
+12/11/2024 20:02:31 - INFO     - EcranDuProfilVue
+12/11/2024 20:02:32 - INFO     - CollectionCoherenteVue
+12/11/2024 20:02:33 - INFO     - MangaCollectionCoherenteVue
+12/11/2024 20:02:35 - INFO     - choix2 : jsp
+12/11/2024 20:02:35 - INFO     - object of type 'NoneType' has no len()
+12/11/2024 20:02:35 - INFO     - AccueilVue
+12/11/2024 20:02:36 - INFO     - Fin de l'application
+12/11/2024 20:06:57 - INFO     - --------------------------------------------------
+12/11/2024 20:06:57 - INFO     - Lancement Application                           
+12/11/2024 20:06:57 - INFO     - --------------------------------------------------
+12/11/2024 20:06:57 - INFO     - AccueilVue
+12/11/2024 20:06:58 - INFO     - ConnexionVue
+12/11/2024 20:07:04 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+12/11/2024 20:07:04 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+12/11/2024 20:07:04 - INFO     -        └─> Sortie : None
+12/11/2024 20:07:04 - INFO     - AccueilVue
+12/11/2024 20:07:07 - INFO     - ConnexionVue
+12/11/2024 20:07:16 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+12/11/2024 20:07:16 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+12/11/2024 20:07:16 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x00000205066852A0>
+12/11/2024 20:07:16 - INFO     - MenuUtilisateurVue
+12/11/2024 20:07:18 - INFO     - EcranDuProfilVue
+12/11/2024 20:07:19 - INFO     - CollectionCoherenteVue
+12/11/2024 20:07:20 - INFO     - MangaCollectionCoherenteVue
+12/11/2024 20:07:21 - INFO     - choix2 : jsp
+12/11/2024 20:07:21 - INFO     - object of type 'NoneType' has no len()
+12/11/2024 20:07:21 - INFO     - AccueilVue
+12/11/2024 20:07:22 - INFO     - Fin de l'application
+12/11/2024 20:09:13 - INFO     - --------------------------------------------------
+12/11/2024 20:09:13 - INFO     - Lancement Application                           
+12/11/2024 20:09:13 - INFO     - --------------------------------------------------
+12/11/2024 20:09:13 - INFO     - AccueilVue
+12/11/2024 20:09:14 - INFO     - ConnexionVue
+12/11/2024 20:09:20 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+12/11/2024 20:09:20 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+12/11/2024 20:09:20 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000016511765AB0>
+12/11/2024 20:09:20 - INFO     - MenuUtilisateurVue
+12/11/2024 20:09:22 - INFO     - EcranDuProfilVue
+12/11/2024 20:09:23 - INFO     - CollectionCoherenteVue
+12/11/2024 20:09:24 - INFO     - MangaCollectionCoherenteVue
+12/11/2024 20:09:25 - INFO     - choix2 : jsp
+12/11/2024 20:09:25 - INFO     - collection : La collection ne contient aucun manga.
+12/11/2024 20:09:25 - INFO     - id_collection : La collection ne contient aucun manga.
+12/11/2024 20:09:28 - INFO     - nouveau_titre : ok
+12/11/2024 20:09:28 - INFO     - 'MangaCollectionCoherenteVue' object has no attribute 'modifier_titre'
+12/11/2024 20:09:28 - INFO     - AccueilVue
+12/11/2024 20:09:30 - INFO     - Fin de l'application
+12/11/2024 20:20:03 - INFO     - --------------------------------------------------
+12/11/2024 20:20:03 - INFO     - Lancement Application                           
+12/11/2024 20:20:03 - INFO     - --------------------------------------------------
+12/11/2024 20:20:03 - INFO     - AccueilVue
+12/11/2024 20:20:16 - INFO     - ConnexionVue
+12/11/2024 20:20:28 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+12/11/2024 20:20:28 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+12/11/2024 20:20:28 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000002219FA45CF0>
+12/11/2024 20:20:28 - INFO     - MenuUtilisateurVue
+12/11/2024 20:20:29 - INFO     - EcranDuProfilVue
+12/11/2024 20:20:31 - INFO     - CollectionCoherenteVue
+12/11/2024 20:20:32 - INFO     - MangaCollectionCoherenteVue
+12/11/2024 20:20:37 - INFO     - choix2 : jsp
+12/11/2024 20:20:37 - INFO     - 'CollectionCoherente' object has no attribute 'id_collection'
+12/11/2024 20:20:37 - INFO     - AccueilVue
+12/11/2024 20:20:38 - INFO     - Fin de l'application
+12/11/2024 20:22:04 - INFO     - --------------------------------------------------
+12/11/2024 20:22:04 - INFO     - Lancement Application                           
+12/11/2024 20:22:04 - INFO     - --------------------------------------------------
+12/11/2024 20:22:04 - INFO     - AccueilVue
+12/11/2024 20:22:05 - INFO     - ConnexionVue
+12/11/2024 20:22:12 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+12/11/2024 20:22:13 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+12/11/2024 20:22:13 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000023F5E881AB0>
+12/11/2024 20:22:13 - INFO     - MenuUtilisateurVue
+12/11/2024 20:22:15 - INFO     - EcranDuProfilVue
+12/11/2024 20:22:15 - INFO     - CollectionCoherenteVue
+12/11/2024 20:22:16 - INFO     - MangaCollectionCoherenteVue
+12/11/2024 20:22:18 - INFO     - choix2 : jsp
+12/11/2024 20:22:18 - INFO     - collection : <business_object.CollectionCoherente.CollectionCoherente object at 0x0000023F5EA3D9F0>
+12/11/2024 20:22:18 - INFO     - 'CollectionCoherente' object has no attribute 'id_collection'
+12/11/2024 20:22:18 - INFO     - AccueilVue
+12/11/2024 20:22:19 - INFO     - Fin de l'application
+12/11/2024 20:22:57 - INFO     - --------------------------------------------------
+12/11/2024 20:22:57 - INFO     - Lancement Application                           
+12/11/2024 20:22:57 - INFO     - --------------------------------------------------
+12/11/2024 20:22:57 - INFO     - AccueilVue
+12/11/2024 20:22:58 - INFO     - ConnexionVue
+12/11/2024 20:23:09 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+12/11/2024 20:23:09 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+12/11/2024 20:23:09 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000002AA75FD9D20>
+12/11/2024 20:23:09 - INFO     - MenuUtilisateurVue
+12/11/2024 20:23:13 - INFO     - EcranDuProfilVue
+12/11/2024 20:23:14 - INFO     - CollectionCoherenteVue
+12/11/2024 20:23:15 - INFO     - MangaCollectionCoherenteVue
+12/11/2024 20:23:17 - INFO     - choix2 : jsp
+12/11/2024 20:23:17 - INFO     - collection : 7
+12/11/2024 20:23:17 - INFO     - 'CollectionCoherente' object has no attribute 'id_collection'
+12/11/2024 20:23:17 - INFO     - AccueilVue
+12/11/2024 20:23:18 - INFO     - Fin de l'application
+12/11/2024 20:24:03 - INFO     - --------------------------------------------------
+12/11/2024 20:24:03 - INFO     - Lancement Application                           
+12/11/2024 20:24:03 - INFO     - --------------------------------------------------
+12/11/2024 20:24:03 - INFO     - AccueilVue
+12/11/2024 20:24:04 - INFO     - ConnexionVue
+12/11/2024 20:24:11 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+12/11/2024 20:24:11 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+12/11/2024 20:24:11 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001F038255AB0>
+12/11/2024 20:24:11 - INFO     - MenuUtilisateurVue
+12/11/2024 20:24:13 - INFO     - EcranDuProfilVue
+12/11/2024 20:24:14 - INFO     - CollectionCoherenteVue
+12/11/2024 20:24:15 - INFO     - MangaCollectionCoherenteVue
+12/11/2024 20:24:19 - INFO     - choix2 : jsp
+12/11/2024 20:24:19 - INFO     - collection : 7
+12/11/2024 20:24:19 - INFO     - id_collection : 7
+12/11/2024 20:24:21 - INFO     - nouveau_titre : ok
+12/11/2024 20:24:21 - INFO     - 'MangaCollectionCoherenteVue' object has no attribute 'modifier_titre'
+12/11/2024 20:24:21 - INFO     - AccueilVue
+12/11/2024 20:24:23 - INFO     - Fin de l'application
+12/11/2024 20:26:17 - INFO     - --------------------------------------------------
+12/11/2024 20:26:17 - INFO     - Lancement Application                           
+12/11/2024 20:26:17 - INFO     - --------------------------------------------------
+12/11/2024 20:26:17 - INFO     - AccueilVue
+12/11/2024 20:26:18 - INFO     - ConnexionVue
+12/11/2024 20:26:24 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+12/11/2024 20:26:24 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+12/11/2024 20:26:24 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001BC29A15990>
+12/11/2024 20:26:24 - INFO     - MenuUtilisateurVue
+12/11/2024 20:26:26 - INFO     - EcranDuProfilVue
+12/11/2024 20:26:26 - INFO     - CollectionCoherenteVue
+12/11/2024 20:26:27 - INFO     - MangaCollectionCoherenteVue
+12/11/2024 20:26:28 - INFO     - choix2 : jsp
+12/11/2024 20:26:28 - INFO     - id_collection : 7
+12/11/2024 20:26:30 - INFO     - nouveau_titre : ok
+12/11/2024 20:26:30 - INFO     - 'id_collection'
+12/11/2024 20:26:30 - INFO     - 'id_collection'
+12/11/2024 20:26:30 - INFO     - AccueilVue
+12/11/2024 20:26:32 - INFO     - Fin de l'application
+12/11/2024 20:28:45 - INFO     - --------------------------------------------------
+12/11/2024 20:28:45 - INFO     - Lancement Application                           
+12/11/2024 20:28:45 - INFO     - --------------------------------------------------
+12/11/2024 20:28:45 - INFO     - AccueilVue
+12/11/2024 20:28:46 - INFO     - ConnexionVue
+12/11/2024 20:28:52 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+12/11/2024 20:28:52 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+12/11/2024 20:28:52 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x00000243973D5AB0>
+12/11/2024 20:28:52 - INFO     - MenuUtilisateurVue
+12/11/2024 20:28:53 - INFO     - EcranDuProfilVue
+12/11/2024 20:28:55 - INFO     - CollectionCoherenteVue
+12/11/2024 20:28:55 - INFO     - MangaCollectionCoherenteVue
+12/11/2024 20:28:57 - INFO     - choix2 : jsp
+12/11/2024 20:28:57 - INFO     - id_collection : 7
+12/11/2024 20:28:59 - INFO     - nouveau_titre : mo
+12/11/2024 20:28:59 - INFO     - 'id_collection'
+12/11/2024 20:28:59 - INFO     - 'id_collection'
+12/11/2024 20:28:59 - INFO     - AccueilVue
+12/11/2024 20:29:00 - INFO     - Fin de l'application
+12/11/2024 20:32:18 - INFO     - --------------------------------------------------
+12/11/2024 20:32:18 - INFO     - Lancement Application                           
+12/11/2024 20:32:18 - INFO     - --------------------------------------------------
+12/11/2024 20:32:18 - INFO     - AccueilVue
+12/11/2024 20:32:19 - INFO     - ConnexionVue
+12/11/2024 20:32:25 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+12/11/2024 20:32:26 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+12/11/2024 20:32:26 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001D5E7DD1C00>
+12/11/2024 20:32:26 - INFO     - MenuUtilisateurVue
+12/11/2024 20:32:29 - INFO     - EcranDuProfilVue
+12/11/2024 20:32:30 - INFO     - CollectionCoherenteVue
+12/11/2024 20:32:31 - INFO     - MangaCollectionCoherenteVue
+12/11/2024 20:32:33 - INFO     - choix2 : jsp
+12/11/2024 20:32:33 - INFO     - id_collection : 7
+12/11/2024 20:32:35 - INFO     - nouveau_titre : ok
+12/11/2024 20:32:35 - INFO     - res : True
+12/11/2024 20:32:35 - INFO     - 'str' object has no attribute 'afficher'
+12/11/2024 20:32:35 - INFO     - AccueilVue
+12/11/2024 20:32:36 - INFO     - Fin de l'application
+12/11/2024 20:35:32 - INFO     - --------------------------------------------------
+12/11/2024 20:35:32 - INFO     - Lancement Application                           
+12/11/2024 20:35:32 - INFO     - --------------------------------------------------
+12/11/2024 20:35:32 - INFO     - AccueilVue
+12/11/2024 20:35:34 - INFO     - ConnexionVue
+12/11/2024 20:35:40 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+12/11/2024 20:35:40 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+12/11/2024 20:35:40 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000021966D91AB0>
+12/11/2024 20:35:40 - INFO     - MenuUtilisateurVue
+12/11/2024 20:35:42 - INFO     - EcranDuProfilVue
+12/11/2024 20:35:43 - INFO     - CollectionCoherenteVue
+12/11/2024 20:35:45 - INFO     - MangaCollectionCoherenteVue
+12/11/2024 20:35:48 - INFO     - choix2 : ok
+12/11/2024 20:35:48 - INFO     - id_collection : 7
+12/11/2024 20:35:57 - INFO     - nouveau_titre : macollecpref
+12/11/2024 20:35:57 - INFO     - 'tuple' object has no attribute 'afficher'
+12/11/2024 20:35:57 - INFO     - AccueilVue
+12/11/2024 20:36:00 - INFO     - Fin de l'application
+12/11/2024 20:40:10 - INFO     - --------------------------------------------------
+12/11/2024 20:40:10 - INFO     - Lancement Application                           
+12/11/2024 20:40:10 - INFO     - --------------------------------------------------
+12/11/2024 20:40:10 - INFO     - AccueilVue
+12/11/2024 20:40:11 - INFO     - ConnexionVue
+12/11/2024 20:40:17 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+12/11/2024 20:40:17 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+12/11/2024 20:40:17 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001A47B645AB0>
+12/11/2024 20:40:17 - INFO     - MenuUtilisateurVue
+12/11/2024 20:40:18 - INFO     - EcranDuProfilVue
+12/11/2024 20:40:18 - INFO     - CollectionCoherenteVue
+12/11/2024 20:40:21 - INFO     - MangaCollectionCoherenteVue
+12/11/2024 20:40:22 - INFO     - choix2 : macollecpref
+12/11/2024 20:40:22 - INFO     - id_collection : 7
+12/11/2024 20:40:25 - INFO     - nouveau_titre : nou
+12/11/2024 20:40:25 - INFO     - 'MangaCollectionCoherenteVue' object has no attribute 'CollectionCoherenteDAO'
+12/11/2024 20:40:25 - INFO     - AccueilVue
+12/11/2024 20:40:27 - INFO     - Fin de l'application
+12/11/2024 20:41:44 - INFO     - --------------------------------------------------
+12/11/2024 20:41:44 - INFO     - Lancement Application                           
+12/11/2024 20:41:44 - INFO     - --------------------------------------------------
+12/11/2024 20:41:44 - INFO     - AccueilVue
+12/11/2024 20:41:45 - INFO     - ConnexionVue
+12/11/2024 20:41:51 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+12/11/2024 20:41:51 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+12/11/2024 20:41:51 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000023CA2DE5AE0>
+12/11/2024 20:41:51 - INFO     - MenuUtilisateurVue
+12/11/2024 20:41:53 - INFO     - RechercheVue
+12/11/2024 20:41:55 - INFO     - VueAbstraite.afficher() missing 1 required positional argument: 'self'
+12/11/2024 20:41:55 - INFO     - AccueilVue
+12/11/2024 20:41:56 - INFO     - ConnexionVue
+12/11/2024 20:42:03 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+12/11/2024 20:42:03 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+12/11/2024 20:42:03 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000023CA3030CD0>
+12/11/2024 20:42:03 - INFO     - MenuUtilisateurVue
+12/11/2024 20:42:05 - INFO     - RechercheVue
+12/11/2024 20:42:06 - INFO     - RechercheMangaVue
+12/11/2024 20:42:09 - INFO     - choix2 : ['Monster', 'Berserk', '20th Century Boys', 'Yokohama Kaidashi Kikou', 'Hajime no Ippo: Fighting Spirit!', 'Full Moon wo Sagashite', 'Tsubasa: RESERVoir CHRoNiCLE', 'xxxHOLiC']
+12/11/2024 20:42:10 - INFO     - SelectionMangaVuerecherche
+12/11/2024 20:42:11 - INFO     - RechercheMangaVue
+12/11/2024 20:42:13 - INFO     - Fin de l'application
+12/11/2024 20:42:15 - INFO     - --------------------------------------------------
+12/11/2024 20:42:15 - INFO     - Lancement Application                           
+12/11/2024 20:42:15 - INFO     - --------------------------------------------------
+12/11/2024 20:42:15 - INFO     - AccueilVue
+12/11/2024 20:42:16 - INFO     - ConnexionVue
+12/11/2024 20:42:22 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+12/11/2024 20:42:22 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+12/11/2024 20:42:22 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001C299435A80>
+12/11/2024 20:42:23 - INFO     - MenuUtilisateurVue
+12/11/2024 20:42:24 - INFO     - EcranDuProfilVue
+12/11/2024 20:42:25 - INFO     - CollectionCoherenteVue
+12/11/2024 20:42:25 - INFO     - MangaCollectionCoherenteVue
+12/11/2024 20:42:26 - INFO     - choix2 : macollecpref
+12/11/2024 20:42:26 - INFO     - id_collection : 7
+12/11/2024 20:42:29 - INFO     - nouveau_titre : nouveau
+12/11/2024 20:42:29 - INFO     - 'bool' object has no attribute 'afficher'
+12/11/2024 20:42:29 - INFO     - AccueilVue
+12/11/2024 20:42:31 - INFO     - Fin de l'application
+12/11/2024 20:44:25 - INFO     - --------------------------------------------------
+12/11/2024 20:44:25 - INFO     - Lancement Application                           
+12/11/2024 20:44:25 - INFO     - --------------------------------------------------
+12/11/2024 20:44:25 - INFO     - AccueilVue
+12/11/2024 20:44:26 - INFO     - ConnexionVue
+12/11/2024 20:44:29 - INFO     -     UtilisateurDao.se_connecter('mavieà3', '*****') - DEBUT
+12/11/2024 20:44:29 - INFO     -     UtilisateurDao.se_connecter('mavieà3', '*****') - FIN
+12/11/2024 20:44:29 - INFO     -        └─> Sortie : None
+12/11/2024 20:44:29 - INFO     - AccueilVue
+12/11/2024 20:44:30 - INFO     - ConnexionVue
+12/11/2024 20:44:37 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+12/11/2024 20:44:37 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+12/11/2024 20:44:37 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000016EFD065330>
+12/11/2024 20:44:37 - INFO     - MenuUtilisateurVue
+12/11/2024 20:44:38 - INFO     - EcranDuProfilVue
+12/11/2024 20:44:39 - INFO     - CollectionCoherenteVue
+12/11/2024 20:44:40 - INFO     - MangaCollectionCoherenteVue
+12/11/2024 20:44:42 - INFO     - choix2 : nouveau
+12/11/2024 20:44:42 - INFO     - id_collection : 7
+12/11/2024 20:44:47 - INFO     - nouveau_titre : supeer
+12/11/2024 20:44:47 - INFO     - MangaCollectionCoherenteVue
+12/11/2024 20:44:47 - INFO     - MangaCollectionCoherenteVue.choisir_menu() missing 1 required positional argument: 'choix2'
+12/11/2024 20:44:47 - INFO     - AccueilVue
+12/11/2024 20:44:48 - INFO     - Fin de l'application
+12/11/2024 20:45:39 - INFO     - --------------------------------------------------
+12/11/2024 20:45:39 - INFO     - Lancement Application                           
+12/11/2024 20:45:39 - INFO     - --------------------------------------------------
+12/11/2024 20:45:39 - INFO     - AccueilVue
+12/11/2024 20:45:40 - INFO     - ConnexionVue
+12/11/2024 20:45:49 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+12/11/2024 20:45:49 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+12/11/2024 20:45:49 - INFO     -        └─> Sortie : None
+12/11/2024 20:45:49 - INFO     - AccueilVue
+12/11/2024 20:45:50 - INFO     - ConnexionVue
+12/11/2024 20:45:56 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+12/11/2024 20:45:56 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+12/11/2024 20:45:56 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000018CD8C251B0>
+12/11/2024 20:45:56 - INFO     - MenuUtilisateurVue
+12/11/2024 20:45:58 - INFO     - EcranDuProfilVue
+12/11/2024 20:45:58 - INFO     - CollectionCoherenteVue
+12/11/2024 20:45:59 - INFO     - MangaCollectionCoherenteVue
+12/11/2024 20:46:00 - INFO     - choix2 : supeer
+12/11/2024 20:46:00 - INFO     - id_collection : 7
+12/11/2024 20:46:01 - INFO     - nouveau_titre : ok
+12/11/2024 20:46:01 - INFO     - MangaCollectionCoherenteVue
+12/11/2024 20:46:01 - INFO     - MangaCollectionCoherenteVue.choisir_menu() missing 1 required positional argument: 'choix2'
+12/11/2024 20:46:01 - INFO     - AccueilVue
+12/11/2024 20:46:03 - INFO     - Fin de l'application
+12/11/2024 20:46:43 - INFO     - --------------------------------------------------
+12/11/2024 20:46:43 - INFO     - Lancement Application                           
+12/11/2024 20:46:43 - INFO     - --------------------------------------------------
+12/11/2024 20:46:43 - INFO     - AccueilVue
+12/11/2024 20:46:44 - INFO     - ConnexionVue
+12/11/2024 20:46:49 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+12/11/2024 20:46:49 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+12/11/2024 20:46:49 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000002BBF9CB5A80>
+12/11/2024 20:46:49 - INFO     - MenuUtilisateurVue
+12/11/2024 20:46:50 - INFO     - EcranDuProfilVue
+12/11/2024 20:46:51 - INFO     - CollectionCoherenteVue
+12/11/2024 20:46:51 - INFO     - MangaCollectionCoherenteVue
+12/11/2024 20:46:52 - INFO     - choix2 : ok
+12/11/2024 20:46:52 - INFO     - id_collection : 7
+12/11/2024 20:46:55 - INFO     - nouveau_titre : supeeer
+12/11/2024 20:46:55 - INFO     - VueAbstraite.__init__() takes from 1 to 2 positional arguments but 3 were given
+12/11/2024 20:46:55 - INFO     - AccueilVue
+12/11/2024 20:46:57 - INFO     - Fin de l'application
+12/11/2024 20:49:25 - INFO     - --------------------------------------------------
+12/11/2024 20:49:25 - INFO     - Lancement Application                           
+12/11/2024 20:49:25 - INFO     - --------------------------------------------------
+12/11/2024 20:49:25 - INFO     - AccueilVue
+12/11/2024 20:49:26 - INFO     - ConnexionVue
+12/11/2024 20:49:33 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+12/11/2024 20:49:33 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+12/11/2024 20:49:33 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001ABB4D75A80>
+12/11/2024 20:49:33 - INFO     - MenuUtilisateurVue
+12/11/2024 20:49:34 - INFO     - EcranDuProfilVue
+12/11/2024 20:49:35 - INFO     - CollectionCoherenteVue
+12/11/2024 20:49:36 - INFO     - MangaCollectionCoherenteVue
+12/11/2024 20:49:38 - INFO     - choix2 : supeeer
+12/11/2024 20:49:38 - INFO     - id_collection : 7
+12/11/2024 20:49:39 - INFO     - nouveau_titre : ok
+12/11/2024 20:49:48 - INFO     - CollectionCoherenteVue
+12/11/2024 20:49:53 - INFO     - MenuUtilisateurVue
+12/11/2024 20:49:56 - INFO     - AccueilVue
+12/11/2024 20:49:58 - INFO     - Fin de l'application
+12/11/2024 20:51:15 - INFO     - --------------------------------------------------
+12/11/2024 20:51:15 - INFO     - Lancement Application                           
+12/11/2024 20:51:15 - INFO     - --------------------------------------------------
+12/11/2024 20:51:15 - INFO     - AccueilVue
+12/11/2024 20:51:16 - INFO     - ConnexionVue
+12/11/2024 20:51:22 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+12/11/2024 20:51:22 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+12/11/2024 20:51:22 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x00000236A7705AB0>
+12/11/2024 20:51:22 - INFO     - MenuUtilisateurVue
+12/11/2024 20:51:23 - INFO     - EcranDuProfilVue
+12/11/2024 20:51:23 - INFO     - CollectionCoherenteVue
+12/11/2024 20:51:24 - INFO     - MangaCollectionCoherenteVue
+12/11/2024 20:51:26 - INFO     - choix2 : ok
+12/11/2024 20:51:26 - INFO     - id_collection : 7
+12/11/2024 20:51:28 - INFO     - nouveau_titre : supeeer
+12/11/2024 20:51:34 - INFO     - CollectionCoherenteVue
+12/11/2024 20:51:39 - INFO     - MenuUtilisateurVue
+12/11/2024 20:51:40 - INFO     - AccueilVue
+12/11/2024 20:51:45 - INFO     - Fin de l'application
+12/11/2024 20:58:37 - INFO     - --------------------------------------------------
+12/11/2024 20:58:37 - INFO     - Lancement Application                           
+12/11/2024 20:58:37 - INFO     - --------------------------------------------------
+12/11/2024 20:58:37 - INFO     - AccueilVue
+12/11/2024 20:59:07 - INFO     - ConnexionVue
+12/11/2024 20:59:13 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+12/11/2024 20:59:13 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+12/11/2024 20:59:13 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000014303AC1AB0>
+12/11/2024 20:59:13 - INFO     - MenuUtilisateurVue
+12/11/2024 20:59:16 - INFO     - EcranDuProfilVue
+12/11/2024 20:59:16 - INFO     - CollectionCoherenteVue
+12/11/2024 20:59:18 - INFO     - MangaCollectionCoherenteVue
+12/11/2024 20:59:21 - INFO     - Fin de l'application
+12/11/2024 20:59:36 - INFO     - --------------------------------------------------
+12/11/2024 20:59:36 - INFO     - Lancement Application                           
+12/11/2024 20:59:36 - INFO     - --------------------------------------------------
+12/11/2024 20:59:36 - INFO     - AccueilVue
+12/11/2024 20:59:37 - INFO     - ConnexionVue
+12/11/2024 20:59:43 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+12/11/2024 20:59:43 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+12/11/2024 20:59:43 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000016444C95AB0>
+12/11/2024 20:59:43 - INFO     - MenuUtilisateurVue
+12/11/2024 20:59:45 - INFO     - EcranDuProfilVue
+12/11/2024 20:59:45 - INFO     - CollectionCoherenteVue
+12/11/2024 20:59:46 - INFO     - MangaCollectionCoherenteVue
+12/11/2024 21:00:00 - INFO     - CollectionCoherenteVue
+12/11/2024 21:00:03 - INFO     - MenuUtilisateurVue
+12/11/2024 21:00:05 - INFO     - AccueilVue
+12/11/2024 21:00:06 - INFO     - Fin de l'application
+12/11/2024 21:01:55 - INFO     - --------------------------------------------------
+12/11/2024 21:01:55 - INFO     - Lancement Application                           
+12/11/2024 21:01:55 - INFO     - --------------------------------------------------
+12/11/2024 21:01:55 - INFO     - AccueilVue
+12/11/2024 21:01:56 - INFO     - ConnexionVue
+12/11/2024 21:02:02 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+12/11/2024 21:02:02 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+12/11/2024 21:02:02 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000029B43585AB0>
+12/11/2024 21:02:02 - INFO     - MenuUtilisateurVue
+12/11/2024 21:02:04 - INFO     - EcranDuProfilVue
+12/11/2024 21:02:06 - INFO     - CollectionCoherenteVue
+12/11/2024 21:02:12 - INFO     - MangaCollectionCoherenteVue
+12/11/2024 21:02:18 - INFO     - CollectionCoherenteVue
+12/11/2024 21:02:20 - INFO     - MenuUtilisateurVue
+12/11/2024 21:02:22 - INFO     - AccueilVue
+12/11/2024 21:02:24 - INFO     - Fin de l'application
+12/11/2024 21:06:32 - INFO     - --------------------------------------------------
+12/11/2024 21:06:32 - INFO     - Lancement Application                           
+12/11/2024 21:06:32 - INFO     - --------------------------------------------------
+12/11/2024 21:06:32 - INFO     - AccueilVue
+12/11/2024 21:06:33 - INFO     - ConnexionVue
+12/11/2024 21:06:39 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+12/11/2024 21:06:39 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+12/11/2024 21:06:39 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000002DD0D611AB0>
+12/11/2024 21:06:39 - INFO     - MenuUtilisateurVue
+12/11/2024 21:06:41 - INFO     - EcranDuProfilVue
+12/11/2024 21:06:42 - INFO     - CollectionCoherenteVue
+12/11/2024 21:06:43 - INFO     - MangaCollectionCoherenteVue
+12/11/2024 21:06:58 - INFO     - Fin de l'application
+12/11/2024 21:07:00 - INFO     - --------------------------------------------------
+12/11/2024 21:07:00 - INFO     - Lancement Application                           
+12/11/2024 21:07:00 - INFO     - --------------------------------------------------
+12/11/2024 21:07:00 - INFO     - AccueilVue
+12/11/2024 21:07:02 - INFO     - ConnexionVue
+12/11/2024 21:07:07 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+12/11/2024 21:07:07 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+12/11/2024 21:07:07 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000018D7A031A80>
+12/11/2024 21:07:07 - INFO     - MenuUtilisateurVue
+12/11/2024 21:07:08 - INFO     - EcranDuProfilVue
+12/11/2024 21:07:09 - INFO     - CollectionCoherenteVue
+12/11/2024 21:07:10 - INFO     - MangaCollectionCoherenteVue
+12/11/2024 21:07:13 - INFO     - Fin de l'application
+12/11/2024 21:07:58 - INFO     - --------------------------------------------------
+12/11/2024 21:07:58 - INFO     - Lancement Application                           
+12/11/2024 21:07:58 - INFO     - --------------------------------------------------
+12/11/2024 21:07:58 - INFO     - AccueilVue
+12/11/2024 21:07:59 - INFO     - ConnexionVue
+12/11/2024 21:08:04 - INFO     -     UtilisateurDao.se_connecter('mavie02', '*****') - DEBUT
+12/11/2024 21:08:04 - INFO     -     UtilisateurDao.se_connecter('mavie02', '*****') - FIN
+12/11/2024 21:08:04 - INFO     -        └─> Sortie : None
+12/11/2024 21:08:04 - INFO     - AccueilVue
+12/11/2024 21:08:04 - INFO     - ConnexionVue
+12/11/2024 21:08:10 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+12/11/2024 21:08:10 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+12/11/2024 21:08:10 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000012A605C1180>
+12/11/2024 21:08:10 - INFO     - MenuUtilisateurVue
+12/11/2024 21:08:12 - INFO     - EcranDuProfilVue
+12/11/2024 21:08:13 - INFO     - CollectionCoherenteVue
+12/11/2024 21:08:14 - INFO     - MangaCollectionCoherenteVue
+12/11/2024 21:08:30 - INFO     - CollectionCoherenteVue
+12/11/2024 21:08:32 - INFO     - MangaCollectionCoherenteVue
+12/11/2024 21:08:34 - INFO     - CollectionCoherenteVue
+12/11/2024 21:08:35 - INFO     - MangaCollectionCoherenteVue
+12/11/2024 21:08:37 - INFO     - CollectionCoherenteVue
+12/11/2024 21:08:39 - INFO     - MenuUtilisateurVue
+12/11/2024 21:08:40 - INFO     - AccueilVue
+12/11/2024 21:08:41 - INFO     - Fin de l'application
+12/11/2024 21:09:34 - INFO     - --------------------------------------------------
+12/11/2024 21:09:34 - INFO     - Lancement Application                           
+12/11/2024 21:09:34 - INFO     - --------------------------------------------------
+12/11/2024 21:09:34 - INFO     - AccueilVue
+12/11/2024 21:09:35 - INFO     - ConnexionVue
+12/11/2024 21:09:41 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+12/11/2024 21:09:41 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+12/11/2024 21:09:41 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x00000265804D5990>
+12/11/2024 21:09:41 - INFO     - MenuUtilisateurVue
+12/11/2024 21:09:42 - INFO     - EcranDuProfilVue
+12/11/2024 21:09:43 - INFO     - CollectionCoherenteVue
+12/11/2024 21:09:44 - INFO     - MangaCollectionCoherenteVue
+12/11/2024 21:09:51 - INFO     - CollectionCoherenteVue
+12/11/2024 21:09:52 - INFO     - MenuUtilisateurVue
+12/11/2024 21:09:53 - INFO     - AccueilVue
+12/11/2024 21:09:55 - INFO     - Fin de l'application
+12/11/2024 21:10:32 - INFO     - --------------------------------------------------
+12/11/2024 21:10:32 - INFO     - Lancement Application                           
+12/11/2024 21:10:32 - INFO     - --------------------------------------------------
+12/11/2024 21:10:32 - INFO     - AccueilVue
+12/11/2024 21:10:33 - INFO     - ConnexionVue
+12/11/2024 21:10:39 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+12/11/2024 21:10:39 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+12/11/2024 21:10:39 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000014AA6805AB0>
+12/11/2024 21:10:39 - INFO     - MenuUtilisateurVue
+12/11/2024 21:10:40 - INFO     - EcranDuProfilVue
+12/11/2024 21:10:40 - INFO     - CollectionCoherenteVue
+12/11/2024 21:10:41 - INFO     - MangaCollectionCoherenteVue
+12/11/2024 21:10:47 - INFO     - CollectionCoherenteVue
+12/11/2024 21:10:48 - INFO     - MenuUtilisateurVue
+12/11/2024 21:10:49 - INFO     - AccueilVue
+12/11/2024 21:10:50 - INFO     - Fin de l'application
+12/11/2024 21:17:37 - INFO     - --------------------------------------------------
+12/11/2024 21:17:37 - INFO     - Lancement Application                           
+12/11/2024 21:17:37 - INFO     - --------------------------------------------------
+12/11/2024 21:17:37 - INFO     - AccueilVue
+12/11/2024 21:17:38 - INFO     - ConnexionVue
+12/11/2024 21:17:46 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+12/11/2024 21:17:46 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+12/11/2024 21:17:46 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000018698EE5AB0>
+12/11/2024 21:17:46 - INFO     - MenuUtilisateurVue
+12/11/2024 21:17:47 - INFO     - invalid decimal literal (collection_coherente_service.py, line 41)
+12/11/2024 21:17:47 - INFO     - AccueilVue
+12/11/2024 21:17:49 - INFO     - ConnexionVue
+12/11/2024 21:17:56 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+12/11/2024 21:17:56 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+12/11/2024 21:17:56 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000018699064D30>
+12/11/2024 21:17:56 - INFO     - MenuUtilisateurVue
+12/11/2024 21:17:57 - INFO     - invalid decimal literal (collection_coherente_service.py, line 41)
+12/11/2024 21:17:57 - INFO     - AccueilVue
+12/11/2024 21:17:59 - INFO     - Fin de l'application
+12/11/2024 21:19:18 - INFO     - --------------------------------------------------
+12/11/2024 21:19:18 - INFO     - Lancement Application                           
+12/11/2024 21:19:18 - INFO     - --------------------------------------------------
+12/11/2024 21:19:18 - INFO     - AccueilVue
 12/11/2024 21:19:19 - INFO     - ConnexionVue
-12/11/2024 21:19:24 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
-12/11/2024 21:19:24 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
-12/11/2024 21:19:24 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000002AE65A4DAE0>
-12/11/2024 21:19:24 - INFO     - MenuUtilisateurVue
-12/11/2024 21:19:25 - INFO     - RechercheVue
-12/11/2024 21:19:26 - INFO     - RechercheMangaVue
-12/11/2024 21:19:28 - INFO     - choix2 : ['Monster', 'Higurashi WHEN THEY CRY: Abducted by Demons Arc', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul']
-12/11/2024 21:19:29 - INFO     - SelectionMangaVuerecherche
-12/11/2024 21:19:29 - INFO     - Fin de l'application
-12/11/2024 21:20:17 - INFO     - --------------------------------------------------
-12/11/2024 21:20:17 - INFO     - Lancement Application                           
-12/11/2024 21:20:17 - INFO     - --------------------------------------------------
-12/11/2024 21:20:17 - INFO     - AccueilVue
-12/11/2024 21:20:18 - INFO     - ConnexionVue
-12/11/2024 21:20:22 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
-12/11/2024 21:20:22 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
-12/11/2024 21:20:22 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001CB8DBE1AB0>
-12/11/2024 21:20:22 - INFO     - MenuUtilisateurVue
-12/11/2024 21:20:22 - INFO     - RechercheVue
-12/11/2024 21:20:23 - INFO     - RechercheMangaVue
-12/11/2024 21:20:25 - INFO     - choix2 : ['Monster', 'Higurashi WHEN THEY CRY: Abducted by Demons Arc', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul']
-12/11/2024 21:20:26 - INFO     - SelectionMangaVuerecherche
-12/11/2024 21:20:27 - INFO     - invalid decimal literal (collection_coherente_service.py, line 41)
-12/11/2024 21:20:27 - INFO     - AccueilVue
-12/11/2024 21:21:48 - INFO     - Fin de l'application
-12/11/2024 21:21:50 - INFO     - --------------------------------------------------
-12/11/2024 21:21:50 - INFO     - Lancement Application                           
-12/11/2024 21:21:50 - INFO     - --------------------------------------------------
-12/11/2024 21:21:50 - INFO     - AccueilVue
-12/11/2024 21:21:52 - INFO     - ConnexionVue
-12/11/2024 21:21:55 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
-12/11/2024 21:21:55 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
-12/11/2024 21:21:55 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x00000240AF855B40>
-12/11/2024 21:21:55 - INFO     - MenuUtilisateurVue
-12/11/2024 21:21:56 - INFO     - RechercheVue
-12/11/2024 21:21:56 - INFO     - RechercheMangaVue
-12/11/2024 21:21:59 - INFO     - choix2 : ['Monster', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul', 'Monster Hunter Orage']
-12/11/2024 21:21:59 - INFO     - SelectionMangaVuerecherche
-12/11/2024 21:21:59 - INFO     - AjouterMangaCollecVuerecherche
-12/11/2024 21:22:00 - INFO     -     UtilisateurDao.recherche_id_par_pseudo(1,) - DEBUT
-12/11/2024 21:22:00 - INFO     - ERREUR:  l'opérateur n'existe pas : character varying = integer
-LINE 1: ...OM utilisateur                       WHERE pseudo = 1;      ...
-                                                             ^
-HINT:  Aucun opérateur ne correspond au nom donné et aux types d'arguments.
-Vous devez ajouter des conversions explicites de type.
-
-12/11/2024 21:22:00 - INFO     - ERREUR:  l'opérateur n'existe pas : character varying = integer
-LINE 1: ...OM utilisateur                       WHERE pseudo = 1;      ...
-                                                             ^
-HINT:  Aucun opérateur ne correspond au nom donné et aux types d'arguments.
-Vous devez ajouter des conversions explicites de type.
-
-12/11/2024 21:22:00 - INFO     - AccueilVue
-12/11/2024 21:23:40 - INFO     - Fin de l'application
-12/11/2024 21:23:42 - INFO     - --------------------------------------------------
-12/11/2024 21:23:42 - INFO     - Lancement Application                           
-12/11/2024 21:23:42 - INFO     - --------------------------------------------------
-12/11/2024 21:23:42 - INFO     - AccueilVue
-12/11/2024 21:23:43 - INFO     - ConnexionVue
-12/11/2024 21:23:48 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
-12/11/2024 21:23:48 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
-12/11/2024 21:23:48 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001D660E61C30>
-12/11/2024 21:23:48 - INFO     - MenuUtilisateurVue
-12/11/2024 21:23:49 - INFO     - RechercheVue
-12/11/2024 21:23:49 - INFO     - RechercheMangaVue
-12/11/2024 21:23:51 - INFO     - choix2 : ['Monster', 'Higurashi WHEN THEY CRY: Abducted by Demons Arc', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul']
-12/11/2024 21:23:51 - INFO     - SelectionMangaVuerecherche
-12/11/2024 21:23:52 - INFO     - AjouterMangaCollecVuerecherche
-12/11/2024 21:23:52 - INFO     - listecolleccohe type: <class 'list'>, contenu: ['Test coll cohere']
-12/11/2024 21:23:52 - INFO     - collection_physique type: <class 'NoneType'>, contenu: None
-12/11/2024 21:23:52 - INFO     - listecollections: ['Test coll cohere']
-12/11/2024 21:23:52 - INFO     - Ajout de l'option cohérente : Dans votre collection cohérente : Test coll cohere
-12/11/2024 21:23:52 - INFO     - Choices avant inquirer: ['Dans votre collection cohérente : Test coll cohere', 'Retour au menu précédent', "Retour vers l'écran d'accueil"]
-12/11/2024 21:23:53 - INFO     - Nom de la collection choisi: Test coll cohere
-12/11/2024 21:23:53 - INFO     - Collection cohérente trouvée : Test coll cohere, <business_object.CollectionCoherente.CollectionCoherente object at 0x000001D66124D150>
-12/11/2024 21:23:53 - INFO     - 'CollectionCoherenteService' object has no attribute 'ajouter_manga'
-12/11/2024 21:23:53 - INFO     - AccueilVue
-12/11/2024 21:24:24 - INFO     - Fin de l'application
-12/11/2024 21:24:26 - INFO     - --------------------------------------------------
-12/11/2024 21:24:26 - INFO     - Lancement Application                           
-12/11/2024 21:24:26 - INFO     - --------------------------------------------------
-12/11/2024 21:24:26 - INFO     - AccueilVue
-12/11/2024 21:24:27 - INFO     - ConnexionVue
-12/11/2024 21:24:31 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
-12/11/2024 21:24:31 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
-12/11/2024 21:24:31 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000012FCFBD1AE0>
-12/11/2024 21:24:31 - INFO     - MenuUtilisateurVue
-12/11/2024 21:24:31 - INFO     - RechercheVue
-12/11/2024 21:24:32 - INFO     - RechercheMangaVue
-12/11/2024 21:24:33 - INFO     - choix2 : ['Monster', 'Higurashi WHEN THEY CRY: Abducted by Demons Arc', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul']
-12/11/2024 21:24:34 - INFO     - SelectionMangaVuerecherche
-12/11/2024 21:24:34 - INFO     - AjouterMangaCollecVuerecherche
-12/11/2024 21:24:34 - INFO     - listecolleccohe type: <class 'list'>, contenu: ['Test coll cohere']
-12/11/2024 21:24:34 - INFO     - collection_physique type: <class 'NoneType'>, contenu: None
-12/11/2024 21:24:34 - INFO     - listecollections: ['Test coll cohere']
-12/11/2024 21:24:34 - INFO     - Ajout de l'option cohérente : Dans votre collection cohérente : Test coll cohere
-12/11/2024 21:24:34 - INFO     - Choices avant inquirer: ['Dans votre collection cohérente : Test coll cohere', 'Retour au menu précédent', "Retour vers l'écran d'accueil"]
-12/11/2024 21:24:35 - INFO     - Nom de la collection choisi: Test coll cohere
-12/11/2024 21:24:35 - INFO     - Collection cohérente trouvée : Test coll cohere, <business_object.CollectionCoherente.CollectionCoherente object at 0x0000012FCFFBD0F0>
-12/11/2024 21:24:35 - INFO     - SelectionMangaVuerecherche
-12/11/2024 21:24:51 - INFO     - RechercheMangaVue
-12/11/2024 21:24:55 - INFO     - choix2 : ['One Piece', 'Wanted! Eiichiro Oda Before One Piece', 'One Piece: Shokugeki no Sanji', 'One Piece: Boichi Covers Zolo vs. Mihawk', "One Piece: Ace's Story", "One Piece: Ace's Story", "One Piece: Vivi's Adventure", 'One Piece: Heroines']
-12/11/2024 21:24:56 - INFO     - SelectionMangaVuerecherche
-12/11/2024 21:24:57 - INFO     - AjouterMangaCollecVuerecherche
-12/11/2024 21:24:57 - INFO     - listecolleccohe type: <class 'list'>, contenu: ['Test coll cohere']
-12/11/2024 21:24:57 - INFO     - collection_physique type: <class 'NoneType'>, contenu: None
-12/11/2024 21:24:57 - INFO     - listecollections: ['Test coll cohere']
-12/11/2024 21:24:57 - INFO     - Ajout de l'option cohérente : Dans votre collection cohérente : Test coll cohere
-12/11/2024 21:24:57 - INFO     - Choices avant inquirer: ['Dans votre collection cohérente : Test coll cohere', 'Retour au menu précédent', "Retour vers l'écran d'accueil"]
-12/11/2024 21:24:58 - INFO     - Nom de la collection choisi: Test coll cohere
-12/11/2024 21:24:59 - INFO     - Collection cohérente trouvée : Test coll cohere, <business_object.CollectionCoherente.CollectionCoherente object at 0x0000012FCFD5C940>
-12/11/2024 21:24:59 - INFO     - SelectionMangaVuerecherche
-12/11/2024 21:25:42 - INFO     - MenuUtilisateurVue
-12/11/2024 21:25:44 - INFO     - AccueilVue
-12/11/2024 21:25:45 - INFO     - Fin de l'application
-12/11/2024 21:28:34 - INFO     - --------------------------------------------------
-12/11/2024 21:28:34 - INFO     - Lancement Application                           
-12/11/2024 21:28:34 - INFO     - --------------------------------------------------
-12/11/2024 21:28:34 - INFO     - AccueilVue
-12/11/2024 21:28:35 - INFO     - ConnexionVue
-12/11/2024 21:28:40 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
-12/11/2024 21:28:40 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
-12/11/2024 21:28:40 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000023B44C31AB0>
-12/11/2024 21:28:40 - INFO     - MenuUtilisateurVue
-12/11/2024 21:28:41 - INFO     - RechercheVue
-12/11/2024 21:28:41 - INFO     - RechercheMangaVue
-12/11/2024 21:28:43 - INFO     - choix2 : ['Monster', 'Higurashi WHEN THEY CRY: Abducted by Demons Arc', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul']
-12/11/2024 21:28:44 - INFO     - SelectionMangaVuerecherche
-12/11/2024 21:28:45 - INFO     - AjouterMangaCollecVuerecherche
-12/11/2024 21:28:45 - INFO     - listecolleccohe type: <class 'list'>, contenu: ['Test coll cohere']
-12/11/2024 21:28:45 - INFO     - collection_physique type: <class 'NoneType'>, contenu: None
-12/11/2024 21:28:45 - INFO     - listecollections: ['Test coll cohere']
-12/11/2024 21:28:45 - INFO     - Ajout de l'option cohérente : Dans votre collection cohérente : Test coll cohere
-12/11/2024 21:28:45 - INFO     - Choices avant inquirer: ['Dans votre collection cohérente : Test coll cohere', 'Retour au menu précédent', "Retour vers l'écran d'accueil"]
-12/11/2024 21:28:46 - INFO     - Nom de la collection choisi: Test coll cohere
-12/11/2024 21:28:46 - INFO     - Collection cohérente trouvée : Test coll cohere, <business_object.CollectionCoherente.CollectionCoherente object at 0x0000023B4501D150>
-12/11/2024 21:28:46 - INFO     - ERREUR:  la valeur d'une clé dupliquée rompt la contrainte unique « association_manga_collection_coherente_pkey »
-DETAIL:  La clé « (id_manga, id_collec_coherente)=(1, 6) » existe déjà.
-
-12/11/2024 21:28:46 - INFO     - SelectionMangaVuerecherche
-12/11/2024 21:45:20 - INFO     - RechercheMangaVue
-12/11/2024 21:45:22 - INFO     - Fin de l'application
-12/11/2024 21:45:25 - INFO     - --------------------------------------------------
-12/11/2024 21:45:25 - INFO     - Lancement Application                           
-12/11/2024 21:45:25 - INFO     - --------------------------------------------------
-12/11/2024 21:45:25 - INFO     - AccueilVue
-12/11/2024 21:45:27 - INFO     - ConnexionVue
-12/11/2024 21:45:31 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
-12/11/2024 21:45:31 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
-12/11/2024 21:45:31 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x00000172E13B5870>
-12/11/2024 21:45:31 - INFO     - MenuUtilisateurVue
-12/11/2024 21:45:32 - INFO     - EcranDuProfilVue
-12/11/2024 21:46:02 - INFO     - MenuUtilisateurVue
-12/11/2024 21:46:05 - INFO     - AccueilVue
-12/11/2024 21:46:06 - INFO     - Fin de l'application
-12/11/2024 21:46:53 - INFO     - --------------------------------------------------
-12/11/2024 21:46:53 - INFO     - Lancement Application                           
-12/11/2024 21:46:53 - INFO     - --------------------------------------------------
-12/11/2024 21:46:53 - INFO     - AccueilVue
-12/11/2024 21:46:54 - INFO     - ConnexionVue
-12/11/2024 21:46:58 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
-12/11/2024 21:46:58 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
-12/11/2024 21:46:58 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000002A42EC41AE0>
-12/11/2024 21:46:58 - INFO     - MenuUtilisateurVue
-12/11/2024 21:46:59 - INFO     - name 'CollectionCoherente' is not defined
-12/11/2024 21:46:59 - INFO     - AccueilVue
-12/11/2024 21:51:24 - INFO     - Fin de l'application
-12/11/2024 21:51:26 - INFO     - --------------------------------------------------
-12/11/2024 21:51:26 - INFO     - Lancement Application                           
-12/11/2024 21:51:26 - INFO     - --------------------------------------------------
-12/11/2024 21:51:26 - INFO     - AccueilVue
-12/11/2024 21:51:27 - INFO     - ConnexionVue
-12/11/2024 21:51:31 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
-12/11/2024 21:51:31 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
-12/11/2024 21:51:31 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000024ED20A1AB0>
-12/11/2024 21:51:31 - INFO     - MenuUtilisateurVue
-12/11/2024 21:51:31 - INFO     - invalid syntax (CollectionCoherente.py, line 59)
-12/11/2024 21:51:31 - INFO     - AccueilVue
-12/11/2024 21:51:44 - INFO     - Fin de l'application
-12/11/2024 21:51:46 - INFO     - --------------------------------------------------
-12/11/2024 21:51:46 - INFO     - Lancement Application                           
-12/11/2024 21:51:46 - INFO     - --------------------------------------------------
-12/11/2024 21:51:46 - INFO     - AccueilVue
-12/11/2024 21:51:47 - INFO     - ConnexionVue
-12/11/2024 21:51:50 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
-12/11/2024 21:51:50 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
-12/11/2024 21:51:50 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x00000204C39F1AE0>
-12/11/2024 21:51:50 - INFO     - MenuUtilisateurVue
-12/11/2024 21:51:51 - INFO     - name 'CollectionCoherente' is not defined
-12/11/2024 21:51:51 - INFO     - AccueilVue
-12/11/2024 21:51:53 - INFO     - Fin de l'application
-12/11/2024 21:56:09 - INFO     - --------------------------------------------------
-12/11/2024 21:56:09 - INFO     - Lancement Application                           
-12/11/2024 21:56:09 - INFO     - --------------------------------------------------
-12/11/2024 21:56:09 - INFO     - AccueilVue
-12/11/2024 21:56:09 - INFO     - ConnexionVue
-12/11/2024 21:56:13 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
-12/11/2024 21:56:13 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
-12/11/2024 21:56:13 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000002A550075AE0>
-12/11/2024 21:56:13 - INFO     - MenuUtilisateurVue
-12/11/2024 21:56:14 - INFO     - EcranDuProfilVue
-12/11/2024 21:56:18 - INFO     - MenuUtilisateurVue
-12/11/2024 21:56:19 - INFO     - AccueilVue
-12/11/2024 21:56:20 - INFO     - Fin de l'application
-=======
-12/11/2024 16:19:24 - INFO     - --------------------------------------------------
-12/11/2024 16:19:24 - INFO     - Lancement Application                           
-12/11/2024 16:19:24 - INFO     - --------------------------------------------------
-12/11/2024 16:19:24 - INFO     - AccueilVue
-12/11/2024 16:19:32 - INFO     - ConnexionVue
-12/11/2024 16:19:39 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
-12/11/2024 16:19:39 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
-12/11/2024 16:19:39 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x00000274D3CB9D50>
-12/11/2024 16:19:39 - INFO     - MenuUtilisateurVue
-12/11/2024 16:19:41 - INFO     - EcranDuProfilVue
-12/11/2024 16:19:44 - INFO     - CollectionCoherenteVue
-12/11/2024 16:19:51 - INFO     - MenuUtilisateurVue
-12/11/2024 16:19:52 - INFO     - RechercheVue
-12/11/2024 16:19:53 - INFO     - RechercheMangaVue
-12/11/2024 16:20:00 - INFO     - choix2 : ['One Piece', 'Wanted! Eiichiro Oda Before One Piece', 'One Piece: Shokugeki no Sanji', 'One Piece: Boichi Covers Zolo vs. Mihawk', "One Piece: Ace's Story", "One Piece: Ace's Story", "One Piece: Vivi's Adventure", 'One Piece: Heroines']
-12/11/2024 16:20:10 - INFO     - SelectionMangaVuerecherche
-12/11/2024 16:20:17 - INFO     - ConsulterAvisMangaVuerecherche
-12/11/2024 16:20:17 - INFO     - res : [RealDictRow([('id_avis', 11), ('id_utilisateur', 1), ('id_manga', 11), ('texte', 'Ce manga est super !')])]
-12/11/2024 16:20:17 - INFO     - liste_avis : [<business_object.avis.Avis object at 0x00000274D42C49A0>]
-12/11/2024 16:20:17 - INFO     - liste_user : [1]
-12/11/2024 16:20:17 - INFO     - i : 1
-12/11/2024 16:20:17 - INFO     - manga : Ananas35
-12/11/2024 16:20:25 - INFO     - SelectionMangaVuerecherche
-12/11/2024 16:21:23 - INFO     - RechercheMangaVue
-12/11/2024 16:21:24 - INFO     - Fin de l'application
-12/11/2024 16:35:59 - INFO     - --------------------------------------------------
-12/11/2024 16:35:59 - INFO     - Lancement Application                           
-12/11/2024 16:35:59 - INFO     - --------------------------------------------------
-12/11/2024 16:35:59 - INFO     - AccueilVue
-12/11/2024 16:36:01 - INFO     - ConnexionVue
-12/11/2024 16:36:06 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
-12/11/2024 16:36:06 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
-12/11/2024 16:36:06 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000020157CA5A80>
-12/11/2024 16:36:06 - INFO     - MenuUtilisateurVue
-12/11/2024 16:36:08 - INFO     - EcranDuProfilVue
-12/11/2024 16:36:13 - INFO     - CollectionCoherenteVue
-12/11/2024 16:36:21 - INFO     - CollectionCoherenteVue
-12/11/2024 16:37:06 - INFO     - CollectionCoherenteVue
-12/11/2024 16:37:27 - INFO     - CollectionCoherenteVue
-12/11/2024 16:37:35 - INFO     - CollectionCoherenteVue
-12/11/2024 16:38:47 - INFO     - CollectionCoherenteVue
-12/11/2024 16:38:52 - INFO     - MenuUtilisateurVue
-12/11/2024 16:38:53 - INFO     - AccueilVue
-12/11/2024 16:38:54 - INFO     - Fin de l'application
-12/11/2024 16:38:57 - INFO     - --------------------------------------------------
-12/11/2024 16:38:57 - INFO     - Lancement Application                           
-12/11/2024 16:38:57 - INFO     - --------------------------------------------------
-12/11/2024 16:38:57 - INFO     - AccueilVue
-12/11/2024 16:38:58 - INFO     - ConnexionVue
-12/11/2024 16:39:05 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
-12/11/2024 16:39:05 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
-12/11/2024 16:39:05 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000025CF2FADCC0>
-12/11/2024 16:39:05 - INFO     - MenuUtilisateurVue
-12/11/2024 16:39:06 - INFO     - EcranDuProfilVue
-12/11/2024 16:39:07 - INFO     - CollectionCoherenteVue
-12/11/2024 16:39:12 - INFO     - CollectionCoherenteVue
-12/11/2024 16:39:18 - INFO     - MenuUtilisateurVue
-12/11/2024 16:39:20 - INFO     - AccueilVue
-12/11/2024 16:39:21 - INFO     - Fin de l'application
-12/11/2024 17:34:26 - INFO     - --------------------------------------------------
-12/11/2024 17:34:26 - INFO     - Lancement Application                           
-12/11/2024 17:34:26 - INFO     - --------------------------------------------------
-12/11/2024 17:34:26 - INFO     - AccueilVue
-12/11/2024 17:34:29 - INFO     - ConnexionVue
-12/11/2024 17:34:36 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
-12/11/2024 17:34:36 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
-12/11/2024 17:34:36 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000014C3394DCC0>
-12/11/2024 17:34:36 - INFO     - MenuUtilisateurVue
-12/11/2024 17:34:53 - INFO     - EcranDuProfilVue
-12/11/2024 17:35:14 - INFO     - CollectionCoherenteVue
-12/11/2024 17:35:15 - INFO     - No module named 'vue'
-12/11/2024 17:35:15 - INFO     - AccueilVue
-12/11/2024 17:43:51 - INFO     - Fin de l'application
-12/11/2024 17:50:18 - INFO     - --------------------------------------------------
-12/11/2024 17:50:18 - INFO     - Lancement Application                           
-12/11/2024 17:50:18 - INFO     - --------------------------------------------------
-12/11/2024 17:50:18 - INFO     - AccueilVue
-12/11/2024 17:50:19 - INFO     - ConnexionVue
-12/11/2024 17:50:25 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
-12/11/2024 17:50:25 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
-12/11/2024 17:50:25 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000025B44779CC0>
-12/11/2024 17:50:25 - INFO     - MenuUtilisateurVue
-12/11/2024 17:50:26 - INFO     - EcranDuProfilVue
-12/11/2024 17:50:30 - INFO     - CollectionCoherenteVue
-12/11/2024 17:50:31 - INFO     - MangaCollectionCoherenteVue
-12/11/2024 17:51:31 - INFO     - CollectionCoherenteVue
-12/11/2024 17:56:50 - INFO     - --------------------------------------------------
-12/11/2024 17:56:50 - INFO     - Lancement Application                           
-12/11/2024 17:56:50 - INFO     - --------------------------------------------------
-12/11/2024 17:56:50 - INFO     - AccueilVue
-12/11/2024 17:56:53 - INFO     - ConnexionVue
-12/11/2024 17:56:58 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
-12/11/2024 17:56:58 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
-12/11/2024 17:56:58 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001DFAD8FDA80>
-12/11/2024 17:56:58 - INFO     - MenuUtilisateurVue
-12/11/2024 17:56:59 - INFO     - EcranDuProfilVue
-12/11/2024 17:57:03 - INFO     - CollectionCoherenteVue
-12/11/2024 17:57:04 - INFO     - MangaCollectionCoherenteVue
-12/11/2024 17:58:02 - INFO     - CollectionCoherenteVue
-12/11/2024 17:58:05 - INFO     - MenuUtilisateurVue
-12/11/2024 17:58:06 - INFO     - AccueilVue
-12/11/2024 17:58:07 - INFO     - Fin de l'application
-12/11/2024 18:00:07 - INFO     - --------------------------------------------------
-12/11/2024 18:00:07 - INFO     - Lancement Application                           
-12/11/2024 18:00:07 - INFO     - --------------------------------------------------
-12/11/2024 18:00:07 - INFO     - AccueilVue
-12/11/2024 18:00:09 - INFO     - ConnexionVue
-12/11/2024 18:00:13 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
-12/11/2024 18:00:13 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
-12/11/2024 18:00:13 - INFO     -        └─> Sortie : None
-12/11/2024 18:00:13 - INFO     - AccueilVue
-12/11/2024 18:00:14 - INFO     - ConnexionVue
-12/11/2024 18:00:18 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
-12/11/2024 18:00:18 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
-12/11/2024 18:00:19 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000019514E951B0>
-12/11/2024 18:00:19 - INFO     - MenuUtilisateurVue
-12/11/2024 18:00:19 - INFO     - EcranDuProfilVue
-12/11/2024 18:00:20 - INFO     - CollectionCoherenteVue
-12/11/2024 18:00:21 - INFO     - MangaCollectionCoherenteVue
-12/11/2024 18:01:10 - INFO     - CollectionCoherenteVue
-12/11/2024 18:01:13 - INFO     - MenuUtilisateurVue
-12/11/2024 18:01:15 - INFO     - AccueilVue
-12/11/2024 18:01:23 - INFO     - Fin de l'application
-12/11/2024 18:06:19 - INFO     - --------------------------------------------------
-12/11/2024 18:06:19 - INFO     - Lancement Application                           
-12/11/2024 18:06:19 - INFO     - --------------------------------------------------
-12/11/2024 18:06:19 - INFO     - AccueilVue
-12/11/2024 18:06:20 - INFO     - ConnexionVue
-12/11/2024 18:06:26 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
-12/11/2024 18:06:26 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
-12/11/2024 18:06:26 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001F1A0ED9A80>
-12/11/2024 18:06:26 - INFO     - MenuUtilisateurVue
-12/11/2024 18:06:28 - INFO     - EcranDuProfilVue
-12/11/2024 18:06:31 - INFO     - CollectionCoherenteVue
-12/11/2024 18:06:32 - INFO     - MangaCollectionCoherenteVue
-12/11/2024 18:06:44 - INFO     - CollectionCoherenteVue
-12/11/2024 18:06:47 - INFO     - MangaCollectionCoherenteVue
-12/11/2024 18:06:50 - INFO     - CollectionCoherenteVue
-12/11/2024 18:06:53 - INFO     - MenuUtilisateurVue
-12/11/2024 18:06:54 - INFO     - AccueilVue
-12/11/2024 18:07:00 - INFO     - Fin de l'application
-12/11/2024 18:19:50 - INFO     - --------------------------------------------------
-12/11/2024 18:19:50 - INFO     - Lancement Application                           
-12/11/2024 18:19:50 - INFO     - --------------------------------------------------
-12/11/2024 18:19:50 - INFO     - AccueilVue
-12/11/2024 18:19:51 - INFO     - ConnexionVue
-12/11/2024 18:19:57 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
-12/11/2024 18:19:57 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
-12/11/2024 18:19:57 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001E925BFDCC0>
-12/11/2024 18:19:57 - INFO     - MenuUtilisateurVue
-12/11/2024 18:19:58 - INFO     - EcranDuProfilVue
-12/11/2024 18:19:59 - INFO     - CollectionCoherenteVue
-12/11/2024 18:20:03 - INFO     - MangaCollectionCoherenteVue
-12/11/2024 18:20:08 - INFO     - CollectionCoherenteVue
-12/11/2024 18:20:09 - INFO     - MenuUtilisateurVue
-12/11/2024 18:20:11 - INFO     - EcranDuProfilVue
-12/11/2024 18:20:15 - INFO     - cannot import name 'CollectionPhysiqueVue' from 'vues.collection_physique_vue' (p:\Cours2A\projet_info\ENSAI-Projet-info-2A\src\vues\collection_physique_vue.py)
-12/11/2024 18:20:15 - INFO     - AccueilVue
-12/11/2024 18:20:49 - INFO     - Fin de l'application
-12/11/2024 18:20:53 - INFO     - --------------------------------------------------
-12/11/2024 18:20:53 - INFO     - Lancement Application                           
-12/11/2024 18:20:53 - INFO     - --------------------------------------------------
-12/11/2024 18:20:53 - INFO     - AccueilVue
-12/11/2024 18:20:55 - INFO     - ConnexionVue
-12/11/2024 18:21:00 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
-12/11/2024 18:21:00 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
-12/11/2024 18:21:00 - INFO     -        └─> Sortie : None
-12/11/2024 18:21:00 - INFO     - AccueilVue
-12/11/2024 18:21:02 - INFO     - ConnexionVue
-12/11/2024 18:21:09 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
-12/11/2024 18:21:09 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
-12/11/2024 18:21:09 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000023678E89420>
-12/11/2024 18:21:09 - INFO     - MenuUtilisateurVue
-12/11/2024 18:21:10 - INFO     - EcranDuProfilVue
-12/11/2024 18:21:13 - INFO     - CollectionCoherenteVue
-12/11/2024 18:21:15 - INFO     - MenuUtilisateurVue
-12/11/2024 18:21:16 - INFO     - EcranDuProfilVue
-12/11/2024 18:21:26 - INFO     - CollectionPhysiqueVue
-12/11/2024 18:21:32 - INFO     - 'NoneType' object is not iterable
-12/11/2024 18:21:32 - INFO     - AccueilVue
-12/11/2024 18:21:42 - INFO     - ConnexionVue
-12/11/2024 18:21:49 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
-12/11/2024 18:21:49 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
-12/11/2024 18:21:49 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000023678E88610>
-12/11/2024 18:21:49 - INFO     - MenuUtilisateurVue
-12/11/2024 18:21:50 - INFO     - EcranDuProfilVue
-12/11/2024 18:22:24 - INFO     - EcranDuProfilVue
-12/11/2024 18:22:39 - INFO     - CollectionPhysiqueVue
-12/11/2024 18:22:44 - INFO     - MenuUtilisateurVue
-12/11/2024 18:22:46 - INFO     - RechercheVue
-12/11/2024 18:22:47 - INFO     - RechercheMangaVue
-12/11/2024 18:22:51 - INFO     - choix2 : ['Naruto', 'Naruto: Innocent Heart, Demonic Blood', "Naruto: Itachi's Story", 'Naruto - Mission: Protect the Waterfall Village!', "Naruto: Chibi Sasuke's Sharingan Legend", 'Naruto: The Seventh Hokage and the Scarlet Spring', 'Boruto: Naruto Next Generations', 'Naruto: The Path Lit by the Full Moon']
-12/11/2024 18:22:52 - INFO     - SelectionMangaVuerecherche
-12/11/2024 18:22:54 - INFO     - Fin de l'application
-12/11/2024 18:23:05 - INFO     - --------------------------------------------------
-12/11/2024 18:23:05 - INFO     - Lancement Application                           
-12/11/2024 18:23:05 - INFO     - --------------------------------------------------
-12/11/2024 18:23:05 - INFO     - AccueilVue
-12/11/2024 18:23:07 - INFO     - ConnexionVue
-12/11/2024 18:23:11 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
-12/11/2024 18:23:11 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
-12/11/2024 18:23:11 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x00000131FB959A80>
-12/11/2024 18:23:11 - INFO     - MenuUtilisateurVue
-12/11/2024 18:23:12 - INFO     - EcranDuProfilVue
-12/11/2024 18:23:17 - INFO     - MenuUtilisateurVue
-12/11/2024 18:23:18 - INFO     - EcranDuProfilVue
-12/11/2024 18:23:30 - INFO     - MenuUtilisateurVue
-12/11/2024 18:23:32 - INFO     - RechercheVue
-12/11/2024 18:23:34 - INFO     - RechercheMangaVue
-12/11/2024 18:23:42 - INFO     - choix2 : ['Naruto', 'Naruto: Innocent Heart, Demonic Blood', "Naruto: Itachi's Story", 'Naruto - Mission: Protect the Waterfall Village!', "Naruto: Chibi Sasuke's Sharingan Legend", 'Naruto: The Seventh Hokage and the Scarlet Spring', 'Boruto: Naruto Next Generations', 'Naruto: The Path Lit by the Full Moon']
-12/11/2024 18:23:43 - INFO     - SelectionMangaVuerecherche
-12/11/2024 18:23:50 - INFO     - Fin de l'application
-12/11/2024 18:23:59 - INFO     - --------------------------------------------------
-12/11/2024 18:23:59 - INFO     - Lancement Application                           
-12/11/2024 18:23:59 - INFO     - --------------------------------------------------
-12/11/2024 18:23:59 - INFO     - AccueilVue
-12/11/2024 18:24:00 - INFO     - ConnexionVue
-12/11/2024 18:24:04 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
-12/11/2024 18:24:04 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
-12/11/2024 18:24:04 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000020CD8269A80>
-12/11/2024 18:24:04 - INFO     - MenuUtilisateurVue
-12/11/2024 18:24:05 - INFO     - EcranDuProfilVue
-12/11/2024 18:24:14 - INFO     - CollectionPhysiqueVue
-12/11/2024 18:24:15 - INFO     - 'NoneType' object is not iterable
-12/11/2024 18:24:15 - INFO     - AccueilVue
-12/11/2024 18:25:04 - INFO     - Fin de l'application
->>>>>>> f8936670052eb01b243c34ff70d39081957e6700
+12/11/2024 21:19:25 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+12/11/2024 21:19:26 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+12/11/2024 21:19:26 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001DA10FA1AB0>
+12/11/2024 21:19:26 - INFO     - MenuUtilisateurVue
+12/11/2024 21:19:28 - INFO     - EcranDuProfilVue
+12/11/2024 21:19:37 - INFO     - CollectionCoherenteVue
+12/11/2024 21:19:39 - INFO     - MangaCollectionCoherenteVue
+12/11/2024 21:19:41 - INFO     - 'NoneType' object is not iterable
+12/11/2024 21:19:41 - INFO     - AccueilVue
+12/11/2024 21:19:44 - INFO     - Fin de l'application
+12/11/2024 21:38:04 - INFO     - --------------------------------------------------
+12/11/2024 21:38:04 - INFO     - Lancement Application                           
+12/11/2024 21:38:04 - INFO     - --------------------------------------------------
+12/11/2024 21:38:04 - INFO     - AccueilVue
+12/11/2024 21:38:09 - INFO     - ConnexionVue
+12/11/2024 21:38:16 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+12/11/2024 21:38:16 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+12/11/2024 21:38:16 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000016A43B85930>
+12/11/2024 21:38:16 - INFO     - MenuUtilisateurVue
+12/11/2024 21:38:19 - INFO     - name 'CollectionCoherente' is not defined
+12/11/2024 21:38:19 - INFO     - AccueilVue
+12/11/2024 21:38:20 - INFO     - ConnexionVue
+12/11/2024 21:38:28 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+12/11/2024 21:38:28 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+12/11/2024 21:38:28 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000016A43D25C30>
+12/11/2024 21:38:28 - INFO     - MenuUtilisateurVue
+12/11/2024 21:38:29 - INFO     - name 'CollectionCoherente' is not defined
+12/11/2024 21:38:29 - INFO     - AccueilVue
+12/11/2024 21:38:30 - INFO     - Fin de l'application
+12/11/2024 22:01:55 - INFO     - --------------------------------------------------
+12/11/2024 22:01:55 - INFO     - Lancement Application                           
+12/11/2024 22:01:55 - INFO     - --------------------------------------------------
+12/11/2024 22:01:55 - INFO     - AccueilVue
+12/11/2024 22:01:56 - INFO     - ConnexionVue
+12/11/2024 22:02:04 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - DEBUT
+12/11/2024 22:02:05 - INFO     -     UtilisateurDao.se_connecter('mavie03', '*****') - FIN
+12/11/2024 22:02:05 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000025627341AB0>
+12/11/2024 22:02:05 - INFO     - MenuUtilisateurVue
+12/11/2024 22:02:06 - INFO     - EcranDuProfilVue
+12/11/2024 22:02:09 - INFO     - MenuUtilisateurVue
+12/11/2024 22:02:10 - INFO     - AccueilVue
+12/11/2024 22:02:12 - INFO     - Fin de l'application
