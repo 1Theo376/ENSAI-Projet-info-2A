@@ -27,30 +27,50 @@ class AjouterMangaPossCollPhys(VueAbstraite):
         manga = MangaDao().trouver_manga_par_titre(choix3)
         logging.info(f"id: {manga.id_manga}")
         print("\n" + "-" * 50 + "\nManga :", manga.titre, " \n" + "-" * 50 + "\n")
-
-        id_utilisateur = Session().utilisateur.id
         volume_manga = MangaPossedeDao().nb_volume_manga(manga.titre)
         nb_volumes_poss = int(
             inquirer.text(message="Entrez le nombre de volumes possédés du manga : ").execute()
         )
-        if nb_volumes_poss > volume_manga:
-            print("Nombre incorrect")
-            return AjouterMangaPossCollPhys().choisir_menu(choix3, collection)
+        if volume_manga:
+            if nb_volumes_poss > volume_manga:
+                print("Nombre incorrect")
+                return AjouterMangaPossCollPhys().choisir_menu(choix3, collection)
         volumes_poss = []
-        for i in range(0, nb_volumes_poss):
-            num_vol = int(
-                    inquirer.text(
+        while nb_volumes_poss != 0:
+            num_vol = inquirer.text(
                         message="Entrez le numéro des volumes possédés du manga : "
                     ).execute()
-                        )
-            if num_vol > volume_manga:
-                print("Erreur")
-                return AjouterMangaPossCollPhys().choisir_menu(choix3, collection)
-            volumes_poss.append(num_vol)
+            if "-" in num_vol:
+                a = int(num_vol.split("-")[0])
+                b = int(num_vol.split("-")[1])
+                if a < 1 or b < 1 or (nb_volumes_poss-(b-a+1)) < 0:
+                    if volume_manga:
+                        if a > volume_manga or b > volume_manga:
+                            print("Erreur")
+                            return AjouterMangaPossCollPhys().choisir_menu(choix3, collection)
+                    print("Erreur")
+                    return AjouterMangaPossCollPhys().choisir_menu(choix3, collection)
+                for i in range(a, b+1):
+                    volumes_poss.append(i)
+                nb_volumes_poss = nb_volumes_poss-(b-a+1)
+            else:
+                num = int(num_vol)
+                if volume_manga:
+                    if num_vol > volume_manga:
+                        print("Erreur")
+                        return AjouterMangaPossCollPhys().choisir_menu(choix3, collection)
+                volumes_poss.append(num)
+                nb_volumes_poss -= 1
+        logging.info(f"vol:{volumes_poss}")
+
         num_dernier_acquis = int(
             inquirer.text(message="Entrez le numéro du dernier volume acquis du manga : ").execute()
         )
-        if num_dernier_acquis > volume_manga or num_dernier_acquis not in volumes_poss:
+        if num_dernier_acquis not in volumes_poss:
+            if volume_manga:
+                if num_dernier_acquis > volume_manga:
+                    print("Erreur")
+                    return AjouterMangaPossCollPhys().choisir_menu(choix3, collection)
             print("Erreur")
             return AjouterMangaPossCollPhys().choisir_menu(choix3, collection)
         Statut = inquirer.select(

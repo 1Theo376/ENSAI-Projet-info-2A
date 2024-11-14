@@ -27,8 +27,9 @@ class AjouterMangaCollecVuerecherche(VueAbstraite):
 
         id_utilisateur = Session().utilisateur.id
         choix = []
-
-        listecolleccohe = RechercheService().recherche_collec_cohe_par_id(id_utilisateur)
+        listecolleccohe = []
+        if RechercheService().recherche_collec_cohe_par_id(id_utilisateur):
+            listecolleccohe = RechercheService().recherche_collec_cohe_par_id(id_utilisateur)
         logging.info(f"listecolleccohe type: {type(listecolleccohe)}, contenu: {listecolleccohe}")
 
         collection_physique = RechercheService().recherche_collec_phys_par_id(Session().utilisateur.id)

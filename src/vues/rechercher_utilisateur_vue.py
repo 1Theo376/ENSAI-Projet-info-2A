@@ -45,11 +45,13 @@ class RechercheUtilisateurVue(VueAbstraite):
                 m = 8
                 a = 0
                 long = RechercheService().recherche_utilisateur(pseudo, n, m, a)["longueur"]
+                logging.info(f"longueur : {long}")
                 res_entier = long // m
                 res_reste = long % m
 
                 while n >= 0:
                     choix2 = RechercheService().recherche_utilisateur(pseudo, n, m, a)["liste"]
+                    logging.info(f"mangas : {}")
 
                     if not choix2:
                         print(f"Aucun utilisateur trouvé pour le pseudo '{pseudo}'.")
@@ -60,7 +62,7 @@ class RechercheUtilisateurVue(VueAbstraite):
                     if res_entier == 0 and res_reste == 0:
                         choix2.remove("Afficher la page suivante")
 
-                    if res_entier != long // m:
+                    if res_entier != (long // m):
                         choix2.extend(["Afficher la page précédente"])
                         res_entier += 1
 

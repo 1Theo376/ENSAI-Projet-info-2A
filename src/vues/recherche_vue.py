@@ -36,4 +36,4 @@ class RechercheVue(VueAbstraite):
 
             case "Retour vers le menu principal":
                 from vues.menu_utilisateur_vue import MenuUtilisateurVue
-                return MenuUtilisateurVue
+                return MenuUtilisateurVue()
