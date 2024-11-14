@@ -39,4 +39,4 @@ class MangaPossede:
             Une chaîne de caractères formatée contenant le titre,
             le numéro du dernier manga acquis et les numéros manquants.
         """
-        return f"Titre: {self.manga.titre}, Numéro du dernier tome acquis: {self.num_dernier_acquis}, Numéro manquant : {self.num_manquant}, Statut: {self.statut}"
+        return f"Numéro du dernier tome acquis: {self.num_dernier_acquis}, Numéro(s) manquant(s) : {self.num_manquant}, Statut: {self.statut}"

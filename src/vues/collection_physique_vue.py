@@ -31,7 +31,7 @@ class CollectionPhysiqueVue(VueAbstraite):
             for manga in (
                 CollectionPhysiqueDAO().trouver_collec_phys_id_user(Session().utilisateur.id)
             ).Liste_manga:
-                liste_titre.append(manga.titre)
+                liste_titre.append(MangaDao().trouver_manga_par_id(manga.idmanga).titre)
             choix4 = inquirer.select(
                 message="Selectionnez un manga de votre collection : ",
                 choices=liste_titre,

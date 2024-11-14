@@ -134,7 +134,7 @@ class MangaPossedeDao:
                 with connection.cursor() as cursor:
                     cursor.execute(
                         "SELECT num_manquant FROM num_manquant as mq            "
-                        "left join aassociation_manga_num_manquant using(id_num_manquant)      "
+                        "left join association_manga_num_manquant using(id_num_manquant)      "
                         "left join manga_possede using(id_manga_p)                "
                         "WHERE id_manga_p = %(id_manga_p)s;                   ",
                         {"id_manga_p": res["id_manga_p"]},
@@ -207,10 +207,7 @@ class MangaPossedeDao:
                         "INSERT INTO association_manga_num_manquant(id_manga_p,id_num_manquant) VALUES"
                         "(%(id_manga_p)s,%(id_num_manquant)s) "
                         "  RETURNING id_manga_p, id_num_manquant; ",
-                        {
-                            "id_num_manquant": id_num_manquant,
-                            "id_manga_p": id_manga_p
-                        },
+                        {"id_num_manquant": id_num_manquant, "id_manga_p": id_manga_p},
                     )
                     res = cursor.fetchone()
         except Exception as e:
