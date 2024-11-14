@@ -56,13 +56,13 @@ class RechercheUtilisateurVue(VueAbstraite):
 
                 while n >= 0:
                     longueur, sous_liste, longueur_tot = RechercheService().recherche_utilisateur(pseudo, n, m, a)
-                    choix2 = sous_liste + ["Afficher la page suivante", "Retour au menu précédent"]
+                    choix2 = sous_liste + ["Afficher la page suivante","Afficher la page précédente", "Retour au menu précédent"]
                     logging.info(f"util:{sous_liste}")
                     if n + m >= longueur_tot:
                         choix2.remove("Afficher la page suivante")
 
-                    if n > 0:
-                        choix2.append("Afficher la page précédente")
+                    if n == 0:
+                        choix2.remove("Afficher la page précédente")
 
                     choix3 = inquirer.select(message="Choisissez un utilisateur :", choices=choix2).execute()
 

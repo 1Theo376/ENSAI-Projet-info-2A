@@ -23,14 +23,10 @@ class RechercheMangaVue(VueAbstraite):
         match choix:
             case "Entrer le titre du manga recherché":
                 titre = inquirer.text(message="Entrer le titre : ").execute()
-
-                n = 0
-                m = 8
+                n, m = 0, 8
                 a = 0
                 longueur, sous_liste, longueur_tot = RechercheService().recherche_manga_par_t2(titre, n, m, a)
                 logging.info(f"longueur : {longueur}")
-                res_entier = longueur // m
-                res_reste = longueur % m
 
                 if not RechercheService().recherche_manga_par_t2(titre, n, m, a):
                     print(f"Aucun manga trouvé pour le titre '{titre}'.")
@@ -42,35 +38,23 @@ class RechercheMangaVue(VueAbstraite):
 
                 while n >= 0:
                     longueur, sous_liste, longueur_tot = RechercheService().recherche_manga_par_t2(titre, n, m, a)
-                    choix2 = sous_liste
-                    logging.info(f"choix2 : {choix2}")
-
-                    choix2.extend(["Afficher la page suivante", "Retour au menu précédent"])
-
-                    if (res_entier == 0 and res_reste == 0) or longueur_tot <= 8:
+                    choix2 = sous_liste + ["Afficher la page suivante","Afficher la page précédente", "Retour au menu précédent"]
+                    logging.info(f"util:{sous_liste}")
+                    if n + m >= longueur_tot:
                         choix2.remove("Afficher la page suivante")
 
-                    if res_entier != (longueur // m):
-                        choix2.extend(["Afficher la page précédente"])
-                        res_entier += 1
+                    if n == 0:
+                        choix2.remove("Afficher la page précédente")
 
-                    choix3 = inquirer.select(
-                        message="Choisissez un manga : ",
-                        choices=choix2,
-                    ).execute()
+                    choix3 = inquirer.select(message="Choisissez un manga :", choices=choix2).execute()
 
                     if choix3 == "Retour au menu précédent":
-                        from vues.recherche_vue import RechercheVue
-                        return RechercheVue().choisir_menu()
-
+                        from vues.menu_utilisateur_vue import MenuUtilisateurVue
+                        return MenuUtilisateurVue().choisir_menu()
                     elif choix3 == "Afficher la page suivante":
-                        if res_entier != 0:
-                            n = n + m
-                            res_entier -= 1
-                        if res_entier == 0 and res_reste != 0:
-                            n = n + m
-                            a = res_reste - m
-
+                        n += m
+                    elif choix3 == "Afficher la page précédente":
+                        n = max(0, n - m)
                     else:
                         n = -1
                         from vues.Selection_manga_vue_recherche import SelectionMangaVuerecherche
