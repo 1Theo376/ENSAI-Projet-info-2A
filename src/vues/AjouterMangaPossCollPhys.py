@@ -56,13 +56,16 @@ class AjouterMangaPossCollPhys(VueAbstraite):
             else:
                 num = int(num_vol)
                 if volume_manga:
-                    if num_vol > volume_manga:
+                    if num > volume_manga:
                         print("Erreur")
                         return AjouterMangaPossCollPhys().choisir_menu(choix3, collection)
                 volumes_poss.append(num)
                 nb_volumes_poss -= 1
         logging.info(f"vol:{volumes_poss}")
-
+        if volume_manga:
+            num_acquis = [i for i in range(1,volume_manga+1)]
+            for elt in volumes_poss:
+                num_acquis.remove(elt)
         num_dernier_acquis = int(
             inquirer.text(message="Entrez le numéro du dernier volume acquis du manga : ").execute()
         )
