@@ -5,6 +5,7 @@ from dao.db_connection import DBConnection
 from business_object.collection_phys import Collection_physique
 from business_object.manga_possede import MangaPossede
 from dao.manga_dao import MangaDao
+from dao.manga_possede_dao import MangaPossedeDao
 
 
 class CollectionPhysiqueDAO:
@@ -202,8 +203,10 @@ class CollectionPhysiqueDAO:
             with DBConnection().connection as connection:
                 with connection.cursor() as cursor:
                     cursor.execute(
-                        "SELECT id_collec_physique, titre_collection, description_collection "
-                        "  FROM collection_physique                     "
+                        "SELECT id_collec_physique, titre_collection, description_collection, id_manga_p "
+                        "FROM collection_physique                     "
+                        "LEFT JOIN association_manga_collection_physique USING(id_collec_physique) "
+                        "LEFT JOIN manga_possede USING(id_manga_p)        "
                         " WHERE id_utilisateur = %(id_utilisateur)s;  ",
                         {"id_utilisateur": id_utilisateur},
                     )
@@ -213,11 +216,21 @@ class CollectionPhysiqueDAO:
             raise
         collection = None
         if res:
+            L_mangas = []
+            for elt in res:
+                id_collectionphysique = res["id_collec_physique"]
+                titre_collection = res["titre_collection"]
+                description_collection = res["description_collection"]
+                if elt["id_manga_p"]:
+                    L_mangas.append(MangaPossedeDao().trouver_manga_possede_id(elt["id_manga_p"]))
+                else:
+                    L_mangas = []
+
             collection = Collection_physique(
-                id_collectionphysique=res["id_collec_physique"],
-                titre_collection=res["titre_collection"],
-                description_collection=res["description_collection"],
-                Liste_manga=None,
+                id_collectionphysique=id_collectionphysique,
+                titre_collection=titre_collection,
+                description_collection=description_collection,
+                Liste_manga=L_mangas,
             )
         return collection
 
