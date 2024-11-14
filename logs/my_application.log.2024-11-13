@@ -1,0 +1,757 @@
+13/11/2024 16:02:26 - INFO     - --------------------------------------------------
+13/11/2024 16:02:26 - INFO     - Lancement Application                           
+13/11/2024 16:02:26 - INFO     - --------------------------------------------------
+13/11/2024 16:02:26 - INFO     - AccueilVue
+13/11/2024 16:02:30 - INFO     - ConnexionVue
+13/11/2024 16:02:43 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+13/11/2024 16:02:43 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+13/11/2024 16:02:43 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000018886BE1A20>
+13/11/2024 16:02:43 - INFO     - MenuUtilisateurVue
+13/11/2024 16:02:46 - INFO     - EcranDuProfilVue
+13/11/2024 16:02:48 - INFO     - CollectionCoherenteVue
+13/11/2024 16:02:51 - INFO     - MenuUtilisateurVue
+13/11/2024 16:02:53 - INFO     - RechercheVue
+13/11/2024 16:02:54 - INFO     - RechercheMangaVue
+13/11/2024 16:03:02 - INFO     - choix2 : ['Naruto', 'Naruto: Innocent Heart, Demonic Blood', "Naruto: Itachi's Story", 'Naruto - Mission: Protect the Waterfall Village!', "Naruto: Chibi Sasuke's Sharingan Legend", 'Naruto: The Seventh Hokage and the Scarlet Spring', 'Boruto: Naruto Next Generations', 'Naruto: The Path Lit by the Full Moon']
+13/11/2024 16:03:03 - INFO     - SelectionMangaVuerecherche
+13/11/2024 16:03:04 - INFO     - AjouterMangaCollecVuerecherche
+13/11/2024 16:03:04 - INFO     - listecolleccohe type: <class 'list'>, contenu: ['bagarre', 'pas mal vraiment ']
+13/11/2024 16:03:04 - INFO     - collection_physique type: <class 'business_object.collection_phys.Collection_physique'>, contenu: <business_object.collection_phys.Collection_physique object at 0x00000188871F2800>
+13/11/2024 16:03:04 - INFO     - Contenu de `choix` après ajout de collection_physique: [<business_object.collection_phys.Collection_physique object at 0x00000188871F2800>]
+13/11/2024 16:03:04 - INFO     - listecollections: [<business_object.collection_phys.Collection_physique object at 0x00000188871F2800>, 'bagarre', 'pas mal vraiment ']
+13/11/2024 16:03:04 - INFO     - Ajout de l'option physique : Dans votre collection physique : <business_object.collection_phys.Collection_physique object at 0x00000188871F2800>
+13/11/2024 16:03:04 - INFO     - Ajout de l'option physique : Dans votre collection physique : <business_object.collection_phys.Collection_physique object at 0x00000188871F2800>
+13/11/2024 16:03:04 - INFO     - Choices avant inquirer: ['Dans votre collection physique : <business_object.collection_phys.Collection_physique object at 0x00000188871F2800>', 'Dans votre collection physique : <business_object.collection_phys.Collection_physique object at 0x00000188871F2800>', 'Retour au menu précédent', "Retour vers l'écran d'accueil"]
+13/11/2024 16:03:14 - INFO     - Fin de l'application
+13/11/2024 16:03:18 - INFO     - --------------------------------------------------
+13/11/2024 16:03:18 - INFO     - Lancement Application                           
+13/11/2024 16:03:18 - INFO     - --------------------------------------------------
+13/11/2024 16:03:18 - INFO     - AccueilVue
+13/11/2024 16:03:22 - INFO     - ConnexionVue
+13/11/2024 16:03:27 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+13/11/2024 16:03:27 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+13/11/2024 16:03:27 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000022C1B161AE0>
+13/11/2024 16:03:27 - INFO     - MenuUtilisateurVue
+13/11/2024 16:03:28 - INFO     - RechercheVue
+13/11/2024 16:03:29 - INFO     - RechercheMangaVue
+13/11/2024 16:03:32 - INFO     - choix2 : ['Naruto', 'Naruto: Innocent Heart, Demonic Blood', "Naruto: Itachi's Story", 'Naruto - Mission: Protect the Waterfall Village!', "Naruto: Chibi Sasuke's Sharingan Legend", 'Naruto: The Seventh Hokage and the Scarlet Spring', 'Boruto: Naruto Next Generations', 'Naruto: The Path Lit by the Full Moon']
+13/11/2024 16:03:33 - INFO     - SelectionMangaVuerecherche
+13/11/2024 16:03:35 - INFO     - AjouterMangaCollecVuerecherche
+13/11/2024 16:03:35 - INFO     - listecolleccohe type: <class 'list'>, contenu: ['Test coll cohere']
+13/11/2024 16:03:35 - INFO     - collection_physique type: <class 'NoneType'>, contenu: None
+13/11/2024 16:03:35 - INFO     - listecollections: ['Test coll cohere']
+13/11/2024 16:03:35 - INFO     - Ajout de l'option cohérente : Dans votre collection cohérente : Test coll cohere
+13/11/2024 16:03:35 - INFO     - Choices avant inquirer: ['Dans votre collection cohérente : Test coll cohere', 'Retour au menu précédent', "Retour vers l'écran d'accueil"]
+13/11/2024 16:03:44 - INFO     - Fin de l'application
+13/11/2024 16:05:36 - INFO     - --------------------------------------------------
+13/11/2024 16:05:36 - INFO     - Lancement Application                           
+13/11/2024 16:05:36 - INFO     - --------------------------------------------------
+13/11/2024 16:05:36 - INFO     - AccueilVue
+13/11/2024 16:05:37 - INFO     - ConnexionVue
+13/11/2024 16:05:42 - INFO     -     UtilisateurDao.se_connecter('Anans35', '*****') - DEBUT
+13/11/2024 16:05:42 - INFO     -     UtilisateurDao.se_connecter('Anans35', '*****') - FIN
+13/11/2024 16:05:42 - INFO     -        └─> Sortie : None
+13/11/2024 16:05:42 - INFO     - AccueilVue
+13/11/2024 16:05:43 - INFO     - ConnexionVue
+13/11/2024 16:05:48 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+13/11/2024 16:05:48 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+13/11/2024 16:05:48 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000023B6609D120>
+13/11/2024 16:05:49 - INFO     - MenuUtilisateurVue
+13/11/2024 16:05:50 - INFO     - EcranDuProfilVue
+13/11/2024 16:05:59 - INFO     - EcranDuProfilVue
+13/11/2024 16:06:02 - INFO     - CollectionPhysiqueVue
+13/11/2024 16:06:09 - INFO     - MenuUtilisateurVue
+13/11/2024 16:06:12 - INFO     - RechercheVue
+13/11/2024 16:06:13 - INFO     - RechercheMangaVue
+13/11/2024 16:06:18 - INFO     - choix2 : ['Monster', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul', 'Monster Hunter Orage']
+13/11/2024 16:06:19 - INFO     - SelectionMangaVuerecherche
+13/11/2024 16:06:21 - INFO     - AjouterMangaCollecVuerecherche
+13/11/2024 16:06:21 - INFO     - listecolleccohe type: <class 'list'>, contenu: ['Test coll cohere']
+13/11/2024 16:06:21 - INFO     - collection_physique type: <class 'business_object.collection_phys.Collection_physique'>, contenu: <business_object.collection_phys.Collection_physique object at 0x0000023B66533DC0>
+13/11/2024 16:06:21 - INFO     - Contenu de `choix` après ajout de collection_physique: [<business_object.collection_phys.Collection_physique object at 0x0000023B66533DC0>]
+13/11/2024 16:06:21 - INFO     - listecollections: [<business_object.collection_phys.Collection_physique object at 0x0000023B66533DC0>, 'Test coll cohere']
+13/11/2024 16:06:21 - INFO     - Ajout de l'option physique : Dans votre collection physique : <business_object.collection_phys.Collection_physique object at 0x0000023B66533DC0>
+13/11/2024 16:06:21 - INFO     - Choices avant inquirer: ['Dans votre collection physique : <business_object.collection_phys.Collection_physique object at 0x0000023B66533DC0>', 'Retour au menu précédent', "Retour vers l'écran d'accueil"]
+13/11/2024 16:06:26 - INFO     - Fin de l'application
+13/11/2024 16:13:24 - INFO     - --------------------------------------------------
+13/11/2024 16:13:24 - INFO     - Lancement Application                           
+13/11/2024 16:13:24 - INFO     - --------------------------------------------------
+13/11/2024 16:13:24 - INFO     - AccueilVue
+13/11/2024 16:13:26 - INFO     - ConnexionVue
+13/11/2024 16:13:31 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+13/11/2024 16:13:31 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+13/11/2024 16:13:31 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000026E48FF5AE0>
+13/11/2024 16:13:31 - INFO     - MenuUtilisateurVue
+13/11/2024 16:13:32 - INFO     - RechercheVue
+13/11/2024 16:13:33 - INFO     - RechercheMangaVue
+13/11/2024 16:13:34 - INFO     - choix2 : ['Monster', 'Berserk', '20th Century Boys', 'Yokohama Kaidashi Kikou', 'Hajime no Ippo: Fighting Spirit!', 'Full Moon wo Sagashite', 'Tsubasa: RESERVoir CHRoNiCLE', 'xxxHOLiC']
+13/11/2024 16:13:42 - INFO     - SelectionMangaVuerecherche
+13/11/2024 16:13:43 - INFO     - AjouterMangaCollecVuerecherche
+13/11/2024 16:13:43 - INFO     - listecolleccohe type: <class 'list'>, contenu: ['Test coll cohere']
+13/11/2024 16:13:43 - INFO     - name 'collection_physique' is not defined
+13/11/2024 16:13:43 - INFO     - AccueilVue
+13/11/2024 16:14:28 - INFO     - Fin de l'application
+13/11/2024 16:14:30 - INFO     - --------------------------------------------------
+13/11/2024 16:14:30 - INFO     - Lancement Application                           
+13/11/2024 16:14:30 - INFO     - --------------------------------------------------
+13/11/2024 16:14:30 - INFO     - AccueilVue
+13/11/2024 16:14:31 - INFO     - ConnexionVue
+13/11/2024 16:14:35 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+13/11/2024 16:14:35 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+13/11/2024 16:14:35 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000002022CB35AE0>
+13/11/2024 16:14:35 - INFO     - MenuUtilisateurVue
+13/11/2024 16:14:36 - INFO     - EcranDuProfilVue
+13/11/2024 16:14:38 - INFO     - MenuUtilisateurVue
+13/11/2024 16:14:39 - INFO     - RechercheVue
+13/11/2024 16:14:39 - INFO     - RechercheMangaVue
+13/11/2024 16:14:50 - INFO     - choix2 : ['Berserk', "I'll Even Take Care of Dad! A Hot Male Nursery Teacher Goes Berserk", 'Tales of Berseria', 'Berserker of magic school field', 'Berserk: The Flame Dragon Knight', 'Berserk of Gluttony', 'Berserk of Gluttony', 'Ripple: Berserker']
+13/11/2024 16:14:52 - INFO     - SelectionMangaVuerecherche
+13/11/2024 16:14:54 - INFO     - AjouterMangaCollecVuerecherche
+13/11/2024 16:14:54 - INFO     - listecolleccohe type: <class 'list'>, contenu: ['Test coll cohere']
+13/11/2024 16:14:54 - INFO     - collection_physique type: <class 'str'>, contenu: Test
+13/11/2024 16:14:54 - INFO     - Contenu de `choix` après ajout de collection_physique: ['Test']
+13/11/2024 16:14:54 - INFO     - listecollections: ['Test', 'Test coll cohere']
+13/11/2024 16:14:54 - INFO     - Ajout de l'option physique : Dans votre collection physique : Test
+13/11/2024 16:14:54 - INFO     - Ajout de l'option physique : Dans votre collection physique : Test
+13/11/2024 16:14:54 - INFO     - Choices avant inquirer: ['Dans votre collection physique : Test', 'Dans votre collection physique : Test', 'Retour au menu précédent', "Retour vers l'écran d'accueil"]
+13/11/2024 16:15:03 - INFO     - Fin de l'application
+13/11/2024 16:21:12 - INFO     - --------------------------------------------------
+13/11/2024 16:21:12 - INFO     - Lancement Application                           
+13/11/2024 16:21:12 - INFO     - --------------------------------------------------
+13/11/2024 16:21:12 - INFO     - AccueilVue
+13/11/2024 16:21:13 - INFO     - ConnexionVue
+13/11/2024 16:21:19 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+13/11/2024 16:21:19 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+13/11/2024 16:21:19 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x00000241ED76DAE0>
+13/11/2024 16:21:19 - INFO     - MenuUtilisateurVue
+13/11/2024 16:21:21 - INFO     - RechercheVue
+13/11/2024 16:21:22 - INFO     - RechercheMangaVue
+13/11/2024 16:21:27 - INFO     - choix2 : ['Berserk', "I'll Even Take Care of Dad! A Hot Male Nursery Teacher Goes Berserk", 'Berserker of magic school field', 'Berserk: The Flame Dragon Knight', 'Berserk of Gluttony', 'Berserk of Gluttony', 'Ripple: Berserker']
+13/11/2024 16:21:32 - INFO     - SelectionMangaVuerecherche
+13/11/2024 16:21:35 - INFO     - AjouterMangaCollecVuerecherche
+13/11/2024 16:21:35 - INFO     - listecolleccohe type: <class 'list'>, contenu: ['Test coll cohere']
+13/11/2024 16:21:35 - INFO     - collection_physique type: <class 'str'>, contenu: Test
+13/11/2024 16:21:35 - INFO     - Contenu de `choix` après ajout de collection_physique: ['Test']
+13/11/2024 16:21:35 - INFO     - listecollections: ['Test', 'Test coll cohere']
+13/11/2024 16:21:35 - INFO     - Ajout de l'option physique : Dans votre collection physique : Test
+13/11/2024 16:21:35 - INFO     - Ajout de l'option cohérente : Dans votre collection cohérente : Test coll cohere
+13/11/2024 16:21:35 - INFO     - Choices avant inquirer: ['Dans votre collection physique : Test', 'Dans votre collection cohérente : Test coll cohere', 'Retour au menu précédent', "Retour vers l'écran d'accueil"]
+13/11/2024 16:21:41 - INFO     - Fin de l'application
+13/11/2024 16:24:01 - INFO     - --------------------------------------------------
+13/11/2024 16:24:01 - INFO     - Lancement Application                           
+13/11/2024 16:24:01 - INFO     - --------------------------------------------------
+13/11/2024 16:24:01 - INFO     - AccueilVue
+13/11/2024 16:24:03 - INFO     - ConnexionVue
+13/11/2024 16:24:08 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+13/11/2024 16:24:08 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+13/11/2024 16:24:08 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000019B9008DAE0>
+13/11/2024 16:24:08 - INFO     - MenuUtilisateurVue
+13/11/2024 16:24:09 - INFO     - RechercheVue
+13/11/2024 16:24:10 - INFO     - RechercheMangaVue
+13/11/2024 16:24:13 - INFO     - choix2 : ['Berserk', "I'll Even Take Care of Dad! A Hot Male Nursery Teacher Goes Berserk", 'Berserker of magic school field', 'Berserk: The Flame Dragon Knight', 'Berserk of Gluttony', 'Berserk of Gluttony', 'Ripple: Berserker']
+13/11/2024 16:24:16 - INFO     - SelectionMangaVuerecherche
+13/11/2024 16:24:17 - INFO     - AjouterMangaCollecVuerecherche
+13/11/2024 16:24:17 - INFO     - listecolleccohe type: <class 'list'>, contenu: ['Test coll cohere']
+13/11/2024 16:24:17 - INFO     - collection_physique type: <class 'str'>, contenu: Test
+13/11/2024 16:24:17 - INFO     - Contenu de `choix` après ajout de collection_physique: ['Test']
+13/11/2024 16:24:17 - INFO     - listecollections: ['Test', 'Test coll cohere']
+13/11/2024 16:24:17 - INFO     - Ajout de l'option physique : Dans votre collection physique : Test
+13/11/2024 16:24:17 - INFO     - Ajout de l'option cohérente : Dans votre collection cohérente : Test coll cohere
+13/11/2024 16:24:17 - INFO     - Choices avant inquirer: ['Dans votre collection physique : Test', 'Dans votre collection cohérente : Test coll cohere', 'Retour au menu précédent', "Retour vers l'écran d'accueil"]
+13/11/2024 16:24:19 - INFO     - Nom de la collection choisi: Test
+13/11/2024 16:24:19 - INFO     - ERREUR:  la colonne « id_manga » spécifiée dans la clause USING n'existe pas dans la table
+de gauche
+
+13/11/2024 16:24:19 - INFO     - ERREUR:  la colonne « id_manga » spécifiée dans la clause USING n'existe pas dans la table
+de gauche
+
+13/11/2024 16:24:19 - INFO     - AccueilVue
+13/11/2024 16:24:46 - INFO     - ConnexionVue
+13/11/2024 16:24:51 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+13/11/2024 16:24:51 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+13/11/2024 16:24:51 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000019B90785240>
+13/11/2024 16:24:51 - INFO     - MenuUtilisateurVue
+13/11/2024 16:24:52 - INFO     - RechercheVue
+13/11/2024 16:24:52 - INFO     - RechercheMangaVue
+13/11/2024 16:24:56 - INFO     - choix2 : ['Berserk', "I'll Even Take Care of Dad! A Hot Male Nursery Teacher Goes Berserk", 'Berserker of magic school field', 'Berserk: The Flame Dragon Knight', 'Berserk of Gluttony', 'Berserk of Gluttony', 'Ripple: Berserker']
+13/11/2024 16:24:57 - INFO     - SelectionMangaVuerecherche
+13/11/2024 16:24:58 - INFO     - AjouterMangaCollecVuerecherche
+13/11/2024 16:24:58 - INFO     - listecolleccohe type: <class 'list'>, contenu: ['Test coll cohere']
+13/11/2024 16:24:58 - INFO     - collection_physique type: <class 'str'>, contenu: Test
+13/11/2024 16:24:58 - INFO     - Contenu de `choix` après ajout de collection_physique: ['Test']
+13/11/2024 16:24:58 - INFO     - listecollections: ['Test', 'Test coll cohere']
+13/11/2024 16:24:58 - INFO     - Ajout de l'option physique : Dans votre collection physique : Test
+13/11/2024 16:24:58 - INFO     - Ajout de l'option cohérente : Dans votre collection cohérente : Test coll cohere
+13/11/2024 16:24:58 - INFO     - Choices avant inquirer: ['Dans votre collection physique : Test', 'Dans votre collection cohérente : Test coll cohere', 'Retour au menu précédent', "Retour vers l'écran d'accueil"]
+13/11/2024 16:24:59 - INFO     - Nom de la collection choisi: Test coll cohere
+13/11/2024 16:24:59 - INFO     - Collection cohérente trouvée : Test coll cohere, Voici les mangas présents dans cette collection : Monster, One Piece
+13/11/2024 16:24:59 - INFO     - ERREUR:  la valeur d'une clé dupliquée rompt la contrainte unique « association_manga_collection_coherente_pkey »
+DETAIL:  La clé « (id_manga, id_collec_coherente)=(2, 6) » existe déjà.
+
+13/11/2024 16:24:59 - INFO     - SelectionMangaVuerecherche
+13/11/2024 16:28:11 - INFO     - MenuUtilisateurVue
+13/11/2024 16:28:12 - INFO     - AccueilVue
+13/11/2024 16:28:14 - INFO     - Fin de l'application
+13/11/2024 16:28:16 - INFO     - --------------------------------------------------
+13/11/2024 16:28:16 - INFO     - Lancement Application                           
+13/11/2024 16:28:16 - INFO     - --------------------------------------------------
+13/11/2024 16:28:16 - INFO     - AccueilVue
+13/11/2024 16:28:17 - INFO     - ConnexionVue
+13/11/2024 16:28:21 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+13/11/2024 16:28:21 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+13/11/2024 16:28:21 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000021DA60C5AB0>
+13/11/2024 16:28:21 - INFO     - MenuUtilisateurVue
+13/11/2024 16:28:22 - INFO     - RechercheVue
+13/11/2024 16:28:22 - INFO     - RechercheMangaVue
+13/11/2024 16:28:25 - INFO     - choix2 : ['Monster', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul', 'Monster Hunter Orage']
+13/11/2024 16:28:26 - INFO     - SelectionMangaVuerecherche
+13/11/2024 16:28:27 - INFO     - AjouterMangaCollecVuerecherche
+13/11/2024 16:28:27 - INFO     - listecolleccohe type: <class 'list'>, contenu: ['Test coll cohere']
+13/11/2024 16:28:27 - INFO     - collection_physique type: <class 'str'>, contenu: Test
+13/11/2024 16:28:27 - INFO     - Contenu de `choix` après ajout de collection_physique: ['Test']
+13/11/2024 16:28:27 - INFO     - listecollections: ['Test', 'Test coll cohere']
+13/11/2024 16:28:27 - INFO     - Ajout de l'option physique : Dans votre collection physique : Test
+13/11/2024 16:28:27 - INFO     - Ajout de l'option cohérente : Dans votre collection cohérente : Test coll cohere
+13/11/2024 16:28:27 - INFO     - Choices avant inquirer: ['Dans votre collection physique : Test', 'Dans votre collection cohérente : Test coll cohere', 'Retour au menu précédent', "Retour vers l'écran d'accueil"]
+13/11/2024 16:28:31 - INFO     - Nom de la collection choisi: Test
+13/11/2024 16:28:31 - INFO     - ERREUR:  la colonne « id_manga » spécifiée dans la clause USING n'existe pas dans la table
+de gauche
+
+13/11/2024 16:28:31 - INFO     - ERREUR:  la colonne « id_manga » spécifiée dans la clause USING n'existe pas dans la table
+de gauche
+
+13/11/2024 16:28:31 - INFO     - AccueilVue
+13/11/2024 16:32:46 - INFO     - Fin de l'application
+13/11/2024 16:32:48 - INFO     - --------------------------------------------------
+13/11/2024 16:32:48 - INFO     - Lancement Application                           
+13/11/2024 16:32:48 - INFO     - --------------------------------------------------
+13/11/2024 16:32:48 - INFO     - AccueilVue
+13/11/2024 16:32:49 - INFO     - ConnexionVue
+13/11/2024 16:32:53 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+13/11/2024 16:32:53 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+13/11/2024 16:32:53 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000027587DE5AE0>
+13/11/2024 16:32:53 - INFO     - MenuUtilisateurVue
+13/11/2024 16:32:54 - INFO     - RechercheVue
+13/11/2024 16:32:54 - INFO     - RechercheMangaVue
+13/11/2024 16:32:58 - INFO     - choix2 : ['Monster', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul', 'Monster Hunter Orage']
+13/11/2024 16:32:59 - INFO     - SelectionMangaVuerecherche
+13/11/2024 16:33:01 - INFO     - AjouterMangaCollecVuerecherche
+13/11/2024 16:33:01 - INFO     - listecolleccohe type: <class 'list'>, contenu: ['Test coll cohere']
+13/11/2024 16:33:01 - INFO     - collection_physique type: <class 'str'>, contenu: Test
+13/11/2024 16:33:01 - INFO     - Contenu de `choix` après ajout de collection_physique: ['Test']
+13/11/2024 16:33:01 - INFO     - listecollections: ['Test', 'Test coll cohere']
+13/11/2024 16:33:01 - INFO     - Ajout de l'option physique : Dans votre collection physique : Test
+13/11/2024 16:33:01 - INFO     - Ajout de l'option cohérente : Dans votre collection cohérente : Test coll cohere
+13/11/2024 16:33:01 - INFO     - Choices avant inquirer: ['Dans votre collection physique : Test', 'Dans votre collection cohérente : Test coll cohere', 'Retour au menu précédent', "Retour vers l'écran d'accueil"]
+13/11/2024 16:33:02 - INFO     - Nom de la collection choisi: Test
+13/11/2024 16:33:03 - INFO     - 'id_manga_p'
+13/11/2024 16:33:03 - INFO     - AccueilVue
+13/11/2024 16:33:44 - INFO     - Fin de l'application
+13/11/2024 16:33:46 - INFO     - --------------------------------------------------
+13/11/2024 16:33:46 - INFO     - Lancement Application                           
+13/11/2024 16:33:46 - INFO     - --------------------------------------------------
+13/11/2024 16:33:46 - INFO     - AccueilVue
+13/11/2024 16:33:46 - INFO     - ConnexionVue
+13/11/2024 16:33:50 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+13/11/2024 16:33:50 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+13/11/2024 16:33:50 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000022D5E515AE0>
+13/11/2024 16:33:50 - INFO     - MenuUtilisateurVue
+13/11/2024 16:33:51 - INFO     - RechercheVue
+13/11/2024 16:33:51 - INFO     - RechercheMangaVue
+13/11/2024 16:33:53 - INFO     - choix2 : ['Monster', 'Higurashi WHEN THEY CRY: Abducted by Demons Arc', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul']
+13/11/2024 16:33:53 - INFO     - SelectionMangaVuerecherche
+13/11/2024 16:33:54 - INFO     - AjouterMangaCollecVuerecherche
+13/11/2024 16:33:54 - INFO     - listecolleccohe type: <class 'list'>, contenu: ['Test coll cohere']
+13/11/2024 16:33:54 - INFO     - collection_physique type: <class 'str'>, contenu: Test
+13/11/2024 16:33:54 - INFO     - Contenu de `choix` après ajout de collection_physique: ['Test']
+13/11/2024 16:33:54 - INFO     - listecollections: ['Test', 'Test coll cohere']
+13/11/2024 16:33:54 - INFO     - Ajout de l'option physique : Dans votre collection physique : Test
+13/11/2024 16:33:54 - INFO     - Ajout de l'option cohérente : Dans votre collection cohérente : Test coll cohere
+13/11/2024 16:33:54 - INFO     - Choices avant inquirer: ['Dans votre collection physique : Test', 'Dans votre collection cohérente : Test coll cohere', 'Retour au menu précédent', "Retour vers l'écran d'accueil"]
+13/11/2024 16:33:55 - INFO     - Nom de la collection choisi: Test
+13/11/2024 16:33:55 - INFO     - Collection_physique.__init__() got an unexpected keyword argument 'id_collectioncoherente'
+13/11/2024 16:33:55 - INFO     - AccueilVue
+13/11/2024 16:35:00 - INFO     - Fin de l'application
+13/11/2024 16:35:03 - INFO     - --------------------------------------------------
+13/11/2024 16:35:03 - INFO     - Lancement Application                           
+13/11/2024 16:35:03 - INFO     - --------------------------------------------------
+13/11/2024 16:35:03 - INFO     - AccueilVue
+13/11/2024 16:35:04 - INFO     - ConnexionVue
+13/11/2024 16:35:07 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+13/11/2024 16:35:07 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+13/11/2024 16:35:07 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x00000228FB791AE0>
+13/11/2024 16:35:07 - INFO     - MenuUtilisateurVue
+13/11/2024 16:35:08 - INFO     - RechercheVue
+13/11/2024 16:35:09 - INFO     - RechercheMangaVue
+13/11/2024 16:35:10 - INFO     - choix2 : ['Monster', 'Higurashi WHEN THEY CRY: Abducted by Demons Arc', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul']
+13/11/2024 16:35:11 - INFO     - SelectionMangaVuerecherche
+13/11/2024 16:35:11 - INFO     - AjouterMangaCollecVuerecherche
+13/11/2024 16:35:12 - INFO     - listecolleccohe type: <class 'list'>, contenu: ['Test coll cohere']
+13/11/2024 16:35:12 - INFO     - collection_physique type: <class 'str'>, contenu: Test
+13/11/2024 16:35:12 - INFO     - Contenu de `choix` après ajout de collection_physique: ['Test']
+13/11/2024 16:35:12 - INFO     - listecollections: ['Test', 'Test coll cohere']
+13/11/2024 16:35:12 - INFO     - Ajout de l'option physique : Dans votre collection physique : Test
+13/11/2024 16:35:12 - INFO     - Ajout de l'option cohérente : Dans votre collection cohérente : Test coll cohere
+13/11/2024 16:35:12 - INFO     - Choices avant inquirer: ['Dans votre collection physique : Test', 'Dans votre collection cohérente : Test coll cohere', 'Retour au menu précédent', "Retour vers l'écran d'accueil"]
+13/11/2024 16:35:13 - INFO     - Nom de la collection choisi: Test
+13/11/2024 16:35:13 - INFO     - Collection_physique.__init__() got an unexpected keyword argument 'desc_collection'
+13/11/2024 16:35:13 - INFO     - AccueilVue
+13/11/2024 16:35:31 - INFO     - Fin de l'application
+13/11/2024 16:35:32 - INFO     - --------------------------------------------------
+13/11/2024 16:35:32 - INFO     - Lancement Application                           
+13/11/2024 16:35:32 - INFO     - --------------------------------------------------
+13/11/2024 16:35:32 - INFO     - AccueilVue
+13/11/2024 16:35:33 - INFO     - ConnexionVue
+13/11/2024 16:35:37 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+13/11/2024 16:35:37 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+13/11/2024 16:35:37 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001DB276E5AE0>
+13/11/2024 16:35:37 - INFO     - MenuUtilisateurVue
+13/11/2024 16:35:39 - INFO     - RechercheVue
+13/11/2024 16:35:39 - INFO     - RechercheMangaVue
+13/11/2024 16:35:41 - INFO     - choix2 : ['Monster', 'Higurashi WHEN THEY CRY: Abducted by Demons Arc', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul']
+13/11/2024 16:35:42 - INFO     - SelectionMangaVuerecherche
+13/11/2024 16:35:42 - INFO     - AjouterMangaCollecVuerecherche
+13/11/2024 16:35:42 - INFO     - listecolleccohe type: <class 'list'>, contenu: ['Test coll cohere']
+13/11/2024 16:35:42 - INFO     - collection_physique type: <class 'str'>, contenu: Test
+13/11/2024 16:35:42 - INFO     - Contenu de `choix` après ajout de collection_physique: ['Test']
+13/11/2024 16:35:42 - INFO     - listecollections: ['Test', 'Test coll cohere']
+13/11/2024 16:35:42 - INFO     - Ajout de l'option physique : Dans votre collection physique : Test
+13/11/2024 16:35:42 - INFO     - Ajout de l'option cohérente : Dans votre collection cohérente : Test coll cohere
+13/11/2024 16:35:42 - INFO     - Choices avant inquirer: ['Dans votre collection physique : Test', 'Dans votre collection cohérente : Test coll cohere', 'Retour au menu précédent', "Retour vers l'écran d'accueil"]
+13/11/2024 16:35:43 - INFO     - Nom de la collection choisi: Test
+13/11/2024 16:35:43 - INFO     - 'int' object has no attribute 'id_collectioncoherente'
+13/11/2024 16:35:43 - INFO     - SelectionMangaVuerecherche
+13/11/2024 16:36:23 - INFO     - MenuUtilisateurVue
+13/11/2024 16:36:25 - INFO     - AccueilVue
+13/11/2024 16:36:26 - INFO     - Fin de l'application
+13/11/2024 16:39:03 - INFO     - --------------------------------------------------
+13/11/2024 16:39:03 - INFO     - Lancement Application                           
+13/11/2024 16:39:03 - INFO     - --------------------------------------------------
+13/11/2024 16:39:03 - INFO     - AccueilVue
+13/11/2024 16:39:04 - INFO     - ConnexionVue
+13/11/2024 16:39:10 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+13/11/2024 16:39:10 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+13/11/2024 16:39:10 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000002B62BF91AB0>
+13/11/2024 16:39:10 - INFO     - MenuUtilisateurVue
+13/11/2024 16:39:11 - INFO     - RechercheVue
+13/11/2024 16:39:12 - INFO     - RechercheMangaVue
+13/11/2024 16:39:13 - INFO     - choix2 : ['Monster', 'Higurashi WHEN THEY CRY: Abducted by Demons Arc', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul']
+13/11/2024 16:39:14 - INFO     - SelectionMangaVuerecherche
+13/11/2024 16:39:15 - INFO     - AjouterMangaCollecVuerecherche
+13/11/2024 16:39:15 - INFO     - listecolleccohe type: <class 'list'>, contenu: ['Test coll cohere']
+13/11/2024 16:39:15 - INFO     - collection_physique type: <class 'str'>, contenu: Test
+13/11/2024 16:39:15 - INFO     - Contenu de `choix` après ajout de collection_physique: ['Test']
+13/11/2024 16:39:15 - INFO     - listecollections: ['Test', 'Test coll cohere']
+13/11/2024 16:39:15 - INFO     - Ajout de l'option physique : Dans votre collection physique : Test
+13/11/2024 16:39:15 - INFO     - Ajout de l'option cohérente : Dans votre collection cohérente : Test coll cohere
+13/11/2024 16:39:15 - INFO     - Choices avant inquirer: ['Dans votre collection physique : Test', 'Dans votre collection cohérente : Test coll cohere', 'Retour au menu précédent', "Retour vers l'écran d'accueil"]
+13/11/2024 16:39:16 - INFO     - Nom de la collection choisi: Test
+13/11/2024 16:39:16 - INFO     - ERREUR:  la colonne « id_manga_physique » de la relation « association_manga_collection_physique » n'existe pas
+LINE 1: ...ion_manga_collection_physique(id_collec_physique, id_manga_p...
+                                                             ^
+
+13/11/2024 16:39:16 - INFO     - SelectionMangaVuerecherche
+13/11/2024 16:39:20 - INFO     - MenuUtilisateurVue
+13/11/2024 16:39:22 - INFO     - AccueilVue
+13/11/2024 16:39:24 - INFO     - Fin de l'application
+13/11/2024 16:40:08 - INFO     - --------------------------------------------------
+13/11/2024 16:40:08 - INFO     - Lancement Application                           
+13/11/2024 16:40:08 - INFO     - --------------------------------------------------
+13/11/2024 16:40:08 - INFO     - AccueilVue
+13/11/2024 16:40:08 - INFO     - ConnexionVue
+13/11/2024 16:40:12 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+13/11/2024 16:40:12 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+13/11/2024 16:40:12 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001BD80DD1AE0>
+13/11/2024 16:40:12 - INFO     - MenuUtilisateurVue
+13/11/2024 16:40:13 - INFO     - RechercheVue
+13/11/2024 16:40:13 - INFO     - RechercheMangaVue
+13/11/2024 16:40:16 - INFO     - choix2 : ['Monster', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul', 'Monster Hunter Orage']
+13/11/2024 16:40:17 - INFO     - SelectionMangaVuerecherche
+13/11/2024 16:40:18 - INFO     - AjouterMangaCollecVuerecherche
+13/11/2024 16:40:18 - INFO     - listecolleccohe type: <class 'list'>, contenu: ['Test coll cohere']
+13/11/2024 16:40:18 - INFO     - collection_physique type: <class 'str'>, contenu: Test
+13/11/2024 16:40:18 - INFO     - Contenu de `choix` après ajout de collection_physique: ['Test']
+13/11/2024 16:40:18 - INFO     - listecollections: ['Test', 'Test coll cohere']
+13/11/2024 16:40:18 - INFO     - Ajout de l'option physique : Dans votre collection physique : Test
+13/11/2024 16:40:18 - INFO     - Ajout de l'option cohérente : Dans votre collection cohérente : Test coll cohere
+13/11/2024 16:40:18 - INFO     - Choices avant inquirer: ['Dans votre collection physique : Test', 'Dans votre collection cohérente : Test coll cohere', 'Retour au menu précédent', "Retour vers l'écran d'accueil"]
+13/11/2024 16:40:20 - INFO     - Nom de la collection choisi: Test
+13/11/2024 16:40:20 - INFO     - ERREUR:  une instruction insert ou update sur la table « association_manga_collection_physique » viole la contrainte de clé
+étrangère « association_manga_collection_physique_id_manga_p_fkey »
+DETAIL:  La clé (id_manga_p)=(1) n'est pas présente dans la table « manga_possede ».
+
+13/11/2024 16:40:20 - INFO     - SelectionMangaVuerecherche
+13/11/2024 16:40:24 - INFO     - MenuUtilisateurVue
+13/11/2024 16:40:25 - INFO     - AccueilVue
+13/11/2024 16:40:27 - INFO     - Fin de l'application
+13/11/2024 17:20:30 - INFO     - --------------------------------------------------
+13/11/2024 17:20:30 - INFO     - Lancement Application                           
+13/11/2024 17:20:30 - INFO     - --------------------------------------------------
+13/11/2024 17:20:30 - INFO     - AccueilVue
+13/11/2024 17:20:30 - INFO     - ConnexionVue
+13/11/2024 17:20:35 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+13/11/2024 17:20:35 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+13/11/2024 17:20:35 - INFO     -        └─> Sortie : None
+13/11/2024 17:20:35 - INFO     - AccueilVue
+13/11/2024 17:20:36 - INFO     - Fin de l'application
+13/11/2024 17:22:45 - INFO     - --------------------------------------------------
+13/11/2024 17:22:45 - INFO     - Lancement Application                           
+13/11/2024 17:22:45 - INFO     - --------------------------------------------------
+13/11/2024 17:22:45 - INFO     - AccueilVue
+13/11/2024 17:22:46 - INFO     - ConnexionVue
+13/11/2024 17:22:50 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+13/11/2024 17:22:50 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+13/11/2024 17:22:50 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x00000232D05B1AE0>
+13/11/2024 17:22:50 - INFO     - MenuUtilisateurVue
+13/11/2024 17:23:09 - INFO     - RechercheVue
+13/11/2024 17:23:12 - INFO     - RechercheMangaVue
+13/11/2024 17:23:14 - INFO     - choix2 : ['Monster', 'Higurashi WHEN THEY CRY: Abducted by Demons Arc', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul']
+13/11/2024 17:23:15 - INFO     - SelectionMangaVuerecherche
+13/11/2024 17:23:16 - INFO     - AjouterMangaCollecVuerecherche
+13/11/2024 17:23:16 - INFO     - listecolleccohe type: <class 'list'>, contenu: ['Test coll cohere']
+13/11/2024 17:23:16 - INFO     - collection_physique type: <class 'str'>, contenu: Test
+13/11/2024 17:23:16 - INFO     - Contenu de `choix` après ajout de collection_physique: ['Test']
+13/11/2024 17:23:16 - INFO     - listecollections: ['Test', 'Test coll cohere']
+13/11/2024 17:23:16 - INFO     - Ajout de l'option physique : Dans votre collection physique : Test
+13/11/2024 17:23:16 - INFO     - Ajout de l'option cohérente : Dans votre collection cohérente : Test coll cohere
+13/11/2024 17:23:16 - INFO     - Choices avant inquirer: ['Dans votre collection physique : Test', 'Dans votre collection cohérente : Test coll cohere', 'Retour au menu précédent', "Retour vers l'écran d'accueil"]
+13/11/2024 17:23:17 - INFO     - Nom de la collection choisi: Test
+13/11/2024 17:23:17 - INFO     - AjouterMangaPossCollPhys
+13/11/2024 17:23:21 - INFO     - int() argument must be a string, a bytes-like object or a real number, not 'InputPrompt'
+13/11/2024 17:23:21 - INFO     - AccueilVue
+13/11/2024 17:24:38 - INFO     - Fin de l'application
+13/11/2024 17:24:41 - INFO     - --------------------------------------------------
+13/11/2024 17:24:41 - INFO     - Lancement Application                           
+13/11/2024 17:24:41 - INFO     - --------------------------------------------------
+13/11/2024 17:24:41 - INFO     - AccueilVue
+13/11/2024 17:24:42 - INFO     - ConnexionVue
+13/11/2024 17:24:46 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+13/11/2024 17:24:46 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+13/11/2024 17:24:46 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000002065D615AB0>
+13/11/2024 17:24:46 - INFO     - MenuUtilisateurVue
+13/11/2024 17:24:47 - INFO     - RechercheVue
+13/11/2024 17:24:48 - INFO     - RechercheMangaVue
+13/11/2024 17:24:50 - INFO     - choix2 : ['Monster', 'Higurashi WHEN THEY CRY: Abducted by Demons Arc', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul']
+13/11/2024 17:24:50 - INFO     - SelectionMangaVuerecherche
+13/11/2024 17:24:51 - INFO     - AjouterMangaCollecVuerecherche
+13/11/2024 17:24:51 - INFO     - listecolleccohe type: <class 'list'>, contenu: ['Test coll cohere']
+13/11/2024 17:24:51 - INFO     - collection_physique type: <class 'str'>, contenu: Test
+13/11/2024 17:24:51 - INFO     - Contenu de `choix` après ajout de collection_physique: ['Test']
+13/11/2024 17:24:51 - INFO     - listecollections: ['Test', 'Test coll cohere']
+13/11/2024 17:24:51 - INFO     - Ajout de l'option physique : Dans votre collection physique : Test
+13/11/2024 17:24:51 - INFO     - Ajout de l'option cohérente : Dans votre collection cohérente : Test coll cohere
+13/11/2024 17:24:51 - INFO     - Choices avant inquirer: ['Dans votre collection physique : Test', 'Dans votre collection cohérente : Test coll cohere', 'Retour au menu précédent', "Retour vers l'écran d'accueil"]
+13/11/2024 17:24:52 - INFO     - Nom de la collection choisi: Test
+13/11/2024 17:24:52 - INFO     - AjouterMangaPossCollPhys
+13/11/2024 17:24:54 - INFO     - int() argument must be a string, a bytes-like object or a real number, not 'InputPrompt'
+13/11/2024 17:24:54 - INFO     - AccueilVue
+13/11/2024 17:28:43 - INFO     - Fin de l'application
+13/11/2024 17:28:45 - INFO     - --------------------------------------------------
+13/11/2024 17:28:45 - INFO     - Lancement Application                           
+13/11/2024 17:28:45 - INFO     - --------------------------------------------------
+13/11/2024 17:28:45 - INFO     - AccueilVue
+13/11/2024 17:28:45 - INFO     - ConnexionVue
+13/11/2024 17:28:49 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+13/11/2024 17:28:49 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+13/11/2024 17:28:49 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000002151C065AE0>
+13/11/2024 17:28:49 - INFO     - MenuUtilisateurVue
+13/11/2024 17:28:50 - INFO     - RechercheVue
+13/11/2024 17:28:51 - INFO     - RechercheMangaVue
+13/11/2024 17:28:53 - INFO     - choix2 : ['Monster', 'Higurashi WHEN THEY CRY: Abducted by Demons Arc', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul']
+13/11/2024 17:28:53 - INFO     - SelectionMangaVuerecherche
+13/11/2024 17:28:54 - INFO     - AjouterMangaCollecVuerecherche
+13/11/2024 17:28:54 - INFO     - listecolleccohe type: <class 'list'>, contenu: ['Test coll cohere']
+13/11/2024 17:28:54 - INFO     - collection_physique type: <class 'str'>, contenu: Test
+13/11/2024 17:28:54 - INFO     - Contenu de `choix` après ajout de collection_physique: ['Test']
+13/11/2024 17:28:54 - INFO     - listecollections: ['Test', 'Test coll cohere']
+13/11/2024 17:28:54 - INFO     - Ajout de l'option physique : Dans votre collection physique : Test
+13/11/2024 17:28:54 - INFO     - Ajout de l'option cohérente : Dans votre collection cohérente : Test coll cohere
+13/11/2024 17:28:54 - INFO     - Choices avant inquirer: ['Dans votre collection physique : Test', 'Dans votre collection cohérente : Test coll cohere', 'Retour au menu précédent', "Retour vers l'écran d'accueil"]
+13/11/2024 17:28:55 - INFO     - Nom de la collection choisi: Test
+13/11/2024 17:28:55 - INFO     - AjouterMangaPossCollPhys
+13/11/2024 17:29:15 - INFO     - name 'manga' is not defined
+13/11/2024 17:29:15 - INFO     - AccueilVue
+13/11/2024 17:31:30 - INFO     - ConnexionVue
+13/11/2024 17:31:34 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+13/11/2024 17:31:34 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+13/11/2024 17:31:34 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000002151D2FCC10>
+13/11/2024 17:31:34 - INFO     - MenuUtilisateurVue
+13/11/2024 17:31:35 - INFO     - RechercheVue
+13/11/2024 17:31:36 - INFO     - RechercheMangaVue
+13/11/2024 17:31:38 - INFO     - choix2 : ['Monster', 'Higurashi WHEN THEY CRY: Abducted by Demons Arc', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul']
+13/11/2024 17:31:39 - INFO     - SelectionMangaVuerecherche
+13/11/2024 17:31:40 - INFO     - AjouterMangaCollecVuerecherche
+13/11/2024 17:31:40 - INFO     - listecolleccohe type: <class 'list'>, contenu: ['Test coll cohere']
+13/11/2024 17:31:40 - INFO     - collection_physique type: <class 'str'>, contenu: Test
+13/11/2024 17:31:40 - INFO     - Contenu de `choix` après ajout de collection_physique: ['Test']
+13/11/2024 17:31:40 - INFO     - listecollections: ['Test', 'Test coll cohere']
+13/11/2024 17:31:40 - INFO     - Ajout de l'option physique : Dans votre collection physique : Test
+13/11/2024 17:31:40 - INFO     - Ajout de l'option cohérente : Dans votre collection cohérente : Test coll cohere
+13/11/2024 17:31:40 - INFO     - Choices avant inquirer: ['Dans votre collection physique : Test', 'Dans votre collection cohérente : Test coll cohere', 'Retour au menu précédent', "Retour vers l'écran d'accueil"]
+13/11/2024 17:31:41 - INFO     - Nom de la collection choisi: Test
+13/11/2024 17:31:41 - INFO     - AjouterMangaPossCollPhys
+13/11/2024 17:31:48 - INFO     - name 'manga' is not defined
+13/11/2024 17:31:48 - INFO     - AccueilVue
+13/11/2024 17:31:50 - INFO     - Fin de l'application
+13/11/2024 17:34:16 - INFO     - --------------------------------------------------
+13/11/2024 17:34:16 - INFO     - Lancement Application                           
+13/11/2024 17:34:16 - INFO     - --------------------------------------------------
+13/11/2024 17:34:16 - INFO     - AccueilVue
+13/11/2024 17:34:18 - INFO     - ConnexionVue
+13/11/2024 17:34:22 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+13/11/2024 17:34:22 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+13/11/2024 17:34:22 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000002C15E735AB0>
+13/11/2024 17:34:22 - INFO     - MenuUtilisateurVue
+13/11/2024 17:34:24 - INFO     - RechercheVue
+13/11/2024 17:34:24 - INFO     - RechercheMangaVue
+13/11/2024 17:34:26 - INFO     - choix2 : ['Monster', 'Higurashi WHEN THEY CRY: Abducted by Demons Arc', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul']
+13/11/2024 17:34:27 - INFO     - SelectionMangaVuerecherche
+13/11/2024 17:34:28 - INFO     - AjouterMangaCollecVuerecherche
+13/11/2024 17:34:29 - INFO     - listecolleccohe type: <class 'list'>, contenu: ['Test coll cohere']
+13/11/2024 17:34:29 - INFO     - collection_physique type: <class 'str'>, contenu: Test
+13/11/2024 17:34:29 - INFO     - Contenu de `choix` après ajout de collection_physique: ['Test']
+13/11/2024 17:34:29 - INFO     - listecollections: ['Test', 'Test coll cohere']
+13/11/2024 17:34:29 - INFO     - Ajout de l'option physique : Dans votre collection physique : Test
+13/11/2024 17:34:29 - INFO     - Ajout de l'option cohérente : Dans votre collection cohérente : Test coll cohere
+13/11/2024 17:34:29 - INFO     - Choices avant inquirer: ['Dans votre collection physique : Test', 'Dans votre collection cohérente : Test coll cohere', 'Retour au menu précédent', "Retour vers l'écran d'accueil"]
+13/11/2024 17:34:32 - INFO     - Nom de la collection choisi: Test
+13/11/2024 17:34:32 - INFO     - AjouterMangaPossCollPhys
+13/11/2024 17:34:32 - INFO     - id: 1
+13/11/2024 17:34:50 - INFO     - name 'manga' is not defined
+13/11/2024 17:34:50 - INFO     - AccueilVue
+13/11/2024 17:36:39 - INFO     - Fin de l'application
+13/11/2024 17:36:42 - INFO     - --------------------------------------------------
+13/11/2024 17:36:42 - INFO     - Lancement Application                           
+13/11/2024 17:36:42 - INFO     - --------------------------------------------------
+13/11/2024 17:36:42 - INFO     - AccueilVue
+13/11/2024 17:36:42 - INFO     - ConnexionVue
+13/11/2024 17:36:50 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+13/11/2024 17:36:50 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+13/11/2024 17:36:50 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000017840405AB0>
+13/11/2024 17:36:50 - INFO     - MenuUtilisateurVue
+13/11/2024 17:36:51 - INFO     - RechercheVue
+13/11/2024 17:36:51 - INFO     - RechercheMangaVue
+13/11/2024 17:36:53 - INFO     - choix2 : ['Monster', 'Higurashi WHEN THEY CRY: Abducted by Demons Arc', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul']
+13/11/2024 17:36:53 - INFO     - SelectionMangaVuerecherche
+13/11/2024 17:36:54 - INFO     - AjouterMangaCollecVuerecherche
+13/11/2024 17:36:54 - INFO     - listecolleccohe type: <class 'list'>, contenu: ['Test coll cohere']
+13/11/2024 17:36:54 - INFO     - collection_physique type: <class 'str'>, contenu: Test
+13/11/2024 17:36:54 - INFO     - Contenu de `choix` après ajout de collection_physique: ['Test']
+13/11/2024 17:36:54 - INFO     - listecollections: ['Test', 'Test coll cohere']
+13/11/2024 17:36:54 - INFO     - Ajout de l'option physique : Dans votre collection physique : Test
+13/11/2024 17:36:54 - INFO     - Ajout de l'option cohérente : Dans votre collection cohérente : Test coll cohere
+13/11/2024 17:36:54 - INFO     - Choices avant inquirer: ['Dans votre collection physique : Test', 'Dans votre collection cohérente : Test coll cohere', 'Retour au menu précédent', "Retour vers l'écran d'accueil"]
+13/11/2024 17:36:55 - INFO     - Nom de la collection choisi: Test
+13/11/2024 17:36:55 - INFO     - AjouterMangaPossCollPhys
+13/11/2024 17:36:55 - INFO     - id: 1
+13/11/2024 17:37:10 - INFO     - name 'manga' is not defined
+13/11/2024 17:37:10 - INFO     - AccueilVue
+13/11/2024 17:38:01 - INFO     - Fin de l'application
+13/11/2024 17:38:03 - INFO     - --------------------------------------------------
+13/11/2024 17:38:03 - INFO     - Lancement Application                           
+13/11/2024 17:38:03 - INFO     - --------------------------------------------------
+13/11/2024 17:38:03 - INFO     - AccueilVue
+13/11/2024 17:38:04 - INFO     - ConnexionVue
+13/11/2024 17:38:08 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+13/11/2024 17:38:08 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+13/11/2024 17:38:08 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001C22C9F5AE0>
+13/11/2024 17:38:08 - INFO     - MenuUtilisateurVue
+13/11/2024 17:38:09 - INFO     - RechercheVue
+13/11/2024 17:38:09 - INFO     - RechercheMangaVue
+13/11/2024 17:38:12 - INFO     - choix2 : ['Monster', 'Higurashi WHEN THEY CRY: Abducted by Demons Arc', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul']
+13/11/2024 17:38:12 - INFO     - SelectionMangaVuerecherche
+13/11/2024 17:38:28 - INFO     - AjouterMangaCollecVuerecherche
+13/11/2024 17:38:28 - INFO     - listecolleccohe type: <class 'list'>, contenu: ['Test coll cohere']
+13/11/2024 17:38:28 - INFO     - collection_physique type: <class 'str'>, contenu: Test
+13/11/2024 17:38:28 - INFO     - Contenu de `choix` après ajout de collection_physique: ['Test']
+13/11/2024 17:38:28 - INFO     - listecollections: ['Test', 'Test coll cohere']
+13/11/2024 17:38:28 - INFO     - Ajout de l'option physique : Dans votre collection physique : Test
+13/11/2024 17:38:28 - INFO     - Ajout de l'option cohérente : Dans votre collection cohérente : Test coll cohere
+13/11/2024 17:38:28 - INFO     - Choices avant inquirer: ['Dans votre collection physique : Test', 'Dans votre collection cohérente : Test coll cohere', 'Retour au menu précédent', "Retour vers l'écran d'accueil"]
+13/11/2024 17:38:30 - INFO     - Nom de la collection choisi: Test
+13/11/2024 17:38:30 - INFO     - AjouterMangaPossCollPhys
+13/11/2024 17:38:30 - INFO     - id: 1
+13/11/2024 17:38:36 - INFO     - idm = 1, num = 1, statut = En cours,
+13/11/2024 17:38:36 - INFO     - 'num_manquant'
+13/11/2024 17:38:36 - INFO     - ERREUR:  une valeur NULL viole la contrainte NOT NULL de la colonne « id_manga_p »
+DETAIL:  La ligne en échec contient (null, 6)
+
+13/11/2024 17:38:36 - INFO     - SelectionMangaVuerecherche
+13/11/2024 17:40:41 - INFO     - MenuUtilisateurVue
+13/11/2024 17:40:42 - INFO     - AccueilVue
+13/11/2024 17:40:43 - INFO     - Fin de l'application
+13/11/2024 18:24:56 - INFO     - --------------------------------------------------
+13/11/2024 18:24:56 - INFO     - Lancement Application                           
+13/11/2024 18:24:56 - INFO     - --------------------------------------------------
+13/11/2024 18:24:56 - INFO     - AccueilVue
+13/11/2024 18:24:58 - INFO     - ConnexionVue
+13/11/2024 18:25:02 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+13/11/2024 18:25:02 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+13/11/2024 18:25:02 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001AA93C51AE0>
+13/11/2024 18:25:02 - INFO     - MenuUtilisateurVue
+13/11/2024 18:25:02 - INFO     - RechercheVue
+13/11/2024 18:25:03 - INFO     - RechercheMangaVue
+13/11/2024 18:25:04 - INFO     - choix2 : ['Monster', 'Higurashi WHEN THEY CRY: Abducted by Demons Arc', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul']
+13/11/2024 18:25:05 - INFO     - SelectionMangaVuerecherche
+13/11/2024 18:25:06 - INFO     - AjouterMangaCollecVuerecherche
+13/11/2024 18:25:06 - INFO     - listecolleccohe type: <class 'list'>, contenu: ['Test coll cohere']
+13/11/2024 18:25:06 - INFO     - collection_physique type: <class 'str'>, contenu: Test
+13/11/2024 18:25:06 - INFO     - Contenu de `choix` après ajout de collection_physique: ['Test']
+13/11/2024 18:25:06 - INFO     - listecollections: ['Test', 'Test coll cohere']
+13/11/2024 18:25:06 - INFO     - Ajout de l'option physique : Dans votre collection physique : Test
+13/11/2024 18:25:06 - INFO     - Ajout de l'option cohérente : Dans votre collection cohérente : Test coll cohere
+13/11/2024 18:25:06 - INFO     - Choices avant inquirer: ['Dans votre collection physique : Test', 'Dans votre collection cohérente : Test coll cohere', 'Retour au menu précédent', "Retour vers l'écran d'accueil"]
+13/11/2024 18:25:07 - INFO     - Nom de la collection choisi: Test
+13/11/2024 18:25:07 - INFO     - AjouterMangaPossCollPhys
+13/11/2024 18:25:07 - INFO     - id: 1
+13/11/2024 18:25:14 - INFO     - idm = 1, num = 1, statut = En cours,
+13/11/2024 18:25:14 - INFO     - 'num_manquant'
+13/11/2024 18:25:14 - INFO     - ERREUR:  une valeur NULL viole la contrainte NOT NULL de la colonne « id_manga_p »
+DETAIL:  La ligne en échec contient (null, 6)
+
+13/11/2024 18:25:14 - INFO     - SelectionMangaVuerecherche
+13/11/2024 18:28:57 - INFO     - MenuUtilisateurVue
+13/11/2024 18:28:58 - INFO     - AccueilVue
+13/11/2024 18:28:59 - INFO     - Fin de l'application
+13/11/2024 18:29:02 - INFO     - --------------------------------------------------
+13/11/2024 18:29:02 - INFO     - Lancement Application                           
+13/11/2024 18:29:02 - INFO     - --------------------------------------------------
+13/11/2024 18:29:02 - INFO     - AccueilVue
+13/11/2024 18:29:02 - INFO     - ConnexionVue
+13/11/2024 18:29:07 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+13/11/2024 18:29:07 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+13/11/2024 18:29:07 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000024F743E5AE0>
+13/11/2024 18:29:07 - INFO     - MenuUtilisateurVue
+13/11/2024 18:29:08 - INFO     - RechercheVue
+13/11/2024 18:29:08 - INFO     - RechercheMangaVue
+13/11/2024 18:29:10 - INFO     - choix2 : ['Monster', 'Higurashi WHEN THEY CRY: Abducted by Demons Arc', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul']
+13/11/2024 18:29:10 - INFO     - SelectionMangaVuerecherche
+13/11/2024 18:29:11 - INFO     - AjouterMangaCollecVuerecherche
+13/11/2024 18:29:11 - INFO     - listecolleccohe type: <class 'list'>, contenu: ['Test coll cohere']
+13/11/2024 18:29:11 - INFO     - collection_physique type: <class 'str'>, contenu: Test
+13/11/2024 18:29:11 - INFO     - Contenu de `choix` après ajout de collection_physique: ['Test']
+13/11/2024 18:29:11 - INFO     - listecollections: ['Test', 'Test coll cohere']
+13/11/2024 18:29:11 - INFO     - Ajout de l'option physique : Dans votre collection physique : Test
+13/11/2024 18:29:11 - INFO     - Ajout de l'option cohérente : Dans votre collection cohérente : Test coll cohere
+13/11/2024 18:29:11 - INFO     - Choices avant inquirer: ['Dans votre collection physique : Test', 'Dans votre collection cohérente : Test coll cohere', 'Retour au menu précédent', "Retour vers l'écran d'accueil"]
+13/11/2024 18:29:12 - INFO     - Nom de la collection choisi: Test
+13/11/2024 18:29:12 - INFO     - AjouterMangaPossCollPhys
+13/11/2024 18:29:12 - INFO     - id: 1
+13/11/2024 18:29:15 - INFO     - idm = 1, num = 1, statut = En cours,
+13/11/2024 18:29:15 - INFO     - 'num_manquant'
+13/11/2024 18:29:15 - INFO     - ERREUR:  une valeur NULL viole la contrainte NOT NULL de la colonne « id_manga_p »
+DETAIL:  La ligne en échec contient (null, 6)
+
+13/11/2024 18:29:15 - INFO     - SelectionMangaVuerecherche
+13/11/2024 18:33:14 - INFO     - MenuUtilisateurVue
+13/11/2024 18:33:15 - INFO     - AccueilVue
+13/11/2024 18:33:16 - INFO     - Fin de l'application
+13/11/2024 18:33:18 - INFO     - --------------------------------------------------
+13/11/2024 18:33:18 - INFO     - Lancement Application                           
+13/11/2024 18:33:18 - INFO     - --------------------------------------------------
+13/11/2024 18:33:18 - INFO     - AccueilVue
+13/11/2024 18:33:18 - INFO     - ConnexionVue
+13/11/2024 18:33:22 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+13/11/2024 18:33:22 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+13/11/2024 18:33:22 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000002BDE6685AE0>
+13/11/2024 18:33:22 - INFO     - MenuUtilisateurVue
+13/11/2024 18:33:23 - INFO     - RechercheVue
+13/11/2024 18:33:24 - INFO     - RechercheMangaVue
+13/11/2024 18:33:26 - INFO     - choix2 : ['Monster', 'Higurashi WHEN THEY CRY: Abducted by Demons Arc', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul']
+13/11/2024 18:33:26 - INFO     - SelectionMangaVuerecherche
+13/11/2024 18:33:27 - INFO     - AjouterMangaCollecVuerecherche
+13/11/2024 18:33:27 - INFO     - listecolleccohe type: <class 'list'>, contenu: ['Test coll cohere']
+13/11/2024 18:33:27 - INFO     - collection_physique type: <class 'str'>, contenu: Test
+13/11/2024 18:33:27 - INFO     - Contenu de `choix` après ajout de collection_physique: ['Test']
+13/11/2024 18:33:27 - INFO     - listecollections: ['Test', 'Test coll cohere']
+13/11/2024 18:33:27 - INFO     - Ajout de l'option physique : Dans votre collection physique : Test
+13/11/2024 18:33:27 - INFO     - Ajout de l'option cohérente : Dans votre collection cohérente : Test coll cohere
+13/11/2024 18:33:27 - INFO     - Choices avant inquirer: ['Dans votre collection physique : Test', 'Dans votre collection cohérente : Test coll cohere', 'Retour au menu précédent', "Retour vers l'écran d'accueil"]
+13/11/2024 18:33:28 - INFO     - Nom de la collection choisi: Test
+13/11/2024 18:33:28 - INFO     - AjouterMangaPossCollPhys
+13/11/2024 18:33:28 - INFO     - id: 1
+13/11/2024 18:33:33 - INFO     - idm = 1, num = 1, statut = En cours,
+13/11/2024 18:33:33 - INFO     - 'id_manga_physique'
+13/11/2024 18:33:33 - INFO     - AccueilVue
+13/11/2024 18:37:50 - INFO     - ConnexionVue
+13/11/2024 18:37:53 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+13/11/2024 18:37:53 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+13/11/2024 18:37:53 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000002BDE6922B30>
+13/11/2024 18:37:53 - INFO     - MenuUtilisateurVue
+13/11/2024 18:38:11 - INFO     - RechercheVue
+13/11/2024 18:38:11 - INFO     - RechercheMangaVue
+13/11/2024 18:38:14 - INFO     - choix2 : ['Naruto', 'Naruto: Innocent Heart, Demonic Blood', "Naruto: Itachi's Story", 'Naruto - Mission: Protect the Waterfall Village!', "Naruto: Chibi Sasuke's Sharingan Legend", 'Naruto: The Seventh Hokage and the Scarlet Spring', 'Boruto: Naruto Next Generations', 'Naruto: The Path Lit by the Full Moon']
+13/11/2024 18:38:16 - INFO     - SelectionMangaVuerecherche
+13/11/2024 18:38:17 - INFO     - AjouterMangaCollecVuerecherche
+13/11/2024 18:38:17 - INFO     - listecolleccohe type: <class 'list'>, contenu: ['Test coll cohere']
+13/11/2024 18:38:17 - INFO     - collection_physique type: <class 'str'>, contenu: Test
+13/11/2024 18:38:17 - INFO     - Contenu de `choix` après ajout de collection_physique: ['Test']
+13/11/2024 18:38:17 - INFO     - listecollections: ['Test', 'Test coll cohere']
+13/11/2024 18:38:17 - INFO     - Ajout de l'option physique : Dans votre collection physique : Test
+13/11/2024 18:38:17 - INFO     - Ajout de l'option cohérente : Dans votre collection cohérente : Test coll cohere
+13/11/2024 18:38:17 - INFO     - Choices avant inquirer: ['Dans votre collection physique : Test', 'Dans votre collection cohérente : Test coll cohere', 'Retour au menu précédent', "Retour vers l'écran d'accueil"]
+13/11/2024 18:38:18 - INFO     - Nom de la collection choisi: Test
+13/11/2024 18:38:18 - INFO     - AjouterMangaPossCollPhys
+13/11/2024 18:38:18 - INFO     - id: 9
+13/11/2024 18:38:24 - INFO     - idm = 9, num = 1, statut = En cours,
+13/11/2024 18:38:24 - INFO     - 'id_manga_physique'
+13/11/2024 18:38:24 - INFO     - AccueilVue
+13/11/2024 18:43:38 - INFO     - Fin de l'application
+13/11/2024 18:44:20 - INFO     - --------------------------------------------------
+13/11/2024 18:44:20 - INFO     - Lancement Application                           
+13/11/2024 18:44:20 - INFO     - --------------------------------------------------
+13/11/2024 18:44:20 - INFO     - AccueilVue
+13/11/2024 18:44:21 - INFO     - ConnexionVue
+13/11/2024 18:44:25 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+13/11/2024 18:44:25 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+13/11/2024 18:44:25 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001D8CC1B1AE0>
+13/11/2024 18:44:25 - INFO     - MenuUtilisateurVue
+13/11/2024 18:44:26 - INFO     - RechercheVue
+13/11/2024 18:44:27 - INFO     - RechercheMangaVue
+13/11/2024 18:44:31 - INFO     - choix2 : ['Monster', 'GoGo Monster', 'Monster Collection: The Girl Who Can Deal with Magic Monsters', "The Twenty-Faced Monster's Daughter", 'Eensy-Weensy Monster', 'Little Monster', 'Monster Soul', 'Monster Hunter Orage']
+13/11/2024 18:44:32 - INFO     - SelectionMangaVuerecherche
+13/11/2024 18:44:33 - INFO     - AjouterMangaCollecVuerecherche
+13/11/2024 18:44:33 - INFO     - listecolleccohe type: <class 'list'>, contenu: ['Test coll cohere']
+13/11/2024 18:44:33 - INFO     - collection_physique type: <class 'str'>, contenu: Test
+13/11/2024 18:44:33 - INFO     - Contenu de `choix` après ajout de collection_physique: ['Test']
+13/11/2024 18:44:33 - INFO     - listecollections: ['Test', 'Test coll cohere']
+13/11/2024 18:44:33 - INFO     - Ajout de l'option physique : Dans votre collection physique : Test
+13/11/2024 18:44:33 - INFO     - Ajout de l'option cohérente : Dans votre collection cohérente : Test coll cohere
+13/11/2024 18:44:33 - INFO     - Choices avant inquirer: ['Dans votre collection physique : Test', 'Dans votre collection cohérente : Test coll cohere', 'Retour au menu précédent', "Retour vers l'écran d'accueil"]
+13/11/2024 18:44:33 - INFO     - Nom de la collection choisi: Test
+13/11/2024 18:44:33 - INFO     - AjouterMangaPossCollPhys
+13/11/2024 18:44:33 - INFO     - id: 1029
+13/11/2024 18:44:37 - INFO     - idm = 1029, num = 1, statut = En cours,
+13/11/2024 18:44:37 - INFO     - SelectionMangaVuerecherche
+13/11/2024 18:45:09 - INFO     - MenuUtilisateurVue
+13/11/2024 18:45:11 - INFO     - AccueilVue
+13/11/2024 18:45:12 - INFO     - Fin de l'application
+13/11/2024 19:08:30 - INFO     - --------------------------------------------------
+13/11/2024 19:08:30 - INFO     - Lancement Application                           
+13/11/2024 19:08:30 - INFO     - --------------------------------------------------
+13/11/2024 19:08:30 - INFO     - AccueilVue
+13/11/2024 19:08:31 - INFO     - ConnexionVue
+13/11/2024 19:08:35 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - DEBUT
+13/11/2024 19:08:36 - INFO     -     UtilisateurDao.se_connecter('Ananas35', '*****') - FIN
+13/11/2024 19:08:36 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001609345DAB0>
+13/11/2024 19:08:36 - INFO     - MenuUtilisateurVue
+13/11/2024 19:08:36 - INFO     - RechercheVue
+13/11/2024 19:08:37 - INFO     - RechercheMangaVue
+13/11/2024 19:08:43 - INFO     - choix2 : ['Jujutsu Kaisen', 'Jujutsu Kaisen 0', 'Jujutsu Kaisen: Summer of Ashes, Autumn of Dust', 'Jujutsu Kaisen: Thorny Road at Dawn', 'Jujutsu Kaisen Bonus Manga']
+13/11/2024 19:08:44 - INFO     - SelectionMangaVuerecherche
+13/11/2024 19:08:45 - INFO     - AjouterMangaCollecVuerecherche
+13/11/2024 19:08:45 - INFO     - listecolleccohe type: <class 'list'>, contenu: ['Test coll cohere']
+13/11/2024 19:08:45 - INFO     - collection_physique type: <class 'str'>, contenu: Test
+13/11/2024 19:08:45 - INFO     - Contenu de `choix` après ajout de collection_physique: ['Test']
+13/11/2024 19:08:45 - INFO     - listecollections: ['Test', 'Test coll cohere']
+13/11/2024 19:08:45 - INFO     - Ajout de l'option physique : Dans votre collection physique : Test
+13/11/2024 19:08:45 - INFO     - Ajout de l'option cohérente : Dans votre collection cohérente : Test coll cohere
+13/11/2024 19:08:45 - INFO     - Choices avant inquirer: ['Dans votre collection physique : Test', 'Dans votre collection cohérente : Test coll cohere', 'Retour au menu précédent', "Retour vers l'écran d'accueil"]
+13/11/2024 19:08:47 - INFO     - Nom de la collection choisi: Test
+13/11/2024 19:08:47 - INFO     - AjouterMangaPossCollPhys
+13/11/2024 19:08:47 - INFO     - id: 11132
+13/11/2024 19:09:05 - INFO     - idm = 11132, num = 1, statut = En cours,
+13/11/2024 19:09:05 - INFO     - SelectionMangaVuerecherche
+13/11/2024 19:09:09 - INFO     - MenuUtilisateurVue
+13/11/2024 19:09:10 - INFO     - AccueilVue
+13/11/2024 19:09:12 - INFO     - Fin de l'application
