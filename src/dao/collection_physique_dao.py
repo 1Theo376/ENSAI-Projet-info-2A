@@ -218,9 +218,9 @@ class CollectionPhysiqueDAO:
         if res:
             L_mangas = []
             for elt in res:
-                id_collectionphysique = res["id_collec_physique"]
-                titre_collection = res["titre_collection"]
-                description_collection = res["description_collection"]
+                id_collectionphysique = elt["id_collec_physique"]
+                titre_collection = elt["titre_collection"]
+                description_collection = elt["description_collection"]
                 if elt["id_manga_p"]:
                     L_mangas.append(MangaPossedeDao().trouver_manga_possede_id(elt["id_manga_p"]))
                 else:
@@ -266,14 +266,14 @@ class CollectionPhysiqueDAO:
         if res:
             L_mangas = []
             for elt in res:
-                id = elt["id_collec_physique"]
+                id_c = elt["id_collec_physique"]
                 desc = elt["description_collection"]
                 if elt["id_manga_p"]:
                     L_mangas.append(MangaDao().trouver_manga_par_id(elt["id_manga_p"]))
                 else:
                     L_mangas = []
             collection = Collection_physique(
-                id_collectionphysique=id,
+                id_collectionphysique=id_c,
                 titre_collection=nom,
                 description_collection=desc,
                 Liste_manga=L_mangas,

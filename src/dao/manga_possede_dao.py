@@ -145,7 +145,7 @@ class MangaPossedeDao:
             raise
         liste = []
         for elt in res2:
-            liste.append(res2["num_manquant"])
+            liste.append(elt["num_manquant"])
         manga_possede = None
         if res:
             manga_possede = MangaPossede(
