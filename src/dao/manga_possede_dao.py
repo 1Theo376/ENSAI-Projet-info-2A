@@ -156,3 +156,74 @@ class MangaPossedeDao:
                 num_manquant=liste,
             )
         return manga_possede
+
+    def ajouter_num_manquant(self, num_manquant) -> bool:
+        """Ajout d'un manga possédé dans la base de données
+
+        Parameters
+        ----------
+        manga : MangaPossede
+
+        Returns
+        -------
+        created : bool
+            True si la création est un succès
+            False sinon
+        """
+        res = None
+
+        try:
+            with DBConnection().connection as connection:
+                with connection.cursor() as cursor:
+                    cursor.execute(
+                        "INSERT INTO num_manquant(num_manquant) VALUES "
+                        "(%(num_manquant)s) "
+                        "  RETURNING id_num_manquant ; ",
+                        {
+                            "num_manquant": num_manquant,
+                        },
+                    )
+                    res = cursor.fetchone()
+        except Exception as e:
+            logging.info(e)
+
+        created = False
+        if res:
+            return id_num_manquant
+        return created
+
+    def ajouter_ass_num_manquant(self, id_manga_p, id_num_manquant) -> bool:
+        """Ajout d'un manga possédé dans la base de données
+
+        Parameters
+        ----------
+        manga : MangaPossede
+
+        Returns
+        -------
+        created : bool
+            True si la création est un succès
+            False sinon
+        """
+        res = None
+
+        try:
+            with DBConnection().connection as connection:
+                with connection.cursor() as cursor:
+                    cursor.execute(
+                        "INSERT INTO association_manga_num_manquant(id_manga_p,id_num_manquant) VALUES"
+                        "(%(id_manga_p)s,%(id_num_manquant)s) "
+                        "  RETURNING id_manga_p, id_num_manquant; ",
+                        {
+                            "id_num_manquant": id_num_manquant,
+                            "id_manga_p": id_manga_p
+                        },
+                    )
+                    res = cursor.fetchone()
+        except Exception as e:
+            logging.info(e)
+
+        created = False
+        if res:
+            return id_manga_p, id_num_manquant
+        return created

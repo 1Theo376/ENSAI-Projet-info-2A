@@ -63,9 +63,10 @@ class AjouterMangaPossCollPhys(VueAbstraite):
                 nb_volumes_poss -= 1
         logging.info(f"vol:{volumes_poss}")
         if volume_manga:
-            num_acquis = [i for i in range(1,volume_manga+1)]
+            num_manquant = [i for i in range(1,volume_manga+1)]
             for elt in volumes_poss:
-                num_acquis.remove(elt)
+                num_manquant.remove(elt)
+        logging.info(f"manq:{num_manquant}")
         num_dernier_acquis = int(
             inquirer.text(message="Entrez le numéro du dernier volume acquis du manga : ").execute()
         )
@@ -89,6 +90,9 @@ class AjouterMangaPossCollPhys(VueAbstraite):
         )
         logging.info(f"idm = {manga.id_manga}, num = {num_dernier_acquis}, statut = {Statut},")
         MangaPossedeDao().ajouter_manga_p(mangap)
+        if volume_manga:
+            for elt in num_manquant:
+                MangaPossedeDao().ajouter_ass_num_manquant(mangap.id_manga_p, MangaPossedeDao().ajouter_num_manquant(elt))
         Collection_physique_service().ajouter_mangaposs(
             collection.id_collectionphysique, mangap.id_manga_p
         )
