@@ -158,27 +158,28 @@ class MangaDao(metaclass=Singleton):
                         {"titre": f"%{titre}%"},
                     )
                     res = cursor.fetchall()
-                    # logging.info(f"Débogage : res récupéré avec la valeur : {res}")
-                    liste_mangas = []
-
-                    if res is not None:
-                        for row in res:
-                            manga = Manga(
-                                id_manga=row["id_manga"],
-                                titre=row["titre"],
-                                synopsis=row["synopsis"],
-                                auteur=None,
-                                themes=None,
-                                genre=None,
-                            )
-                            liste_mangas.append(manga)
-                            # logging.info(f"Débogage : manga ajouté à liste_mangas, taille actuelle: {len(liste_mangas)}")
 
         except Exception as e:
             logging.info(e)
             raise
 
-        return liste_mangas
+        liste_mangas = []
+        logging.info("rechercher_manga_par_titre")
+
+        if res:
+            for row in res:
+                manga = Manga(
+                    id_manga=row["id_manga"],
+                    titre=row["titre"],
+                    synopsis=row["synopsis"],
+                    auteur=None,
+                    themes=None,
+                    genre=None,
+                )
+                liste_mangas.append(manga)
+            return liste_mangas if liste_mangas else None
+
+        return None
 
     @log
     def inserer_mangas(self, fichier):

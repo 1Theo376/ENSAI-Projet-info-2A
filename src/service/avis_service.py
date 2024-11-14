@@ -83,7 +83,7 @@ class AvisService:
         liste_pseudo = []
 
         if not liste_avis:
-            return "Aucun avis trouvé."
+            return None
 
         for i in liste_user:
             user = UtilisateurDao().recherche_pseudo_par_id(i)
