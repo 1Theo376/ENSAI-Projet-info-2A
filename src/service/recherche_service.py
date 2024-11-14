@@ -25,7 +25,7 @@ class RechercheService:
             return sous_liste if sous_liste else "Aucun manga trouvé."
         return "Aucun manga trouvé."
 
-    def recherche_utilisateur(self, pseudo, n, a):
+    def recherche_utilisateur(self, pseudo, n, m, a):
         """Recherche un utilisateur par son pseudo
         Parameters
         ----------
@@ -39,7 +39,7 @@ class RechercheService:
         res = UtilisateurDao().rechercher_tous_pseudo(pseudo)
         if res:
             liste = [j.pseudo for j in res]
-            sous_liste = liste[n : n + 8 + a]
+            sous_liste = liste[n: n + m + a]
             long = len(sous_liste)
             return (
                 {"longueur": long, "liste": sous_liste}

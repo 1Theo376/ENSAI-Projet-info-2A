@@ -42,13 +42,14 @@ class RechercheUtilisateurVue(VueAbstraite):
             case "Entrer le pseudo de l'utilisateur recherché":
                 pseudo = inquirer.text(message="Entrer le pseudo : ").execute()
                 n = 0
+                m = 8
                 a = 0
-                long = RechercheService().recherche_utilisateur(pseudo, n, a)["longueur"]
-                res_entier = long // 8
-                res_reste = long % 8
+                long = RechercheService().recherche_utilisateur(pseudo, n, m, a)["longueur"]
+                res_entier = long // m
+                res_reste = long % m
 
                 while n >= 0:
-                    choix2 = RechercheService().recherche_utilisateur(pseudo, n, a)["liste"]
+                    choix2 = RechercheService().recherche_utilisateur(pseudo, n, m, a)["liste"]
 
                     if not choix2:
                         print(f"Aucun utilisateur trouvé pour le pseudo '{pseudo}'.")
@@ -58,6 +59,10 @@ class RechercheUtilisateurVue(VueAbstraite):
 
                     if res_entier == 0 and res_reste == 0:
                         choix2.remove("Afficher la page suivante")
+
+                    if res_entier != long // m:
+                        choix2.extend(["Afficher la page précédente"])
+                        res_entier += 1
 
                     choix3 = inquirer.select(
                         message="Choisissez un utilisateur : ",
@@ -71,11 +76,11 @@ class RechercheUtilisateurVue(VueAbstraite):
 
                     elif choix3 == "Afficher la page suivante":
                         if res_entier != 0:
-                            n = n + 8
+                            n = n + m
                             res_entier -= 1
                         if res_entier == 0 and res_reste != 0:
-                            n = n + 8
-                            a = res_reste - 8
+                            n = n + m
+                            a = res_reste - m
 
                     else:
                         n = -1
@@ -91,9 +96,13 @@ class RechercheUtilisateurVue(VueAbstraite):
                         match choix4:
                             case "Consulter les collections":
                                 from vues.ConsulterCollecVue import CollectionCoherenteVueRecherche
+
                                 return CollectionCoherenteVueRecherche().choisir_menu(choix3)
                             case "Consulter les avis":
-                                from vues.AvisRechercheUtilisateurVue import AvisRechercheUtilisateurVue
+                                from vues.AvisRechercheUtilisateurVue import (
+                                    AvisRechercheUtilisateurVue,
+                                )
+
                                 return AvisRechercheUtilisateurVue().choisir_menu(choix3)
                             case "Retour au menu précédent":
                                 from vues.recherche_vue import RechercheVue
