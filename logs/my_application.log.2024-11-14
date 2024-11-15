@@ -1,0 +1,482 @@
+14/11/2024 15:24:26 - INFO     - --------------------------------------------------
+14/11/2024 15:24:26 - INFO     - Lancement Application
+14/11/2024 15:24:26 - INFO     - --------------------------------------------------
+14/11/2024 15:24:26 - INFO     - AccueilVue
+14/11/2024 15:24:37 - INFO     - InscriptionVue
+14/11/2024 15:24:47 - INFO     - Pseudo : Pika01 (length: 6)
+14/11/2024 15:24:47 - INFO     -     UtilisateurDao.lister_tous() - DEBUT
+14/11/2024 15:24:47 - INFO     -     UtilisateurDao.lister_tous() - FIN
+14/11/2024 15:24:47 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000001A27279DDE0>'] ... (1 elements)
+14/11/2024 15:24:51 - INFO     - Mot de passe haché : 731788685f164f3bfd110d5dc71c9c16c3ee1cb3b235e22a21090b0a559db0e0 (length: 64)
+14/11/2024 15:24:51 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x000001A272895240>',) - DEBUT
+14/11/2024 15:24:51 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x000001A272895240>',) - FIN
+14/11/2024 15:24:51 - INFO     -        └─> Sortie : True
+14/11/2024 15:24:51 - INFO     - AccueilVue
+14/11/2024 15:24:52 - INFO     - ConnexionVue
+14/11/2024 15:24:59 - INFO     -     UtilisateurDao.se_connecter('Pika01', '*****') - DEBUT
+14/11/2024 15:24:59 - INFO     -     UtilisateurDao.se_connecter('Pika01', '*****') - FIN
+14/11/2024 15:24:59 - INFO     -        └─> Sortie : None
+14/11/2024 15:24:59 - INFO     - AccueilVue
+14/11/2024 15:25:00 - INFO     - ConnexionVue
+14/11/2024 15:25:04 - INFO     -     UtilisateurDao.se_connecter('Pika02', '*****') - DEBUT
+14/11/2024 15:25:04 - INFO     -     UtilisateurDao.se_connecter('Pika02', '*****') - FIN
+14/11/2024 15:25:04 - INFO     -        └─> Sortie : None
+14/11/2024 15:25:04 - INFO     - AccueilVue
+14/11/2024 15:25:05 - INFO     - ConnexionVue
+14/11/2024 15:25:12 - INFO     -     UtilisateurDao.se_connecter('Pika01', '*****') - DEBUT
+14/11/2024 15:25:12 - INFO     -     UtilisateurDao.se_connecter('Pika01', '*****') - FIN
+14/11/2024 15:25:12 - INFO     -        └─> Sortie : None
+14/11/2024 15:25:12 - INFO     - AccueilVue
+14/11/2024 15:25:13 - INFO     - ConnexionVue
+14/11/2024 15:25:24 - INFO     -     UtilisateurDao.se_connecter('Pika01', '*****') - DEBUT
+14/11/2024 15:25:24 - INFO     -     UtilisateurDao.se_connecter('Pika01', '*****') - FIN
+14/11/2024 15:25:24 - INFO     -        └─> Sortie : None
+14/11/2024 15:25:24 - INFO     - AccueilVue
+14/11/2024 15:25:26 - INFO     - InscriptionVue
+14/11/2024 15:25:36 - INFO     - Pseudo : Pika03 (length: 6)
+14/11/2024 15:25:36 - INFO     -     UtilisateurDao.lister_tous() - DEBUT
+14/11/2024 15:25:36 - INFO     -     UtilisateurDao.lister_tous() - FIN
+14/11/2024 15:25:36 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000001A27290B670>', '<business_object.utilisateur.Utilisateur object at 0x000001A27290BCD0>'] ... (2 elements)
+14/11/2024 15:25:42 - INFO     - Mot de passe haché : e0e44e5c7064cf42f464e5f56397e797fd2163aba2a80df833b6fd55ef835491 (length: 64)
+14/11/2024 15:25:42 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x000001A272C20D60>',) - DEBUT
+14/11/2024 15:25:42 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x000001A272C20D60>',) - FIN
+14/11/2024 15:25:42 - INFO     -        └─> Sortie : True
+14/11/2024 15:25:42 - INFO     - AccueilVue
+14/11/2024 15:25:43 - INFO     - ConnexionVue
+14/11/2024 15:25:51 - INFO     -     UtilisateurDao.se_connecter('Pika03', '*****') - DEBUT
+14/11/2024 15:25:51 - INFO     -     UtilisateurDao.se_connecter('Pika03', '*****') - FIN
+14/11/2024 15:25:51 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001A273066500>
+14/11/2024 15:25:51 - INFO     - MenuUtilisateurVue
+14/11/2024 15:26:01 - INFO     - RechercheVue
+14/11/2024 15:26:02 - INFO     - f-string: empty expression not allowed (rechercher_utilisateur_vue.py, line 54)
+14/11/2024 15:26:02 - INFO     - AccueilVue
+14/11/2024 15:26:03 - INFO     - ConnexionVue
+14/11/2024 15:26:11 - INFO     -     UtilisateurDao.se_connecter('Pika03', '*****') - DEBUT
+14/11/2024 15:26:11 - INFO     -     UtilisateurDao.se_connecter('Pika03', '*****') - FIN
+14/11/2024 15:26:11 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001A272C21D80>
+14/11/2024 15:26:11 - INFO     - MenuUtilisateurVue
+14/11/2024 15:26:12 - INFO     - RechercheVue
+14/11/2024 15:26:14 - INFO     - f-string: empty expression not allowed (rechercher_utilisateur_vue.py, line 54)
+14/11/2024 15:26:14 - INFO     - AccueilVue
+14/11/2024 15:26:15 - INFO     - Fin de l'application
+14/11/2024 15:27:00 - INFO     - --------------------------------------------------
+14/11/2024 15:27:00 - INFO     - Lancement Application
+14/11/2024 15:27:00 - INFO     - --------------------------------------------------
+14/11/2024 15:27:00 - INFO     - AccueilVue
+14/11/2024 15:27:01 - INFO     - ConnexionVue
+14/11/2024 15:27:07 - INFO     -     UtilisateurDao.se_connecter('Pika03', '*****') - DEBUT
+14/11/2024 15:27:07 - INFO     -     UtilisateurDao.se_connecter('Pika03', '*****') - FIN
+14/11/2024 15:27:07 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000018B24A45B40>
+14/11/2024 15:27:07 - INFO     - MenuUtilisateurVue
+14/11/2024 15:27:09 - INFO     - RechercheVue
+14/11/2024 15:27:10 - INFO     - RechercheUtilisateurVue
+14/11/2024 15:27:18 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('ana',) - DEBUT
+14/11/2024 15:27:18 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('ana',) - FIN
+14/11/2024 15:27:18 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x0000018B24BD5F60>'] ... (1 elements)
+14/11/2024 15:27:18 - INFO     - longueur : 1
+14/11/2024 15:27:18 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('ana',) - DEBUT
+14/11/2024 15:27:18 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('ana',) - FIN
+14/11/2024 15:27:18 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x0000018B24BD5F60>'] ... (1 elements)
+14/11/2024 15:27:31 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('ana',) - DEBUT
+14/11/2024 15:27:31 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('ana',) - FIN
+14/11/2024 15:27:31 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x0000018B24D12260>'] ... (1 elements)
+14/11/2024 15:27:31 - INFO     - string indices must be integers
+14/11/2024 15:27:31 - INFO     - AccueilVue
+14/11/2024 15:27:32 - INFO     - Fin de l'application
+14/11/2024 15:39:42 - INFO     - --------------------------------------------------
+14/11/2024 15:39:42 - INFO     - Lancement Application
+14/11/2024 15:39:42 - INFO     - --------------------------------------------------
+14/11/2024 15:39:42 - INFO     - AccueilVue
+14/11/2024 15:39:43 - INFO     - ConnexionVue
+14/11/2024 15:39:51 - INFO     -     UtilisateurDao.se_connecter('Pika03', '*****') - DEBUT
+14/11/2024 15:39:51 - INFO     -     UtilisateurDao.se_connecter('Pika03', '*****') - FIN
+14/11/2024 15:39:52 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x00000130BF745960>
+14/11/2024 15:39:52 - INFO     - MenuUtilisateurVue
+14/11/2024 15:39:53 - INFO     - RechercheVue
+14/11/2024 15:39:56 - INFO     - RechercheUtilisateurVue
+14/11/2024 15:39:59 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - DEBUT
+14/11/2024 15:39:59 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - FIN
+14/11/2024 15:39:59 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x00000130BF8D5DE0>', '<business_object.utilisateur.Utilisateur object at 0x00000130BF8D5DB0>', '<business_object.utilisateur.Utilisateur object at 0x00000130BF8D5D20>'] ... (3 elements)
+14/11/2024 15:39:59 - INFO     - longueur : 3
+14/11/2024 15:39:59 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - DEBUT
+14/11/2024 15:39:59 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - FIN
+14/11/2024 15:39:59 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x00000130BF8D5D50>', '<business_object.utilisateur.Utilisateur object at 0x00000130BF8D5DB0>', '<business_object.utilisateur.Utilisateur object at 0x00000130BF8D6BC0>'] ... (3 elements)
+14/11/2024 15:40:02 - INFO     - MenuUtilisateurVue
+14/11/2024 15:40:04 - INFO     - AccueilVue
+14/11/2024 15:40:06 - INFO     - Fin de l'application
+14/11/2024 15:40:13 - INFO     - --------------------------------------------------
+14/11/2024 15:40:13 - INFO     - Lancement Application
+14/11/2024 15:40:13 - INFO     - --------------------------------------------------
+14/11/2024 15:40:13 - INFO     - AccueilVue
+14/11/2024 15:40:13 - INFO     - ConnexionVue
+14/11/2024 15:40:19 - INFO     -     UtilisateurDao.se_connecter('Pika03', '*****') - DEBUT
+14/11/2024 15:40:19 - INFO     -     UtilisateurDao.se_connecter('Pika03', '*****') - FIN
+14/11/2024 15:40:19 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000002C4B1441960>
+14/11/2024 15:40:19 - INFO     - MenuUtilisateurVue
+14/11/2024 15:40:20 - INFO     - RechercheVue
+14/11/2024 15:40:21 - INFO     - RechercheMangaVue
+14/11/2024 15:40:22 - INFO     - Fin de l'application
+14/11/2024 15:41:01 - INFO     - --------------------------------------------------
+14/11/2024 15:41:01 - INFO     - Lancement Application
+14/11/2024 15:41:01 - INFO     - --------------------------------------------------
+14/11/2024 15:41:01 - INFO     - AccueilVue
+14/11/2024 15:41:02 - INFO     - ConnexionVue
+14/11/2024 15:41:08 - INFO     -     UtilisateurDao.se_connecter('Pika03', '*****') - DEBUT
+14/11/2024 15:41:08 - INFO     -     UtilisateurDao.se_connecter('Pika03', '*****') - FIN
+14/11/2024 15:41:08 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001F29C615960>
+14/11/2024 15:41:08 - INFO     - MenuUtilisateurVue
+14/11/2024 15:41:09 - INFO     - RechercheVue
+14/11/2024 15:41:09 - INFO     - RechercheMangaVue
+14/11/2024 15:41:12 - INFO     - choix2 : ['Yokohama Kaidashi Kikou', 'Time Stranger Kyoko', 'Tokyo Babylon', 'Pixie Pop: Gokkun Pucho', 'Broken Angels', 'Pet Shop of Horrors: Tokyo', 'Sengoku Nights', 'Tokyo Mew Mew']
+14/11/2024 15:41:14 - INFO     - RechercheVue
+14/11/2024 15:41:16 - INFO     - RechercheUtilisateurVue
+14/11/2024 15:41:19 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('sdgdfg',) - DEBUT
+14/11/2024 15:41:19 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('sdgdfg',) - FIN
+14/11/2024 15:41:19 - INFO     -        └─> Sortie : [] ... (0 elements)
+14/11/2024 15:41:19 - INFO     - cannot unpack non-iterable NoneType object
+14/11/2024 15:41:19 - INFO     - AccueilVue
+14/11/2024 15:41:20 - INFO     - Fin de l'application
+14/11/2024 15:41:59 - INFO     - --------------------------------------------------
+14/11/2024 15:41:59 - INFO     - Lancement Application
+14/11/2024 15:41:59 - INFO     - --------------------------------------------------
+14/11/2024 15:41:59 - INFO     - AccueilVue
+14/11/2024 15:42:00 - INFO     - ConnexionVue
+14/11/2024 15:42:06 - INFO     -     UtilisateurDao.se_connecter('Pika03', '*****') - DEBUT
+14/11/2024 15:42:06 - INFO     -     UtilisateurDao.se_connecter('Pika03', '*****') - FIN
+14/11/2024 15:42:06 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001CA86705960>
+14/11/2024 15:42:06 - INFO     - MenuUtilisateurVue
+14/11/2024 15:42:10 - INFO     - RechercheVue
+14/11/2024 15:42:26 - INFO     - RechercheMangaVue
+14/11/2024 15:42:28 - INFO     - choix2 : Aucun manga trouvé.
+14/11/2024 15:42:28 - INFO     - choix2 : Aucun manga trouvé.
+14/11/2024 15:42:30 - INFO     - RechercheVue
+14/11/2024 15:42:31 - INFO     - VueAbstraite.afficher() missing 1 required positional argument: 'self'
+14/11/2024 15:42:31 - INFO     - AccueilVue
+14/11/2024 15:42:32 - INFO     - Fin de l'application
+14/11/2024 15:43:50 - INFO     - --------------------------------------------------
+14/11/2024 15:43:50 - INFO     - Lancement Application
+14/11/2024 15:43:50 - INFO     - --------------------------------------------------
+14/11/2024 15:43:50 - INFO     - AccueilVue
+14/11/2024 15:43:52 - INFO     - ConnexionVue
+14/11/2024 15:43:57 - INFO     -     UtilisateurDao.se_connecter('Pika03', '*****') - DEBUT
+14/11/2024 15:43:57 - INFO     -     UtilisateurDao.se_connecter('Pika03', '*****') - FIN
+14/11/2024 15:43:57 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000027031C41990>
+14/11/2024 15:43:57 - INFO     - MenuUtilisateurVue
+14/11/2024 15:43:58 - INFO     - RechercheVue
+14/11/2024 15:44:01 - INFO     - RechercheMangaVue
+14/11/2024 15:44:03 - INFO     - choix2 : None
+14/11/2024 15:44:03 - INFO     - choix2 : None
+14/11/2024 15:44:06 - INFO     - RechercheVue
+14/11/2024 15:44:07 - INFO     - VueAbstraite.afficher() missing 1 required positional argument: 'self'
+14/11/2024 15:44:07 - INFO     - AccueilVue
+14/11/2024 15:44:08 - INFO     - Fin de l'application
+14/11/2024 15:47:02 - INFO     - --------------------------------------------------
+14/11/2024 15:47:02 - INFO     - Lancement Application
+14/11/2024 15:47:02 - INFO     - --------------------------------------------------
+14/11/2024 15:47:02 - INFO     - AccueilVue
+14/11/2024 15:47:03 - INFO     - ConnexionVue
+14/11/2024 15:47:10 - INFO     -     UtilisateurDao.se_connecter('Pika03', '*****') - DEBUT
+14/11/2024 15:47:10 - INFO     -     UtilisateurDao.se_connecter('Pika03', '*****') - FIN
+14/11/2024 15:47:10 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000019139C05BD0>
+14/11/2024 15:47:10 - INFO     - MenuUtilisateurVue
+14/11/2024 15:47:12 - INFO     - RechercheVue
+14/11/2024 15:47:12 - INFO     - RechercheMangaVue
+14/11/2024 15:47:14 - INFO     - choix2 : None
+14/11/2024 15:47:14 - INFO     - choix2 : None
+14/11/2024 15:47:16 - INFO     - RechercheVue
+14/11/2024 15:47:17 - INFO     - RechercheUtilisateurVue
+14/11/2024 15:47:18 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('dsfdsf',) - DEBUT
+14/11/2024 15:47:18 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('dsfdsf',) - FIN
+14/11/2024 15:47:18 - INFO     -        └─> Sortie : [] ... (0 elements)
+14/11/2024 15:47:18 - INFO     - cannot unpack non-iterable NoneType object
+14/11/2024 15:47:18 - INFO     - AccueilVue
+14/11/2024 15:47:20 - INFO     - Fin de l'application
+14/11/2024 15:54:12 - INFO     - --------------------------------------------------
+14/11/2024 15:54:12 - INFO     - Lancement Application
+14/11/2024 15:54:12 - INFO     - --------------------------------------------------
+14/11/2024 15:54:12 - INFO     - AccueilVue
+14/11/2024 15:54:13 - INFO     - ConnexionVue
+14/11/2024 15:54:19 - INFO     -     UtilisateurDao.se_connecter('Pika03', '*****') - DEBUT
+14/11/2024 15:54:19 - INFO     -     UtilisateurDao.se_connecter('Pika03', '*****') - FIN
+14/11/2024 15:54:19 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001EF22225960>
+14/11/2024 15:54:19 - INFO     - MenuUtilisateurVue
+14/11/2024 15:54:20 - INFO     - RechercheVue
+14/11/2024 15:54:21 - INFO     - RechercheUtilisateurVue
+14/11/2024 15:54:23 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('ygu',) - DEBUT
+14/11/2024 15:54:23 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('ygu',) - FIN
+14/11/2024 15:54:23 - INFO     -        └─> Sortie : [] ... (0 elements)
+14/11/2024 15:54:23 - INFO     - cannot unpack non-iterable NoneType object
+14/11/2024 15:54:23 - INFO     - AccueilVue
+14/11/2024 15:54:25 - INFO     - Fin de l'application
+14/11/2024 15:55:27 - INFO     - --------------------------------------------------
+14/11/2024 15:55:27 - INFO     - Lancement Application
+14/11/2024 15:55:27 - INFO     - --------------------------------------------------
+14/11/2024 15:55:27 - INFO     - AccueilVue
+14/11/2024 15:55:28 - INFO     - ConnexionVue
+14/11/2024 15:55:33 - INFO     -     UtilisateurDao.se_connecter('Pika03', '*****') - DEBUT
+14/11/2024 15:55:33 - INFO     -     UtilisateurDao.se_connecter('Pika03', '*****') - FIN
+14/11/2024 15:55:33 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x00000176BC921990>
+14/11/2024 15:55:33 - INFO     - MenuUtilisateurVue
+14/11/2024 15:55:34 - INFO     - RechercheVue
+14/11/2024 15:55:36 - INFO     - RechercheUtilisateurVue
+14/11/2024 15:55:38 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('guyg',) - DEBUT
+14/11/2024 15:55:38 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('guyg',) - FIN
+14/11/2024 15:55:38 - INFO     -        └─> Sortie : [] ... (0 elements)
+14/11/2024 15:55:38 - INFO     - cannot unpack non-iterable NoneType object
+14/11/2024 15:55:38 - INFO     - AccueilVue
+14/11/2024 15:55:39 - INFO     - Fin de l'application
+14/11/2024 15:56:09 - INFO     - --------------------------------------------------
+14/11/2024 15:56:09 - INFO     - Lancement Application
+14/11/2024 15:56:09 - INFO     - --------------------------------------------------
+14/11/2024 15:56:09 - INFO     - AccueilVue
+14/11/2024 15:56:10 - INFO     - ConnexionVue
+14/11/2024 15:56:18 - INFO     -     UtilisateurDao.se_connecter('Pika03', '*****') - DEBUT
+14/11/2024 15:56:18 - INFO     -     UtilisateurDao.se_connecter('Pika03', '*****') - FIN
+14/11/2024 15:56:18 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000014D45F09C90>
+14/11/2024 15:56:18 - INFO     - MenuUtilisateurVue
+14/11/2024 15:56:19 - INFO     - RechercheVue
+14/11/2024 15:56:21 - INFO     - RechercheUtilisateurVue
+14/11/2024 15:56:23 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('yutu',) - DEBUT
+14/11/2024 15:56:23 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('yutu',) - FIN
+14/11/2024 15:56:23 - INFO     -        └─> Sortie : [] ... (0 elements)
+14/11/2024 15:56:23 - INFO     - cannot unpack non-iterable NoneType object
+14/11/2024 15:56:23 - INFO     - AccueilVue
+14/11/2024 15:56:24 - INFO     - Fin de l'application
+14/11/2024 16:18:22 - INFO     - --------------------------------------------------
+14/11/2024 16:18:22 - INFO     - Lancement Application
+14/11/2024 16:18:22 - INFO     - --------------------------------------------------
+14/11/2024 16:18:22 - INFO     - AccueilVue
+14/11/2024 16:18:23 - INFO     - ConnexionVue
+14/11/2024 16:18:29 - INFO     -     UtilisateurDao.se_connecter('Pika03', '*****') - DEBUT
+14/11/2024 16:18:29 - INFO     -     UtilisateurDao.se_connecter('Pika03', '*****') - FIN
+14/11/2024 16:18:29 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x00000258312B5A20>
+14/11/2024 16:18:29 - INFO     - MenuUtilisateurVue
+14/11/2024 16:18:31 - INFO     - RechercheVue
+14/11/2024 16:18:45 - INFO     - RechercheUtilisateurVue
+14/11/2024 16:18:47 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('sdf',) - DEBUT
+14/11/2024 16:18:47 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('sdf',) - FIN
+14/11/2024 16:18:47 - INFO     -        └─> Sortie : None
+14/11/2024 16:18:47 - INFO     - object of type 'NoneType' has no len()
+14/11/2024 16:18:47 - INFO     - AccueilVue
+14/11/2024 16:18:48 - INFO     - Fin de l'application
+14/11/2024 16:19:16 - INFO     - --------------------------------------------------
+14/11/2024 16:19:16 - INFO     - Lancement Application
+14/11/2024 16:19:16 - INFO     - --------------------------------------------------
+14/11/2024 16:19:16 - INFO     - AccueilVue
+14/11/2024 16:19:16 - INFO     - ConnexionVue
+14/11/2024 16:19:22 - INFO     -     UtilisateurDao.se_connecter('Pika03', '*****') - DEBUT
+14/11/2024 16:19:22 - INFO     -     UtilisateurDao.se_connecter('Pika03', '*****') - FIN
+14/11/2024 16:19:22 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001864F3D5990>
+14/11/2024 16:19:22 - INFO     - MenuUtilisateurVue
+14/11/2024 16:19:23 - INFO     - RechercheVue
+14/11/2024 16:19:27 - INFO     - RechercheUtilisateurVue
+14/11/2024 16:19:28 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('sdf',) - DEBUT
+14/11/2024 16:19:28 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('sdf',) - FIN
+14/11/2024 16:19:28 - INFO     -        └─> Sortie : None
+14/11/2024 16:19:28 - INFO     - cannot unpack non-iterable NoneType object
+14/11/2024 16:19:28 - INFO     - AccueilVue
+14/11/2024 16:19:30 - INFO     - Fin de l'application
+14/11/2024 16:23:26 - INFO     - --------------------------------------------------
+14/11/2024 16:23:26 - INFO     - Lancement Application
+14/11/2024 16:23:26 - INFO     - --------------------------------------------------
+14/11/2024 16:23:26 - INFO     - AccueilVue
+14/11/2024 16:23:27 - INFO     - ConnexionVue
+14/11/2024 16:23:33 - INFO     -     UtilisateurDao.se_connecter('Pika03', '*****') - DEBUT
+14/11/2024 16:23:34 - INFO     -     UtilisateurDao.se_connecter('Pika03', '*****') - FIN
+14/11/2024 16:23:34 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000023B50545A20>
+14/11/2024 16:23:34 - INFO     - MenuUtilisateurVue
+14/11/2024 16:23:34 - INFO     - RechercheVue
+14/11/2024 16:23:36 - INFO     - RechercheUtilisateurVue
+14/11/2024 16:23:37 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('sdgf',) - DEBUT
+14/11/2024 16:23:37 - INFO     - res de rechercher tous pseudo : []
+14/11/2024 16:23:37 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('sdgf',) - FIN
+14/11/2024 16:23:37 - INFO     -        └─> Sortie : None
+14/11/2024 16:23:37 - INFO     - res recherche_utilisateur : None
+14/11/2024 16:23:37 - INFO     - cannot unpack non-iterable NoneType object
+14/11/2024 16:23:37 - INFO     - AccueilVue
+14/11/2024 16:23:38 - INFO     - Fin de l'application
+14/11/2024 16:26:51 - INFO     - --------------------------------------------------
+14/11/2024 16:26:51 - INFO     - Lancement Application
+14/11/2024 16:26:51 - INFO     - --------------------------------------------------
+14/11/2024 16:26:51 - INFO     - AccueilVue
+14/11/2024 16:26:52 - INFO     - ConnexionVue
+14/11/2024 16:26:58 - INFO     -     UtilisateurDao.se_connecter('Pika03', '*****') - DEBUT
+14/11/2024 16:26:58 - INFO     -     UtilisateurDao.se_connecter('Pika03', '*****') - FIN
+14/11/2024 16:26:58 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x00000201A1A61990>
+14/11/2024 16:26:58 - INFO     - MenuUtilisateurVue
+14/11/2024 16:26:59 - INFO     - RechercheVue
+14/11/2024 16:27:00 - INFO     - RechercheUtilisateurVue
+14/11/2024 16:27:02 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('ret',) - DEBUT
+14/11/2024 16:27:02 - INFO     - res de rechercher tous pseudo : []
+14/11/2024 16:27:02 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('ret',) - FIN
+14/11/2024 16:27:02 - INFO     -        └─> Sortie : None
+14/11/2024 16:27:02 - INFO     - res recherche_utilisateur : None
+14/11/2024 16:27:02 - INFO     - cannot unpack non-iterable NoneType object
+14/11/2024 16:27:02 - INFO     - AccueilVue
+14/11/2024 16:27:03 - INFO     - Fin de l'application
+14/11/2024 16:29:06 - INFO     - --------------------------------------------------
+14/11/2024 16:29:06 - INFO     - Lancement Application
+14/11/2024 16:29:06 - INFO     - --------------------------------------------------
+14/11/2024 16:29:06 - INFO     - AccueilVue
+14/11/2024 16:29:07 - INFO     - ConnexionVue
+14/11/2024 16:29:12 - INFO     -     UtilisateurDao.se_connecter('Pika03', '*****') - DEBUT
+14/11/2024 16:29:12 - INFO     -     UtilisateurDao.se_connecter('Pika03', '*****') - FIN
+14/11/2024 16:29:12 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000029AAE0D5990>
+14/11/2024 16:29:12 - INFO     - MenuUtilisateurVue
+14/11/2024 16:29:13 - INFO     - RechercheVue
+14/11/2024 16:29:14 - INFO     - RechercheMangaVue
+14/11/2024 16:29:17 - INFO     - choix2 : ['Monster', 'BECK: Mongolian Chop Squad', 'Demon Diary', 'Demon Lord Dante vs. Getter Robo G', 'Love or Money', 'Missing: Kamikakushi no Monogatari', 'Monochrome Factor', 'The Demon Ororon']
+14/11/2024 16:29:20 - INFO     - RechercheVue
+14/11/2024 16:29:21 - INFO     - MenuUtilisateurVue
+14/11/2024 16:29:22 - INFO     - AccueilVue
+14/11/2024 16:29:24 - INFO     - Fin de l'application
+14/11/2024 16:34:33 - INFO     - --------------------------------------------------
+14/11/2024 16:34:33 - INFO     - Lancement Application
+14/11/2024 16:34:33 - INFO     - --------------------------------------------------
+14/11/2024 16:34:33 - INFO     - AccueilVue
+14/11/2024 16:34:34 - INFO     - ConnexionVue
+14/11/2024 16:34:39 - INFO     -     UtilisateurDao.se_connecter('Pika03', '*****') - DEBUT
+14/11/2024 16:34:39 - INFO     -     UtilisateurDao.se_connecter('Pika03', '*****') - FIN
+14/11/2024 16:34:39 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000020E84755990>
+14/11/2024 16:34:39 - INFO     - MenuUtilisateurVue
+14/11/2024 16:34:41 - INFO     - RechercheVue
+14/11/2024 16:34:44 - INFO     - RechercheUtilisateurVue
+14/11/2024 16:34:45 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('dsrgf',) - DEBUT
+14/11/2024 16:34:45 - INFO     - res de rechercher tous pseudo : []
+14/11/2024 16:34:45 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('dsrgf',) - FIN
+14/11/2024 16:34:45 - INFO     -        └─> Sortie : None
+14/11/2024 16:34:45 - INFO     - cannot unpack non-iterable NoneType object
+14/11/2024 16:34:45 - INFO     - AccueilVue
+14/11/2024 16:34:47 - INFO     - Fin de l'application
+14/11/2024 16:39:30 - INFO     - --------------------------------------------------
+14/11/2024 16:39:30 - INFO     - Lancement Application
+14/11/2024 16:39:30 - INFO     - --------------------------------------------------
+14/11/2024 16:39:30 - INFO     - AccueilVue
+14/11/2024 16:39:30 - INFO     - ConnexionVue
+14/11/2024 16:39:36 - INFO     -     UtilisateurDao.se_connecter('Pika03', '*****') - DEBUT
+14/11/2024 16:39:36 - INFO     -     UtilisateurDao.se_connecter('Pika03', '*****') - FIN
+14/11/2024 16:39:36 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000018E33FA5990>
+14/11/2024 16:39:36 - INFO     - MenuUtilisateurVue
+14/11/2024 16:39:37 - INFO     - RechercheVue
+14/11/2024 16:39:38 - INFO     - RechercheMangaVue
+14/11/2024 16:39:39 - INFO     - name 'm' is not defined
+14/11/2024 16:39:39 - INFO     - AccueilVue
+14/11/2024 16:39:40 - INFO     - Fin de l'application
+14/11/2024 16:46:59 - INFO     - --------------------------------------------------
+14/11/2024 16:46:59 - INFO     - Lancement Application
+14/11/2024 16:46:59 - INFO     - --------------------------------------------------
+14/11/2024 16:46:59 - INFO     - AccueilVue
+14/11/2024 16:47:00 - INFO     - ConnexionVue
+14/11/2024 16:47:05 - INFO     -     UtilisateurDao.se_connecter('Pika03', '*****') - DEBUT
+14/11/2024 16:47:05 - INFO     -     UtilisateurDao.se_connecter('Pika03', '*****') - FIN
+14/11/2024 16:47:05 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000002C916A45990>
+14/11/2024 16:47:05 - INFO     - MenuUtilisateurVue
+14/11/2024 16:47:06 - INFO     - RechercheVue
+14/11/2024 16:47:07 - INFO     - RechercheMangaVue
+14/11/2024 16:47:08 - INFO     - 'Manga' object has no attribute 'pseudo'
+14/11/2024 16:47:08 - INFO     - AccueilVue
+14/11/2024 16:47:10 - INFO     - Fin de l'application
+14/11/2024 16:48:07 - INFO     - --------------------------------------------------
+14/11/2024 16:48:07 - INFO     - Lancement Application
+14/11/2024 16:48:07 - INFO     - --------------------------------------------------
+14/11/2024 16:48:07 - INFO     - AccueilVue
+14/11/2024 16:48:07 - INFO     - ConnexionVue
+14/11/2024 16:48:12 - INFO     -     UtilisateurDao.se_connecter('Pika03', '*****') - DEBUT
+14/11/2024 16:48:12 - INFO     -     UtilisateurDao.se_connecter('Pika03', '*****') - FIN
+14/11/2024 16:48:12 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000029FE8085990>
+14/11/2024 16:48:12 - INFO     - MenuUtilisateurVue
+14/11/2024 16:48:12 - INFO     - RechercheVue
+14/11/2024 16:48:14 - INFO     - RechercheMangaVue
+14/11/2024 16:48:15 - INFO     - cannot unpack non-iterable NoneType object
+14/11/2024 16:48:15 - INFO     - AccueilVue
+14/11/2024 16:48:16 - INFO     - Fin de l'application
+14/11/2024 16:50:30 - INFO     - --------------------------------------------------
+14/11/2024 16:50:30 - INFO     - Lancement Application
+14/11/2024 16:50:30 - INFO     - --------------------------------------------------
+14/11/2024 16:50:30 - INFO     - AccueilVue
+14/11/2024 16:50:31 - INFO     - ConnexionVue
+14/11/2024 16:50:35 - INFO     -     UtilisateurDao.se_connecter('Pika03', '*****') - DEBUT
+14/11/2024 16:50:35 - INFO     -     UtilisateurDao.se_connecter('Pika03', '*****') - FIN
+14/11/2024 16:50:35 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001A5F3415990>
+14/11/2024 16:50:35 - INFO     - MenuUtilisateurVue
+14/11/2024 16:50:36 - INFO     - RechercheVue
+14/11/2024 16:50:38 - INFO     - RechercheUtilisateurVue
+14/11/2024 16:50:40 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('df',) - DEBUT
+14/11/2024 16:50:40 - INFO     - res de rechercher tous pseudo : []
+14/11/2024 16:50:40 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('df',) - FIN
+14/11/2024 16:50:40 - INFO     -        └─> Sortie : None
+14/11/2024 16:50:40 - INFO     - cannot unpack non-iterable NoneType object
+14/11/2024 16:50:40 - INFO     - AccueilVue
+14/11/2024 16:50:41 - INFO     - Fin de l'application
+14/11/2024 16:54:33 - INFO     - --------------------------------------------------
+14/11/2024 16:54:33 - INFO     - Lancement Application
+14/11/2024 16:54:33 - INFO     - --------------------------------------------------
+14/11/2024 16:54:33 - INFO     - AccueilVue
+14/11/2024 16:54:34 - INFO     - ConnexionVue
+14/11/2024 16:54:38 - INFO     -     UtilisateurDao.se_connecter('Pika03', '*****') - DEBUT
+14/11/2024 16:54:38 - INFO     -     UtilisateurDao.se_connecter('Pika03', '*****') - FIN
+14/11/2024 16:54:38 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001FDE5A45960>
+14/11/2024 16:54:38 - INFO     - MenuUtilisateurVue
+14/11/2024 16:54:39 - INFO     - RechercheVue
+14/11/2024 16:54:40 - INFO     - RechercheMangaVue
+14/11/2024 16:54:42 - INFO     - rechercher_manga_par_titre
+14/11/2024 16:54:42 - INFO     - recherche_manga_par_t2
+14/11/2024 16:54:42 - INFO     - longueur : 1
+14/11/2024 16:54:42 - INFO     - rechercher_manga_par_titre
+14/11/2024 16:54:42 - INFO     - recherche_manga_par_t2
+14/11/2024 16:54:42 - INFO     - rechercher_manga_par_titre
+14/11/2024 16:54:42 - INFO     - recherche_manga_par_t2
+14/11/2024 16:54:42 - INFO     - choix2 : ['Gate: Where the JSDF Fought']
+14/11/2024 16:54:45 - INFO     - RechercheVue
+14/11/2024 16:54:46 - INFO     - RechercheMangaVue
+14/11/2024 16:54:49 - INFO     - rechercher_manga_par_titre
+14/11/2024 16:54:49 - INFO     - recherche_manga_par_t2
+14/11/2024 16:54:49 - INFO     - cannot unpack non-iterable NoneType object
+14/11/2024 16:54:49 - INFO     - AccueilVue
+14/11/2024 16:54:50 - INFO     - Fin de l'application
+14/11/2024 16:54:53 - INFO     - --------------------------------------------------
+14/11/2024 16:54:53 - INFO     - Lancement Application
+14/11/2024 16:54:53 - INFO     - --------------------------------------------------
+14/11/2024 16:54:53 - INFO     - AccueilVue
+14/11/2024 16:54:53 - INFO     - ConnexionVue
+14/11/2024 16:55:01 - INFO     -     UtilisateurDao.se_connecter('Pika03', '*****') - DEBUT
+14/11/2024 16:55:01 - INFO     -     UtilisateurDao.se_connecter('Pika03', '*****') - FIN
+14/11/2024 16:55:01 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000018147691B70>
+14/11/2024 16:55:01 - INFO     - MenuUtilisateurVue
+14/11/2024 16:55:02 - INFO     - RechercheVue
+14/11/2024 16:55:04 - INFO     - RechercheUtilisateurVue
+14/11/2024 16:55:06 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('sdgdfgdfgh',) - DEBUT
+14/11/2024 16:55:06 - INFO     - res de rechercher tous pseudo : []
+14/11/2024 16:55:06 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('sdgdfgdfgh',) - FIN
+14/11/2024 16:55:06 - INFO     -        └─> Sortie : None
+14/11/2024 16:55:06 - INFO     - cannot unpack non-iterable NoneType object
+14/11/2024 16:55:06 - INFO     - AccueilVue
+14/11/2024 16:55:09 - INFO     - Fin de l'application
+14/11/2024 16:58:07 - INFO     - --------------------------------------------------
+14/11/2024 16:58:07 - INFO     - Lancement Application
+14/11/2024 16:58:07 - INFO     - --------------------------------------------------
+14/11/2024 16:58:07 - INFO     - AccueilVue
+14/11/2024 16:58:20 - INFO     - Fin de l'application
+14/11/2024 16:58:24 - INFO     - --------------------------------------------------
+14/11/2024 16:58:24 - INFO     - Lancement Application
+14/11/2024 16:58:24 - INFO     - --------------------------------------------------
+14/11/2024 16:58:24 - INFO     - AccueilVue
+14/11/2024 16:58:25 - INFO     - ConnexionVue
+14/11/2024 16:58:31 - INFO     -     UtilisateurDao.se_connecter('Pika03', '*****') - DEBUT
+14/11/2024 16:58:31 - INFO     -     UtilisateurDao.se_connecter('Pika03', '*****') - FIN
+14/11/2024 16:58:31 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000025251A65990>
+14/11/2024 16:58:31 - INFO     - MenuUtilisateurVue
+14/11/2024 16:58:32 - INFO     - RechercheVue
+14/11/2024 16:58:34 - INFO     - RechercheUtilisateurVue
+14/11/2024 16:58:36 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('swfxdf',) - DEBUT
+14/11/2024 16:58:36 - INFO     - res de rechercher tous pseudo : []
+14/11/2024 16:58:36 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('swfxdf',) - FIN
+14/11/2024 16:58:36 - INFO     -        └─> Sortie : None
+14/11/2024 16:58:36 - INFO     - cannot unpack non-iterable NoneType object
+14/11/2024 16:58:36 - INFO     - AccueilVue
+14/11/2024 16:58:37 - INFO     - ConnexionVue
+14/11/2024 16:58:40 - INFO     -     UtilisateurDao.se_connecter('qrfg', '*****') - DEBUT
+14/11/2024 16:58:40 - INFO     -     UtilisateurDao.se_connecter('qrfg', '*****') - FIN
+14/11/2024 16:58:40 - INFO     -        └─> Sortie : None
+14/11/2024 16:58:40 - INFO     - AccueilVue
+14/11/2024 16:58:42 - INFO     - Fin de l'application
