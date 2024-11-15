@@ -49,8 +49,8 @@ class RechercheMangaVue(VueAbstraite):
                     choix3 = inquirer.select(message="Choisissez un manga :", choices=choix2).execute()
 
                     if choix3 == "Retour au menu précédent":
-                        from vues.menu_utilisateur_vue import MenuUtilisateurVue
-                        return MenuUtilisateurVue().choisir_menu()
+                        from vues.recherche_vue import RechercheVue
+                        return RechercheVue()
                     elif choix3 == "Afficher la page suivante":
                         n += m
                     elif choix3 == "Afficher la page précédente":
@@ -60,6 +60,5 @@ class RechercheMangaVue(VueAbstraite):
                         from vues.Selection_manga_vue_recherche import SelectionMangaVuerecherche
                         return SelectionMangaVuerecherche().choisir_menu(choix3)
 
-                # Retour à l'accueil si aucune option choisie
                 from vues.menu_utilisateur_vue import MenuUtilisateurVue
                 return MenuUtilisateurVue()

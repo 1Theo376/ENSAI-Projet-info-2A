@@ -68,9 +68,11 @@ class AjouterMangaCollecVuerecherche(VueAbstraite):
         ).execute()
 
         if choixp == "Retour au menu précédent":
-            pass
+            from vues.Selection_manga_vue_recherche import SelectionMangaVuerecherche
+            return SelectionMangaVuerecherche().choisir_menu(choix3)
         elif choixp == "Retour vers l'écran d'accueil":
-            pass
+            from vues.menu_utilisateur_vue import MenuUtilisateurVue
+            return MenuUtilisateurVue()
         else:
             nom = choixp.split(": ")[1]
             logging.info(f"Nom de la collection choisi: {nom}")
