@@ -69,6 +69,7 @@ class RechercheService:
 
     def recherche_collec_cohe_par_id(self, id):
         res = CollectionCoherenteDAO().trouver_collec_cohe_id_user(id)
+        logging.info(f"res de recherche_collec_cohe_par_id : {res}")
         if res:
             liste = [collec.titre_collection for collec in res]
             return liste

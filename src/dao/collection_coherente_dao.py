@@ -208,6 +208,7 @@ class CollectionCoherenteDAO:
             logging.info(e)
             raise
         collections = []
+        logging.info(f"res trouver_collec_cohe_id_user : {res}")
         if res:
             for elt in res:
                 collections.append(
@@ -218,8 +219,8 @@ class CollectionCoherenteDAO:
                         Liste_manga=None,
                     )
                 )
-
-        return collections
+            return collections
+        return None
 
     def trouver_collec_cohe_nom(self, nom, idu) -> CollectionCoherente:
         """trouver une collection grâce à son nom

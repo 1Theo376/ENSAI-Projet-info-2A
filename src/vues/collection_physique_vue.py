@@ -15,15 +15,20 @@ class CollectionPhysiqueVue(VueAbstraite):
         vue
             Retourne la vue choisie par l'utilisateur dans le terminal
         """
-        choix3 = inquirer.select(
-            message="Que voulez vous faire dans votre collection Physique : ",
-            choices=[
+        choix = [
                 "Consulter/Modifier les mangas de la collection",
                 "Consulter la description de la collection",
                 "Modifier titre de la collection",
                 "Modifier description de la collection",
-                "Retour au menu précédent",
-            ],
+                "Retour au menu précédent"
+            ]
+
+        if not CollectionPhysiqueDAO().trouver_collec_phys_id_user(Session().utilisateur.id).Liste_manga :
+            choix.remove("Consulter/Modifier les mangas de la collection")
+
+        choix3 = inquirer.select(
+            message="Que voulez vous faire dans votre collection Physique : ",
+            choices=choix
         ).execute()
         if choix3 == "Consulter/Modifier les mangas de la collection":
 

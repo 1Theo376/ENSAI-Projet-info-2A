@@ -17,9 +17,8 @@ class CollectionCoherenteVue(VueAbstraite):
         choix = RechercheService().recherche_collec_cohe_par_id(Session().utilisateur.id)
 
         if not choix:
-            print(f"Aucune collection trouvée")
+            print("Aucune collection trouvée.")
             from vues.menu_utilisateur_vue import MenuUtilisateurVue
-
             return MenuUtilisateurVue().choisir_menu()
 
         choix.extend(["Retour au menu précédent", "Afficher la page suivante"])

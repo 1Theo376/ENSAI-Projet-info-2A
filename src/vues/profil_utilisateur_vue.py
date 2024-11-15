@@ -3,6 +3,9 @@ from vues.vue_abstraite import VueAbstraite
 from vues.session import Session
 from service.collection_coherente_service import CollectionCoherenteService
 from service.collection_physique_service import Collection_physique_service
+from dao.collection_physique_dao import CollectionPhysiqueDAO
+from dao.collection_coherente_dao import CollectionCoherenteDAO
+import logging
 
 
 class EcranDuProfilVue(VueAbstraite):
@@ -25,9 +28,7 @@ class EcranDuProfilVue(VueAbstraite):
 
         print("\n" + "-" * 50 + "\nÉcran du Profil\n" + "-" * 50 + "\n")
 
-        choix = inquirer.select(
-            message="Faites votre choix :",
-            choices=[
+        choix = [
                 "Consulter mes collections cohérentes",
                 "Consulter ma collection physique",
                 "Consulter ses avis",
@@ -35,7 +36,17 @@ class EcranDuProfilVue(VueAbstraite):
                 "Créer une collection physique",
                 "Retour vers le menu précédent",
                 "Supprimer mon compte",
-            ],
+            ]
+
+        if not CollectionPhysiqueDAO().trouver_collec_phys_id_user(Session().utilisateur.id):
+            choix.remove("Consulter ma collection physique")
+
+        if not CollectionCoherenteDAO().trouver_collec_cohe_id_user(Session().utilisateur.id):
+            choix.remove("Consulter mes collections cohérentes")
+
+        choix = inquirer.select(
+            message="Faites votre choix :",
+            choices=choix,
         ).execute()
 
         match choix:
@@ -61,10 +72,11 @@ class EcranDuProfilVue(VueAbstraite):
 
             case "Créer une collection physique":
                 from service.recherche_service import RechercheService
+                logging.info(f"Créer coll physique : {RechercheService().recherche_collec_phys_par_id(Session().utilisateur.id)}")
 
                 if RechercheService().recherche_collec_phys_par_id(Session().utilisateur.id):
-                    print("Votre collection physique existe déjà.")
-                    return EcranDuProfilVue()
+                    print("\n" + "Votre collection physique existe déjà." + "\n")
+                    return self.choisir_menu()
                 else:
                     titre = inquirer.text(
                         message="Entrez le nom de la collection que vous voulez creer : "
@@ -80,9 +92,8 @@ class EcranDuProfilVue(VueAbstraite):
 
             case "Supprimer mon compte":
                 from dao.utilisateur_dao import UtilisateurDao
-
                 UtilisateurDao().supprimer(Session().utilisateur)
                 Session().deconnexion()
-                from vues.accueil.accueil_vue import AccueilVue
 
+                from vues.accueil.accueil_vue import AccueilVue
                 return AccueilVue()
