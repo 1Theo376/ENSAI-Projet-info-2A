@@ -10,7 +10,7 @@ from dao.manga_dao import MangaDao
 
 
 class ConsulterMangaCollecPhysUtilVUe(VueAbstraite):
-    def choisir_menu(self, choixu, choic):
+    def choisir_menu(self, choixu, choixc):
         """Choix du menu suivant de l'utilisateur
 
         Return
@@ -23,8 +23,20 @@ class ConsulterMangaCollecPhysUtilVUe(VueAbstraite):
         liste_titre = []
         for manga in (CollectionPhysiqueDAO().trouver_collec_phys_id_user(Session().utilisateur.id)).Liste_manga:
             liste_titre.append(MangaDao().trouver_manga_par_id(manga.idmanga).titre)
+        liste_titre.append("Retour au menu précédent")
         choix4 = inquirer.select(
             message="Selectionnez un manga de votre collection : ",
             choices=liste_titre,
         ).execute()
-        pass
+        if choix4 == "Retour au menu précédent":
+            from vues.ConsulterCollecVue import CollectionCoherenteVueRecherche
+            return CollectionCoherenteVueRecherche().choisir_menu(choixu)
+        else:
+            manga = MangaDao().trouver_manga_par_titre(choix4)
+            print("\n" + "-" * 50 + "\nInformation du manga\n" + "-" * 50 + "\n")
+            print("Titre: " + manga.titre + "\n")
+            print("Synopsis: " + manga.synopsis + "\n")
+            print("Auteur: " + manga.auteur + "\n")
+            print("Thèmes: " + manga.themes + "\n")
+            print("Genre: " + manga.genre + "\n")
+            self.choisir_menu(choixu, choixc)
