@@ -135,10 +135,10 @@ class CollectionPhysiqueDAO:
                     # Supprimer le manga d'une collection
                     cursor.execute(
                         "DELETE FROM association_manga_collection_physique                 "
-                        " WHERE (id_collec_physique=%(id_collec_coherente)s and id_manga_p=%(idm)s ",
+                        " WHERE (id_collec_physique = %(id_collec_physique)s and id_manga_p = %(id_manga_p)s)",
                         {
                             "id_collec_physique": CollectionP.id_collectionphysique,
-                            "idm": MangaPoss.id_mangapossede,
+                            "id_manga_p": MangaPoss.id_manga_p,
                         },
                     )
                     res = cursor.rowcount
@@ -227,11 +227,11 @@ class CollectionPhysiqueDAO:
                 L_mangas.append(manga_possede)
 
         collection = Collection_physique(
-                id_collectionphysique=id_collectionphysique,
-                titre_collection=titre_collection,
-                description_collection=description_collection,
-                Liste_manga=L_mangas,
-            )
+            id_collectionphysique=id_collectionphysique,
+            titre_collection=titre_collection,
+            description_collection=description_collection,
+            Liste_manga=L_mangas,
+        )
         return collection
 
     def trouver_collec_phys_nom(self, nom):

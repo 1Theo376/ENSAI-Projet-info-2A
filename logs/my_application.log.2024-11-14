@@ -1,0 +1,435 @@
+14/11/2024 14:46:20 - INFO     - --------------------------------------------------
+14/11/2024 14:46:20 - INFO     - Lancement Application                           
+14/11/2024 14:46:20 - INFO     - --------------------------------------------------
+14/11/2024 14:46:20 - INFO     - AccueilVue
+14/11/2024 14:46:39 - INFO     - ConnexionVue
+14/11/2024 14:46:49 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+14/11/2024 14:46:49 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+14/11/2024 14:46:49 - INFO     -        └─> Sortie : None
+14/11/2024 14:46:49 - INFO     - AccueilVue
+14/11/2024 14:46:50 - INFO     - ConnexionVue
+14/11/2024 14:46:56 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+14/11/2024 14:46:56 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+14/11/2024 14:46:56 - INFO     -        └─> Sortie : None
+14/11/2024 14:46:56 - INFO     - AccueilVue
+14/11/2024 14:46:57 - INFO     - ConnexionVue
+14/11/2024 14:47:05 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+14/11/2024 14:47:05 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+14/11/2024 14:47:05 - INFO     -        └─> Sortie : None
+14/11/2024 14:47:05 - INFO     - AccueilVue
+14/11/2024 14:47:07 - INFO     - ConnexionVue
+14/11/2024 14:47:14 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+14/11/2024 14:47:14 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+14/11/2024 14:47:14 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x00000227C2B37DC0>
+14/11/2024 14:47:14 - INFO     - MenuUtilisateurVue
+14/11/2024 14:47:14 - INFO     - EcranDuProfilVue
+14/11/2024 14:47:19 - INFO     - MenuUtilisateurVue
+14/11/2024 14:47:20 - INFO     - RechercheVue
+14/11/2024 14:47:21 - INFO     - RechercheMangaVue
+14/11/2024 14:47:24 - INFO     - choix2 : ['Naruto', 'Naruto: Innocent Heart, Demonic Blood', "Naruto: Itachi's Story", 'Naruto - Mission: Protect the Waterfall Village!', "Naruto: Chibi Sasuke's Sharingan Legend", 'Naruto: The Seventh Hokage and the Scarlet Spring', 'Boruto: Naruto Next Generations', 'Naruto: The Path Lit by the Full Moon']
+14/11/2024 14:47:25 - INFO     - SelectionMangaVuerecherche
+14/11/2024 14:47:27 - INFO     - AjouterMangaCollecVuerecherche
+14/11/2024 14:47:27 - INFO     - listecolleccohe type: <class 'list'>, contenu: ['bagarre', 'pas mal vraiment ']
+14/11/2024 14:47:27 - INFO     - collection_physique type: <class 'str'>, contenu: blablablabla
+14/11/2024 14:47:27 - INFO     - Contenu de `choix` après ajout de collection_physique: ['blablablabla']
+14/11/2024 14:47:27 - INFO     - listecollections: ['blablablabla', 'bagarre', 'pas mal vraiment ']
+14/11/2024 14:47:27 - INFO     - Ajout de l'option physique : Dans votre collection physique : blablablabla
+14/11/2024 14:47:27 - INFO     - Ajout de l'option cohérente : Dans votre collection cohérente : bagarre
+14/11/2024 14:47:27 - INFO     - Ajout de l'option cohérente : Dans votre collection cohérente : pas mal vraiment 
+14/11/2024 14:47:27 - INFO     - Choices avant inquirer: ['Dans votre collection physique : blablablabla', 'Dans votre collection cohérente : bagarre', 'Dans votre collection cohérente : pas mal vraiment ', 'Retour au menu précédent', "Retour vers l'écran d'accueil"]
+14/11/2024 14:47:30 - INFO     - Nom de la collection choisi: blablablabla
+14/11/2024 14:47:30 - INFO     - AjouterMangaPossCollPhys
+14/11/2024 14:47:30 - INFO     - id: 9
+14/11/2024 16:13:28 - INFO     - --------------------------------------------------
+14/11/2024 16:13:28 - INFO     - Lancement Application                           
+14/11/2024 16:13:28 - INFO     - --------------------------------------------------
+14/11/2024 16:13:28 - INFO     - AccueilVue
+14/11/2024 16:13:31 - INFO     - InscriptionVue
+14/11/2024 16:13:35 - INFO     - Pseudo : Emilien (length: 7)
+14/11/2024 16:13:35 - INFO     -     UtilisateurDao.lister_tous() - DEBUT
+14/11/2024 16:13:35 - INFO     -     UtilisateurDao.lister_tous() - FIN
+14/11/2024 16:13:35 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000001ED99B49D80>', '<business_object.utilisateur.Utilisateur object at 0x000001ED99B49D50>', '<business_object.utilisateur.Utilisateur object at 0x000001ED99B49D20>'] ... (3 elements)
+14/11/2024 16:13:39 - INFO     - Mot de passe haché : 9cec9e870d627f180d54ea159f56ef8be13aaa200f5de67ee34b3280f116758b (length: 64)
+14/11/2024 16:13:39 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x000001ED99C3D090>',) - DEBUT
+14/11/2024 16:13:39 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x000001ED99C3D090>',) - FIN
+14/11/2024 16:13:39 - INFO     -        └─> Sortie : True
+14/11/2024 16:13:39 - INFO     - AccueilVue
+14/11/2024 16:13:40 - INFO     - ConnexionVue
+14/11/2024 16:13:45 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+14/11/2024 16:13:45 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+14/11/2024 16:13:45 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001ED99D05720>
+14/11/2024 16:13:45 - INFO     - MenuUtilisateurVue
+14/11/2024 16:13:53 - INFO     - RechercheVue
+14/11/2024 16:13:55 - INFO     - VueAbstraite.afficher() missing 1 required positional argument: 'self'
+14/11/2024 16:13:56 - INFO     - AccueilVue
+14/11/2024 16:14:02 - INFO     - ConnexionVue
+14/11/2024 16:14:14 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+14/11/2024 16:14:14 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+14/11/2024 16:14:14 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001ED9A106320>
+14/11/2024 16:14:14 - INFO     - MenuUtilisateurVue
+14/11/2024 16:14:16 - INFO     - RechercheVue
+14/11/2024 16:14:18 - INFO     - RechercheMangaVue
+14/11/2024 16:14:30 - INFO     - choix2 : ['Naruto', 'Naruto: Innocent Heart, Demonic Blood', "Naruto: Itachi's Story", 'Naruto - Mission: Protect the Waterfall Village!', "Naruto: Chibi Sasuke's Sharingan Legend", 'Naruto: The Seventh Hokage and the Scarlet Spring', 'Boruto: Naruto Next Generations', 'Naruto: The Path Lit by the Full Moon']
+14/11/2024 16:14:32 - INFO     - SelectionMangaVuerecherche
+14/11/2024 16:14:33 - INFO     - AjouterMangaCollecVuerecherche
+14/11/2024 16:14:33 - INFO     - listecolleccohe type: <class 'NoneType'>, contenu: None
+14/11/2024 16:14:33 - INFO     - 'NoneType' object has no attribute 'titre_collection'
+14/11/2024 16:14:33 - INFO     - AccueilVue
+14/11/2024 16:14:36 - INFO     - ConnexionVue
+14/11/2024 16:14:42 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+14/11/2024 16:14:42 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+14/11/2024 16:14:42 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001ED9ACB36D0>
+14/11/2024 16:14:42 - INFO     - MenuUtilisateurVue
+14/11/2024 16:14:45 - INFO     - EcranDuProfilVue
+14/11/2024 16:14:58 - INFO     - EcranDuProfilVue
+14/11/2024 16:15:01 - INFO     - MenuUtilisateurVue
+14/11/2024 16:15:04 - INFO     - RechercheVue
+14/11/2024 16:15:23 - INFO     - RechercheMangaVue
+14/11/2024 16:15:44 - INFO     - choix2 : ['Naruto', 'Naruto: Innocent Heart, Demonic Blood', "Naruto: Itachi's Story", 'Naruto - Mission: Protect the Waterfall Village!', "Naruto: Chibi Sasuke's Sharingan Legend", 'Naruto: The Seventh Hokage and the Scarlet Spring', 'Boruto: Naruto Next Generations', 'Naruto: The Path Lit by the Full Moon']
+14/11/2024 16:15:46 - INFO     - SelectionMangaVuerecherche
+14/11/2024 16:15:49 - INFO     - AjouterMangaCollecVuerecherche
+14/11/2024 16:15:49 - INFO     - listecolleccohe type: <class 'NoneType'>, contenu: None
+14/11/2024 16:15:49 - INFO     - collection_physique type: <class 'str'>, contenu: mes mangas à moi
+14/11/2024 16:15:49 - INFO     - Contenu de `choix` après ajout de collection_physique: ['mes mangas à moi']
+14/11/2024 16:15:49 - INFO     - can only concatenate list (not "NoneType") to list
+14/11/2024 16:15:49 - INFO     - AccueilVue
+14/11/2024 16:15:53 - INFO     - Fin de l'application
+14/11/2024 16:19:56 - INFO     - --------------------------------------------------
+14/11/2024 16:19:56 - INFO     - Lancement Application                           
+14/11/2024 16:19:56 - INFO     - --------------------------------------------------
+14/11/2024 16:19:56 - INFO     - AccueilVue
+14/11/2024 16:19:57 - INFO     - ConnexionVue
+14/11/2024 16:20:02 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+14/11/2024 16:20:02 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+14/11/2024 16:20:02 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000002192E439A80>
+14/11/2024 16:20:02 - INFO     - MenuUtilisateurVue
+14/11/2024 16:20:06 - INFO     - RechercheVue
+14/11/2024 16:20:07 - INFO     - MenuUtilisateurVue
+14/11/2024 16:20:08 - INFO     - RechercheVue
+14/11/2024 16:20:10 - INFO     - RechercheMangaVue
+14/11/2024 16:20:13 - INFO     - choix2 : ['Naruto', 'Naruto: Innocent Heart, Demonic Blood', "Naruto: Itachi's Story", 'Naruto - Mission: Protect the Waterfall Village!', "Naruto: Chibi Sasuke's Sharingan Legend", 'Naruto: The Seventh Hokage and the Scarlet Spring', 'Boruto: Naruto Next Generations', 'Naruto: The Path Lit by the Full Moon']
+14/11/2024 16:20:14 - INFO     - SelectionMangaVuerecherche
+14/11/2024 16:20:16 - INFO     - AjouterMangaCollecVuerecherche
+14/11/2024 16:20:16 - INFO     - listecolleccohe type: <class 'list'>, contenu: []
+14/11/2024 16:20:16 - INFO     - collection_physique type: <class 'str'>, contenu: mes mangas à moi
+14/11/2024 16:20:16 - INFO     - Contenu de `choix` après ajout de collection_physique: ['mes mangas à moi']
+14/11/2024 16:20:16 - INFO     - listecollections: ['mes mangas à moi']
+14/11/2024 16:20:16 - INFO     - Ajout de l'option physique : Dans votre collection physique : mes mangas à moi
+14/11/2024 16:20:16 - INFO     - Choices avant inquirer: ['Dans votre collection physique : mes mangas à moi', 'Retour au menu précédent', "Retour vers l'écran d'accueil"]
+14/11/2024 16:20:17 - INFO     - Nom de la collection choisi: mes mangas à moi
+14/11/2024 16:20:17 - INFO     - AjouterMangaPossCollPhys
+14/11/2024 16:20:17 - INFO     - id: 9
+14/11/2024 16:20:29 - INFO     - '>' not supported between instances of 'str' and 'int'
+14/11/2024 16:20:29 - INFO     - AccueilVue
+14/11/2024 16:21:20 - INFO     - ConnexionVue
+14/11/2024 16:21:25 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+14/11/2024 16:21:25 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+14/11/2024 16:21:25 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000002192F3234F0>
+14/11/2024 16:21:25 - INFO     - MenuUtilisateurVue
+14/11/2024 16:21:26 - INFO     - EcranDuProfilVue
+14/11/2024 16:21:53 - INFO     - MenuUtilisateurVue
+14/11/2024 16:21:55 - INFO     - RechercheVue
+14/11/2024 16:21:56 - INFO     - RechercheMangaVue
+14/11/2024 16:22:02 - INFO     - choix2 : ['One Piece', 'Wanted! Eiichiro Oda Before One Piece', 'One Piece: Shokugeki no Sanji', 'One Piece: Boichi Covers Zolo vs. Mihawk', "One Piece: Ace's Story", "One Piece: Ace's Story", "One Piece: Vivi's Adventure", 'One Piece: Heroines']
+14/11/2024 16:22:03 - INFO     - SelectionMangaVuerecherche
+14/11/2024 16:22:04 - INFO     - AjouterMangaCollecVuerecherche
+14/11/2024 16:22:04 - INFO     - listecolleccohe type: <class 'list'>, contenu: []
+14/11/2024 16:22:04 - INFO     - collection_physique type: <class 'str'>, contenu: mes mangas à moi
+14/11/2024 16:22:04 - INFO     - Contenu de `choix` après ajout de collection_physique: ['mes mangas à moi']
+14/11/2024 16:22:04 - INFO     - listecollections: ['mes mangas à moi']
+14/11/2024 16:22:04 - INFO     - Ajout de l'option physique : Dans votre collection physique : mes mangas à moi
+14/11/2024 16:22:04 - INFO     - Choices avant inquirer: ['Dans votre collection physique : mes mangas à moi', 'Retour au menu précédent', "Retour vers l'écran d'accueil"]
+14/11/2024 16:22:06 - INFO     - Nom de la collection choisi: mes mangas à moi
+14/11/2024 16:22:06 - INFO     - AjouterMangaPossCollPhys
+14/11/2024 16:22:06 - INFO     - id: 11
+14/11/2024 16:22:28 - INFO     - AjouterMangaPossCollPhys
+14/11/2024 16:22:28 - INFO     - id: 11
+14/11/2024 16:22:40 - INFO     - invalid literal for int() with base 10: '1-5'
+14/11/2024 16:22:40 - INFO     - AccueilVue
+14/11/2024 16:22:55 - INFO     - ConnexionVue
+14/11/2024 16:23:12 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+14/11/2024 16:23:12 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+14/11/2024 16:23:12 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000002192FDB37F0>
+14/11/2024 16:23:12 - INFO     - MenuUtilisateurVue
+14/11/2024 16:23:14 - INFO     - EcranDuProfilVue
+14/11/2024 16:23:19 - INFO     - MenuUtilisateurVue
+14/11/2024 16:23:20 - INFO     - RechercheVue
+14/11/2024 16:23:21 - INFO     - RechercheMangaVue
+14/11/2024 16:23:25 - INFO     - choix2 : ['One Piece', 'Wanted! Eiichiro Oda Before One Piece', 'One Piece: Shokugeki no Sanji', 'One Piece: Boichi Covers Zolo vs. Mihawk', "One Piece: Ace's Story", "One Piece: Ace's Story", "One Piece: Vivi's Adventure", 'One Piece: Heroines']
+14/11/2024 16:23:26 - INFO     - SelectionMangaVuerecherche
+14/11/2024 16:23:28 - INFO     - AjouterMangaCollecVuerecherche
+14/11/2024 16:23:28 - INFO     - listecolleccohe type: <class 'list'>, contenu: []
+14/11/2024 16:23:28 - INFO     - collection_physique type: <class 'str'>, contenu: mes mangas à moi
+14/11/2024 16:23:28 - INFO     - Contenu de `choix` après ajout de collection_physique: ['mes mangas à moi']
+14/11/2024 16:23:28 - INFO     - listecollections: ['mes mangas à moi']
+14/11/2024 16:23:28 - INFO     - Ajout de l'option physique : Dans votre collection physique : mes mangas à moi
+14/11/2024 16:23:28 - INFO     - Choices avant inquirer: ['Dans votre collection physique : mes mangas à moi', 'Retour au menu précédent', "Retour vers l'écran d'accueil"]
+14/11/2024 16:23:28 - INFO     - Nom de la collection choisi: mes mangas à moi
+14/11/2024 16:23:28 - INFO     - AjouterMangaPossCollPhys
+14/11/2024 16:23:28 - INFO     - id: 11
+14/11/2024 16:23:42 - INFO     - vol:[1, 2, 3, 4, 5, 24, 45, 57]
+14/11/2024 16:23:48 - INFO     - idm = 11, num = 57, statut = En cours,
+14/11/2024 16:23:48 - INFO     - SelectionMangaVuerecherche
+14/11/2024 16:23:57 - INFO     - MenuUtilisateurVue
+14/11/2024 16:24:00 - INFO     - EcranDuProfilVue
+14/11/2024 16:24:02 - INFO     - CollectionPhysiqueVue
+14/11/2024 16:24:04 - INFO     - 'NoneType' object is not iterable
+14/11/2024 16:24:04 - INFO     - AccueilVue
+14/11/2024 16:46:57 - INFO     - Fin de l'application
+14/11/2024 16:47:00 - INFO     - --------------------------------------------------
+14/11/2024 16:47:00 - INFO     - Lancement Application                           
+14/11/2024 16:47:00 - INFO     - --------------------------------------------------
+14/11/2024 16:47:00 - INFO     - AccueilVue
+14/11/2024 16:47:01 - INFO     - ConnexionVue
+14/11/2024 16:47:06 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+14/11/2024 16:47:06 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+14/11/2024 16:47:06 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x00000295745F9A80>
+14/11/2024 16:47:06 - INFO     - MenuUtilisateurVue
+14/11/2024 16:47:09 - INFO     - EcranDuProfilVue
+14/11/2024 16:47:11 - INFO     - CollectionPhysiqueVue
+14/11/2024 16:47:12 - INFO     - string indices must be integers
+14/11/2024 16:47:12 - INFO     - AccueilVue
+14/11/2024 17:02:57 - INFO     - Fin de l'application
+14/11/2024 17:08:08 - INFO     - --------------------------------------------------
+14/11/2024 17:08:08 - INFO     - Lancement Application                           
+14/11/2024 17:08:08 - INFO     - --------------------------------------------------
+14/11/2024 17:08:08 - INFO     - AccueilVue
+14/11/2024 17:08:09 - INFO     - ConnexionVue
+14/11/2024 17:08:15 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+14/11/2024 17:08:15 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+14/11/2024 17:08:15 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000022814299A80>
+14/11/2024 17:08:15 - INFO     - MenuUtilisateurVue
+14/11/2024 17:08:17 - INFO     - EcranDuProfilVue
+14/11/2024 17:08:19 - INFO     - CollectionPhysiqueVue
+14/11/2024 17:08:21 - INFO     - string indices must be integers
+14/11/2024 17:08:21 - INFO     - AccueilVue
+14/11/2024 17:12:19 - INFO     - ConnexionVue
+14/11/2024 17:12:25 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+14/11/2024 17:12:25 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+14/11/2024 17:12:25 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x00000228145D8430>
+14/11/2024 17:12:25 - INFO     - MenuUtilisateurVue
+14/11/2024 17:12:27 - INFO     - EcranDuProfilVue
+14/11/2024 17:12:38 - INFO     - EcranDuProfilVue
+14/11/2024 17:12:43 - INFO     - MenuUtilisateurVue
+14/11/2024 17:12:45 - INFO     - RechercheVue
+14/11/2024 17:12:46 - INFO     - RechercheMangaVue
+14/11/2024 17:12:51 - INFO     - choix2 : ['Love Attack', 'Code Geass: Suzaku of the Counterattack', 'Attacker You!', 'Attack No.1', 'Butt Attack Punisher Girl Gotaman', 'Attack on Titan', "Attacked on a Tiger's Whim", 'Attack on Titan: Junior High']
+14/11/2024 17:12:55 - INFO     - SelectionMangaVuerecherche
+14/11/2024 17:12:57 - INFO     - AjouterMangaCollecVuerecherche
+14/11/2024 17:12:57 - INFO     - listecolleccohe type: <class 'list'>, contenu: ['Truc']
+14/11/2024 17:12:57 - INFO     - string indices must be integers
+14/11/2024 17:12:57 - INFO     - AccueilVue
+14/11/2024 17:14:00 - INFO     - Fin de l'application
+14/11/2024 17:14:05 - INFO     - --------------------------------------------------
+14/11/2024 17:14:05 - INFO     - Lancement Application                           
+14/11/2024 17:14:06 - INFO     - --------------------------------------------------
+14/11/2024 17:14:06 - INFO     - AccueilVue
+14/11/2024 17:14:08 - INFO     - Fin de l'application
+14/11/2024 17:16:50 - INFO     - --------------------------------------------------
+14/11/2024 17:16:50 - INFO     - Lancement Application                           
+14/11/2024 17:16:50 - INFO     - --------------------------------------------------
+14/11/2024 17:16:50 - INFO     - AccueilVue
+14/11/2024 17:16:51 - INFO     - ConnexionVue
+14/11/2024 17:16:57 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+14/11/2024 17:16:57 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+14/11/2024 17:16:57 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000002458201DB10>
+14/11/2024 17:16:57 - INFO     - MenuUtilisateurVue
+14/11/2024 17:16:58 - INFO     - EcranDuProfilVue
+14/11/2024 17:17:01 - INFO     - CollectionCoherenteVue
+14/11/2024 17:17:02 - INFO     - MangaCollectionCoherenteVue
+14/11/2024 17:17:04 - INFO     - argument choices cannot be empty
+14/11/2024 17:17:04 - INFO     - AccueilVue
+14/11/2024 17:17:05 - INFO     - ConnexionVue
+14/11/2024 17:17:16 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+14/11/2024 17:17:16 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+14/11/2024 17:17:16 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000002458240D540>
+14/11/2024 17:17:16 - INFO     - MenuUtilisateurVue
+14/11/2024 17:17:18 - INFO     - RechercheVue
+14/11/2024 17:17:18 - INFO     - RechercheMangaVue
+14/11/2024 17:17:23 - INFO     - rechercher_manga_par_titre
+14/11/2024 17:17:23 - INFO     - recherche_manga_par_t2
+14/11/2024 17:17:23 - INFO     - longueur : 8
+14/11/2024 17:17:23 - INFO     - rechercher_manga_par_titre
+14/11/2024 17:17:23 - INFO     - recherche_manga_par_t2
+14/11/2024 17:17:23 - INFO     - rechercher_manga_par_titre
+14/11/2024 17:17:23 - INFO     - recherche_manga_par_t2
+14/11/2024 17:17:23 - INFO     - choix2 : ['Love Attack', 'Code Geass: Suzaku of the Counterattack', 'Attacker You!', 'Attack No.1', 'Butt Attack Punisher Girl Gotaman', 'Attack on Titan', "Attacked on a Tiger's Whim", 'Attack on Titan: Junior High']
+14/11/2024 17:17:25 - INFO     - SelectionMangaVuerecherche
+14/11/2024 17:17:28 - INFO     - AjouterMangaCollecVuerecherche
+14/11/2024 17:17:28 - INFO     - listecolleccohe type: <class 'list'>, contenu: ['Truc']
+14/11/2024 17:17:28 - INFO     - string indices must be integers
+14/11/2024 17:17:28 - INFO     - AccueilVue
+14/11/2024 17:18:02 - INFO     - Fin de l'application
+14/11/2024 17:23:30 - INFO     - --------------------------------------------------
+14/11/2024 17:23:30 - INFO     - Lancement Application                           
+14/11/2024 17:23:30 - INFO     - --------------------------------------------------
+14/11/2024 17:23:30 - INFO     - AccueilVue
+14/11/2024 17:23:32 - INFO     - ConnexionVue
+14/11/2024 17:23:37 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+14/11/2024 17:23:37 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+14/11/2024 17:23:37 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000013664BBDA80>
+14/11/2024 17:23:37 - INFO     - MenuUtilisateurVue
+14/11/2024 17:23:39 - INFO     - EcranDuProfilVue
+14/11/2024 17:23:44 - INFO     - MenuUtilisateurVue
+14/11/2024 17:23:45 - INFO     - RechercheVue
+14/11/2024 17:23:46 - INFO     - RechercheMangaVue
+14/11/2024 17:23:49 - INFO     - rechercher_manga_par_titre
+14/11/2024 17:23:49 - INFO     - recherche_manga_par_t2
+14/11/2024 17:23:49 - INFO     - longueur : 8
+14/11/2024 17:23:49 - INFO     - rechercher_manga_par_titre
+14/11/2024 17:23:49 - INFO     - recherche_manga_par_t2
+14/11/2024 17:23:49 - INFO     - rechercher_manga_par_titre
+14/11/2024 17:23:49 - INFO     - recherche_manga_par_t2
+14/11/2024 17:23:49 - INFO     - choix2 : ['Love Attack', 'Code Geass: Suzaku of the Counterattack', 'Attacker You!', 'Attack No.1', 'Butt Attack Punisher Girl Gotaman', 'Attack on Titan', "Attacked on a Tiger's Whim", 'Attack on Titan: Junior High']
+14/11/2024 17:23:52 - INFO     - SelectionMangaVuerecherche
+14/11/2024 17:23:53 - INFO     - AjouterMangaCollecVuerecherche
+14/11/2024 17:23:53 - INFO     - listecolleccohe type: <class 'list'>, contenu: ['Truc']
+14/11/2024 17:23:53 - INFO     - string indices must be integers
+14/11/2024 17:23:53 - INFO     - AccueilVue
+14/11/2024 17:28:29 - INFO     - Fin de l'application
+14/11/2024 17:28:32 - INFO     - --------------------------------------------------
+14/11/2024 17:28:32 - INFO     - Lancement Application                           
+14/11/2024 17:28:32 - INFO     - --------------------------------------------------
+14/11/2024 17:28:32 - INFO     - AccueilVue
+14/11/2024 17:28:33 - INFO     - ConnexionVue
+14/11/2024 17:29:25 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+14/11/2024 17:29:25 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+14/11/2024 17:29:25 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001CCD1ABDA80>
+14/11/2024 17:29:25 - INFO     - MenuUtilisateurVue
+14/11/2024 17:29:28 - INFO     - EcranDuProfilVue
+14/11/2024 17:29:30 - INFO     - MenuUtilisateurVue
+14/11/2024 17:29:31 - INFO     - RechercheVue
+14/11/2024 17:29:32 - INFO     - RechercheMangaVue
+14/11/2024 17:29:34 - INFO     - rechercher_manga_par_titre
+14/11/2024 17:29:34 - INFO     - recherche_manga_par_t2
+14/11/2024 17:29:34 - INFO     - longueur : 8
+14/11/2024 17:29:34 - INFO     - rechercher_manga_par_titre
+14/11/2024 17:29:34 - INFO     - recherche_manga_par_t2
+14/11/2024 17:29:35 - INFO     - rechercher_manga_par_titre
+14/11/2024 17:29:35 - INFO     - recherche_manga_par_t2
+14/11/2024 17:29:35 - INFO     - choix2 : ['Love Attack', 'Code Geass: Suzaku of the Counterattack', 'Attacker You!', 'Attack No.1', 'Butt Attack Punisher Girl Gotaman', 'Attack on Titan', "Attacked on a Tiger's Whim", 'Attack on Titan: Junior High']
+14/11/2024 17:29:37 - INFO     - SelectionMangaVuerecherche
+14/11/2024 17:29:38 - INFO     - AjouterMangaCollecVuerecherche
+14/11/2024 17:29:38 - INFO     - listecolleccohe type: <class 'list'>, contenu: ['Truc']
+14/11/2024 17:29:38 - INFO     - string indices must be integers
+14/11/2024 17:29:38 - INFO     - AccueilVue
+14/11/2024 17:31:02 - INFO     - Fin de l'application
+14/11/2024 21:25:13 - INFO     - --------------------------------------------------
+14/11/2024 21:25:13 - INFO     - Lancement Application                           
+14/11/2024 21:25:13 - INFO     - --------------------------------------------------
+14/11/2024 21:25:13 - INFO     - AccueilVue
+14/11/2024 21:25:15 - INFO     - ConnexionVue
+14/11/2024 21:25:21 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+14/11/2024 21:25:21 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+14/11/2024 21:25:21 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x00000229AB2FDB10>
+14/11/2024 21:25:21 - INFO     - MenuUtilisateurVue
+14/11/2024 21:25:22 - INFO     - EcranDuProfilVue
+14/11/2024 21:25:25 - INFO     - MenuUtilisateurVue
+14/11/2024 21:25:26 - INFO     - RechercheVue
+14/11/2024 21:25:28 - INFO     - RechercheMangaVue
+14/11/2024 21:25:34 - INFO     - rechercher_manga_par_titre
+14/11/2024 21:25:34 - INFO     - recherche_manga_par_t2
+14/11/2024 21:25:34 - INFO     - longueur : 8
+14/11/2024 21:25:34 - INFO     - rechercher_manga_par_titre
+14/11/2024 21:25:34 - INFO     - recherche_manga_par_t2
+14/11/2024 21:25:34 - INFO     - rechercher_manga_par_titre
+14/11/2024 21:25:34 - INFO     - recherche_manga_par_t2
+14/11/2024 21:25:34 - INFO     - choix2 : ['Love Attack', 'Code Geass: Suzaku of the Counterattack', 'Attacker You!', 'Attack No.1', 'Butt Attack Punisher Girl Gotaman', 'Attack on Titan', "Attacked on a Tiger's Whim", 'Attack on Titan: Junior High']
+14/11/2024 21:25:37 - INFO     - SelectionMangaVuerecherche
+14/11/2024 21:25:38 - INFO     - AjouterMangaCollecVuerecherche
+14/11/2024 21:25:38 - INFO     - listecolleccohe type: <class 'list'>, contenu: ['Truc']
+14/11/2024 21:25:38 - INFO     - collection_physique type: <class 'str'>, contenu: mes mangas à moi
+14/11/2024 21:25:38 - INFO     - Contenu de `choix` après ajout de collection_physique: ['mes mangas à moi']
+14/11/2024 21:25:38 - INFO     - listecollections: ['mes mangas à moi', 'Truc']
+14/11/2024 21:25:38 - INFO     - Ajout de l'option physique : Dans votre collection physique : mes mangas à moi
+14/11/2024 21:25:38 - INFO     - Ajout de l'option cohérente : Dans votre collection cohérente : Truc
+14/11/2024 21:25:38 - INFO     - Choices avant inquirer: ['Dans votre collection physique : mes mangas à moi', 'Dans votre collection cohérente : Truc', 'Retour au menu précédent', "Retour vers l'écran d'accueil"]
+14/11/2024 21:25:42 - INFO     - Nom de la collection choisi: mes mangas à moi
+14/11/2024 21:25:42 - INFO     - AjouterMangaPossCollPhys
+14/11/2024 21:25:42 - INFO     - id: 5125
+14/11/2024 21:26:03 - INFO     - vol:[1, 2, 3, 4, 5, 8, 10, 11, 12, 14]
+14/11/2024 21:26:03 - INFO     - manq:[6, 7, 9, 13, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34]
+14/11/2024 21:26:07 - INFO     - idm = 5125, num = 14, statut = En cours,
+14/11/2024 21:26:08 - INFO     - SelectionMangaVuerecherche
+14/11/2024 21:26:14 - INFO     - RechercheMangaVue
+14/11/2024 21:26:16 - INFO     - Fin de l'application
+14/11/2024 21:26:21 - INFO     - --------------------------------------------------
+14/11/2024 21:26:21 - INFO     - Lancement Application                           
+14/11/2024 21:26:21 - INFO     - --------------------------------------------------
+14/11/2024 21:26:21 - INFO     - AccueilVue
+14/11/2024 21:26:23 - INFO     - ConnexionVue
+14/11/2024 21:26:28 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+14/11/2024 21:26:28 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+14/11/2024 21:26:28 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001CFAE2D9A80>
+14/11/2024 21:26:28 - INFO     - MenuUtilisateurVue
+14/11/2024 21:26:30 - INFO     - RechercheVue
+14/11/2024 21:26:31 - INFO     - MenuUtilisateurVue
+14/11/2024 21:26:34 - INFO     - EcranDuProfilVue
+14/11/2024 21:26:39 - INFO     - CollectionPhysiqueVue
+14/11/2024 21:26:41 - INFO     - 'MangaPossede' object has no attribute 'titre'
+14/11/2024 21:26:41 - INFO     - AccueilVue
+14/11/2024 21:27:11 - INFO     - Fin de l'application
+14/11/2024 21:39:04 - INFO     - --------------------------------------------------
+14/11/2024 21:39:04 - INFO     - Lancement Application                           
+14/11/2024 21:39:04 - INFO     - --------------------------------------------------
+14/11/2024 21:39:04 - INFO     - AccueilVue
+14/11/2024 21:39:05 - INFO     - ConnexionVue
+14/11/2024 21:39:11 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+14/11/2024 21:39:11 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+14/11/2024 21:39:11 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001633E8DDCC0>
+14/11/2024 21:39:11 - INFO     - MenuUtilisateurVue
+14/11/2024 21:39:13 - INFO     - EcranDuProfilVue
+14/11/2024 21:39:15 - INFO     - CollectionPhysiqueVue
+14/11/2024 21:39:16 - INFO     - 'MangaPossede' object has no attribute 'id_manga'
+14/11/2024 21:39:16 - INFO     - AccueilVue
+14/11/2024 21:40:33 - INFO     - Fin de l'application
+14/11/2024 21:40:36 - INFO     - --------------------------------------------------
+14/11/2024 21:40:36 - INFO     - Lancement Application                           
+14/11/2024 21:40:36 - INFO     - --------------------------------------------------
+14/11/2024 21:40:36 - INFO     - AccueilVue
+14/11/2024 21:40:38 - INFO     - ConnexionVue
+14/11/2024 21:40:43 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+14/11/2024 21:40:43 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+14/11/2024 21:40:43 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000022E3FE19720>
+14/11/2024 21:40:43 - INFO     - MenuUtilisateurVue
+14/11/2024 21:40:44 - INFO     - EcranDuProfilVue
+14/11/2024 21:40:45 - INFO     - CollectionPhysiqueVue
+14/11/2024 21:40:51 - INFO     - ERREUR:  la relation « aassociation_manga_num_manquant » n'existe pas
+LINE 1: ...uant FROM num_manquant as mq            left join aassociati...
+                                                             ^
+
+14/11/2024 21:40:51 - INFO     - ERREUR:  la relation « aassociation_manga_num_manquant » n'existe pas
+LINE 1: ...uant FROM num_manquant as mq            left join aassociati...
+                                                             ^
+
+14/11/2024 21:40:51 - INFO     - AccueilVue
+14/11/2024 21:44:25 - INFO     - Fin de l'application
+14/11/2024 21:44:27 - INFO     - --------------------------------------------------
+14/11/2024 21:44:27 - INFO     - Lancement Application                           
+14/11/2024 21:44:27 - INFO     - --------------------------------------------------
+14/11/2024 21:44:27 - INFO     - AccueilVue
+14/11/2024 21:44:32 - INFO     - ConnexionVue
+14/11/2024 21:44:36 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+14/11/2024 21:44:36 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+14/11/2024 21:44:36 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001D7D6F99C00>
+14/11/2024 21:44:36 - INFO     - MenuUtilisateurVue
+14/11/2024 21:44:37 - INFO     - EcranDuProfilVue
+14/11/2024 21:44:40 - INFO     - CollectionPhysiqueVue
+14/11/2024 21:44:45 - INFO     - 'MangaPossede' object has no attribute 'manga'
+14/11/2024 21:44:45 - INFO     - AccueilVue
+14/11/2024 21:54:07 - INFO     - Fin de l'application
+14/11/2024 21:54:10 - INFO     - --------------------------------------------------
+14/11/2024 21:54:10 - INFO     - Lancement Application                           
+14/11/2024 21:54:10 - INFO     - --------------------------------------------------
+14/11/2024 21:54:10 - INFO     - AccueilVue
+14/11/2024 21:54:11 - INFO     - ConnexionVue
+14/11/2024 21:54:16 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+14/11/2024 21:54:16 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+14/11/2024 21:54:16 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001912F789A80>
+14/11/2024 21:54:16 - INFO     - MenuUtilisateurVue
+14/11/2024 21:54:17 - INFO     - EcranDuProfilVue
+14/11/2024 21:54:18 - INFO     - CollectionPhysiqueVue
+14/11/2024 21:57:05 - INFO     - EcranDuProfilVue
+14/11/2024 21:57:07 - INFO     - MenuUtilisateurVue
+14/11/2024 21:57:09 - INFO     - AccueilVue
+14/11/2024 21:57:10 - INFO     - Fin de l'application
