@@ -23,18 +23,18 @@ class RechercheMangaVue(VueAbstraite):
         match choix:
             case "Entrer le titre du manga recherché":
                 titre = inquirer.text(message="Entrer le titre : ").execute()
-                n, m = 0, 8
+                n = 0
+                m = 8
                 a = 0
-                longueur, sous_liste, longueur_tot = RechercheService().recherche_manga_par_t2(titre, n, m, a)
-                logging.info(f"longueur : {longueur}")
-
                 if not RechercheService().recherche_manga_par_t2(titre, n, m, a):
-                    print(f"Aucun manga trouvé pour le titre '{titre}'.")
+                    print("\n" + f"Aucun manga trouvé pour le titre '{titre}'." + "\n")
                     choix2 = ["Retour au menu précédent"]
                     choix3 = inquirer.select(
                         message="Faites votre choix : ",
                         choices=choix2
                         ).execute()
+
+                longueur, sous_liste, longueur_tot = RechercheService().recherche_manga_par_t2(titre, n, m, a)
 
                 while n >= 0:
                     longueur, sous_liste, longueur_tot = RechercheService().recherche_manga_par_t2(titre, n, m, a)
@@ -49,8 +49,8 @@ class RechercheMangaVue(VueAbstraite):
                     choix3 = inquirer.select(message="Choisissez un manga :", choices=choix2).execute()
 
                     if choix3 == "Retour au menu précédent":
-                        from vues.menu_utilisateur_vue import MenuUtilisateurVue
-                        return MenuUtilisateurVue().choisir_menu()
+                        from vues.recherche_vue import RechercheVue
+                        return RechercheVue().choisir_menu()
                     elif choix3 == "Afficher la page suivante":
                         n += m
                     elif choix3 == "Afficher la page précédente":
@@ -60,6 +60,5 @@ class RechercheMangaVue(VueAbstraite):
                         from vues.Selection_manga_vue_recherche import SelectionMangaVuerecherche
                         return SelectionMangaVuerecherche().choisir_menu(choix3)
 
-                # Retour à l'accueil si aucune option choisie
                 from vues.menu_utilisateur_vue import MenuUtilisateurVue
                 return MenuUtilisateurVue()

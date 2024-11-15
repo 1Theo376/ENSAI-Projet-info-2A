@@ -41,18 +41,19 @@ class RechercheUtilisateurVue(VueAbstraite):
         match choix:
             case "Entrer le pseudo de l'utilisateur recherché":
                 pseudo = inquirer.text(message="Entrer le pseudo : ").execute()
-                n, m = 0, 8
+                n = 0
+                m = 8
                 a = 0
-                longueur, sous_liste, longueur_tot = RechercheService().recherche_utilisateur(pseudo, n, m, a)
-                logging.info(f"longueur : {longueur}")
-
                 if not RechercheService().recherche_utilisateur(pseudo, n, m, a):
-                    print(f"Aucun utilisateur trouvé pour le pseudo '{pseudo}'.")
+                    print("\n" + f"Aucun utilisateur trouvé pour le pseudo '{pseudo}'." + "\n")
                     choix2 = ["Retour au menu précédent"]
                     choix3 = inquirer.select(
                         message="Faites votre choix : ",
                         choices=choix2
                         ).execute()
+
+                longueur, sous_liste, longueur_tot = RechercheService().recherche_utilisateur(pseudo, n, m, a)
+                logging.info(f"longueur : {longueur}")
 
                 while n >= 0:
                     longueur, sous_liste, longueur_tot = RechercheService().recherche_utilisateur(pseudo, n, m, a)
@@ -93,8 +94,8 @@ class RechercheUtilisateurVue(VueAbstraite):
                                 from vues.AvisRechercheUtilisateurVue import (
                                     AvisRechercheUtilisateurVue,
                                 )
-
                                 return AvisRechercheUtilisateurVue().choisir_menu(choix3)
+
                             case "Retour au menu précédent":
                                 from vues.recherche_vue import RechercheVue
                                 return RechercheVue().choisir_menu()

@@ -221,7 +221,7 @@ class CollectionCoherenteDAO:
 
         return collections
 
-    def trouver_collec_cohe_nom(self, nom) -> CollectionCoherente:
+    def trouver_collec_cohe_nom(self, nom, idu) -> CollectionCoherente:
         """trouver une collection grâce à son nom
 
         Parameters
@@ -242,8 +242,9 @@ class CollectionCoherenteDAO:
                         "FROM collection_coherente                                                      "
                         "LEFT JOIN association_manga_collection_coherente USING(id_collec_coherente)    "
                         "LEFT JOIN manga USING(id_manga)                                                "
-                        " WHERE titre_collection = %(titre_collection)s;                                ",
-                        {"titre_collection": nom},
+                        " WHERE titre_collection = %(titre_collection)s and id_utilisateur = %(idu)s;                                ",
+                        {"titre_collection": nom,
+                         "idu": idu},
                     )
                     res = cursor.fetchall()
         except Exception as e:
