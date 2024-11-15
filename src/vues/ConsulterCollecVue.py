@@ -38,13 +38,11 @@ class CollectionCoherenteVueRecherche(VueAbstraite):
             from vues.menu_utilisateur_vue import MenuUtilisateurVue
 
             return MenuUtilisateurVue()
-
-        listecollections.extend(["Retour au menu précédent", "Afficher la page suivante"])
         n, m = 0, 8
         sous_liste, longueur_tot = listecollections[n:n+m], len(listecollections)
         while n >= 0:
             sous_liste, longueur_tot = listecollections[n:n+m], len(listecollections)
-            choix2 = sous_liste + ["Afficher la page suivante","Afficher la page précédente", "Retour au menu précédent"]
+            choix2 = sous_liste + ["Afficher la page suivante", "Afficher la page précédente", "Retour au menu précédent"]
             logging.info(f"util:{sous_liste}")
             if n + m >= longueur_tot:
                 choix2.remove("Afficher la page suivante")
