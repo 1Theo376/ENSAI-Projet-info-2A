@@ -82,7 +82,7 @@ class AjouterMangaCollecVuerecherche(VueAbstraite):
                 from vues.AjouterMangaPossCollPhys import AjouterMangaPossCollPhys
                 return AjouterMangaPossCollPhys().choisir_menu(choix3, collection)
             else:
-                collection = CollectionCoherenteDAO().trouver_collec_cohe_nom(nom)
+                collection = CollectionCoherenteDAO().trouver_collec_cohe_nom(nom, id_utilisateur)
                 logging.info(f"Collection cohérente trouvée : {nom}, {collection}")
                 CollectionCoherenteService().ajouter_manga(
                     collection.id_collectioncoherente, manga.id_manga

@@ -39,19 +39,7 @@ class CollectionCoherenteVueRecherche(VueAbstraite):
 
             return MenuUtilisateurVue()
 
-        choix.extend(["Retour au menu précédent", "Afficher la page suivante"])
-
-        choix2 = inquirer.select(
-            message="Choisissez une collection : ",
-            choices=choix,
-        ).execute()
-
-        if choix2 == "Retour au menu précédent":
-            from vues.rechercher_utilisateur_vue import RechercheUtilisateurVue
-            return RechercheUtilisateurVue()
-
-        elif choix2 == "Afficher la page suivante":
-            pass
+        listecollections.extend(["Retour au menu précédent", "Afficher la page suivante"])
         n, m = 0, 8
         sous_liste, longueur_tot = listecollections[n:n+m], len(listecollections)
         while n >= 0:
@@ -83,9 +71,11 @@ class CollectionCoherenteVueRecherche(VueAbstraite):
                 ).execute()
                 if choix4 == "Consulter les mangas de la collection":
                     if choix3 == collection_physique.titre_collection:
-                        pass
+                        from vues.ConsulterMangaCollecPhysUtilVue import ConsulterMangaCollecPhysUtilVUe
+                        return ConsulterMangaCollecPhysUtilVUe().choisir_menu(choixu, choix3)
                     else:
-                        pass
+                        from vues.ConsulterMangaCollecVueUtilisateur import ConsulterMangaCollecCoheUtilVUe
+                        return ConsulterMangaCollecCoheUtilVUe().choisir_menu(choixu, choix3)
                 if choix4 == "Retour au menu précédent":
                     from vues.rechercher_utilisateur_vue import RechercheUtilisateurVue
                     return RechercheUtilisateurVue()
