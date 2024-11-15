@@ -4,6 +4,7 @@ from vues.session import Session
 from dao.collection_physique_dao import CollectionPhysiqueDAO
 from dao.manga_dao import MangaDao
 from dao.manga_possede_dao import MangaPossedeDao
+import logging
 
 
 class CollectionPhysiqueVue(VueAbstraite):
@@ -138,4 +139,63 @@ class CollectionPhysiqueVue(VueAbstraite):
             return self.choisir_menu()
 
         if choix5 == "Modifier les tomes possédés":
-            pass
+            mangap = MangaPossedeDao().trouver_manga_possede_collecphys(
+                    choix4,
+                    (
+                        CollectionPhysiqueDAO().trouver_collec_phys_id_user(
+                            Session().utilisateur.id
+                        )
+                    ).id_collectionphysique,
+                )
+            num_manquant = mangap.num_manquant
+            manga = MangaDao().trouver_manga_par_titre(choix4)
+            liste_id_num_manquant = MangaPossedeDao().trouver_id_num_manquant_id(mangap.id_manga_p)
+            logging.info(f"nummanq = {liste_id_num_manquant}")
+            for elt in num_manquant:
+                MangaPossedeDao().supprimer_num_manquant(liste_id_num_manquant[0])
+            liste_id_num_manquant = MangaPossedeDao().trouver_id_num_manquant_id(mangap.id_manga_p)
+            logging.info(f"nummanq = {liste_id_num_manquant}")
+            volume_manga = MangaPossedeDao().nb_volume_manga(manga.titre)
+            nb_volumes_poss = int(
+                                    inquirer.text(message="Entrez le nombre de volumes possédés du manga : ").execute()
+                                )
+            if volume_manga:
+                if nb_volumes_poss > volume_manga:
+                    print("Nombre incorrect")
+                    return self.choisir_menu_bis(choix4)
+            volumes_poss = []
+            while nb_volumes_poss != 0:
+                num_vol = inquirer.text(
+                            message="Entrez le numéro des volumes possédés du manga : "
+                        ).execute()
+                if "-" in num_vol:
+                    a = int(num_vol.split("-")[0])
+                    b = int(num_vol.split("-")[1])
+                    if a < 1 or b < 1 or (nb_volumes_poss-(b-a+1)) < 0:
+                        if volume_manga:
+                            if a > volume_manga or b > volume_manga:
+                                print("Erreur")
+                                return self.choisir_menu_bis(choix4)
+                        print("Erreur")
+                        return self.choisir_menu_bis(choix4)
+                    for i in range(a, b+1):
+                        volumes_poss.append(i)
+                    nb_volumes_poss = nb_volumes_poss-(b-a+1)
+                else:
+                    num = int(num_vol)
+                    if volume_manga:
+                        if num > volume_manga:
+                            print("Erreur")
+                            return self.choisir_menu_bis(choix4)
+                    volumes_poss.append(num)
+                    nb_volumes_poss -= 1
+            logging.info(f"vol:{volumes_poss}")
+            if volume_manga:
+                num_manquant = [i for i in range(1, volume_manga+1)]
+                for elt in volumes_poss:
+                    num_manquant.remove(elt)
+            logging.info(f"manq:{num_manquant}")
+            if volume_manga:
+                for elt in num_manquant:
+                    MangaPossedeDao().ajouter_ass_num_manquant(mangap.id_manga_p, MangaPossedeDao().ajouter_num_manquant(elt))
+            return self.choisir_menu_bis(choix4)
