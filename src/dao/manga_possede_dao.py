@@ -271,14 +271,15 @@ class MangaPossedeDao:
                         {"id_manga_p": id_p},
                     )
                     res2 = cursor.fetchall()
+                    logging.info(f"Résultats de la recherche : {res2}")
         except Exception as e:
             logging.info(e)
             raise
         liste = []
         for elt in res2:
             liste.append(elt["id_num_manquant"])
-            return liste
-        return None
+        logging.info(f"Liste des numéros manquants : {liste}")
+        return liste
 
     def supprimer_num_manquant(self, idnm) -> bool:
         """Suppression d'un manga d'une collection coherente

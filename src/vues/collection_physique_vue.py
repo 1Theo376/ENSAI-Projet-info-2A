@@ -151,10 +151,10 @@ class CollectionPhysiqueVue(VueAbstraite):
             manga = MangaDao().trouver_manga_par_titre(choix4)
             liste_id_num_manquant = MangaPossedeDao().trouver_id_num_manquant_id(mangap.id_manga_p)
             logging.info(f"nummanq = {liste_id_num_manquant}")
-            for elt in num_manquant:
-                MangaPossedeDao().supprimer_num_manquant(liste_id_num_manquant[0])
-            liste_id_num_manquant = MangaPossedeDao().trouver_id_num_manquant_id(mangap.id_manga_p)
-            logging.info(f"nummanq = {liste_id_num_manquant}")
+            for elt in liste_id_num_manquant:
+                MangaPossedeDao().supprimer_num_manquant(elt)
+            liste_id_num_manquant_new = MangaPossedeDao().trouver_id_num_manquant_id(mangap.id_manga_p)
+            logging.info(f"nummanq = {liste_id_num_manquant_new}")
             volume_manga = MangaPossedeDao().nb_volume_manga(manga.titre)
             nb_volumes_poss = int(
                                     inquirer.text(message="Entrez le nombre de volumes possédés du manga : ").execute()
@@ -168,9 +168,10 @@ class CollectionPhysiqueVue(VueAbstraite):
                 num_vol = inquirer.text(
                             message="Entrez le numéro des volumes possédés du manga : "
                         ).execute()
+                num_vol = num_vol.replace(" ", "").strip()
+                num_vol = num_vol.replace("–", "-")
                 if "-" in num_vol:
-                    a = int(num_vol.split("-")[0])
-                    b = int(num_vol.split("-")[1])
+                    a, b = map(int, num_vol.split("-"))
                     if a < 1 or b < 1 or (nb_volumes_poss-(b-a+1)) < 0:
                         if volume_manga:
                             if a > volume_manga or b > volume_manga:
