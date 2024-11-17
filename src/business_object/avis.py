@@ -1,24 +1,21 @@
 class Avis:
     """
-    Définition de la classe avis
+    Classe Avis représentant un avis associé à un manga.
 
-    Parameters:
+    Attributs:
     ----------------
     id_avis : int
-        Identifiant lié à l'avis
+        Identifiant unique de l'avis.
 
     texte : str
-        Contenu de l'avis
+        Le contenu de l'avis.
     """
 
     def __init__(self, id_avis: int, texte: str):
+        """Initialise un nouvel objet Avis"""
         self.id_avis = id_avis
         self.texte = texte
 
     def __str__(self):
-        """
-        Retourne le contenu de l'avis
-
-        Returns : str
-        """
+        """Retourne le contenu de l'avis"""
         return f"{self.texte}"
