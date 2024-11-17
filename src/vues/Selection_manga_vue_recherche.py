@@ -32,10 +32,7 @@ class SelectionMangaVuerecherche(VueAbstraite):
                 from vues.AjouterMangaCollec import AjouterMangaCollecVuerecherche
                 return AjouterMangaCollecVuerecherche().choisir_menu(choix)
             case "Afficher les informations du manga":
-                print(
-                    "\n" + "-" * 50 + "\nInformation du manga\n" + "-" * 50 + "\n"
-                    )
-                print("Titre: " + manga.titre + "\n")
+                print("\n" + "-" * 50 + "\n" + manga.titre + "\n" + "-" * 50 + "\n")
                 print("Synopsis: " + manga.synopsis + "\n")
                 print("Auteur: " + manga.auteur + "\n")
                 print("Thèmes: " + manga.themes + "\n")

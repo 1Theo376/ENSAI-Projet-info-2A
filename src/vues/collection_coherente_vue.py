@@ -16,12 +16,7 @@ class CollectionCoherenteVue(VueAbstraite):
         print("\n" + "-" * 50 + "\nRecherche d'une collection\n" + "-" * 50 + "\n")
         choix = RechercheService().recherche_collec_cohe_par_id(Session().utilisateur.id)
 
-        if not choix:
-            print("Aucune collection trouvée.")
-            from vues.menu_utilisateur_vue import MenuUtilisateurVue
-            return MenuUtilisateurVue().choisir_menu()
-
-        choix.extend(["Retour au menu précédent", "Afficher la page suivante"])
+        choix.extend(["Afficher la page suivante", "Retour au menu précédent"])
 
         choix2 = inquirer.select(
             message="Choisissez une collection : ",
