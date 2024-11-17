@@ -31,8 +31,8 @@ class AvisRechercheUtilisateurVue(VueAbstraite):
             Retourne la vue choisie par l'utilisateur dans le terminal
         """
 
-        print("\n" + "-" * 50 + "\nRecherche d'un utilisateur\n" + "-" * 50 + "\n")
         id_utilisateur = UtilisateurDao().recherche_id_par_pseudo(choix3)
+        print("\n" + "-" * 50 + f"\nAvis de l'utilisateur {choix3} \n" + "-" * 50 + "\n")
         liste_avis, liste_titre = AvisService().recuperer_avis_utilisateur(id_utilisateur)
         n = 0
         m = 8
@@ -40,10 +40,11 @@ class AvisRechercheUtilisateurVue(VueAbstraite):
 
         while n >= 0:
             sous_liste_avis, sous_liste_titre, longueur_tot = liste_avis[n:n+m], liste_titre[n: n+m], len(liste_avis)
-            choix2 = ["Afficher la page suivante","Afficher la page précédente", "Retour au menu précédent"]
-            for i in range(n, n+m):
+            logging.info(f"avis : {sous_liste_avis}")
+            choix2 = ["Afficher la page suivante", "Afficher la page précédente", "Retour au menu précédent"]
+            for i in range(n, min(len(liste_avis), n+m)):
                 print(
-                    "\n" + "-" * 50 + f"\n{sous_liste_avis[i]} Titre: {sous_liste_titre[i]}\n" + "-" * 50 + "\n"
+                    "\n" + "-" * 50 + f"\nManga: {sous_liste_titre[i]}\n{sous_liste_avis[i].texte} \n" + "-" * 50 + "\n"
                     )
             if n + m >= longueur_tot:
                 choix2.remove("Afficher la page suivante")

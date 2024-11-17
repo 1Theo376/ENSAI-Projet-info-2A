@@ -258,3 +258,54 @@ class MangaPossedeDao:
                 num_manquant=liste,
             )
         return manga_possede
+
+    def trouver_id_num_manquant_id(self, id_p):
+        try:
+            with DBConnection().connection as connection:
+                with connection.cursor() as cursor:
+                    cursor.execute(
+                        "SELECT id_num_manquant FROM num_manquant as mq            "
+                        "left join association_manga_num_manquant using(id_num_manquant)      "
+                        "left join manga_possede using(id_manga_p)                "
+                        "WHERE id_manga_p = %(id_manga_p)s;                   ",
+                        {"id_manga_p": id_p},
+                    )
+                    res2 = cursor.fetchall()
+                    logging.info(f"Résultats de la recherche : {res2}")
+        except Exception as e:
+            logging.info(e)
+            raise
+        liste = []
+        for elt in res2:
+            liste.append(elt["id_num_manquant"])
+        logging.info(f"Liste des numéros manquants : {liste}")
+        return liste
+
+    def supprimer_num_manquant(self, idnm) -> bool:
+        """Suppression d'un manga d'une collection coherente
+
+        Parameters
+        ----------
+
+
+        Returns
+        -------
+        True si le manga a bien été supprimé
+        """
+
+        try:
+            with DBConnection().connection as connection:
+                with connection.cursor() as cursor:
+                    # Supprimer le manga d'une collection
+                    cursor.execute(
+                        "DELETE FROM num_manquant                 "
+                        " WHERE id_num_manquant = %(idnm)s ;",
+                        {
+                            "idnm": idnm,
+                        },
+                    )
+                    res = cursor.rowcount
+        except Exception as e:
+            logging.info(e)
+            raise
+        return res > 0

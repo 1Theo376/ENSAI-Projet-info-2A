@@ -34,7 +34,7 @@ class InscriptionVue(VueAbstraite):
         # Appel du service pour creer le utilisateur
         utilisateur = UtilisateurService().creer_compte(pseudo, mdp)
 
-        # Si le joueur a été créé
+        # Si l'utilisateur a été créé
         if utilisateur:
             message = f"Votre compte {utilisateur.pseudo} a été créé. Vous pouvez maintenant vous connecter."
         else:
