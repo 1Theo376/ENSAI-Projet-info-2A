@@ -11,7 +11,48 @@ from dao.manga_possede_dao import MangaPossedeDao
 class CollectionPhysiqueDAO:
     """Classe contenant les méthodes pour accéder aux collections de l'utilisateur"""
 
+<<<<<<< HEAD
     def supprimer_collectionphys(self, CollectionP: Collection_physique) -> bool:
+=======
+    # def trouver_par_idphys(self, id_collection) -> Collection_physique:
+    #    """trouver une collectionr grace à son id
+    #
+    #        Parameters
+    #        ----------
+    #        id_collection : int
+    #            numéro id de la collection que l'on souhaite trouver
+    #
+    #        Returns
+    #        -------
+    #        Colection : Collection_physique
+    #            renvoie la collection que l'on cherche par id
+    #        """
+    #        try:
+    #            with DBConnection().connection as connection:
+    #                with connection.cursor() as cursor:
+    #                    cursor.execute(
+    #                        "SELECT *                           "
+    #                        "  FROM collection_physique                     "
+    #                        " WHERE id_collection = %(id)s;  ",
+    #                        {"id": id_collection},
+    #                    )
+    #                    res = cursor.fetchone()
+    #        except Exception as e:
+    #           logging.info(e)
+    #            raise
+    #
+    #        Collection = None
+    #        if res:
+    #            Collection = Collection_physique(
+    #                id_collection_coherente=res["id_collection"],
+    #                titre_collection=res["titre_collection"],
+    #            desc_collection=res["desc_collection"],
+    #        )
+    #
+    #    return Collection
+
+    def supprimer_collectionphys(self, id_collecion_p) -> bool:
+>>>>>>> 19311f7a7cff1962bb9444aae0c94cbb52aea554
         """Suppression d'une collection physique dans la base de données
 
         Parameters
@@ -30,8 +71,8 @@ class CollectionPhysiqueDAO:
                     # Supprimer la collection d'un utilisateur
                     cursor.execute(
                         "DELETE FROM collection_physique                  "
-                        " WHERE id_collec_coherente=%(id)s      ",
-                        {"id": CollectionP.id_collection},
+                        " WHERE id_collec_physique=%(id_collecion_p)s      ",
+                        {"id_collecion_p": id_collecion_p},
                     )
                     res = cursor.rowcount
         except Exception as e:

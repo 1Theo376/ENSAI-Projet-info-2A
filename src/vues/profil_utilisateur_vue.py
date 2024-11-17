@@ -5,6 +5,7 @@ from service.collection_coherente_service import CollectionCoherenteService
 from service.collection_physique_service import Collection_physique_service
 from dao.collection_physique_dao import CollectionPhysiqueDAO
 from dao.collection_coherente_dao import CollectionCoherenteDAO
+from service.avis_service import AvisService
 import logging
 
 
@@ -31,11 +32,11 @@ class EcranDuProfilVue(VueAbstraite):
         choix = [
                 "Consulter mes collections cohérentes",
                 "Consulter ma collection physique",
-                "Consulter ses avis",
+                "Consulter mes avis",
                 "Créer une collection cohérente",
                 "Créer une collection physique",
-                "Retour vers le menu précédent",
                 "Supprimer mon compte",
+                "Retour au menu précédent"
             ]
 
         if not CollectionPhysiqueDAO().trouver_collec_phys_id_user(Session().utilisateur.id):
@@ -58,13 +59,17 @@ class EcranDuProfilVue(VueAbstraite):
                 from vues.collection_physique_vue import CollectionPhysiqueVue
                 return CollectionPhysiqueVue()
 
-            case "Consulter ses avis":
-                from vues.avis_utilisateur_vue import MenuAvis
-                return MenuAvis()
+            case "Consulter mes avis":
+                if not AvisService().recuperer_avis_utilisateur(Session().utilisateur.id):
+                    print("\n" + "Vous n'avez pas émis d'avis." + "\n")
+                    return self.choisir_menu()
+                else:
+                    from vues.avis_utilisateur_vue import MenuAvis
+                    return MenuAvis()
 
             case "Créer une collection cohérente":
                 titre = inquirer.text(
-                    message="Entrez le nom de la collection que vous voulez creer : "
+                    message="Entrez le nom de la collection que vous voulez créer : "
                 ).execute()
                 desc = inquirer.text(message="Decrivez votre collection : ").execute()
                 CollectionCoherenteService().creer_collectioncohe(titre, desc)
@@ -79,21 +84,29 @@ class EcranDuProfilVue(VueAbstraite):
                     return self.choisir_menu()
                 else:
                     titre = inquirer.text(
-                        message="Entrez le nom de la collection que vous voulez creer : "
+                        message="Entrez le nom de la collection que souhaitez voulez créer : "
                     ).execute()
-                    desc = inquirer.text(message="Decrivez votre collection : ").execute()
+                    desc = inquirer.text(message="Décrivez votre collection : ").execute()
                     Collection_physique_service().creer_collectionphys(titre, desc)
                     return EcranDuProfilVue()
 
-            case "Retour vers le menu précédent":
+            case "Retour au menu précédent":
                 from vues.menu_utilisateur_vue import MenuUtilisateurVue
-
                 return MenuUtilisateurVue()
 
             case "Supprimer mon compte":
-                from dao.utilisateur_dao import UtilisateurDao
-                UtilisateurDao().supprimer(Session().utilisateur)
-                Session().deconnexion()
+                choix2 = inquirer.select(
+                    message="Etes vous sûrs de vouloir supprimer votre compte ?",
+                    choices=["oui", "non"],
+                    ).execute()
 
-                from vues.accueil.accueil_vue import AccueilVue
-                return AccueilVue()
+                match choix2:
+                    case "oui":
+                        print("Compte supprimé.")
+                        from dao.utilisateur_dao import UtilisateurDao
+                        UtilisateurDao().supprimer(Session().utilisateur)
+                        Session().deconnexion()
+                        from vues.accueil.accueil_vue import AccueilVue
+                        return AccueilVue()
+                    case "non":
+                        return EcranDuProfilVue()

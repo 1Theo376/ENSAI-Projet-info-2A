@@ -11,7 +11,7 @@ class CollectionCoherenteDAO:
     """Classe contenant les méthodes pour accéder aux collections du joueur"""
 
     def supprimer_collection(self, CollectionC: CollectionCoherente) -> bool:
-        """Suppression d'une collection cohérente dans la base de données
+        """Suppression d'une collection coherente dans la base de données
 
         Parameters
         ----------
@@ -28,8 +28,8 @@ class CollectionCoherenteDAO:
                     # Supprimer la collection d'un utilisateur
                     cursor.execute(
                         "DELETE FROM collection_coherente                  "
-                        " WHERE id_collec_coherente=%(id)s      ",
-                        {"id": CollectionC.id_collection},
+                        " WHERE id_collec_coherente=%(id_collection_c)s      ",
+                        {"id_collection_c": id_collection_c},
                     )
                     res = cursor.rowcount
         except Exception as e:

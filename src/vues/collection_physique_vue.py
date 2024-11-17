@@ -16,28 +16,26 @@ class CollectionPhysiqueVue(VueAbstraite):
         vue
             Retourne la vue choisie par l'utilisateur dans le terminal
         """
-        choix = [
-                "Consulter/Modifier les mangas de la collection",
-                "Consulter la description de la collection",
-                "Modifier titre de la collection",
-                "Modifier description de la collection",
-                "Retour au menu précédent"
-            ]
-
-        if not CollectionPhysiqueDAO().trouver_collec_phys_id_user(Session().utilisateur.id).Liste_manga :
-            choix.remove("Consulter/Modifier les mangas de la collection")
-
         choix3 = inquirer.select(
             message="Que voulez vous faire dans votre collection Physique : ",
-            choices=choix
+            choices=[
+                "Consulter/Modifier les mangas de la collection",
+                "Consulter la description de la collection",
+                "Modifier le titre de la collection",
+                "Modifier la description de la collection",
+                "Supprimer la collection",
+                "Retour au menu précédent"
+            ],
         ).execute()
         if choix3 == "Consulter/Modifier les mangas de la collection":
-
             liste_titre = []
             for manga in (
                 CollectionPhysiqueDAO().trouver_collec_phys_id_user(Session().utilisateur.id)
             ).Liste_manga:
                 liste_titre.append(MangaDao().trouver_manga_par_id(manga.idmanga).titre)
+            if not liste_titre:
+                print("\n" + "La collection ne contient pas de mangas, \nvous pouvez en ajouter dans la section Recherche." + "\n")
+                return self.choisir_menu()
             choix4 = inquirer.select(
                 message="Selectionnez un manga de votre collection : ",
                 choices=liste_titre,
@@ -50,10 +48,10 @@ class CollectionPhysiqueVue(VueAbstraite):
                 .trouver_collec_phys_id_user(Session().utilisateur.id)
                 .description_collection
             )
-            print(print("\n" + "-" * 50 + "\n" + description + "\n" + "-" * 50 + "\n"))
+            print("\n" + "-" * 50 + "\n" + description + "\n" + "-" * 50 + "\n")
             return self.choisir_menu()
 
-        if choix3 == "Modifier titre de la collection":
+        if choix3 == "Modifier le titre de la collection":
             id_collection = (
                 CollectionPhysiqueDAO()
                 .trouver_collec_phys_id_user(Session().utilisateur.id)
@@ -63,7 +61,8 @@ class CollectionPhysiqueVue(VueAbstraite):
             CollectionPhysiqueDAO().modifier_titre(id_collection, nouveau_titre)
             print("\n" + "Titre modifié." + "\n")
             return self.choisir_menu()
-        if choix3 == "Modifier description de la collection":
+
+        if choix3 == "Modifier la description de la collection":
             id_collection = (
                 CollectionPhysiqueDAO()
                 .trouver_collec_phys_id_user(Session().utilisateur.id)
@@ -73,51 +72,51 @@ class CollectionPhysiqueVue(VueAbstraite):
             CollectionPhysiqueDAO().modifier_desc(id_collection, nouvelle_desc)
             print("\n" + "Description modifiée." + "\n")
             return self.choisir_menu()
+
+        if choix3 == "Supprimer la collection":
+            id_collection = (
+                CollectionPhysiqueDAO()
+                .trouver_collec_phys_id_user(Session().utilisateur.id)
+                .id_collectionphysique
+            )
+            logging.info(f"id_collection : {id_collection}")
+            CollectionPhysiqueDAO().supprimer_collectionphys(id_collection)
+            print("\n" + "Collection supprimée." + "\n")
+            from vues.profil_utilisateur_vue import EcranDuProfilVue
+            return EcranDuProfilVue()
+
         if choix3 == "Retour au menu précédent":
             from vues.profil_utilisateur_vue import EcranDuProfilVue
-
             return EcranDuProfilVue()
 
     def choisir_menu_bis(self, choix4):
+        print(MangaDao().trouver_manga_par_titre(choix4))
+        print(
+            MangaPossedeDao().trouver_manga_possede_collecphys(
+                choix4,
+                (
+                    CollectionPhysiqueDAO().trouver_collec_phys_id_user(Session().utilisateur.id)
+                ).id_collectionphysique,
+            )
+        )
+        print(f"Nombre de volumes possédés : {MangaPossedeDao().nb_volume_manga(choix4)}")
         choix5 = inquirer.select(
             message=f"Que voulez-vous faire avec le manga {choix4}: ",
             choices=[
-                "Afficher les informations du manga",
                 "Modifier les tomes possédés",
                 "Consulter son avis sur ce manga",
                 "Retirer le manga de la collection",
                 "Retour au menu précédent",
             ],
         ).execute()
-        if choix5 == "Afficher les informations du manga":
-            print(MangaDao().trouver_manga_par_titre(choix4))
-            print(
-                MangaPossedeDao().trouver_manga_possede_collecphys(
-                    choix4,
-                    (
-                        CollectionPhysiqueDAO().trouver_collec_phys_id_user(
-                            Session().utilisateur.id
-                        )
-                    ).id_collectionphysique,
-                )
-            )
-            print(f"Nombre de volumes possédés : {MangaPossedeDao().nb_volume_manga(choix4)}")
-            return self.choisir_menu_bis(choix4)
         if choix5 == "Retirer le manga de la collection":
-            from service.collection_physique_service import Collection_physique_service
+            from service.collection_coherente_service import CollectionCoherenteService
 
-            Collection_physique_service().supprimer_mangaposs(
+            CollectionCoherenteService().supprimer_mangaposs(
                 CollectionPhysiqueDAO().trouver_collec_phys_id_user(Session().utilisateur.id),
-                MangaPossedeDao().trouver_manga_possede_collecphys(
-                    choix4,
-                    (
-                        CollectionPhysiqueDAO().trouver_collec_phys_id_user(
-                            Session().utilisateur.id
-                        )
-                    ).id_collectionphysique,
-                ),
+                MangaDao().trouver_manga_par_titre(choix4),
             )
-            return self.choisir_menu()
+            return self.choisir_menu_bis(choix4)
 
         if choix5 == "Consulter son avis sur ce manga":
             from service.avis_service import AvisService

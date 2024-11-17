@@ -51,6 +51,9 @@ class RechercheUtilisateurVue(VueAbstraite):
                         message="Faites votre choix : ",
                         choices=choix2
                         ).execute()
+                    if choix3 == "Retour au menu précédent":
+                        from vues.recherche_vue import RechercheVue
+                        return RechercheVue().choisir_menu()
 
                 longueur, sous_liste, longueur_tot = RechercheService().recherche_utilisateur(pseudo, n, m, a)
                 logging.info(f"longueur : {longueur}")

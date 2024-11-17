@@ -64,10 +64,8 @@ class MenuAvis(VueAbstraite):
 
         if choix_utilisateur == "Retour au menu précédent":
             from vues.profil_utilisateur_vue import EcranDuProfilVue
-
-            return EcranDuProfilVue()
+            return EcranDuProfilVue().choisir_menu()
 
         if choix_utilisateur == "Retour vers l'écran de Menu":
             from vues.menu_utilisateur_vue import MenuUtilisateurVue
-
-            return MenuUtilisateurVue()
+            return MenuUtilisateurVue().choisir_menu()

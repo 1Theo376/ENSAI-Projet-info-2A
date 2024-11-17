@@ -29,9 +29,11 @@ class ConsulterMangaCollecPhysUtilVUe(VueAbstraite):
             message="Selectionnez un manga de votre collection : ",
             choices=liste_titre,
         ).execute()
+
         if choix4 == "Retour au menu précédent":
             from vues.ConsulterCollecVue import CollectionCoherenteVueRecherche
             return CollectionCoherenteVueRecherche().choisir_menu(choixu)
+
         else:
             n = 0
             if AvisService().recuperer_avis_utilisateur(choixu):
@@ -39,6 +41,7 @@ class ConsulterMangaCollecPhysUtilVUe(VueAbstraite):
                 for i in range(0, len(liste_titre)):
                     if liste_titre[i] == manga.titre:
                         n = i
+
             manga = MangaDao().trouver_manga_par_titre(choix4)
             print("\n" + "-" * 50 + "\nInformation du manga\n" + "-" * 50 + "\n")
             print("Titre: " + manga.titre + "\n")
@@ -46,6 +49,7 @@ class ConsulterMangaCollecPhysUtilVUe(VueAbstraite):
             print("Auteur: " + manga.auteur + "\n")
             print("Thèmes: " + manga.themes + "\n")
             print("Genre: " + manga.genre + "\n")
+
             if n != 0:
                 print(
                     "\n" + "-" * 50 + f"\nManga: {liste_titre[n]}\n{liste_avis[n].texte} \n" + "-" * 50 + "\n"

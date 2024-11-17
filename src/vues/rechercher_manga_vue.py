@@ -33,6 +33,9 @@ class RechercheMangaVue(VueAbstraite):
                         message="Faites votre choix : ",
                         choices=choix2
                         ).execute()
+                    if choix3 == "Retour au menu précédent":
+                        from vues.recherche_vue import RechercheVue
+                        return RechercheVue().choisir_menu()
 
                 longueur, sous_liste, longueur_tot = RechercheService().recherche_manga_par_t2(titre, n, m, a)
 
@@ -51,14 +54,21 @@ class RechercheMangaVue(VueAbstraite):
                     if choix3 == "Retour au menu précédent":
                         from vues.recherche_vue import RechercheVue
                         return RechercheVue().choisir_menu()
+
                     elif choix3 == "Afficher la page suivante":
                         n += m
+
                     elif choix3 == "Afficher la page précédente":
                         n = max(0, n - m)
+
                     else:
                         n = -1
                         from vues.Selection_manga_vue_recherche import SelectionMangaVuerecherche
                         return SelectionMangaVuerecherche().choisir_menu(choix3)
+
+            case "Retour au menu précédent":
+                from vues.recherche_vue import RechercheVue
+                return RechercheVue().choisir_menu()
 
                 from vues.menu_utilisateur_vue import MenuUtilisateurVue
                 return MenuUtilisateurVue()
