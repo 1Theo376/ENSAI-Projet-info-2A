@@ -1,20 +1,21 @@
 class Collection_physique:
     """
-    Représente une collection cohérente de mangas.
+    Classe représentant une collection physique de mangas, c'est-à-dire les mangas
+    possédés en vrai, par tome.
 
-    Parameters :
+    Attributs:
     ----------
-    id_collection : int
-        L'identifiant unique de la collection
+    id_collectionphysique : int
+        L'identifiant unique de la collection.
 
     titre_collection : str
-        Le titre de la collection
+        Le titre de la collection.
 
-    desc_collection : str
-        Une description de la collection
+    description_collection : str
+        Une description de la collection.
 
     Liste_manga : list[Manga]
-        Une liste contenant les objets Manga qui font partie de cette collection
+        Une liste contenant les objets Manga qui font partie de cette collection.
 
     """
 
@@ -25,9 +26,7 @@ class Collection_physique:
         description_collection: str,
         Liste_manga=[],
     ):
-        """
-        Initialise un nouvel objet CollectionCoherente
-        """
+        """ Initialise un nouvel objet Collection_physique"""
         self.id_collectionphysique = id_collectionphysique
         self.titre_collection = titre_collection
         self.description_collection = description_collection

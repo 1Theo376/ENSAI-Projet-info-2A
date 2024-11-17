@@ -1,11 +1,11 @@
 class Utilisateur:
     """
-    Définition de la classe Utilisateur.
+    Calsse représentant un Utilisateur.
 
     Attributs
     ----------
     id : int
-        Identifiant de l'utilisateur
+        Identifiant unique de l'utilisateur
 
     pseudo: str
         Pseudo de l'utilisateur
@@ -16,9 +16,7 @@ class Utilisateur:
     """
 
     def __init__(self, id: int, pseudo: str, mdp: str):
-        """
-        Initialise une instance de Utilisateur
-        """
+        """Initialise un objet Utilisateur"""
         self.id = id
         self.mdp = mdp
         self.pseudo = pseudo

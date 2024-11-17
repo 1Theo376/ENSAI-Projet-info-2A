@@ -1,15 +1,14 @@
 import logging
-
-
 from dao.db_connection import DBConnection
 from business_object.avis import Avis
 
 
 class AvisDAO:
+    "Classe contenant des méthodes relatives aux avis"
     def creer_avis(self, avis, id_user, id_manga) -> bool:
-        """Créer un nouvel avis dans la base de données
+        """Création d'un avis dans la base de données
 
-        Parameters
+        Attributs
         ----------
         avis : Avis
             L'avis à creer
@@ -48,14 +47,14 @@ class AvisDAO:
 
         return created
 
-    def trouver_avis_par_id(self, id_avis) -> Avis:
+    def trouver_avis_par_id(self, id_avis) -> Avis:  ##???
         """
-        permet de trouver un avis à l'aide de son id
+        Permet de trouver un avis à l'aide de son id
 
         Parameters
         -----------
         id_avis : int
-            Identifiant de l'avis
+            Identifiant unique de l'avis
 
         Returns
         --------
@@ -83,14 +82,14 @@ class AvisDAO:
 
         return avis
 
-    def trouver_avis_par_titre_manga(self, titre) -> Avis:
+    def trouver_avis_par_titre_manga(self, titre) -> Avis: #fonction étrange/ Returns à modifier ? on retourne une liste ou un avis ???§§!!!!!
         """
-        permet de trouver un avis à l'aide de son id
+        permet de trouver un avis à l'aide du titre d'un manga
 
         Parameters
         -----------
-        id_avis : int
-            Identifiant de l'avis
+        titre : str
+            Titre du manga
 
         Returns
         --------
@@ -156,6 +155,8 @@ class AvisDAO:
         ----------
         avis : Avis
 
+        nouveau_texte: str
+            le nouvel avis
         Returns
         -------
         True si l'avis a bien été modifié, False sinon
@@ -181,7 +182,7 @@ class AvisDAO:
 
             return res == 1
 
-    def consulter_avis(self, id_avis):
+    def consulter_avis(self, id_avis):  #la même fonction au-dessus/ et à quoi elle sert concrétement???!!!
         """Consultation de l'avis voulu
         Parameters
         ----------
@@ -214,8 +215,16 @@ class AvisDAO:
 
         return avis
 
-    def recuperer_avis_utilisateur(self, id_utilisateur):
-        """Récupère tous les avis d'un utilisateur"""
+    def recuperer_avis_utilisateur(self, id_utilisateur):  #modifier la fonction : if...:... return None
+        """Récupère tous les avis d'un utilisateur
+
+        Parameters
+        ----------
+        id_utilisateur : int
+
+        Returns
+        --------
+        avis_liste une liste des avis et liste_manga une liste des id_manga associés"""
         avis_liste = []
         liste_manga = []
         try:
@@ -237,7 +246,15 @@ class AvisDAO:
         return avis_liste, liste_manga
 
     def recuperer_avis_manga(self, id_manga):
-        """Récupère tous les avis d'un utilisateur"""
+        """Récupère tous les avis sur un manga
+
+        Parameters
+        ----------
+        id_manga : int
+
+        Returns
+        --------
+        avis_liste une liste des avis et liste_user une liste des id_utilisateur associés"""
         avis_liste = []
         liste_user = []
         try:
@@ -259,8 +276,19 @@ class AvisDAO:
             raise
         return avis_liste, liste_user
 
-    def AvisUtilisateurMangaExistant(self, id_utilisateur, id_manga):
-        """Vérifie si l'utiliosateur a déjà fait un avis sur ce manga"""
+    def AvisUtilisateurMangaExistant(self, id_utilisateur, id_manga):  #peut-être plus util de vérfier si la fonction au-dessous retourne qqchose ou non
+        """Vérifie si l'utilisateur a déjà fait un avis sur ce manga
+
+         Parameters
+        ----------
+        id_manga : int
+
+        id_utilisateur : int
+
+        Returns
+        --------
+        True si il en a un, False sinon
+        """
         try:
             with DBConnection().connection as connection:
                 with connection.cursor() as cursor:
@@ -277,7 +305,19 @@ class AvisDAO:
             exist = True
         return exist
 
-    def recuperer_avis_user_et_manga(self, id_manga, id_utilisateur):
+    def recuperer_avis_user_et_manga(self, id_manga, id_utilisateur):  #bizarrement faite
+        """Récupére l'avis de l' utilisateur sur ce manga
+
+         Parameters
+        ----------
+        id_manga : int
+
+        id_utilisateur : int
+
+        Returns
+        --------
+        avis ou None #à modif
+        """
         try:
             with DBConnection().connection as connection:
                 with connection.cursor() as cursor:
