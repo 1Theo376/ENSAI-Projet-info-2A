@@ -24,6 +24,7 @@ class ConsulterMangaCollecPhysUtilVUe(VueAbstraite):
         liste_titre = []
         for manga in (CollectionPhysiqueDAO().trouver_collec_phys_id_user(Session().utilisateur.id)).Liste_manga:
             liste_titre.append(MangaDao().trouver_manga_par_id(manga.idmanga).titre)
+        logging.info(f"liste: {liste_titre}")
         liste_titre.append("Retour au menu précédent")
         choix4 = inquirer.select(
             message="Selectionnez un manga de votre collection : ",
@@ -36,13 +37,13 @@ class ConsulterMangaCollecPhysUtilVUe(VueAbstraite):
 
         else:
             n = 0
+            manga = MangaDao().trouver_manga_par_titre(choix4)
             if AvisService().recuperer_avis_utilisateur(id_utilisateur):
                 liste_avis, liste_titre = AvisService().recuperer_avis_utilisateur(id_utilisateur)
                 for i in range(0, len(liste_titre)):
                     if liste_titre[i] == manga.titre:
                         n = i
 
-            manga = MangaDao().trouver_manga_par_titre(choix4)
             print("\n" + "-" * 50 + "\nInformation du manga\n" + "-" * 50 + "\n")
             print("Titre: " + manga.titre + "\n")
             print("Synopsis: " + manga.synopsis + "\n")
