@@ -36,8 +36,8 @@ class ConsulterMangaCollecPhysUtilVUe(VueAbstraite):
 
         else:
             n = 0
-            if AvisService().recuperer_avis_utilisateur(choixu):
-                liste_avis, liste_titre = AvisService().recuperer_avis_utilisateur(choixu)
+            if AvisService().recuperer_avis_utilisateur(id_utilisateur):
+                liste_avis, liste_titre = AvisService().recuperer_avis_utilisateur(id_utilisateur)
                 for i in range(0, len(liste_titre)):
                     if liste_titre[i] == manga.titre:
                         n = i
