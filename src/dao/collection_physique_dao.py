@@ -11,53 +11,17 @@ from dao.manga_possede_dao import MangaPossedeDao
 class CollectionPhysiqueDAO:
     """Classe contenant les méthodes pour accéder aux collections de l'utilisateur"""
 
-    # def trouver_par_idphys(self, id_collection) -> Collection_physique:
-    #    """trouver une collectionr grace à son id
-    #
-    #        Parameters
-    #        ----------
-    #        id_collection : int
-    #            numéro id de la collection que l'on souhaite trouver
-    #
-    #        Returns
-    #        -------
-    #        Colection : Collection_physique
-    #            renvoie la collection que l'on cherche par id
-    #        """
-    #        try:
-    #            with DBConnection().connection as connection:
-    #                with connection.cursor() as cursor:
-    #                    cursor.execute(
-    #                        "SELECT *                           "
-    #                        "  FROM collection_physique                     "
-    #                        " WHERE id_collection = %(id)s;  ",
-    #                        {"id": id_collection},
-    #                    )
-    #                    res = cursor.fetchone()
-    #        except Exception as e:
-    #           logging.info(e)
-    #            raise
-    #
-    #        Collection = None
-    #        if res:
-    #            Collection = Collection_physique(
-    #                id_collection_coherente=res["id_collection"],
-    #                titre_collection=res["titre_collection"],
-    #            desc_collection=res["desc_collection"],
-    #        )
-    #
-    #    return Collection
-
     def supprimer_collectionphys(self, CollectionP: Collection_physique) -> bool:
         """Suppression d'une collection physique dans la base de données
 
         Parameters
         ----------
+        CollectionP: Collection_physique
 
 
         Returns
         -------
-            True si la collection a bien été supprimé
+        True si la collection a bien été supprimé
         """
 
         try:
@@ -81,7 +45,7 @@ class CollectionPhysiqueDAO:
 
         Parameters
         ----------
-
+        CollectionP: Collection_physique
 
         Returns
         -------
@@ -122,8 +86,8 @@ class CollectionPhysiqueDAO:
 
         Parameters
         ----------
-
-
+        CollectionP: Collection_physique
+        MangaPoss: MangaPossede
         Returns
         -------
             True si le manga a bien été supprimé
@@ -132,7 +96,6 @@ class CollectionPhysiqueDAO:
         try:
             with DBConnection().connection as connection:
                 with connection.cursor() as cursor:
-                    # Supprimer le manga d'une collection
                     cursor.execute(
                         "DELETE FROM association_manga_collection_physique                 "
                         " WHERE (id_collec_physique = %(id_collec_physique)s and id_manga_p = %(id_manga_p)s)",
@@ -147,12 +110,13 @@ class CollectionPhysiqueDAO:
             raise
         return res > 0
 
-    def ajouter_mangaposs(self, idcoll: Collection_physique, idmanga: MangaPossede) -> bool:
+    def ajouter_mangaposs(self, idcoll: int, idmanga: int) -> bool: #modif les params ?
         """Ajout d'un manga dans une collection
 
         Parameters
         ----------
-
+        idcoll: int
+        idmanga: int
 
         Returns
         -------
@@ -187,7 +151,7 @@ class CollectionPhysiqueDAO:
         return created
 
     def trouver_collec_phys_id_user(self, id_utilisateur) -> Collection_physique:
-        """trouver des collections grace à l'id de l'utilisateur
+        """trouver la collection physique d'un utilisateur
 
         Parameters
         ----------
@@ -196,8 +160,8 @@ class CollectionPhysiqueDAO:
 
            Returns
            -------
-           collections : List[Collection_physique]
-               renvoie la liste de collection physique de l'utilisateur
+           collections : Collection_physique
+               renvoie la  collection physique de l'utilisateur
         """
         try:
             with DBConnection().connection as connection:
@@ -235,17 +199,17 @@ class CollectionPhysiqueDAO:
         return collection
 
     def trouver_collec_phys_nom(self, nom):
-        """trouver une collection grâce à son nom
+        """trouver une collection physique grâce à son nom
 
         Parameters
         ----------
         nom : str
             nom de la collection physique
 
-           Returns
-           -------
-           collection : CollectionPhysique
-               renvoie la collection physique correspondant au nom
+        Returns
+        -------
+        collection : CollectionPhysique
+             renvoie la collection physique correspondant au nom
         """
         try:
             with DBConnection().connection as connection:
@@ -293,7 +257,7 @@ class CollectionPhysiqueDAO:
 
         Returns
         -------
-
+        True si la modification a été faite
         """
 
         try:
@@ -327,7 +291,7 @@ class CollectionPhysiqueDAO:
 
         Returns
         -------
-
+        True si la modification a été faite
         """
 
         try:

@@ -9,11 +9,11 @@ class Collection_physique_service:
     """
 
     def supprimer_collectionphys(self, collectionphys):
-        """Suppression d'une collection dans la base de données"""
+        """Suppression d'une collection physique"""
         return CollectionPhysiqueDAO().supprimer_collectionphys(collectionphys)
 
     def creer_collectionphys(self, titre_collection, desc_collection):
-        """ """
+        """ Création d'une collection physique"""
         nouvelle_collection_phys = Collection_physique(
             id_collectionphysique=None,
             titre_collection=titre_collection,
@@ -28,11 +28,11 @@ class Collection_physique_service:
         )
 
     def supprimer_mangaposs(self, CollectionP, MangaPoss: MangaPossede) -> bool:
-        """ """
+        """Suppresion d'un manga possédé de la collection"""
         return CollectionPhysiqueDAO().supprimer_mangaposs(CollectionP, MangaPoss)
 
     def ajouter_mangaposs(self, idcoll, idmanga) -> bool:
-        """ """
+        """Ajout d'un manga possédé de la collection """
         return (
             True if CollectionPhysiqueDAO().ajouter_mangaposs(idcoll, idmanga) else None
         )

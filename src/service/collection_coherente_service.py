@@ -13,7 +13,7 @@ class CollectionCoherenteService:
         return CollectionCoherenteDAO().supprimer_collection(CollectionC)
 
     def creer_collectioncohe(self, titre_collection, desc_collection):
-        """ """
+        """ Création d'une collection cohérente dans la base de"""
         nouvelle_collection_cohe = CollectionCoherente(
             id_collectioncoherente=None,
             titre_collection=titre_collection,
@@ -28,10 +28,10 @@ class CollectionCoherenteService:
         )
 
     def supprimer_mangaposs(self, CollectionC, MangaC: Manga) -> bool:
-        """ """
+        """Supression d'un manga de la collection  """
         return CollectionCoherenteDAO().supprimer_manga(CollectionC, MangaC)
 
-    def ajouter_manga(self, idcollec, idmanga) -> bool:
-        """ """
+    def ajouter_manga(self, idcollec, idmanga) -> bool: #à modif ?
+        """ Ajout d'un manga dans la collection  """
         CollectionC = CollectionCoherenteDAO().ajouter_manga(idcollec, idmanga)
         return CollectionC if CollectionCoherenteDAO().ajouter_manga(idcollec, idmanga) else None

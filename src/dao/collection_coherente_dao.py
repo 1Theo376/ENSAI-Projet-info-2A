@@ -10,52 +10,12 @@ from dao.manga_dao import MangaDao
 class CollectionCoherenteDAO:
     """Classe contenant les méthodes pour accéder aux collections du joueur"""
 
-    # def trouver_par_id(self, id_collection) -> CollectionCoherente:
-    #    """trouver une collectionr grace à son id
-    #
-    #    Parameters
-    #    ----------
-    #    id_collection : int
-    #        numéro id de la collection que l'on souhaite trouver
-    #
-    #       Returns
-    #       -------
-    #       Colection : CollectionCoherente
-    #           renvoie la collection que l'on cherche par id
-    #       """
-    #       try:
-    #          with DBConnection().connection as connection:
-    #               with connection.cursor() as cursor:
-    #                   cursor.execute(
-    #                      "SELECT id_utilisateur, titre_collection, description_collection "
-    #                       "  FROM collection_coherente                      "
-    #                       " JOIN association_manga_collection_coherente u
-    # sing(id_collec_coherente)"
-    #                      "JOIN manga using(id_manga)"
-    #                       " WHERE id_collection = %(id)s;  ",
-    #                       {"id": id_collection},
-    #                   )
-    #                  res = cursor.fetchone()
-    #       except Exception as e:
-    #           logging.info(e)
-    #           raise
-    #
-    #       Collection = None
-    #      if res:
-    #           Collection = CollectionCoherente(
-    #                id_collection_coherente=res["id_collection"],
-    #               titre_collection=res["titre_collection"],
-    #               desc_collection=res["desc_collection"],
-    #               Liste_manga=None,
-    #
-    #      return Collection
-
     def supprimer_collection(self, CollectionC: CollectionCoherente) -> bool:
-        """Suppression d'une collection coherente dans la base de données
+        """Suppression d'une collection cohérente dans la base de données
 
         Parameters
         ----------
-
+        CollectionC: CollectionCoherente
 
         Returns
         -------
@@ -79,11 +39,11 @@ class CollectionCoherenteDAO:
         return res > 0
 
     def creer_collection(self, CollectionC: CollectionCoherente) -> bool:
-        """Creation d'une collectiopn coherente dans la base de données
+        """Creation d'une collectipn coherente dans la base de données
 
         Parameters
         ----------
-
+        CollectionC: CollectionCoherente
 
         Returns
         -------
@@ -122,17 +82,18 @@ class CollectionCoherenteDAO:
 
         Parameters
         ----------
+        CollectionC: CollectionCoherente
 
+        MangaC: Manga
 
         Returns
         -------
-            True si le manga a bien été supprimé
+        True si le manga a bien été supprimé
         """
 
         try:
             with DBConnection().connection as connection:
                 with connection.cursor() as cursor:
-                    # Supprimer le manga d'une collection
                     cursor.execute(
                         "DELETE FROM association_manga_collection_coherente                 "
                         " WHERE id_collec_coherente = %(id_collec_coherente)s AND id_manga = %(id_manga)s ;",
@@ -147,12 +108,14 @@ class CollectionCoherenteDAO:
             raise
         return res > 0
 
-    def ajouter_manga(self, idcollec: CollectionCoherente, idmanga: Manga) -> bool:
+    def ajouter_manga(self, idcollec: int, idmanga: int) -> bool: #à modif les paramas?
         """Ajout d'un manga dans une collection coherente
 
         Parameters
         ----------
+        idcollec: int
 
+        idmanga: int
 
         Returns
         -------
@@ -223,12 +186,15 @@ class CollectionCoherenteDAO:
         return None
 
     def trouver_collec_cohe_nom(self, nom, idu) -> CollectionCoherente:
-        """trouver une collection grâce à son nom
+        """trouver une collection grâce à son nom et à l'id de l'utilisateur
 
         Parameters
         ----------
         nom : str
             nom de la collection cohérente
+
+        idu : int
+            identifiant de l'utilisateur possédans la collection
 
            Returns
            -------
@@ -282,6 +248,7 @@ class CollectionCoherenteDAO:
 
         Returns
         -------
+        True si la modification a bien été faite
 
         """
 
@@ -316,6 +283,7 @@ class CollectionCoherenteDAO:
 
         Returns
         -------
+        True si la modification a bien été faite
 
         """
 
