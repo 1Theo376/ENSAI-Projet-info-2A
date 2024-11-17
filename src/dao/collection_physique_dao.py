@@ -48,7 +48,7 @@ class CollectionPhysiqueDAO:
     #
     #    return Collection
 
-    def supprimer_collectionphys(self, CollectionP: Collection_physique) -> bool:
+    def supprimer_collectionphys(self, id_collecion_p) -> bool:
         """Suppression d'une collection physique dans la base de données
 
         Parameters
@@ -66,8 +66,8 @@ class CollectionPhysiqueDAO:
                     # Supprimer la collection d'un utilisateur
                     cursor.execute(
                         "DELETE FROM collection_physique                  "
-                        " WHERE id_collec_coherente=%(id)s      ",
-                        {"id": CollectionP.id_collection},
+                        " WHERE id_collec_physique=%(id_collecion_p)s      ",
+                        {"id_collecion_p": id_collecion_p},
                     )
                     res = cursor.rowcount
         except Exception as e:

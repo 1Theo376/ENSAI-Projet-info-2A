@@ -50,7 +50,7 @@ class CollectionCoherenteDAO:
     #
     #      return Collection
 
-    def supprimer_collection(self, CollectionC: CollectionCoherente) -> bool:
+    def supprimer_collection(self, id_collection_c: int) -> bool:
         """Suppression d'une collection coherente dans la base de données
 
         Parameters
@@ -68,8 +68,8 @@ class CollectionCoherenteDAO:
                     # Supprimer la collection d'un utilisateur
                     cursor.execute(
                         "DELETE FROM collection_coherente                  "
-                        " WHERE id_collec_coherente=%(id)s      ",
-                        {"id": CollectionC.id_collection},
+                        " WHERE id_collec_coherente=%(id_collection_c)s      ",
+                        {"id_collection_c": id_collection_c},
                     )
                     res = cursor.rowcount
         except Exception as e:
