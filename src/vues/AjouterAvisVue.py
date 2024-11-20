@@ -39,5 +39,5 @@ class AjouterAvisVuerecherche(VueAbstraite):
         logging.info(f"Avis : {aviscreer}")
         from vues.Selection_manga_vue_recherche import SelectionMangaVuerecherche
         print("\n"*30)
-        print("Avis crée avec succés")
+        print("Avis crée avec succès")
         return SelectionMangaVuerecherche().choisir_menu(choix3)

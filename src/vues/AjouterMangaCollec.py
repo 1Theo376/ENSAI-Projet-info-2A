@@ -77,16 +77,29 @@ class AjouterMangaCollecVuerecherche(VueAbstraite):
         else:
             nom = choixp.split(": ")[1]
             logging.info(f"Nom de la collection choisi: {nom}")
-            if RechercheService().recherche_collec_phys_par_id(Session().utilisateur.id):
+            if RechercheService().recherche_collec_phys_par_id(id_utilisateur):
                 if nom == collection_physique.titre_collection:
                     collection = CollectionPhysiqueDAO().trouver_collec_phys_nom(nom)
+                    for i in collection.Liste_manga:
+                        if i.titre == choix3:
+                            from vues.Selection_manga_vue_recherche import SelectionMangaVuerecherche
+                            print("\n" + f"Ce manga est déjà présent dans la collection {nom}.")
+                            return SelectionMangaVuerecherche().choisir_menu(choix3)
                     from vues.AjouterMangaPossCollPhys import AjouterMangaPossCollPhys
                     return AjouterMangaPossCollPhys().choisir_menu(choix3, collection)
             else:
                 collection = CollectionCoherenteDAO().trouver_collec_cohe_nom(nom, id_utilisateur)
                 logging.info(f"Collection cohérente trouvée : {nom}, {collection}")
+                logging.info(f"collection.Liste_manga : {collection.Liste_manga}")
+                for i in collection.Liste_manga:
+                    if i.titre == choix3:
+                        from vues.Selection_manga_vue_recherche import SelectionMangaVuerecherche
+                        print("\n" + "Ce manga est déjà présent dans la collection {nom}.")
+                        return SelectionMangaVuerecherche().choisir_menu(choix3)
+
                 CollectionCoherenteService().ajouter_manga(
                     collection.id_collectioncoherente, manga.id_manga
                 )
                 from vues.Selection_manga_vue_recherche import SelectionMangaVuerecherche
+                print("\n" + f"Manga ajouté dans la collection {nom}.")
                 return SelectionMangaVuerecherche().choisir_menu(choix3)
