@@ -5,31 +5,21 @@ from business_object.utilisateur import Utilisateur
 from dao.utilisateur_dao import UtilisateurDao
 from utils.securite import hash_password
 
-
-@pytest.fixture
-def utilisateur_service():
-    """Fixture pour creer une instance du service UtilisateurService avec un mock du DAO"""
-    service = UtilisateurService()
-    service.dao = MagicMock()  # Remplacer l'instance DAO par un mock
-    return service
-
-
-@pytest.fixture
-def utilisateur():
-    """Fixture pour creer une instance d'Utilisateur"""
-    return Utilisateur(id=1, pseudo="testuser", mdp="hashedpassword")
+liste_utilisateurs = [
+    Utilisateur(pseudo="huy", mdp="1234Azer"),
+    Utilisateur(pseudo="aze", mdp="0000Poiu"),
+    Utilisateur(pseudo="vert", mdp="abcd1Ruy"),
+]
 
 
 def test_pseudo_deja_utilise(utilisateur_service):
     """Test de la méthode pseudo_deja_utilise"""
-    # Préparer le mock pour la méthode lister_tous
     utilisateur_service.dao.lister_tous.return_value = [
         Utilisateur(id=1, pseudo="testuser", mdp="hashedpassword")
     ]
 
-    # Tester le cas où le pseudo existe déjà
     result = utilisateur_service.pseudo_deja_utilise("testuser")
-    assert result is True  # Le pseudo est déjà utilisé
+    assert result is True  
 
     # Tester le cas où le pseudo n'existe pas
     result = utilisateur_service.pseudo_deja_utilise("newuser")

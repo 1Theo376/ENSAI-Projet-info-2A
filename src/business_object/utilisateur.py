@@ -15,7 +15,7 @@ class Utilisateur:
 
     """
 
-    def __init__(self, id: int, pseudo: str, mdp: str):
+    def __init__(self, pseudo: str, mdp: str, id=None):
         """Initialise un objet Utilisateur"""
         self.id = id
         self.mdp = mdp
