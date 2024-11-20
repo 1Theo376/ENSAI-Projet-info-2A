@@ -64,6 +64,7 @@ class AjouterMangaPossCollPhys(VueAbstraite):
         logging.info(f"vol:{volumes_poss}")
         if volume_manga:
             num_manquant = [i for i in range(1,volume_manga+1)]
+            logging.info(f"manq: {num_manquant}")
             for elt in volumes_poss:
                 num_manquant.remove(elt)
         logging.info(f"manq:{num_manquant}")
@@ -99,5 +100,3 @@ class AjouterMangaPossCollPhys(VueAbstraite):
         from vues.Selection_manga_vue_recherche import SelectionMangaVuerecherche
 
         return SelectionMangaVuerecherche().choisir_menu(choix3)
-
-    

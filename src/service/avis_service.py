@@ -71,6 +71,8 @@ class AvisService:
         """Récupère tous les avis sur le manga"""
         liste_avis, liste_user = AvisDAO().recuperer_avis_manga(id_manga)
         liste_pseudo = []
+        for elt in liste_user:
+            liste_pseudo.append(elt.pseudo)
 
         if not liste_avis:
             return None
