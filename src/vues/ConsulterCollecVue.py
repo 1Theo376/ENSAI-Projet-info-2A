@@ -24,20 +24,19 @@ class CollectionCoherenteVueRecherche(VueAbstraite):
         logging.info(f"listecolleccohe type: {type(listecolleccohe)}, contenu: {listecolleccohe}")
 
         collection_physique = RechercheService().recherche_collec_phys_par_id(Session().utilisateur.id)
-        logging.info(f"collection_physique type: {type(collection_physique.titre_collection)}, contenu: {collection_physique.titre_collection}")
+        logging.info(f"collection_physique type: , contenu: {collection_physique}")
 
-        if collection_physique.titre_collection:
+        if RechercheService().recherche_collec_phys_par_id(Session().utilisateur.id):
             choix.append(collection_physique.titre_collection)
             logging.info(f"Contenu de `choix` après ajout de collection_physique: {choix}")
 
         listecollections = choix + listecolleccohe
         logging.info(f"listecollections: {listecollections}")
 
-        if not listecollections:
-            print("Aucune collection trouvée")
+        if listecollections == []:
             from vues.menu_utilisateur_vue import MenuUtilisateurVue
 
-            return MenuUtilisateurVue()
+            return MenuUtilisateurVue("Aucune collection trouvée")
         n, m = 0, 8
         sous_liste, longueur_tot = listecollections[n:n+m], len(listecollections)
         while n >= 0:

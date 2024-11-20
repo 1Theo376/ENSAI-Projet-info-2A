@@ -12,6 +12,11 @@ def avis_service():
     service.dao = MagicMock()  # Remplacer l'instance DAO par un mock
     return service
 
+liste_joueurs = [
+    Joueur(pseudo="jp", age="10", mail="jp@mail.fr", mdp="1234"),
+    Joueur(pseudo="lea", age="10", mail="lea@mail.fr", mdp="0000"),
+    Joueur(pseudo="gg", age="10", mail="gg@mail.fr", mdp="abcd"),
+]
 
 @pytest.fixture
 def avis():

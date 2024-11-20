@@ -23,7 +23,7 @@ class AvisService:
         """Supprimer l'avis"""
         return AvisDAO().supprimer_avis(avis)
 
-    def afficher_avis_pagination(self, id_utilisateur, page_suivante=False): #util ?
+    def afficher_avis_pagination(self, id_utilisateur, page_suivante=False):  #util ?
         """Affiche les avis d'un utilisateur avec pagination"""
         if page_suivante:
             self.current_page += 1
