@@ -29,11 +29,9 @@ class ConsulterAvisMangaVuerecherche(VueAbstraite):
             return SelectionMangaVuerecherche().choisir_menu(choixm)
         liste_avis, liste_pseudo = AvisService().recuperer_avis_manga2(manga.id_manga)
         longueur_tot = len(liste_avis)
-
         while n >= 0:
 
             sous_liste_avis, sous_liste_pseudo = liste_avis[n : n + m], liste_pseudo[n : n + m]
-
             choix2 = [
                 "Afficher la page suivante",
                 "Afficher la page précédente",
@@ -43,7 +41,7 @@ class ConsulterAvisMangaVuerecherche(VueAbstraite):
                 print(
                     "\n"
                     + "-" * 50
-                    + f"\nManga: {sous_liste_pseudo[i]}\n{sous_liste_avis[i].texte} \n"
+                    + f"\nUtilisateur: {sous_liste_pseudo[i]}\n{sous_liste_avis[i].texte} \n"
                     + "-" * 50
                     + "\n"
                 )
@@ -58,15 +56,25 @@ class ConsulterAvisMangaVuerecherche(VueAbstraite):
 
             choix3 = inquirer.select(message="Choisissez une action :", choices=choix2).execute()
 
-            if choix2 == "Modifier votre avis sur ce manga":
+            if choix3 == "Modifier votre avis sur ce manga":
                 n = -1
-                pass
+                nouvel_avis = input(
+                    f"Entrez votre nouvel avis sur le manga {choixm} (si aucun changement appuyez sur Entrée) : "
+                )
+                print(choix2)
+                AvisDAO().modifier_avis(
+                    AvisDAO().recuperer_avis_user_et_manga(
+                        MangaDao().trouver_manga_par_titre(choixm), Session().utilisateur.id
+                    ),
+                    nouvel_avis,
+                )
+                return ConsulterAvisMangaVuerecherche().choisir_menu(choixm)
 
             if choix3 == "Retour au menu précédent":
                 n = -1
-                from vues.rechercher_manga_vue import RechercheMangaVue
+                from vues.Selection_manga_vue_recherche import SelectionMangaVuerecherche
 
-                return RechercheMangaVue().choisir_menu()
+                return SelectionMangaVuerecherche().choisir_menu(choixm)
             elif choix3 == "Afficher la page suivante":
                 n += m
             elif choix3 == "Afficher la page précédente":

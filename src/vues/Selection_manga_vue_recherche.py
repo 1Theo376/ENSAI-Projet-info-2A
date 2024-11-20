@@ -18,18 +18,19 @@ class SelectionMangaVuerecherche(VueAbstraite):
         choix4 = inquirer.select(
             message="Faites votre choix : ",
             choices=[
-                    "Ajouter à une collection",
-                    "Afficher les informations du manga",
-                    "Consulter les avis",
-                    "Ajouter un avis",
-                    "Retour au menu précédent",
-                    "Retour vers l'écran d'accueil",
-                    ],
+                "Ajouter à une collection",
+                "Afficher les informations du manga",
+                "Consulter les avis",
+                "Ajouter un avis",
+                "Chercher un autre manga",
+                "Retour vers l'écran d'accueil",
+            ],
         ).execute()
 
         match choix4:
             case "Ajouter à une collection":
                 from vues.AjouterMangaCollec import AjouterMangaCollecVuerecherche
+
                 return AjouterMangaCollecVuerecherche().choisir_menu(choix)
             case "Afficher les informations du manga":
                 print("\n" + "-" * 50 + "\n" + manga.titre + "\n" + "-" * 50 + "\n")
@@ -40,13 +41,17 @@ class SelectionMangaVuerecherche(VueAbstraite):
                 self.choisir_menu(choix)
             case "Consulter les avis":
                 from vues.ConsulterAvisVue import ConsulterAvisMangaVuerecherche
+
                 return ConsulterAvisMangaVuerecherche().choisir_menu(choix)
             case "Ajouter un avis":
                 from vues.AjouterAvisVue import AjouterAvisVuerecherche
+
                 return AjouterAvisVuerecherche().choisir_menu(choix)
-            case "Retour au menu précédent":
+            case "Chercher un autre manga":
                 from vues.rechercher_manga_vue import RechercheMangaVue
+
                 return RechercheMangaVue().choisir_menu()
             case "Retour vers l'écran d'accueil":
                 from vues.menu_utilisateur_vue import MenuUtilisateurVue
+
                 return MenuUtilisateurVue().choisir_menu()

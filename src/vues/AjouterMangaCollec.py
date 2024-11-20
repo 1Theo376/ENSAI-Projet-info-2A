@@ -32,7 +32,9 @@ class AjouterMangaCollecVuerecherche(VueAbstraite):
             listecolleccohe = RechercheService().recherche_collec_cohe_par_id(id_utilisateur)
         logging.info(f"listecolleccohe type: {type(listecolleccohe)}, contenu: {listecolleccohe}")
 
-        collection_physique = RechercheService().recherche_collec_phys_par_id(Session().utilisateur.id)
+        collection_physique = RechercheService().recherche_collec_phys_par_id(
+            Session().utilisateur.id
+        )
         logging.info(f"collection_physique type: , contenu: {collection_physique}")
 
         if RechercheService().recherche_collec_phys_par_id(Session().utilisateur.id):
@@ -44,8 +46,9 @@ class AjouterMangaCollecVuerecherche(VueAbstraite):
 
         if not listecollections:
             print("Aucune collection trouvée")
-            from vues.menu_utilisateur_vue import MenuUtilisateurVue
-            return MenuUtilisateurVue()
+            from vues.Selection_manga_vue_recherche import SelectionMangaVuerecherche
+
+            return SelectionMangaVuerecherche().choisir_menu(choix3)
 
         choices = []
         for i in range(len(listecollections)):
@@ -74,9 +77,11 @@ class AjouterMangaCollecVuerecherche(VueAbstraite):
 
         if choixp == "Retour au menu précédent":
             from vues.Selection_manga_vue_recherche import SelectionMangaVuerecherche
+
             return SelectionMangaVuerecherche().choisir_menu(choix3)
         elif choixp == "Retour vers l'écran d'accueil":
             from vues.menu_utilisateur_vue import MenuUtilisateurVue
+
             return MenuUtilisateurVue()
         else:
             nom = choixp.split(": ")[1]
@@ -86,10 +91,14 @@ class AjouterMangaCollecVuerecherche(VueAbstraite):
                     collection = CollectionPhysiqueDAO().trouver_collec_phys_nom(nom)
                     for i in collection.Liste_manga:
                         if i.titre == choix3:
-                            from vues.Selection_manga_vue_recherche import SelectionMangaVuerecherche
+                            from vues.Selection_manga_vue_recherche import (
+                                SelectionMangaVuerecherche,
+                            )
+
                             print("\n" + f"Ce manga est déjà présent dans la collection {nom}.")
                             return SelectionMangaVuerecherche().choisir_menu(choix3)
                     from vues.AjouterMangaPossCollPhys import AjouterMangaPossCollPhys
+
                     return AjouterMangaPossCollPhys().choisir_menu(choix3, collection)
             else:
                 collection = CollectionCoherenteDAO().trouver_collec_cohe_nom(nom, id_utilisateur)
@@ -98,6 +107,7 @@ class AjouterMangaCollecVuerecherche(VueAbstraite):
                 for i in collection.Liste_manga:
                     if i.titre == choix3:
                         from vues.Selection_manga_vue_recherche import SelectionMangaVuerecherche
+
                         print("\n" + "Ce manga est déjà présent dans la collection {nom}.")
                         return SelectionMangaVuerecherche().choisir_menu(choix3)
 
@@ -105,5 +115,6 @@ class AjouterMangaCollecVuerecherche(VueAbstraite):
                     collection.id_collectioncoherente, manga.id_manga
                 )
                 from vues.Selection_manga_vue_recherche import SelectionMangaVuerecherche
+
                 print("\n" + f"Manga ajouté dans la collection {nom}.")
                 return SelectionMangaVuerecherche().choisir_menu(choix3)
