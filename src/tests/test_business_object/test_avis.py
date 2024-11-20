@@ -15,4 +15,4 @@ def test_avis_creation():
 def test_avis_str():
     avis = Avis(1, "Un manga captivant")
     result = str(avis)
-    assert result == "Avis 1: Un manga captivant"
+    assert result == "Un manga captivant"

@@ -31,16 +31,7 @@ class RechercheService:
         return None
 
     def recherche_utilisateur(self, pseudo, n, m, a):
-        """Recherche un utilisateur par son pseudo
-        Parameters
-        ----------
-        pseudo : str
-
-        Returns
-        -------
-        utilisateur : Utilisateur
-            renvoie l'utilisateur recherché
-        """
+        """Recherche un utilisateur par son pseudo"""
         res = UtilisateurDao().rechercher_tous_pseudo(pseudo)
         if res:
             longueur_tot = len(res)
@@ -52,6 +43,7 @@ class RechercheService:
         return None
 
     def recherche_collec_cohe_par_id(self, id):
+        """Recherche d'une collection cohérente avec son id"""
         res = CollectionCoherenteDAO().trouver_collec_cohe_id_user(id)
         logging.info(f"res de recherche_collec_cohe_par_id : {res}")
         if res:
@@ -60,6 +52,7 @@ class RechercheService:
         return None
 
     def recherche_collec_phys_par_id(self, id):
+        """Recherche d'une collection physique avec son id"""
         res = CollectionPhysiqueDAO().trouver_collec_phys_id_user(id)
         if res:
             return res
