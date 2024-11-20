@@ -32,20 +32,41 @@ class AvisRechercheUtilisateurVue(VueAbstraite):
         """
 
         id_utilisateur = UtilisateurDao().recherche_id_par_pseudo(choix3)
+        if not AvisService().recuperer_avis_utilisateur(id_utilisateur):
+            print(f"Cet utilisateur n'a aucun avis.\n")
+            from vues.rechercher_utilisateur_vue import RechercheUtilisateurVue
+
+            return RechercheUtilisateurVue().choisir_menu_bis(choix3)
         print("\n" + "-" * 50 + f"\nAvis de l'utilisateur {choix3} \n" + "-" * 50 + "\n")
         liste_avis, liste_titre = AvisService().recuperer_avis_utilisateur(id_utilisateur)
         n = 0
         m = 8
-        sous_liste_avis, sous_liste_titre, longueur_tot = liste_avis[n:n+m], liste_titre[n: n+m], len(liste_avis)
+        sous_liste_avis, sous_liste_titre, longueur_tot = (
+            liste_avis[n : n + m],
+            liste_titre[n : n + m],
+            len(liste_avis),
+        )
 
         while n >= 0:
-            sous_liste_avis, sous_liste_titre, longueur_tot = liste_avis[n:n+m], liste_titre[n: n+m], len(liste_avis)
+            sous_liste_avis, sous_liste_titre, longueur_tot = (
+                liste_avis[n : n + m],
+                liste_titre[n : n + m],
+                len(liste_avis),
+            )
             logging.info(f"avis : {sous_liste_avis}")
-            choix2 = ["Afficher la page suivante", "Afficher la page précédente", "Retour au menu précédent"]
-            for i in range(n, min(len(liste_avis), n+m)):
+            choix2 = [
+                "Afficher la page suivante",
+                "Afficher la page précédente",
+                "Retour au menu précédent",
+            ]
+            for i in range(n, min(len(liste_avis), n + m)):
                 print(
-                    "\n" + "-" * 50 + f"\nManga: {sous_liste_titre[i]}\n{sous_liste_avis[i].texte} \n" + "-" * 50 + "\n"
-                    )
+                    "\n"
+                    + "-" * 50
+                    + f"\nManga: {sous_liste_titre[i]}\n{sous_liste_avis[i].texte} \n"
+                    + "-" * 50
+                    + "\n"
+                )
             if n + m >= longueur_tot:
                 choix2.remove("Afficher la page suivante")
 
@@ -56,7 +77,10 @@ class AvisRechercheUtilisateurVue(VueAbstraite):
 
             if choix3 == "Retour au menu précédent":
                 n = -1
-                from vues.recherche_vue import RechercheVue
+                from vues.rechercher_utilisateur_vue import RechercheUtilisateurVue
+
+                return RechercheUtilisateurVue().choisir_menu_bis(choix3)
+
                 return RechercheVue().choisir_menu()
             elif choix3 == "Afficher la page suivante":
                 n += m

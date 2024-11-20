@@ -36,9 +36,10 @@ class CollectionCoherenteVueRecherche(VueAbstraite):
         logging.info(f"listecollections: {listecollections}")
 
         if listecollections == []:
+            print("Aucune collection trouvée \n")
             from vues.rechercher_utilisateur_vue import RechercheUtilisateurVue
 
-            return RechercheUtilisateurVue("Aucune collection trouvée")
+            return RechercheUtilisateurVue().choisir_menu_bis(choixu)
         n, m = 0, 8
         sous_liste, longueur_tot = listecollections[n : n + m], len(listecollections)
         while n >= 0:
@@ -60,9 +61,9 @@ class CollectionCoherenteVueRecherche(VueAbstraite):
             ).execute()
 
             if choix3 == "Retour au menu précédent":
-                from vues.recherche_vue import RechercheVue
+                from vues.rechercher_utilisateur_vue import RechercheUtilisateurVue
 
-                return RechercheVue()
+                return RechercheUtilisateurVue().choisir_menu_bis(choixu)
             elif choix3 == "Afficher la page suivante":
                 n += m
             elif choix3 == "Afficher la page précédente":
