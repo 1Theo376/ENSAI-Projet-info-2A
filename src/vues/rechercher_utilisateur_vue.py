@@ -48,19 +48,27 @@ class RechercheUtilisateurVue(VueAbstraite):
                     print("\n" + f"Aucun utilisateur trouvé pour le pseudo '{pseudo}'." + "\n")
                     choix2 = ["Retour au menu précédent"]
                     choix3 = inquirer.select(
-                        message="Faites votre choix : ",
-                        choices=choix2
-                        ).execute()
+                        message="Faites votre choix : ", choices=choix2
+                    ).execute()
                     if choix3 == "Retour au menu précédent":
                         from vues.recherche_vue import RechercheVue
+
                         return RechercheVue().choisir_menu()
 
-                longueur, sous_liste, longueur_tot = RechercheService().recherche_utilisateur(pseudo, n, m, a)
+                longueur, sous_liste, longueur_tot = RechercheService().recherche_utilisateur(
+                    pseudo, n, m, a
+                )
                 logging.info(f"longueur : {longueur}")
 
                 while n >= 0:
-                    longueur, sous_liste, longueur_tot = RechercheService().recherche_utilisateur(pseudo, n, m, a)
-                    choix2 = sous_liste + ["Afficher la page suivante","Afficher la page précédente", "Retour au menu précédent"]
+                    longueur, sous_liste, longueur_tot = RechercheService().recherche_utilisateur(
+                        pseudo, n, m, a
+                    )
+                    choix2 = sous_liste + [
+                        "Afficher la page suivante",
+                        "Afficher la page précédente",
+                        "Retour au menu précédent",
+                    ]
                     logging.info(f"util:{sous_liste}")
                     if n + m >= longueur_tot:
                         choix2.remove("Afficher la page suivante")
@@ -68,11 +76,14 @@ class RechercheUtilisateurVue(VueAbstraite):
                     if n == 0:
                         choix2.remove("Afficher la page précédente")
 
-                    choix3 = inquirer.select(message="Choisissez un utilisateur :", choices=choix2).execute()
+                    choix3 = inquirer.select(
+                        message="Choisissez un utilisateur :", choices=choix2
+                    ).execute()
 
                     if choix3 == "Retour au menu précédent":
-                        from vues.menu_utilisateur_vue import MenuUtilisateurVue
-                        return MenuUtilisateurVue().choisir_menu()
+                        from vues.recherche_vue import RechercheVue
+
+                        return RechercheVue().choisir_menu()
                     elif choix3 == "Afficher la page suivante":
                         n += m
                     elif choix3 == "Afficher la page précédente":
@@ -91,20 +102,24 @@ class RechercheUtilisateurVue(VueAbstraite):
                         match choix4:
                             case "Consulter les collections":
                                 from vues.ConsulterCollecVue import CollectionCoherenteVueRecherche
+
                                 return CollectionCoherenteVueRecherche().choisir_menu(choix3)
 
                             case "Consulter les avis":
                                 from vues.AvisRechercheUtilisateurVue import (
                                     AvisRechercheUtilisateurVue,
                                 )
+
                                 return AvisRechercheUtilisateurVue().choisir_menu(choix3)
 
                             case "Retour au menu précédent":
                                 from vues.recherche_vue import RechercheVue
+
                                 return RechercheVue().choisir_menu()
 
                             case "Retour vers l'écran d'accueil":
                                 from vues.menu_utilisateur_vue import MenuUtilisateurVue
+
                                 return MenuUtilisateurVue("Bon retour")
 
         from vues.menu_utilisateur_vue import MenuUtilisateurVue

@@ -23,7 +23,9 @@ class CollectionCoherenteVueRecherche(VueAbstraite):
             listecolleccohe = RechercheService().recherche_collec_cohe_par_id(id_utilisateur)
         logging.info(f"listecolleccohe type: {type(listecolleccohe)}, contenu: {listecolleccohe}")
 
-        collection_physique = RechercheService().recherche_collec_phys_par_id(Session().utilisateur.id)
+        collection_physique = RechercheService().recherche_collec_phys_par_id(
+            Session().utilisateur.id
+        )
         logging.info(f"collection_physique type: , contenu: {collection_physique}")
 
         if RechercheService().recherche_collec_phys_par_id(Session().utilisateur.id):
@@ -34,14 +36,18 @@ class CollectionCoherenteVueRecherche(VueAbstraite):
         logging.info(f"listecollections: {listecollections}")
 
         if listecollections == []:
-            from vues.menu_utilisateur_vue import MenuUtilisateurVue
+            from vues.rechercher_utilisateur_vue import RechercheUtilisateurVue
 
-            return MenuUtilisateurVue("Aucune collection trouvée")
+            return RechercheUtilisateurVue("Aucune collection trouvée")
         n, m = 0, 8
-        sous_liste, longueur_tot = listecollections[n:n+m], len(listecollections)
+        sous_liste, longueur_tot = listecollections[n : n + m], len(listecollections)
         while n >= 0:
-            sous_liste, longueur_tot = listecollections[n:n+m], len(listecollections)
-            choix2 = sous_liste + ["Afficher la page suivante", "Afficher la page précédente", "Retour au menu précédent"]
+            sous_liste, longueur_tot = listecollections[n : n + m], len(listecollections)
+            choix2 = sous_liste + [
+                "Afficher la page suivante",
+                "Afficher la page précédente",
+                "Retour au menu précédent",
+            ]
             logging.info(f"util:{sous_liste}")
             if n + m >= longueur_tot:
                 choix2.remove("Afficher la page suivante")
@@ -49,10 +55,13 @@ class CollectionCoherenteVueRecherche(VueAbstraite):
             if n == 0:
                 choix2.remove("Afficher la page précédente")
 
-            choix3 = inquirer.select(message="Choisissez une collection :", choices=choix2).execute()
+            choix3 = inquirer.select(
+                message="Choisissez une collection :", choices=choix2
+            ).execute()
 
             if choix3 == "Retour au menu précédent":
                 from vues.recherche_vue import RechercheVue
+
                 return RechercheVue()
             elif choix3 == "Afficher la page suivante":
                 n += m
@@ -68,11 +77,18 @@ class CollectionCoherenteVueRecherche(VueAbstraite):
                 ).execute()
                 if choix4 == "Consulter les mangas de la collection":
                     if choix3 == collection_physique.titre_collection:
-                        from vues.ConsulterMangaCollecPhysUtilVue import ConsulterMangaCollecPhysUtilVUe
+                        from vues.ConsulterMangaCollecPhysUtilVue import (
+                            ConsulterMangaCollecPhysUtilVUe,
+                        )
+
                         return ConsulterMangaCollecPhysUtilVUe().choisir_menu(choixu, choix3)
                     else:
-                        from vues.ConsulterMangaCollecVueUtilisateur import ConsulterMangaCollecCoheUtilVUe
+                        from vues.ConsulterMangaCollecVueUtilisateur import (
+                            ConsulterMangaCollecCoheUtilVUe,
+                        )
+
                         return ConsulterMangaCollecCoheUtilVUe().choisir_menu(choixu, choix3)
                 if choix4 == "Retour au menu précédent":
                     from vues.rechercher_utilisateur_vue import RechercheUtilisateurVue
+
                     return RechercheUtilisateurVue()
