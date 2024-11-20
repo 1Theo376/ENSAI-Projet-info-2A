@@ -50,10 +50,11 @@ class AjouterMangaCollecVuerecherche(VueAbstraite):
         choices = []
         for i in range(len(listecollections)):
             if isinstance(listecollections[i], str):
-                if listecollections[i] == collection_physique.titre_collection:
-                    option = f"Dans votre collection physique : {listecollections[0]}"
-                    logging.info(f"Ajout de l'option physique : {option}")
-                    choices.append(option)
+                if RechercheService().recherche_collec_phys_par_id(Session().utilisateur.id):
+                    if listecollections[i] == collection_physique.titre_collection:
+                        option = f"Dans votre collection physique : {listecollections[0]}"
+                        logging.info(f"Ajout de l'option physique : {option}")
+                        choices.append(option)
                 else:
                     option2 = f"Dans votre collection cohérente : {listecollections[i]}"
                     logging.info(f"Ajout de l'option cohérente : {option2}")
@@ -76,11 +77,11 @@ class AjouterMangaCollecVuerecherche(VueAbstraite):
         else:
             nom = choixp.split(": ")[1]
             logging.info(f"Nom de la collection choisi: {nom}")
-
-            if nom == collection_physique.titre_collection:
-                collection = CollectionPhysiqueDAO().trouver_collec_phys_nom(nom)
-                from vues.AjouterMangaPossCollPhys import AjouterMangaPossCollPhys
-                return AjouterMangaPossCollPhys().choisir_menu(choix3, collection)
+            if RechercheService().recherche_collec_phys_par_id(Session().utilisateur.id):
+                if nom == collection_physique.titre_collection:
+                    collection = CollectionPhysiqueDAO().trouver_collec_phys_nom(nom)
+                    from vues.AjouterMangaPossCollPhys import AjouterMangaPossCollPhys
+                    return AjouterMangaPossCollPhys().choisir_menu(choix3, collection)
             else:
                 collection = CollectionCoherenteDAO().trouver_collec_cohe_nom(nom, id_utilisateur)
                 logging.info(f"Collection cohérente trouvée : {nom}, {collection}")

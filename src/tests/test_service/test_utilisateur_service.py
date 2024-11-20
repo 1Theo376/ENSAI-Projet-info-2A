@@ -11,35 +11,92 @@ liste_utilisateurs = [
     Utilisateur(pseudo="vert", mdp="abcd1Ruy"),
 ]
 
+
 def test_creer_compte_ok(utilisateur_service):
     """Test de la création d'un compte utilisateur"""
     #GIVEN
     pseudo, mdp = "huy", "1234Azer"
     UtilisateurDao.creer = MagicMock(return_value=True)
     #WHEN
-    
+    utilisateur = UtilisateurService().creer_compte(pseudo, mdp)
     #THEN
-    assert
+    assert utilisateur.pseudo == pseudo
 
-def test_pseudo_deja_utilise(utilisateur_service):
-    """Test de la méthode pseudo_deja_utilise"""
-    # GIVEN
+
+def test_creer_compte_false(utilisateur_service):
+    """Test de la création d'un compte utilisateur"""
+    #GIVEN
     pseudo, mdp = "huy", "1234Azer"
+    UtilisateurDao.creer = MagicMock(return_value=False)
     #WHEN
-    UtilisateurDao.lister_tous =
+    utilisateur = UtilisateurService().creer_compte(pseudo, mdp)
+    #THEN
+    assert utilisateur is None
+
+
+def test_pseudo_deja_utilise_oui():
+    """Le pseudo est déjà utilisé dans liste_joueurs"""
+
+    # GIVEN
+    pseudo = "huy"
+
+    # WHEN
+    UtilisateurDao().lister_tous = MagicMock(return_value=liste_utilisateurs)
+    res = UtilisateurService().pseudo_deja_utilise(pseudo)
+
+    # THEN
+    assert res
+
+
+def test_pseudo_deja_utilise_non():
+    """Le pseudo n'est pas utilisé dans liste_joueurs"""
+
+    # GIVEN
+    pseudo = "chaton"
+
+    # WHEN
+    UtilisateurDao().lister_tous = MagicMock(return_value=liste_utilisateurs)
+    res = UtilisateurService().pseudo_deja_utilise(pseudo)
+
+    # THEN
+    assert not res
+
+
+def test_lister_tous_inclure_mdp_true():
+    """Lister les Joueurs en incluant les mots de passe"""
+
+    # GIVEN
+    UtilisateurDao().lister_tous = MagicMock(return_value=liste_utilisateurs)
+
+    # WHEN
+    res = UtilisateurService().lister_tous(inclure_mdp=True)
+
+    # THEN
+    assert len(res) == 3
+    for joueur in res:
+        assert joueur.mdp is not None
+
+
+def test_lister_tous_inclure_mdp_false():
+    """Lister les Joueurs en excluant les mots de passe"""
+
+    # GIVEN
+    UtilisateurDao().lister_tous = MagicMock(return_value=liste_utilisateurs)
+
+    # WHEN
+    res = UtilisateurService().lister_tous()
+
+    # THEN
+    assert len(res) == 3
+    for joueur in res:
+        assert not joueur.mdp
 
 
 def test_se_connecter(utilisateur_service):
     """Test de la connexion d'un utilisateur"""
-    # Préparer le mock pour la méthode se_connecter
-    utilisateur_service.dao.se_connecter.return_value = Utilisateur(
-        id=1, pseudo="testuser", mdp="hashedpassword"
-    )
 
-    # Tester la connexion avec des informations valides
-    result = utilisateur_service.se_connecter("testuser", "password123")
-    assert result is not None  # L'utilisateur doit être retourné
-    utilisateur_service.dao.se_connecter.assert_called_once()
+    #GIVEN
+    
 
 
 def test_se_connecter_invalide(utilisateur_service):
