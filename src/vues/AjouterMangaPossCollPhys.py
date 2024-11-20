@@ -33,12 +33,12 @@ class AjouterMangaPossCollPhys(VueAbstraite):
         )
         if volume_manga:
             if nb_volumes_poss > volume_manga:
-                print("Nombre incorrect")
+                print(f"Nombre incorrect. Ce manga possède {volume_manga} volumes.")
                 return AjouterMangaPossCollPhys().choisir_menu(choix3, collection)
         volumes_poss = []
         while nb_volumes_poss != 0:
             num_vol = inquirer.text(
-                        message="Entrez le numéro des volumes possédés du manga : "
+                        message="Entrez le numéro des volumes possédés du manga. \nS'il s'agit d'une tranche, vous pouvez l'écrire sous la forme a-b :"
                     ).execute()
             if "-" in num_vol:
                 a = int(num_vol.split("-")[0])
@@ -66,7 +66,7 @@ class AjouterMangaPossCollPhys(VueAbstraite):
             num_manquant = [i for i in range(1,volume_manga+1)]
             for elt in volumes_poss:
                 num_manquant.remove(elt)
-        logging.info(f"manq:{num_manquant}")
+            logging.info(f"manq:{num_manquant}")
         num_dernier_acquis = int(
             inquirer.text(message="Entrez le numéro du dernier volume acquis du manga : ").execute()
         )
@@ -99,5 +99,3 @@ class AjouterMangaPossCollPhys(VueAbstraite):
         from vues.Selection_manga_vue_recherche import SelectionMangaVuerecherche
 
         return SelectionMangaVuerecherche().choisir_menu(choix3)
-
-    
