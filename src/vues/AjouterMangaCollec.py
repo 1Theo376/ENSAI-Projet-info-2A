@@ -55,7 +55,7 @@ class AjouterMangaCollecVuerecherche(VueAbstraite):
                         option = f"Dans votre collection physique : {listecollections[0]}"
                         logging.info(f"Ajout de l'option physique : {option}")
                         choices.append(option)
-                else:
+                if RechercheService().recherche_collec_cohe_par_id(id_utilisateur):
                     option2 = f"Dans votre collection cohérente : {listecollections[i]}"
                     logging.info(f"Ajout de l'option cohérente : {option2}")
                     choices.append(option2)
