@@ -22,20 +22,31 @@ class ConsulterAvisMangaVuerecherche(VueAbstraite):
 
         n = 0
         m = 8
-        liste_avis, liste_pseudo = AvisService().recuperer_avis_manga2(manga.id_manga)
-        longueur_tot = len(liste_avis)
         if not AvisService().recuperer_avis_manga2(manga.id_manga):
             print(f"Aucun avis trouvé pour le manga '{manga.titre}'.")
+            from vues.Selection_manga_vue_recherche import SelectionMangaVuerecherche
+
+            return SelectionMangaVuerecherche().choisir_menu(choixm)
+        liste_avis, liste_pseudo = AvisService().recuperer_avis_manga2(manga.id_manga)
+        longueur_tot = len(liste_avis)
 
         while n >= 0:
 
-            sous_liste_avis, sous_liste_pseudo = liste_avis[n:n+m], liste_pseudo[n:n+m]
+            sous_liste_avis, sous_liste_pseudo = liste_avis[n : n + m], liste_pseudo[n : n + m]
 
-            choix2 = ["Afficher la page suivante", "Afficher la page précédente", "Retour au menu précédent"]
-            for i in range(n, min(len(liste_avis), n+m)):
+            choix2 = [
+                "Afficher la page suivante",
+                "Afficher la page précédente",
+                "Retour au menu précédent",
+            ]
+            for i in range(n, min(len(liste_avis), n + m)):
                 print(
-                    "\n" + "-" * 50 + f"\nManga: {sous_liste_pseudo[i]}\n{sous_liste_avis[i].texte} \n" + "-" * 50 + "\n"
-                    )
+                    "\n"
+                    + "-" * 50
+                    + f"\nManga: {sous_liste_pseudo[i]}\n{sous_liste_avis[i].texte} \n"
+                    + "-" * 50
+                    + "\n"
+                )
             if n + m >= longueur_tot:
                 choix2.remove("Afficher la page suivante")
 
@@ -48,12 +59,13 @@ class ConsulterAvisMangaVuerecherche(VueAbstraite):
             choix3 = inquirer.select(message="Choisissez une action :", choices=choix2).execute()
 
             if choix2 == "Modifier votre avis sur ce manga":
-                n=-1
+                n = -1
                 pass
 
             if choix3 == "Retour au menu précédent":
                 n = -1
                 from vues.rechercher_manga_vue import RechercheMangaVue
+
                 return RechercheMangaVue().choisir_menu()
             elif choix3 == "Afficher la page suivante":
                 n += m
