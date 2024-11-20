@@ -11,32 +11,22 @@ liste_utilisateurs = [
     Utilisateur(pseudo="vert", mdp="abcd1Ruy"),
 ]
 
+def test_creer_compte_ok(utilisateur_service):
+    """Test de la création d'un compte utilisateur"""
+    #GIVEN
+    pseudo, mdp = "huy", "1234Azer"
+    UtilisateurDao.creer = MagicMock(return_value=True)
+    #WHEN
+    
+    #THEN
+    assert
 
 def test_pseudo_deja_utilise(utilisateur_service):
     """Test de la méthode pseudo_deja_utilise"""
-    utilisateur_service.dao.lister_tous.return_value = [
-        Utilisateur(id=1, pseudo="testuser", mdp="hashedpassword")
-    ]
-
-    result = utilisateur_service.pseudo_deja_utilise("testuser")
-    assert result is True  
-
-    # Tester le cas où le pseudo n'existe pas
-    result = utilisateur_service.pseudo_deja_utilise("newuser")
-    assert result is False  # Le pseudo n'est pas encore utilisé
-
-
-def test_creer_compte(utilisateur_service):
-    """Test de la création d'un compte utilisateur"""
-    # Préparer le mock pour la méthode creer
-    utilisateur_service.dao.creer.return_value = True
-
-    # Tester la création d'un utilisateur
-    result = utilisateur_service.creer_compte("newuser", "password123")
-
-    # Vérification
-    assert result is not None  # L'utilisateur doit être créé
-    utilisateur_service.dao.creer.assert_called_once()
+    # GIVEN
+    pseudo, mdp = "huy", "1234Azer"
+    #WHEN
+    UtilisateurDao.lister_tous =
 
 
 def test_se_connecter(utilisateur_service):

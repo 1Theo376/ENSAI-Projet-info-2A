@@ -90,7 +90,10 @@ class RechercheUtilisateurVue(VueAbstraite):
                         n = max(0, n - m)
                     else:
                         n = -1
-                        choix4 = inquirer.select(
+                        return RechercheUtilisateurVue().choisir_menu_bis(choix3)
+
+    def choisir_menu_bis(choix3):
+        choix4 = inquirer.select(
                             message="Faites votre choix : ",
                             choices=[
                                 "Consulter les collections",
@@ -99,28 +102,28 @@ class RechercheUtilisateurVue(VueAbstraite):
                                 "Retour vers l'écran d'accueil",
                             ],
                         ).execute()
-                        match choix4:
-                            case "Consulter les collections":
-                                from vues.ConsulterCollecVue import CollectionCoherenteVueRecherche
+        match choix4:
+            case "Consulter les collections":
+                from vues.ConsulterCollecVue import CollectionCoherenteVueRecherche
 
-                                return CollectionCoherenteVueRecherche().choisir_menu(choix3)
+                return CollectionCoherenteVueRecherche().choisir_menu(choix3)
 
-                            case "Consulter les avis":
-                                from vues.AvisRechercheUtilisateurVue import (
+            case "Consulter les avis":
+                from vues.AvisRechercheUtilisateurVue import (
                                     AvisRechercheUtilisateurVue,
-                                )
+                    )
 
-                                return AvisRechercheUtilisateurVue().choisir_menu(choix3)
+                return AvisRechercheUtilisateurVue().choisir_menu(choix3)
 
-                            case "Retour au menu précédent":
-                                from vues.recherche_vue import RechercheVue
+            case "Retour au menu précédent":
+                from vues.recherche_vue import RechercheVue
 
-                                return RechercheVue().choisir_menu()
+                return RechercheVue().choisir_menu()
 
-                            case "Retour vers l'écran d'accueil":
-                                from vues.menu_utilisateur_vue import MenuUtilisateurVue
+            case "Retour vers l'écran d'accueil":
+                from vues.menu_utilisateur_vue import MenuUtilisateurVue
 
-                                return MenuUtilisateurVue("Bon retour")
+                return MenuUtilisateurVue("Bon retour")
 
         from vues.menu_utilisateur_vue import MenuUtilisateurVue
 
