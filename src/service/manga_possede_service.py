@@ -24,7 +24,7 @@ class MangaPossedeService:
             None
 
     def modifier_num_dernier_acquis(self, manga: MangaPossede, nouveau_num):
-        """fonction"""
+        """Modification du dernier numéro acquis d'un manga possédé"""
         manga.num_dernier_acquis = nouveau_num
         if self.dao.MangaPossedeDAO.modifier_num_dernier_acquis(manga.num_dernier_acquis):
             return manga.num_dernier_acquis
@@ -32,7 +32,7 @@ class MangaPossedeService:
             None
 
     def modifier_num_manquant(self, manga: MangaPossede, num_manquant, num_acquis):
-        """fonction"""
+        """Modification des numéros manquants des tomes d'un manga possédé"""
         manga.num_manquant.remove(num_acquis)
         if self.dao.MangaPossedeDAO.ajouter_num_manquant(manga.num_manquant):
             return manga.num_manquant
@@ -40,7 +40,7 @@ class MangaPossedeService:
             None
 
     def modifier_statut(self, manga: MangaPossede, statut):
-        """fonction"""
+        """Modification du statut de lecture du manga possédé"""
         manga.statut = statut
         if self.dao.MangaPossedeDAO.modifier_statut(manga.statut):
             return manga.statut

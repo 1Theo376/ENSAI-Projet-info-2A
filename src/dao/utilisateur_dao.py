@@ -285,16 +285,17 @@ class UtilisateurDao(metaclass=Singleton):
 
     @log
     def rechercher_tous_pseudo(self, pseud) -> list[Utilisateur]:
-        """lister tous les utilisateurs
+        """rechercher des utilisateur à partir d'une chaîne de caractère
 
         Parameters
         ----------
-        None
+        pseudo: int
+            pseudo de l'utilisateur
 
         Returns
         -------
         liste_utilisateur : list[utIlisateur]
-            renvoie la liste de tous les utilisateurs dans la base de données
+            renvoie la liste de tous les utilisateurs correspodants à la chaîne de caractère
         """
 
         try:
@@ -356,16 +357,17 @@ class UtilisateurDao(metaclass=Singleton):
         return id_utilisateur
 
     def recherche_pseudo_par_id(self, id):
-        """recherche l'identifiant d'un utilisateur selon son pseudo
+        """recherche le pseudo d'un utilisateur selon son id
 
         Parameters
         ----------
-        pseudo : str
+        id : int
+            identifiant unique de l'utilisateur
 
         Returns
         -------
-        id_utilisateur : int
-            renvoie l'id_utilisateur dans la base de données
+        pseudo : str
+            renvoie le pseudo de l'utilisateur correspondant à l'id
         """
 
         try:

@@ -82,17 +82,17 @@ class MangaPossedeDao:
         return res == 1
 
     def nb_volume_manga(self, nom):
-        """trouver une collection grâce à son nom
+        """trouver le nombre de volumes d'un manga avec son nom
 
         Parameters
         ----------
         nom : str
-            nom de la collection cohérente
+            nom du manga
 
            Returns
            -------
-           collection : CollectionCoherente
-               renvoie la collection cohérente correspondant au nom
+           volumes : int
+               renvoie le nombre de volumes du manga
         """
         try:
             with DBConnection().connection as connection:
@@ -112,6 +112,18 @@ class MangaPossedeDao:
         return volumes
 
     def trouver_manga_possede_collecphys(self, titre, id_collec_phys):
+        """Trouve le manga possédé d'un utilisateur à partir de son nom
+        Parameters
+        ----------
+        titre : str
+            titre du manga
+        id_collec_phys : int
+            identifiant unique de la collection physique
+        Returns
+        -------
+        manga_possede : MangaPossede
+            renvoie le manga possédé de l'utilisateur
+        """
         try:
             with DBConnection().connection as connection:
                 with connection.cursor() as cursor:
@@ -157,11 +169,11 @@ class MangaPossedeDao:
             )
         return manga_possede
 
-    def ajouter_num_manquant(self, num_manquant) -> bool:
-        """Ajout d'un manga possédé dans la base de données
+    def ajouter_num_manquant(self, num_manquant) -> bool:  #à voir
+        """Ajout des numéros manquants d'un manga possédé dans la base de données
         Parameters
         ----------
-        manga : MangaPossede
+        num_manquant : int
         Returns
         -------
         created : bool
@@ -188,11 +200,14 @@ class MangaPossedeDao:
             return res["id_num_manquant"]
         return created
 
-    def ajouter_ass_num_manquant(self, id_manga_p, id_num_manquant) -> bool:
-        """Ajout d'un manga possédé dans la base de données
+    def ajouter_ass_num_manquant(self, id_manga_p, id_num_manquant) -> bool:  #fusionner les deux fonctions ???
+        """Ajout des numéro manquants d'un manga possédé dans la base de données
         Parameters
         ----------
-        manga : MangaPossede
+        id_manga_p : int
+            identifiant unique du manga possédé
+        id_num_manquant : int
+            identifiant unique des numéro manquants
         Returns
         -------
         created : bool
@@ -218,6 +233,16 @@ class MangaPossedeDao:
         return created
 
     def trouver_manga_possede_id(self, id_p):
+        """Trouve le manga possédé à partir de son identifiant
+        Parameters
+        ----------
+        id_p : int
+            identifiant unique du manga possédé
+        Returns
+        -------
+        manga_possede : MangaPossede
+            renvoie le manga possédé
+        """
         try:
             with DBConnection().connection as connection:
                 with connection.cursor() as cursor:
@@ -260,6 +285,16 @@ class MangaPossedeDao:
         return manga_possede
 
     def trouver_id_num_manquant_id(self, id_p):
+        """trouve les numéro manquants d'un manga possédé dans la base de données
+        Parameters
+        ----------
+        id_p : int
+            identifiant unique du manga possédé
+        Returns
+        -------
+        list : list[int]
+            liste des numéros manquants d'un manga possédé
+        """
         try:
             with DBConnection().connection as connection:
                 with connection.cursor() as cursor:
@@ -282,15 +317,16 @@ class MangaPossedeDao:
         return liste
 
     def supprimer_num_manquant(self, idnm) -> bool:
-        """Suppression d'un manga d'une collection coherente
+        """Suppression d'un numéro manquant dans la base de donnée
 
         Parameters
         ----------
-
+        idnm : int
+            identifiant unique du numéro manquant
 
         Returns
         -------
-        True si le manga a bien été supprimé
+        True si le numéro manquant a bien été supprimé
         """
 
         try:

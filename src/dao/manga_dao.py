@@ -7,7 +7,7 @@ from business_object.manga import Manga
 
 
 class MangaDao(metaclass=Singleton):
-    """classe MangaDao"""
+    """Classe contenant les méthodes pour accéder aux mangas"""
 
     def trouver_manga_par_id(self, id_manga) -> Manga:
         """Recherche et renvoie un manga par son id
@@ -140,7 +140,7 @@ class MangaDao(metaclass=Singleton):
         Parameters
         ---------
         titre: str
-            titre du manga qu'on veut rechercher
+            chaîne de caractères correspondant à une recherche
 
         Returns
         -------

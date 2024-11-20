@@ -10,15 +10,7 @@ class RechercheService:
     """Classe"""
 
     def recherche_manga_par_t(self, titre: str, n: int) -> Manga:
-        """Recherche un manga par son titre
-        Parameters
-        ----------
-        titre : str
-
-        Returns
-        -------
-        manga : Manga
-            renvoie le manga recherché"""
+        """Recherche un manga par son titre"""
         res = MangaDao().rechercher_manga_par_titre(titre)
         if res:
             liste = [j.titre for j in res]
@@ -27,15 +19,7 @@ class RechercheService:
         return None
 
     def recherche_manga_par_t2(self, titre: str, n: int, m, a) -> Manga:
-        """Recherche un manga par son titre
-        Parameters
-        ----------
-        titre : str
-
-        Returns
-        -------
-        manga : Manga
-            renvoie le manga recherché"""
+        """Recherche un manga par son titre"""
         res = MangaDao().rechercher_manga_par_titre(titre)
         logging.info("recherche_manga_par_t2")
         if res:

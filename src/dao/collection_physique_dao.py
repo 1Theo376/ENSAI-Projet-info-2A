@@ -9,7 +9,7 @@ from dao.manga_possede_dao import MangaPossedeDao
 
 
 class CollectionPhysiqueDAO:
-    """Classe contenant les méthodes pour accéder aux collections de l'utilisateur"""
+    """Classe contenant les méthodes pour accéder aux collections physiques de l'utilisateur"""
 
     def supprimer_collectionphys(self, id_collecion_p) -> bool:
         """Suppression d'une collection physique dans la base de données
