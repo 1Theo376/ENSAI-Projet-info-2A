@@ -31,13 +31,6 @@ class MenuAvis(VueAbstraite):
         print("\n" + "-" * 50 + "\nMenu Avis\n" + "-" * 50 + "\n")
 
         liste_avis, liste_titre = AvisService().recuperer_avis_utilisateur(Session().utilisateur.id)
-        choices = []
-        for i in range(len(liste_avis)):
-            option = f"titre : {liste_titre[i]} | Avis: {liste_avis[i]}"
-            choices.append(option)
-        logging.info(f"{liste_avis} et {liste_titre}")
-        choices.extend(["Retour au menu précédent", "Retour vers l'écran d'accueil"])
-<<<<<<< HEAD
         n = 0
         m = 8
         while n >= 0:
@@ -60,19 +53,11 @@ class MenuAvis(VueAbstraite):
                 choix2.remove("Afficher la page précédente")
 
             choix_utilisateur = inquirer.select(message="Choisissez un avis : ", choices=choix2).execute()
-=======
-        choix_utilisateur = inquirer.select(
-            message="Choisissez un avis : ", choices=choices
-        ).execute()
-        if choix_utilisateur == "Retour au menu précédent":
-            from vues.profil_utilisateur_vue import EcranDuProfilVue
->>>>>>> 1b528e9b439784fb5af0ff8bab34b3006b79b0d2
 
             if choix_utilisateur == "Retour au menu précédent":
                 n = -1
                 from vues.profil_utilisateur_vue import EcranDuProfilVue
 
-<<<<<<< HEAD
                 return EcranDuProfilVue().choisir_menu()
 
             elif choix_utilisateur == "Afficher la page suivante":
@@ -108,33 +93,3 @@ class MenuAvis(VueAbstraite):
                     from vues.profil_utilisateur_vue import EcranDuProfilVue
 
                     return EcranDuProfilVue().choisir_menu()
-=======
-        if choix_utilisateur == "Retour vers l'écran d'accueil":
-            from vues.menu_utilisateur_vue import MenuUtilisateurVue
-
-            return MenuUtilisateurVue().choisir_menu()
-
-        else:
-            titre = choix_utilisateur.split("titre : ")[1].split(" |")[0].strip()
-            id_manga = (MangaDao().trouver_manga_par_titre(titre)).id_manga
-            avis = AvisService().recuperer_avis_user_manga(id_manga, Session().utilisateur.id)
-            choix2 = inquirer.select(
-                message="Faites votre choix : ",
-                choices=["Modifier l'avis", "Supprimer l'avis", "Retour au menu précédent"],
-            ).execute()
-            match choix2:
-                case "Modifier l'avis":
-                    from dao.avis_dao import AvisDAO
-
-                    nouvel_avis = input(
-                        f"Entrez votre nouvel avis sur le manga {titre} (si aucun changement appuyez sur Entrée) : "
-                    )
-                    AvisDAO().modifier_avis(avis, nouvel_avis)
-                    return MenuAvis()
-                case "Supprimer l'avis":
-                    AvisService().supprimer_avis(avis)
-                    return MenuAvis()
-
-                case "Retour au menu précédent":
-                    return MenuAvis()
->>>>>>> 1b528e9b439784fb5af0ff8bab34b3006b79b0d2
