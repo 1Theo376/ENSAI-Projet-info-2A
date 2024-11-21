@@ -22,7 +22,7 @@ def avis2():
 def test_creer_avis(avis_dao, avis1):
     result = avis_dao.creer_avis(avis1, id_user=1, id_manga=1)
     assert result == True  # Vérifie que l'avis a bien été créé
-    result = avis_dao.creer_avis(avis1)
+    result = avis_dao.creer_avis(avis1, id_user=1, id_manga=1)
     assert result == False  # Vérifie qu'un avis ne peut pas être créé deux fois
 
 
@@ -44,7 +44,7 @@ def test_supprimer_avis(avis_dao, avis1):
 def test_modifier_avis(avis_dao, avis1, avis2):
     avis_dao.creer_avis(avis1, id_user=1, id_manga=1)
     avis1_modifie = Avis(id_avis=1, texte="Avis modifié")
-    result = avis_dao.modifier_avis(avis1_modifie)
+    result = avis_dao.modifier_avis(avis1_modifie, nouveau_texte="Avis modifié")
     assert result == True  # Vérifie que l'avis a bien été modifié
     assert avis_dao.trouver_avis_par_id(avis1.id_avis).texte == "Avis modifié"  # Vérifie que le texte de l'avis a bien été modifié
     result = avis_dao.modifier_avis(avis2)
