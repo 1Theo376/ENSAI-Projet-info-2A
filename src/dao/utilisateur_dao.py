@@ -46,79 +46,6 @@ class UtilisateurDao(metaclass=Singleton):
         return created
 
     @log
-    def modifier(self, utilisateur) -> bool:
-        """Modification d'un utilisateur dans la base de données
-        Parameters
-        ----------
-        utilisateur : Utilisateur
-
-        Returns
-        -------
-        created : bool
-            True si la modification est un succès
-            False sinon
-        """
-
-        res = None
-
-        try:
-            with DBConnection().connection as connection:
-                with connection.cursor() as cursor:
-                    cursor.execute(
-                        "UPDATE utilisateur                                 "
-                        "   SET pseudo      = %(pseudo)s,                   "
-                        "       mdp         = %(mdp)s,                      "
-                        " WHERE id_utilisateur = %(id_utilisateur)s;                  ",
-                        {
-                            "pseudo": utilisateur.pseudo,
-                            "mdp": utilisateur.mdp,
-                            "id_utilisateur": utilisateur.id,
-                        },
-                    )
-                    res = cursor.rowcount
-        except Exception as e:
-            logging.info(e)
-
-        return res == 1
-
-    # def trouver_par_id(self, id) -> Utilisateur:
-    #    trouver un joueur grace à son id
-
-    #    Parameters
-    #    ----------
-    #    id : int
-    #        numéro id de l'utilisateur que l'on souhaite trouver
-
-    #    Returns
-    #    -------
-    #    user : Utilisateur
-    #        renvoie l'utilisateur que l'on cherche par id
-
-    #    try:
-    #        with DBConnection().connection as connection:
-    #            with connection.cursor() as cursor:
-    #                cursor.execute(
-    #                    "SELECT *                           "
-    #                    "  FROM utilisateur                     "
-    #                    " WHERE id = %(id)s;  ",
-    #                    {"id": id},
-    #                )
-    #                res = cursor.fetchone()
-    #    except Exception as e:
-    #        logging.info(e)
-    #        raise
-
-    #    utilisateur = None
-    #    if res:
-    #        utilisateur = Utilisateur(
-    #            id=res["id"],
-    #            mdp=res["mdp"],
-    #            pseudo=res["pseudo"],
-    #        )
-    #
-    #    return utilisateur
-
-    @log
     def lister_tous(self) -> list[Utilisateur]:
         """lister tous les joueurs
 
@@ -230,58 +157,6 @@ class UtilisateurDao(metaclass=Singleton):
 
         return user
 
-    @log
-    def supprimer_tous(self) -> bool:
-        """Suppression de tous les utilisateurs dans la base de données
-
-        Returns
-        -------
-            True si tous les utilisateurs ont bien été supprimés
-        """
-        try:
-            with DBConnection().connection as connection:
-                with connection.cursor() as cursor:
-                    cursor.execute("DELETE FROM utilisateur;")
-                    res = cursor.rowcount
-                connection.commit()
-        except Exception as e:
-            logging.info(f"Erreur lors de la suppression de tous les utilisateurs : {e}")
-            raise
-        return res > 0
-
-    @log
-    def recherche_id(self):
-        """lister tous les joueurs
-
-        Parameters
-        ----------
-        None
-
-        Returns
-        -------
-        liste_utilisateur : list[Joueur]
-            renvoie la liste de tous les utilisateurs dans la base de données
-        """
-
-        try:
-            with DBConnection().connection as connection:
-                with connection.cursor() as cursor:
-                    cursor.execute(
-                        "SELECT id_utilisateur                              "
-                        "  FROM utilisateur;                        "
-                    )
-                    res = cursor.fetchall()
-        except Exception as e:
-            logging.info(e)
-            raise
-
-        liste_id = []
-
-        if res:
-            for row in res:
-                liste_id.append(row["id_utilisateur"])
-
-        return len(liste_id) + 1
 
     @log
     def rechercher_tous_pseudo(self, pseud) -> list[Utilisateur]:
