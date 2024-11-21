@@ -1,0 +1,1951 @@
+20/11/2024 14:59:43 - INFO     - --------------------------------------------------
+20/11/2024 14:59:43 - INFO     - Lancement Application                           
+20/11/2024 14:59:43 - INFO     - --------------------------------------------------
+20/11/2024 14:59:43 - INFO     - AccueilVue
+20/11/2024 14:59:46 - INFO     - Fin de l'application
+20/11/2024 14:59:56 - INFO     - --------------------------------------------------
+20/11/2024 14:59:56 - INFO     - Lancement Application                           
+20/11/2024 14:59:56 - INFO     - --------------------------------------------------
+20/11/2024 14:59:56 - INFO     - AccueilVue
+20/11/2024 15:00:01 - INFO     - InscriptionVue
+20/11/2024 15:00:06 - INFO     - Pseudo : Emilien (length: 7)
+20/11/2024 15:00:06 - INFO     -     UtilisateurDao.lister_tous() - DEBUT
+20/11/2024 15:00:06 - INFO     -     UtilisateurDao.lister_tous() - FIN
+20/11/2024 15:00:06 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x00000186221F9DE0>', '<business_object.utilisateur.Utilisateur object at 0x00000186221F9DB0>', '<business_object.utilisateur.Utilisateur object at 0x00000186221F9D80>'] ... (3 elements)
+20/11/2024 15:00:20 - INFO     - Mot de passe haché : 9cec9e870d627f180d54ea159f56ef8be13aaa200f5de67ee34b3280f116758b (length: 64)
+20/11/2024 15:00:20 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x00000186222E90F0>',) - DEBUT
+20/11/2024 15:00:20 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x00000186222E90F0>',) - FIN
+20/11/2024 15:00:20 - INFO     -        └─> Sortie : True
+20/11/2024 15:00:20 - INFO     - AccueilVue
+20/11/2024 15:00:22 - INFO     - ConnexionVue
+20/11/2024 15:00:26 - INFO     -     UtilisateurDao.se_connecter('', '*****') - DEBUT
+20/11/2024 15:00:26 - INFO     -     UtilisateurDao.se_connecter('', '*****') - FIN
+20/11/2024 15:00:26 - INFO     -        └─> Sortie : None
+20/11/2024 15:00:26 - INFO     - AccueilVue
+20/11/2024 15:00:29 - INFO     - InscriptionVue
+20/11/2024 15:00:34 - INFO     - Pseudo : Emilien (length: 7)
+20/11/2024 15:00:34 - INFO     -     UtilisateurDao.lister_tous() - DEBUT
+20/11/2024 15:00:34 - INFO     -     UtilisateurDao.lister_tous() - FIN
+20/11/2024 15:00:34 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000001862261CF10>', '<business_object.utilisateur.Utilisateur object at 0x000001862261CEE0>', '<business_object.utilisateur.Utilisateur object at 0x000001862261CE80>'] ... (4 elements)
+20/11/2024 15:00:34 - INFO     - AccueilVue
+20/11/2024 15:00:40 - INFO     - ConnexionVue
+20/11/2024 15:00:49 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+20/11/2024 15:00:49 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+20/11/2024 15:00:49 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000018622824E20>
+20/11/2024 15:00:49 - INFO     - MenuUtilisateurVue
+20/11/2024 15:01:02 - INFO     - EcranDuProfilVue
+20/11/2024 15:01:02 - INFO     - res trouver_collec_cohe_id_user : []
+20/11/2024 15:01:09 - INFO     - MenuUtilisateurVue
+20/11/2024 15:01:15 - INFO     - EcranDuProfilVue
+20/11/2024 15:01:15 - INFO     - res trouver_collec_cohe_id_user : []
+20/11/2024 15:02:48 - INFO     - EcranDuProfilVue
+20/11/2024 15:02:48 - INFO     - res trouver_collec_cohe_id_user : []
+20/11/2024 15:02:52 - INFO     - MenuUtilisateurVue
+20/11/2024 15:02:53 - INFO     - EcranDuProfilVue
+20/11/2024 15:02:54 - INFO     - res trouver_collec_cohe_id_user : []
+20/11/2024 15:02:57 - INFO     - res : []
+20/11/2024 15:02:57 - INFO     - res trouver_collec_cohe_id_user : []
+20/11/2024 15:02:58 - INFO     - MenuUtilisateurVue
+20/11/2024 15:03:00 - INFO     - EcranDuProfilVue
+20/11/2024 15:03:00 - INFO     - res trouver_collec_cohe_id_user : []
+20/11/2024 15:03:02 - INFO     - res : []
+20/11/2024 15:03:02 - INFO     - res trouver_collec_cohe_id_user : []
+20/11/2024 15:03:05 - INFO     - MenuUtilisateurVue
+20/11/2024 15:03:08 - INFO     - EcranDuProfilVue
+20/11/2024 15:03:08 - INFO     - res trouver_collec_cohe_id_user : []
+20/11/2024 15:03:09 - INFO     - res : []
+20/11/2024 15:03:09 - INFO     - res trouver_collec_cohe_id_user : []
+20/11/2024 15:03:11 - INFO     - MenuUtilisateurVue
+20/11/2024 15:04:57 - INFO     - EcranDuProfilVue
+20/11/2024 15:04:57 - INFO     - res trouver_collec_cohe_id_user : []
+20/11/2024 15:04:59 - INFO     - res : []
+20/11/2024 15:04:59 - INFO     - res trouver_collec_cohe_id_user : []
+20/11/2024 15:05:20 - INFO     - res : []
+20/11/2024 15:05:20 - INFO     - res trouver_collec_cohe_id_user : []
+20/11/2024 15:05:26 - INFO     - MenuUtilisateurVue
+20/11/2024 15:05:27 - INFO     - EcranDuProfilVue
+20/11/2024 15:05:27 - INFO     - res trouver_collec_cohe_id_user : []
+20/11/2024 15:05:28 - INFO     - res : []
+20/11/2024 15:05:28 - INFO     - res trouver_collec_cohe_id_user : []
+20/11/2024 15:05:33 - INFO     - res : []
+20/11/2024 15:05:33 - INFO     - res trouver_collec_cohe_id_user : []
+20/11/2024 15:05:43 - INFO     - MenuUtilisateurVue
+20/11/2024 15:05:44 - INFO     - RechercheVue
+20/11/2024 15:05:45 - INFO     - MenuUtilisateurVue
+20/11/2024 15:05:47 - INFO     - EcranDuProfilVue
+20/11/2024 15:05:47 - INFO     - res trouver_collec_cohe_id_user : []
+20/11/2024 15:06:06 - INFO     - MenuUtilisateurVue
+20/11/2024 15:06:10 - INFO     - RechercheVue
+20/11/2024 15:06:11 - INFO     - RechercheUtilisateurVue
+20/11/2024 15:06:20 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('Ananas35',) - DEBUT
+20/11/2024 15:06:20 - INFO     - res de rechercher tous pseudo : [RealDictRow([('id_utilisateur', 4), ('pseudo', 'Ananas35'), ('mdp', '8c8073a12616902ee3aa3c6c4d4d1d98460376fba2d4edd91f060cfca2026e0b')])]
+20/11/2024 15:06:20 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('Ananas35',) - FIN
+20/11/2024 15:06:20 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x00000186242821D0>'] ... (1 elements)
+20/11/2024 15:06:20 - INFO     - liste=['Ananas35']
+20/11/2024 15:06:20 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('Ananas35',) - DEBUT
+20/11/2024 15:06:20 - INFO     - res de rechercher tous pseudo : [RealDictRow([('id_utilisateur', 4), ('pseudo', 'Ananas35'), ('mdp', '8c8073a12616902ee3aa3c6c4d4d1d98460376fba2d4edd91f060cfca2026e0b')])]
+20/11/2024 15:06:20 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('Ananas35',) - FIN
+20/11/2024 15:06:20 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x0000018624282140>'] ... (1 elements)
+20/11/2024 15:06:20 - INFO     - liste=['Ananas35']
+20/11/2024 15:06:20 - INFO     - longueur : 1
+20/11/2024 15:06:20 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('Ananas35',) - DEBUT
+20/11/2024 15:06:20 - INFO     - res de rechercher tous pseudo : [RealDictRow([('id_utilisateur', 4), ('pseudo', 'Ananas35'), ('mdp', '8c8073a12616902ee3aa3c6c4d4d1d98460376fba2d4edd91f060cfca2026e0b')])]
+20/11/2024 15:06:20 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('Ananas35',) - FIN
+20/11/2024 15:06:20 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x00000186242821A0>'] ... (1 elements)
+20/11/2024 15:06:20 - INFO     - liste=['Ananas35']
+20/11/2024 15:06:20 - INFO     - util:['Ananas35']
+20/11/2024 15:06:22 - INFO     - CollectionCoherenteVueRecherche
+20/11/2024 15:06:22 - INFO     -     UtilisateurDao.recherche_id_par_pseudo('Ananas35',) - DEBUT
+20/11/2024 15:06:22 - INFO     -     UtilisateurDao.recherche_id_par_pseudo('Ananas35',) - FIN
+20/11/2024 15:06:22 - INFO     -        └─> Sortie : 4
+20/11/2024 15:06:22 - INFO     - res trouver_collec_cohe_id_user : []
+20/11/2024 15:06:22 - INFO     - res de recherche_collec_cohe_par_id : None
+20/11/2024 15:06:22 - INFO     - listecolleccohe type: <class 'list'>, contenu: []
+20/11/2024 15:06:22 - INFO     - collection_physique type: , contenu: None
+20/11/2024 15:06:22 - INFO     - listecollections: []
+20/11/2024 15:06:22 - INFO     - MenuUtilisateurVue
+20/11/2024 15:11:43 - INFO     - AccueilVue
+20/11/2024 15:11:44 - INFO     - ConnexionVue
+20/11/2024 15:11:52 - INFO     - --------------------------------------------------
+20/11/2024 15:11:52 - INFO     - Lancement Application                           
+20/11/2024 15:11:52 - INFO     - --------------------------------------------------
+20/11/2024 15:11:52 - INFO     - AccueilVue
+20/11/2024 15:11:54 - INFO     - ConnexionVue
+20/11/2024 15:11:59 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+20/11/2024 15:11:59 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+20/11/2024 15:11:59 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000020EFF765BD0>
+20/11/2024 15:11:59 - INFO     - MenuUtilisateurVue
+20/11/2024 15:12:02 - INFO     - RechercheVue
+20/11/2024 15:12:04 - INFO     - RechercheUtilisateurVue
+20/11/2024 15:12:17 - INFO     - MenuUtilisateurVue
+20/11/2024 15:12:20 - INFO     - RechercheVue
+20/11/2024 15:12:22 - INFO     - RechercheUtilisateurVue
+20/11/2024 15:12:27 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - DEBUT
+20/11/2024 15:12:27 - INFO     - res de rechercher tous pseudo : [RealDictRow([('id_utilisateur', 3), ('pseudo', 'ana03'), ('mdp', 'd39dd0dbddc2ff149a00cc62c986d2a5392deb8bc4d833d936fd9ff1768ee4fb')]), RealDictRow([('id_utilisateur', 4), ('pseudo', 'Ananas35'), ('mdp', '8c8073a12616902ee3aa3c6c4d4d1d98460376fba2d4edd91f060cfca2026e0b')])]
+20/11/2024 15:12:27 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - FIN
+20/11/2024 15:12:27 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x0000020E8029A620>', '<business_object.utilisateur.Utilisateur object at 0x0000020E8029A5F0>'] ... (2 elements)
+20/11/2024 15:12:27 - INFO     - liste=['ana03', 'Ananas35']
+20/11/2024 15:12:27 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - DEBUT
+20/11/2024 15:12:27 - INFO     - res de rechercher tous pseudo : [RealDictRow([('id_utilisateur', 3), ('pseudo', 'ana03'), ('mdp', 'd39dd0dbddc2ff149a00cc62c986d2a5392deb8bc4d833d936fd9ff1768ee4fb')]), RealDictRow([('id_utilisateur', 4), ('pseudo', 'Ananas35'), ('mdp', '8c8073a12616902ee3aa3c6c4d4d1d98460376fba2d4edd91f060cfca2026e0b')])]
+20/11/2024 15:12:27 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - FIN
+20/11/2024 15:12:27 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x0000020E8029A590>', '<business_object.utilisateur.Utilisateur object at 0x0000020E8029A5F0>'] ... (2 elements)
+20/11/2024 15:12:27 - INFO     - liste=['ana03', 'Ananas35']
+20/11/2024 15:12:27 - INFO     - longueur : 2
+20/11/2024 15:12:27 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - DEBUT
+20/11/2024 15:12:27 - INFO     - res de rechercher tous pseudo : [RealDictRow([('id_utilisateur', 3), ('pseudo', 'ana03'), ('mdp', 'd39dd0dbddc2ff149a00cc62c986d2a5392deb8bc4d833d936fd9ff1768ee4fb')]), RealDictRow([('id_utilisateur', 4), ('pseudo', 'Ananas35'), ('mdp', '8c8073a12616902ee3aa3c6c4d4d1d98460376fba2d4edd91f060cfca2026e0b')])]
+20/11/2024 15:12:27 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - FIN
+20/11/2024 15:12:27 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x0000020E8029A650>', '<business_object.utilisateur.Utilisateur object at 0x0000020E8029A5F0>'] ... (2 elements)
+20/11/2024 15:12:27 - INFO     - liste=['ana03', 'Ananas35']
+20/11/2024 15:12:27 - INFO     - util:['ana03', 'Ananas35']
+20/11/2024 15:12:30 - INFO     - RechercheVue
+20/11/2024 15:12:37 - INFO     - RechercheUtilisateurVue
+20/11/2024 15:12:41 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - DEBUT
+20/11/2024 15:12:41 - INFO     - res de rechercher tous pseudo : [RealDictRow([('id_utilisateur', 3), ('pseudo', 'ana03'), ('mdp', 'd39dd0dbddc2ff149a00cc62c986d2a5392deb8bc4d833d936fd9ff1768ee4fb')]), RealDictRow([('id_utilisateur', 4), ('pseudo', 'Ananas35'), ('mdp', '8c8073a12616902ee3aa3c6c4d4d1d98460376fba2d4edd91f060cfca2026e0b')])]
+20/11/2024 15:12:41 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - FIN
+20/11/2024 15:12:41 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x0000020E80DAC5E0>', '<business_object.utilisateur.Utilisateur object at 0x0000020E80D99780>'] ... (2 elements)
+20/11/2024 15:12:41 - INFO     - liste=['ana03', 'Ananas35']
+20/11/2024 15:12:41 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - DEBUT
+20/11/2024 15:12:41 - INFO     - res de rechercher tous pseudo : [RealDictRow([('id_utilisateur', 3), ('pseudo', 'ana03'), ('mdp', 'd39dd0dbddc2ff149a00cc62c986d2a5392deb8bc4d833d936fd9ff1768ee4fb')]), RealDictRow([('id_utilisateur', 4), ('pseudo', 'Ananas35'), ('mdp', '8c8073a12616902ee3aa3c6c4d4d1d98460376fba2d4edd91f060cfca2026e0b')])]
+20/11/2024 15:12:41 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - FIN
+20/11/2024 15:12:41 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x0000020E80DAC5B0>', '<business_object.utilisateur.Utilisateur object at 0x0000020E80D99750>'] ... (2 elements)
+20/11/2024 15:12:41 - INFO     - liste=['ana03', 'Ananas35']
+20/11/2024 15:12:41 - INFO     - longueur : 2
+20/11/2024 15:12:41 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - DEBUT
+20/11/2024 15:12:41 - INFO     - res de rechercher tous pseudo : [RealDictRow([('id_utilisateur', 3), ('pseudo', 'ana03'), ('mdp', 'd39dd0dbddc2ff149a00cc62c986d2a5392deb8bc4d833d936fd9ff1768ee4fb')]), RealDictRow([('id_utilisateur', 4), ('pseudo', 'Ananas35'), ('mdp', '8c8073a12616902ee3aa3c6c4d4d1d98460376fba2d4edd91f060cfca2026e0b')])]
+20/11/2024 15:12:41 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - FIN
+20/11/2024 15:12:41 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x0000020E80DAC4F0>', '<business_object.utilisateur.Utilisateur object at 0x0000020E80D99780>'] ... (2 elements)
+20/11/2024 15:12:41 - INFO     - liste=['ana03', 'Ananas35']
+20/11/2024 15:12:41 - INFO     - util:['ana03', 'Ananas35']
+20/11/2024 15:12:44 - INFO     - CollectionCoherenteVueRecherche
+20/11/2024 15:12:44 - INFO     -     UtilisateurDao.recherche_id_par_pseudo('Ananas35',) - DEBUT
+20/11/2024 15:12:44 - INFO     -     UtilisateurDao.recherche_id_par_pseudo('Ananas35',) - FIN
+20/11/2024 15:12:44 - INFO     -        └─> Sortie : 4
+20/11/2024 15:12:44 - INFO     - res trouver_collec_cohe_id_user : []
+20/11/2024 15:12:44 - INFO     - res de recherche_collec_cohe_par_id : None
+20/11/2024 15:12:44 - INFO     - listecolleccohe type: <class 'list'>, contenu: []
+20/11/2024 15:12:44 - INFO     - collection_physique type: , contenu: None
+20/11/2024 15:12:44 - INFO     - listecollections: []
+20/11/2024 15:12:44 - INFO     - MenuUtilisateurVue
+20/11/2024 15:14:33 - INFO     - AccueilVue
+20/11/2024 15:14:35 - INFO     - Fin de l'application
+20/11/2024 15:14:42 - INFO     - --------------------------------------------------
+20/11/2024 15:14:42 - INFO     - Lancement Application                           
+20/11/2024 15:14:42 - INFO     - --------------------------------------------------
+20/11/2024 15:14:42 - INFO     - AccueilVue
+20/11/2024 15:14:44 - INFO     - ConnexionVue
+20/11/2024 15:14:52 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+20/11/2024 15:14:52 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+20/11/2024 15:14:52 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000018548D19D50>
+20/11/2024 15:14:52 - INFO     - MenuUtilisateurVue
+20/11/2024 15:14:53 - INFO     - EcranDuProfilVue
+20/11/2024 15:14:53 - INFO     - res trouver_collec_cohe_id_user : []
+20/11/2024 15:14:57 - INFO     - MenuUtilisateurVue
+20/11/2024 15:15:04 - INFO     - RechercheVue
+20/11/2024 15:15:08 - INFO     - RechercheUtilisateurVue
+20/11/2024 15:15:11 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - DEBUT
+20/11/2024 15:15:11 - INFO     - res de rechercher tous pseudo : [RealDictRow([('id_utilisateur', 3), ('pseudo', 'ana03'), ('mdp', 'd39dd0dbddc2ff149a00cc62c986d2a5392deb8bc4d833d936fd9ff1768ee4fb')]), RealDictRow([('id_utilisateur', 4), ('pseudo', 'Ananas35'), ('mdp', '8c8073a12616902ee3aa3c6c4d4d1d98460376fba2d4edd91f060cfca2026e0b')])]
+20/11/2024 15:15:11 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - FIN
+20/11/2024 15:15:11 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000001854904F400>', '<business_object.utilisateur.Utilisateur object at 0x000001854904F3D0>'] ... (2 elements)
+20/11/2024 15:15:11 - INFO     - liste=['ana03', 'Ananas35']
+20/11/2024 15:15:11 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - DEBUT
+20/11/2024 15:15:11 - INFO     - res de rechercher tous pseudo : [RealDictRow([('id_utilisateur', 3), ('pseudo', 'ana03'), ('mdp', 'd39dd0dbddc2ff149a00cc62c986d2a5392deb8bc4d833d936fd9ff1768ee4fb')]), RealDictRow([('id_utilisateur', 4), ('pseudo', 'Ananas35'), ('mdp', '8c8073a12616902ee3aa3c6c4d4d1d98460376fba2d4edd91f060cfca2026e0b')])]
+20/11/2024 15:15:11 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - FIN
+20/11/2024 15:15:11 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000001854904F400>', '<business_object.utilisateur.Utilisateur object at 0x000001854904F370>'] ... (2 elements)
+20/11/2024 15:15:11 - INFO     - liste=['ana03', 'Ananas35']
+20/11/2024 15:15:11 - INFO     - longueur : 2
+20/11/2024 15:15:11 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - DEBUT
+20/11/2024 15:15:11 - INFO     - res de rechercher tous pseudo : [RealDictRow([('id_utilisateur', 3), ('pseudo', 'ana03'), ('mdp', 'd39dd0dbddc2ff149a00cc62c986d2a5392deb8bc4d833d936fd9ff1768ee4fb')]), RealDictRow([('id_utilisateur', 4), ('pseudo', 'Ananas35'), ('mdp', '8c8073a12616902ee3aa3c6c4d4d1d98460376fba2d4edd91f060cfca2026e0b')])]
+20/11/2024 15:15:11 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - FIN
+20/11/2024 15:15:11 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000001854904F400>', '<business_object.utilisateur.Utilisateur object at 0x000001854904F310>'] ... (2 elements)
+20/11/2024 15:15:11 - INFO     - liste=['ana03', 'Ananas35']
+20/11/2024 15:15:11 - INFO     - util:['ana03', 'Ananas35']
+20/11/2024 15:15:15 - INFO     - CollectionCoherenteVueRecherche
+20/11/2024 15:15:15 - INFO     -     UtilisateurDao.recherche_id_par_pseudo('Ananas35',) - DEBUT
+20/11/2024 15:15:15 - INFO     -     UtilisateurDao.recherche_id_par_pseudo('Ananas35',) - FIN
+20/11/2024 15:15:15 - INFO     -        └─> Sortie : 4
+20/11/2024 15:15:15 - INFO     - res trouver_collec_cohe_id_user : []
+20/11/2024 15:15:15 - INFO     - res de recherche_collec_cohe_par_id : None
+20/11/2024 15:15:15 - INFO     - listecolleccohe type: <class 'list'>, contenu: []
+20/11/2024 15:15:15 - INFO     - collection_physique type: , contenu: None
+20/11/2024 15:15:15 - INFO     - listecollections: []
+20/11/2024 15:15:15 - INFO     - RechercheUtilisateurVue
+20/11/2024 15:16:02 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - DEBUT
+20/11/2024 15:16:02 - INFO     - res de rechercher tous pseudo : [RealDictRow([('id_utilisateur', 2), ('pseudo', 'newuser'), ('mdp', 'b5f40f203040f58897bc696f010d73cae885a9c61f519101b65e7deee6f65e58')]), RealDictRow([('id_utilisateur', 3), ('pseudo', 'ana03'), ('mdp', 'd39dd0dbddc2ff149a00cc62c986d2a5392deb8bc4d833d936fd9ff1768ee4fb')]), RealDictRow([('id_utilisateur', 4), ('pseudo', 'Ananas35'), ('mdp', '8c8073a12616902ee3aa3c6c4d4d1d98460376fba2d4edd91f060cfca2026e0b')]), RealDictRow([('id_utilisateur', 5), ('pseudo', 'Emilien'), ('mdp', '9cec9e870d627f180d54ea159f56ef8be13aaa200f5de67ee34b3280f116758b')])]
+20/11/2024 15:16:02 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - FIN
+20/11/2024 15:16:02 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x0000018549356EF0>', '<business_object.utilisateur.Utilisateur object at 0x0000018549356EC0>', '<business_object.utilisateur.Utilisateur object at 0x00000185493579D0>'] ... (4 elements)
+20/11/2024 15:16:02 - INFO     - liste=['newuser', 'ana03', 'Ananas35', 'Emilien']
+20/11/2024 15:16:02 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - DEBUT
+20/11/2024 15:16:02 - INFO     - res de rechercher tous pseudo : [RealDictRow([('id_utilisateur', 2), ('pseudo', 'newuser'), ('mdp', 'b5f40f203040f58897bc696f010d73cae885a9c61f519101b65e7deee6f65e58')]), RealDictRow([('id_utilisateur', 3), ('pseudo', 'ana03'), ('mdp', 'd39dd0dbddc2ff149a00cc62c986d2a5392deb8bc4d833d936fd9ff1768ee4fb')]), RealDictRow([('id_utilisateur', 4), ('pseudo', 'Ananas35'), ('mdp', '8c8073a12616902ee3aa3c6c4d4d1d98460376fba2d4edd91f060cfca2026e0b')]), RealDictRow([('id_utilisateur', 5), ('pseudo', 'Emilien'), ('mdp', '9cec9e870d627f180d54ea159f56ef8be13aaa200f5de67ee34b3280f116758b')])]
+20/11/2024 15:16:02 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - FIN
+20/11/2024 15:16:02 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x0000018549356E60>', '<business_object.utilisateur.Utilisateur object at 0x0000018549356EC0>', '<business_object.utilisateur.Utilisateur object at 0x0000018549357D30>'] ... (4 elements)
+20/11/2024 15:16:02 - INFO     - liste=['newuser', 'ana03', 'Ananas35', 'Emilien']
+20/11/2024 15:16:02 - INFO     - longueur : 4
+20/11/2024 15:16:02 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - DEBUT
+20/11/2024 15:16:02 - INFO     - res de rechercher tous pseudo : [RealDictRow([('id_utilisateur', 2), ('pseudo', 'newuser'), ('mdp', 'b5f40f203040f58897bc696f010d73cae885a9c61f519101b65e7deee6f65e58')]), RealDictRow([('id_utilisateur', 3), ('pseudo', 'ana03'), ('mdp', 'd39dd0dbddc2ff149a00cc62c986d2a5392deb8bc4d833d936fd9ff1768ee4fb')]), RealDictRow([('id_utilisateur', 4), ('pseudo', 'Ananas35'), ('mdp', '8c8073a12616902ee3aa3c6c4d4d1d98460376fba2d4edd91f060cfca2026e0b')]), RealDictRow([('id_utilisateur', 5), ('pseudo', 'Emilien'), ('mdp', '9cec9e870d627f180d54ea159f56ef8be13aaa200f5de67ee34b3280f116758b')])]
+20/11/2024 15:16:02 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - FIN
+20/11/2024 15:16:02 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x00000185493579D0>', '<business_object.utilisateur.Utilisateur object at 0x0000018549356EC0>', '<business_object.utilisateur.Utilisateur object at 0x0000018549356F20>'] ... (4 elements)
+20/11/2024 15:16:02 - INFO     - liste=['newuser', 'ana03', 'Ananas35', 'Emilien']
+20/11/2024 15:16:02 - INFO     - util:['newuser', 'ana03', 'Ananas35', 'Emilien']
+20/11/2024 15:16:12 - INFO     - CollectionCoherenteVueRecherche
+20/11/2024 15:16:12 - INFO     -     UtilisateurDao.recherche_id_par_pseudo('Emilien',) - DEBUT
+20/11/2024 15:16:12 - INFO     -     UtilisateurDao.recherche_id_par_pseudo('Emilien',) - FIN
+20/11/2024 15:16:12 - INFO     -        └─> Sortie : 5
+20/11/2024 15:16:12 - INFO     - res trouver_collec_cohe_id_user : []
+20/11/2024 15:16:12 - INFO     - res de recherche_collec_cohe_par_id : None
+20/11/2024 15:16:12 - INFO     - listecolleccohe type: <class 'list'>, contenu: []
+20/11/2024 15:16:12 - INFO     - collection_physique type: , contenu: None
+20/11/2024 15:16:12 - INFO     - listecollections: []
+20/11/2024 15:16:12 - INFO     - RechercheUtilisateurVue
+20/11/2024 15:16:14 - INFO     - MenuUtilisateurVue
+20/11/2024 15:16:17 - INFO     - AccueilVue
+20/11/2024 15:16:18 - INFO     - Fin de l'application
+20/11/2024 15:17:16 - INFO     - --------------------------------------------------
+20/11/2024 15:17:16 - INFO     - Lancement Application                           
+20/11/2024 15:17:16 - INFO     - --------------------------------------------------
+20/11/2024 15:17:16 - INFO     - AccueilVue
+20/11/2024 15:17:18 - INFO     - ConnexionVue
+20/11/2024 15:17:25 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+20/11/2024 15:17:25 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+20/11/2024 15:17:25 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x00000186C279DB10>
+20/11/2024 15:17:25 - INFO     - MenuUtilisateurVue
+20/11/2024 15:17:26 - INFO     - EcranDuProfilVue
+20/11/2024 15:17:26 - INFO     - res trouver_collec_cohe_id_user : []
+20/11/2024 15:17:31 - INFO     - MenuUtilisateurVue
+20/11/2024 15:17:32 - INFO     - RechercheVue
+20/11/2024 15:17:36 - INFO     - RechercheMangaVue
+20/11/2024 15:17:38 - INFO     - rechercher_manga_par_titre
+20/11/2024 15:17:38 - INFO     - recherche_manga_par_t2
+20/11/2024 15:17:38 - INFO     - rechercher_manga_par_titre
+20/11/2024 15:17:38 - INFO     - recherche_manga_par_t2
+20/11/2024 15:17:39 - INFO     - rechercher_manga_par_titre
+20/11/2024 15:17:39 - INFO     - recherche_manga_par_t2
+20/11/2024 15:17:39 - INFO     - util:['Monster', 'Berserk', '20th Century Boys', 'Yokohama Kaidashi Kikou', 'Hajime no Ippo: Fighting Spirit!', 'Full Moon wo Sagashite', 'Tsubasa: RESERVoir CHRoNiCLE', 'xxxHOLiC']
+20/11/2024 15:17:45 - INFO     - SelectionMangaVuerecherche
+20/11/2024 15:17:55 - INFO     - ConsulterAvisMangaVuerecherche
+20/11/2024 15:17:55 - INFO     - res : []
+20/11/2024 15:17:55 - INFO     - cannot unpack non-iterable NoneType object
+20/11/2024 15:17:55 - INFO     - AccueilVue
+20/11/2024 15:21:17 - INFO     - Fin de l'application
+20/11/2024 15:21:31 - INFO     - --------------------------------------------------
+20/11/2024 15:21:31 - INFO     - Lancement Application                           
+20/11/2024 15:21:31 - INFO     - --------------------------------------------------
+20/11/2024 15:21:31 - INFO     - AccueilVue
+20/11/2024 15:21:33 - INFO     - ConnexionVue
+20/11/2024 15:21:38 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+20/11/2024 15:21:39 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+20/11/2024 15:21:39 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000028417F35A50>
+20/11/2024 15:21:39 - INFO     - MenuUtilisateurVue
+20/11/2024 15:21:41 - INFO     - RechercheVue
+20/11/2024 15:21:42 - INFO     - RechercheMangaVue
+20/11/2024 15:21:44 - INFO     - rechercher_manga_par_titre
+20/11/2024 15:21:44 - INFO     - recherche_manga_par_t2
+20/11/2024 15:21:44 - INFO     - rechercher_manga_par_titre
+20/11/2024 15:21:44 - INFO     - recherche_manga_par_t2
+20/11/2024 15:21:44 - INFO     - rechercher_manga_par_titre
+20/11/2024 15:21:44 - INFO     - recherche_manga_par_t2
+20/11/2024 15:21:44 - INFO     - util:['Monster', 'Berserk', '20th Century Boys', 'Yokohama Kaidashi Kikou', 'Hajime no Ippo: Fighting Spirit!', 'Full Moon wo Sagashite', 'Tsubasa: RESERVoir CHRoNiCLE', 'xxxHOLiC']
+20/11/2024 15:21:46 - INFO     - SelectionMangaVuerecherche
+20/11/2024 15:21:50 - INFO     - ConsulterAvisMangaVuerecherche
+20/11/2024 15:21:50 - INFO     - res : []
+20/11/2024 15:21:50 - INFO     - res : []
+20/11/2024 15:21:50 - INFO     - cannot unpack non-iterable NoneType object
+20/11/2024 15:21:50 - INFO     - AccueilVue
+20/11/2024 15:23:42 - INFO     - Fin de l'application
+20/11/2024 15:23:45 - INFO     - --------------------------------------------------
+20/11/2024 15:23:45 - INFO     - Lancement Application                           
+20/11/2024 15:23:45 - INFO     - --------------------------------------------------
+20/11/2024 15:23:45 - INFO     - AccueilVue
+20/11/2024 15:23:45 - INFO     - ConnexionVue
+20/11/2024 15:23:50 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+20/11/2024 15:23:50 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+20/11/2024 15:23:50 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x00000280EBD09A50>
+20/11/2024 15:23:50 - INFO     - MenuUtilisateurVue
+20/11/2024 15:23:52 - INFO     - RechercheVue
+20/11/2024 15:23:53 - INFO     - RechercheMangaVue
+20/11/2024 15:23:58 - INFO     - rechercher_manga_par_titre
+20/11/2024 15:23:58 - INFO     - recherche_manga_par_t2
+20/11/2024 15:23:59 - INFO     - rechercher_manga_par_titre
+20/11/2024 15:23:59 - INFO     - recherche_manga_par_t2
+20/11/2024 15:23:59 - INFO     - rechercher_manga_par_titre
+20/11/2024 15:23:59 - INFO     - recherche_manga_par_t2
+20/11/2024 15:23:59 - INFO     - util:['Monster', 'Berserk', '20th Century Boys', 'Yokohama Kaidashi Kikou', 'Hajime no Ippo: Fighting Spirit!', 'Full Moon wo Sagashite', 'Tsubasa: RESERVoir CHRoNiCLE', 'xxxHOLiC']
+20/11/2024 15:24:01 - INFO     - SelectionMangaVuerecherche
+20/11/2024 15:24:05 - INFO     - ConsulterAvisMangaVuerecherche
+20/11/2024 15:24:05 - INFO     - res : []
+20/11/2024 15:24:05 - INFO     - No module named 'Selection_manga_vue_recherche'
+20/11/2024 15:24:05 - INFO     - AccueilVue
+20/11/2024 15:25:50 - INFO     - Fin de l'application
+20/11/2024 15:25:52 - INFO     - --------------------------------------------------
+20/11/2024 15:25:52 - INFO     - Lancement Application                           
+20/11/2024 15:25:52 - INFO     - --------------------------------------------------
+20/11/2024 15:25:52 - INFO     - AccueilVue
+20/11/2024 15:25:53 - INFO     - ConnexionVue
+20/11/2024 15:25:58 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+20/11/2024 15:25:58 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+20/11/2024 15:25:58 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001D3DDD29B40>
+20/11/2024 15:25:58 - INFO     - MenuUtilisateurVue
+20/11/2024 15:25:59 - INFO     - EcranDuProfilVue
+20/11/2024 15:25:59 - INFO     - res trouver_collec_cohe_id_user : []
+20/11/2024 15:26:02 - INFO     - MenuUtilisateurVue
+20/11/2024 15:26:03 - INFO     - RechercheVue
+20/11/2024 15:26:08 - INFO     - RechercheMangaVue
+20/11/2024 15:26:09 - INFO     - rechercher_manga_par_titre
+20/11/2024 15:26:09 - INFO     - recherche_manga_par_t2
+20/11/2024 15:26:10 - INFO     - rechercher_manga_par_titre
+20/11/2024 15:26:10 - INFO     - recherche_manga_par_t2
+20/11/2024 15:26:10 - INFO     - rechercher_manga_par_titre
+20/11/2024 15:26:10 - INFO     - recherche_manga_par_t2
+20/11/2024 15:26:10 - INFO     - util:['Monster', 'Berserk', '20th Century Boys', 'Yokohama Kaidashi Kikou', 'Hajime no Ippo: Fighting Spirit!', 'Full Moon wo Sagashite', 'Tsubasa: RESERVoir CHRoNiCLE', 'xxxHOLiC']
+20/11/2024 15:26:16 - INFO     - SelectionMangaVuerecherche
+20/11/2024 15:26:18 - INFO     - ConsulterAvisMangaVuerecherche
+20/11/2024 15:26:18 - INFO     - res : []
+20/11/2024 15:26:18 - INFO     - SelectionMangaVuerecherche
+20/11/2024 15:26:18 - INFO     - SelectionMangaVuerecherche.choisir_menu() missing 1 required positional argument: 'choix'
+20/11/2024 15:26:18 - INFO     - AccueilVue
+20/11/2024 15:27:35 - INFO     - Fin de l'application
+20/11/2024 15:27:38 - INFO     - --------------------------------------------------
+20/11/2024 15:27:38 - INFO     - Lancement Application                           
+20/11/2024 15:27:38 - INFO     - --------------------------------------------------
+20/11/2024 15:27:38 - INFO     - AccueilVue
+20/11/2024 15:27:39 - INFO     - ConnexionVue
+20/11/2024 15:27:47 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+20/11/2024 15:27:47 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+20/11/2024 15:27:47 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000002A1962D5A50>
+20/11/2024 15:27:47 - INFO     - MenuUtilisateurVue
+20/11/2024 15:27:50 - INFO     - RechercheVue
+20/11/2024 15:27:51 - INFO     - RechercheMangaVue
+20/11/2024 15:27:54 - INFO     - rechercher_manga_par_titre
+20/11/2024 15:27:54 - INFO     - recherche_manga_par_t2
+20/11/2024 15:27:55 - INFO     - rechercher_manga_par_titre
+20/11/2024 15:27:55 - INFO     - recherche_manga_par_t2
+20/11/2024 15:27:55 - INFO     - rechercher_manga_par_titre
+20/11/2024 15:27:55 - INFO     - recherche_manga_par_t2
+20/11/2024 15:27:55 - INFO     - util:['Monster', 'Berserk', '20th Century Boys', 'Yokohama Kaidashi Kikou', 'Hajime no Ippo: Fighting Spirit!', 'Full Moon wo Sagashite', 'Tsubasa: RESERVoir CHRoNiCLE', 'xxxHOLiC']
+20/11/2024 15:27:57 - INFO     - SelectionMangaVuerecherche
+20/11/2024 15:27:58 - INFO     - invalid syntax (ConsulterAvisVue.py, line 27)
+20/11/2024 15:27:58 - INFO     - AccueilVue
+20/11/2024 15:28:17 - INFO     - Fin de l'application
+20/11/2024 15:28:20 - INFO     - --------------------------------------------------
+20/11/2024 15:28:20 - INFO     - Lancement Application                           
+20/11/2024 15:28:20 - INFO     - --------------------------------------------------
+20/11/2024 15:28:20 - INFO     - AccueilVue
+20/11/2024 15:28:22 - INFO     - ConnexionVue
+20/11/2024 15:28:28 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+20/11/2024 15:28:28 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+20/11/2024 15:28:28 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001685BD19C00>
+20/11/2024 15:28:28 - INFO     - MenuUtilisateurVue
+20/11/2024 15:28:30 - INFO     - EcranDuProfilVue
+20/11/2024 15:28:30 - INFO     - res trouver_collec_cohe_id_user : []
+20/11/2024 15:28:33 - INFO     - MenuUtilisateurVue
+20/11/2024 15:28:33 - INFO     - RechercheVue
+20/11/2024 15:28:34 - INFO     - RechercheMangaVue
+20/11/2024 15:28:35 - INFO     - rechercher_manga_par_titre
+20/11/2024 15:28:35 - INFO     - recherche_manga_par_t2
+20/11/2024 15:28:36 - INFO     - rechercher_manga_par_titre
+20/11/2024 15:28:36 - INFO     - recherche_manga_par_t2
+20/11/2024 15:28:36 - INFO     - rechercher_manga_par_titre
+20/11/2024 15:28:36 - INFO     - recherche_manga_par_t2
+20/11/2024 15:28:36 - INFO     - util:['Monster', 'Berserk', '20th Century Boys', 'Yokohama Kaidashi Kikou', 'Hajime no Ippo: Fighting Spirit!', 'Full Moon wo Sagashite', 'Tsubasa: RESERVoir CHRoNiCLE', 'xxxHOLiC']
+20/11/2024 15:28:37 - INFO     - SelectionMangaVuerecherche
+20/11/2024 15:28:39 - INFO     - ConsulterAvisMangaVuerecherche
+20/11/2024 15:28:39 - INFO     - res : []
+20/11/2024 15:28:39 - INFO     - SelectionMangaVuerecherche
+20/11/2024 15:28:39 - INFO     - SelectionMangaVuerecherche.choisir_menu() missing 1 required positional argument: 'choix'
+20/11/2024 15:28:39 - INFO     - AccueilVue
+20/11/2024 15:29:09 - INFO     - Fin de l'application
+20/11/2024 15:29:13 - INFO     - --------------------------------------------------
+20/11/2024 15:29:13 - INFO     - Lancement Application                           
+20/11/2024 15:29:13 - INFO     - --------------------------------------------------
+20/11/2024 15:29:13 - INFO     - AccueilVue
+20/11/2024 15:29:14 - INFO     - ConnexionVue
+20/11/2024 15:29:18 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+20/11/2024 15:29:18 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+20/11/2024 15:29:18 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000002046F1F9A50>
+20/11/2024 15:29:18 - INFO     - MenuUtilisateurVue
+20/11/2024 15:29:19 - INFO     - EcranDuProfilVue
+20/11/2024 15:29:19 - INFO     - res trouver_collec_cohe_id_user : []
+20/11/2024 15:29:21 - INFO     - res : []
+20/11/2024 15:29:21 - INFO     - res trouver_collec_cohe_id_user : []
+20/11/2024 15:29:23 - INFO     - MenuUtilisateurVue
+20/11/2024 15:29:23 - INFO     - RechercheVue
+20/11/2024 15:29:24 - INFO     - RechercheMangaVue
+20/11/2024 15:29:26 - INFO     - rechercher_manga_par_titre
+20/11/2024 15:29:26 - INFO     - recherche_manga_par_t2
+20/11/2024 15:29:27 - INFO     - rechercher_manga_par_titre
+20/11/2024 15:29:27 - INFO     - recherche_manga_par_t2
+20/11/2024 15:29:27 - INFO     - rechercher_manga_par_titre
+20/11/2024 15:29:27 - INFO     - recherche_manga_par_t2
+20/11/2024 15:29:27 - INFO     - util:['Monster', 'Berserk', '20th Century Boys', 'Yokohama Kaidashi Kikou', 'Hajime no Ippo: Fighting Spirit!', 'Full Moon wo Sagashite', 'Tsubasa: RESERVoir CHRoNiCLE', 'xxxHOLiC']
+20/11/2024 15:29:30 - INFO     - SelectionMangaVuerecherche
+20/11/2024 15:29:33 - INFO     - ConsulterAvisMangaVuerecherche
+20/11/2024 15:29:33 - INFO     - res : []
+20/11/2024 15:29:33 - INFO     - SelectionMangaVuerecherche.choisir_menu() missing 1 required positional argument: 'choix'
+20/11/2024 15:29:33 - INFO     - AccueilVue
+20/11/2024 15:30:50 - INFO     - Fin de l'application
+20/11/2024 15:30:53 - INFO     - --------------------------------------------------
+20/11/2024 15:30:53 - INFO     - Lancement Application                           
+20/11/2024 15:30:53 - INFO     - --------------------------------------------------
+20/11/2024 15:30:53 - INFO     - AccueilVue
+20/11/2024 15:30:56 - INFO     - ConnexionVue
+20/11/2024 15:31:02 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+20/11/2024 15:31:02 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+20/11/2024 15:31:02 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000019D57315C90>
+20/11/2024 15:31:02 - INFO     - MenuUtilisateurVue
+20/11/2024 15:31:04 - INFO     - RechercheVue
+20/11/2024 15:31:05 - INFO     - RechercheMangaVue
+20/11/2024 15:31:07 - INFO     - rechercher_manga_par_titre
+20/11/2024 15:31:07 - INFO     - recherche_manga_par_t2
+20/11/2024 15:31:07 - INFO     - rechercher_manga_par_titre
+20/11/2024 15:31:07 - INFO     - recherche_manga_par_t2
+20/11/2024 15:31:07 - INFO     - rechercher_manga_par_titre
+20/11/2024 15:31:07 - INFO     - recherche_manga_par_t2
+20/11/2024 15:31:07 - INFO     - util:['Monster', 'Berserk', '20th Century Boys', 'Yokohama Kaidashi Kikou', 'Hajime no Ippo: Fighting Spirit!', 'Full Moon wo Sagashite', 'Tsubasa: RESERVoir CHRoNiCLE', 'xxxHOLiC']
+20/11/2024 15:31:11 - INFO     - SelectionMangaVuerecherche
+20/11/2024 15:31:13 - INFO     - ConsulterAvisMangaVuerecherche
+20/11/2024 15:31:13 - INFO     - res : []
+20/11/2024 15:31:13 - INFO     - SelectionMangaVuerecherche
+20/11/2024 15:31:23 - INFO     - ConsulterAvisMangaVuerecherche
+20/11/2024 15:31:23 - INFO     - res : []
+20/11/2024 15:31:23 - INFO     - SelectionMangaVuerecherche
+20/11/2024 15:31:25 - INFO     - RechercheMangaVue
+20/11/2024 15:31:27 - INFO     - rechercher_manga_par_titre
+20/11/2024 15:31:27 - INFO     - recherche_manga_par_t2
+20/11/2024 15:31:27 - INFO     - rechercher_manga_par_titre
+20/11/2024 15:31:27 - INFO     - recherche_manga_par_t2
+20/11/2024 15:31:27 - INFO     - rechercher_manga_par_titre
+20/11/2024 15:31:28 - INFO     - recherche_manga_par_t2
+20/11/2024 15:31:28 - INFO     - util:['Monster', 'Berserk', '20th Century Boys', 'Yokohama Kaidashi Kikou', 'Hajime no Ippo: Fighting Spirit!', 'Full Moon wo Sagashite', 'Tsubasa: RESERVoir CHRoNiCLE', 'xxxHOLiC']
+20/11/2024 15:31:36 - INFO     - SelectionMangaVuerecherche
+20/11/2024 15:31:44 - INFO     - AjouterMangaCollecVuerecherche
+20/11/2024 15:31:44 - INFO     - res trouver_collec_cohe_id_user : []
+20/11/2024 15:31:44 - INFO     - res de recherche_collec_cohe_par_id : None
+20/11/2024 15:31:44 - INFO     - listecolleccohe type: <class 'list'>, contenu: []
+20/11/2024 15:31:44 - INFO     - collection_physique type: , contenu: None
+20/11/2024 15:31:44 - INFO     - listecollections: []
+20/11/2024 15:31:44 - INFO     - MenuUtilisateurVue
+20/11/2024 15:32:31 - INFO     - AccueilVue
+20/11/2024 15:32:32 - INFO     - Fin de l'application
+20/11/2024 15:33:13 - INFO     - --------------------------------------------------
+20/11/2024 15:33:13 - INFO     - Lancement Application                           
+20/11/2024 15:33:13 - INFO     - --------------------------------------------------
+20/11/2024 15:33:13 - INFO     - AccueilVue
+20/11/2024 15:33:24 - INFO     - ConnexionVue
+20/11/2024 15:33:29 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+20/11/2024 15:33:30 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+20/11/2024 15:33:30 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000016877E85A50>
+20/11/2024 15:33:30 - INFO     - MenuUtilisateurVue
+20/11/2024 15:33:31 - INFO     - RechercheVue
+20/11/2024 15:33:33 - INFO     - RechercheUtilisateurVue
+20/11/2024 15:34:13 - INFO     - Fin de l'application
+20/11/2024 15:34:27 - INFO     - --------------------------------------------------
+20/11/2024 15:34:27 - INFO     - Lancement Application                           
+20/11/2024 15:34:27 - INFO     - --------------------------------------------------
+20/11/2024 15:34:27 - INFO     - AccueilVue
+20/11/2024 15:34:28 - INFO     - ConnexionVue
+20/11/2024 15:34:33 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+20/11/2024 15:34:33 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+20/11/2024 15:34:33 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x00000202B5E89BD0>
+20/11/2024 15:34:33 - INFO     - MenuUtilisateurVue
+20/11/2024 15:34:35 - INFO     - RechercheVue
+20/11/2024 15:34:36 - INFO     - RechercheMangaVue
+20/11/2024 15:34:38 - INFO     - rechercher_manga_par_titre
+20/11/2024 15:34:38 - INFO     - recherche_manga_par_t2
+20/11/2024 15:34:38 - INFO     - rechercher_manga_par_titre
+20/11/2024 15:34:38 - INFO     - recherche_manga_par_t2
+20/11/2024 15:34:38 - INFO     - rechercher_manga_par_titre
+20/11/2024 15:34:38 - INFO     - recherche_manga_par_t2
+20/11/2024 15:34:38 - INFO     - util:['Monster', 'Berserk', '20th Century Boys', 'Yokohama Kaidashi Kikou', 'Hajime no Ippo: Fighting Spirit!', 'Full Moon wo Sagashite', 'Tsubasa: RESERVoir CHRoNiCLE', 'xxxHOLiC']
+20/11/2024 15:34:40 - INFO     - SelectionMangaVuerecherche
+20/11/2024 15:34:42 - INFO     - AjouterMangaCollecVuerecherche
+20/11/2024 15:34:42 - INFO     - res trouver_collec_cohe_id_user : []
+20/11/2024 15:34:42 - INFO     - res de recherche_collec_cohe_par_id : None
+20/11/2024 15:34:42 - INFO     - listecolleccohe type: <class 'list'>, contenu: []
+20/11/2024 15:34:42 - INFO     - collection_physique type: , contenu: None
+20/11/2024 15:34:42 - INFO     - listecollections: []
+20/11/2024 15:34:42 - INFO     - MenuUtilisateurVue
+20/11/2024 15:34:57 - INFO     - EcranDuProfilVue
+20/11/2024 15:34:57 - INFO     - res trouver_collec_cohe_id_user : []
+20/11/2024 15:35:10 - INFO     - EcranDuProfilVue
+20/11/2024 15:35:10 - INFO     - res trouver_collec_cohe_id_user : [RealDictRow([('id_collec_coherente', 3), ('titre_collection', 'Test'), ('description_collection', 'elle st testabe')])]
+20/11/2024 15:35:15 - INFO     - MenuUtilisateurVue
+20/11/2024 15:35:16 - INFO     - RechercheVue
+20/11/2024 15:35:17 - INFO     - RechercheMangaVue
+20/11/2024 15:35:19 - INFO     - rechercher_manga_par_titre
+20/11/2024 15:35:19 - INFO     - recherche_manga_par_t2
+20/11/2024 15:35:19 - INFO     - rechercher_manga_par_titre
+20/11/2024 15:35:19 - INFO     - recherche_manga_par_t2
+20/11/2024 15:35:19 - INFO     - rechercher_manga_par_titre
+20/11/2024 15:35:19 - INFO     - recherche_manga_par_t2
+20/11/2024 15:35:19 - INFO     - util:['Monster', 'Berserk', '20th Century Boys', 'Yokohama Kaidashi Kikou', 'Hajime no Ippo: Fighting Spirit!', 'Full Moon wo Sagashite', 'Tsubasa: RESERVoir CHRoNiCLE', 'xxxHOLiC']
+20/11/2024 15:35:23 - INFO     - SelectionMangaVuerecherche
+20/11/2024 15:35:24 - INFO     - AjouterMangaCollecVuerecherche
+20/11/2024 15:35:24 - INFO     - res trouver_collec_cohe_id_user : [RealDictRow([('id_collec_coherente', 3), ('titre_collection', 'Test'), ('description_collection', 'elle st testabe')])]
+20/11/2024 15:35:24 - INFO     - res de recherche_collec_cohe_par_id : [<business_object.CollectionCoherente.CollectionCoherente object at 0x00000202B86B3F40>]
+20/11/2024 15:35:24 - INFO     - res trouver_collec_cohe_id_user : [RealDictRow([('id_collec_coherente', 3), ('titre_collection', 'Test'), ('description_collection', 'elle st testabe')])]
+20/11/2024 15:35:24 - INFO     - res de recherche_collec_cohe_par_id : [<business_object.CollectionCoherente.CollectionCoherente object at 0x00000202B86B3B80>]
+20/11/2024 15:35:24 - INFO     - listecolleccohe type: <class 'list'>, contenu: ['Test']
+20/11/2024 15:35:24 - INFO     - collection_physique type: , contenu: None
+20/11/2024 15:35:24 - INFO     - listecollections: ['Test']
+20/11/2024 15:35:24 - INFO     - 'NoneType' object has no attribute 'titre_collection'
+20/11/2024 15:35:24 - INFO     - AccueilVue
+20/11/2024 15:35:43 - INFO     - ConnexionVue
+20/11/2024 15:42:19 - INFO     - --------------------------------------------------
+20/11/2024 15:42:19 - INFO     - Lancement Application                           
+20/11/2024 15:42:19 - INFO     - --------------------------------------------------
+20/11/2024 15:42:19 - INFO     - AccueilVue
+20/11/2024 15:42:21 - INFO     - ConnexionVue
+20/11/2024 15:42:27 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+20/11/2024 15:42:27 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+20/11/2024 15:42:27 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000016311D15C00>
+20/11/2024 15:42:27 - INFO     - MenuUtilisateurVue
+20/11/2024 15:42:36 - INFO     - RechercheVue
+20/11/2024 15:42:37 - INFO     - RechercheUtilisateurVue
+20/11/2024 15:42:40 - INFO     - Fin de l'application
+20/11/2024 15:43:32 - INFO     - --------------------------------------------------
+20/11/2024 15:43:32 - INFO     - Lancement Application                           
+20/11/2024 15:43:32 - INFO     - --------------------------------------------------
+20/11/2024 15:43:32 - INFO     - AccueilVue
+20/11/2024 15:43:35 - INFO     - ConnexionVue
+20/11/2024 15:43:40 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+20/11/2024 15:43:41 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+20/11/2024 15:43:41 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000019519D25A50>
+20/11/2024 15:43:41 - INFO     - MenuUtilisateurVue
+20/11/2024 15:43:43 - INFO     - RechercheVue
+20/11/2024 15:43:47 - INFO     - MenuUtilisateurVue
+20/11/2024 15:43:49 - INFO     - RechercheVue
+20/11/2024 15:43:51 - INFO     - RechercheUtilisateurVue
+20/11/2024 15:45:35 - INFO     - Fin de l'application
+20/11/2024 15:45:38 - INFO     - --------------------------------------------------
+20/11/2024 15:45:38 - INFO     - Lancement Application                           
+20/11/2024 15:45:38 - INFO     - --------------------------------------------------
+20/11/2024 15:45:38 - INFO     - AccueilVue
+20/11/2024 15:45:39 - INFO     - ConnexionVue
+20/11/2024 15:45:44 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+20/11/2024 15:45:44 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+20/11/2024 15:45:44 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000020F89979A50>
+20/11/2024 15:45:44 - INFO     - MenuUtilisateurVue
+20/11/2024 15:45:46 - INFO     - RechercheVue
+20/11/2024 15:45:47 - INFO     - RechercheUtilisateurVue
+20/11/2024 15:45:51 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - DEBUT
+20/11/2024 15:45:51 - INFO     - res de rechercher tous pseudo : [RealDictRow([('id_utilisateur', 3), ('pseudo', 'ana03'), ('mdp', 'd39dd0dbddc2ff149a00cc62c986d2a5392deb8bc4d833d936fd9ff1768ee4fb')]), RealDictRow([('id_utilisateur', 4), ('pseudo', 'Ananas35'), ('mdp', '8c8073a12616902ee3aa3c6c4d4d1d98460376fba2d4edd91f060cfca2026e0b')])]
+20/11/2024 15:45:51 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - FIN
+20/11/2024 15:45:51 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x0000020F89A36530>', '<business_object.utilisateur.Utilisateur object at 0x0000020F89A36500>'] ... (2 elements)
+20/11/2024 15:45:51 - INFO     - liste=['ana03', 'Ananas35']
+20/11/2024 15:45:51 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - DEBUT
+20/11/2024 15:45:51 - INFO     - res de rechercher tous pseudo : [RealDictRow([('id_utilisateur', 3), ('pseudo', 'ana03'), ('mdp', 'd39dd0dbddc2ff149a00cc62c986d2a5392deb8bc4d833d936fd9ff1768ee4fb')]), RealDictRow([('id_utilisateur', 4), ('pseudo', 'Ananas35'), ('mdp', '8c8073a12616902ee3aa3c6c4d4d1d98460376fba2d4edd91f060cfca2026e0b')])]
+20/11/2024 15:45:51 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - FIN
+20/11/2024 15:45:51 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x0000020F89A364A0>', '<business_object.utilisateur.Utilisateur object at 0x0000020F89A36500>'] ... (2 elements)
+20/11/2024 15:45:51 - INFO     - liste=['ana03', 'Ananas35']
+20/11/2024 15:45:51 - INFO     - longueur : 2
+20/11/2024 15:45:51 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - DEBUT
+20/11/2024 15:45:51 - INFO     - res de rechercher tous pseudo : [RealDictRow([('id_utilisateur', 3), ('pseudo', 'ana03'), ('mdp', 'd39dd0dbddc2ff149a00cc62c986d2a5392deb8bc4d833d936fd9ff1768ee4fb')]), RealDictRow([('id_utilisateur', 4), ('pseudo', 'Ananas35'), ('mdp', '8c8073a12616902ee3aa3c6c4d4d1d98460376fba2d4edd91f060cfca2026e0b')])]
+20/11/2024 15:45:51 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - FIN
+20/11/2024 15:45:51 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x0000020F89A36560>', '<business_object.utilisateur.Utilisateur object at 0x0000020F89A36500>'] ... (2 elements)
+20/11/2024 15:45:51 - INFO     - liste=['ana03', 'Ananas35']
+20/11/2024 15:45:51 - INFO     - util:['ana03', 'Ananas35']
+20/11/2024 15:45:53 - INFO     - RechercheVue
+20/11/2024 15:45:59 - INFO     - RechercheUtilisateurVue
+20/11/2024 15:46:00 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - DEBUT
+20/11/2024 15:46:00 - INFO     - res de rechercher tous pseudo : [RealDictRow([('id_utilisateur', 3), ('pseudo', 'ana03'), ('mdp', 'd39dd0dbddc2ff149a00cc62c986d2a5392deb8bc4d833d936fd9ff1768ee4fb')]), RealDictRow([('id_utilisateur', 4), ('pseudo', 'Ananas35'), ('mdp', '8c8073a12616902ee3aa3c6c4d4d1d98460376fba2d4edd91f060cfca2026e0b')])]
+20/11/2024 15:46:00 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - FIN
+20/11/2024 15:46:00 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x0000020F89CAD570>', '<business_object.utilisateur.Utilisateur object at 0x0000020F89CAD5A0>'] ... (2 elements)
+20/11/2024 15:46:00 - INFO     - liste=['ana03', 'Ananas35']
+20/11/2024 15:46:00 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - DEBUT
+20/11/2024 15:46:00 - INFO     - res de rechercher tous pseudo : [RealDictRow([('id_utilisateur', 3), ('pseudo', 'ana03'), ('mdp', 'd39dd0dbddc2ff149a00cc62c986d2a5392deb8bc4d833d936fd9ff1768ee4fb')]), RealDictRow([('id_utilisateur', 4), ('pseudo', 'Ananas35'), ('mdp', '8c8073a12616902ee3aa3c6c4d4d1d98460376fba2d4edd91f060cfca2026e0b')])]
+20/11/2024 15:46:00 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - FIN
+20/11/2024 15:46:00 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x0000020F89CAD540>', '<business_object.utilisateur.Utilisateur object at 0x0000020F89CAD570>'] ... (2 elements)
+20/11/2024 15:46:00 - INFO     - liste=['ana03', 'Ananas35']
+20/11/2024 15:46:00 - INFO     - longueur : 2
+20/11/2024 15:46:00 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - DEBUT
+20/11/2024 15:46:00 - INFO     - res de rechercher tous pseudo : [RealDictRow([('id_utilisateur', 3), ('pseudo', 'ana03'), ('mdp', 'd39dd0dbddc2ff149a00cc62c986d2a5392deb8bc4d833d936fd9ff1768ee4fb')]), RealDictRow([('id_utilisateur', 4), ('pseudo', 'Ananas35'), ('mdp', '8c8073a12616902ee3aa3c6c4d4d1d98460376fba2d4edd91f060cfca2026e0b')])]
+20/11/2024 15:46:00 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - FIN
+20/11/2024 15:46:00 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x0000020F89CAD5A0>', '<business_object.utilisateur.Utilisateur object at 0x0000020F89CAD540>'] ... (2 elements)
+20/11/2024 15:46:00 - INFO     - liste=['ana03', 'Ananas35']
+20/11/2024 15:46:00 - INFO     - util:['ana03', 'Ananas35']
+20/11/2024 15:46:01 - INFO     - RechercheVue
+20/11/2024 15:46:02 - INFO     - RechercheUtilisateurVue
+20/11/2024 15:46:03 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - DEBUT
+20/11/2024 15:46:03 - INFO     - res de rechercher tous pseudo : [RealDictRow([('id_utilisateur', 3), ('pseudo', 'ana03'), ('mdp', 'd39dd0dbddc2ff149a00cc62c986d2a5392deb8bc4d833d936fd9ff1768ee4fb')]), RealDictRow([('id_utilisateur', 4), ('pseudo', 'Ananas35'), ('mdp', '8c8073a12616902ee3aa3c6c4d4d1d98460376fba2d4edd91f060cfca2026e0b')])]
+20/11/2024 15:46:03 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - FIN
+20/11/2024 15:46:03 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x0000020F89F00460>', '<business_object.utilisateur.Utilisateur object at 0x0000020F89F00430>'] ... (2 elements)
+20/11/2024 15:46:03 - INFO     - liste=['ana03', 'Ananas35']
+20/11/2024 15:46:03 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - DEBUT
+20/11/2024 15:46:03 - INFO     - res de rechercher tous pseudo : [RealDictRow([('id_utilisateur', 3), ('pseudo', 'ana03'), ('mdp', 'd39dd0dbddc2ff149a00cc62c986d2a5392deb8bc4d833d936fd9ff1768ee4fb')]), RealDictRow([('id_utilisateur', 4), ('pseudo', 'Ananas35'), ('mdp', '8c8073a12616902ee3aa3c6c4d4d1d98460376fba2d4edd91f060cfca2026e0b')])]
+20/11/2024 15:46:03 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - FIN
+20/11/2024 15:46:03 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x0000020F89F00460>', '<business_object.utilisateur.Utilisateur object at 0x0000020F89F003D0>'] ... (2 elements)
+20/11/2024 15:46:03 - INFO     - liste=['ana03', 'Ananas35']
+20/11/2024 15:46:03 - INFO     - longueur : 2
+20/11/2024 15:46:03 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - DEBUT
+20/11/2024 15:46:03 - INFO     - res de rechercher tous pseudo : [RealDictRow([('id_utilisateur', 3), ('pseudo', 'ana03'), ('mdp', 'd39dd0dbddc2ff149a00cc62c986d2a5392deb8bc4d833d936fd9ff1768ee4fb')]), RealDictRow([('id_utilisateur', 4), ('pseudo', 'Ananas35'), ('mdp', '8c8073a12616902ee3aa3c6c4d4d1d98460376fba2d4edd91f060cfca2026e0b')])]
+20/11/2024 15:46:03 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - FIN
+20/11/2024 15:46:03 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x0000020F89F00460>', '<business_object.utilisateur.Utilisateur object at 0x0000020F89F00370>'] ... (2 elements)
+20/11/2024 15:46:03 - INFO     - liste=['ana03', 'Ananas35']
+20/11/2024 15:46:03 - INFO     - util:['ana03', 'Ananas35']
+20/11/2024 15:46:06 - INFO     - RechercheUtilisateurVue
+20/11/2024 15:46:06 - INFO     - RechercheUtilisateurVue.choisir_menu_bis() takes 1 positional argument but 2 were given
+20/11/2024 15:46:06 - INFO     - AccueilVue
+20/11/2024 15:47:02 - INFO     - Fin de l'application
+20/11/2024 15:47:05 - INFO     - --------------------------------------------------
+20/11/2024 15:47:05 - INFO     - Lancement Application                           
+20/11/2024 15:47:05 - INFO     - --------------------------------------------------
+20/11/2024 15:47:05 - INFO     - AccueilVue
+20/11/2024 15:47:06 - INFO     - ConnexionVue
+20/11/2024 15:47:12 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+20/11/2024 15:47:12 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+20/11/2024 15:47:12 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000002D299075A50>
+20/11/2024 15:47:12 - INFO     - MenuUtilisateurVue
+20/11/2024 15:47:13 - INFO     - RechercheVue
+20/11/2024 15:47:14 - INFO     - RechercheUtilisateurVue
+20/11/2024 15:47:16 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - DEBUT
+20/11/2024 15:47:16 - INFO     - res de rechercher tous pseudo : [RealDictRow([('id_utilisateur', 2), ('pseudo', 'newuser'), ('mdp', 'b5f40f203040f58897bc696f010d73cae885a9c61f519101b65e7deee6f65e58')]), RealDictRow([('id_utilisateur', 3), ('pseudo', 'ana03'), ('mdp', 'd39dd0dbddc2ff149a00cc62c986d2a5392deb8bc4d833d936fd9ff1768ee4fb')]), RealDictRow([('id_utilisateur', 4), ('pseudo', 'Ananas35'), ('mdp', '8c8073a12616902ee3aa3c6c4d4d1d98460376fba2d4edd91f060cfca2026e0b')]), RealDictRow([('id_utilisateur', 5), ('pseudo', 'Emilien'), ('mdp', '9cec9e870d627f180d54ea159f56ef8be13aaa200f5de67ee34b3280f116758b')])]
+20/11/2024 15:47:16 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - FIN
+20/11/2024 15:47:16 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000002D29913A500>', '<business_object.utilisateur.Utilisateur object at 0x000002D29913A4D0>', '<business_object.utilisateur.Utilisateur object at 0x000002D29913AFE0>'] ... (4 elements)
+20/11/2024 15:47:16 - INFO     - liste=['newuser', 'ana03', 'Ananas35', 'Emilien']
+20/11/2024 15:47:16 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - DEBUT
+20/11/2024 15:47:16 - INFO     - res de rechercher tous pseudo : [RealDictRow([('id_utilisateur', 2), ('pseudo', 'newuser'), ('mdp', 'b5f40f203040f58897bc696f010d73cae885a9c61f519101b65e7deee6f65e58')]), RealDictRow([('id_utilisateur', 3), ('pseudo', 'ana03'), ('mdp', 'd39dd0dbddc2ff149a00cc62c986d2a5392deb8bc4d833d936fd9ff1768ee4fb')]), RealDictRow([('id_utilisateur', 4), ('pseudo', 'Ananas35'), ('mdp', '8c8073a12616902ee3aa3c6c4d4d1d98460376fba2d4edd91f060cfca2026e0b')]), RealDictRow([('id_utilisateur', 5), ('pseudo', 'Emilien'), ('mdp', '9cec9e870d627f180d54ea159f56ef8be13aaa200f5de67ee34b3280f116758b')])]
+20/11/2024 15:47:16 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - FIN
+20/11/2024 15:47:16 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000002D29913A470>', '<business_object.utilisateur.Utilisateur object at 0x000002D29913A4D0>', '<business_object.utilisateur.Utilisateur object at 0x000002D29913B340>'] ... (4 elements)
+20/11/2024 15:47:16 - INFO     - liste=['newuser', 'ana03', 'Ananas35', 'Emilien']
+20/11/2024 15:47:16 - INFO     - longueur : 4
+20/11/2024 15:47:16 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - DEBUT
+20/11/2024 15:47:16 - INFO     - res de rechercher tous pseudo : [RealDictRow([('id_utilisateur', 2), ('pseudo', 'newuser'), ('mdp', 'b5f40f203040f58897bc696f010d73cae885a9c61f519101b65e7deee6f65e58')]), RealDictRow([('id_utilisateur', 3), ('pseudo', 'ana03'), ('mdp', 'd39dd0dbddc2ff149a00cc62c986d2a5392deb8bc4d833d936fd9ff1768ee4fb')]), RealDictRow([('id_utilisateur', 4), ('pseudo', 'Ananas35'), ('mdp', '8c8073a12616902ee3aa3c6c4d4d1d98460376fba2d4edd91f060cfca2026e0b')]), RealDictRow([('id_utilisateur', 5), ('pseudo', 'Emilien'), ('mdp', '9cec9e870d627f180d54ea159f56ef8be13aaa200f5de67ee34b3280f116758b')])]
+20/11/2024 15:47:16 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - FIN
+20/11/2024 15:47:16 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000002D29913AFE0>', '<business_object.utilisateur.Utilisateur object at 0x000002D29913A4D0>', '<business_object.utilisateur.Utilisateur object at 0x000002D29913A530>'] ... (4 elements)
+20/11/2024 15:47:16 - INFO     - liste=['newuser', 'ana03', 'Ananas35', 'Emilien']
+20/11/2024 15:47:16 - INFO     - util:['newuser', 'ana03', 'Ananas35', 'Emilien']
+20/11/2024 15:47:18 - INFO     - RechercheUtilisateurVue
+20/11/2024 15:47:22 - INFO     - RechercheVue
+20/11/2024 15:48:26 - INFO     - MenuUtilisateurVue
+20/11/2024 15:48:28 - INFO     - AccueilVue
+20/11/2024 15:48:29 - INFO     - Fin de l'application
+20/11/2024 15:48:33 - INFO     - --------------------------------------------------
+20/11/2024 15:48:33 - INFO     - Lancement Application                           
+20/11/2024 15:48:33 - INFO     - --------------------------------------------------
+20/11/2024 15:48:33 - INFO     - AccueilVue
+20/11/2024 15:48:34 - INFO     - ConnexionVue
+20/11/2024 15:48:39 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+20/11/2024 15:48:39 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+20/11/2024 15:48:39 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001F6993E5A50>
+20/11/2024 15:48:39 - INFO     - MenuUtilisateurVue
+20/11/2024 15:48:40 - INFO     - EcranDuProfilVue
+20/11/2024 15:48:40 - INFO     - res trouver_collec_cohe_id_user : [RealDictRow([('id_collec_coherente', 3), ('titre_collection', 'Test'), ('description_collection', 'elle st testabe')])]
+20/11/2024 15:48:44 - INFO     - MenuUtilisateurVue
+20/11/2024 15:48:45 - INFO     - RechercheVue
+20/11/2024 15:48:46 - INFO     - RechercheUtilisateurVue
+20/11/2024 15:48:47 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - DEBUT
+20/11/2024 15:48:47 - INFO     - res de rechercher tous pseudo : [RealDictRow([('id_utilisateur', 2), ('pseudo', 'newuser'), ('mdp', 'b5f40f203040f58897bc696f010d73cae885a9c61f519101b65e7deee6f65e58')]), RealDictRow([('id_utilisateur', 3), ('pseudo', 'ana03'), ('mdp', 'd39dd0dbddc2ff149a00cc62c986d2a5392deb8bc4d833d936fd9ff1768ee4fb')]), RealDictRow([('id_utilisateur', 4), ('pseudo', 'Ananas35'), ('mdp', '8c8073a12616902ee3aa3c6c4d4d1d98460376fba2d4edd91f060cfca2026e0b')]), RealDictRow([('id_utilisateur', 5), ('pseudo', 'Emilien'), ('mdp', '9cec9e870d627f180d54ea159f56ef8be13aaa200f5de67ee34b3280f116758b')])]
+20/11/2024 15:48:47 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - FIN
+20/11/2024 15:48:47 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000001F699657370>', '<business_object.utilisateur.Utilisateur object at 0x000001F699657340>', '<business_object.utilisateur.Utilisateur object at 0x000001F699657E50>'] ... (4 elements)
+20/11/2024 15:48:47 - INFO     - liste=['newuser', 'ana03', 'Ananas35', 'Emilien']
+20/11/2024 15:48:47 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - DEBUT
+20/11/2024 15:48:47 - INFO     - res de rechercher tous pseudo : [RealDictRow([('id_utilisateur', 2), ('pseudo', 'newuser'), ('mdp', 'b5f40f203040f58897bc696f010d73cae885a9c61f519101b65e7deee6f65e58')]), RealDictRow([('id_utilisateur', 3), ('pseudo', 'ana03'), ('mdp', 'd39dd0dbddc2ff149a00cc62c986d2a5392deb8bc4d833d936fd9ff1768ee4fb')]), RealDictRow([('id_utilisateur', 4), ('pseudo', 'Ananas35'), ('mdp', '8c8073a12616902ee3aa3c6c4d4d1d98460376fba2d4edd91f060cfca2026e0b')]), RealDictRow([('id_utilisateur', 5), ('pseudo', 'Emilien'), ('mdp', '9cec9e870d627f180d54ea159f56ef8be13aaa200f5de67ee34b3280f116758b')])]
+20/11/2024 15:48:47 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - FIN
+20/11/2024 15:48:47 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000001F6996572E0>', '<business_object.utilisateur.Utilisateur object at 0x000001F699657340>', '<business_object.utilisateur.Utilisateur object at 0x000001F699657F40>'] ... (4 elements)
+20/11/2024 15:48:47 - INFO     - liste=['newuser', 'ana03', 'Ananas35', 'Emilien']
+20/11/2024 15:48:47 - INFO     - longueur : 4
+20/11/2024 15:48:47 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - DEBUT
+20/11/2024 15:48:47 - INFO     - res de rechercher tous pseudo : [RealDictRow([('id_utilisateur', 2), ('pseudo', 'newuser'), ('mdp', 'b5f40f203040f58897bc696f010d73cae885a9c61f519101b65e7deee6f65e58')]), RealDictRow([('id_utilisateur', 3), ('pseudo', 'ana03'), ('mdp', 'd39dd0dbddc2ff149a00cc62c986d2a5392deb8bc4d833d936fd9ff1768ee4fb')]), RealDictRow([('id_utilisateur', 4), ('pseudo', 'Ananas35'), ('mdp', '8c8073a12616902ee3aa3c6c4d4d1d98460376fba2d4edd91f060cfca2026e0b')]), RealDictRow([('id_utilisateur', 5), ('pseudo', 'Emilien'), ('mdp', '9cec9e870d627f180d54ea159f56ef8be13aaa200f5de67ee34b3280f116758b')])]
+20/11/2024 15:48:47 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - FIN
+20/11/2024 15:48:47 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000001F699657E50>', '<business_object.utilisateur.Utilisateur object at 0x000001F699657340>', '<business_object.utilisateur.Utilisateur object at 0x000001F6996573A0>'] ... (4 elements)
+20/11/2024 15:48:47 - INFO     - liste=['newuser', 'ana03', 'Ananas35', 'Emilien']
+20/11/2024 15:48:47 - INFO     - util:['newuser', 'ana03', 'Ananas35', 'Emilien']
+20/11/2024 15:48:49 - INFO     - RechercheUtilisateurVue
+20/11/2024 15:48:51 - INFO     - RechercheUtilisateurVue
+20/11/2024 15:48:57 - INFO     - RechercheUtilisateurVue
+20/11/2024 15:49:00 - INFO     - RechercheUtilisateurVue
+20/11/2024 15:52:08 - INFO     - --------------------------------------------------
+20/11/2024 15:52:08 - INFO     - Lancement Application                           
+20/11/2024 15:52:08 - INFO     - --------------------------------------------------
+20/11/2024 15:52:08 - INFO     - AccueilVue
+20/11/2024 15:52:09 - INFO     - ConnexionVue
+20/11/2024 15:52:15 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+20/11/2024 15:52:15 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+20/11/2024 15:52:15 - INFO     -        └─> Sortie : None
+20/11/2024 15:52:15 - INFO     - AccueilVue
+20/11/2024 15:52:16 - INFO     - ConnexionVue
+20/11/2024 15:52:21 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+20/11/2024 15:52:21 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+20/11/2024 15:52:21 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x00000191430A5150>
+20/11/2024 15:52:21 - INFO     - MenuUtilisateurVue
+20/11/2024 15:52:22 - INFO     - RechercheVue
+20/11/2024 15:52:23 - INFO     - RechercheUtilisateurVue
+20/11/2024 15:52:25 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - DEBUT
+20/11/2024 15:52:25 - INFO     - res de rechercher tous pseudo : [RealDictRow([('id_utilisateur', 3), ('pseudo', 'ana03'), ('mdp', 'd39dd0dbddc2ff149a00cc62c986d2a5392deb8bc4d833d936fd9ff1768ee4fb')]), RealDictRow([('id_utilisateur', 4), ('pseudo', 'Ananas35'), ('mdp', '8c8073a12616902ee3aa3c6c4d4d1d98460376fba2d4edd91f060cfca2026e0b')])]
+20/11/2024 15:52:25 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - FIN
+20/11/2024 15:52:25 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x0000019143347370>', '<business_object.utilisateur.Utilisateur object at 0x0000019143347340>'] ... (2 elements)
+20/11/2024 15:52:25 - INFO     - liste=['ana03', 'Ananas35']
+20/11/2024 15:52:25 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - DEBUT
+20/11/2024 15:52:25 - INFO     - res de rechercher tous pseudo : [RealDictRow([('id_utilisateur', 3), ('pseudo', 'ana03'), ('mdp', 'd39dd0dbddc2ff149a00cc62c986d2a5392deb8bc4d833d936fd9ff1768ee4fb')]), RealDictRow([('id_utilisateur', 4), ('pseudo', 'Ananas35'), ('mdp', '8c8073a12616902ee3aa3c6c4d4d1d98460376fba2d4edd91f060cfca2026e0b')])]
+20/11/2024 15:52:25 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - FIN
+20/11/2024 15:52:25 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x0000019143347370>', '<business_object.utilisateur.Utilisateur object at 0x00000191433472E0>'] ... (2 elements)
+20/11/2024 15:52:25 - INFO     - liste=['ana03', 'Ananas35']
+20/11/2024 15:52:25 - INFO     - longueur : 2
+20/11/2024 15:52:25 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - DEBUT
+20/11/2024 15:52:25 - INFO     - res de rechercher tous pseudo : [RealDictRow([('id_utilisateur', 3), ('pseudo', 'ana03'), ('mdp', 'd39dd0dbddc2ff149a00cc62c986d2a5392deb8bc4d833d936fd9ff1768ee4fb')]), RealDictRow([('id_utilisateur', 4), ('pseudo', 'Ananas35'), ('mdp', '8c8073a12616902ee3aa3c6c4d4d1d98460376fba2d4edd91f060cfca2026e0b')])]
+20/11/2024 15:52:25 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - FIN
+20/11/2024 15:52:25 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x0000019143347370>', '<business_object.utilisateur.Utilisateur object at 0x0000019143347280>'] ... (2 elements)
+20/11/2024 15:52:25 - INFO     - liste=['ana03', 'Ananas35']
+20/11/2024 15:52:25 - INFO     - util:['ana03', 'Ananas35']
+20/11/2024 15:52:26 - INFO     - RechercheUtilisateurVue
+20/11/2024 15:52:28 - INFO     - RechercheUtilisateurVue
+20/11/2024 15:52:28 - INFO     - RechercheUtilisateurVue.choisir_menu() takes 1 positional argument but 2 were given
+20/11/2024 15:52:28 - INFO     - AccueilVue
+20/11/2024 15:53:13 - INFO     - Fin de l'application
+20/11/2024 15:53:15 - INFO     - --------------------------------------------------
+20/11/2024 15:53:15 - INFO     - Lancement Application                           
+20/11/2024 15:53:15 - INFO     - --------------------------------------------------
+20/11/2024 15:53:15 - INFO     - AccueilVue
+20/11/2024 15:53:16 - INFO     - ConnexionVue
+20/11/2024 15:53:20 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+20/11/2024 15:53:20 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+20/11/2024 15:53:20 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001F5785F5A50>
+20/11/2024 15:53:20 - INFO     - MenuUtilisateurVue
+20/11/2024 15:53:22 - INFO     - RechercheVue
+20/11/2024 15:53:24 - INFO     - RechercheUtilisateurVue
+20/11/2024 15:53:24 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - DEBUT
+20/11/2024 15:53:24 - INFO     - res de rechercher tous pseudo : [RealDictRow([('id_utilisateur', 2), ('pseudo', 'newuser'), ('mdp', 'b5f40f203040f58897bc696f010d73cae885a9c61f519101b65e7deee6f65e58')]), RealDictRow([('id_utilisateur', 3), ('pseudo', 'ana03'), ('mdp', 'd39dd0dbddc2ff149a00cc62c986d2a5392deb8bc4d833d936fd9ff1768ee4fb')]), RealDictRow([('id_utilisateur', 4), ('pseudo', 'Ananas35'), ('mdp', '8c8073a12616902ee3aa3c6c4d4d1d98460376fba2d4edd91f060cfca2026e0b')]), RealDictRow([('id_utilisateur', 5), ('pseudo', 'Emilien'), ('mdp', '9cec9e870d627f180d54ea159f56ef8be13aaa200f5de67ee34b3280f116758b')])]
+20/11/2024 15:53:24 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - FIN
+20/11/2024 15:53:24 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000001F5786BA4A0>', '<business_object.utilisateur.Utilisateur object at 0x000001F5786BA470>', '<business_object.utilisateur.Utilisateur object at 0x000001F5786BAF80>'] ... (4 elements)
+20/11/2024 15:53:24 - INFO     - liste=['newuser', 'ana03', 'Ananas35', 'Emilien']
+20/11/2024 15:53:24 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - DEBUT
+20/11/2024 15:53:24 - INFO     - res de rechercher tous pseudo : [RealDictRow([('id_utilisateur', 2), ('pseudo', 'newuser'), ('mdp', 'b5f40f203040f58897bc696f010d73cae885a9c61f519101b65e7deee6f65e58')]), RealDictRow([('id_utilisateur', 3), ('pseudo', 'ana03'), ('mdp', 'd39dd0dbddc2ff149a00cc62c986d2a5392deb8bc4d833d936fd9ff1768ee4fb')]), RealDictRow([('id_utilisateur', 4), ('pseudo', 'Ananas35'), ('mdp', '8c8073a12616902ee3aa3c6c4d4d1d98460376fba2d4edd91f060cfca2026e0b')]), RealDictRow([('id_utilisateur', 5), ('pseudo', 'Emilien'), ('mdp', '9cec9e870d627f180d54ea159f56ef8be13aaa200f5de67ee34b3280f116758b')])]
+20/11/2024 15:53:24 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - FIN
+20/11/2024 15:53:24 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000001F5786BA410>', '<business_object.utilisateur.Utilisateur object at 0x000001F5786BA470>', '<business_object.utilisateur.Utilisateur object at 0x000001F5786BB2E0>'] ... (4 elements)
+20/11/2024 15:53:24 - INFO     - liste=['newuser', 'ana03', 'Ananas35', 'Emilien']
+20/11/2024 15:53:24 - INFO     - longueur : 4
+20/11/2024 15:53:24 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - DEBUT
+20/11/2024 15:53:24 - INFO     - res de rechercher tous pseudo : [RealDictRow([('id_utilisateur', 2), ('pseudo', 'newuser'), ('mdp', 'b5f40f203040f58897bc696f010d73cae885a9c61f519101b65e7deee6f65e58')]), RealDictRow([('id_utilisateur', 3), ('pseudo', 'ana03'), ('mdp', 'd39dd0dbddc2ff149a00cc62c986d2a5392deb8bc4d833d936fd9ff1768ee4fb')]), RealDictRow([('id_utilisateur', 4), ('pseudo', 'Ananas35'), ('mdp', '8c8073a12616902ee3aa3c6c4d4d1d98460376fba2d4edd91f060cfca2026e0b')]), RealDictRow([('id_utilisateur', 5), ('pseudo', 'Emilien'), ('mdp', '9cec9e870d627f180d54ea159f56ef8be13aaa200f5de67ee34b3280f116758b')])]
+20/11/2024 15:53:24 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - FIN
+20/11/2024 15:53:24 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000001F5786BAF80>', '<business_object.utilisateur.Utilisateur object at 0x000001F5786BA470>', '<business_object.utilisateur.Utilisateur object at 0x000001F5786BA4D0>'] ... (4 elements)
+20/11/2024 15:53:24 - INFO     - liste=['newuser', 'ana03', 'Ananas35', 'Emilien']
+20/11/2024 15:53:24 - INFO     - util:['newuser', 'ana03', 'Ananas35', 'Emilien']
+20/11/2024 15:53:29 - INFO     - RechercheUtilisateurVue
+20/11/2024 15:53:30 - INFO     - RechercheUtilisateurVue
+20/11/2024 15:53:30 - INFO     - RechercheUtilisateurVue.choisir_menu() takes 1 positional argument but 2 were given
+20/11/2024 15:53:30 - INFO     - AccueilVue
+20/11/2024 15:54:39 - INFO     - Fin de l'application
+20/11/2024 15:54:42 - INFO     - --------------------------------------------------
+20/11/2024 15:54:42 - INFO     - Lancement Application                           
+20/11/2024 15:54:42 - INFO     - --------------------------------------------------
+20/11/2024 15:54:42 - INFO     - AccueilVue
+20/11/2024 15:54:43 - INFO     - ConnexionVue
+20/11/2024 15:54:47 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+20/11/2024 15:54:47 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+20/11/2024 15:54:47 - INFO     -        └─> Sortie : None
+20/11/2024 15:54:47 - INFO     - AccueilVue
+20/11/2024 15:54:48 - INFO     - ConnexionVue
+20/11/2024 15:54:52 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+20/11/2024 15:54:52 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+20/11/2024 15:54:52 - INFO     -        └─> Sortie : None
+20/11/2024 15:54:52 - INFO     - AccueilVue
+20/11/2024 15:54:54 - INFO     - ConnexionVue
+20/11/2024 15:55:00 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+20/11/2024 15:55:00 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+20/11/2024 15:55:00 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000026D84D89360>
+20/11/2024 15:55:00 - INFO     - MenuUtilisateurVue
+20/11/2024 15:55:01 - INFO     - RechercheVue
+20/11/2024 15:55:03 - INFO     - RechercheUtilisateurVue
+20/11/2024 15:55:04 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - DEBUT
+20/11/2024 15:55:04 - INFO     - res de rechercher tous pseudo : [RealDictRow([('id_utilisateur', 3), ('pseudo', 'ana03'), ('mdp', 'd39dd0dbddc2ff149a00cc62c986d2a5392deb8bc4d833d936fd9ff1768ee4fb')]), RealDictRow([('id_utilisateur', 4), ('pseudo', 'Ananas35'), ('mdp', '8c8073a12616902ee3aa3c6c4d4d1d98460376fba2d4edd91f060cfca2026e0b')])]
+20/11/2024 15:55:04 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - FIN
+20/11/2024 15:55:04 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x0000026D85002920>', '<business_object.utilisateur.Utilisateur object at 0x0000026D850028F0>'] ... (2 elements)
+20/11/2024 15:55:04 - INFO     - liste=['ana03', 'Ananas35']
+20/11/2024 15:55:04 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - DEBUT
+20/11/2024 15:55:04 - INFO     - res de rechercher tous pseudo : [RealDictRow([('id_utilisateur', 3), ('pseudo', 'ana03'), ('mdp', 'd39dd0dbddc2ff149a00cc62c986d2a5392deb8bc4d833d936fd9ff1768ee4fb')]), RealDictRow([('id_utilisateur', 4), ('pseudo', 'Ananas35'), ('mdp', '8c8073a12616902ee3aa3c6c4d4d1d98460376fba2d4edd91f060cfca2026e0b')])]
+20/11/2024 15:55:04 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - FIN
+20/11/2024 15:55:04 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x0000026D85002920>', '<business_object.utilisateur.Utilisateur object at 0x0000026D85002890>'] ... (2 elements)
+20/11/2024 15:55:04 - INFO     - liste=['ana03', 'Ananas35']
+20/11/2024 15:55:04 - INFO     - longueur : 2
+20/11/2024 15:55:04 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - DEBUT
+20/11/2024 15:55:04 - INFO     - res de rechercher tous pseudo : [RealDictRow([('id_utilisateur', 3), ('pseudo', 'ana03'), ('mdp', 'd39dd0dbddc2ff149a00cc62c986d2a5392deb8bc4d833d936fd9ff1768ee4fb')]), RealDictRow([('id_utilisateur', 4), ('pseudo', 'Ananas35'), ('mdp', '8c8073a12616902ee3aa3c6c4d4d1d98460376fba2d4edd91f060cfca2026e0b')])]
+20/11/2024 15:55:04 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - FIN
+20/11/2024 15:55:04 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x0000026D85002920>', '<business_object.utilisateur.Utilisateur object at 0x0000026D85002830>'] ... (2 elements)
+20/11/2024 15:55:04 - INFO     - liste=['ana03', 'Ananas35']
+20/11/2024 15:55:04 - INFO     - util:['ana03', 'Ananas35']
+20/11/2024 15:55:05 - INFO     - RechercheUtilisateurVue
+20/11/2024 15:55:08 - INFO     - RechercheUtilisateurVue
+20/11/2024 15:55:08 - INFO     - RechercheUtilisateurVue.choisir_menu() takes 1 positional argument but 2 were given
+20/11/2024 15:55:08 - INFO     - AccueilVue
+20/11/2024 15:56:40 - INFO     - Fin de l'application
+20/11/2024 15:56:43 - INFO     - --------------------------------------------------
+20/11/2024 15:56:43 - INFO     - Lancement Application                           
+20/11/2024 15:56:43 - INFO     - --------------------------------------------------
+20/11/2024 15:56:43 - INFO     - AccueilVue
+20/11/2024 15:56:43 - INFO     - ConnexionVue
+20/11/2024 15:56:48 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+20/11/2024 15:56:48 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+20/11/2024 15:56:48 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x00000252749C5A50>
+20/11/2024 15:56:48 - INFO     - MenuUtilisateurVue
+20/11/2024 15:56:51 - INFO     - RechercheVue
+20/11/2024 15:56:54 - INFO     - RechercheMangaVue
+20/11/2024 15:56:56 - INFO     - RechercheVue
+20/11/2024 15:56:57 - INFO     - RechercheUtilisateurVue
+20/11/2024 15:56:57 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - DEBUT
+20/11/2024 15:56:57 - INFO     - res de rechercher tous pseudo : [RealDictRow([('id_utilisateur', 2), ('pseudo', 'newuser'), ('mdp', 'b5f40f203040f58897bc696f010d73cae885a9c61f519101b65e7deee6f65e58')]), RealDictRow([('id_utilisateur', 3), ('pseudo', 'ana03'), ('mdp', 'd39dd0dbddc2ff149a00cc62c986d2a5392deb8bc4d833d936fd9ff1768ee4fb')]), RealDictRow([('id_utilisateur', 4), ('pseudo', 'Ananas35'), ('mdp', '8c8073a12616902ee3aa3c6c4d4d1d98460376fba2d4edd91f060cfca2026e0b')]), RealDictRow([('id_utilisateur', 5), ('pseudo', 'Emilien'), ('mdp', '9cec9e870d627f180d54ea159f56ef8be13aaa200f5de67ee34b3280f116758b')])]
+20/11/2024 15:56:57 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - FIN
+20/11/2024 15:56:57 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x0000025274C1DBD0>', '<business_object.utilisateur.Utilisateur object at 0x0000025274C1DBA0>', '<business_object.utilisateur.Utilisateur object at 0x0000025274C1E6B0>'] ... (4 elements)
+20/11/2024 15:56:57 - INFO     - liste=['newuser', 'ana03', 'Ananas35', 'Emilien']
+20/11/2024 15:56:57 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - DEBUT
+20/11/2024 15:56:57 - INFO     - res de rechercher tous pseudo : [RealDictRow([('id_utilisateur', 2), ('pseudo', 'newuser'), ('mdp', 'b5f40f203040f58897bc696f010d73cae885a9c61f519101b65e7deee6f65e58')]), RealDictRow([('id_utilisateur', 3), ('pseudo', 'ana03'), ('mdp', 'd39dd0dbddc2ff149a00cc62c986d2a5392deb8bc4d833d936fd9ff1768ee4fb')]), RealDictRow([('id_utilisateur', 4), ('pseudo', 'Ananas35'), ('mdp', '8c8073a12616902ee3aa3c6c4d4d1d98460376fba2d4edd91f060cfca2026e0b')]), RealDictRow([('id_utilisateur', 5), ('pseudo', 'Emilien'), ('mdp', '9cec9e870d627f180d54ea159f56ef8be13aaa200f5de67ee34b3280f116758b')])]
+20/11/2024 15:56:57 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - FIN
+20/11/2024 15:56:57 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x0000025274C1DB40>', '<business_object.utilisateur.Utilisateur object at 0x0000025274C1DBA0>', '<business_object.utilisateur.Utilisateur object at 0x0000025274C1EA10>'] ... (4 elements)
+20/11/2024 15:56:57 - INFO     - liste=['newuser', 'ana03', 'Ananas35', 'Emilien']
+20/11/2024 15:56:57 - INFO     - longueur : 4
+20/11/2024 15:56:57 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - DEBUT
+20/11/2024 15:56:58 - INFO     - res de rechercher tous pseudo : [RealDictRow([('id_utilisateur', 2), ('pseudo', 'newuser'), ('mdp', 'b5f40f203040f58897bc696f010d73cae885a9c61f519101b65e7deee6f65e58')]), RealDictRow([('id_utilisateur', 3), ('pseudo', 'ana03'), ('mdp', 'd39dd0dbddc2ff149a00cc62c986d2a5392deb8bc4d833d936fd9ff1768ee4fb')]), RealDictRow([('id_utilisateur', 4), ('pseudo', 'Ananas35'), ('mdp', '8c8073a12616902ee3aa3c6c4d4d1d98460376fba2d4edd91f060cfca2026e0b')]), RealDictRow([('id_utilisateur', 5), ('pseudo', 'Emilien'), ('mdp', '9cec9e870d627f180d54ea159f56ef8be13aaa200f5de67ee34b3280f116758b')])]
+20/11/2024 15:56:58 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - FIN
+20/11/2024 15:56:58 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x0000025274C1E6B0>', '<business_object.utilisateur.Utilisateur object at 0x0000025274C1DBA0>', '<business_object.utilisateur.Utilisateur object at 0x0000025274C1DC00>'] ... (4 elements)
+20/11/2024 15:56:58 - INFO     - liste=['newuser', 'ana03', 'Ananas35', 'Emilien']
+20/11/2024 15:56:58 - INFO     - util:['newuser', 'ana03', 'Ananas35', 'Emilien']
+20/11/2024 15:56:59 - INFO     - RechercheUtilisateurVue
+20/11/2024 15:57:02 - INFO     - RechercheUtilisateurVue
+20/11/2024 15:57:04 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - DEBUT
+20/11/2024 15:57:04 - INFO     - res de rechercher tous pseudo : [RealDictRow([('id_utilisateur', 3), ('pseudo', 'ana03'), ('mdp', 'd39dd0dbddc2ff149a00cc62c986d2a5392deb8bc4d833d936fd9ff1768ee4fb')]), RealDictRow([('id_utilisateur', 4), ('pseudo', 'Ananas35'), ('mdp', '8c8073a12616902ee3aa3c6c4d4d1d98460376fba2d4edd91f060cfca2026e0b')])]
+20/11/2024 15:57:04 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - FIN
+20/11/2024 15:57:04 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x0000025274E80BB0>', '<business_object.utilisateur.Utilisateur object at 0x0000025274E80B80>'] ... (2 elements)
+20/11/2024 15:57:04 - INFO     - liste=['ana03', 'Ananas35']
+20/11/2024 15:57:04 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - DEBUT
+20/11/2024 15:57:04 - INFO     - res de rechercher tous pseudo : [RealDictRow([('id_utilisateur', 3), ('pseudo', 'ana03'), ('mdp', 'd39dd0dbddc2ff149a00cc62c986d2a5392deb8bc4d833d936fd9ff1768ee4fb')]), RealDictRow([('id_utilisateur', 4), ('pseudo', 'Ananas35'), ('mdp', '8c8073a12616902ee3aa3c6c4d4d1d98460376fba2d4edd91f060cfca2026e0b')])]
+20/11/2024 15:57:04 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - FIN
+20/11/2024 15:57:04 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x0000025274E80B20>', '<business_object.utilisateur.Utilisateur object at 0x0000025274E80B80>'] ... (2 elements)
+20/11/2024 15:57:05 - INFO     - liste=['ana03', 'Ananas35']
+20/11/2024 15:57:05 - INFO     - longueur : 2
+20/11/2024 15:57:05 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - DEBUT
+20/11/2024 15:57:05 - INFO     - res de rechercher tous pseudo : [RealDictRow([('id_utilisateur', 3), ('pseudo', 'ana03'), ('mdp', 'd39dd0dbddc2ff149a00cc62c986d2a5392deb8bc4d833d936fd9ff1768ee4fb')]), RealDictRow([('id_utilisateur', 4), ('pseudo', 'Ananas35'), ('mdp', '8c8073a12616902ee3aa3c6c4d4d1d98460376fba2d4edd91f060cfca2026e0b')])]
+20/11/2024 15:57:05 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - FIN
+20/11/2024 15:57:05 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x0000025274E80BE0>', '<business_object.utilisateur.Utilisateur object at 0x0000025274E80B80>'] ... (2 elements)
+20/11/2024 15:57:05 - INFO     - liste=['ana03', 'Ananas35']
+20/11/2024 15:57:05 - INFO     - util:['ana03', 'Ananas35']
+20/11/2024 15:57:10 - INFO     - RechercheUtilisateurVue
+20/11/2024 15:57:18 - INFO     - RechercheUtilisateurVue
+20/11/2024 15:57:20 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - DEBUT
+20/11/2024 15:57:20 - INFO     - res de rechercher tous pseudo : [RealDictRow([('id_utilisateur', 3), ('pseudo', 'ana03'), ('mdp', 'd39dd0dbddc2ff149a00cc62c986d2a5392deb8bc4d833d936fd9ff1768ee4fb')]), RealDictRow([('id_utilisateur', 4), ('pseudo', 'Ananas35'), ('mdp', '8c8073a12616902ee3aa3c6c4d4d1d98460376fba2d4edd91f060cfca2026e0b')])]
+20/11/2024 15:57:20 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - FIN
+20/11/2024 15:57:20 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x00000252750B7AC0>', '<business_object.utilisateur.Utilisateur object at 0x00000252750B7A90>'] ... (2 elements)
+20/11/2024 15:57:20 - INFO     - liste=['ana03', 'Ananas35']
+20/11/2024 15:57:20 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - DEBUT
+20/11/2024 15:57:20 - INFO     - res de rechercher tous pseudo : [RealDictRow([('id_utilisateur', 3), ('pseudo', 'ana03'), ('mdp', 'd39dd0dbddc2ff149a00cc62c986d2a5392deb8bc4d833d936fd9ff1768ee4fb')]), RealDictRow([('id_utilisateur', 4), ('pseudo', 'Ananas35'), ('mdp', '8c8073a12616902ee3aa3c6c4d4d1d98460376fba2d4edd91f060cfca2026e0b')])]
+20/11/2024 15:57:20 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - FIN
+20/11/2024 15:57:20 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x00000252750B7A30>', '<business_object.utilisateur.Utilisateur object at 0x00000252750B7A90>'] ... (2 elements)
+20/11/2024 15:57:20 - INFO     - liste=['ana03', 'Ananas35']
+20/11/2024 15:57:20 - INFO     - longueur : 2
+20/11/2024 15:57:20 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - DEBUT
+20/11/2024 15:57:20 - INFO     - res de rechercher tous pseudo : [RealDictRow([('id_utilisateur', 3), ('pseudo', 'ana03'), ('mdp', 'd39dd0dbddc2ff149a00cc62c986d2a5392deb8bc4d833d936fd9ff1768ee4fb')]), RealDictRow([('id_utilisateur', 4), ('pseudo', 'Ananas35'), ('mdp', '8c8073a12616902ee3aa3c6c4d4d1d98460376fba2d4edd91f060cfca2026e0b')])]
+20/11/2024 15:57:20 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('a',) - FIN
+20/11/2024 15:57:20 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x00000252750B7AF0>', '<business_object.utilisateur.Utilisateur object at 0x00000252750B7A90>'] ... (2 elements)
+20/11/2024 15:57:20 - INFO     - liste=['ana03', 'Ananas35']
+20/11/2024 15:57:20 - INFO     - util:['ana03', 'Ananas35']
+20/11/2024 15:57:22 - INFO     - RechercheUtilisateurVue
+20/11/2024 15:57:23 - INFO     - AvisRechercheUtilisateurVue
+20/11/2024 15:57:23 - INFO     -     UtilisateurDao.recherche_id_par_pseudo('Ananas35',) - DEBUT
+20/11/2024 15:57:23 - INFO     -     UtilisateurDao.recherche_id_par_pseudo('Ananas35',) - FIN
+20/11/2024 15:57:23 - INFO     -        └─> Sortie : 4
+20/11/2024 15:57:23 - INFO     - res : []
+20/11/2024 15:57:23 - INFO     - cannot unpack non-iterable NoneType object
+20/11/2024 15:57:23 - INFO     - AccueilVue
+20/11/2024 16:00:57 - INFO     - --------------------------------------------------
+20/11/2024 16:00:57 - INFO     - Lancement Application                           
+20/11/2024 16:00:57 - INFO     - --------------------------------------------------
+20/11/2024 16:00:57 - INFO     - AccueilVue
+20/11/2024 16:00:59 - INFO     - ConnexionVue
+20/11/2024 16:01:05 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+20/11/2024 16:01:05 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+20/11/2024 16:01:05 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000021788515A50>
+20/11/2024 16:01:05 - INFO     - MenuUtilisateurVue
+20/11/2024 16:01:06 - INFO     - RechercheVue
+20/11/2024 16:01:07 - INFO     - RechercheMangaVue
+20/11/2024 16:01:09 - INFO     - rechercher_manga_par_titre
+20/11/2024 16:01:09 - INFO     - recherche_manga_par_t2
+20/11/2024 16:01:09 - INFO     - rechercher_manga_par_titre
+20/11/2024 16:01:09 - INFO     - recherche_manga_par_t2
+20/11/2024 16:01:10 - INFO     - rechercher_manga_par_titre
+20/11/2024 16:01:10 - INFO     - recherche_manga_par_t2
+20/11/2024 16:01:10 - INFO     - util:['Monster', 'Berserk', '20th Century Boys', 'Yokohama Kaidashi Kikou', 'Hajime no Ippo: Fighting Spirit!', 'Full Moon wo Sagashite', 'Tsubasa: RESERVoir CHRoNiCLE', 'xxxHOLiC']
+20/11/2024 16:01:13 - INFO     - RechercheVue
+20/11/2024 16:01:14 - INFO     - RechercheUtilisateurVue
+20/11/2024 16:01:19 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - DEBUT
+20/11/2024 16:01:19 - INFO     - res de rechercher tous pseudo : [RealDictRow([('id_utilisateur', 2), ('pseudo', 'newuser'), ('mdp', 'b5f40f203040f58897bc696f010d73cae885a9c61f519101b65e7deee6f65e58')]), RealDictRow([('id_utilisateur', 3), ('pseudo', 'ana03'), ('mdp', 'd39dd0dbddc2ff149a00cc62c986d2a5392deb8bc4d833d936fd9ff1768ee4fb')]), RealDictRow([('id_utilisateur', 4), ('pseudo', 'Ananas35'), ('mdp', '8c8073a12616902ee3aa3c6c4d4d1d98460376fba2d4edd91f060cfca2026e0b')]), RealDictRow([('id_utilisateur', 5), ('pseudo', 'Emilien'), ('mdp', '9cec9e870d627f180d54ea159f56ef8be13aaa200f5de67ee34b3280f116758b')])]
+20/11/2024 16:01:19 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - FIN
+20/11/2024 16:01:19 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000002178A7A2AA0>', '<business_object.utilisateur.Utilisateur object at 0x000002178A7A2A70>', '<business_object.utilisateur.Utilisateur object at 0x000002178A7A3580>'] ... (4 elements)
+20/11/2024 16:01:19 - INFO     - liste=['newuser', 'ana03', 'Ananas35', 'Emilien']
+20/11/2024 16:01:19 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - DEBUT
+20/11/2024 16:01:19 - INFO     - res de rechercher tous pseudo : [RealDictRow([('id_utilisateur', 2), ('pseudo', 'newuser'), ('mdp', 'b5f40f203040f58897bc696f010d73cae885a9c61f519101b65e7deee6f65e58')]), RealDictRow([('id_utilisateur', 3), ('pseudo', 'ana03'), ('mdp', 'd39dd0dbddc2ff149a00cc62c986d2a5392deb8bc4d833d936fd9ff1768ee4fb')]), RealDictRow([('id_utilisateur', 4), ('pseudo', 'Ananas35'), ('mdp', '8c8073a12616902ee3aa3c6c4d4d1d98460376fba2d4edd91f060cfca2026e0b')]), RealDictRow([('id_utilisateur', 5), ('pseudo', 'Emilien'), ('mdp', '9cec9e870d627f180d54ea159f56ef8be13aaa200f5de67ee34b3280f116758b')])]
+20/11/2024 16:01:19 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - FIN
+20/11/2024 16:01:19 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000002178A7A2A10>', '<business_object.utilisateur.Utilisateur object at 0x000002178A7A2A70>', '<business_object.utilisateur.Utilisateur object at 0x000002178A7A38E0>'] ... (4 elements)
+20/11/2024 16:01:19 - INFO     - liste=['newuser', 'ana03', 'Ananas35', 'Emilien']
+20/11/2024 16:01:19 - INFO     - longueur : 4
+20/11/2024 16:01:19 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - DEBUT
+20/11/2024 16:01:19 - INFO     - res de rechercher tous pseudo : [RealDictRow([('id_utilisateur', 2), ('pseudo', 'newuser'), ('mdp', 'b5f40f203040f58897bc696f010d73cae885a9c61f519101b65e7deee6f65e58')]), RealDictRow([('id_utilisateur', 3), ('pseudo', 'ana03'), ('mdp', 'd39dd0dbddc2ff149a00cc62c986d2a5392deb8bc4d833d936fd9ff1768ee4fb')]), RealDictRow([('id_utilisateur', 4), ('pseudo', 'Ananas35'), ('mdp', '8c8073a12616902ee3aa3c6c4d4d1d98460376fba2d4edd91f060cfca2026e0b')]), RealDictRow([('id_utilisateur', 5), ('pseudo', 'Emilien'), ('mdp', '9cec9e870d627f180d54ea159f56ef8be13aaa200f5de67ee34b3280f116758b')])]
+20/11/2024 16:01:19 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - FIN
+20/11/2024 16:01:19 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000002178A7A3580>', '<business_object.utilisateur.Utilisateur object at 0x000002178A7A2A70>', '<business_object.utilisateur.Utilisateur object at 0x000002178A7A2AD0>'] ... (4 elements)
+20/11/2024 16:01:19 - INFO     - liste=['newuser', 'ana03', 'Ananas35', 'Emilien']
+20/11/2024 16:01:19 - INFO     - util:['newuser', 'ana03', 'Ananas35', 'Emilien']
+20/11/2024 16:01:22 - INFO     - RechercheUtilisateurVue
+20/11/2024 16:01:23 - INFO     - AvisRechercheUtilisateurVue
+20/11/2024 16:01:23 - INFO     -     UtilisateurDao.recherche_id_par_pseudo('Ananas35',) - DEBUT
+20/11/2024 16:01:23 - INFO     -     UtilisateurDao.recherche_id_par_pseudo('Ananas35',) - FIN
+20/11/2024 16:01:23 - INFO     -        └─> Sortie : 4
+20/11/2024 16:01:23 - INFO     - res : []
+20/11/2024 16:01:23 - INFO     - RechercheUtilisateurVue
+20/11/2024 16:01:26 - INFO     - CollectionCoherenteVueRecherche
+20/11/2024 16:01:26 - INFO     -     UtilisateurDao.recherche_id_par_pseudo('Ananas35',) - DEBUT
+20/11/2024 16:01:26 - INFO     -     UtilisateurDao.recherche_id_par_pseudo('Ananas35',) - FIN
+20/11/2024 16:01:26 - INFO     -        └─> Sortie : 4
+20/11/2024 16:01:26 - INFO     - res trouver_collec_cohe_id_user : [RealDictRow([('id_collec_coherente', 2), ('titre_collection', 'Test'), ('description_collection', 'Très bien')])]
+20/11/2024 16:01:27 - INFO     - res de recherche_collec_cohe_par_id : [<business_object.CollectionCoherente.CollectionCoherente object at 0x000002178A858100>]
+20/11/2024 16:01:27 - INFO     - res trouver_collec_cohe_id_user : [RealDictRow([('id_collec_coherente', 2), ('titre_collection', 'Test'), ('description_collection', 'Très bien')])]
+20/11/2024 16:01:27 - INFO     - res de recherche_collec_cohe_par_id : [<business_object.CollectionCoherente.CollectionCoherente object at 0x000002178A858250>]
+20/11/2024 16:01:27 - INFO     - listecolleccohe type: <class 'list'>, contenu: ['Test']
+20/11/2024 16:01:27 - INFO     - collection_physique type: , contenu: None
+20/11/2024 16:01:27 - INFO     - listecollections: ['Test']
+20/11/2024 16:01:27 - INFO     - util:['Test']
+20/11/2024 16:01:33 - INFO     - RechercheUtilisateurVue
+20/11/2024 16:01:34 - INFO     - RechercheUtilisateurVue
+20/11/2024 16:01:36 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - DEBUT
+20/11/2024 16:01:36 - INFO     - res de rechercher tous pseudo : [RealDictRow([('id_utilisateur', 2), ('pseudo', 'newuser'), ('mdp', 'b5f40f203040f58897bc696f010d73cae885a9c61f519101b65e7deee6f65e58')]), RealDictRow([('id_utilisateur', 3), ('pseudo', 'ana03'), ('mdp', 'd39dd0dbddc2ff149a00cc62c986d2a5392deb8bc4d833d936fd9ff1768ee4fb')]), RealDictRow([('id_utilisateur', 4), ('pseudo', 'Ananas35'), ('mdp', '8c8073a12616902ee3aa3c6c4d4d1d98460376fba2d4edd91f060cfca2026e0b')]), RealDictRow([('id_utilisateur', 5), ('pseudo', 'Emilien'), ('mdp', '9cec9e870d627f180d54ea159f56ef8be13aaa200f5de67ee34b3280f116758b')])]
+20/11/2024 16:01:36 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - FIN
+20/11/2024 16:01:36 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000002178AC5DDE0>', '<business_object.utilisateur.Utilisateur object at 0x000002178AC5DDB0>', '<business_object.utilisateur.Utilisateur object at 0x000002178AC5E8C0>'] ... (4 elements)
+20/11/2024 16:01:36 - INFO     - liste=['newuser', 'ana03', 'Ananas35', 'Emilien']
+20/11/2024 16:01:36 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - DEBUT
+20/11/2024 16:01:36 - INFO     - res de rechercher tous pseudo : [RealDictRow([('id_utilisateur', 2), ('pseudo', 'newuser'), ('mdp', 'b5f40f203040f58897bc696f010d73cae885a9c61f519101b65e7deee6f65e58')]), RealDictRow([('id_utilisateur', 3), ('pseudo', 'ana03'), ('mdp', 'd39dd0dbddc2ff149a00cc62c986d2a5392deb8bc4d833d936fd9ff1768ee4fb')]), RealDictRow([('id_utilisateur', 4), ('pseudo', 'Ananas35'), ('mdp', '8c8073a12616902ee3aa3c6c4d4d1d98460376fba2d4edd91f060cfca2026e0b')]), RealDictRow([('id_utilisateur', 5), ('pseudo', 'Emilien'), ('mdp', '9cec9e870d627f180d54ea159f56ef8be13aaa200f5de67ee34b3280f116758b')])]
+20/11/2024 16:01:36 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - FIN
+20/11/2024 16:01:36 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000002178AC5DD50>', '<business_object.utilisateur.Utilisateur object at 0x000002178AC5DDB0>', '<business_object.utilisateur.Utilisateur object at 0x000002178AC5EC20>'] ... (4 elements)
+20/11/2024 16:01:36 - INFO     - liste=['newuser', 'ana03', 'Ananas35', 'Emilien']
+20/11/2024 16:01:36 - INFO     - longueur : 4
+20/11/2024 16:01:36 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - DEBUT
+20/11/2024 16:01:36 - INFO     - res de rechercher tous pseudo : [RealDictRow([('id_utilisateur', 2), ('pseudo', 'newuser'), ('mdp', 'b5f40f203040f58897bc696f010d73cae885a9c61f519101b65e7deee6f65e58')]), RealDictRow([('id_utilisateur', 3), ('pseudo', 'ana03'), ('mdp', 'd39dd0dbddc2ff149a00cc62c986d2a5392deb8bc4d833d936fd9ff1768ee4fb')]), RealDictRow([('id_utilisateur', 4), ('pseudo', 'Ananas35'), ('mdp', '8c8073a12616902ee3aa3c6c4d4d1d98460376fba2d4edd91f060cfca2026e0b')]), RealDictRow([('id_utilisateur', 5), ('pseudo', 'Emilien'), ('mdp', '9cec9e870d627f180d54ea159f56ef8be13aaa200f5de67ee34b3280f116758b')])]
+20/11/2024 16:01:36 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - FIN
+20/11/2024 16:01:36 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000002178AC5E8C0>', '<business_object.utilisateur.Utilisateur object at 0x000002178AC5DDB0>', '<business_object.utilisateur.Utilisateur object at 0x000002178AC5DE10>'] ... (4 elements)
+20/11/2024 16:01:36 - INFO     - liste=['newuser', 'ana03', 'Ananas35', 'Emilien']
+20/11/2024 16:01:36 - INFO     - util:['newuser', 'ana03', 'Ananas35', 'Emilien']
+20/11/2024 16:01:43 - INFO     - RechercheUtilisateurVue
+20/11/2024 16:01:45 - INFO     - CollectionCoherenteVueRecherche
+20/11/2024 16:01:45 - INFO     -     UtilisateurDao.recherche_id_par_pseudo('ana03',) - DEBUT
+20/11/2024 16:01:45 - INFO     -     UtilisateurDao.recherche_id_par_pseudo('ana03',) - FIN
+20/11/2024 16:01:45 - INFO     -        └─> Sortie : 3
+20/11/2024 16:01:45 - INFO     - res trouver_collec_cohe_id_user : [RealDictRow([('id_collec_coherente', 1), ('titre_collection', 'matcha'), ('description_collection', 'vert')]), RealDictRow([('id_collec_coherente', 4), ('titre_collection', 'poulet'), ('description_collection', 'bleu')])]
+20/11/2024 16:01:45 - INFO     - res de recherche_collec_cohe_par_id : [<business_object.CollectionCoherente.CollectionCoherente object at 0x000002178C020A60>, <business_object.CollectionCoherente.CollectionCoherente object at 0x000002178C0218A0>]
+20/11/2024 16:01:45 - INFO     - res trouver_collec_cohe_id_user : [RealDictRow([('id_collec_coherente', 1), ('titre_collection', 'matcha'), ('description_collection', 'vert')]), RealDictRow([('id_collec_coherente', 4), ('titre_collection', 'poulet'), ('description_collection', 'bleu')])]
+20/11/2024 16:01:45 - INFO     - res de recherche_collec_cohe_par_id : [<business_object.CollectionCoherente.CollectionCoherente object at 0x000002178C021C00>, <business_object.CollectionCoherente.CollectionCoherente object at 0x000002178C020AC0>]
+20/11/2024 16:01:45 - INFO     - listecolleccohe type: <class 'list'>, contenu: ['matcha', 'poulet']
+20/11/2024 16:01:45 - INFO     - collection_physique type: , contenu: None
+20/11/2024 16:01:45 - INFO     - listecollections: ['matcha', 'poulet']
+20/11/2024 16:01:45 - INFO     - util:['matcha', 'poulet']
+20/11/2024 16:01:50 - INFO     - RechercheUtilisateurVue
+20/11/2024 16:01:55 - INFO     - RechercheUtilisateurVue
+20/11/2024 16:01:56 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - DEBUT
+20/11/2024 16:01:56 - INFO     - res de rechercher tous pseudo : [RealDictRow([('id_utilisateur', 2), ('pseudo', 'newuser'), ('mdp', 'b5f40f203040f58897bc696f010d73cae885a9c61f519101b65e7deee6f65e58')]), RealDictRow([('id_utilisateur', 3), ('pseudo', 'ana03'), ('mdp', 'd39dd0dbddc2ff149a00cc62c986d2a5392deb8bc4d833d936fd9ff1768ee4fb')]), RealDictRow([('id_utilisateur', 4), ('pseudo', 'Ananas35'), ('mdp', '8c8073a12616902ee3aa3c6c4d4d1d98460376fba2d4edd91f060cfca2026e0b')]), RealDictRow([('id_utilisateur', 5), ('pseudo', 'Emilien'), ('mdp', '9cec9e870d627f180d54ea159f56ef8be13aaa200f5de67ee34b3280f116758b')])]
+20/11/2024 16:01:56 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - FIN
+20/11/2024 16:01:56 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000002178A1945E0>', '<business_object.utilisateur.Utilisateur object at 0x000002178A1945B0>', '<business_object.utilisateur.Utilisateur object at 0x000002178A1950C0>'] ... (4 elements)
+20/11/2024 16:01:56 - INFO     - liste=['newuser', 'ana03', 'Ananas35', 'Emilien']
+20/11/2024 16:01:56 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - DEBUT
+20/11/2024 16:01:56 - INFO     - res de rechercher tous pseudo : [RealDictRow([('id_utilisateur', 2), ('pseudo', 'newuser'), ('mdp', 'b5f40f203040f58897bc696f010d73cae885a9c61f519101b65e7deee6f65e58')]), RealDictRow([('id_utilisateur', 3), ('pseudo', 'ana03'), ('mdp', 'd39dd0dbddc2ff149a00cc62c986d2a5392deb8bc4d833d936fd9ff1768ee4fb')]), RealDictRow([('id_utilisateur', 4), ('pseudo', 'Ananas35'), ('mdp', '8c8073a12616902ee3aa3c6c4d4d1d98460376fba2d4edd91f060cfca2026e0b')]), RealDictRow([('id_utilisateur', 5), ('pseudo', 'Emilien'), ('mdp', '9cec9e870d627f180d54ea159f56ef8be13aaa200f5de67ee34b3280f116758b')])]
+20/11/2024 16:01:56 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - FIN
+20/11/2024 16:01:56 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000002178A194550>', '<business_object.utilisateur.Utilisateur object at 0x000002178A1945B0>', '<business_object.utilisateur.Utilisateur object at 0x000002178A195420>'] ... (4 elements)
+20/11/2024 16:01:56 - INFO     - liste=['newuser', 'ana03', 'Ananas35', 'Emilien']
+20/11/2024 16:01:56 - INFO     - longueur : 4
+20/11/2024 16:01:56 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - DEBUT
+20/11/2024 16:01:56 - INFO     - res de rechercher tous pseudo : [RealDictRow([('id_utilisateur', 2), ('pseudo', 'newuser'), ('mdp', 'b5f40f203040f58897bc696f010d73cae885a9c61f519101b65e7deee6f65e58')]), RealDictRow([('id_utilisateur', 3), ('pseudo', 'ana03'), ('mdp', 'd39dd0dbddc2ff149a00cc62c986d2a5392deb8bc4d833d936fd9ff1768ee4fb')]), RealDictRow([('id_utilisateur', 4), ('pseudo', 'Ananas35'), ('mdp', '8c8073a12616902ee3aa3c6c4d4d1d98460376fba2d4edd91f060cfca2026e0b')]), RealDictRow([('id_utilisateur', 5), ('pseudo', 'Emilien'), ('mdp', '9cec9e870d627f180d54ea159f56ef8be13aaa200f5de67ee34b3280f116758b')])]
+20/11/2024 16:01:56 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - FIN
+20/11/2024 16:01:56 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000002178A1950C0>', '<business_object.utilisateur.Utilisateur object at 0x000002178A1945B0>', '<business_object.utilisateur.Utilisateur object at 0x000002178A194610>'] ... (4 elements)
+20/11/2024 16:01:56 - INFO     - liste=['newuser', 'ana03', 'Ananas35', 'Emilien']
+20/11/2024 16:01:56 - INFO     - util:['newuser', 'ana03', 'Ananas35', 'Emilien']
+20/11/2024 16:01:58 - INFO     - RechercheUtilisateurVue
+20/11/2024 16:02:02 - INFO     - AvisRechercheUtilisateurVue
+20/11/2024 16:02:02 - INFO     -     UtilisateurDao.recherche_id_par_pseudo('Emilien',) - DEBUT
+20/11/2024 16:02:02 - INFO     -     UtilisateurDao.recherche_id_par_pseudo('Emilien',) - FIN
+20/11/2024 16:02:02 - INFO     -        └─> Sortie : 5
+20/11/2024 16:02:02 - INFO     - res : []
+20/11/2024 16:02:02 - INFO     - RechercheUtilisateurVue
+20/11/2024 16:02:03 - INFO     - CollectionCoherenteVueRecherche
+20/11/2024 16:02:03 - INFO     -     UtilisateurDao.recherche_id_par_pseudo('Emilien',) - DEBUT
+20/11/2024 16:02:03 - INFO     -     UtilisateurDao.recherche_id_par_pseudo('Emilien',) - FIN
+20/11/2024 16:02:03 - INFO     -        └─> Sortie : 5
+20/11/2024 16:02:03 - INFO     - res trouver_collec_cohe_id_user : [RealDictRow([('id_collec_coherente', 3), ('titre_collection', 'Test'), ('description_collection', 'elle st testabe')])]
+20/11/2024 16:02:03 - INFO     - res de recherche_collec_cohe_par_id : [<business_object.CollectionCoherente.CollectionCoherente object at 0x000002178A1F02B0>]
+20/11/2024 16:02:03 - INFO     - res trouver_collec_cohe_id_user : [RealDictRow([('id_collec_coherente', 3), ('titre_collection', 'Test'), ('description_collection', 'elle st testabe')])]
+20/11/2024 16:02:03 - INFO     - res de recherche_collec_cohe_par_id : [<business_object.CollectionCoherente.CollectionCoherente object at 0x000002178A1F3F10>]
+20/11/2024 16:02:03 - INFO     - listecolleccohe type: <class 'list'>, contenu: ['Test']
+20/11/2024 16:02:03 - INFO     - collection_physique type: , contenu: None
+20/11/2024 16:02:03 - INFO     - listecollections: ['Test']
+20/11/2024 16:02:03 - INFO     - util:['Test']
+20/11/2024 16:02:06 - INFO     - RechercheUtilisateurVue
+20/11/2024 16:02:07 - INFO     - RechercheUtilisateurVue
+20/11/2024 16:02:09 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - DEBUT
+20/11/2024 16:02:09 - INFO     - res de rechercher tous pseudo : [RealDictRow([('id_utilisateur', 2), ('pseudo', 'newuser'), ('mdp', 'b5f40f203040f58897bc696f010d73cae885a9c61f519101b65e7deee6f65e58')]), RealDictRow([('id_utilisateur', 3), ('pseudo', 'ana03'), ('mdp', 'd39dd0dbddc2ff149a00cc62c986d2a5392deb8bc4d833d936fd9ff1768ee4fb')]), RealDictRow([('id_utilisateur', 4), ('pseudo', 'Ananas35'), ('mdp', '8c8073a12616902ee3aa3c6c4d4d1d98460376fba2d4edd91f060cfca2026e0b')]), RealDictRow([('id_utilisateur', 5), ('pseudo', 'Emilien'), ('mdp', '9cec9e870d627f180d54ea159f56ef8be13aaa200f5de67ee34b3280f116758b')])]
+20/11/2024 16:02:09 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - FIN
+20/11/2024 16:02:09 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000002178A454F40>', '<business_object.utilisateur.Utilisateur object at 0x000002178A454F10>', '<business_object.utilisateur.Utilisateur object at 0x000002178A455A20>'] ... (4 elements)
+20/11/2024 16:02:09 - INFO     - liste=['newuser', 'ana03', 'Ananas35', 'Emilien']
+20/11/2024 16:02:09 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - DEBUT
+20/11/2024 16:02:09 - INFO     - res de rechercher tous pseudo : [RealDictRow([('id_utilisateur', 2), ('pseudo', 'newuser'), ('mdp', 'b5f40f203040f58897bc696f010d73cae885a9c61f519101b65e7deee6f65e58')]), RealDictRow([('id_utilisateur', 3), ('pseudo', 'ana03'), ('mdp', 'd39dd0dbddc2ff149a00cc62c986d2a5392deb8bc4d833d936fd9ff1768ee4fb')]), RealDictRow([('id_utilisateur', 4), ('pseudo', 'Ananas35'), ('mdp', '8c8073a12616902ee3aa3c6c4d4d1d98460376fba2d4edd91f060cfca2026e0b')]), RealDictRow([('id_utilisateur', 5), ('pseudo', 'Emilien'), ('mdp', '9cec9e870d627f180d54ea159f56ef8be13aaa200f5de67ee34b3280f116758b')])]
+20/11/2024 16:02:09 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - FIN
+20/11/2024 16:02:09 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000002178A454EB0>', '<business_object.utilisateur.Utilisateur object at 0x000002178A454F10>', '<business_object.utilisateur.Utilisateur object at 0x000002178A455D80>'] ... (4 elements)
+20/11/2024 16:02:09 - INFO     - liste=['newuser', 'ana03', 'Ananas35', 'Emilien']
+20/11/2024 16:02:09 - INFO     - longueur : 4
+20/11/2024 16:02:09 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - DEBUT
+20/11/2024 16:02:09 - INFO     - res de rechercher tous pseudo : [RealDictRow([('id_utilisateur', 2), ('pseudo', 'newuser'), ('mdp', 'b5f40f203040f58897bc696f010d73cae885a9c61f519101b65e7deee6f65e58')]), RealDictRow([('id_utilisateur', 3), ('pseudo', 'ana03'), ('mdp', 'd39dd0dbddc2ff149a00cc62c986d2a5392deb8bc4d833d936fd9ff1768ee4fb')]), RealDictRow([('id_utilisateur', 4), ('pseudo', 'Ananas35'), ('mdp', '8c8073a12616902ee3aa3c6c4d4d1d98460376fba2d4edd91f060cfca2026e0b')]), RealDictRow([('id_utilisateur', 5), ('pseudo', 'Emilien'), ('mdp', '9cec9e870d627f180d54ea159f56ef8be13aaa200f5de67ee34b3280f116758b')])]
+20/11/2024 16:02:09 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - FIN
+20/11/2024 16:02:09 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000002178A455A20>', '<business_object.utilisateur.Utilisateur object at 0x000002178A454F10>', '<business_object.utilisateur.Utilisateur object at 0x000002178A454F70>'] ... (4 elements)
+20/11/2024 16:02:09 - INFO     - liste=['newuser', 'ana03', 'Ananas35', 'Emilien']
+20/11/2024 16:02:09 - INFO     - util:['newuser', 'ana03', 'Ananas35', 'Emilien']
+20/11/2024 16:02:10 - INFO     - RechercheUtilisateurVue
+20/11/2024 16:02:11 - INFO     - CollectionCoherenteVueRecherche
+20/11/2024 16:02:11 - INFO     -     UtilisateurDao.recherche_id_par_pseudo('newuser',) - DEBUT
+20/11/2024 16:02:11 - INFO     -     UtilisateurDao.recherche_id_par_pseudo('newuser',) - FIN
+20/11/2024 16:02:12 - INFO     -        └─> Sortie : 2
+20/11/2024 16:02:12 - INFO     - res trouver_collec_cohe_id_user : []
+20/11/2024 16:02:12 - INFO     - res de recherche_collec_cohe_par_id : None
+20/11/2024 16:02:12 - INFO     - listecolleccohe type: <class 'list'>, contenu: []
+20/11/2024 16:02:12 - INFO     - collection_physique type: , contenu: None
+20/11/2024 16:02:12 - INFO     - listecollections: []
+20/11/2024 16:02:12 - INFO     - RechercheUtilisateurVue
+20/11/2024 16:04:02 - INFO     - --------------------------------------------------
+20/11/2024 16:04:02 - INFO     - Lancement Application                           
+20/11/2024 16:04:02 - INFO     - --------------------------------------------------
+20/11/2024 16:04:02 - INFO     - AccueilVue
+20/11/2024 16:04:03 - INFO     - ConnexionVue
+20/11/2024 16:04:12 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+20/11/2024 16:04:12 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+20/11/2024 16:04:12 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x00000169EBFD9A50>
+20/11/2024 16:04:12 - INFO     - MenuUtilisateurVue
+20/11/2024 16:04:17 - INFO     - RechercheVue
+20/11/2024 16:04:19 - INFO     - RechercheUtilisateurVue
+20/11/2024 16:04:21 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - DEBUT
+20/11/2024 16:04:21 - INFO     - res de rechercher tous pseudo : [RealDictRow([('id_utilisateur', 2), ('pseudo', 'newuser'), ('mdp', 'b5f40f203040f58897bc696f010d73cae885a9c61f519101b65e7deee6f65e58')]), RealDictRow([('id_utilisateur', 3), ('pseudo', 'ana03'), ('mdp', 'd39dd0dbddc2ff149a00cc62c986d2a5392deb8bc4d833d936fd9ff1768ee4fb')]), RealDictRow([('id_utilisateur', 4), ('pseudo', 'Ananas35'), ('mdp', '8c8073a12616902ee3aa3c6c4d4d1d98460376fba2d4edd91f060cfca2026e0b')]), RealDictRow([('id_utilisateur', 5), ('pseudo', 'Emilien'), ('mdp', '9cec9e870d627f180d54ea159f56ef8be13aaa200f5de67ee34b3280f116758b')])]
+20/11/2024 16:04:21 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - FIN
+20/11/2024 16:04:21 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x00000169EC096890>', '<business_object.utilisateur.Utilisateur object at 0x00000169EC096860>', '<business_object.utilisateur.Utilisateur object at 0x00000169EC097370>'] ... (4 elements)
+20/11/2024 16:04:21 - INFO     - liste=['newuser', 'ana03', 'Ananas35', 'Emilien']
+20/11/2024 16:04:21 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - DEBUT
+20/11/2024 16:04:21 - INFO     - res de rechercher tous pseudo : [RealDictRow([('id_utilisateur', 2), ('pseudo', 'newuser'), ('mdp', 'b5f40f203040f58897bc696f010d73cae885a9c61f519101b65e7deee6f65e58')]), RealDictRow([('id_utilisateur', 3), ('pseudo', 'ana03'), ('mdp', 'd39dd0dbddc2ff149a00cc62c986d2a5392deb8bc4d833d936fd9ff1768ee4fb')]), RealDictRow([('id_utilisateur', 4), ('pseudo', 'Ananas35'), ('mdp', '8c8073a12616902ee3aa3c6c4d4d1d98460376fba2d4edd91f060cfca2026e0b')]), RealDictRow([('id_utilisateur', 5), ('pseudo', 'Emilien'), ('mdp', '9cec9e870d627f180d54ea159f56ef8be13aaa200f5de67ee34b3280f116758b')])]
+20/11/2024 16:04:21 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - FIN
+20/11/2024 16:04:21 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x00000169EC096800>', '<business_object.utilisateur.Utilisateur object at 0x00000169EC096860>', '<business_object.utilisateur.Utilisateur object at 0x00000169EC0976D0>'] ... (4 elements)
+20/11/2024 16:04:21 - INFO     - liste=['newuser', 'ana03', 'Ananas35', 'Emilien']
+20/11/2024 16:04:21 - INFO     - longueur : 4
+20/11/2024 16:04:21 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - DEBUT
+20/11/2024 16:04:21 - INFO     - res de rechercher tous pseudo : [RealDictRow([('id_utilisateur', 2), ('pseudo', 'newuser'), ('mdp', 'b5f40f203040f58897bc696f010d73cae885a9c61f519101b65e7deee6f65e58')]), RealDictRow([('id_utilisateur', 3), ('pseudo', 'ana03'), ('mdp', 'd39dd0dbddc2ff149a00cc62c986d2a5392deb8bc4d833d936fd9ff1768ee4fb')]), RealDictRow([('id_utilisateur', 4), ('pseudo', 'Ananas35'), ('mdp', '8c8073a12616902ee3aa3c6c4d4d1d98460376fba2d4edd91f060cfca2026e0b')]), RealDictRow([('id_utilisateur', 5), ('pseudo', 'Emilien'), ('mdp', '9cec9e870d627f180d54ea159f56ef8be13aaa200f5de67ee34b3280f116758b')])]
+20/11/2024 16:04:21 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - FIN
+20/11/2024 16:04:21 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x00000169EC097370>', '<business_object.utilisateur.Utilisateur object at 0x00000169EC096860>', '<business_object.utilisateur.Utilisateur object at 0x00000169EC0968C0>'] ... (4 elements)
+20/11/2024 16:04:21 - INFO     - liste=['newuser', 'ana03', 'Ananas35', 'Emilien']
+20/11/2024 16:04:21 - INFO     - util:['newuser', 'ana03', 'Ananas35', 'Emilien']
+20/11/2024 16:04:23 - INFO     - RechercheUtilisateurVue
+20/11/2024 16:04:25 - INFO     - CollectionCoherenteVueRecherche
+20/11/2024 16:04:25 - INFO     -     UtilisateurDao.recherche_id_par_pseudo('newuser',) - DEBUT
+20/11/2024 16:04:25 - INFO     -     UtilisateurDao.recherche_id_par_pseudo('newuser',) - FIN
+20/11/2024 16:04:25 - INFO     -        └─> Sortie : 2
+20/11/2024 16:04:25 - INFO     - res trouver_collec_cohe_id_user : []
+20/11/2024 16:04:25 - INFO     - res de recherche_collec_cohe_par_id : None
+20/11/2024 16:04:25 - INFO     - listecolleccohe type: <class 'list'>, contenu: []
+20/11/2024 16:04:25 - INFO     - collection_physique type: , contenu: None
+20/11/2024 16:04:25 - INFO     - listecollections: []
+20/11/2024 16:04:25 - INFO     - RechercheUtilisateurVue
+20/11/2024 16:05:14 - INFO     - --------------------------------------------------
+20/11/2024 16:05:14 - INFO     - Lancement Application                           
+20/11/2024 16:05:14 - INFO     - --------------------------------------------------
+20/11/2024 16:05:14 - INFO     - AccueilVue
+20/11/2024 16:05:15 - INFO     - ConnexionVue
+20/11/2024 16:05:20 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+20/11/2024 16:05:20 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+20/11/2024 16:05:20 - INFO     -        └─> Sortie : None
+20/11/2024 16:05:20 - INFO     - AccueilVue
+20/11/2024 16:05:22 - INFO     - ConnexionVue
+20/11/2024 16:05:27 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+20/11/2024 16:05:27 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+20/11/2024 16:05:27 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001698CB25150>
+20/11/2024 16:05:27 - INFO     - MenuUtilisateurVue
+20/11/2024 16:05:30 - INFO     - RechercheVue
+20/11/2024 16:05:31 - INFO     - RechercheUtilisateurVue
+20/11/2024 16:05:32 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - DEBUT
+20/11/2024 16:05:32 - INFO     - res de rechercher tous pseudo : [RealDictRow([('id_utilisateur', 2), ('pseudo', 'newuser'), ('mdp', 'b5f40f203040f58897bc696f010d73cae885a9c61f519101b65e7deee6f65e58')]), RealDictRow([('id_utilisateur', 3), ('pseudo', 'ana03'), ('mdp', 'd39dd0dbddc2ff149a00cc62c986d2a5392deb8bc4d833d936fd9ff1768ee4fb')]), RealDictRow([('id_utilisateur', 4), ('pseudo', 'Ananas35'), ('mdp', '8c8073a12616902ee3aa3c6c4d4d1d98460376fba2d4edd91f060cfca2026e0b')]), RealDictRow([('id_utilisateur', 5), ('pseudo', 'Emilien'), ('mdp', '9cec9e870d627f180d54ea159f56ef8be13aaa200f5de67ee34b3280f116758b')])]
+20/11/2024 16:05:32 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - FIN
+20/11/2024 16:05:32 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000001698CDC32B0>', '<business_object.utilisateur.Utilisateur object at 0x000001698CDC3280>', '<business_object.utilisateur.Utilisateur object at 0x000001698CDC3D90>'] ... (4 elements)
+20/11/2024 16:05:32 - INFO     - liste=['newuser', 'ana03', 'Ananas35', 'Emilien']
+20/11/2024 16:05:32 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - DEBUT
+20/11/2024 16:05:32 - INFO     - res de rechercher tous pseudo : [RealDictRow([('id_utilisateur', 2), ('pseudo', 'newuser'), ('mdp', 'b5f40f203040f58897bc696f010d73cae885a9c61f519101b65e7deee6f65e58')]), RealDictRow([('id_utilisateur', 3), ('pseudo', 'ana03'), ('mdp', 'd39dd0dbddc2ff149a00cc62c986d2a5392deb8bc4d833d936fd9ff1768ee4fb')]), RealDictRow([('id_utilisateur', 4), ('pseudo', 'Ananas35'), ('mdp', '8c8073a12616902ee3aa3c6c4d4d1d98460376fba2d4edd91f060cfca2026e0b')]), RealDictRow([('id_utilisateur', 5), ('pseudo', 'Emilien'), ('mdp', '9cec9e870d627f180d54ea159f56ef8be13aaa200f5de67ee34b3280f116758b')])]
+20/11/2024 16:05:32 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - FIN
+20/11/2024 16:05:32 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000001698CDC3220>', '<business_object.utilisateur.Utilisateur object at 0x000001698CDC3280>', '<business_object.utilisateur.Utilisateur object at 0x000001698CDC3EE0>'] ... (4 elements)
+20/11/2024 16:05:32 - INFO     - liste=['newuser', 'ana03', 'Ananas35', 'Emilien']
+20/11/2024 16:05:32 - INFO     - longueur : 4
+20/11/2024 16:05:32 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - DEBUT
+20/11/2024 16:05:32 - INFO     - res de rechercher tous pseudo : [RealDictRow([('id_utilisateur', 2), ('pseudo', 'newuser'), ('mdp', 'b5f40f203040f58897bc696f010d73cae885a9c61f519101b65e7deee6f65e58')]), RealDictRow([('id_utilisateur', 3), ('pseudo', 'ana03'), ('mdp', 'd39dd0dbddc2ff149a00cc62c986d2a5392deb8bc4d833d936fd9ff1768ee4fb')]), RealDictRow([('id_utilisateur', 4), ('pseudo', 'Ananas35'), ('mdp', '8c8073a12616902ee3aa3c6c4d4d1d98460376fba2d4edd91f060cfca2026e0b')]), RealDictRow([('id_utilisateur', 5), ('pseudo', 'Emilien'), ('mdp', '9cec9e870d627f180d54ea159f56ef8be13aaa200f5de67ee34b3280f116758b')])]
+20/11/2024 16:05:32 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - FIN
+20/11/2024 16:05:32 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000001698CDC3D90>', '<business_object.utilisateur.Utilisateur object at 0x000001698CDC3280>', '<business_object.utilisateur.Utilisateur object at 0x000001698CDC32E0>'] ... (4 elements)
+20/11/2024 16:05:32 - INFO     - liste=['newuser', 'ana03', 'Ananas35', 'Emilien']
+20/11/2024 16:05:32 - INFO     - util:['newuser', 'ana03', 'Ananas35', 'Emilien']
+20/11/2024 16:05:33 - INFO     - RechercheUtilisateurVue
+20/11/2024 16:05:34 - INFO     - CollectionCoherenteVueRecherche
+20/11/2024 16:05:34 - INFO     -     UtilisateurDao.recherche_id_par_pseudo('newuser',) - DEBUT
+20/11/2024 16:05:34 - INFO     -     UtilisateurDao.recherche_id_par_pseudo('newuser',) - FIN
+20/11/2024 16:05:34 - INFO     -        └─> Sortie : 2
+20/11/2024 16:05:34 - INFO     - res trouver_collec_cohe_id_user : []
+20/11/2024 16:05:34 - INFO     - res de recherche_collec_cohe_par_id : None
+20/11/2024 16:05:34 - INFO     - listecolleccohe type: <class 'list'>, contenu: []
+20/11/2024 16:05:34 - INFO     - collection_physique type: , contenu: None
+20/11/2024 16:05:34 - INFO     - listecollections: []
+20/11/2024 16:05:34 - INFO     - RechercheUtilisateurVue
+20/11/2024 16:05:39 - INFO     - AvisRechercheUtilisateurVue
+20/11/2024 16:05:39 - INFO     -     UtilisateurDao.recherche_id_par_pseudo('newuser',) - DEBUT
+20/11/2024 16:05:39 - INFO     -     UtilisateurDao.recherche_id_par_pseudo('newuser',) - FIN
+20/11/2024 16:05:39 - INFO     -        └─> Sortie : 2
+20/11/2024 16:05:39 - INFO     - res : []
+20/11/2024 16:05:39 - INFO     - RechercheUtilisateurVue
+20/11/2024 16:05:57 - INFO     - RechercheUtilisateurVue
+20/11/2024 16:06:01 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - DEBUT
+20/11/2024 16:06:01 - INFO     - res de rechercher tous pseudo : [RealDictRow([('id_utilisateur', 2), ('pseudo', 'newuser'), ('mdp', 'b5f40f203040f58897bc696f010d73cae885a9c61f519101b65e7deee6f65e58')]), RealDictRow([('id_utilisateur', 3), ('pseudo', 'ana03'), ('mdp', 'd39dd0dbddc2ff149a00cc62c986d2a5392deb8bc4d833d936fd9ff1768ee4fb')]), RealDictRow([('id_utilisateur', 4), ('pseudo', 'Ananas35'), ('mdp', '8c8073a12616902ee3aa3c6c4d4d1d98460376fba2d4edd91f060cfca2026e0b')]), RealDictRow([('id_utilisateur', 5), ('pseudo', 'Emilien'), ('mdp', '9cec9e870d627f180d54ea159f56ef8be13aaa200f5de67ee34b3280f116758b')])]
+20/11/2024 16:06:01 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - FIN
+20/11/2024 16:06:01 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000001698D9923E0>', '<business_object.utilisateur.Utilisateur object at 0x000001698D9923B0>', '<business_object.utilisateur.Utilisateur object at 0x000001698D992EC0>'] ... (4 elements)
+20/11/2024 16:06:01 - INFO     - liste=['newuser', 'ana03', 'Ananas35', 'Emilien']
+20/11/2024 16:06:01 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - DEBUT
+20/11/2024 16:06:01 - INFO     - res de rechercher tous pseudo : [RealDictRow([('id_utilisateur', 2), ('pseudo', 'newuser'), ('mdp', 'b5f40f203040f58897bc696f010d73cae885a9c61f519101b65e7deee6f65e58')]), RealDictRow([('id_utilisateur', 3), ('pseudo', 'ana03'), ('mdp', 'd39dd0dbddc2ff149a00cc62c986d2a5392deb8bc4d833d936fd9ff1768ee4fb')]), RealDictRow([('id_utilisateur', 4), ('pseudo', 'Ananas35'), ('mdp', '8c8073a12616902ee3aa3c6c4d4d1d98460376fba2d4edd91f060cfca2026e0b')]), RealDictRow([('id_utilisateur', 5), ('pseudo', 'Emilien'), ('mdp', '9cec9e870d627f180d54ea159f56ef8be13aaa200f5de67ee34b3280f116758b')])]
+20/11/2024 16:06:01 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - FIN
+20/11/2024 16:06:01 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000001698D992350>', '<business_object.utilisateur.Utilisateur object at 0x000001698D9923B0>', '<business_object.utilisateur.Utilisateur object at 0x000001698D993220>'] ... (4 elements)
+20/11/2024 16:06:01 - INFO     - liste=['newuser', 'ana03', 'Ananas35', 'Emilien']
+20/11/2024 16:06:01 - INFO     - longueur : 4
+20/11/2024 16:06:01 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - DEBUT
+20/11/2024 16:06:01 - INFO     - res de rechercher tous pseudo : [RealDictRow([('id_utilisateur', 2), ('pseudo', 'newuser'), ('mdp', 'b5f40f203040f58897bc696f010d73cae885a9c61f519101b65e7deee6f65e58')]), RealDictRow([('id_utilisateur', 3), ('pseudo', 'ana03'), ('mdp', 'd39dd0dbddc2ff149a00cc62c986d2a5392deb8bc4d833d936fd9ff1768ee4fb')]), RealDictRow([('id_utilisateur', 4), ('pseudo', 'Ananas35'), ('mdp', '8c8073a12616902ee3aa3c6c4d4d1d98460376fba2d4edd91f060cfca2026e0b')]), RealDictRow([('id_utilisateur', 5), ('pseudo', 'Emilien'), ('mdp', '9cec9e870d627f180d54ea159f56ef8be13aaa200f5de67ee34b3280f116758b')])]
+20/11/2024 16:06:01 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - FIN
+20/11/2024 16:06:01 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000001698D992EC0>', '<business_object.utilisateur.Utilisateur object at 0x000001698D9923B0>', '<business_object.utilisateur.Utilisateur object at 0x000001698D992410>'] ... (4 elements)
+20/11/2024 16:06:01 - INFO     - liste=['newuser', 'ana03', 'Ananas35', 'Emilien']
+20/11/2024 16:06:01 - INFO     - util:['newuser', 'ana03', 'Ananas35', 'Emilien']
+20/11/2024 16:06:48 - INFO     - RechercheVue
+20/11/2024 16:06:56 - INFO     - MenuUtilisateurVue
+20/11/2024 16:07:01 - INFO     - --------------------------------------------------
+20/11/2024 16:07:01 - INFO     - Lancement Application                           
+20/11/2024 16:07:01 - INFO     - --------------------------------------------------
+20/11/2024 16:07:01 - INFO     - AccueilVue
+20/11/2024 16:07:03 - INFO     - ConnexionVue
+20/11/2024 16:07:09 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+20/11/2024 16:07:09 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+20/11/2024 16:07:09 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001452E399A50>
+20/11/2024 16:07:09 - INFO     - MenuUtilisateurVue
+20/11/2024 16:07:10 - INFO     - RechercheVue
+20/11/2024 16:07:13 - INFO     - RechercheUtilisateurVue
+20/11/2024 16:07:16 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('Emilien',) - DEBUT
+20/11/2024 16:07:16 - INFO     - res de rechercher tous pseudo : [RealDictRow([('id_utilisateur', 5), ('pseudo', 'Emilien'), ('mdp', '9cec9e870d627f180d54ea159f56ef8be13aaa200f5de67ee34b3280f116758b')])]
+20/11/2024 16:07:16 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('Emilien',) - FIN
+20/11/2024 16:07:16 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000001452E4603A0>'] ... (1 elements)
+20/11/2024 16:07:16 - INFO     - liste=['Emilien']
+20/11/2024 16:07:16 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('Emilien',) - DEBUT
+20/11/2024 16:07:16 - INFO     - res de rechercher tous pseudo : [RealDictRow([('id_utilisateur', 5), ('pseudo', 'Emilien'), ('mdp', '9cec9e870d627f180d54ea159f56ef8be13aaa200f5de67ee34b3280f116758b')])]
+20/11/2024 16:07:16 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('Emilien',) - FIN
+20/11/2024 16:07:16 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000001452E460940>'] ... (1 elements)
+20/11/2024 16:07:16 - INFO     - liste=['Emilien']
+20/11/2024 16:07:16 - INFO     - longueur : 1
+20/11/2024 16:07:16 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('Emilien',) - DEBUT
+20/11/2024 16:07:16 - INFO     - res de rechercher tous pseudo : [RealDictRow([('id_utilisateur', 5), ('pseudo', 'Emilien'), ('mdp', '9cec9e870d627f180d54ea159f56ef8be13aaa200f5de67ee34b3280f116758b')])]
+20/11/2024 16:07:16 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('Emilien',) - FIN
+20/11/2024 16:07:16 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000001452E460AF0>'] ... (1 elements)
+20/11/2024 16:07:16 - INFO     - liste=['Emilien']
+20/11/2024 16:07:16 - INFO     - util:['Emilien']
+20/11/2024 16:07:21 - INFO     - RechercheVue
+20/11/2024 16:07:22 - INFO     - RechercheUtilisateurVue
+20/11/2024 16:07:23 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - DEBUT
+20/11/2024 16:07:23 - INFO     - res de rechercher tous pseudo : [RealDictRow([('id_utilisateur', 2), ('pseudo', 'newuser'), ('mdp', 'b5f40f203040f58897bc696f010d73cae885a9c61f519101b65e7deee6f65e58')]), RealDictRow([('id_utilisateur', 3), ('pseudo', 'ana03'), ('mdp', 'd39dd0dbddc2ff149a00cc62c986d2a5392deb8bc4d833d936fd9ff1768ee4fb')]), RealDictRow([('id_utilisateur', 4), ('pseudo', 'Ananas35'), ('mdp', '8c8073a12616902ee3aa3c6c4d4d1d98460376fba2d4edd91f060cfca2026e0b')]), RealDictRow([('id_utilisateur', 5), ('pseudo', 'Emilien'), ('mdp', '9cec9e870d627f180d54ea159f56ef8be13aaa200f5de67ee34b3280f116758b')])]
+20/11/2024 16:07:23 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - FIN
+20/11/2024 16:07:23 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000001452E6E0070>', '<business_object.utilisateur.Utilisateur object at 0x000001452E6E03D0>', '<business_object.utilisateur.Utilisateur object at 0x000001452E6D1AE0>'] ... (4 elements)
+20/11/2024 16:07:23 - INFO     - liste=['newuser', 'ana03', 'Ananas35', 'Emilien']
+20/11/2024 16:07:23 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - DEBUT
+20/11/2024 16:07:23 - INFO     - res de rechercher tous pseudo : [RealDictRow([('id_utilisateur', 2), ('pseudo', 'newuser'), ('mdp', 'b5f40f203040f58897bc696f010d73cae885a9c61f519101b65e7deee6f65e58')]), RealDictRow([('id_utilisateur', 3), ('pseudo', 'ana03'), ('mdp', 'd39dd0dbddc2ff149a00cc62c986d2a5392deb8bc4d833d936fd9ff1768ee4fb')]), RealDictRow([('id_utilisateur', 4), ('pseudo', 'Ananas35'), ('mdp', '8c8073a12616902ee3aa3c6c4d4d1d98460376fba2d4edd91f060cfca2026e0b')]), RealDictRow([('id_utilisateur', 5), ('pseudo', 'Emilien'), ('mdp', '9cec9e870d627f180d54ea159f56ef8be13aaa200f5de67ee34b3280f116758b')])]
+20/11/2024 16:07:23 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - FIN
+20/11/2024 16:07:23 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000001452E6E0040>', '<business_object.utilisateur.Utilisateur object at 0x000001452E6E03D0>', '<business_object.utilisateur.Utilisateur object at 0x000001452E6D1AB0>'] ... (4 elements)
+20/11/2024 16:07:23 - INFO     - liste=['newuser', 'ana03', 'Ananas35', 'Emilien']
+20/11/2024 16:07:23 - INFO     - longueur : 4
+20/11/2024 16:07:23 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - DEBUT
+20/11/2024 16:07:23 - INFO     - res de rechercher tous pseudo : [RealDictRow([('id_utilisateur', 2), ('pseudo', 'newuser'), ('mdp', 'b5f40f203040f58897bc696f010d73cae885a9c61f519101b65e7deee6f65e58')]), RealDictRow([('id_utilisateur', 3), ('pseudo', 'ana03'), ('mdp', 'd39dd0dbddc2ff149a00cc62c986d2a5392deb8bc4d833d936fd9ff1768ee4fb')]), RealDictRow([('id_utilisateur', 4), ('pseudo', 'Ananas35'), ('mdp', '8c8073a12616902ee3aa3c6c4d4d1d98460376fba2d4edd91f060cfca2026e0b')]), RealDictRow([('id_utilisateur', 5), ('pseudo', 'Emilien'), ('mdp', '9cec9e870d627f180d54ea159f56ef8be13aaa200f5de67ee34b3280f116758b')])]
+20/11/2024 16:07:23 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - FIN
+20/11/2024 16:07:23 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000001452E6E0880>', '<business_object.utilisateur.Utilisateur object at 0x000001452E6E03D0>', '<business_object.utilisateur.Utilisateur object at 0x000001452E6D1AE0>'] ... (4 elements)
+20/11/2024 16:07:23 - INFO     - liste=['newuser', 'ana03', 'Ananas35', 'Emilien']
+20/11/2024 16:07:23 - INFO     - util:['newuser', 'ana03', 'Ananas35', 'Emilien']
+20/11/2024 16:07:25 - INFO     - RechercheUtilisateurVue
+20/11/2024 16:07:26 - INFO     - CollectionCoherenteVueRecherche
+20/11/2024 16:07:26 - INFO     -     UtilisateurDao.recherche_id_par_pseudo('Ananas35',) - DEBUT
+20/11/2024 16:07:26 - INFO     -     UtilisateurDao.recherche_id_par_pseudo('Ananas35',) - FIN
+20/11/2024 16:07:26 - INFO     -        └─> Sortie : 4
+20/11/2024 16:07:26 - INFO     - res trouver_collec_cohe_id_user : [RealDictRow([('id_collec_coherente', 2), ('titre_collection', 'Test'), ('description_collection', 'Très bien')])]
+20/11/2024 16:07:26 - INFO     - res de recherche_collec_cohe_par_id : [<business_object.CollectionCoherente.CollectionCoherente object at 0x000001452E845F60>]
+20/11/2024 16:07:26 - INFO     - res trouver_collec_cohe_id_user : [RealDictRow([('id_collec_coherente', 2), ('titre_collection', 'Test'), ('description_collection', 'Très bien')])]
+20/11/2024 16:07:26 - INFO     - res de recherche_collec_cohe_par_id : [<business_object.CollectionCoherente.CollectionCoherente object at 0x000001452E844EE0>]
+20/11/2024 16:07:26 - INFO     - listecolleccohe type: <class 'list'>, contenu: ['Test']
+20/11/2024 16:07:26 - INFO     - collection_physique type: , contenu: None
+20/11/2024 16:07:26 - INFO     - listecollections: ['Test']
+20/11/2024 16:07:26 - INFO     - util:['Test']
+20/11/2024 16:07:27 - INFO     - RechercheUtilisateurVue
+20/11/2024 16:07:29 - INFO     - AvisRechercheUtilisateurVue
+20/11/2024 16:07:29 - INFO     -     UtilisateurDao.recherche_id_par_pseudo('Ananas35',) - DEBUT
+20/11/2024 16:07:29 - INFO     -     UtilisateurDao.recherche_id_par_pseudo('Ananas35',) - FIN
+20/11/2024 16:07:29 - INFO     -        └─> Sortie : 4
+20/11/2024 16:07:29 - INFO     - res : []
+20/11/2024 16:07:29 - INFO     - RechercheUtilisateurVue
+20/11/2024 16:07:42 - INFO     - RechercheUtilisateurVue
+20/11/2024 16:07:43 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - DEBUT
+20/11/2024 16:07:43 - INFO     - res de rechercher tous pseudo : [RealDictRow([('id_utilisateur', 2), ('pseudo', 'newuser'), ('mdp', 'b5f40f203040f58897bc696f010d73cae885a9c61f519101b65e7deee6f65e58')]), RealDictRow([('id_utilisateur', 3), ('pseudo', 'ana03'), ('mdp', 'd39dd0dbddc2ff149a00cc62c986d2a5392deb8bc4d833d936fd9ff1768ee4fb')]), RealDictRow([('id_utilisateur', 4), ('pseudo', 'Ananas35'), ('mdp', '8c8073a12616902ee3aa3c6c4d4d1d98460376fba2d4edd91f060cfca2026e0b')]), RealDictRow([('id_utilisateur', 5), ('pseudo', 'Emilien'), ('mdp', '9cec9e870d627f180d54ea159f56ef8be13aaa200f5de67ee34b3280f116758b')])]
+20/11/2024 16:07:43 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - FIN
+20/11/2024 16:07:43 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000001452E69F670>', '<business_object.utilisateur.Utilisateur object at 0x000001452E69F640>', '<business_object.utilisateur.Utilisateur object at 0x000001452E69EFE0>'] ... (4 elements)
+20/11/2024 16:07:43 - INFO     - liste=['newuser', 'ana03', 'Ananas35', 'Emilien']
+20/11/2024 16:07:43 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - DEBUT
+20/11/2024 16:07:43 - INFO     - res de rechercher tous pseudo : [RealDictRow([('id_utilisateur', 2), ('pseudo', 'newuser'), ('mdp', 'b5f40f203040f58897bc696f010d73cae885a9c61f519101b65e7deee6f65e58')]), RealDictRow([('id_utilisateur', 3), ('pseudo', 'ana03'), ('mdp', 'd39dd0dbddc2ff149a00cc62c986d2a5392deb8bc4d833d936fd9ff1768ee4fb')]), RealDictRow([('id_utilisateur', 4), ('pseudo', 'Ananas35'), ('mdp', '8c8073a12616902ee3aa3c6c4d4d1d98460376fba2d4edd91f060cfca2026e0b')]), RealDictRow([('id_utilisateur', 5), ('pseudo', 'Emilien'), ('mdp', '9cec9e870d627f180d54ea159f56ef8be13aaa200f5de67ee34b3280f116758b')])]
+20/11/2024 16:07:43 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - FIN
+20/11/2024 16:07:43 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000001452E69E2C0>', '<business_object.utilisateur.Utilisateur object at 0x000001452E69F640>', '<business_object.utilisateur.Utilisateur object at 0x000001452E69FDF0>'] ... (4 elements)
+20/11/2024 16:07:43 - INFO     - liste=['newuser', 'ana03', 'Ananas35', 'Emilien']
+20/11/2024 16:07:43 - INFO     - longueur : 4
+20/11/2024 16:07:43 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - DEBUT
+20/11/2024 16:07:43 - INFO     - res de rechercher tous pseudo : [RealDictRow([('id_utilisateur', 2), ('pseudo', 'newuser'), ('mdp', 'b5f40f203040f58897bc696f010d73cae885a9c61f519101b65e7deee6f65e58')]), RealDictRow([('id_utilisateur', 3), ('pseudo', 'ana03'), ('mdp', 'd39dd0dbddc2ff149a00cc62c986d2a5392deb8bc4d833d936fd9ff1768ee4fb')]), RealDictRow([('id_utilisateur', 4), ('pseudo', 'Ananas35'), ('mdp', '8c8073a12616902ee3aa3c6c4d4d1d98460376fba2d4edd91f060cfca2026e0b')]), RealDictRow([('id_utilisateur', 5), ('pseudo', 'Emilien'), ('mdp', '9cec9e870d627f180d54ea159f56ef8be13aaa200f5de67ee34b3280f116758b')])]
+20/11/2024 16:07:43 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - FIN
+20/11/2024 16:07:43 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000001452E69EFE0>', '<business_object.utilisateur.Utilisateur object at 0x000001452E69F640>', '<business_object.utilisateur.Utilisateur object at 0x000001452E69F8E0>'] ... (4 elements)
+20/11/2024 16:07:43 - INFO     - liste=['newuser', 'ana03', 'Ananas35', 'Emilien']
+20/11/2024 16:07:43 - INFO     - util:['newuser', 'ana03', 'Ananas35', 'Emilien']
+20/11/2024 16:07:46 - INFO     - RechercheVue
+20/11/2024 16:07:48 - INFO     - RechercheMangaVue
+20/11/2024 16:07:50 - INFO     - rechercher_manga_par_titre
+20/11/2024 16:07:50 - INFO     - recherche_manga_par_t2
+20/11/2024 16:07:50 - INFO     - rechercher_manga_par_titre
+20/11/2024 16:07:50 - INFO     - recherche_manga_par_t2
+20/11/2024 16:07:50 - INFO     - rechercher_manga_par_titre
+20/11/2024 16:07:50 - INFO     - recherche_manga_par_t2
+20/11/2024 16:07:50 - INFO     - util:['Monster', 'Berserk', '20th Century Boys', 'Yokohama Kaidashi Kikou', 'Hajime no Ippo: Fighting Spirit!', 'Full Moon wo Sagashite', 'Tsubasa: RESERVoir CHRoNiCLE', 'xxxHOLiC']
+20/11/2024 16:07:52 - INFO     - SelectionMangaVuerecherche
+20/11/2024 16:07:55 - INFO     - AjouterAvisVuerecherche
+20/11/2024 16:08:05 - INFO     - Avis : Incroyablement fou 
+20/11/2024 16:08:05 - INFO     - id:5 et manga:5
+20/11/2024 16:08:05 - INFO     - Avis : Incroyablement fou 
+20/11/2024 16:08:05 - INFO     - SelectionMangaVuerecherche
+20/11/2024 16:08:10 - INFO     - RechercheMangaVue
+20/11/2024 16:08:14 - INFO     - RechercheVue
+20/11/2024 16:08:15 - INFO     - RechercheUtilisateurVue
+20/11/2024 16:08:18 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('Emilien',) - DEBUT
+20/11/2024 16:08:18 - INFO     - res de rechercher tous pseudo : [RealDictRow([('id_utilisateur', 5), ('pseudo', 'Emilien'), ('mdp', '9cec9e870d627f180d54ea159f56ef8be13aaa200f5de67ee34b3280f116758b')])]
+20/11/2024 16:08:18 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('Emilien',) - FIN
+20/11/2024 16:08:18 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x00000145323C9750>'] ... (1 elements)
+20/11/2024 16:08:18 - INFO     - liste=['Emilien']
+20/11/2024 16:08:18 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('Emilien',) - DEBUT
+20/11/2024 16:08:18 - INFO     - res de rechercher tous pseudo : [RealDictRow([('id_utilisateur', 5), ('pseudo', 'Emilien'), ('mdp', '9cec9e870d627f180d54ea159f56ef8be13aaa200f5de67ee34b3280f116758b')])]
+20/11/2024 16:08:18 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('Emilien',) - FIN
+20/11/2024 16:08:18 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x00000145323C96C0>'] ... (1 elements)
+20/11/2024 16:08:18 - INFO     - liste=['Emilien']
+20/11/2024 16:08:18 - INFO     - longueur : 1
+20/11/2024 16:08:18 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('Emilien',) - DEBUT
+20/11/2024 16:08:18 - INFO     - res de rechercher tous pseudo : [RealDictRow([('id_utilisateur', 5), ('pseudo', 'Emilien'), ('mdp', '9cec9e870d627f180d54ea159f56ef8be13aaa200f5de67ee34b3280f116758b')])]
+20/11/2024 16:08:18 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('Emilien',) - FIN
+20/11/2024 16:08:18 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x00000145323C9720>'] ... (1 elements)
+20/11/2024 16:08:18 - INFO     - liste=['Emilien']
+20/11/2024 16:08:18 - INFO     - util:['Emilien']
+20/11/2024 16:08:19 - INFO     - RechercheUtilisateurVue
+20/11/2024 16:08:21 - INFO     - AvisRechercheUtilisateurVue
+20/11/2024 16:08:21 - INFO     -     UtilisateurDao.recherche_id_par_pseudo('Emilien',) - DEBUT
+20/11/2024 16:08:21 - INFO     -     UtilisateurDao.recherche_id_par_pseudo('Emilien',) - FIN
+20/11/2024 16:08:21 - INFO     -        └─> Sortie : 5
+20/11/2024 16:08:21 - INFO     - res : [RealDictRow([('id_avis', 2), ('id_utilisateur', 5), ('id_manga', 5), ('texte', 'Incroyablement fou ')])]
+20/11/2024 16:08:21 - INFO     - res : [RealDictRow([('id_avis', 2), ('id_utilisateur', 5), ('id_manga', 5), ('texte', 'Incroyablement fou ')])]
+20/11/2024 16:08:21 - INFO     - avis : [<business_object.avis.Avis object at 0x00000145311649D0>]
+20/11/2024 16:08:26 - INFO     - RechercheVue
+20/11/2024 16:09:05 - INFO     - --------------------------------------------------
+20/11/2024 16:09:05 - INFO     - Lancement Application                           
+20/11/2024 16:09:05 - INFO     - --------------------------------------------------
+20/11/2024 16:09:05 - INFO     - AccueilVue
+20/11/2024 16:09:07 - INFO     - Fin de l'application
+20/11/2024 16:10:50 - INFO     - --------------------------------------------------
+20/11/2024 16:10:50 - INFO     - Lancement Application                           
+20/11/2024 16:10:50 - INFO     - --------------------------------------------------
+20/11/2024 16:10:50 - INFO     - AccueilVue
+20/11/2024 16:10:51 - INFO     - ConnexionVue
+20/11/2024 16:11:02 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+20/11/2024 16:11:03 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+20/11/2024 16:11:03 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000002405FF15A50>
+20/11/2024 16:11:03 - INFO     - MenuUtilisateurVue
+20/11/2024 16:11:04 - INFO     - RechercheVue
+20/11/2024 16:11:06 - INFO     - RechercheMangaVue
+20/11/2024 16:11:08 - INFO     - rechercher_manga_par_titre
+20/11/2024 16:11:08 - INFO     - recherche_manga_par_t2
+20/11/2024 16:11:09 - INFO     - rechercher_manga_par_titre
+20/11/2024 16:11:09 - INFO     - recherche_manga_par_t2
+20/11/2024 16:11:09 - INFO     - rechercher_manga_par_titre
+20/11/2024 16:11:09 - INFO     - recherche_manga_par_t2
+20/11/2024 16:11:09 - INFO     - util:['Monster', 'Berserk', '20th Century Boys', 'Yokohama Kaidashi Kikou', 'Hajime no Ippo: Fighting Spirit!', 'Full Moon wo Sagashite', 'Tsubasa: RESERVoir CHRoNiCLE', 'xxxHOLiC']
+20/11/2024 16:11:11 - INFO     - SelectionMangaVuerecherche
+20/11/2024 16:11:13 - INFO     - RechercheMangaVue
+20/11/2024 16:11:16 - INFO     - rechercher_manga_par_titre
+20/11/2024 16:11:16 - INFO     - recherche_manga_par_t2
+20/11/2024 16:11:16 - INFO     - rechercher_manga_par_titre
+20/11/2024 16:11:16 - INFO     - recherche_manga_par_t2
+20/11/2024 16:11:16 - INFO     - rechercher_manga_par_titre
+20/11/2024 16:11:16 - INFO     - recherche_manga_par_t2
+20/11/2024 16:11:16 - INFO     - util:['Monster', 'Berserk', '20th Century Boys', 'Yokohama Kaidashi Kikou', 'Hajime no Ippo: Fighting Spirit!', 'Full Moon wo Sagashite', 'Tsubasa: RESERVoir CHRoNiCLE', 'xxxHOLiC']
+20/11/2024 16:11:18 - INFO     - SelectionMangaVuerecherche
+20/11/2024 16:11:20 - INFO     - MenuUtilisateurVue
+20/11/2024 16:11:22 - INFO     - RechercheVue
+20/11/2024 16:11:25 - INFO     - RechercheUtilisateurVue
+20/11/2024 16:11:26 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - DEBUT
+20/11/2024 16:11:26 - INFO     - res de rechercher tous pseudo : [RealDictRow([('id_utilisateur', 2), ('pseudo', 'newuser'), ('mdp', 'b5f40f203040f58897bc696f010d73cae885a9c61f519101b65e7deee6f65e58')]), RealDictRow([('id_utilisateur', 3), ('pseudo', 'ana03'), ('mdp', 'd39dd0dbddc2ff149a00cc62c986d2a5392deb8bc4d833d936fd9ff1768ee4fb')]), RealDictRow([('id_utilisateur', 4), ('pseudo', 'Ananas35'), ('mdp', '8c8073a12616902ee3aa3c6c4d4d1d98460376fba2d4edd91f060cfca2026e0b')]), RealDictRow([('id_utilisateur', 5), ('pseudo', 'Emilien'), ('mdp', '9cec9e870d627f180d54ea159f56ef8be13aaa200f5de67ee34b3280f116758b')])]
+20/11/2024 16:11:26 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - FIN
+20/11/2024 16:11:26 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x0000024061CA1E10>', '<business_object.utilisateur.Utilisateur object at 0x0000024061CA1DE0>', '<business_object.utilisateur.Utilisateur object at 0x0000024061CA28F0>'] ... (4 elements)
+20/11/2024 16:11:26 - INFO     - liste=['newuser', 'ana03', 'Ananas35', 'Emilien']
+20/11/2024 16:11:26 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - DEBUT
+20/11/2024 16:11:26 - INFO     - res de rechercher tous pseudo : [RealDictRow([('id_utilisateur', 2), ('pseudo', 'newuser'), ('mdp', 'b5f40f203040f58897bc696f010d73cae885a9c61f519101b65e7deee6f65e58')]), RealDictRow([('id_utilisateur', 3), ('pseudo', 'ana03'), ('mdp', 'd39dd0dbddc2ff149a00cc62c986d2a5392deb8bc4d833d936fd9ff1768ee4fb')]), RealDictRow([('id_utilisateur', 4), ('pseudo', 'Ananas35'), ('mdp', '8c8073a12616902ee3aa3c6c4d4d1d98460376fba2d4edd91f060cfca2026e0b')]), RealDictRow([('id_utilisateur', 5), ('pseudo', 'Emilien'), ('mdp', '9cec9e870d627f180d54ea159f56ef8be13aaa200f5de67ee34b3280f116758b')])]
+20/11/2024 16:11:26 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - FIN
+20/11/2024 16:11:26 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x0000024061CA1D80>', '<business_object.utilisateur.Utilisateur object at 0x0000024061CA1DE0>', '<business_object.utilisateur.Utilisateur object at 0x0000024061CA2C50>'] ... (4 elements)
+20/11/2024 16:11:26 - INFO     - liste=['newuser', 'ana03', 'Ananas35', 'Emilien']
+20/11/2024 16:11:26 - INFO     - longueur : 4
+20/11/2024 16:11:26 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - DEBUT
+20/11/2024 16:11:26 - INFO     - res de rechercher tous pseudo : [RealDictRow([('id_utilisateur', 2), ('pseudo', 'newuser'), ('mdp', 'b5f40f203040f58897bc696f010d73cae885a9c61f519101b65e7deee6f65e58')]), RealDictRow([('id_utilisateur', 3), ('pseudo', 'ana03'), ('mdp', 'd39dd0dbddc2ff149a00cc62c986d2a5392deb8bc4d833d936fd9ff1768ee4fb')]), RealDictRow([('id_utilisateur', 4), ('pseudo', 'Ananas35'), ('mdp', '8c8073a12616902ee3aa3c6c4d4d1d98460376fba2d4edd91f060cfca2026e0b')]), RealDictRow([('id_utilisateur', 5), ('pseudo', 'Emilien'), ('mdp', '9cec9e870d627f180d54ea159f56ef8be13aaa200f5de67ee34b3280f116758b')])]
+20/11/2024 16:11:26 - INFO     -     UtilisateurDao.rechercher_tous_pseudo('',) - FIN
+20/11/2024 16:11:26 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x0000024061CA28F0>', '<business_object.utilisateur.Utilisateur object at 0x0000024061CA1DE0>', '<business_object.utilisateur.Utilisateur object at 0x0000024061CA1E40>'] ... (4 elements)
+20/11/2024 16:11:26 - INFO     - liste=['newuser', 'ana03', 'Ananas35', 'Emilien']
+20/11/2024 16:11:26 - INFO     - util:['newuser', 'ana03', 'Ananas35', 'Emilien']
+20/11/2024 16:11:34 - INFO     - RechercheUtilisateurVue
+20/11/2024 16:11:35 - INFO     - AvisRechercheUtilisateurVue
+20/11/2024 16:11:35 - INFO     -     UtilisateurDao.recherche_id_par_pseudo('Emilien',) - DEBUT
+20/11/2024 16:11:35 - INFO     -     UtilisateurDao.recherche_id_par_pseudo('Emilien',) - FIN
+20/11/2024 16:11:35 - INFO     -        └─> Sortie : 5
+20/11/2024 16:11:35 - INFO     - res : [RealDictRow([('id_avis', 2), ('id_utilisateur', 5), ('id_manga', 5), ('texte', 'Incroyablement fou ')])]
+20/11/2024 16:11:35 - INFO     - res : [RealDictRow([('id_avis', 2), ('id_utilisateur', 5), ('id_manga', 5), ('texte', 'Incroyablement fou ')])]
+20/11/2024 16:11:35 - INFO     - avis : [<business_object.avis.Avis object at 0x0000024063AFEA40>]
+20/11/2024 16:11:37 - INFO     - RechercheUtilisateurVue
+20/11/2024 16:11:40 - INFO     - MenuUtilisateurVue
+20/11/2024 16:11:42 - INFO     - AccueilVue
+20/11/2024 16:11:43 - INFO     - Fin de l'application
+20/11/2024 16:19:30 - INFO     - --------------------------------------------------
+20/11/2024 16:19:30 - INFO     - Lancement Application                           
+20/11/2024 16:19:30 - INFO     - --------------------------------------------------
+20/11/2024 16:19:30 - INFO     - AccueilVue
+20/11/2024 16:19:33 - INFO     - InscriptionVue
+20/11/2024 16:19:45 - INFO     - Pseudo : machin (length: 6)
+20/11/2024 16:19:45 - INFO     -     UtilisateurDao.lister_tous() - DEBUT
+20/11/2024 16:19:45 - INFO     -     UtilisateurDao.lister_tous() - FIN
+20/11/2024 16:19:45 - INFO     -        └─> Sortie : ['<business_object.utilisateur.Utilisateur object at 0x000001458DC19D50>', '<business_object.utilisateur.Utilisateur object at 0x000001458DC19D20>', '<business_object.utilisateur.Utilisateur object at 0x000001458DC19CF0>'] ... (4 elements)
+20/11/2024 16:19:56 - INFO     - Mot de passe haché : 3b02cd2d927af5fecf0f99da34e4309b1441c56f4150c7262b526c24f759bbfe (length: 64)
+20/11/2024 16:19:56 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x000001458DCB41F0>',) - DEBUT
+20/11/2024 16:19:56 - INFO     -     UtilisateurDao.creer('<business_object.utilisateur.Utilisateur object at 0x000001458DCB41F0>',) - FIN
+20/11/2024 16:19:56 - INFO     -        └─> Sortie : True
+20/11/2024 16:19:56 - INFO     - AccueilVue
+20/11/2024 16:19:57 - INFO     - ConnexionVue
+20/11/2024 16:20:01 - INFO     -     UtilisateurDao.se_connecter('machin', '*****') - DEBUT
+20/11/2024 16:20:01 - INFO     -     UtilisateurDao.se_connecter('machin', '*****') - FIN
+20/11/2024 16:20:01 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001458DEB44C0>
+20/11/2024 16:20:01 - INFO     - MenuUtilisateurVue
+20/11/2024 16:20:02 - INFO     - EcranDuProfilVue
+20/11/2024 16:20:03 - INFO     - res trouver_collec_cohe_id_user : []
+20/11/2024 16:20:09 - INFO     - res : []
+20/11/2024 16:20:09 - INFO     - res trouver_collec_cohe_id_user : []
+20/11/2024 16:20:11 - INFO     - MenuUtilisateurVue
+20/11/2024 16:20:13 - INFO     - RechercheVue
+20/11/2024 16:20:15 - INFO     - RechercheMangaVue
+20/11/2024 16:20:21 - INFO     - rechercher_manga_par_titre
+20/11/2024 16:20:21 - INFO     - recherche_manga_par_t2
+20/11/2024 16:20:21 - INFO     - rechercher_manga_par_titre
+20/11/2024 16:20:21 - INFO     - recherche_manga_par_t2
+20/11/2024 16:20:21 - INFO     - rechercher_manga_par_titre
+20/11/2024 16:20:21 - INFO     - recherche_manga_par_t2
+20/11/2024 16:20:21 - INFO     - util:['Naruto', 'Naruto: Innocent Heart, Demonic Blood', 'Naruto - Mission: Protect the Waterfall Village!', "Naruto: Chibi Sasuke's Sharingan Legend", 'Naruto: The Seventh Hokage and the Scarlet Spring', "Naruto: Itachi's Story", 'Boruto: Naruto Next Generations', 'Naruto: The Path Lit by the Full Moon']
+20/11/2024 16:20:22 - INFO     - SelectionMangaVuerecherche
+20/11/2024 16:20:25 - INFO     - ConsulterAvisMangaVuerecherche
+20/11/2024 16:20:25 - INFO     - res : []
+20/11/2024 16:20:25 - INFO     - SelectionMangaVuerecherche
+20/11/2024 16:20:33 - INFO     - RechercheMangaVue
+20/11/2024 16:20:36 - INFO     - rechercher_manga_par_titre
+20/11/2024 16:20:36 - INFO     - recherche_manga_par_t2
+20/11/2024 16:20:36 - INFO     - rechercher_manga_par_titre
+20/11/2024 16:20:36 - INFO     - recherche_manga_par_t2
+20/11/2024 16:20:36 - INFO     - rechercher_manga_par_titre
+20/11/2024 16:20:36 - INFO     - recherche_manga_par_t2
+20/11/2024 16:20:36 - INFO     - util:['Monster', 'Berserk', '20th Century Boys', 'Yokohama Kaidashi Kikou', 'Hajime no Ippo: Fighting Spirit!', 'Full Moon wo Sagashite', 'Tsubasa: RESERVoir CHRoNiCLE', 'xxxHOLiC']
+20/11/2024 16:21:32 - INFO     - --------------------------------------------------
+20/11/2024 16:21:32 - INFO     - Lancement Application                           
+20/11/2024 16:21:32 - INFO     - --------------------------------------------------
+20/11/2024 16:21:32 - INFO     - AccueilVue
+20/11/2024 16:21:33 - INFO     - ConnexionVue
+20/11/2024 16:21:42 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+20/11/2024 16:21:42 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+20/11/2024 16:21:42 - INFO     -        └─> Sortie : None
+20/11/2024 16:21:42 - INFO     - AccueilVue
+20/11/2024 16:21:43 - INFO     - ConnexionVue
+20/11/2024 16:21:48 - INFO     -     UtilisateurDao.se_connecter('machin', '*****') - DEBUT
+20/11/2024 16:21:48 - INFO     -     UtilisateurDao.se_connecter('machin', '*****') - FIN
+20/11/2024 16:21:48 - INFO     -        └─> Sortie : None
+20/11/2024 16:21:48 - INFO     - AccueilVue
+20/11/2024 16:21:50 - INFO     - ConnexionVue
+20/11/2024 16:21:54 - INFO     -     UtilisateurDao.se_connecter('machin', '*****') - DEBUT
+20/11/2024 16:21:54 - INFO     -     UtilisateurDao.se_connecter('machin', '*****') - FIN
+20/11/2024 16:21:54 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001C62AA989D0>
+20/11/2024 16:21:54 - INFO     - MenuUtilisateurVue
+20/11/2024 16:21:55 - INFO     - EcranDuProfilVue
+20/11/2024 16:21:55 - INFO     - res trouver_collec_cohe_id_user : []
+20/11/2024 16:21:56 - INFO     - MenuUtilisateurVue
+20/11/2024 16:21:57 - INFO     - RechercheVue
+20/11/2024 16:21:59 - INFO     - RechercheMangaVue
+20/11/2024 16:22:02 - INFO     - rechercher_manga_par_titre
+20/11/2024 16:22:02 - INFO     - recherche_manga_par_t2
+20/11/2024 16:22:02 - INFO     - rechercher_manga_par_titre
+20/11/2024 16:22:02 - INFO     - recherche_manga_par_t2
+20/11/2024 16:22:02 - INFO     - rechercher_manga_par_titre
+20/11/2024 16:22:02 - INFO     - recherche_manga_par_t2
+20/11/2024 16:22:02 - INFO     - util:['Monster', 'Berserk', '20th Century Boys', 'Yokohama Kaidashi Kikou', 'Hajime no Ippo: Fighting Spirit!', 'Full Moon wo Sagashite', 'Tsubasa: RESERVoir CHRoNiCLE', 'xxxHOLiC']
+20/11/2024 16:22:04 - INFO     - SelectionMangaVuerecherche
+20/11/2024 16:22:09 - INFO     - ConsulterAvisMangaVuerecherche
+20/11/2024 16:22:09 - INFO     - res : [RealDictRow([('id_avis', 2), ('id_utilisateur', 5), ('id_manga', 5), ('texte', 'Incroyablement fou ')])]
+20/11/2024 16:22:09 - INFO     - res : [RealDictRow([('id_avis', 2), ('id_utilisateur', 5), ('id_manga', 5), ('texte', 'Incroyablement fou ')])]
+20/11/2024 16:22:09 - INFO     - list index out of range
+20/11/2024 16:22:09 - INFO     - AccueilVue
+20/11/2024 16:23:02 - INFO     - Fin de l'application
+20/11/2024 16:23:04 - INFO     - --------------------------------------------------
+20/11/2024 16:23:04 - INFO     - Lancement Application                           
+20/11/2024 16:23:04 - INFO     - --------------------------------------------------
+20/11/2024 16:23:04 - INFO     - AccueilVue
+20/11/2024 16:23:05 - INFO     - ConnexionVue
+20/11/2024 16:23:26 - INFO     -     UtilisateurDao.se_connecter('machin', '*****') - DEBUT
+20/11/2024 16:23:26 - INFO     -     UtilisateurDao.se_connecter('machin', '*****') - FIN
+20/11/2024 16:23:26 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001E2AD18DBD0>
+20/11/2024 16:23:26 - INFO     - MenuUtilisateurVue
+20/11/2024 16:23:28 - INFO     - RechercheVue
+20/11/2024 16:23:28 - INFO     - RechercheMangaVue
+20/11/2024 16:23:30 - INFO     - rechercher_manga_par_titre
+20/11/2024 16:23:30 - INFO     - recherche_manga_par_t2
+20/11/2024 16:23:30 - INFO     - rechercher_manga_par_titre
+20/11/2024 16:23:30 - INFO     - recherche_manga_par_t2
+20/11/2024 16:23:30 - INFO     - rechercher_manga_par_titre
+20/11/2024 16:23:30 - INFO     - recherche_manga_par_t2
+20/11/2024 16:23:30 - INFO     - util:['Monster', 'Berserk', '20th Century Boys', 'Yokohama Kaidashi Kikou', 'Hajime no Ippo: Fighting Spirit!', 'Full Moon wo Sagashite', 'Tsubasa: RESERVoir CHRoNiCLE', 'xxxHOLiC']
+20/11/2024 16:23:33 - INFO     - SelectionMangaVuerecherche
+20/11/2024 16:23:35 - INFO     - ConsulterAvisMangaVuerecherche
+20/11/2024 16:23:35 - INFO     - res : [RealDictRow([('id_avis', 1), ('id_utilisateur', 3), ('id_manga', 1), ('texte', 'supeer')])]
+20/11/2024 16:23:35 - INFO     - res : [RealDictRow([('id_avis', 1), ('id_utilisateur', 3), ('id_manga', 1), ('texte', 'supeer')])]
+20/11/2024 16:23:35 - INFO     - list index out of range
+20/11/2024 16:23:35 - INFO     - AccueilVue
+20/11/2024 16:24:22 - INFO     - ConnexionVue
+20/11/2024 16:26:23 - INFO     - --------------------------------------------------
+20/11/2024 16:26:23 - INFO     - Lancement Application                           
+20/11/2024 16:26:23 - INFO     - --------------------------------------------------
+20/11/2024 16:26:23 - INFO     - AccueilVue
+20/11/2024 16:26:25 - INFO     - ConnexionVue
+20/11/2024 16:26:34 - INFO     -     UtilisateurDao.se_connecter('machin', '*****') - DEBUT
+20/11/2024 16:26:34 - INFO     -     UtilisateurDao.se_connecter('machin', '*****') - FIN
+20/11/2024 16:26:34 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000025E08E6DD20>
+20/11/2024 16:26:34 - INFO     - MenuUtilisateurVue
+20/11/2024 16:26:36 - INFO     - RechercheVue
+20/11/2024 16:26:37 - INFO     - RechercheMangaVue
+20/11/2024 16:26:38 - INFO     - rechercher_manga_par_titre
+20/11/2024 16:26:38 - INFO     - recherche_manga_par_t2
+20/11/2024 16:26:38 - INFO     - rechercher_manga_par_titre
+20/11/2024 16:26:38 - INFO     - recherche_manga_par_t2
+20/11/2024 16:26:38 - INFO     - rechercher_manga_par_titre
+20/11/2024 16:26:38 - INFO     - recherche_manga_par_t2
+20/11/2024 16:26:38 - INFO     - util:['Monster', 'Berserk', '20th Century Boys', 'Yokohama Kaidashi Kikou', 'Hajime no Ippo: Fighting Spirit!', 'Full Moon wo Sagashite', 'Tsubasa: RESERVoir CHRoNiCLE', 'xxxHOLiC']
+20/11/2024 16:26:40 - INFO     - SelectionMangaVuerecherche
+20/11/2024 16:26:42 - INFO     - ConsulterAvisMangaVuerecherche
+20/11/2024 16:26:42 - INFO     - res : [RealDictRow([('id_avis', 1), ('id_utilisateur', 3), ('id_manga', 1), ('texte', 'supeer')])]
+20/11/2024 16:26:42 - INFO     - res : [RealDictRow([('id_avis', 1), ('id_utilisateur', 3), ('id_manga', 1), ('texte', 'supeer')])]
+20/11/2024 16:26:42 - INFO     - list index out of range
+20/11/2024 16:26:42 - INFO     - AccueilVue
+20/11/2024 16:28:34 - INFO     - Fin de l'application
+20/11/2024 16:28:38 - INFO     - --------------------------------------------------
+20/11/2024 16:28:38 - INFO     - Lancement Application                           
+20/11/2024 16:28:38 - INFO     - --------------------------------------------------
+20/11/2024 16:28:38 - INFO     - AccueilVue
+20/11/2024 16:28:39 - INFO     - ConnexionVue
+20/11/2024 16:28:49 - INFO     -     UtilisateurDao.se_connecter('machin', '*****') - DEBUT
+20/11/2024 16:28:49 - INFO     -     UtilisateurDao.se_connecter('machin', '*****') - FIN
+20/11/2024 16:28:49 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001846DB75960>
+20/11/2024 16:28:49 - INFO     - MenuUtilisateurVue
+20/11/2024 16:28:51 - INFO     - EcranDuProfilVue
+20/11/2024 16:28:51 - INFO     - res trouver_collec_cohe_id_user : []
+20/11/2024 16:28:54 - INFO     - MenuUtilisateurVue
+20/11/2024 16:28:54 - INFO     - RechercheVue
+20/11/2024 16:28:55 - INFO     - RechercheMangaVue
+20/11/2024 16:28:56 - INFO     - rechercher_manga_par_titre
+20/11/2024 16:28:56 - INFO     - recherche_manga_par_t2
+20/11/2024 16:28:56 - INFO     - rechercher_manga_par_titre
+20/11/2024 16:28:56 - INFO     - recherche_manga_par_t2
+20/11/2024 16:28:56 - INFO     - rechercher_manga_par_titre
+20/11/2024 16:28:56 - INFO     - recherche_manga_par_t2
+20/11/2024 16:28:56 - INFO     - util:['Monster', 'Berserk', '20th Century Boys', 'Yokohama Kaidashi Kikou', 'Hajime no Ippo: Fighting Spirit!', 'Full Moon wo Sagashite', 'Tsubasa: RESERVoir CHRoNiCLE', 'xxxHOLiC']
+20/11/2024 16:28:57 - INFO     - SelectionMangaVuerecherche
+20/11/2024 16:28:59 - INFO     - ConsulterAvisMangaVuerecherche
+20/11/2024 16:28:59 - INFO     - res : [RealDictRow([('id_avis', 1), ('id_utilisateur', 3), ('id_manga', 1), ('texte', 'supeer')])]
+20/11/2024 16:28:59 - INFO     - res : [RealDictRow([('id_avis', 1), ('id_utilisateur', 3), ('id_manga', 1), ('texte', 'supeer')])]
+20/11/2024 16:28:59 - INFO     - 1
+20/11/2024 16:28:59 - INFO     - list index out of range
+20/11/2024 16:28:59 - INFO     - AccueilVue
+20/11/2024 16:32:09 - INFO     - Fin de l'application
+20/11/2024 16:32:12 - INFO     - --------------------------------------------------
+20/11/2024 16:32:12 - INFO     - Lancement Application                           
+20/11/2024 16:32:12 - INFO     - --------------------------------------------------
+20/11/2024 16:32:12 - INFO     - AccueilVue
+20/11/2024 16:32:14 - INFO     - ConnexionVue
+20/11/2024 16:32:19 - INFO     -     UtilisateurDao.se_connecter('machin', '*****') - DEBUT
+20/11/2024 16:32:19 - INFO     -     UtilisateurDao.se_connecter('machin', '*****') - FIN
+20/11/2024 16:32:19 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000014BC1969960>
+20/11/2024 16:32:19 - INFO     - MenuUtilisateurVue
+20/11/2024 16:32:21 - INFO     - RechercheVue
+20/11/2024 16:32:21 - INFO     - RechercheMangaVue
+20/11/2024 16:32:22 - INFO     - rechercher_manga_par_titre
+20/11/2024 16:32:22 - INFO     - recherche_manga_par_t2
+20/11/2024 16:32:23 - INFO     - rechercher_manga_par_titre
+20/11/2024 16:32:23 - INFO     - recherche_manga_par_t2
+20/11/2024 16:32:23 - INFO     - rechercher_manga_par_titre
+20/11/2024 16:32:23 - INFO     - recherche_manga_par_t2
+20/11/2024 16:32:23 - INFO     - util:['Monster', 'Berserk', '20th Century Boys', 'Yokohama Kaidashi Kikou', 'Hajime no Ippo: Fighting Spirit!', 'Full Moon wo Sagashite', 'Tsubasa: RESERVoir CHRoNiCLE', 'xxxHOLiC']
+20/11/2024 16:32:25 - INFO     - SelectionMangaVuerecherche
+20/11/2024 16:32:27 - INFO     - ConsulterAvisMangaVuerecherche
+20/11/2024 16:32:27 - INFO     - res : [RealDictRow([('id_avis', 1), ('id_utilisateur', 3), ('id_manga', 1), ('texte', 'supeer')])]
+20/11/2024 16:32:27 - INFO     - res : [RealDictRow([('id_avis', 1), ('id_utilisateur', 3), ('id_manga', 1), ('texte', 'supeer')])]
+20/11/2024 16:32:27 - INFO     - [<business_object.avis.Avis object at 0x0000014BC3B28250>]
+20/11/2024 16:32:27 - INFO     - list index out of range
+20/11/2024 16:32:27 - INFO     - AccueilVue
+20/11/2024 16:32:52 - INFO     - Fin de l'application
+20/11/2024 16:32:55 - INFO     - --------------------------------------------------
+20/11/2024 16:32:55 - INFO     - Lancement Application                           
+20/11/2024 16:32:55 - INFO     - --------------------------------------------------
+20/11/2024 16:32:55 - INFO     - AccueilVue
+20/11/2024 16:32:56 - INFO     - ConnexionVue
+20/11/2024 16:33:07 - INFO     -     UtilisateurDao.se_connecter('machin', '*****') - DEBUT
+20/11/2024 16:33:07 - INFO     -     UtilisateurDao.se_connecter('machin', '*****') - FIN
+20/11/2024 16:33:07 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000002C4E836DD20>
+20/11/2024 16:33:07 - INFO     - MenuUtilisateurVue
+20/11/2024 16:33:08 - INFO     - RechercheVue
+20/11/2024 16:33:09 - INFO     - RechercheMangaVue
+20/11/2024 16:33:10 - INFO     - rechercher_manga_par_titre
+20/11/2024 16:33:10 - INFO     - recherche_manga_par_t2
+20/11/2024 16:33:10 - INFO     - rechercher_manga_par_titre
+20/11/2024 16:33:10 - INFO     - recherche_manga_par_t2
+20/11/2024 16:33:10 - INFO     - rechercher_manga_par_titre
+20/11/2024 16:33:10 - INFO     - recherche_manga_par_t2
+20/11/2024 16:33:10 - INFO     - util:['Monster', 'Berserk', '20th Century Boys', 'Yokohama Kaidashi Kikou', 'Hajime no Ippo: Fighting Spirit!', 'Full Moon wo Sagashite', 'Tsubasa: RESERVoir CHRoNiCLE', 'xxxHOLiC']
+20/11/2024 16:33:11 - INFO     - SelectionMangaVuerecherche
+20/11/2024 16:33:13 - INFO     - ConsulterAvisMangaVuerecherche
+20/11/2024 16:33:13 - INFO     - res : [RealDictRow([('id_avis', 1), ('id_utilisateur', 3), ('id_manga', 1), ('texte', 'supeer')])]
+20/11/2024 16:33:13 - INFO     - res : [RealDictRow([('id_avis', 1), ('id_utilisateur', 3), ('id_manga', 1), ('texte', 'supeer')])]
+20/11/2024 16:33:13 - INFO     - supeer
+20/11/2024 16:33:13 - INFO     - list index out of range
+20/11/2024 16:33:13 - INFO     - AccueilVue
+20/11/2024 16:33:57 - INFO     - Fin de l'application
+20/11/2024 16:34:00 - INFO     - --------------------------------------------------
+20/11/2024 16:34:00 - INFO     - Lancement Application                           
+20/11/2024 16:34:00 - INFO     - --------------------------------------------------
+20/11/2024 16:34:00 - INFO     - AccueilVue
+20/11/2024 16:34:02 - INFO     - ConnexionVue
+20/11/2024 16:34:08 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+20/11/2024 16:34:08 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+20/11/2024 16:34:08 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000023DF59E5A50>
+20/11/2024 16:34:08 - INFO     - MenuUtilisateurVue
+20/11/2024 16:34:10 - INFO     - RechercheVue
+20/11/2024 16:34:12 - INFO     - RechercheMangaVue
+20/11/2024 16:34:12 - INFO     - rechercher_manga_par_titre
+20/11/2024 16:34:12 - INFO     - recherche_manga_par_t2
+20/11/2024 16:34:13 - INFO     - rechercher_manga_par_titre
+20/11/2024 16:34:13 - INFO     - recherche_manga_par_t2
+20/11/2024 16:34:13 - INFO     - rechercher_manga_par_titre
+20/11/2024 16:34:13 - INFO     - recherche_manga_par_t2
+20/11/2024 16:34:13 - INFO     - util:['Monster', 'Berserk', '20th Century Boys', 'Yokohama Kaidashi Kikou', 'Hajime no Ippo: Fighting Spirit!', 'Full Moon wo Sagashite', 'Tsubasa: RESERVoir CHRoNiCLE', 'xxxHOLiC']
+20/11/2024 16:34:14 - INFO     - SelectionMangaVuerecherche
+20/11/2024 16:34:16 - INFO     - ConsulterAvisMangaVuerecherche
+20/11/2024 16:34:16 - INFO     - res : [RealDictRow([('id_avis', 1), ('id_utilisateur', 3), ('id_manga', 1), ('texte', 'supeer')])]
+20/11/2024 16:34:16 - INFO     - res : [RealDictRow([('id_avis', 1), ('id_utilisateur', 3), ('id_manga', 1), ('texte', 'supeer')])]
+20/11/2024 16:34:16 - INFO     - list index out of range
+20/11/2024 16:34:16 - INFO     - AccueilVue
+20/11/2024 16:38:23 - INFO     - Fin de l'application
+20/11/2024 16:39:43 - INFO     - --------------------------------------------------
+20/11/2024 16:39:43 - INFO     - Lancement Application                           
+20/11/2024 16:39:43 - INFO     - --------------------------------------------------
+20/11/2024 16:39:43 - INFO     - AccueilVue
+20/11/2024 16:39:47 - INFO     - ConnexionVue
+20/11/2024 16:39:52 - INFO     -     UtilisateurDao.se_connecter('machin', '*****') - DEBUT
+20/11/2024 16:39:52 - INFO     -     UtilisateurDao.se_connecter('machin', '*****') - FIN
+20/11/2024 16:39:52 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001B83E549960>
+20/11/2024 16:39:52 - INFO     - MenuUtilisateurVue
+20/11/2024 16:39:54 - INFO     - RechercheVue
+20/11/2024 16:39:54 - INFO     - RechercheMangaVue
+20/11/2024 16:39:55 - INFO     - rechercher_manga_par_titre
+20/11/2024 16:39:55 - INFO     - recherche_manga_par_t2
+20/11/2024 16:39:56 - INFO     - rechercher_manga_par_titre
+20/11/2024 16:39:56 - INFO     - recherche_manga_par_t2
+20/11/2024 16:39:56 - INFO     - rechercher_manga_par_titre
+20/11/2024 16:39:56 - INFO     - recherche_manga_par_t2
+20/11/2024 16:39:56 - INFO     - util:['Monster', 'Berserk', '20th Century Boys', 'Yokohama Kaidashi Kikou', 'Hajime no Ippo: Fighting Spirit!', 'Full Moon wo Sagashite', 'Tsubasa: RESERVoir CHRoNiCLE', 'xxxHOLiC']
+20/11/2024 16:39:57 - INFO     - SelectionMangaVuerecherche
+20/11/2024 16:40:00 - INFO     - ConsulterAvisMangaVuerecherche
+20/11/2024 16:40:00 - INFO     - res : [RealDictRow([('id_avis', 1), ('id_utilisateur', 3), ('id_manga', 1), ('texte', 'supeer')])]
+20/11/2024 16:40:00 - INFO     - 'int' object has no attribute 'pseudo'
+20/11/2024 16:40:00 - INFO     - AccueilVue
+20/11/2024 16:40:54 - INFO     - Fin de l'application
+20/11/2024 16:41:29 - INFO     - --------------------------------------------------
+20/11/2024 16:41:29 - INFO     - Lancement Application                           
+20/11/2024 16:41:29 - INFO     - --------------------------------------------------
+20/11/2024 16:41:29 - INFO     - AccueilVue
+20/11/2024 16:41:31 - INFO     - ConnexionVue
+20/11/2024 16:41:36 - INFO     -     UtilisateurDao.se_connecter('machin', '*****') - DEBUT
+20/11/2024 16:41:36 - INFO     -     UtilisateurDao.se_connecter('machin', '*****') - FIN
+20/11/2024 16:41:36 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000023E4AC39960>
+20/11/2024 16:41:36 - INFO     - MenuUtilisateurVue
+20/11/2024 16:41:37 - INFO     - RechercheVue
+20/11/2024 16:41:38 - INFO     - RechercheMangaVue
+20/11/2024 16:41:39 - INFO     - rechercher_manga_par_titre
+20/11/2024 16:41:39 - INFO     - recherche_manga_par_t2
+20/11/2024 16:41:39 - INFO     - rechercher_manga_par_titre
+20/11/2024 16:41:40 - INFO     - recherche_manga_par_t2
+20/11/2024 16:41:40 - INFO     - rechercher_manga_par_titre
+20/11/2024 16:41:40 - INFO     - recherche_manga_par_t2
+20/11/2024 16:41:40 - INFO     - util:['Monster', 'Berserk', '20th Century Boys', 'Yokohama Kaidashi Kikou', 'Hajime no Ippo: Fighting Spirit!', 'Full Moon wo Sagashite', 'Tsubasa: RESERVoir CHRoNiCLE', 'xxxHOLiC']
+20/11/2024 16:41:40 - INFO     - SelectionMangaVuerecherche
+20/11/2024 16:41:43 - INFO     - ConsulterAvisMangaVuerecherche
+20/11/2024 16:41:43 - INFO     - res : [RealDictRow([('id_avis', 1), ('id_utilisateur', 3), ('id_manga', 1), ('texte', 'supeer')])]
+20/11/2024 16:41:43 - INFO     - res : [RealDictRow([('id_avis', 1), ('id_utilisateur', 3), ('id_manga', 1), ('texte', 'supeer')])]
+20/11/2024 16:42:06 - INFO     - RechercheMangaVue
+20/11/2024 16:43:35 - INFO     - --------------------------------------------------
+20/11/2024 16:43:35 - INFO     - Lancement Application                           
+20/11/2024 16:43:35 - INFO     - --------------------------------------------------
+20/11/2024 16:43:35 - INFO     - AccueilVue
+20/11/2024 16:43:36 - INFO     - ConnexionVue
+20/11/2024 16:43:44 - INFO     -     UtilisateurDao.se_connecter('machin', '*****') - DEBUT
+20/11/2024 16:43:44 - INFO     -     UtilisateurDao.se_connecter('machin', '*****') - FIN
+20/11/2024 16:43:44 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001FA5DB15960>
+20/11/2024 16:43:44 - INFO     - MenuUtilisateurVue
+20/11/2024 16:44:23 - INFO     - RechercheVue
+20/11/2024 16:44:24 - INFO     - RechercheMangaVue
+20/11/2024 16:44:25 - INFO     - rechercher_manga_par_titre
+20/11/2024 16:44:25 - INFO     - recherche_manga_par_t2
+20/11/2024 16:44:26 - INFO     - rechercher_manga_par_titre
+20/11/2024 16:44:26 - INFO     - recherche_manga_par_t2
+20/11/2024 16:44:26 - INFO     - rechercher_manga_par_titre
+20/11/2024 16:44:26 - INFO     - recherche_manga_par_t2
+20/11/2024 16:44:26 - INFO     - util:['Monster', 'Berserk', '20th Century Boys', 'Yokohama Kaidashi Kikou', 'Hajime no Ippo: Fighting Spirit!', 'Full Moon wo Sagashite', 'Tsubasa: RESERVoir CHRoNiCLE', 'xxxHOLiC']
+20/11/2024 16:44:29 - INFO     - SelectionMangaVuerecherche
+20/11/2024 16:44:30 - INFO     - ConsulterAvisMangaVuerecherche
+20/11/2024 16:44:31 - INFO     - res : [RealDictRow([('id_avis', 2), ('id_utilisateur', 5), ('id_manga', 5), ('texte', 'Incroyablement fou ')])]
+20/11/2024 16:44:31 - INFO     - res : [RealDictRow([('id_avis', 2), ('id_utilisateur', 5), ('id_manga', 5), ('texte', 'Incroyablement fou ')])]
+20/11/2024 16:44:33 - INFO     - SelectionMangaVuerecherche
+20/11/2024 16:44:45 - INFO     - RechercheMangaVue
+20/11/2024 16:44:46 - INFO     - rechercher_manga_par_titre
+20/11/2024 16:44:46 - INFO     - recherche_manga_par_t2
+20/11/2024 16:44:46 - INFO     - rechercher_manga_par_titre
+20/11/2024 16:44:46 - INFO     - recherche_manga_par_t2
+20/11/2024 16:44:47 - INFO     - rechercher_manga_par_titre
+20/11/2024 16:44:47 - INFO     - recherche_manga_par_t2
+20/11/2024 16:44:47 - INFO     - util:['Monster', 'Berserk', '20th Century Boys', 'Yokohama Kaidashi Kikou', 'Hajime no Ippo: Fighting Spirit!', 'Full Moon wo Sagashite', 'Tsubasa: RESERVoir CHRoNiCLE', 'xxxHOLiC']
+20/11/2024 16:44:49 - INFO     - SelectionMangaVuerecherche
+20/11/2024 16:44:51 - INFO     - MenuUtilisateurVue
+20/11/2024 16:44:53 - INFO     - EcranDuProfilVue
+20/11/2024 16:44:53 - INFO     - res trouver_collec_cohe_id_user : []
+20/11/2024 16:44:55 - INFO     - res : []
+20/11/2024 16:44:55 - INFO     - res trouver_collec_cohe_id_user : []
+20/11/2024 16:45:00 - INFO     - MenuUtilisateurVue
+20/11/2024 16:45:01 - INFO     - RechercheVue
+20/11/2024 16:45:03 - INFO     - RechercheMangaVue
+20/11/2024 16:45:04 - INFO     - rechercher_manga_par_titre
+20/11/2024 16:45:04 - INFO     - recherche_manga_par_t2
+20/11/2024 16:45:04 - INFO     - rechercher_manga_par_titre
+20/11/2024 16:45:04 - INFO     - recherche_manga_par_t2
+20/11/2024 16:45:04 - INFO     - rechercher_manga_par_titre
+20/11/2024 16:45:04 - INFO     - recherche_manga_par_t2
+20/11/2024 16:45:04 - INFO     - util:['Monster', 'Berserk', '20th Century Boys', 'Yokohama Kaidashi Kikou', 'Hajime no Ippo: Fighting Spirit!', 'Full Moon wo Sagashite', 'Tsubasa: RESERVoir CHRoNiCLE', 'xxxHOLiC']
+20/11/2024 16:45:06 - INFO     - SelectionMangaVuerecherche
+20/11/2024 16:45:08 - INFO     - AjouterAvisVuerecherche
+20/11/2024 16:45:17 - INFO     - Avis : j'aime pas la baston
+20/11/2024 16:45:17 - INFO     - id:6 et manga:5
+20/11/2024 16:45:17 - INFO     - Avis : j'aime pas la baston
+20/11/2024 16:45:17 - INFO     - SelectionMangaVuerecherche
+20/11/2024 16:45:27 - INFO     - AjouterMangaCollecVuerecherche
+20/11/2024 16:45:27 - INFO     - res trouver_collec_cohe_id_user : []
+20/11/2024 16:45:27 - INFO     - res de recherche_collec_cohe_par_id : None
+20/11/2024 16:45:27 - INFO     - listecolleccohe type: <class 'list'>, contenu: []
+20/11/2024 16:45:27 - INFO     - collection_physique type: , contenu: None
+20/11/2024 16:45:27 - INFO     - listecollections: []
+20/11/2024 16:45:27 - INFO     - MenuUtilisateurVue
+20/11/2024 16:45:27 - INFO     - Fin de l'application
+20/11/2024 16:48:16 - INFO     - --------------------------------------------------
+20/11/2024 16:48:16 - INFO     - Lancement Application                           
+20/11/2024 16:48:16 - INFO     - --------------------------------------------------
+20/11/2024 16:48:17 - INFO     - AccueilVue
+20/11/2024 16:48:18 - INFO     - ConnexionVue
+20/11/2024 16:48:27 - INFO     -     UtilisateurDao.se_connecter('machin', '*****') - DEBUT
+20/11/2024 16:48:27 - INFO     -     UtilisateurDao.se_connecter('machin', '*****') - FIN
+20/11/2024 16:48:27 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001DC107B1CF0>
+20/11/2024 16:48:27 - INFO     - MenuUtilisateurVue
+20/11/2024 16:48:29 - INFO     - RechercheVue
+20/11/2024 16:48:29 - INFO     - RechercheMangaVue
+20/11/2024 16:48:30 - INFO     - rechercher_manga_par_titre
+20/11/2024 16:48:30 - INFO     - recherche_manga_par_t2
+20/11/2024 16:48:31 - INFO     - rechercher_manga_par_titre
+20/11/2024 16:48:31 - INFO     - recherche_manga_par_t2
+20/11/2024 16:48:31 - INFO     - rechercher_manga_par_titre
+20/11/2024 16:48:31 - INFO     - recherche_manga_par_t2
+20/11/2024 16:48:31 - INFO     - util:['Monster', 'Berserk', '20th Century Boys', 'Yokohama Kaidashi Kikou', 'Hajime no Ippo: Fighting Spirit!', 'Full Moon wo Sagashite', 'Tsubasa: RESERVoir CHRoNiCLE', 'xxxHOLiC']
+20/11/2024 16:48:33 - INFO     - SelectionMangaVuerecherche
+20/11/2024 16:48:34 - INFO     - AjouterMangaCollecVuerecherche
+20/11/2024 16:48:34 - INFO     - res trouver_collec_cohe_id_user : []
+20/11/2024 16:48:34 - INFO     - res de recherche_collec_cohe_par_id : None
+20/11/2024 16:48:34 - INFO     - listecolleccohe type: <class 'list'>, contenu: []
+20/11/2024 16:48:34 - INFO     - collection_physique type: , contenu: None
+20/11/2024 16:48:34 - INFO     - listecollections: []
+20/11/2024 16:48:34 - INFO     - SelectionMangaVuerecherche
+20/11/2024 16:48:47 - INFO     - ConsulterAvisMangaVuerecherche
+20/11/2024 16:48:47 - INFO     - res : [RealDictRow([('id_avis', 2), ('id_utilisateur', 5), ('id_manga', 5), ('texte', 'Incroyablement fou ')]), RealDictRow([('id_avis', 3), ('id_utilisateur', 6), ('id_manga', 5), ('texte', "j'aime pas la baston")])]
+20/11/2024 16:48:47 - INFO     - res : [RealDictRow([('id_avis', 2), ('id_utilisateur', 5), ('id_manga', 5), ('texte', 'Incroyablement fou ')]), RealDictRow([('id_avis', 3), ('id_utilisateur', 6), ('id_manga', 5), ('texte', "j'aime pas la baston")])]
+20/11/2024 16:52:07 - INFO     - --------------------------------------------------
+20/11/2024 16:52:07 - INFO     - Lancement Application                           
+20/11/2024 16:52:07 - INFO     - --------------------------------------------------
+20/11/2024 16:52:07 - INFO     - AccueilVue
+20/11/2024 16:52:09 - INFO     - ConnexionVue
+20/11/2024 16:52:17 - INFO     -     UtilisateurDao.se_connecter('machin', '*****') - DEBUT
+20/11/2024 16:52:17 - INFO     -     UtilisateurDao.se_connecter('machin', '*****') - FIN
+20/11/2024 16:52:17 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x00000257D8409BD0>
+20/11/2024 16:52:17 - INFO     - MenuUtilisateurVue
+20/11/2024 16:52:18 - INFO     - EcranDuProfilVue
+20/11/2024 16:52:18 - INFO     - res trouver_collec_cohe_id_user : []
+20/11/2024 16:52:21 - INFO     - res : [RealDictRow([('id_avis', 3), ('id_utilisateur', 6), ('id_manga', 5), ('texte', "j'aime pas la baston")])]
+20/11/2024 16:52:21 - INFO     - MenuAvis
+20/11/2024 16:52:21 - INFO     - res : [RealDictRow([('id_avis', 3), ('id_utilisateur', 6), ('id_manga', 5), ('texte', "j'aime pas la baston")])]
+20/11/2024 16:52:24 - INFO     - list index out of range
+20/11/2024 16:52:24 - INFO     - AccueilVue
+20/11/2024 16:52:30 - INFO     - ConnexionVue
+20/11/2024 16:52:36 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - DEBUT
+20/11/2024 16:52:36 - INFO     -     UtilisateurDao.se_connecter('Emilien', '*****') - FIN
+20/11/2024 16:52:36 - INFO     -        └─> Sortie : None
+20/11/2024 16:52:36 - INFO     - AccueilVue
+20/11/2024 16:52:37 - INFO     - ConnexionVue
+20/11/2024 16:52:42 - INFO     -     UtilisateurDao.se_connecter('machin', '*****') - DEBUT
+20/11/2024 16:52:42 - INFO     -     UtilisateurDao.se_connecter('machin', '*****') - FIN
+20/11/2024 16:52:42 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x00000257D89AE620>
+20/11/2024 16:52:42 - INFO     - MenuUtilisateurVue
+20/11/2024 16:52:44 - INFO     - RechercheVue
+20/11/2024 16:52:45 - INFO     - RechercheMangaVue
+20/11/2024 16:52:47 - INFO     - rechercher_manga_par_titre
+20/11/2024 16:52:47 - INFO     - recherche_manga_par_t2
+20/11/2024 16:52:47 - INFO     - rechercher_manga_par_titre
+20/11/2024 16:52:47 - INFO     - recherche_manga_par_t2
+20/11/2024 16:52:47 - INFO     - rechercher_manga_par_titre
+20/11/2024 16:52:47 - INFO     - recherche_manga_par_t2
+20/11/2024 16:52:47 - INFO     - util:['Monster', 'Berserk', '20th Century Boys', 'Yokohama Kaidashi Kikou', 'Hajime no Ippo: Fighting Spirit!', 'Full Moon wo Sagashite', 'Tsubasa: RESERVoir CHRoNiCLE', 'xxxHOLiC']
+20/11/2024 16:52:49 - INFO     - SelectionMangaVuerecherche
+20/11/2024 16:52:50 - INFO     - ConsulterAvisMangaVuerecherche
+20/11/2024 16:52:50 - INFO     - res : [RealDictRow([('id_avis', 2), ('id_utilisateur', 5), ('id_manga', 5), ('texte', 'Incroyablement fou ')]), RealDictRow([('id_avis', 3), ('id_utilisateur', 6), ('id_manga', 5), ('texte', "j'aime pas la baston")])]
+20/11/2024 16:52:50 - INFO     - res : [RealDictRow([('id_avis', 2), ('id_utilisateur', 5), ('id_manga', 5), ('texte', 'Incroyablement fou ')]), RealDictRow([('id_avis', 3), ('id_utilisateur', 6), ('id_manga', 5), ('texte', "j'aime pas la baston")])]
+20/11/2024 16:52:50 - INFO     - local variable 'AvisDAO' referenced before assignment
+20/11/2024 16:52:50 - INFO     - AccueilVue
+20/11/2024 16:53:18 - INFO     - Fin de l'application
+20/11/2024 16:53:20 - INFO     - --------------------------------------------------
+20/11/2024 16:53:20 - INFO     - Lancement Application                           
+20/11/2024 16:53:20 - INFO     - --------------------------------------------------
+20/11/2024 16:53:20 - INFO     - AccueilVue
+20/11/2024 16:53:21 - INFO     - ConnexionVue
+20/11/2024 16:53:28 - INFO     -     UtilisateurDao.se_connecter('machin', '*****') - DEBUT
+20/11/2024 16:53:28 - INFO     -     UtilisateurDao.se_connecter('machin', '*****') - FIN
+20/11/2024 16:53:28 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x00000188144C9B10>
+20/11/2024 16:53:28 - INFO     - MenuUtilisateurVue
+20/11/2024 16:53:29 - INFO     - RechercheVue
+20/11/2024 16:53:30 - INFO     - RechercheMangaVue
+20/11/2024 16:53:32 - INFO     - rechercher_manga_par_titre
+20/11/2024 16:53:32 - INFO     - recherche_manga_par_t2
+20/11/2024 16:53:32 - INFO     - rechercher_manga_par_titre
+20/11/2024 16:53:32 - INFO     - recherche_manga_par_t2
+20/11/2024 16:53:32 - INFO     - rechercher_manga_par_titre
+20/11/2024 16:53:32 - INFO     - recherche_manga_par_t2
+20/11/2024 16:53:32 - INFO     - util:['Monster', 'Berserk', '20th Century Boys', 'Yokohama Kaidashi Kikou', 'Hajime no Ippo: Fighting Spirit!', 'Full Moon wo Sagashite', 'Tsubasa: RESERVoir CHRoNiCLE', 'xxxHOLiC']
+20/11/2024 16:53:34 - INFO     - SelectionMangaVuerecherche
+20/11/2024 16:53:36 - INFO     - ConsulterAvisMangaVuerecherche
+20/11/2024 16:53:36 - INFO     - res : [RealDictRow([('id_avis', 2), ('id_utilisateur', 5), ('id_manga', 5), ('texte', 'Incroyablement fou ')]), RealDictRow([('id_avis', 3), ('id_utilisateur', 6), ('id_manga', 5), ('texte', "j'aime pas la baston")])]
+20/11/2024 16:53:36 - INFO     - res : [RealDictRow([('id_avis', 2), ('id_utilisateur', 5), ('id_manga', 5), ('texte', 'Incroyablement fou ')]), RealDictRow([('id_avis', 3), ('id_utilisateur', 6), ('id_manga', 5), ('texte', "j'aime pas la baston")])]
+20/11/2024 16:54:49 - INFO     - --------------------------------------------------
+20/11/2024 16:54:49 - INFO     - Lancement Application                           
+20/11/2024 16:54:49 - INFO     - --------------------------------------------------
+20/11/2024 16:54:49 - INFO     - AccueilVue
+20/11/2024 16:54:50 - INFO     - ConnexionVue
+20/11/2024 16:54:57 - INFO     -     UtilisateurDao.se_connecter('machin', '*****') - DEBUT
+20/11/2024 16:54:57 - INFO     -     UtilisateurDao.se_connecter('machin', '*****') - FIN
+20/11/2024 16:54:57 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000002929A175B10>
+20/11/2024 16:54:57 - INFO     - MenuUtilisateurVue
+20/11/2024 16:54:59 - INFO     - RechercheVue
+20/11/2024 16:54:59 - INFO     - RechercheMangaVue
+20/11/2024 16:55:00 - INFO     - rechercher_manga_par_titre
+20/11/2024 16:55:00 - INFO     - recherche_manga_par_t2
+20/11/2024 16:55:01 - INFO     - rechercher_manga_par_titre
+20/11/2024 16:55:01 - INFO     - recherche_manga_par_t2
+20/11/2024 16:55:01 - INFO     - rechercher_manga_par_titre
+20/11/2024 16:55:01 - INFO     - recherche_manga_par_t2
+20/11/2024 16:55:01 - INFO     - util:['Monster', 'Berserk', '20th Century Boys', 'Yokohama Kaidashi Kikou', 'Hajime no Ippo: Fighting Spirit!', 'Full Moon wo Sagashite', 'Tsubasa: RESERVoir CHRoNiCLE', 'xxxHOLiC']
+20/11/2024 16:55:02 - INFO     - SelectionMangaVuerecherche
+20/11/2024 16:55:04 - INFO     - RechercheMangaVue
+20/11/2024 16:55:05 - INFO     - rechercher_manga_par_titre
+20/11/2024 16:55:05 - INFO     - recherche_manga_par_t2
+20/11/2024 16:55:05 - INFO     - rechercher_manga_par_titre
+20/11/2024 16:55:05 - INFO     - recherche_manga_par_t2
+20/11/2024 16:55:06 - INFO     - rechercher_manga_par_titre
+20/11/2024 16:55:06 - INFO     - recherche_manga_par_t2
+20/11/2024 16:55:06 - INFO     - util:['Monster', 'Berserk', '20th Century Boys', 'Yokohama Kaidashi Kikou', 'Hajime no Ippo: Fighting Spirit!', 'Full Moon wo Sagashite', 'Tsubasa: RESERVoir CHRoNiCLE', 'xxxHOLiC']
+20/11/2024 16:55:07 - INFO     - SelectionMangaVuerecherche
+20/11/2024 16:55:10 - INFO     - ConsulterAvisMangaVuerecherche
+20/11/2024 16:55:10 - INFO     - res : [RealDictRow([('id_avis', 2), ('id_utilisateur', 5), ('id_manga', 5), ('texte', 'Incroyablement fou ')]), RealDictRow([('id_avis', 3), ('id_utilisateur', 6), ('id_manga', 5), ('texte', "j'aime pas la baston")])]
+20/11/2024 16:55:10 - INFO     - res : [RealDictRow([('id_avis', 2), ('id_utilisateur', 5), ('id_manga', 5), ('texte', 'Incroyablement fou ')]), RealDictRow([('id_avis', 3), ('id_utilisateur', 6), ('id_manga', 5), ('texte', "j'aime pas la baston")])]
+20/11/2024 16:55:17 - INFO     - 'list' object has no attribute 'id_avis'
+20/11/2024 16:55:17 - INFO     - ConsulterAvisMangaVuerecherche
+20/11/2024 16:55:17 - INFO     - ConsulterAvisMangaVuerecherche.choisir_menu() missing 1 required positional argument: 'choixm'
+20/11/2024 16:55:17 - INFO     - AccueilVue
+20/11/2024 16:55:55 - INFO     - Fin de l'application
+20/11/2024 16:55:58 - INFO     - --------------------------------------------------
+20/11/2024 16:55:58 - INFO     - Lancement Application                           
+20/11/2024 16:55:58 - INFO     - --------------------------------------------------
+20/11/2024 16:55:58 - INFO     - AccueilVue
+20/11/2024 16:55:59 - INFO     - ConnexionVue
+20/11/2024 16:56:04 - INFO     -     UtilisateurDao.se_connecter('machin', '*****') - DEBUT
+20/11/2024 16:56:04 - INFO     -     UtilisateurDao.se_connecter('machin', '*****') - FIN
+20/11/2024 16:56:04 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x0000023FDC169AB0>
+20/11/2024 16:56:04 - INFO     - MenuUtilisateurVue
+20/11/2024 16:56:07 - INFO     - RechercheVue
+20/11/2024 16:56:08 - INFO     - RechercheMangaVue
+20/11/2024 16:56:09 - INFO     - rechercher_manga_par_titre
+20/11/2024 16:56:09 - INFO     - recherche_manga_par_t2
+20/11/2024 16:56:10 - INFO     - rechercher_manga_par_titre
+20/11/2024 16:56:10 - INFO     - recherche_manga_par_t2
+20/11/2024 16:56:10 - INFO     - rechercher_manga_par_titre
+20/11/2024 16:56:10 - INFO     - recherche_manga_par_t2
+20/11/2024 16:56:10 - INFO     - util:['Monster', 'Berserk', '20th Century Boys', 'Yokohama Kaidashi Kikou', 'Hajime no Ippo: Fighting Spirit!', 'Full Moon wo Sagashite', 'Tsubasa: RESERVoir CHRoNiCLE', 'xxxHOLiC']
+20/11/2024 16:56:12 - INFO     - SelectionMangaVuerecherche
+20/11/2024 16:56:13 - INFO     - ConsulterAvisMangaVuerecherche
+20/11/2024 16:56:13 - INFO     - res : [RealDictRow([('id_avis', 2), ('id_utilisateur', 5), ('id_manga', 5), ('texte', 'Incroyablement fou ')]), RealDictRow([('id_avis', 3), ('id_utilisateur', 6), ('id_manga', 5), ('texte', "j'aime pas la baston")])]
+20/11/2024 16:56:13 - INFO     - res : [RealDictRow([('id_avis', 2), ('id_utilisateur', 5), ('id_manga', 5), ('texte', 'Incroyablement fou ')]), RealDictRow([('id_avis', 3), ('id_utilisateur', 6), ('id_manga', 5), ('texte', "j'aime pas la baston")])]
+20/11/2024 16:56:23 - INFO     - 'list' object has no attribute 'id_avis'
+20/11/2024 16:56:23 - INFO     - ConsulterAvisMangaVuerecherche
+20/11/2024 16:56:23 - INFO     - ConsulterAvisMangaVuerecherche.choisir_menu() missing 1 required positional argument: 'choixm'
+20/11/2024 16:56:23 - INFO     - AccueilVue
+20/11/2024 16:57:20 - INFO     - Fin de l'application
+20/11/2024 16:57:22 - INFO     - --------------------------------------------------
+20/11/2024 16:57:22 - INFO     - Lancement Application                           
+20/11/2024 16:57:22 - INFO     - --------------------------------------------------
+20/11/2024 16:57:22 - INFO     - AccueilVue
+20/11/2024 16:57:24 - INFO     - ConnexionVue
+20/11/2024 16:57:30 - INFO     -     UtilisateurDao.se_connecter('machin', '*****') - DEBUT
+20/11/2024 16:57:30 - INFO     -     UtilisateurDao.se_connecter('machin', '*****') - FIN
+20/11/2024 16:57:30 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x00000202E1D25960>
+20/11/2024 16:57:30 - INFO     - MenuUtilisateurVue
+20/11/2024 16:57:32 - INFO     - RechercheVue
+20/11/2024 16:57:34 - INFO     - RechercheMangaVue
+20/11/2024 16:57:35 - INFO     - rechercher_manga_par_titre
+20/11/2024 16:57:35 - INFO     - recherche_manga_par_t2
+20/11/2024 16:57:35 - INFO     - rechercher_manga_par_titre
+20/11/2024 16:57:35 - INFO     - recherche_manga_par_t2
+20/11/2024 16:57:35 - INFO     - rechercher_manga_par_titre
+20/11/2024 16:57:35 - INFO     - recherche_manga_par_t2
+20/11/2024 16:57:35 - INFO     - util:['Monster', 'Berserk', '20th Century Boys', 'Yokohama Kaidashi Kikou', 'Hajime no Ippo: Fighting Spirit!', 'Full Moon wo Sagashite', 'Tsubasa: RESERVoir CHRoNiCLE', 'xxxHOLiC']
+20/11/2024 16:57:44 - INFO     - SelectionMangaVuerecherche
+20/11/2024 16:57:45 - INFO     - ConsulterAvisMangaVuerecherche
+20/11/2024 16:57:45 - INFO     - res : [RealDictRow([('id_avis', 2), ('id_utilisateur', 5), ('id_manga', 5), ('texte', 'Incroyablement fou ')]), RealDictRow([('id_avis', 3), ('id_utilisateur', 6), ('id_manga', 5), ('texte', "j'aime pas la baston")])]
+20/11/2024 16:57:45 - INFO     - res : [RealDictRow([('id_avis', 2), ('id_utilisateur', 5), ('id_manga', 5), ('texte', 'Incroyablement fou ')]), RealDictRow([('id_avis', 3), ('id_utilisateur', 6), ('id_manga', 5), ('texte', "j'aime pas la baston")])]
+20/11/2024 16:57:50 - INFO     - 'list' object has no attribute 'id_avis'
+20/11/2024 16:57:50 - INFO     - ConsulterAvisMangaVuerecherche.choisir_menu() missing 1 required positional argument: 'choixm'
+20/11/2024 16:57:50 - INFO     - AccueilVue
+20/11/2024 16:58:03 - INFO     - Fin de l'application
+20/11/2024 16:58:06 - INFO     - --------------------------------------------------
+20/11/2024 16:58:06 - INFO     - Lancement Application                           
+20/11/2024 16:58:06 - INFO     - --------------------------------------------------
+20/11/2024 16:58:06 - INFO     - AccueilVue
+20/11/2024 16:58:07 - INFO     - ConnexionVue
+20/11/2024 16:58:11 - INFO     -     UtilisateurDao.se_connecter('machin', '*****') - DEBUT
+20/11/2024 16:58:11 - INFO     -     UtilisateurDao.se_connecter('machin', '*****') - FIN
+20/11/2024 16:58:11 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x000001C2FFC85960>
+20/11/2024 16:58:11 - INFO     - MenuUtilisateurVue
+20/11/2024 16:58:13 - INFO     - RechercheVue
+20/11/2024 16:58:14 - INFO     - RechercheMangaVue
+20/11/2024 16:58:15 - INFO     - rechercher_manga_par_titre
+20/11/2024 16:58:15 - INFO     - recherche_manga_par_t2
+20/11/2024 16:58:15 - INFO     - rechercher_manga_par_titre
+20/11/2024 16:58:15 - INFO     - recherche_manga_par_t2
+20/11/2024 16:58:15 - INFO     - rechercher_manga_par_titre
+20/11/2024 16:58:15 - INFO     - recherche_manga_par_t2
+20/11/2024 16:58:15 - INFO     - util:['Monster', 'Berserk', '20th Century Boys', 'Yokohama Kaidashi Kikou', 'Hajime no Ippo: Fighting Spirit!', 'Full Moon wo Sagashite', 'Tsubasa: RESERVoir CHRoNiCLE', 'xxxHOLiC']
+20/11/2024 16:58:17 - INFO     - SelectionMangaVuerecherche
+20/11/2024 16:58:18 - INFO     - ConsulterAvisMangaVuerecherche
+20/11/2024 16:58:18 - INFO     - res : [RealDictRow([('id_avis', 2), ('id_utilisateur', 5), ('id_manga', 5), ('texte', 'Incroyablement fou ')]), RealDictRow([('id_avis', 3), ('id_utilisateur', 6), ('id_manga', 5), ('texte', "j'aime pas la baston")])]
+20/11/2024 16:58:18 - INFO     - res : [RealDictRow([('id_avis', 2), ('id_utilisateur', 5), ('id_manga', 5), ('texte', 'Incroyablement fou ')]), RealDictRow([('id_avis', 3), ('id_utilisateur', 6), ('id_manga', 5), ('texte', "j'aime pas la baston")])]
+20/11/2024 16:58:22 - INFO     - 'list' object has no attribute 'id_avis'
+20/11/2024 16:58:23 - INFO     - ConsulterAvisMangaVuerecherche
+20/11/2024 16:58:23 - INFO     - res : [RealDictRow([('id_avis', 2), ('id_utilisateur', 5), ('id_manga', 5), ('texte', 'Incroyablement fou ')]), RealDictRow([('id_avis', 3), ('id_utilisateur', 6), ('id_manga', 5), ('texte', "j'aime pas la baston")])]
+20/11/2024 16:58:23 - INFO     - res : [RealDictRow([('id_avis', 2), ('id_utilisateur', 5), ('id_manga', 5), ('texte', 'Incroyablement fou ')]), RealDictRow([('id_avis', 3), ('id_utilisateur', 6), ('id_manga', 5), ('texte', "j'aime pas la baston")])]
+20/11/2024 16:59:30 - INFO     - --------------------------------------------------
+20/11/2024 16:59:30 - INFO     - Lancement Application                           
+20/11/2024 16:59:30 - INFO     - --------------------------------------------------
+20/11/2024 16:59:30 - INFO     - AccueilVue
+20/11/2024 16:59:31 - INFO     - ConnexionVue
+20/11/2024 16:59:36 - INFO     -     UtilisateurDao.se_connecter('machin', '*****') - DEBUT
+20/11/2024 16:59:36 - INFO     -     UtilisateurDao.se_connecter('machin', '*****') - FIN
+20/11/2024 16:59:36 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x00000143958C9930>
+20/11/2024 16:59:36 - INFO     - MenuUtilisateurVue
+20/11/2024 16:59:38 - INFO     - RechercheVue
+20/11/2024 16:59:40 - INFO     - RechercheMangaVue
+20/11/2024 16:59:41 - INFO     - rechercher_manga_par_titre
+20/11/2024 16:59:41 - INFO     - recherche_manga_par_t2
+20/11/2024 16:59:41 - INFO     - rechercher_manga_par_titre
+20/11/2024 16:59:41 - INFO     - recherche_manga_par_t2
+20/11/2024 16:59:42 - INFO     - rechercher_manga_par_titre
+20/11/2024 16:59:42 - INFO     - recherche_manga_par_t2
+20/11/2024 16:59:42 - INFO     - util:['Monster', 'Berserk', '20th Century Boys', 'Yokohama Kaidashi Kikou', 'Hajime no Ippo: Fighting Spirit!', 'Full Moon wo Sagashite', 'Tsubasa: RESERVoir CHRoNiCLE', 'xxxHOLiC']
+20/11/2024 16:59:44 - INFO     - SelectionMangaVuerecherche
+20/11/2024 16:59:45 - INFO     - ConsulterAvisMangaVuerecherche
+20/11/2024 16:59:45 - INFO     - res : [RealDictRow([('id_avis', 2), ('id_utilisateur', 5), ('id_manga', 5), ('texte', 'Incroyablement fou ')]), RealDictRow([('id_avis', 3), ('id_utilisateur', 6), ('id_manga', 5), ('texte', "j'aime pas la baston")])]
+20/11/2024 16:59:45 - INFO     - res : [RealDictRow([('id_avis', 2), ('id_utilisateur', 5), ('id_manga', 5), ('texte', 'Incroyablement fou ')]), RealDictRow([('id_avis', 3), ('id_utilisateur', 6), ('id_manga', 5), ('texte', "j'aime pas la baston")])]
+20/11/2024 17:00:01 - INFO     - 'list' object has no attribute 'id_avis'
+20/11/2024 17:00:01 - INFO     - ConsulterAvisMangaVuerecherche
+20/11/2024 17:00:01 - INFO     - res : [RealDictRow([('id_avis', 2), ('id_utilisateur', 5), ('id_manga', 5), ('texte', 'Incroyablement fou ')]), RealDictRow([('id_avis', 3), ('id_utilisateur', 6), ('id_manga', 5), ('texte', "j'aime pas la baston")])]
+20/11/2024 17:00:01 - INFO     - res : [RealDictRow([('id_avis', 2), ('id_utilisateur', 5), ('id_manga', 5), ('texte', 'Incroyablement fou ')]), RealDictRow([('id_avis', 3), ('id_utilisateur', 6), ('id_manga', 5), ('texte', "j'aime pas la baston")])]
+20/11/2024 17:03:49 - INFO     - --------------------------------------------------
+20/11/2024 17:03:49 - INFO     - Lancement Application                           
+20/11/2024 17:03:49 - INFO     - --------------------------------------------------
+20/11/2024 17:03:49 - INFO     - AccueilVue
+20/11/2024 17:03:50 - INFO     - ConnexionVue
+20/11/2024 17:03:58 - INFO     -     UtilisateurDao.se_connecter('machin', '*****') - DEBUT
+20/11/2024 17:03:58 - INFO     -     UtilisateurDao.se_connecter('machin', '*****') - FIN
+20/11/2024 17:03:58 - INFO     -        └─> Sortie : <business_object.utilisateur.Utilisateur object at 0x00000223491F9AB0>
+20/11/2024 17:03:58 - INFO     - MenuUtilisateurVue
+20/11/2024 17:03:59 - INFO     - RechercheVue
+20/11/2024 17:04:01 - INFO     - RechercheMangaVue
+20/11/2024 17:04:02 - INFO     - rechercher_manga_par_titre
+20/11/2024 17:04:02 - INFO     - recherche_manga_par_t2
+20/11/2024 17:04:03 - INFO     - rechercher_manga_par_titre
+20/11/2024 17:04:03 - INFO     - recherche_manga_par_t2
+20/11/2024 17:04:03 - INFO     - rechercher_manga_par_titre
+20/11/2024 17:04:03 - INFO     - recherche_manga_par_t2
+20/11/2024 17:04:03 - INFO     - util:['Monster', 'Berserk', '20th Century Boys', 'Yokohama Kaidashi Kikou', 'Hajime no Ippo: Fighting Spirit!', 'Full Moon wo Sagashite', 'Tsubasa: RESERVoir CHRoNiCLE', 'xxxHOLiC']
+20/11/2024 17:04:05 - INFO     - SelectionMangaVuerecherche
+20/11/2024 17:04:06 - INFO     - ConsulterAvisMangaVuerecherche
+20/11/2024 17:04:06 - INFO     - res : [RealDictRow([('id_avis', 2), ('id_utilisateur', 5), ('id_manga', 5), ('texte', 'Incroyablement fou ')]), RealDictRow([('id_avis', 3), ('id_utilisateur', 6), ('id_manga', 5), ('texte', "j'aime pas la baston")])]
+20/11/2024 17:04:06 - INFO     - res : [RealDictRow([('id_avis', 2), ('id_utilisateur', 5), ('id_manga', 5), ('texte', 'Incroyablement fou ')]), RealDictRow([('id_avis', 3), ('id_utilisateur', 6), ('id_manga', 5), ('texte', "j'aime pas la baston")])]
+20/11/2024 17:04:13 - INFO     - can't adapt type 'Manga'
+20/11/2024 17:04:13 - INFO     - can't adapt type 'Manga'
+20/11/2024 17:04:13 - INFO     - AccueilVue
+20/11/2024 17:04:56 - INFO     - Fin de l'application

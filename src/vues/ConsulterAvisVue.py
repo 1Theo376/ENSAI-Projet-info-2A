@@ -61,10 +61,10 @@ class ConsulterAvisMangaVuerecherche(VueAbstraite):
                 nouvel_avis = input(
                     f"Entrez votre nouvel avis sur le manga {choixm} (si aucun changement appuyez sur Entrée) : "
                 )
-                print(choix2)
                 AvisDAO().modifier_avis(
                     AvisDAO().recuperer_avis_user_et_manga(
-                        MangaDao().trouver_manga_par_titre(choixm), Session().utilisateur.id
+                        MangaDao().trouver_manga_par_titre(choixm).id_manga,
+                        Session().utilisateur.id,
                     ),
                     nouvel_avis,
                 )
