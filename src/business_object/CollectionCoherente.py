@@ -33,11 +33,13 @@ class CollectionCoherente:
         self.desc_collection = desc_collection
         self.Liste_manga = Liste_manga
 
+"""
     def __str__(self):
-        """Affiche tous les titres des mangas présents dans la collection."""
+        Affiche tous les titres des mangas présents dans la collection
         if not self.Liste_manga or len(self.Liste_manga) == 0:
             return "La collection ne contient aucun manga."
 
         Texte_Liste_Titre_Manga = ", ".join(manga.titre for manga in self.Liste_manga)
 
         return f"Voici les mangas présents dans cette collection : {Texte_Liste_Titre_Manga}"
+"""

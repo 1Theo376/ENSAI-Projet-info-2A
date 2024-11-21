@@ -3,6 +3,7 @@ from business_object.CollectionCoherente import CollectionCoherente
 from dao.collection_coherente_dao import CollectionCoherenteDAO
 import logging
 
+
 class CollectionCoherenteService:
     """
     Classe contenant les méthodes de service de collection physique
