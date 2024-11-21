@@ -18,7 +18,7 @@ class MangaPossede:
     """
 
     def __init__(
-        self, idmanga: int, num_dernier_acquis: int, statut: str, num_manquant=[], id_manga_p=None
+        self, idmanga: int, num_dernier_acquis: int, statut: str, num_manquant: list(int), id_manga_p=None
     ):
         """Initialise un nouvel objet MangaPossede"""
         self.id_manga_p = id_manga_p

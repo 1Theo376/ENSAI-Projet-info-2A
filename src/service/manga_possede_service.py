@@ -8,12 +8,11 @@ class MangaPossedeService:
     """Classe"""
 
     def creer_manga_possede(
-        self, id_manga_p, manga: MangaPossede, num_dernier_acquis, num_manquant, statut
+        self, id_manga, manga: MangaPossede, num_dernier_acquis, num_manquant, statut
     ) -> bool:
         """Création d'un manga possédé"""
         nouveau_manga_p = MangaPossede(
-            id_manga_p=id_manga_p,
-            manga=manga,
+            id_manga=id_manga,
             num_dernier_acquis=num_dernier_acquis,
             num_manquant=num_manquant,
             statut=statut,

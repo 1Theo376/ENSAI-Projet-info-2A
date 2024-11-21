@@ -57,7 +57,7 @@ def test_creer_ko():
 
 
 def test_lister_tous(utilisateur_test):
-    #GIVEN
+    # GIVEN
 
     # WHEN
     utilisateurs = UtilisateurDao().lister_tous()
@@ -115,9 +115,6 @@ def test_recherche_pseudo_par_id(utilisateur_test):
     pseudo = UtilisateurDao().recherche_pseudo_par_id(id_utilisateur)
     # THEN
     assert pseudo_utilisateur == pseudo
-
-
-
 
 
 
