@@ -12,7 +12,7 @@ class Collection_physique_service:
         """Suppression d'une collection physique"""
         return CollectionPhysiqueDAO().supprimer_collectionphys(collectionphys)
 
-    def creer_collectionphys(self, titre_collection, desc_collection):
+    def creer_collectionphys(self, titre_collection, desc_collection, idu):
         """ Création d'une collection physique"""
         nouvelle_collection_phys = Collection_physique(
             id_collectionphysique=None,
@@ -23,7 +23,7 @@ class Collection_physique_service:
 
         return (
             nouvelle_collection_phys
-            if CollectionPhysiqueDAO().creer_collectionphys(nouvelle_collection_phys)
+            if CollectionPhysiqueDAO().creer_collectionphys(nouvelle_collection_phys, idu)
             else None
         )
 
