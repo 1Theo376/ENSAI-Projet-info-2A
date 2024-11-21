@@ -28,8 +28,8 @@ class CollectionCoherenteDAO:
                     # Supprimer la collection d'un utilisateur
                     cursor.execute(
                         "DELETE FROM collection_coherente                  "
-                        " WHERE id_collec_coherente=%(id_collection_c)s      ",
-                        {"id_collection_c": id_collection_c},
+                        " WHERE id_collec_coherente=%(id_collec_coherente)s      ",
+                        {"id_collec_coherente": CollectionC.id_collectioncoherente},
                     )
                     res = cursor.rowcount
         except Exception as e:
@@ -108,7 +108,7 @@ class CollectionCoherenteDAO:
             raise
         return res > 0
 
-    def ajouter_manga(self, idcollec: int, idmanga: int) -> bool: #à modif les paramas?
+    def ajouter_manga(self, idcollec: int, idmanga: int) -> bool:  # à modif les paramas?
         """Ajout d'un manga dans une collection coherente
 
         Parameters
@@ -210,8 +210,7 @@ class CollectionCoherenteDAO:
                         "LEFT JOIN association_manga_collection_coherente USING(id_collec_coherente)    "
                         "LEFT JOIN manga USING(id_manga)                                                "
                         " WHERE titre_collection = %(titre_collection)s and id_utilisateur = %(idu)s;                                ",
-                        {"titre_collection": nom,
-                         "idu": idu},
+                        {"titre_collection": nom, "idu": idu},
                     )
                     res = cursor.fetchall()
         except Exception as e:
