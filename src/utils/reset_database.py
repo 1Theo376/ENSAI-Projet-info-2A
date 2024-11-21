@@ -21,19 +21,12 @@ class ResetDatabase(metaclass=Singleton):
         """Lancement de la réinitialisation des données
         Si test_dao = True : réinitialisation des données de test"""
         if test_dao:
-            mock.patch.dict(os.environ, {"POSTGRES_SCHEMA": "projet_info"}).start()
+            mock.patch.dict(os.environ, {"POSTGRES_SCHEMA": "projet_test_dao"}).start()
             sql_files = [
                 "data/pop_utilisateur.sql",
-                "data/pop_manga.sql",
                 "data/pop_collection_coherente.sql",
-                "data/pop_auteur.sql",
                 "data/pop_avis.sql",
                 "data/pop_collection_physique.sql",
-                "data/pop_genre.sql",
-                "data/pop_theme.sql",
-                "data/pop_manga_auteur.sql",
-                "data/pop_manga_genre.sql",
-                "data/pop_manga_theme.sql",
                 "data/pop_manga_possede.sql",
                 "data/pop_manga_collection_physique.sql",
                 "data/pop_manga_collection_coherente.sql",

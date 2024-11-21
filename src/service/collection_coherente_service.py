@@ -1,7 +1,7 @@
 from business_object.manga import Manga
 from business_object.CollectionCoherente import CollectionCoherente
 from dao.collection_coherente_dao import CollectionCoherenteDAO
-
+import logging
 
 class CollectionCoherenteService:
     """
@@ -12,18 +12,18 @@ class CollectionCoherenteService:
         """Suppression d'une collection dans la base de données"""
         return CollectionCoherenteDAO().supprimer_collection(CollectionC)
 
-    def creer_collectioncohe(self, titre_collection, desc_collection):
-        """ Création d'une collection cohérente dans la base de"""
+    def creer_collectioncohe(self, titre_collection, desc_collection, idu):
+        """ Création d'une collection cohérente """
         nouvelle_collection_cohe = CollectionCoherente(
             id_collectioncoherente=None,
             titre_collection=titre_collection,
             desc_collection=desc_collection,
             Liste_manga=[],
         )
-
+        logging.info(f"nouvelle_collection_cohe : {nouvelle_collection_cohe}")
         return (
             nouvelle_collection_cohe
-            if CollectionCoherenteDAO().creer_collection(nouvelle_collection_cohe)
+            if CollectionCoherenteDAO().creer_collection(nouvelle_collection_cohe, idu)
             else None
         )
 

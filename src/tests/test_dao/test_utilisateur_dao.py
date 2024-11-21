@@ -60,7 +60,6 @@ def test_lister_tous(utilisateur_test):
     # WHEN
     utilisateurs = UtilisateurDao().lister_tous()
     # THEN
-<<<<<<< HEAD
     assert isinstance(utilisateurs, list)
     for u in utilisateurs:
         assert isinstance(u, Utilisateur)
@@ -124,6 +123,3 @@ def test_recherche_pseudo_par_id():
 
 if __name__ == "__main__":
     pytest.main([__file__])
-=======
-    assert not creation_ok
->>>>>>> 37638d78439a4ff01b641ed11e07ac2e2d175d27

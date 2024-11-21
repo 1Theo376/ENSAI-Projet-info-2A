@@ -81,7 +81,7 @@ class EcranDuProfilVue(VueAbstraite):
 
                 else:
                     desc = inquirer.text(message="Decrivez votre collection : ").execute()
-                    CollectionCoherenteService().creer_collectioncohe(titre, desc)
+                    CollectionCoherenteService().creer_collectioncohe(titre, desc, Session().utilisateur.id)
                     return EcranDuProfilVue()
 
             case "Créer une collection physique":
