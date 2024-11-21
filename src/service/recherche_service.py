@@ -9,19 +9,9 @@ import logging
 class RechercheService:
     """Classe"""
 
-    def recherche_manga_par_t(self, titre: str, n: int) -> Manga:
+    def recherche_manga_par_t(self, titre: str, n: int, m, a) -> Manga:
         """Recherche un manga par son titre"""
         res = MangaDao().rechercher_manga_par_titre(titre)
-        if res:
-            liste = [j.titre for j in res]
-            sous_liste = liste[n: n + 8]
-            return sous_liste if sous_liste else None
-        return None
-
-    def recherche_manga_par_t2(self, titre: str, n: int, m, a) -> Manga:
-        """Recherche un manga par son titre"""
-        res = MangaDao().rechercher_manga_par_titre(titre)
-        logging.info("recherche_manga_par_t2")
         if res:
             longueur_tot = len(res)
             liste = [j.titre for j in res]

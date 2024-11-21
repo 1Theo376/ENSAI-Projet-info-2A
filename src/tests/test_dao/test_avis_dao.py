@@ -3,7 +3,6 @@ import os
 from src.business_object.avis import Avis
 from dao.avis_dao import AvisDAO
 from unittest.mock import patch
-from utils.reset_database import ResetDatabase
 
 @pytest.fixture
 def avis_dao():

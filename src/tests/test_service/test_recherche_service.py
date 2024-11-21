@@ -1,60 +1,81 @@
-from unittest.mock import MagicMock
+import pytest
+from unittest.mock import patch
 from service.recherche_service import RechercheService
-# from dao.utilisateur_dao import UtilisateurDao
-# from business_object.utilisateur import Utilisateur
+from service.utilisateur_service import UtilisateurService
+from dao.utilisateur_dao import UtilisateurDao
+from service.collection_coherente_service import CollectionCoherenteService
 
 
-class MockUtilisateurDao:
-    def rechercher_tous_pseudo(self, pseudo):
-        return []
-
-def test_recherche_utilisateur_non():
-    """Le pseudo n'est pas utilisé dans liste_utilisateurs"""
-
+def test_recherche_manga_par_t_oui():
+    """Test de recherche d'un manga par titre """
     # GIVEN
-    pseudo = "mollusque"
-
-    # Instanciation du mock pour UtilisateurDao
-    utilisateur_dao_mock = MockUtilisateurDao()
-
-    # Instanciation du service avec le mock
-    service = RechercheService()
-    service.utilisateur_dao = utilisateur_dao_mock  # Injection manuelle du mock
-
+    titre = "my boyfriend is"
+    n, m, a = 0, 8, 0
     # WHEN
-    res = service.recherche_utilisateur(pseudo)
-
+    longueur, sous_liste, longueur_tot = RechercheService().recherche_manga_par_t(titre, n, m, a)
     # THEN
-    assert res == "Aucun utilisateur trouvé pour le pseudo 'mollusque'."
+    assert longueur == 2
+    assert sous_liste == ["My Boyfriend Is a Vampire", "My Boyfriend Is a Dog"]
+    assert longueur_tot == 2
 
 
-if __name__ == "__main__":
-    import pytest
-
-    pytest.main([__file__])
-
-
-if __name__ == "__main__":
-    import pytest
-
-    pytest.main([__file__])
-
-
-
-""" def test_recherche_utilisateur_non():
-    Le pseudo n'est pas utilisé dans liste_utilisateurs
-
+def test_recherche_manga_par_t_non():
+    """Test de recherche d'un manga par titre """
     # GIVEN
-    pseudo = "mollusque"
-
+    titre = "rtrtt"
+    n, m, a = 0, 8, 0
     # WHEN
-    res = RechercheService().recherche_utilisateur(pseudo)
-
+    res = RechercheService().recherche_manga_par_t(titre, n, m, a)
     # THEN
     assert not res
 
 
+def test_recherche_utilisateur_oui():
+    """Test de recherche d'un utilisateur"""
+    # GIVEN
+    n, m, a = 0, 8, 0
+    pseudo = "z1"
+    UtilisateurService().creer_compte = MagicMock(return_value=True)
+    UtilisateurService().creer_compte("manz1", "1234Azer")
+    UtilisateurService().creer_compte("z1alan", "1234Azrt")
+    UtilisateurService().creer_compte("piz1ran", "1234Azrt")
+
+    # WHEN
+    longueur, sous_liste, longueur_tot = RechercheService().recherche_utilisateur(pseudo, n, m, a)
+    # THEN
+    assert longueur == 3
+    assert sous_liste == ["manz1", "z1alan", "piz1ran"]
+    assert longueur_tot == 3
+
+
+def test_recherche_utilisateur_non():
+    """Test de recherche d'un utilisateur"""
+    # GIVEN
+    n, m, a = 0, 8, 0
+    pseudo = "zdfdf"
+    # WHEN
+    res = RechercheService().recherche_utilisateur(pseudo, n, m, a)
+    # THEN
+    assert not res
+
+
+def test_recherche_collec_cohe_par_id_oui():
+    """Test de recherche d'une collection cohérente par id d'utilisateur"""
+    # GIVEN
+    UtilisateurService().creer_compte("manz1", "1234Azer")
+    UtilisateurService().creer_compte("z1alan", "1234Azrt")
+    UtilisateurService().creer_compte("piz1ran", "1234Azrt")
+
+    id_1 = UtilisateurDao().recherche_id_par_pseudo("manz1")
+
+    CollectionCoherenteService().creer_collectioncohe("matcha", "vert", id_1)
+    # WHEN
+    res = RechercheService().recherche_collec_cohe_par_id(id_1)
+    # THEN
+    assert res == ["matcha"]
+
+
 if __name__ == "__main__":
     import pytest
 
-    pytest.main([__file__]) """
+    pytest.main([__file__])

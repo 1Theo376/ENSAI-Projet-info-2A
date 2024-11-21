@@ -38,7 +38,7 @@ class CollectionCoherenteDAO:
 
         return res > 0
 
-    def creer_collection(self, CollectionC: CollectionCoherente) -> bool:
+    def creer_collection(self, CollectionC: CollectionCoherente, idu: int) -> bool:
         """Creation d'une collectipn coherente dans la base de données
 
         Parameters
@@ -57,11 +57,11 @@ class CollectionCoherenteDAO:
             with DBConnection().connection as connection:
                 with connection.cursor() as cursor:
                     cursor.execute(
-                        "INSERT INTO collection_coherente(id_utilisateur, titre_collection, description_collection) VALUES"
-                        "(%(id_utilisateur)s, %(titre)s, %(desc)s) "
+                        "INSERT INTO collection_coherente(id_utilisateur, titre_collection, description_collection) VALUES "
+                        "(%(idu)s, %(titre)s, %(desc)s) "
                         "  RETURNING id_collec_coherente; ",
                         {
-                            "id_utilisateur": Session().utilisateur.id,
+                            "idu": idu,
                             "titre": CollectionC.titre_collection,
                             "desc": CollectionC.desc_collection,
                         },
@@ -171,7 +171,6 @@ class CollectionCoherenteDAO:
             logging.info(e)
             raise
         collections = []
-        logging.info(f"res trouver_collec_cohe_id_user : {res}")
         if res:
             for elt in res:
                 collections.append(
