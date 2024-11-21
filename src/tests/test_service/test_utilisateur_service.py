@@ -2,7 +2,6 @@ from unittest.mock import MagicMock
 from service.utilisateur_service import UtilisateurService
 from business_object.utilisateur import Utilisateur
 from dao.utilisateur_dao import UtilisateurDao
-from utils.securite import hash_password
 
 liste_utilisateurs = [
     Utilisateur(pseudo="huy", mdp="1234Azer"),

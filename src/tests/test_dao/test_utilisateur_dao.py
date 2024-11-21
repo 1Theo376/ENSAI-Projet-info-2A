@@ -14,10 +14,12 @@ liste_utilisateurs = [
 @pytest.fixture(scope="session", autouse=True)
 def setup_test_environment():
     """Initialisation des données de test pour UtilisateurDao"""
+    """
     with patch.dict("os.environ", {"SCHEMA": "projet_test_dao"}):
         from utils.reset_database import ResetDatabase
         ResetDatabase().lancer(test_dao=True)
         yield
+    """
 
 
 def test_lister_tous_inclure_mdp_true():

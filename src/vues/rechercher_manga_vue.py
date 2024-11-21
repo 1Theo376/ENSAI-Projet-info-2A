@@ -19,7 +19,7 @@ class RechercheMangaVue(VueAbstraite):
         n = 0
         m = 8
         a = 0
-        if not RechercheService().recherche_manga_par_t2(titre, n, m, a):
+        if not RechercheService().recherche_manga_par_t(titre, n, m, a):
             print("\n" + f"Aucun manga trouvé pour le titre '{titre}'." + "\n")
             choix2 = ["Retour au menu précédent"]
             choix3 = inquirer.select(message="Faites votre choix : ", choices=choix2).execute()
@@ -28,12 +28,12 @@ class RechercheMangaVue(VueAbstraite):
 
                 return RechercheVue().choisir_menu()
 
-        longueur, sous_liste, longueur_tot = RechercheService().recherche_manga_par_t2(
+        longueur, sous_liste, longueur_tot = RechercheService().recherche_manga_par_t(
             titre, n, m, a
         )
 
         while n >= 0:
-            longueur, sous_liste, longueur_tot = RechercheService().recherche_manga_par_t2(
+            longueur, sous_liste, longueur_tot = RechercheService().recherche_manga_par_t(
                 titre, n, m, a
             )
             choix2 = sous_liste + [
