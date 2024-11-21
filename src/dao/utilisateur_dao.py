@@ -29,7 +29,7 @@ class UtilisateurDao(metaclass=Singleton):
             with DBConnection().connection as connection:
                 with connection.cursor() as cursor:
                     cursor.execute(
-                        "INSERT INTO utilisateur(pseudo, mdp) VALUES"  # id_utilisateur
+                        "INSERT INTO utilisateur(pseudo, mdp) VALUES"  
                         "( %(pseudo)s, %(mdp)s) "
                         "  RETURNING id_utilisateur; ",
                         {"pseudo": user.pseudo, "mdp": user.mdp},

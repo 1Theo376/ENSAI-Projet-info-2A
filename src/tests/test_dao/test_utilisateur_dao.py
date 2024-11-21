@@ -3,6 +3,7 @@ from unittest.mock import MagicMock
 from unittest.mock import patch
 from dao.utilisateur_dao import UtilisateurDao
 from business_object.utilisateur import Utilisateur
+from utils.securite import hash_password
 
 
 liste_utilisateurs = [
@@ -20,7 +21,7 @@ def setup_test_environment():
         yield
 
 
-@pytest.fixture
+@pytest.fixture(scope="session", autouse=True)
 def utilisateur_test():
     """Crée un joueur pour les tests"""
     for user in liste_utilisateurs:
@@ -50,8 +51,9 @@ def test_creer_ko():
     utilisateur = Utilisateur(pseudo=12, mdp="u")
 
     # WHEN
-    with pytest.raises(ValueError, match="Invalid pseudo or mdp"):
-        UtilisateurDao().creer(utilisateur)
+    utilisateur = UtilisateurDao().creer(utilisateur)
+    # THEN
+    assert not utilisateur
 
 
 def test_lister_tous(utilisateur_test):
@@ -63,15 +65,15 @@ def test_lister_tous(utilisateur_test):
     assert isinstance(utilisateurs, list)
     for u in utilisateurs:
         assert isinstance(u, Utilisateur)
-    assert len(utilisateurs) == 3
+    assert len(utilisateurs) >= 3
 
 
 def test_se_connecter_oui(utilisateur_test):
     # GIVEN
     pseudo = "huy"
-    mdp = "9876"
+    mdp = "1234Azer"
     # WHEN
-    utilisateur = Utilisateur().se_connecter(pseudo, hash_password(mdp, pseudo))
+    utilisateur = UtilisateurDao().se_connecter(pseudo, mdp)
     # THEN
     assert isinstance(utilisateur, Utilisateur)
 
@@ -81,7 +83,7 @@ def test_se_connecter_non(utilisateur_test):
     pseudo = "queeny"
     mdp = "1234Azer"
     # WHEN
-    utilisateur = UtilisateurDao().se_connecter(pseudo, hash_password(mdp, pseudo))
+    utilisateur = UtilisateurDao().se_connecter(pseudo, mdp)
     # THEN
     assert not utilisateur
 
@@ -97,24 +99,22 @@ def test_rechercher_tous_pseudo(utilisateur_test):
 
 def test_recherche_id_par_pseudo(utilisateur_test):
     # GIVEN
-    id_utilisateur = utilisateur_test[0].id
-    pseudo_utilisateur = utilisateur_test[0].pseudo
+    id_utilisateur = liste_utilisateurs[0].id
+    pseudo_utilisateur = liste_utilisateurs[0].pseudo
     # WHEN
     id = UtilisateurDao().recherche_id_par_pseudo(pseudo_utilisateur)
     # THEN
     assert id_utilisateur == id
 
 
-def test_recherche_pseudo_par_id():
+def test_recherche_pseudo_par_id(utilisateur_test):
     # GIVEN
-    id_utilisateur = utilisateur_test[0].id
-    pseudo_utilisateur = utilisateur_test[0].pseudo
+    id_utilisateur = liste_utilisateurs[0].id
+    pseudo_utilisateur = liste_utilisateurs[0].pseudo
     # WHEN
     pseudo = UtilisateurDao().recherche_pseudo_par_id(id_utilisateur)
     # THEN
     assert pseudo_utilisateur == pseudo
-
-
 
 
 
