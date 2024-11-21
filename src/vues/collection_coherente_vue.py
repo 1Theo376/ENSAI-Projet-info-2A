@@ -47,4 +47,4 @@ class CollectionCoherenteVue(VueAbstraite):
             else:
                 from vues.manga_collection_cohe import MangaCollectionCoherenteVue
 
-                return MangaCollectionCoherenteVue().choisir_menu(choix2)
+                return MangaCollectionCoherenteVue().choisir_menu(choix3)

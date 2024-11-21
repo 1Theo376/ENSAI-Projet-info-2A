@@ -20,31 +20,28 @@ def setup_test_environment():
         yield
 
 
-def test_lister_tous_inclure_mdp_true():
-    """Lister les Joueurs en incluant les mots de passe"""
+def test_creer_ok():
+    """Création de Joueur réussie"""
 
     # GIVEN
-    UtilisateurDao().lister_tous = MagicMock(return_value=liste_utilisateurs)
+    utilisateur = Utilisateur(pseudo="huy", mdp="HuYT7894")
 
     # WHEN
-    res = JoueurService().lister_tous(inclure_mdp=True)
+    creation_ok = UtilisateurDao().creer(utilisateur)
 
     # THEN
-    assert len(res) == 3
-    for joueur in res:
-        assert joueur.mdp is not None
+    assert creation_ok
+    assert joueur.id_joueur
 
 
-def test_lister_tous_inclure_mdp_false():
-    """Lister les Joueurs en excluant les mots de passe"""
+def test_creer_ko():
+    """Création de Joueur échouée (age et mail incorrects)"""
 
     # GIVEN
-    JoueurDao().lister_tous = MagicMock(return_value=liste_joueurs)
+    utilisateur = Utilisateur(pseudo="kio", mdp="AuYT7894")
 
     # WHEN
-    res = JoueurService().lister_tous()
+    creation_ok = UtilisateurDao().creer(utilisateur)
 
     # THEN
-    assert len(res) == 3
-    for joueur in res:
-        assert not joueur.mdp
+    assert not creation_ok

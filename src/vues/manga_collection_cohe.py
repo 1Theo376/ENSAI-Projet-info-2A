@@ -28,12 +28,13 @@ class MangaCollectionCoherenteVue(VueAbstraite):
         choix3 = inquirer.select(
             message="Que souhaitez vous faire dans votre collection cohérente : ", choices=choix
         ).execute()
-
+        logging.info(f"{choix2}, {Session().utilisateur.id}")
         if choix3 == "Consulter/Modifier les mangas de la collection":
             liste_titre = []
             for manga in (
                 CollectionCoherenteDAO().trouver_collec_cohe_nom(choix2, Session().utilisateur.id)
             ).Liste_manga:
+                logging.info(f"{(CollectionCoherenteDAO().trouver_collec_cohe_nom(choix2, Session().utilisateur.id)).Liste_manga}")
                 liste_titre.append(manga.titre)
             if not liste_titre:
                 print(
