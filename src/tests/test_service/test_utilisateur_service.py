@@ -110,8 +110,6 @@ def test_supprimer_compte_non():
     assert not res
 
 
-def test_modifier_compte_oui():
-    
 
 if __name__ == "__main__":
     import pytest

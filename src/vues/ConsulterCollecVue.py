@@ -24,11 +24,11 @@ class CollectionCoherenteVueRecherche(VueAbstraite):
         logging.info(f"listecolleccohe type: {type(listecolleccohe)}, contenu: {listecolleccohe}")
 
         collection_physique = RechercheService().recherche_collec_phys_par_id(
-            Session().utilisateur.id
+            id_utilisateur
         )
         logging.info(f"collection_physique type: , contenu: {collection_physique}")
 
-        if RechercheService().recherche_collec_phys_par_id(Session().utilisateur.id):
+        if RechercheService().recherche_collec_phys_par_id(id_utilisateur):
             choix.append(collection_physique.titre_collection)
             logging.info(f"Contenu de `choix` après ajout de collection_physique: {choix}")
 
