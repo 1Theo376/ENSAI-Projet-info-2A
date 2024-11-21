@@ -99,7 +99,7 @@ class EcranDuProfilVue(VueAbstraite):
                         message="Entrez le nom de la collection que souhaitez voulez créer : "
                     ).execute()
                     desc = inquirer.text(message="Décrivez votre collection : ").execute()
-                    Collection_physique_service().creer_collectionphys(titre, desc)
+                    Collection_physique_service().creer_collectionphys(titre, desc, Session().utilisateur.id)
                     return EcranDuProfilVue()
 
             case "Retour au menu précédent":

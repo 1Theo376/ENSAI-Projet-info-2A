@@ -1,9 +1,12 @@
 import pytest
 from unittest.mock import MagicMock
+from business_object.collection_phys import Collection_physique
+from dao.utilisateur_dao import UtilisateurDao
 from service.recherche_service import RechercheService
 from service.utilisateur_service import UtilisateurService
-from dao.utilisateur_dao import UtilisateurDao
 from service.collection_coherente_service import CollectionCoherenteService
+from service.collection_physique_service import Collection_physique_service
+import logging
 
 
 def test_recherche_manga_par_t_oui():
@@ -63,6 +66,13 @@ def test_recherche_collec_cohe_par_id_oui():
     """Test de recherche d'une collection cohérente par id d'utilisateur"""
     # GIVEN
     id_1 = UtilisateurDao().recherche_id_par_pseudo("manz1")
+    collection = RechercheService().recherche_collec_cohe_par_id(id_1)
+    logging.info(f"collection : {collection}")
+    print("collection :")
+    print(collection)
+    if collection:
+        CollectionCoherenteService().supprimer_collectioncohe(collection)
+
     CollectionCoherenteService().creer_collectioncohe("matcha", "vert", id_1)
     # WHEN
     res = RechercheService().recherche_collec_cohe_par_id(id_1)
@@ -79,16 +89,27 @@ def test_recherche_collec_cohe_par_id_non():
     # THEN
     assert not res
 
-def test_recherche_collec_cohe_par_id_non():
-    """Test de recherche d'une collection cohérente par id d'utilisateur"""
+
+def test_recherche_collec_phys_par_id_oui():
+    """Test de recherche d'une collection physique par id d'utilisateur"""
     # GIVEN
-    id_1 = 760
+    id_1 = UtilisateurDao().recherche_id_par_pseudo("manz1")
+    UtilisateurService().creer_collectionphys = MagicMock(return_value=True)
+    Collection_physique_service().creer_collectionphys("thé", "vert", id_1)
     # WHEN
-    res = RechercheService().recherche_collec_cohe_par_id(id_1)
+    res = RechercheService().recherche_collec_phys_par_id(id_1)
+    # THEN
+    assert res
+
+
+def test_recherche_collec_phys_par_id_non():
+    """Test de recherche d'une collection physique par id d'utilisateur"""
+    # GIVEN
+    id_1 = 119
+    # WHEN
+    res = RechercheService().recherche_collec_phys_par_id(id_1)
     # THEN
     assert not res
-
-    recherche_collec_phys_par_id
 
 
 if __name__ == "__main__":

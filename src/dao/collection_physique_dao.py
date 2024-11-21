@@ -40,7 +40,7 @@ class CollectionPhysiqueDAO:
 
         return res > 0
 
-    def creer_collectionphys(self, CollectionP: Collection_physique) -> bool:
+    def creer_collectionphys(self, CollectionP: Collection_physique, idu: int) -> bool:
         """Creation d'une collection physique dans la base de données
 
         Parameters
@@ -63,7 +63,7 @@ class CollectionPhysiqueDAO:
                         "(%(id_utilisateur)s, %(titre)s, %(description_collection)s) "
                         "  RETURNING id_collec_physique; ",
                         {
-                            "id_utilisateur": Session().utilisateur.id,
+                            "id_utilisateur": idu,
                             "titre": CollectionP.titre_collection,
                             "description_collection": CollectionP.description_collection,
                         },
