@@ -95,7 +95,8 @@ class AjouterMangaCollecVuerecherche(VueAbstraite):
                                 SelectionMangaVuerecherche,
                             )
 
-                            print("\n" + f"Ce manga est déjà présent dans la collection {nom}.")
+                            print("\n")
+                            print(f"Ce manga est déjà présent dans la collection {nom}.")
                             return SelectionMangaVuerecherche().choisir_menu(choix3)
                     from vues.AjouterMangaPossCollPhys import AjouterMangaPossCollPhys
 
