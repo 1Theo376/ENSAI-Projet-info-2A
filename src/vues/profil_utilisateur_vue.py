@@ -30,14 +30,14 @@ class EcranDuProfilVue(VueAbstraite):
         print("\n" + "-" * 50 + "\nÉcran du Profil\n" + "-" * 50 + "\n")
 
         choix = [
-                "Consulter mes collections cohérentes",
-                "Consulter ma collection physique",
-                "Consulter mes avis",
-                "Créer une collection cohérente",
-                "Créer une collection physique",
-                "Supprimer mon compte",
-                "Retour au menu précédent"
-            ]
+            "Consulter mes collections cohérentes",
+            "Consulter ma collection physique",
+            "Consulter mes avis",
+            "Créer une collection cohérente",
+            "Créer une collection physique",
+            "Supprimer mon compte",
+            "Retour au menu précédent",
+        ]
 
         if not CollectionPhysiqueDAO().trouver_collec_phys_id_user(Session().utilisateur.id):
             choix.remove("Consulter ma collection physique")
@@ -53,10 +53,12 @@ class EcranDuProfilVue(VueAbstraite):
         match choix:
             case "Consulter mes collections cohérentes":
                 from vues.collection_coherente_vue import CollectionCoherenteVue
+
                 return CollectionCoherenteVue()
 
             case "Consulter ma collection physique":
                 from vues.collection_physique_vue import CollectionPhysiqueVue
+
                 return CollectionPhysiqueVue()
 
             case "Consulter mes avis":
@@ -65,19 +67,29 @@ class EcranDuProfilVue(VueAbstraite):
                     return self.choisir_menu()
                 else:
                     from vues.avis_utilisateur_vue import MenuAvis
+
                     return MenuAvis()
 
             case "Créer une collection cohérente":
                 titre = inquirer.text(
                     message="Entrez le nom de la collection que vous voulez créer : "
                 ).execute()
-                desc = inquirer.text(message="Decrivez votre collection : ").execute()
-                CollectionCoherenteService().creer_collectioncohe(titre, desc)
-                return EcranDuProfilVue()
+                if CollectionCoherenteDAO().trouver_collec_cohe_nom(
+                    titre, Session().utilisateur.id
+                ):
+                    return EcranDuProfilVue("Ce nom de collection existe déjà")
+
+                else:
+                    desc = inquirer.text(message="Decrivez votre collection : ").execute()
+                    CollectionCoherenteService().creer_collectioncohe(titre, desc)
+                    return EcranDuProfilVue()
 
             case "Créer une collection physique":
                 from service.recherche_service import RechercheService
-                logging.info(f"Créer coll physique : {RechercheService().recherche_collec_phys_par_id(Session().utilisateur.id)}")
+
+                logging.info(
+                    f"Créer coll physique : {RechercheService().recherche_collec_phys_par_id(Session().utilisateur.id)}"
+                )
 
                 if RechercheService().recherche_collec_phys_par_id(Session().utilisateur.id):
                     print("\n" + "Votre collection physique existe déjà." + "\n")
@@ -92,21 +104,24 @@ class EcranDuProfilVue(VueAbstraite):
 
             case "Retour au menu précédent":
                 from vues.menu_utilisateur_vue import MenuUtilisateurVue
+
                 return MenuUtilisateurVue()
 
             case "Supprimer mon compte":
                 choix2 = inquirer.select(
                     message="Etes vous sûrs de vouloir supprimer votre compte ?",
                     choices=["oui", "non"],
-                    ).execute()
+                ).execute()
 
                 match choix2:
                     case "oui":
                         print("Compte supprimé.")
                         from dao.utilisateur_dao import UtilisateurDao
+
                         UtilisateurDao().supprimer(Session().utilisateur)
                         Session().deconnexion()
                         from vues.accueil.accueil_vue import AccueilVue
+
                         return AccueilVue()
                     case "non":
                         return EcranDuProfilVue()
