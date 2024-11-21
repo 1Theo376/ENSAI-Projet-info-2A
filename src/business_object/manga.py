@@ -19,7 +19,7 @@ class Manga:
     """
 
     def __init__(
-        self, id_manga: int, titre: str, synopsis: str, auteur: str, themes: list[str], genre: str
+        self, titre: str, synopsis: str, auteur: str, themes: list[str], genre: str, id_manga=None
     ):
         """Initialise un objet Manga"""
 
