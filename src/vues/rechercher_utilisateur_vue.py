@@ -110,7 +110,5 @@ class RechercheUtilisateurVue(VueAbstraite):
 
             case "Retour vers l'écran d'accueil":
                 from vues.menu_utilisateur_vue import MenuUtilisateurVue
-                return MenuUtilisateurVue("Bon retour").choisir_menu()
 
-        from vues.menu_utilisateur_vue import MenuUtilisateurVue
-        return MenuUtilisateurVue().choisir_menu()
+                return MenuUtilisateurVue()

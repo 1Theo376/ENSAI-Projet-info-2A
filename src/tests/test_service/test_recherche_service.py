@@ -1,11 +1,11 @@
 import pytest
 from unittest.mock import MagicMock
-from business_object.collection_phys import Collection_physique
 from dao.utilisateur_dao import UtilisateurDao
 from service.recherche_service import RechercheService
 from service.utilisateur_service import UtilisateurService
 from service.collection_coherente_service import CollectionCoherenteService
 from service.collection_physique_service import Collection_physique_service
+from dao.collection_coherente_dao import CollectionCoherenteDAO
 import logging
 
 
@@ -66,12 +66,9 @@ def test_recherche_collec_cohe_par_id_oui():
     """Test de recherche d'une collection cohérente par id d'utilisateur"""
     # GIVEN
     id_1 = UtilisateurDao().recherche_id_par_pseudo("manz1")
-    collection = RechercheService().recherche_collec_cohe_par_id(id_1)
-    logging.info(f"collection : {collection}")
-    print("collection :")
-    print(collection)
+    collection = CollectionCoherenteDAO().trouver_collec_cohe_nom("matcha", id_1)
     if collection:
-        CollectionCoherenteService().supprimer_collectioncohe(collection)
+        CollectionCoherenteDAO().supprimer_collection(collection)
 
     CollectionCoherenteService().creer_collectioncohe("matcha", "vert", id_1)
     # WHEN
@@ -94,7 +91,7 @@ def test_recherche_collec_phys_par_id_oui():
     """Test de recherche d'une collection physique par id d'utilisateur"""
     # GIVEN
     id_1 = UtilisateurDao().recherche_id_par_pseudo("manz1")
-    UtilisateurService().creer_collectionphys = MagicMock(return_value=True)
+    Collection_physique_service().creer_collectionphys = MagicMock(return_value=True)
     Collection_physique_service().creer_collectionphys("thé", "vert", id_1)
     # WHEN
     res = RechercheService().recherche_collec_phys_par_id(id_1)

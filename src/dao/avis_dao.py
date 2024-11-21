@@ -201,7 +201,7 @@ class AvisDAO:
                     cursor.execute(
                         "SELECT *                       "
                         "FROM avis                      "
-                        "WHERE id_avis = %(id_avis)s,     ",
+                        "WHERE id_avis = %(id_avis)s     ",
                         {"id_avis": id_avis},
                     )
                     res = cursor.fetchone()
