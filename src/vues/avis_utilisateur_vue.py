@@ -39,35 +39,36 @@ class MenuAvis(VueAbstraite):
         choix_utilisateur = inquirer.select(
             message="Choisissez un avis : ", choices=choices
         ).execute()
-        titre = choix_utilisateur.split("titre : ")[1].split(" |")[0].strip()
-        id_manga = (MangaDao().trouver_manga_par_titre(titre)).id_manga
-        avis = AvisService().recuperer_avis_user_manga(id_manga, Session().utilisateur.id)
-        choix2 = inquirer.select(
-            message="Faites votre choix : ",
-            choices=["Modifier l'avis", "Supprimer l'avis", "Retour au menu précédent"],
-        ).execute()
-        match choix2:
-            case "Modifier l'avis":
-                from dao.avis_dao import AvisDAO
-
-                nouvel_avis = input(
-                    f"Entrez votre nouvel avis sur le manga {titre} (si aucun changement appuyez sur Entrée) : "
-                )
-                AvisDAO().modifier_avis(avis, nouvel_avis)
-                return MenuAvis()
-            case "Supprimer l'avis":
-                AvisService().supprimer_avis(avis)
-                return MenuAvis()
-
-            case "Retour au menu précédent":
-                return MenuAvis()
-
         if choix_utilisateur == "Retour au menu précédent":
             from vues.profil_utilisateur_vue import EcranDuProfilVue
 
             return EcranDuProfilVue().choisir_menu()
 
-        if choix_utilisateur == "Retour vers l'écran de Menu":
+        if choix_utilisateur == "Retour vers l'écran d'accueil":
             from vues.menu_utilisateur_vue import MenuUtilisateurVue
 
             return MenuUtilisateurVue().choisir_menu()
+
+        else:
+            titre = choix_utilisateur.split("titre : ")[1].split(" |")[0].strip()
+            id_manga = (MangaDao().trouver_manga_par_titre(titre)).id_manga
+            avis = AvisService().recuperer_avis_user_manga(id_manga, Session().utilisateur.id)
+            choix2 = inquirer.select(
+                message="Faites votre choix : ",
+                choices=["Modifier l'avis", "Supprimer l'avis", "Retour au menu précédent"],
+            ).execute()
+            match choix2:
+                case "Modifier l'avis":
+                    from dao.avis_dao import AvisDAO
+
+                    nouvel_avis = input(
+                        f"Entrez votre nouvel avis sur le manga {titre} (si aucun changement appuyez sur Entrée) : "
+                    )
+                    AvisDAO().modifier_avis(avis, nouvel_avis)
+                    return MenuAvis()
+                case "Supprimer l'avis":
+                    AvisService().supprimer_avis(avis)
+                    return MenuAvis()
+
+                case "Retour au menu précédent":
+                    return MenuAvis()
