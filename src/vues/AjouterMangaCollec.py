@@ -86,7 +86,7 @@ class AjouterMangaCollecVuerecherche(VueAbstraite):
         else:
             nom = choixp.split(": ")[1]
             logging.info(f"Nom de la collection choisi: {nom}")
-            if RechercheService().recherche_collec_phys_par_id(id_utilisateur):
+            if nom == RechercheService().recherche_collec_phys_par_id(id_utilisateur):
                 if nom == collection_physique.titre_collection:
                     collection = CollectionPhysiqueDAO().trouver_collec_phys_nom(nom)
                     for i in collection.Liste_manga:
