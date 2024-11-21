@@ -81,7 +81,6 @@ class AvisRechercheUtilisateurVue(VueAbstraite):
 
                 return RechercheUtilisateurVue().choisir_menu_bis(choix3)
 
-                return RechercheVue().choisir_menu()
             elif choix3 == "Afficher la page suivante":
                 n += m
             elif choix3 == "Afficher la page précédente":
