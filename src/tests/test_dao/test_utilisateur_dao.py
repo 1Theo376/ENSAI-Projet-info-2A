@@ -14,12 +14,8 @@ liste_utilisateurs = [
 @pytest.fixture(scope="session", autouse=True)
 def setup_test_environment():
     """Initialisation des données de test pour UtilisateurDao"""
-<<<<<<< HEAD
-    with patch.dict("os.environ", {"POSTGRES_SCHEMA": "projet_test_dao"}):
-=======
     """
     with patch.dict("os.environ", {"SCHEMA": "projet_test_dao"}):
->>>>>>> 37638d78439a4ff01b641ed11e07ac2e2d175d27
         from utils.reset_database import ResetDatabase
         ResetDatabase().lancer(test_dao=True)
         yield
