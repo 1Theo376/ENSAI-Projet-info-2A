@@ -1,5 +1,5 @@
 import pytest
-from unittest.mock import patch
+from unittest.mock import MagicMock
 from service.recherche_service import RechercheService
 from service.utilisateur_service import UtilisateurService
 from dao.utilisateur_dao import UtilisateurDao
@@ -62,12 +62,7 @@ def test_recherche_utilisateur_non():
 def test_recherche_collec_cohe_par_id_oui():
     """Test de recherche d'une collection cohérente par id d'utilisateur"""
     # GIVEN
-    UtilisateurService().creer_compte("manz1", "1234Azer")
-    UtilisateurService().creer_compte("z1alan", "1234Azrt")
-    UtilisateurService().creer_compte("piz1ran", "1234Azrt")
-
     id_1 = UtilisateurDao().recherche_id_par_pseudo("manz1")
-
     CollectionCoherenteService().creer_collectioncohe("matcha", "vert", id_1)
     # WHEN
     res = RechercheService().recherche_collec_cohe_par_id(id_1)
@@ -75,7 +70,26 @@ def test_recherche_collec_cohe_par_id_oui():
     assert res == ["matcha"]
 
 
-if __name__ == "__main__":
-    import pytest
+def test_recherche_collec_cohe_par_id_non():
+    """Test de recherche d'une collection cohérente par id d'utilisateur"""
+    # GIVEN
+    id_1 = 760
+    # WHEN
+    res = RechercheService().recherche_collec_cohe_par_id(id_1)
+    # THEN
+    assert not res
 
+def test_recherche_collec_cohe_par_id_non():
+    """Test de recherche d'une collection cohérente par id d'utilisateur"""
+    # GIVEN
+    id_1 = 760
+    # WHEN
+    res = RechercheService().recherche_collec_cohe_par_id(id_1)
+    # THEN
+    assert not res
+
+    recherche_collec_phys_par_id
+
+
+if __name__ == "__main__":
     pytest.main([__file__])
