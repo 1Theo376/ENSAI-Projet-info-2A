@@ -19,8 +19,7 @@ class CollectionCoherenteService:
             id_collectioncoherente=None,
             titre_collection=titre_collection,
             desc_collection=desc_collection,
-            Liste_manga=[],
-        )
+            Liste_manga=[])
         logging.info(f"nouvelle_collection_cohe : {nouvelle_collection_cohe}")
         return (
             nouvelle_collection_cohe

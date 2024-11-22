@@ -45,7 +45,7 @@ def test_trouver_manga_possede_collecphys():
     # THEN
     assert mangap.num_dernier_acquis == mangap2.num_dernier_acquis
 
-def test_trouver_id_num_manquant_id(): #diffcile
+def test_trouver_id_num_manquant_id(): #difficile
     # GIVEN
     idp = mangap.id_manga_p
     # WHEN
