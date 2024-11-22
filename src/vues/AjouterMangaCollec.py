@@ -23,6 +23,7 @@ class AjouterMangaCollecVuerecherche(VueAbstraite):
             Retourne la vue choisie par l'utilisateur dans le terminal
         """
         manga = MangaDao().trouver_manga_par_titre(choix3)
+        logging.info(f"manga : {manga.titre}")
         print("\n" + "-" * 50 + "\nManga :", manga.titre, " \n" + "-" * 50 + "\n")
 
         id_utilisateur = Session().utilisateur.id

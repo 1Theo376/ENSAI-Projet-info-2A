@@ -46,41 +46,6 @@ class MangaPossedeDao:
 
         return created
 
-    def modifier_num_dernier_acquis(self, utilisateur) -> bool:
-        """Modification du dernier tome acquis dans la base de données
-        Parameters
-        ----------
-        utilisateur : Utilisateur
-
-        Returns
-        -------
-        created : bool
-            True si la modification est un succès
-            False sinon
-        """
-
-        res = None
-
-        try:
-            with DBConnection().connection as connection:
-                with connection.cursor() as cursor:
-                    cursor.execute(
-                        "UPDATE utilisateur                                      "
-                        "   SET pseudo      = %(pseudo)s,                   "
-                        "       mdp         = %(mdp)s,                      "
-                        " WHERE id = %(id)s;                  ",
-                        {
-                            "pseudo": utilisateur.pseudo,
-                            "mdp": utilisateur.mdp,
-                            "id": utilisateur.id,
-                        },
-                    )
-                    res = cursor.rowcount
-        except Exception as e:
-            logging.info(e)
-
-        return res == 1
-
     def nb_volume_manga(self, nom):
         """trouver le nombre de volumes d'un manga avec son nom
 
@@ -229,7 +194,7 @@ class MangaPossedeDao:
             logging.info(e)
         created = False
         if res:
-            return id_manga_p, id_num_manquant
+            created = True
         return created
 
     def trouver_manga_possede_id(self, id_p):

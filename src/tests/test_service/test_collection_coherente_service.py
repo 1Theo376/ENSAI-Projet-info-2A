@@ -10,16 +10,13 @@ from service.recherche_service import RechercheService
 def test_creer_collection_oui():
     """Test de création d'une collection cohérente"""
     # GIVEN
-    UtilisateurDao().creer = MagicMock(return_value=True)
+    titre, description, idu = "pomme", "rouge", 5
     CollectionCoherenteDAO().creer_collection = MagicMock(return_value=True)
 
-    UtilisateurService().creer_compte("manz1", "1234Azer")
-    id = UtilisateurDao().recherche_id_par_pseudo("manz1")
-
     # WHEN
-    res = CollectionCoherenteService().creer_collectioncohe("pomme", "rouge", id)
+    collection = CollectionCoherenteService().creer_collectioncohe(titre_collection=titre, desc_collection=description, idu=idu)
     # THEN
-    assert res
+    assert collection.titre_collection == titre
 
 
 def test_creer_collection_non():
