@@ -28,31 +28,44 @@ class AjouterMangaPossCollPhys(VueAbstraite):
         logging.info(f"id: {manga.id_manga}")
         print("\n" + "-" * 50 + "\nManga :", manga.titre, " \n" + "-" * 50 + "\n")
         volume_manga = MangaPossedeDao().nb_volume_manga(manga.titre)
-        nb_volumes_poss = int(
-            inquirer.text(message="Entrez le nombre de volumes possédés du manga : ").execute()
-        )
+        res = ""
+        while not res.isdigit():
+            res = inquirer.text(
+                message="Entrez le nombre de volumes possédés du manga : "
+            ).execute()
+            if not res.isdigit():
+                print("Valeur incorrecte, entrez un nombre !")
+        nb_volumes_poss = int(res)
         if volume_manga:
             if nb_volumes_poss > volume_manga:
                 print(f"Nombre incorrect. Ce manga possède {volume_manga} volumes.")
                 return AjouterMangaPossCollPhys().choisir_menu(choix3, collection)
         volumes_poss = []
         while nb_volumes_poss != 0:
-            num_vol = inquirer.text(
-                        message="Entrez le numéro des volumes possédés du manga. \nS'il s'agit d'une tranche, vous pouvez l'écrire sous la forme a-b :"
-                    ).execute()
+            num_vol = ""
+            while not num_vol.isdigit() or not (
+                (num_vol.split("-")[0]).isdigit() and (num_vol.split("-")[1].isdigit())
+            ):
+                num_vol = inquirer.text(
+                    message="Entrez le numéro des volumes possédés du manga. \nS'il s'agit d'une tranche, vous pouvez l'écrire sous la forme a-b :"
+                ).execute()
+                if not num_vol.isdigit() or not (
+                    (num_vol.split("-")[0]).isdigit() and (num_vol.split("-")[1].isdigit())
+                ):
+                    print("Valeur incorrecte, entrez un nombre !")
             if "-" in num_vol:
                 a = int(num_vol.split("-")[0])
                 b = int(num_vol.split("-")[1])
-                if a < 1 or b < 1 or (nb_volumes_poss-(b-a+1)) < 0:
+                if a < 1 or b < 1 or (nb_volumes_poss - (b - a + 1)) < 0:
                     if volume_manga:
                         if a > volume_manga or b > volume_manga:
                             print("Erreur")
                             return AjouterMangaPossCollPhys().choisir_menu(choix3, collection)
                     print("Erreur")
                     return AjouterMangaPossCollPhys().choisir_menu(choix3, collection)
-                for i in range(a, b+1):
+                for i in range(a, b + 1):
                     volumes_poss.append(i)
-                nb_volumes_poss = nb_volumes_poss-(b-a+1)
+                nb_volumes_poss = nb_volumes_poss - (b - a + 1)
             else:
                 num = int(num_vol)
                 if volume_manga:
@@ -63,14 +76,19 @@ class AjouterMangaPossCollPhys(VueAbstraite):
                 nb_volumes_poss -= 1
         logging.info(f"vol:{volumes_poss}")
         if volume_manga:
-            num_manquant = [i for i in range(1,volume_manga+1)]
+            num_manquant = [i for i in range(1, volume_manga + 1)]
             logging.info(f"manq: {num_manquant}")
             for elt in volumes_poss:
                 num_manquant.remove(elt)
             logging.info(f"manq:{num_manquant}")
-        num_dernier_acquis = int(
-            inquirer.text(message="Entrez le numéro du dernier volume acquis du manga : ").execute()
-        )
+        res2 = ""
+        while not res2.isdigit():
+            res2 = inquirer.text(
+                message="Entrez le numéro du dernier volume acquis du manga : "
+            ).execute()
+            if not res2.isdigit():
+                print("Valeur incorrecte, entrez un nombre !")
+        num_dernier_acquis = int(res2)
         if num_dernier_acquis not in volumes_poss:
             if volume_manga:
                 if num_dernier_acquis > volume_manga:
@@ -93,7 +111,9 @@ class AjouterMangaPossCollPhys(VueAbstraite):
         MangaPossedeDao().ajouter_manga_p(mangap)
         if volume_manga:
             for elt in num_manquant:
-                MangaPossedeDao().ajouter_ass_num_manquant(mangap.id_manga_p, MangaPossedeDao().ajouter_num_manquant(elt))
+                MangaPossedeDao().ajouter_ass_num_manquant(
+                    mangap.id_manga_p, MangaPossedeDao().ajouter_num_manquant(elt)
+                )
         Collection_physique_service().ajouter_mangaposs(
             collection.id_collectionphysique, mangap.id_manga_p
         )
