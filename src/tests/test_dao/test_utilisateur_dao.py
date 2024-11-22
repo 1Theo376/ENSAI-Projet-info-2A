@@ -4,7 +4,7 @@ from unittest.mock import patch
 from dao.utilisateur_dao import UtilisateurDao
 from business_object.utilisateur import Utilisateur
 from utils.securite import hash_password
-
+from dao.manga_dao import MangaDao
 
 liste_utilisateurs = [
     Utilisateur(pseudo="huy", mdp="1234Azer"),
@@ -18,6 +18,7 @@ def setup_test_environment():
     with patch.dict("os.environ", {"POSTGRES_SCHEMA": "projet_test_dao"}):
         from utils.reset_database import ResetDatabase
         ResetDatabase().lancer(test_dao=True)
+        MangaDao().inserer_mangas("testmangas.json")
         yield
 
 

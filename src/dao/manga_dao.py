@@ -26,8 +26,7 @@ class MangaDao(metaclass=Singleton):
             with DBConnection().connection as connection:
                 with connection.cursor() as cursor:
                     cursor.execute(
-                        "SELECT id_manga, titre, synopsis, genre_name as genre, "
-                        "name_auteur as auteur         "
+                        "SELECT id_manga, titre, synopsis, genre_name as genre, name_auteur as auteur         "
                         "FROM manga left join association_manga_genre using(id_manga) "
                         "left join genre using(id_genre)                              "
                         "left join association_manga_auteur using(id_manga)           "
@@ -106,14 +105,13 @@ class MangaDao(metaclass=Singleton):
             with DBConnection().connection as connection:
                 with connection.cursor() as cursor:
                     cursor.execute(
-                        "SELECT id_manga, titre, coalesce(synopsis, 'None') as synopsis,  "
-                        "coalesce(genre_name, 'None') as genre, "
-                        "coalesce(name_auteur, 'None') as auteur "
-                        "FROM manga left join association_manga_genre using(id_manga)      "
-                        "left join genre using(id_genre)         "
-                        "left join association_manga_auteur using(id_manga)        "
-                        "left join auteur using(id_auteur)        "
-                        "WHERE titre = %(titre)s;        ",
+                        "SELECT id_manga, titre, coalesce(synopsis, 'None') as synopsis,                "
+                        "coalesce(genre_name, 'None') as genre, coalesce(name_auteur, 'None') as auteur "
+                        "FROM manga left join association_manga_genre using(id_manga)                   "
+                        "left join genre using(id_genre)                                                "
+                        "left join association_manga_auteur using(id_manga)                             "
+                        "left join auteur using(id_auteur)                                              "
+                        "WHERE titre = %(titre)s;                                                       ",
                         {"titre": titre},
                     )
                     res = cursor.fetchone()
@@ -332,22 +330,40 @@ class MangaDao(metaclass=Singleton):
         bool
             True si des données ont bien été supprimées, False sinon
         """
+
         try:
             with DBConnection().connection as connection:
                 with connection.cursor() as cursor:
-                    # Supprimer toutes les associations d'abord
+                    # Supprimer toutes les associations d'abord (pour respecter les contraintes de clé étrangère)
                     cursor.execute("DELETE FROM association_manga_auteur")
                     cursor.execute("DELETE FROM association_manga_theme")
                     cursor.execute("DELETE FROM association_manga_genre")
+
                     # Supprimer tous les mangas
                     cursor.execute("DELETE FROM manga")
+                    manga_count = cursor.rowcount  # Nombre de mangas supprimés
+
                     # Supprimer tous les thèmes
                     cursor.execute("DELETE FROM theme")
+                    theme_count = cursor.rowcount  # Nombre de thèmes supprimés
+
                     # Supprimer tous les auteurs
                     cursor.execute("DELETE FROM auteur")
+                    auteur_count = cursor.rowcount  # Nombre d'auteurs supprimés
+
                     # Supprimer tous les genres
                     cursor.execute("DELETE FROM genre")
+                    genre_count = cursor.rowcount  # Nombre de genres supprimés
 
         except Exception as e:
             logging.info(f"Erreur lors de la suppression des données : {e}")
             raise
+
+        # Vérifier si au moins une table a été modifiée
+        total_supprime = manga_count + theme_count + auteur_count + genre_count
+        return total_supprime > 0
+
+
+#test = MangaDao()
+#test.supprimer_toutes_les_donnees()
+#test.inserer_mangas("mangas.json")

@@ -21,10 +21,10 @@ class Collection_physique:
 
     def __init__(
         self,
-        id_collectionphysique: int,
         titre_collection: str,
         description_collection: str,
         Liste_manga=[],
+        id_collectionphysique=None
     ):
         """ Initialise un nouvel objet Collection_physique"""
         self.id_collectionphysique = id_collectionphysique
