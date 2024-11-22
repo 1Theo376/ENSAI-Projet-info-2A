@@ -1,9 +1,6 @@
 from vues.vue_abstraite import VueAbstraite
 from InquirerPy import inquirer
-from vues.session import Session
-from service.recherche_service import RechercheService
 from dao.utilisateur_dao import UtilisateurDao
-import logging
 from dao.collection_coherente_dao import CollectionCoherenteDAO
 from dao.manga_dao import MangaDao
 from service.avis_service import AvisService
@@ -25,6 +22,11 @@ class ConsulterMangaCollecCoheUtilVUe(VueAbstraite):
             CollectionCoherenteDAO().trouver_collec_cohe_nom(choixc, id_utilisateur)
         ).Liste_manga:
             liste_titre.append(manga.titre)
+        if liste_titre == []:
+            print("Cette collection ne contient pas de mangas")
+            from vues.ConsulterCollecVue import CollectionCoherenteVueRecherche
+
+            return CollectionCoherenteVueRecherche().choisir_menu(choixu)
         liste_titre.append("Retour au menu précédent")
         choix4 = inquirer.select(
             message="Selectionnez un manga de cette collection : ",

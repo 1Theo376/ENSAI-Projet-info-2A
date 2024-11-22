@@ -10,11 +10,11 @@ class Manga:
         Le titre du manga.
     synopsis : str
         Un résumé ou une description du manga.
-    auteurs : str
+    auteurs : list[str]
         Les auteurs du manga.
     themes : list[str]
         Une liste de thèmes associés au manga (par exemple, aventure, drame).
-    genre : str
+    genre : list[str]
         Le genre principal du manga (par exemple, action, romance).
     """
 
@@ -32,4 +32,9 @@ class Manga:
 
     def __str__(self) -> str:
         """Affiche des informations du manga."""
-        return f"{self.titre} - Genre: {self.genre}, Auteurs: {self.auteur}, Theme : {self.themes}, Synopsis : {self.synopsis}"
+        return (
+            f"{self.titre} - Genre: {self.genre}, "
+            f"Auteurs: {self.auteur}, "
+            f"Theme : {self.themes}, "
+            f"Synopsis : {self.synopsis}"
+        )

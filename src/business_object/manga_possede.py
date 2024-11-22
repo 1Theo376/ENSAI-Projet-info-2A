@@ -1,6 +1,3 @@
-from business_object.manga import Manga
-
-
 class MangaPossede:
     """
     Classe représentant un manga possédé en vrai.
@@ -15,6 +12,8 @@ class MangaPossede:
         numéro du dernier tome acquis
     num_manquant : list(int)
         numéros de tomes manquantes
+    statut : str
+        statut de l'avancée de la collection du manga (terminé, en cours, abandonné)
     """
 
     def __init__(
@@ -29,4 +28,8 @@ class MangaPossede:
 
     def __str__(self) -> str:
         """Retourne une représentation en chaîne de caractères du manga possédé."""
-        return f"Numéro du dernier tome acquis: {self.num_dernier_acquis}, Numéro(s) manquant(s) : {self.num_manquant}, Statut: {self.statut}"
+        return (
+            f"Numéro du dernier tome acquis: {self.num_dernier_acquis}, "
+            f"Numéro(s) manquant(s) : {self.num_manquant}, "
+            f"Statut: {self.statut}"
+        )
