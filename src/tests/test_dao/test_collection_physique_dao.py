@@ -1,20 +1,13 @@
 import pytest
-from unittest.mock import patch, MagicMock
+from unittest.mock import patch
 from business_object.collection_phys import Collection_physique
-from business_object.manga import Manga
 from business_object.utilisateur import Utilisateur
 from dao.collection_physique_dao import CollectionPhysiqueDAO
 from dao.utilisateur_dao import UtilisateurDao
 from dao.manga_dao import MangaDao
 
 
-utilisateur = Utilisateur("huy1", "1234Azer")
-
-liste_collection = [
-    Collection_physique("macollec1", "action", []),
-    Collection_physique("macollec2", "action", []),
-    Collection_physique("macollec3", "action", [])
-]
+utilisateur = Utilisateur(1, "huy1", "1234Azer")
 
 collection = Collection_physique("manouvellecolec", "action", [])
 
@@ -33,15 +26,6 @@ def setup_test_environment():
 def utilisateur_test():
     """Crée un utilisateur pour les tests"""
     return UtilisateurDao().creer(utilisateur)
-
-
-@pytest.fixture(scope="function", autouse=True)
-def collection_test():
-    """Crée des collections pour les tests"""
-    id_utilisateur = 1
-    for collec in liste_collection:
-        CollectionPhysiqueDAO().creer_collectionphys(collec, id_utilisateur)
-    return liste_collection
 
 
 def test_creer_collectionphys_oui():
@@ -70,7 +54,6 @@ def test_supprimer_collectionphys_oui():
     """Suppression d'une collection physique dans la base de données"""
 
     # GIVEN
-    collection = Collection_physique("manouvellecolec", "action", [])
     id_utilisateur = 1
     CollectionPhysiqueDAO().creer_collectionphys(collection, id_utilisateur)
     # WHEN
@@ -83,7 +66,6 @@ def test_supprimer_collectionphys_non():
     """Suppression d'une collection physique dans la base de données"""
 
     # GIVEN
-    collection = Collection_physique("manouvellecolec", "action", [])
     id_utilisateur = 1
     CollectionPhysiqueDAO().creer_collectionphys(collection, id_utilisateur)
     # WHEN
@@ -96,7 +78,6 @@ def test_trouver_collec_phys_id_user_oui():
     """Trouve une collection physique dans la base de données
        selon l'identifiant de l'utilisateur"""
     # GIVEN
-    collection = Collection_physique("manouvellecolec", "action", [])
     id_utilisateur = 1
     CollectionPhysiqueDAO().creer_collectionphys(collection, id_utilisateur)
     # WHEN
@@ -109,7 +90,6 @@ def test_trouver_collec_phys_id_user_non():
     """Trouve une collection physique dans la base de données
        selon l'identifiant de l'utilisateur"""
     # GIVEN
-    collection = Collection_physique("manouvellecolec", "action", [])
     id_utilisateur = 3
     CollectionPhysiqueDAO().creer_collectionphys(collection, id_utilisateur)
     # WHEN
@@ -122,7 +102,6 @@ def test_trouver_collec_phys_nom_oui():
     """Trouve une collection physique dans la base de données
        selon son titre"""
     # GIVEN
-    collection = Collection_physique("manouvellecolec", "action", [])
     id_utilisateur = 1
     CollectionPhysiqueDAO().creer_collectionphys(collection, id_utilisateur)
     # WHEN
@@ -135,7 +114,6 @@ def test_trouver_collec_phys_nom_non():
     """Trouve une collection physique dans la base de données
        selon son titre"""
     # GIVEN
-    collection = Collection_physique("manouvellecolec", "action", [])
     id_utilisateur = 1
     CollectionPhysiqueDAO().creer_collectionphys(collection, id_utilisateur)
     # WHEN
@@ -147,7 +125,6 @@ def test_trouver_collec_phys_nom_non():
 def test_modifier_titre_oui():
     """Modifie le titre d'une collection physique la base de données"""
     # GIVEN
-    collection = Collection_physique("manouvellecolec", "action", [])
     id_utilisateur = 1
     CollectionPhysiqueDAO().creer_collectionphys(collection, id_utilisateur)
     # WHEN
@@ -159,7 +136,6 @@ def test_modifier_titre_oui():
 def test_modifier_titre_non():
     """Modifie le titre d'une collection physique la base de données"""
     # GIVEN
-    collection = Collection_physique("manouvellecolec", "action", [])
     id_utilisateur = 1
     CollectionPhysiqueDAO().creer_collectionphys(collection, id_utilisateur)
     # WHEN
@@ -171,7 +147,6 @@ def test_modifier_titre_non():
 def test_modifier_desc_oui():
     """Modifie la description d'une collection physique la base de données"""
     # GIVEN
-    collection = Collection_physique("manouvellecolec", "action", [])
     id_utilisateur = 1
     CollectionPhysiqueDAO().creer_collectionphys(collection, id_utilisateur)
     # WHEN
@@ -183,7 +158,6 @@ def test_modifier_desc_oui():
 def test_modifier_desc_non():
     """Modifie la description d'une collection physique la base de données"""
     # GIVEN
-    collection = Collection_physique("manouvellecolec", "action", [])
     id_utilisateur = 1
     CollectionPhysiqueDAO().creer_collectionphys(collection, id_utilisateur)
     # WHEN
