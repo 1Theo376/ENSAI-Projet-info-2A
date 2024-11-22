@@ -1,6 +1,6 @@
 from dao.utilisateur_dao import Utilisateur
 from business_object.manga_possede import MangaPossede
-from dao.manga_possede_dao import MangaPossedeDAO
+from dao.manga_possede_dao import MangaPossedeDao
 from business_object.utilisateur import Utilisateur
 
 
@@ -30,18 +30,24 @@ class MangaPossedeService:
         else:
             None
 
-    def modifier_num_manquant(self, manga: MangaPossede, num_manquant, num_acquis):
+    def modifier_num_manquant(self, mangap: MangaPossede, num_manquant):
         """Modification des numéros manquants des tomes d'un manga possédé"""
-        manga.num_manquant.remove(num_acquis)
-        if self.dao.MangaPossedeDAO.ajouter_num_manquant(manga.num_manquant):
-            return manga.num_manquant
+        if mangap.num_manquant:
+            mangap.num_manquant.remove(mangap.num_manquant)
+        listenummanquant = MangaPossedeDao().trouver_id_num_manquant_id(mangap.id_manga_p)
+        for elt in listenummanquant:
+            MangaPossedeDao().supprimer_num_manquant(elt)
+        for elt in num_manquant:
+            MangaPossedeDao().ajouter_num_manquant(elt)
+            mangap.num_manquant.append(elt)
+            return mangap.num_manquant
         else:
             None
 
     def modifier_statut(self, manga: MangaPossede, statut):
         """Modification du statut de lecture du manga possédé"""
         manga.statut = statut
-        if self.dao.MangaPossedeDAO.modifier_statut(manga.statut):
+        if self.dao.MangaPossedeDao.modifier_statut(manga.statut):
             return manga.statut
         else:
             None
