@@ -1,5 +1,7 @@
 import pytest
 from unittest.mock import MagicMock
+from business_object.utilisateur import Utilisateur
+from business_object.CollectionCoherente import CollectionCoherente
 from dao.utilisateur_dao import UtilisateurDao
 from service.recherche_service import RechercheService
 from service.utilisateur_service import UtilisateurService
@@ -7,6 +9,15 @@ from service.collection_coherente_service import CollectionCoherenteService
 from service.collection_physique_service import Collection_physique_service
 from dao.collection_coherente_dao import CollectionCoherenteDAO
 import logging
+
+
+liste_utilisateurs = [
+    Utilisateur(pseudo="manz1", mdp="1234Azer"),
+    Utilisateur(pseudo="z1alan", mdp="1234Azrt"),
+    Utilisateur(pseudo="piz1ran", mdp="1234Azrt"),
+]
+
+collection_coherente = CollectionCoherente(1, "matcha", "bleu", None)
 
 
 def test_recherche_manga_par_t_oui():
@@ -38,7 +49,9 @@ def test_recherche_utilisateur_oui():
     # GIVEN
     n, m, a = 0, 8, 0
     pseudo = "z1"
-    UtilisateurService().creer_compte = MagicMock(return_value=True)
+    UtilisateurDao().creer = MagicMock(return_value=True)
+    UtilisateurDao().rechercher_tous_pseudo = MagicMock(return_value=liste_utilisateurs)
+
     UtilisateurService().creer_compte("manz1", "1234Azer")
     UtilisateurService().creer_compte("z1alan", "1234Azrt")
     UtilisateurService().creer_compte("piz1ran", "1234Azrt")
@@ -55,26 +68,34 @@ def test_recherche_utilisateur_non():
     """Test de recherche d'un utilisateur"""
     # GIVEN
     n, m, a = 0, 8, 0
-    pseudo = "zdfdf"
+    pseudo = "z1"
+    UtilisateurDao().creer = MagicMock(return_value=False)
+    UtilisateurDao().rechercher_tous_pseudo = MagicMock(return_value=liste_utilisateurs)
+
+    UtilisateurService().creer_compte("manz1", "1234Azer")
+    UtilisateurService().creer_compte("z1alan", "1234Azrt")
+    UtilisateurService().creer_compte("piz1ran", "1234Azrt")
+
     # WHEN
-    res = RechercheService().recherche_utilisateur(pseudo, n, m, a)
+    longueur, sous_liste, longueur_tot = RechercheService().recherche_utilisateur(pseudo, n, m, a)
     # THEN
-    assert not res
+    assert longueur == 3
+    assert sous_liste == ["manz1", "z1alan", "piz1ran"]
+    assert longueur_tot == 3
 
 
 def test_recherche_collec_cohe_par_id_oui():
     """Test de recherche d'une collection cohérente par id d'utilisateur"""
     # GIVEN
-    id_1 = UtilisateurDao().recherche_id_par_pseudo("manz1")
-    collection = CollectionCoherenteDAO().trouver_collec_cohe_nom("matcha", id_1)
-    if collection:
-        CollectionCoherenteDAO().supprimer_collection(collection)
+    UtilisateurDao().recherche_id_par_pseudo = MagicMock(return_value=1)
+    CollectionCoherenteDAO().trouver_collec_cohe_id_user = MagicMock(return_value=[collection_coherente])
 
-    CollectionCoherenteService().creer_collectioncohe("matcha", "vert", id_1)
+    id = UtilisateurDao().recherche_id_par_pseudo("manz1")
+
     # WHEN
-    res = RechercheService().recherche_collec_cohe_par_id(id_1)
+    res = RechercheService().recherche_collec_cohe_par_id(id)
     # THEN
-    assert res == ["matcha"]
+    assert res
 
 
 def test_recherche_collec_cohe_par_id_non():
