@@ -3,7 +3,7 @@ from unittest.mock import MagicMock
 from service.manga_possede_service import MangaPossedeService
 from business_object.manga_possede import MangaPossede
 from dao.manga_possede_dao import MangaPossedeDao
-from unittest.mock import MagicMock
+
 
 
 mangap = MangaPossedeService().creer_manga_possede(1, 8, [5, 7], "En cours")

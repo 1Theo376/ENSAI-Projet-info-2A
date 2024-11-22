@@ -1,5 +1,5 @@
 from InquirerPy import inquirer
-
+import logging
 from vues.vue_abstraite import VueAbstraite
 from vues.session import Session
 
@@ -28,7 +28,10 @@ class MenuUtilisateurVue(VueAbstraite):
         """
 
         print("\n" + "-" * 50 + "\nMenu Utilisateur\n" + "-" * 50 + "\n")
-
+        if not Session().utilisateur:  # Vérifier si l'utilisateur est connecté
+            print("Erreur : Aucune session active. Veuillez vous connecter.")
+            from vues.accueil.accueil_vue import AccueilVue
+            return AccueilVue()
         choix = inquirer.select(
             message="Faites votre choix : ",
             choices=[
@@ -46,6 +49,10 @@ class MenuUtilisateurVue(VueAbstraite):
                 return AccueilVue()
 
             case "Accéder à mon profil":
+                logging.info("Accès à l'écran du profil demandé")
+                logging.info(f"{Session().utilisateur.id}")
+                logging.info(f"Utilisateur actuel : {Session().utilisateur}")
+
                 from vues.profil_utilisateur_vue import EcranDuProfilVue
 
                 return EcranDuProfilVue()

@@ -1,4 +1,4 @@
-from dao.utilisateur_dao import Utilisateur
+from dao.utilisateur_dao import UtilisateurDao
 from business_object.manga_possede import MangaPossede
 from dao.manga_possede_dao import MangaPossedeDao
 from business_object.utilisateur import Utilisateur
@@ -17,7 +17,7 @@ class MangaPossedeService:
             num_manquant=num_manquant,
             statut=statut,
         )
-        if self.dao.MangaPossedeDAO.ajouter_manga_p(nouveau_manga_p):
+        if MangaPossedeDao.ajouter_manga_p(nouveau_manga_p):
             return nouveau_manga_p
         else:
             None

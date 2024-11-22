@@ -26,7 +26,12 @@ class EcranDuProfilVue(VueAbstraite):
         vue
             Retourne la vue choisie par l'utilisateur dans le terminal
         """
-
+        logging.info(f"{Session().utilisateur.id}")
+        if not Session().utilisateur:  # Vérifier si l'utilisateur est connecté
+            print("Erreur : Aucune session active. Veuillez vous connecter.")
+            from vues.accueil.accueil_vue import AccueilVue
+            return AccueilVue()
+        logging.info(f"Utilisateur actuel : {Session().utilisateur}")
         print("\n" + "-" * 50 + "\nÉcran du Profil\n" + "-" * 50 + "\n")
 
         choix = [
@@ -39,6 +44,11 @@ class EcranDuProfilVue(VueAbstraite):
             "Retour au menu précédent",
         ]
 
+        collections_physiques = CollectionPhysiqueDAO().trouver_collec_phys_id_user(Session().utilisateur.id)
+        collections_coherentes = CollectionCoherenteDAO().trouver_collec_cohe_id_user(Session().utilisateur.id)
+
+        logging.info(f"Collections physiques trouvées : {collections_physiques}")
+        logging.info(f"Collections cohérentes trouvées : {collections_coherentes}")
         if not CollectionPhysiqueDAO().trouver_collec_phys_id_user(Session().utilisateur.id):
             choix.remove("Consulter ma collection physique")
 
