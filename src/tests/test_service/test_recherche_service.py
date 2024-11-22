@@ -1,12 +1,22 @@
 import pytest
-from unittest.mock import MagicMock
+from unittest.mock import patch, MagicMock
+from business_object.utilisateur import Utilisateur
+from business_object.CollectionCoherente import CollectionCoherente
+from business_object.collection_phys import Collection_physique
 from dao.utilisateur_dao import UtilisateurDao
+from dao.collection_physique_dao import CollectionPhysiqueDAO
 from service.recherche_service import RechercheService
-from service.utilisateur_service import UtilisateurService
-from service.collection_coherente_service import CollectionCoherenteService
-from service.collection_physique_service import Collection_physique_service
-from dao.collection_coherente_dao import CollectionCoherenteDAO
-import logging
+
+
+# Objets
+liste_utilisateurs = [
+    Utilisateur(pseudo="huz1y", mdp="1234Azer"),
+    Utilisateur(pseudo="azez1", mdp="0000Poiu"),
+    Utilisateur(pseudo="z1vert", mdp="abcd1Ruy"),
+]
+
+liste_collection_c = [CollectionCoherente(1, "Matcha", "vert")]
+collection_p = Collection_physique(1, "Pelle", "bleue", [])
 
 
 def test_recherche_manga_par_t_oui():
@@ -38,16 +48,13 @@ def test_recherche_utilisateur_oui():
     # GIVEN
     n, m, a = 0, 8, 0
     pseudo = "z1"
-    UtilisateurService().creer_compte = MagicMock(return_value=True)
-    UtilisateurService().creer_compte("manz1", "1234Azer")
-    UtilisateurService().creer_compte("z1alan", "1234Azrt")
-    UtilisateurService().creer_compte("piz1ran", "1234Azrt")
+    UtilisateurDao().rechercher_tous_pseudo = MagicMock(return_value=liste_utilisateurs)
 
     # WHEN
     longueur, sous_liste, longueur_tot = RechercheService().recherche_utilisateur(pseudo, n, m, a)
     # THEN
     assert longueur == 3
-    assert sous_liste == ["manz1", "z1alan", "piz1ran"]
+    assert sous_liste == ["huz1y", "azez1", "z1vert"]
     assert longueur_tot == 3
 
 
@@ -55,56 +62,55 @@ def test_recherche_utilisateur_non():
     """Test de recherche d'un utilisateur"""
     # GIVEN
     n, m, a = 0, 8, 0
-    pseudo = "zdfdf"
+    pseudo = "z1gg"
+    UtilisateurDao().rechercher_tous_pseudo = MagicMock(return_value=None)
+
     # WHEN
     res = RechercheService().recherche_utilisateur(pseudo, n, m, a)
     # THEN
     assert not res
 
 
-def test_recherche_collec_cohe_par_id_oui():
+@patch('dao.collection_coherente_dao.CollectionCoherenteDAO.trouver_collec_cohe_id_user', return_value=liste_collection_c)
+def test_recherche_collec_cohe_par_id_oui(patch):
     """Test de recherche d'une collection cohérente par id d'utilisateur"""
     # GIVEN
-    id_1 = UtilisateurDao().recherche_id_par_pseudo("manz1")
-    collection = CollectionCoherenteDAO().trouver_collec_cohe_nom("matcha", id_1)
-    if collection:
-        CollectionCoherenteDAO().supprimer_collection(collection)
-
-    CollectionCoherenteService().creer_collectioncohe("matcha", "vert", id_1)
+    id = 1
     # WHEN
-    res = RechercheService().recherche_collec_cohe_par_id(id_1)
+    res = RechercheService().recherche_collec_cohe_par_id(id)
     # THEN
-    assert res == ["matcha"]
+    assert res == ["Matcha"]
 
 
-def test_recherche_collec_cohe_par_id_non():
+@patch('dao.collection_coherente_dao.CollectionCoherenteDAO.trouver_collec_cohe_id_user', return_value=None)
+def test_recherche_collec_cohe_par_id_non(patch):
     """Test de recherche d'une collection cohérente par id d'utilisateur"""
     # GIVEN
-    id_1 = 760
+    id = 2
     # WHEN
-    res = RechercheService().recherche_collec_cohe_par_id(id_1)
+    res = RechercheService().recherche_collec_cohe_par_id(id)
     # THEN
     assert not res
 
 
-def test_recherche_collec_phys_par_id_oui():
+@patch('dao.collection_physique_dao.CollectionPhysiqueDAO.trouver_collec_phys_id_user', return_value=collection_p)
+def test_recherche_collec_phys_par_id_oui(patch):
     """Test de recherche d'une collection physique par id d'utilisateur"""
     # GIVEN
-    id_1 = UtilisateurDao().recherche_id_par_pseudo("manz1")
-    Collection_physique_service().creer_collectionphys = MagicMock(return_value=True)
-    Collection_physique_service().creer_collectionphys("thé", "vert", id_1)
+    id = 1
     # WHEN
-    res = RechercheService().recherche_collec_phys_par_id(id_1)
+    res = RechercheService().recherche_collec_phys_par_id(id)
     # THEN
     assert res
 
 
-def test_recherche_collec_phys_par_id_non():
+@patch('dao.collection_physique_dao.CollectionPhysiqueDAO.trouver_collec_phys_id_user', return_value=None)
+def test_recherche_collec_phys_par_id_non(patch):
     """Test de recherche d'une collection physique par id d'utilisateur"""
     # GIVEN
-    id_1 = 119
+    id = 1
     # WHEN
-    res = RechercheService().recherche_collec_phys_par_id(id_1)
+    res = RechercheService().recherche_collec_phys_par_id(id)
     # THEN
     assert not res
 
