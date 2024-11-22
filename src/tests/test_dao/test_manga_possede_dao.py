@@ -9,30 +9,36 @@ from dao.collection_physique_dao import CollectionPhysiqueDAO
 from dao.utilisateur_dao import UtilisateurDao
 from dao.manga_dao import MangaDao
 
-utilisateur1 = Utilisateur("Testuser","Barte8755")
+utilisateur1 = Utilisateur("Testuser", "Barte8755")
 UtilisateurDao().creer(utilisateur1)
 manga1 = MangaDao().trouver_manga_par_id(1)
 
-mangap = MangaPossede(id_manga_p=1, num_dernier_acquis=10, num_manquant=[1,2,3], statut="En cours")
+mangap = MangaPossede(idmanga=1, num_dernier_acquis=10, num_manquant=[1, 2, 3], statut="En cours")
 
-collecphysique = Collection_physique(id_collectionphysique=0, titre_collection="TestCollec", description_collection="Description test")
-CollectionPhysiqueDAO().creer_collectionphys(collecphysique,utilisateur1.id)
+collecphysique = Collection_physique(
+    id_collectionphysique=0,
+    titre_collection="TestCollec",
+    description_collection="Description test",
+)
+CollectionPhysiqueDAO().creer_collectionphys(collecphysique, utilisateur1.id)
+
 
 def test_ajouter_manga_p():
     # GIVEN
-    mangap = MangaPossede(id_manga_p=1, num_dernier_acquis=10, num_manquant=[1,2,3], statut="En cours")
+    mangap = MangaPossede(
+        idmanga=1, num_dernier_acquis=10, num_manquant=[1, 2, 3], statut="En cours"
+    )
     # WHEN
     res = MangaPossedeDao().ajouter_manga_p(mangap)
     # THEN
-    self.assertTrue(created)
-    self.assertIsNotNone(mangap.id_manga_p)
+    assert res
 
 
 def test_nb_volume_manga():
     # GIVEN
-    nom = "Monster" #il y a 18 tomes dans ce manga
+    nom = "Monster"  # il y a 18 tomes dans ce manga
     # WHEN
-    volumes = MangaPossedeDao().nb_volume_manga()
+    volumes = MangaPossedeDao().nb_volume_manga(nom)
     # THEN
     assert volumes == 18
 
@@ -41,17 +47,21 @@ def test_trouver_manga_possede_collecphys():
     # GIVEN
     titre = manga1.titre
     # WHEN
-    mangap2 = MangaPossedeDao().trouver_manga_possede_collecphys(titre, collecphysique.id_collectionphysique)
+    mangap2 = MangaPossedeDao().trouver_manga_possede_collecphys(
+        titre, collecphysique.id_collectionphysique
+    )
     # THEN
     assert mangap.num_dernier_acquis == mangap2.num_dernier_acquis
 
-def test_trouver_id_num_manquant_id(): #difficile
+
+def test_trouver_id_num_manquant_id():  # difficile
     # GIVEN
     idp = mangap.id_manga_p
     # WHEN
     liste_id_num_manquant = MangaPossedeDao().trouver_id_num_manquant_id(idp)
     # THEN
-    assert
+    assert liste_id_num_manquant
+
 
 def test_ajouter_num_manquant():
     # GIVEN
@@ -61,11 +71,12 @@ def test_ajouter_num_manquant():
     # THEN
     assert res
 
-def test_ajouter_ass_num_manquant(): #à revoir
+
+def test_ajouter_ass_num_manquant():  # à revoir
     # GIVEN
     liste_id_num_manquant = MangaPossedeDao().trouver_id_num_manquant_id(idp)
     # WHEN
-    res = MangaPossedeDao().ajouter_ass_num_manquant(mangap.id_manga_p,liste_id_num_manquant[0])
+    res = MangaPossedeDao().ajouter_ass_num_manquant(mangap.id_manga_p, liste_id_num_manquant[0])
     # THEN
     assert res
 
@@ -77,3 +88,9 @@ def test_trouver_manga_possede_id():
     mangap3 = MangaPossedeDao().trouver_manga_possede_id(idp)
     # THEN
     assert mangap.num_dernier_acquis == mangap3.num_dernier_acquis
+
+
+if __name__ == "__main__":
+    import pytest
+
+    pytest.main([__file__])
