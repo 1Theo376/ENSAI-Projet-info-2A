@@ -15,10 +15,8 @@ class Collection_physique_service:
     def creer_collectionphys(self, titre_collection, desc_collection, idu):
         """Création d'une collection physique"""
         nouvelle_collection_phys = Collection_physique(
-            id_collectionphysique=None,
             titre_collection=titre_collection,
             description_collection=desc_collection,
-            Liste_manga=[],
         )
 
         return (
