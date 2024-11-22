@@ -27,10 +27,10 @@ class MangaDao(metaclass=Singleton):
                 with connection.cursor() as cursor:
                     cursor.execute(
                         "SELECT id_manga, titre, synopsis, genre_name as genre, name_auteur as auteur         "
-                        "FROM manga join association_manga_genre using(id_manga) "
-                        "join genre using(id_genre)                              "
-                        "join association_manga_auteur using(id_manga)           "
-                        "join auteur using(id_auteur)                            "
+                        "FROM manga left join association_manga_genre using(id_manga) "
+                        "left join genre using(id_genre)                              "
+                        "left join association_manga_auteur using(id_manga)           "
+                        "left join auteur using(id_auteur)                            "
                         "WHERE id_manga = %(id_manga)s;                                ",
                         {"id_manga": id_manga},
                     )
@@ -364,6 +364,6 @@ class MangaDao(metaclass=Singleton):
         return total_supprime > 0
 
 
-#test = MangaDao()
-#test.supprimer_toutes_les_donnees()
-#test.inserer_mangas("mangas.json")
+# test = MangaDao()
+# test.supprimer_toutes_les_donnees()
+# test.inserer_mangas("mangas.json")
