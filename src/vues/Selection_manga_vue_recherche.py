@@ -38,7 +38,7 @@ class SelectionMangaVuerecherche(VueAbstraite):
                 print("Auteur: " + manga.auteur + "\n")
                 print("Thèmes: " + manga.themes + "\n")
                 print("Genre: " + manga.genre + "\n")
-                self.choisir_menu(choix)
+                return self.choisir_menu(choix)
             case "Consulter les avis":
                 from vues.ConsulterAvisVue import ConsulterAvisMangaVuerecherche
 

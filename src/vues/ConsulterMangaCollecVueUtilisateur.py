@@ -21,7 +21,9 @@ class ConsulterMangaCollecCoheUtilVUe(VueAbstraite):
         print("\n" + "-" * 50 + "\nRecherche d'une collection\n" + "-" * 50 + "\n")
         id_utilisateur = UtilisateurDao().recherche_id_par_pseudo(choixu)
         liste_titre = []
-        for manga in (CollectionCoherenteDAO().trouver_collec_cohe_nom(choixc, id_utilisateur)).Liste_manga:
+        for manga in (
+            CollectionCoherenteDAO().trouver_collec_cohe_nom(choixc, id_utilisateur)
+        ).Liste_manga:
             liste_titre.append(manga.titre)
         liste_titre.append("Retour au menu précédent")
         choix4 = inquirer.select(
@@ -30,6 +32,7 @@ class ConsulterMangaCollecCoheUtilVUe(VueAbstraite):
         ).execute()
         if choix4 == "Retour au menu précédent":
             from vues.ConsulterCollecVue import CollectionCoherenteVueRecherche
+
             return CollectionCoherenteVueRecherche().choisir_menu(choixu)
         else:
             n = 0
@@ -47,6 +50,10 @@ class ConsulterMangaCollecCoheUtilVUe(VueAbstraite):
             print("Genre: " + manga.genre + "\n")
             if n != 0:
                 print(
-                    "\n" + "-" * 50 + f"\nManga: {liste_titre[n]}\n{liste_avis[n].texte} \n" + "-" * 50 + "\n"
-                    )
-            self.choisir_menu(choixu, choixc)
+                    "\n"
+                    + "-" * 50
+                    + f"\nManga: {liste_titre[n]}\n{liste_avis[n].texte} \n"
+                    + "-" * 50
+                    + "\n"
+                )
+            return self.choisir_menu(choixu, choixc)
