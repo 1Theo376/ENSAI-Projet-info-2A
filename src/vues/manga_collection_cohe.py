@@ -33,7 +33,9 @@ class MangaCollectionCoherenteVue(VueAbstraite):
         if choix3 == "Consulter/Modifier les mangas de la collection":
             liste_titre = []
             for manga in (
-                CollectionCoherenteDAO().trouver_collec_cohe_nom(choix2, Session().utilisateur.id)
+                CollectionCoherenteService().trouver_collec_cohe_nom(
+                    choix2, Session().utilisateur.id
+                )
             ).Liste_manga:
                 liste_titre.append(manga.titre)
             if not liste_titre:
@@ -75,7 +77,7 @@ class MangaCollectionCoherenteVue(VueAbstraite):
 
         if choix3 == "Consulter la description de la collection":
             description = (
-                CollectionCoherenteDAO()
+                CollectionCoherenteService()
                 .trouver_collec_cohe_nom(choix2, Session().utilisateur.id)
                 .desc_collection
             )
@@ -85,12 +87,12 @@ class MangaCollectionCoherenteVue(VueAbstraite):
         if choix3 == "Modifier le titre de la collection":
             logging.info(f"choix 2 : {choix2}")
             id_collection = (
-                CollectionCoherenteDAO()
+                CollectionCoherenteService()
                 .trouver_collec_cohe_nom(choix2, Session().utilisateur.id)
                 .id_collectioncoherente
             )
             nouveau_titre = inquirer.text(message="Entrer le nouveau titre : ").execute()
-            CollectionCoherenteDAO().modifier_titre(id_collection, nouveau_titre)
+            CollectionCoherenteService().modifier_titre(id_collection, nouveau_titre)
             print("\n" + "Titre modifié." + "\n")
             return self.choisir_menu(nouveau_titre)
 
@@ -101,13 +103,15 @@ class MangaCollectionCoherenteVue(VueAbstraite):
                 .id_collectioncoherente
             )
             nouvelle_desc = inquirer.text(message="Entrer la nouvelle description : ").execute()
-            CollectionCoherenteDAO().modifier_desc(id_collection, nouvelle_desc)
+            CollectionCoherenteService().modifier_desc(id_collection, nouvelle_desc)
             print("\n" + "Description modifiée." + "\n")
             return self.choisir_menu(choix2)
 
         if choix3 == "Supprimer la collection":
             CollectionCoherenteService().supprimer_collectioncohe(
-                CollectionCoherenteDAO().trouver_collec_cohe_nom(choix2, Session().utilisateur.id)
+                CollectionCoherenteService().trouver_collec_cohe_nom(
+                    choix2, Session().utilisateur.id
+                )
             )
             print("\n" + "Collection supprimée." + "\n")
             from vues.profil_utilisateur_vue import EcranDuProfilVue
@@ -133,7 +137,9 @@ class MangaCollectionCoherenteVue(VueAbstraite):
             from service.collection_coherente_service import CollectionCoherenteService
 
             CollectionCoherenteService().supprimer_mangaposs(
-                CollectionCoherenteDAO().trouver_collec_cohe_nom(choix2, Session().utilisateur.id),
+                CollectionCoherenteService().trouver_collec_cohe_nom(
+                    choix2, Session().utilisateur.id
+                ),
                 MangaDao().trouver_manga_par_titre(choix4),
             )
             return self.choisir_menu(choix2)
@@ -149,9 +155,8 @@ class MangaCollectionCoherenteVue(VueAbstraite):
 
         if choix5 == "Consulter son avis sur ce manga":
             from service.avis_service import AvisService
-            from dao.avis_dao import AvisDAO
 
-            if AvisDAO().AvisUtilisateurMangaExistant(
+            if AvisService().AvisUtilisateurMangaExistant(
                 Session().utilisateur.id, MangaDao().trouver_manga_par_titre(choix4).id_manga
             ):
                 print(

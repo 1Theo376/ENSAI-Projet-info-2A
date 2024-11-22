@@ -1,7 +1,6 @@
 from vues.vue_abstraite import VueAbstraite
 from InquirerPy import inquirer
 from vues.session import Session
-from dao.collection_physique_dao import CollectionPhysiqueDAO
 from dao.manga_dao import MangaDao
 from dao.manga_possede_dao import MangaPossedeDao
 from service.collection_physique_service import Collection_physique_service
@@ -31,7 +30,7 @@ class CollectionPhysiqueVue(VueAbstraite):
         if choix3 == "Consulter/Modifier les mangas de la collection":
             liste_titre = []
             for manga in (
-                CollectionPhysiqueDAO().trouver_collec_phys_id_user(Session().utilisateur.id)
+                Collection_physique_service().trouver_collec_phys_id_user(Session().utilisateur.id)
             ).Liste_manga:
                 liste_titre.append(MangaDao().trouver_manga_par_id(manga.idmanga).titre)
             if not liste_titre:
@@ -50,7 +49,7 @@ class CollectionPhysiqueVue(VueAbstraite):
 
         if choix3 == "Consulter la description de la collection":
             description = (
-                CollectionPhysiqueDAO()
+                Collection_physique_service()
                 .trouver_collec_phys_id_user(Session().utilisateur.id)
                 .description_collection
             )
@@ -59,29 +58,29 @@ class CollectionPhysiqueVue(VueAbstraite):
 
         if choix3 == "Modifier le titre de la collection":
             id_collection = (
-                CollectionPhysiqueDAO()
+                Collection_physique_service()
                 .trouver_collec_phys_id_user(Session().utilisateur.id)
                 .id_collectionphysique
             )
             nouveau_titre = inquirer.text(message="Entrer le nouveau titre : ").execute()
-            CollectionPhysiqueDAO().modifier_titre(id_collection, nouveau_titre)
+            Collection_physique_service().modifier_titre(id_collection, nouveau_titre)
             print("\n" + "Titre modifié." + "\n")
             return self.choisir_menu()
 
         if choix3 == "Modifier la description de la collection":
             id_collection = (
-                CollectionPhysiqueDAO()
+                Collection_physique_service()
                 .trouver_collec_phys_id_user(Session().utilisateur.id)
                 .id_collectionphysique
             )
             nouvelle_desc = inquirer.text(message="Entrer la nouvelle description : ").execute()
-            CollectionPhysiqueDAO().modifier_desc(id_collection, nouvelle_desc)
+            Collection_physique_service().modifier_desc(id_collection, nouvelle_desc)
             print("\n" + "Description modifiée." + "\n")
             return self.choisir_menu()
 
         if choix3 == "Supprimer la collection":
             id_collection = (
-                CollectionPhysiqueDAO()
+                Collection_physique_service()
                 .trouver_collec_phys_id_user(Session().utilisateur.id)
                 .id_collectionphysique
             )
@@ -103,7 +102,9 @@ class CollectionPhysiqueVue(VueAbstraite):
             MangaPossedeDao().trouver_manga_possede_collecphys(
                 choix4,
                 (
-                    CollectionPhysiqueDAO().trouver_collec_phys_id_user(Session().utilisateur.id)
+                    Collection_physique_service().trouver_collec_phys_id_user(
+                        Session().utilisateur.id
+                    )
                 ).id_collectionphysique,
             )
         )
@@ -121,16 +122,15 @@ class CollectionPhysiqueVue(VueAbstraite):
             from service.collection_physique_service import Collection_physique_service
 
             Collection_physique_service().supprimer_mangaposs(
-                CollectionPhysiqueDAO().trouver_collec_phys_id_user(Session().utilisateur.id),
+                Collection_physique_service().trouver_collec_phys_id_user(Session().utilisateur.id),
                 MangaDao().trouver_manga_par_titre(choix4),
             )
             return self.choisir_menu_bis(choix4)
 
         if choix5 == "Consulter son avis sur ce manga":
             from service.avis_service import AvisService
-            from dao.avis_dao import AvisDAO
 
-            if AvisDAO().AvisUtilisateurMangaExistant(
+            if AvisService().AvisUtilisateurMangaExistant(
                 Session().utilisateur.id, MangaDao().trouver_manga_par_titre(choix4).id_manga
             ):
                 print(
@@ -149,7 +149,9 @@ class CollectionPhysiqueVue(VueAbstraite):
             mangap = MangaPossedeDao().trouver_manga_possede_collecphys(
                 choix4,
                 (
-                    CollectionPhysiqueDAO().trouver_collec_phys_id_user(Session().utilisateur.id)
+                    Collection_physique_service().trouver_collec_phys_id_user(
+                        Session().utilisateur.id
+                    )
                 ).id_collectionphysique,
             )
             num_manquant = mangap.num_manquant

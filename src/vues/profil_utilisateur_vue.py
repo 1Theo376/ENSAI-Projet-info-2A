@@ -3,8 +3,6 @@ from vues.vue_abstraite import VueAbstraite
 from vues.session import Session
 from service.collection_coherente_service import CollectionCoherenteService
 from service.collection_physique_service import Collection_physique_service
-from dao.collection_physique_dao import CollectionPhysiqueDAO
-from dao.collection_coherente_dao import CollectionCoherenteDAO
 from service.avis_service import AvisService
 
 
@@ -38,10 +36,10 @@ class EcranDuProfilVue(VueAbstraite):
             "Retour au menu précédent",
         ]
 
-        if not CollectionPhysiqueDAO().trouver_collec_phys_id_user(Session().utilisateur.id):
+        if not Collection_physique_service().trouver_collec_phys_id_user(Session().utilisateur.id):
             choix.remove("Consulter ma collection physique")
 
-        if not CollectionCoherenteDAO().trouver_collec_cohe_id_user(Session().utilisateur.id):
+        if not CollectionCoherenteService().trouver_collec_cohe_id_user(Session().utilisateur.id):
             choix.remove("Consulter mes collections cohérentes")
 
         choix = inquirer.select(
@@ -73,7 +71,7 @@ class EcranDuProfilVue(VueAbstraite):
                 titre = inquirer.text(
                     message="Entrez le nom de la collection que vous voulez créer : "
                 ).execute()
-                if CollectionCoherenteDAO().trouver_collec_cohe_nom(
+                if CollectionCoherenteService().trouver_collec_cohe_nom(
                     titre, Session().utilisateur.id
                 ):
                     return EcranDuProfilVue("Ce nom de collection existe déjà")

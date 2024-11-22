@@ -3,7 +3,6 @@ from vues.vue_abstraite import VueAbstraite
 from dao.manga_dao import MangaDao
 from service.avis_service import AvisService
 from vues.session import Session
-from dao.avis_dao import AvisDAO
 
 
 class ConsulterAvisMangaVuerecherche(VueAbstraite):
@@ -50,7 +49,7 @@ class ConsulterAvisMangaVuerecherche(VueAbstraite):
             if n == 0:
                 choix2.remove("Afficher la page précédente")
 
-            if AvisDAO().AvisUtilisateurMangaExistant(Session().utilisateur.id, manga.id_manga):
+            if AvisService().AvisUtilisateurMangaExistant(Session().utilisateur.id, manga.id_manga):
                 choix2.extend(["Modifier votre avis sur ce manga"])
 
             choix3 = inquirer.select(message="Choisissez une action :", choices=choix2).execute()
@@ -62,8 +61,8 @@ class ConsulterAvisMangaVuerecherche(VueAbstraite):
                     "(si aucun changement appuyez sur Entrée) : "
                 )
 
-                AvisDAO().modifier_avis(
-                    AvisDAO().recuperer_avis_user_et_manga(
+                AvisService().modifier_avis(
+                    AvisService().recuperer_avis_user_et_manga(
                         MangaDao().trouver_manga_par_titre(choixm).id_manga,
                         Session().utilisateur.id,
                     ),

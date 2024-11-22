@@ -5,8 +5,7 @@ from dao.manga_dao import MangaDao
 from vues.session import Session
 import logging
 from service.collection_coherente_service import CollectionCoherenteService
-from dao.collection_coherente_dao import CollectionCoherenteDAO
-from dao.collection_physique_dao import CollectionPhysiqueDAO
+from service.collection_physique_service import Collection_physique_service
 
 
 class AjouterMangaCollecVuerecherche(VueAbstraite):
@@ -86,7 +85,7 @@ class AjouterMangaCollecVuerecherche(VueAbstraite):
             logging.info(f"Nom de la collection choisi: {nom}")
             if collec == "Dans votre collection physique":
                 if nom == collection_physique.titre_collection:
-                    collection = CollectionPhysiqueDAO().trouver_collec_phys_nom(nom)
+                    collection = Collection_physique_service().trouver_collec_phys_nom(nom)
                     for i in collection.Liste_manga:
                         if i.titre == choix3:
                             from vues.Selection_manga_vue_recherche import (
@@ -100,7 +99,9 @@ class AjouterMangaCollecVuerecherche(VueAbstraite):
 
                     return AjouterMangaPossCollPhys().choisir_menu(choix3, collection)
             else:
-                collection = CollectionCoherenteDAO().trouver_collec_cohe_nom(nom, id_utilisateur)
+                collection = CollectionCoherenteService().trouver_collec_cohe_nom(
+                    nom, id_utilisateur
+                )
                 logging.info(f"Collection cohérente trouvée : {nom}, {collection}")
                 logging.info(f"collection.Liste_manga : {collection.Liste_manga}")
                 for i in collection.Liste_manga:

@@ -2,7 +2,7 @@ from vues.vue_abstraite import VueAbstraite
 from InquirerPy import inquirer
 from service.recherche_service import RechercheService
 from dao.utilisateur_dao import UtilisateurDao
-from dao.collection_physique_dao import CollectionPhysiqueDAO
+from service.collection_physique_service import Collection_physique_service
 import logging
 
 
@@ -76,7 +76,7 @@ class CollectionCoherenteVueRecherche(VueAbstraite):
                 ).execute()
                 if choix4 == "Consulter les mangas de la collection":
                     if (
-                        CollectionPhysiqueDAO().trouver_collec_phys_id_user(
+                        Collection_physique_service().trouver_collec_phys_id_user(
                             UtilisateurDao().recherche_id_par_pseudo(choixu)
                         )
                         is not None

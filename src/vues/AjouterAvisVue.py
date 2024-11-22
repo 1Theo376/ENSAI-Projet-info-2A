@@ -17,7 +17,7 @@ class AjouterAvisVuerecherche(VueAbstraite):
             Retourne la vue choisie par l'utilisateur dans le terminal
         """
         manga = MangaDao().trouver_manga_par_titre(choix3)
-        if AvisDAO().AvisUtilisateurMangaExistant(Session().utilisateur.id, manga.id_manga):
+        if AvisService().AvisUtilisateurMangaExistant(Session().utilisateur.id, manga.id_manga):
             from vues.Selection_manga_vue_recherche import SelectionMangaVuerecherche
 
             print("\n" * 30)

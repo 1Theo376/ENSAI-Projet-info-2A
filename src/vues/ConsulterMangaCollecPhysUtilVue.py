@@ -2,7 +2,7 @@ from vues.vue_abstraite import VueAbstraite
 from InquirerPy import inquirer
 from dao.utilisateur_dao import UtilisateurDao
 import logging
-from dao.collection_physique_dao import CollectionPhysiqueDAO
+from service.collection_physique_service import Collection_physique_service
 from dao.manga_dao import MangaDao
 from service.avis_service import AvisService
 
@@ -20,7 +20,7 @@ class ConsulterMangaCollecPhysUtilVUe(VueAbstraite):
         id_utilisateur = UtilisateurDao().recherche_id_par_pseudo(choixu)
         liste_titre = []
         for manga in (
-            CollectionPhysiqueDAO().trouver_collec_phys_id_user(id_utilisateur)
+            Collection_physique_service().trouver_collec_phys_id_user(id_utilisateur)
         ).Liste_manga:
             liste_titre.append(MangaDao().trouver_manga_par_id(manga.idmanga).titre)
         if liste_titre == []:

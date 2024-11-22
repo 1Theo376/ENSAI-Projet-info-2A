@@ -1,7 +1,7 @@
 from vues.vue_abstraite import VueAbstraite
 from InquirerPy import inquirer
 from dao.utilisateur_dao import UtilisateurDao
-from dao.collection_coherente_dao import CollectionCoherenteDAO
+from service.collection_coherente_service import CollectionCoherenteService
 from dao.manga_dao import MangaDao
 from service.avis_service import AvisService
 
@@ -19,7 +19,7 @@ class ConsulterMangaCollecCoheUtilVUe(VueAbstraite):
         id_utilisateur = UtilisateurDao().recherche_id_par_pseudo(choixu)
         liste_titre = []
         for manga in (
-            CollectionCoherenteDAO().trouver_collec_cohe_nom(choixc, id_utilisateur)
+            CollectionCoherenteService().trouver_collec_cohe_nom(choixc, id_utilisateur)
         ).Liste_manga:
             liste_titre.append(manga.titre)
         if liste_titre == []:

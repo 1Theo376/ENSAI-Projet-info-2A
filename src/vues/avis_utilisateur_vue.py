@@ -78,14 +78,14 @@ class MenuAvis(VueAbstraite):
                 ).execute()
                 match choix2:
                     case "Modifier l'avis":
-                        from dao.avis_dao import AvisDAO
+                        from service.avis_service import AvisService
 
                         nouvel_avis = input(
                             f"Entrez votre nouvel avis sur le manga {titre} "
                             "(si aucun changement appuyez sur Entrée) : "
                         )
 
-                        AvisDAO().modifier_avis(avis, nouvel_avis)
+                        AvisService().modifier_avis(avis, nouvel_avis)
                         return MenuAvis()
                     case "Supprimer l'avis":
                         AvisService().supprimer_avis(avis)

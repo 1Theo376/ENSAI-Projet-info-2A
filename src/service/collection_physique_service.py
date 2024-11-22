@@ -43,3 +43,15 @@ class Collection_physique_service:
         Texte_Liste_Titre_Manga = ", ".join(manga.titre for manga in CollectionP.Liste_manga)
 
         return f"Voici les mangas présents dans cette collection : {Texte_Liste_Titre_Manga}"
+
+    def trouver_collec_phys_id_user(self, id_utilisateur) -> Collection_physique:
+        return CollectionPhysiqueDAO().trouver_collec_phys_id_user(id_utilisateur)
+
+    def trouver_collec_phys_nom(self, nom):
+        return CollectionPhysiqueDAO().trouver_collec_phys_nom(nom)
+
+    def modifier_titre(self, id_collection: int, nouveau_titre: str) -> bool:
+        return CollectionPhysiqueDAO().modifier_titre(id_collection, nouveau_titre)
+
+    def modifier_desc(self, id_collection: int, nouvelle_desc: str) -> bool:
+        return CollectionPhysiqueDAO().modifier_desc(id_collection, nouvelle_desc)

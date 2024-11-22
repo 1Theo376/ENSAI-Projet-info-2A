@@ -35,3 +35,15 @@ class CollectionCoherenteService:
         """Ajout d'un manga dans la collection"""
         CollectionC = CollectionCoherenteDAO().ajouter_manga(idcollec, idmanga)
         return CollectionC if CollectionCoherenteDAO().ajouter_manga(idcollec, idmanga) else None
+
+    def trouver_collec_cohe_id_user(self, id_utilisateur) -> CollectionCoherente:
+        return CollectionCoherenteDAO().trouver_collec_cohe_id_user(id_utilisateur)
+
+    def trouver_collec_cohe_nom(self, nom, idu) -> CollectionCoherente:
+        return CollectionCoherenteDAO().trouver_collec_cohe_nom(nom, idu)
+
+    def modifier_titre(self, id_collection: int, nouveau_titre: str) -> bool:
+        return CollectionCoherenteDAO().modifier_titre(id_collection, nouveau_titre)
+
+    def modifier_desc(self, id_collection: int, nouvelle_desc: str) -> bool:
+        return modifier_desc(id_collection, nouvelle_desc)
