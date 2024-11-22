@@ -12,7 +12,7 @@ liste_utilisateurs = [
     Utilisateur(pseudo="vert", mdp="abcd1Ruy"),
 ]
 
-@pytest.fixture(scope="session", autouse=True)
+@pytest.fixture(scope="function", autouse=True)
 def setup_test_environment():
     """Initialisation des données de test pour UtilisateurDao"""
     with patch.dict("os.environ", {"POSTGRES_SCHEMA": "projet_test_dao"}):
@@ -22,7 +22,7 @@ def setup_test_environment():
         yield
 
 
-@pytest.fixture(scope="session", autouse=True)
+@pytest.fixture(scope="function", autouse=True)
 def utilisateur_test():
     """Crée un joueur pour les tests"""
     for user in liste_utilisateurs:
