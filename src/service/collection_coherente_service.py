@@ -21,11 +21,10 @@ class CollectionCoherenteService:
             desc_collection=desc_collection,
             Liste_manga=[])
         logging.info(f"nouvelle_collection_cohe : {nouvelle_collection_cohe}")
-        return (
-            nouvelle_collection_cohe
-            if CollectionCoherenteDAO().creer_collection(nouvelle_collection_cohe, idu)
-            else None
-        )
+        if CollectionCoherenteDAO().creer_collection(nouvelle_collection_cohe, idu):
+            return nouvelle_collection_cohe
+        else:
+            return None
 
     def supprimer_mangaposs(self, CollectionC, MangaC: Manga) -> bool:
         """Supression d'un manga de la collection  """
