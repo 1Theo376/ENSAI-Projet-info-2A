@@ -166,5 +166,3 @@ def test_modifier_desc_non():
     assert not res
 
 
-if __name__ == "__main__":
-    pytest.main([__file__])
