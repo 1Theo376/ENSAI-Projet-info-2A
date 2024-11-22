@@ -1,66 +1,156 @@
 import pytest
-import os
-from src.business_object.avis import Avis
-from dao.avis_dao import AvisDAO
 from unittest.mock import patch
-
-@pytest.fixture
-def avis_dao():
-    return AvisDAO()
-
-
-@pytest.fixture
-def avis1():
-    return Avis(id_avis=1, texte="Avis 1")
+from business_object.avis import Avis
+from business_object.manga import Manga
+from business_object.utilisateur import Utilisateur
+from dao.utilisateur_dao import UtilisateurDao
+from dao.avis_dao import AvisDAO
+from dao.manga_dao import MangaDao
 
 
-@pytest.fixture
-def avis2():
-    return Avis(id_avis=2, texte="Avis 2")
+# Objets
+avis = Avis(id_avis=1, texte="j'adore ce livre")
+manga = Manga(id_manga=1, titre="Naruto", synopsis="synopsis", auteur="auteur",
+              themes="thèmes", genre="genre")
+utilisateur = Utilisateur(id=1, pseudo="huz1y", mdp="1234Azer")
 
 
-def test_creer_avis(avis_dao, avis1):
-    result = avis_dao.creer_avis(avis1, id_user=1, id_manga=1)
-    assert result == True  # Vérifie que l'avis a bien été créé
-    result = avis_dao.creer_avis(avis1, id_user=1, id_manga=1)
-    assert result == False  # Vérifie qu'un avis ne peut pas être créé deux fois
+@pytest.fixture(scope="function", autouse=True)
+def setup_test_environment():
+    """Initialisation des données de test pour UtilisateurDao"""
+    with patch.dict("os.environ", {"POSTGRES_SCHEMA": "projet_test_dao"}):
+        from utils.reset_database import ResetDatabase
+        ResetDatabase().lancer(test_dao=True)
+        MangaDao().inserer_mangas("testmangas.json")
+        yield
 
 
-def test_trouver_avis_par_id(avis_dao, avis1):
-    avis_dao.creer_avis(avis1, id_user=1, id_manga=1)
-    found_avis = avis_dao.trouver_avis_par_id(avis1.id_avis)
-    assert found_avis == avis1  # Vérifie que l'avis est trouvé correctement
-    assert avis_dao.trouver_avis_par_id(999) is None  # Vérifie qu'un avis inexistant retourne None
+@pytest.fixture(scope="function", autouse=True)
+def utilisateur_test():
+    """Crée un utilisateur pour les tests"""
+    return UtilisateurDao().creer(utilisateur)
 
 
-def test_supprimer_avis(avis_dao, avis1):
-    avis_dao.creer_avis(avis1, id_user=1, id_manga=1)
-    result = avis_dao.supprimer_avis(avis1)
-    assert result == True  # Vérifie que l'avis a bien été supprimé
-    result = avis_dao.supprimer_avis(avis1)
-    assert result == False  # Vérifie qu'un avis déjà supprimé ne peut pas être supprimé à nouveau
+def test_creer_avis_oui():
+    """Création d'un avis dans la base de données"""
+    # GIVEN
+    id_utilisateur = 1
+    id_manga = 1
+    # WHEN
+    res = AvisDAO().creer_avis(avis, id_utilisateur, id_manga)
+    # THEN
+    assert res
 
 
-def test_modifier_avis(avis_dao, avis1, avis2):
-    avis_dao.creer_avis(avis1, id_user=1, id_manga=1)
-    avis1_modifie = Avis(id_avis=1, texte="Avis modifié")
-    result = avis_dao.modifier_avis(avis1_modifie, nouveau_texte="Avis modifié")
-    assert result == True  # Vérifie que l'avis a bien été modifié
-    assert avis_dao.trouver_avis_par_id(avis1.id_avis).texte == "Avis modifié"  # Vérifie que le texte de l'avis a bien été modifié
-    result = avis_dao.modifier_avis(avis2)
-    assert result == False  # Vérifie qu'un avis inexistant ne peut pas être modifié
+def test_creer_avis_non():
+    """Création d'un avis dans la base de données"""
+    # GIVEN
+    id_utilisateur = 9999
+    id_manga = 1
+    # WHEN
+    res = AvisDAO().creer_avis(avis, id_utilisateur, id_manga)
+    # THEN
+    assert not res
 
 
-def test_consulter_avis(avis_dao, avis1):
-    avis_dao.creer_avis(avis1, id_user=1, id_manga=1)
-    found_avis = avis_dao.consulter_avis(avis1.id_avis)
-    assert found_avis == avis1  # Vérifie que l'avis est bien consulté
-    assert avis_dao.consulter_avis(999) is None  # Vérifie qu'un avis inexistant retourne None
+def test_supprimer_avis_oui():
+    """Suppression d'un avis dans la base de données"""
+    # GIVEN
+    id_utilisateur = 1
+    id_manga = 1
+    AvisDAO().creer_avis(avis, id_utilisateur, id_manga)
+    # WHEN
+    res = AvisDAO().supprimer_avis(avis)
+    # THEN
+    assert res
 
 
-def test_recuperer_avis_utilisateur(avis_dao, avis1, avis2):
-    avis_dao.creer_avis(avis1, id_user=1, id_manga=1)
-    avis_dao.creer_avis(avis2, id_user=1, id_manga=1)
-    avis_utilisateur = avis_dao.recuperer_avis_utilisateur(1)
-    assert len(avis_utilisateur) == 1  # Vérifie qu'un seul avis de l'utilisateur est retourné
-    assert avis_utilisateur[0].id_avis == avis1.id_avis  # Vérifie que l'avis retourné correspond bien à l'utilisateur
+def test_recuperer_avis_utilisateur_oui():
+    """Récupération des avis d'un utilisateur dans la base de données"""
+    # GIVEN
+    id_utilisateur = 1
+    id_manga = 1
+    AvisDAO().creer_avis(avis, id_utilisateur, id_manga)
+    # WHEN
+    res = AvisDAO().recuperer_avis_utilisateur(id_utilisateur)
+    # THEN
+    assert res
+
+
+def test_recuperer_avis_utilisateur_non():
+    """Récupération des avis d'un utilisateur dans la base de données"""
+    # GIVEN
+    id_utilisateur = 1
+    id_manga = 1
+    AvisDAO().creer_avis(avis, id_utilisateur, id_manga)
+    # WHEN
+    res1, res2 = AvisDAO().recuperer_avis_utilisateur(33)
+    # THEN
+    assert not res1
+    assert not res2
+
+
+def test_recuperer_avis_manga_oui():
+    """Récupération des avis d'un manga dans la base de données"""
+    # GIVEN
+    id_utilisateur = 1
+    id_manga = 1
+    AvisDAO().creer_avis(avis, id_utilisateur, id_manga)
+    # WHEN
+    res = AvisDAO().recuperer_avis_manga(id_manga)
+    # THEN
+    assert res
+
+
+def test_recuperer_avis_manga_non():
+    """Récupération des avis d'un manga dans la base de données"""
+    # GIVEN
+    id_utilisateur = 1
+    id_manga = 1
+    AvisDAO().creer_avis(avis, id_utilisateur, id_manga)
+    # WHEN
+    res1, res2 = AvisDAO().recuperer_avis_manga(33)
+    # THEN
+    assert not res1
+    assert not res2
+
+
+def test_AvisUtilisateurMangaExistant_oui():
+    """Vérifie si l'utilisateur a déjà rédigé un avis sur ce manga"""
+    # GIVEN
+    id_utilisateur = 1
+    id_manga = 1
+    AvisDAO().creer_avis(avis, id_utilisateur, id_manga)
+    # WHEN
+    res = AvisDAO().AvisUtilisateurMangaExistant(id_utilisateur, id_manga)
+    # THEN
+    assert res
+
+
+def test_AvisUtilisateurMangaExistant_non():
+    """Vérifie si l'utilisateur a déjà rédigé un avis sur ce manga
+    dans la base de données"""
+    # GIVEN
+    id_utilisateur = 1
+    id_manga = 1
+    # WHEN
+    res = AvisDAO().AvisUtilisateurMangaExistant(id_utilisateur, id_manga)
+    # THEN
+    assert not res
+
+
+def test_recuperer_avis_user_et_manga_oui():
+    """Récupère l'avis de l' utilisateur sur ce manga dans la base
+    de données"""
+    # GIVEN
+    id_utilisateur = 1
+    id_manga = 1
+    AvisDAO().creer_avis(avis, id_utilisateur, id_manga)
+    # WHEN
+    res = AvisDAO().recuperer_avis_user_et_manga(id_manga, id_utilisateur)
+    # THEN
+    assert res
+
+
+if __name__ == "__main__":
+    pytest.main([__file__])

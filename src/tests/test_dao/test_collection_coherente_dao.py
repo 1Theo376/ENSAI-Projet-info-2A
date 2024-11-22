@@ -1,7 +1,6 @@
 import pytest
 from unittest.mock import patch
 from business_object.CollectionCoherente import CollectionCoherente
-from business_object.manga import Manga
 from business_object.utilisateur import Utilisateur
 from dao.collection_coherente_dao import CollectionCoherenteDAO
 from dao.utilisateur_dao import UtilisateurDao
@@ -21,6 +20,7 @@ def setup_test_environment():
         ResetDatabase().lancer(test_dao=True)
         MangaDao().inserer_mangas("testmangas.json")
         yield
+
 
 @pytest.fixture(scope="function", autouse=True)
 def utilisateur_test():

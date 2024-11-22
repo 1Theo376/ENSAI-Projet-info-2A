@@ -1,7 +1,5 @@
 import pytest
-from unittest.mock import MagicMock, patch
-from dao.utilisateur_dao import UtilisateurDao
-from dao.collection_physique_dao import CollectionPhysiqueDAO
+from unittest.mock import patch
 from service.collection_physique_service import Collection_physique_service
 
 

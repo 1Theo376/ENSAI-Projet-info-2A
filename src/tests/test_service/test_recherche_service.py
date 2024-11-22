@@ -4,8 +4,18 @@ from business_object.utilisateur import Utilisateur
 from business_object.CollectionCoherente import CollectionCoherente
 from business_object.collection_phys import Collection_physique
 from dao.utilisateur_dao import UtilisateurDao
-from dao.collection_physique_dao import CollectionPhysiqueDAO
+from dao.manga_dao import MangaDao
 from service.recherche_service import RechercheService
+
+
+@pytest.fixture(scope="module", autouse=True)
+def setup_test_environment():
+    """Initialisation des données de test pour UtilisateurDao"""
+    with patch.dict("os.environ", {"POSTGRES_SCHEMA": "projet_test_dao"}):
+        from utils.reset_database import ResetDatabase
+        ResetDatabase().lancer(test_dao=True)
+        MangaDao().inserer_mangas("testmangas.json")
+        yield
 
 
 # Objets
@@ -22,14 +32,14 @@ collection_p = Collection_physique(1, "Pelle", "bleue", [])
 def test_recherche_manga_par_t_oui():
     """Test de recherche d'un manga par titre """
     # GIVEN
-    titre = "my boyfriend is"
+    titre = "monster"
     n, m, a = 0, 8, 0
     # WHEN
     longueur, sous_liste, longueur_tot = RechercheService().recherche_manga_par_t(titre, n, m, a)
     # THEN
-    assert longueur == 2
-    assert sous_liste == ["My Boyfriend Is a Vampire", "My Boyfriend Is a Dog"]
-    assert longueur_tot == 2
+    assert longueur == 1
+    assert sous_liste == ["Monster"]
+    assert longueur_tot == 1
 
 
 def test_recherche_manga_par_t_non():

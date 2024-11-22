@@ -1,100 +1,95 @@
 import pytest
-from unittest.mock import MagicMock
-from service.avis_service import AvisService
+from unittest.mock import patch
+from business_object.utilisateur import Utilisateur
 from business_object.avis import Avis
-from dao.avis_dao import AvisDAO
+from business_object.manga import Manga
+from dao.manga_dao import MangaDao
+from service.avis_service import AvisService
 
 
-@pytest.fixture
-def avis_service():
-    """Fixture pour creer une instance du service AvisService avec un mock du DAO"""
-    service = AvisService()
-    service.dao = MagicMock()  # Remplacer l'instance DAO par un mock
-    return service
+@pytest.fixture(scope="module", autouse=True)
+def setup_test_environment():
+    """Initialisation des données de test pour UtilisateurDao"""
+    with patch.dict("os.environ", {"POSTGRES_SCHEMA": "projet_test_dao"}):
+        from utils.reset_database import ResetDatabase
+        ResetDatabase().lancer(test_dao=True)
+        MangaDao().inserer_mangas("testmangas.json")
+        yield
 
 
-@pytest.fixture
-def avis():
-    """Fixture pour creer une instance d'Avis"""
-    return Avis(id_avis=1, texte="C'est un super manga !")
+# Objets
+avis = Avis(id_avis=1, texte="j'adore ce livre")
+manga = Manga(id_manga=1, titre="Naruto", synopsis="synopsis", auteur="auteur",
+              themes="thèmes", genre="genre")
+utilisateur = Utilisateur(id=1, pseudo="huz1y", mdp="1234Azer")
+
+@patch('dao.avis_dao.AvisDAO.creer_avis', return_value=True)
+def test_rediger_avis_oui(patch):
+    """Test de création d'un avis"""
+    # GIVEN
+
+    # WHEN
+    res = AvisService().rediger_avis("ce livre est super", 1, 1, 1)
+    # THEN
+    assert res
 
 
-def test_rediger_avis(avis_service):
-    """Test de la méthode rediger_avis"""
-    # Préparer le mock pour la méthode creer_avis
-    avis = MagicMock(texte="C'est un super manga !")
-    avis_service.rediger_avis = MagicMock(return_value=avis)
+@patch('dao.avis_dao.AvisDAO.creer_avis', return_value=False)
+def test_rediger_avis_non(patch):
+    """Test de création d'un avis"""
+    # GIVEN
 
-    # Tester la rédaction d'un avis valide
-    texte = "C'est un super manga !"
-    result = avis_service.rediger_avis(texte, id_avis=1, id_user=1, id_manga=1)
-
-    # Vérification
-    assert result.texte == texte  # Le texte de l'avis doit être celui passé en paramètre
-    avis_service.rediger_avis.assert_called_once_with(texte, id_avis=1, id_user=1, id_manga=1)
+    # WHEN
+    res = AvisService().rediger_avis("ce livre est super", 1, 1, 1)
+    # THEN
+    assert not res
 
 
-def test_rediger_avis_texte_vide(avis_service):
-    """Test de la méthode rediger_avis avec un texte vide"""
-    with pytest.raises(ValueError, match="Ce n'est pas une description"):
-        avis_service.rediger_avis("", id_avis=1, id_user=1, id_manga=1)
+@patch('dao.avis_dao.AvisDAO.supprimer_avis', return_value=True)
+def test_supprimer_avis_oui(patch):
+    """Test de suppression d'un avis"""
+    # GIVEN
+
+    # WHEN
+    res = AvisService().supprimer_avis(avis)
+    # THEN
+    assert res
 
 
-def test_supprimer_avis(avis_service, avis):
-    """Test de la méthode supprimer_avis"""
-    # Préparer le mock pour la méthode supprimer_avis
-    avis_service.supprimer_avis = MagicMock(return_value=True)
+@patch('dao.avis_dao.AvisDAO.supprimer_avis', return_value=False)
+def test_supprimer_avis_non(patch):
+    """Test de suppression d'un avis"""
+    # GIVEN
 
-    # Tester la suppression de l'avis
-    result = avis_service.supprimer_avis(avis)
-
-    # Vérification
-    assert result is True  # L'avis doit être supprimé
-    avis_service.supprimer_avis.assert_called_once_with(avis)
+    # WHEN
+    res = AvisService().supprimer_avis(avis)
+    # THEN
+    assert not res
 
 
-def test_afficher_avis_pagination(avis_service):
-    """Test de la méthode afficher_avis_pagination"""
-    # Simuler des avis pour un utilisateur donné
-    avis_service.recuperer_avis_utilisateur = MagicMock(
-        return_value=[f"Avis {i}" for i in range(1, 21)]
-    )
-
-    # Paramètres de pagination
-    avis_service.page_size = 5
-    avis_service.current_page = 0
-
-    # Test de l'affichage des avis avec pagination
-    with pytest.raises(Exception, match="Aucun avis disponible pour cet utilisateur."):
-        avis_service.afficher_avis_pagination(id_utilisateur=1)  # vérifier l'existence du message
+@patch('dao.avis_dao.AvisDAO.recuperer_avis_utilisateur',
+       return_value=([avis], [manga.id_manga]))
+def test_recuperer_avis_utilisateur_oui(patch):
+    """Test de récupération de l'avis d'un utilisateur"""
+    # GIVEN
+    id_utilisateur = 1
+    # WHEN
+    res = AvisService().recuperer_avis_utilisateur(id_utilisateur)
+    # THEN
+    assert res
 
 
-def test_afficher_avis_pagination_page_suivante(avis_service):
-    """Test de la méthode afficher_avis_pagination avec la pagination activée"""
-    # Simuler des avis pour un utilisateur donné
-    avis_service.recuperer_avis_utilisateur = MagicMock(
-        return_value=[f"Avis {i}" for i in range(1, 21)]
-    )
-
-    # Paramètres de pagination
-    avis_service.page_size = 5
-    avis_service.current_page = 0
-
-    # Tester l'affichage des avis avec page suivante activée
-    avis_service.afficher_avis_pagination(id_utilisateur=1, page_suivante=True)
-
-    # Vérification
-    avis_service.recuperer_avis_utilisateur.assert_called_once_with(1)
-    assert avis_service.current_page == 1  # Vérifier que la page suivante a été activée
+@patch('dao.avis_dao.AvisDAO.recuperer_avis_utilisateur',
+       return_value=([], []))
+def test_recuperer_avis_utilisateur_non(patch):
+    """Test de récupération de l'avis d'un utilisateur"""
+    # GIVEN
+    id_utilisateur = 1
+    # WHEN
+    res = AvisService().recuperer_avis_utilisateur(id_utilisateur)
+    # THEN
+    assert not res
 
 
-def test_recuperer_avis_utilisateur(avis_service):
-    """Test de la méthode recuperer_avis_utilisateur"""
-    # Simuler la récupération des avis pour un utilisateur
-    result = avis_service.recuperer_avis_utilisateur(id_utilisateur=1)
-
-    # Vérification
-    assert len(result) == 20  # Il y a 20 avis simulés
-    assert (
-        result[0] == "Avis 1 de l'utilisateur 1"
-    )  # Le premier avis doit être celui de l'utilisateur 1
+if __name__ == "__main__":
+    pytest.main([__file__])
