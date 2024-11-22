@@ -3,62 +3,84 @@ from unittest.mock import MagicMock
 from service.manga_possede_service import MangaPossedeService
 from business_object.manga_possede import MangaPossede
 from dao.manga_possede_dao import MangaPossedeDao
-from unittest.mock import MagicMock
+
+
+
+mangap = MangaPossedeService().creer_manga_possede(1, 8, [5, 7], "En cours")
 
 
 def test_creer_manga_possede_ok():
     # GIVEN
     MangaPossedeDao().creer_manga_possede = MagicMock(return_value=True)
     # WHEN
-    pseudo = UtilisateurDao().recherche_pseudo_par_id(id_utilisateur)
+    mangap = MangaPossedeService().creer_manga_possede(1, 8, [5, 7], "En cours")
     # THEN
-    assert pseudo_utilisateur == pseudo
+    assert mangap.id_manga == 1
 
 
 def test_creer_manga_possede_ko():
     # GIVEN
-    MangaPossedeDao().creer_manga_possede = MagicMock(return_value=True)
+    MangaPossedeDao().creer_manga_possede = MagicMock(return_value=False)
     # WHEN
-    pseudo = UtilisateurDao().recherche_pseudo_par_id(id_utilisateur)
+    mangap = MangaPossedeService().creer_manga_possede(-1, 8, [5, 7], "En cours")
     # THEN
-    assert pseudo_utilisateur == pseudo
+    assert mangap is None
 
 
-def test_recherche_pseudo_par_id(utilisateur_test):
+def test_modifier_num_dernier_acquis_ok():
     # GIVEN
-    id_utilisateur = liste_utilisateurs[0].id
-    pseudo_utilisateur = liste_utilisateurs[0].pseudo
+    MangaPossedeDao().modifier_num_dernier_acquis = MagicMock(return_value=True)
     # WHEN
-    pseudo = UtilisateurDao().recherche_pseudo_par_id(id_utilisateur)
+    numacqmang = MangaPossedeService().modifier_num_dernier_acquis(mangap, 6)
     # THEN
-    assert pseudo_utilisateur == pseudo
+    assert numacqmang == 6
 
 
-def test_recherche_pseudo_par_id(utilisateur_test):
+def test_modifier_num_dernier_acquis_ko():
     # GIVEN
-    id_utilisateur = liste_utilisateurs[0].id
-    pseudo_utilisateur = liste_utilisateurs[0].pseudo
+    MangaPossedeDao().modifier_num_dernier_acquis = MagicMock(return_value=False)
     # WHEN
-    pseudo = UtilisateurDao().recherche_pseudo_par_id(id_utilisateur)
+    numacqmang = MangaPossedeService().modifier_num_dernier_acquis(mangap, 6)
     # THEN
-    assert pseudo_utilisateur == pseudo
+    assert numacqmang is None
 
 
-def test_recherche_pseudo_par_id(utilisateur_test):
+def test_modifier_num_manquant_ok(): #à revoir
     # GIVEN
-    id_utilisateur = liste_utilisateurs[0].id
-    pseudo_utilisateur = liste_utilisateurs[0].pseudo
+    MangaPossedeDao().trouver_id_num_manquant_id = MagicMock(return_value=[])
+    MangaPossedeDao().supprimer_num_manquant = MagicMock(return_value=True)
+    MangaPossedeDao().ajouter_num_manquant = MagicMock(return_value=True)
     # WHEN
-    pseudo = UtilisateurDao().recherche_pseudo_par_id(id_utilisateur)
+    mangap.num_manquant = MangaPossedeService().modifier_num_manquant(mangap, [6])
     # THEN
-    assert pseudo_utilisateur == pseudo
+    assert mangap.num_manquant == [6]
 
 
-def test_recherche_pseudo_par_id(utilisateur_test):
+def test_modifier_num_manquant_ko():
     # GIVEN
-    id_utilisateur = liste_utilisateurs[0].id
-    pseudo_utilisateur = liste_utilisateurs[0].pseudo
+    MangaPossedeDao().trouver_id_num_manquant_id = MagicMock(return_value=[])
+    MangaPossedeDao().supprimer_num_manquant = MagicMock(return_value=True)
+    MangaPossedeDao().ajouter_num_manquant = MagicMock(return_value=False)
     # WHEN
-    pseudo = UtilisateurDao().recherche_pseudo_par_id(id_utilisateur)
+    mangap.num_manquant = MangaPossedeService().modifier_num_manquant(mangap, [6])
     # THEN
-    assert pseudo_utilisateur == pseudo
+    assert mangap.num_manquant == []
+
+
+def test_modifier_statut_ok():  # n'existe pas ???
+    # GIVEN
+    MangaPossedeDao().modifier_statut = MagicMock(return_value=False)
+
+    # WHEN
+    numacqmang = MangaPossedeService().modifier_statut(mangap, "Terminé")
+    # THEN
+    assert numacqmang == 6
+
+
+def test_modifier_statut_ko():
+    # GIVEN
+    MangaPossedeDao().modifier_statut = MagicMock(return_value=False)
+    # WHEN
+    numacqmang = MangaPossedeService().modifier_statut(mangap, 6)
+    # THEN
+    assert numacqmang == 6
