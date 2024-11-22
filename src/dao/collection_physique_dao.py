@@ -1,6 +1,4 @@
 import logging
-
-from vues.session import Session
 from dao.db_connection import DBConnection
 from business_object.collection_phys import Collection_physique
 from business_object.manga_possede import MangaPossede
@@ -59,7 +57,8 @@ class CollectionPhysiqueDAO:
             with DBConnection().connection as connection:
                 with connection.cursor() as cursor:
                     cursor.execute(
-                        "INSERT INTO collection_physique (id_utilisateur, titre_collection, description_collection) VALUES"
+                        "INSERT INTO collection_physique (id_utilisateur, "
+                        "titre_collection, description_collection) VALUES"
                         "(%(id_utilisateur)s, %(titre)s, %(description_collection)s) "
                         "  RETURNING id_collec_physique; ",
                         {
@@ -97,8 +96,9 @@ class CollectionPhysiqueDAO:
             with DBConnection().connection as connection:
                 with connection.cursor() as cursor:
                     cursor.execute(
-                        "DELETE FROM association_manga_collection_physique                 "
-                        " WHERE (id_collec_physique = %(id_collec_physique)s and id_manga_p = %(id_manga_p)s)",
+                        "DELETE FROM association_manga_collection_physique           "
+                        " WHERE (id_collec_physique = %(id_collec_physique)s "
+                        "and id_manga_p = %(id_manga_p)s)",
                         {
                             "id_collec_physique": CollectionP.id_collectionphysique,
                             "id_manga_p": MangaPoss.id_manga_p,
@@ -110,7 +110,7 @@ class CollectionPhysiqueDAO:
             raise
         return res > 0
 
-    def ajouter_mangaposs(self, idcoll: int, idmanga: int) -> bool: #modif les params ?
+    def ajouter_mangaposs(self, idcoll: int, idmanga: int) -> bool:  # modif les params ?
         """Ajout d'un manga dans une collection
 
         Parameters
@@ -130,7 +130,8 @@ class CollectionPhysiqueDAO:
             with DBConnection().connection as connection:
                 with connection.cursor() as cursor:
                     cursor.execute(
-                        "INSERT INTO association_manga_collection_physique(id_collec_physique, id_manga_p) VALUES "
+                        "INSERT INTO association_manga_collection_physique("
+                        "id_collec_physique, id_manga_p) VALUES "
                         "(%(idc)s, %(idm)s) "
                         "  RETURNING id_collec_physique, id_manga_p; ",
                         {
@@ -167,7 +168,8 @@ class CollectionPhysiqueDAO:
             with DBConnection().connection as connection:
                 with connection.cursor() as cursor:
                     cursor.execute(
-                        "SELECT id_collec_physique, titre_collection, description_collection, id_manga_p "
+                        "SELECT id_collec_physique, titre_collection, "
+                        "description_collection, id_manga_p "
                         "FROM collection_physique                     "
                         "LEFT JOIN association_manga_collection_physique USING(id_collec_physique) "
                         "LEFT JOIN manga_possede USING(id_manga_p)        "
@@ -215,11 +217,12 @@ class CollectionPhysiqueDAO:
             with DBConnection().connection as connection:
                 with connection.cursor() as cursor:
                     cursor.execute(
-                        "SELECT id_collec_physique, description_collection, id_manga_p                   "
-                        "FROM collection_physique                                                     "
-                        "LEFT JOIN association_manga_collection_physique USING(id_collec_physique)    "
-                        "LEFT JOIN manga_possede Using(id_manga_p)                                               "
-                        " WHERE titre_collection = %(titre_collection)s;                                ",
+                        "SELECT id_collec_physique, description_collection, id_manga_p   "
+                        "FROM collection_physique              "
+                        "LEFT JOIN association_manga_collection_physique "
+                        "USING(id_collec_physique)  "
+                        "LEFT JOIN manga_possede Using(id_manga_p)              "
+                        " WHERE titre_collection = %(titre_collection)s;           ",
                         {"titre_collection": nom},
                     )
                     res = cursor.fetchall()

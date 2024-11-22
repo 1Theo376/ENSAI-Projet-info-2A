@@ -29,7 +29,7 @@ class UtilisateurDao(metaclass=Singleton):
             with DBConnection().connection as connection:
                 with connection.cursor() as cursor:
                     cursor.execute(
-                        "INSERT INTO utilisateur(pseudo, mdp) VALUES"  
+                        "INSERT INTO utilisateur(pseudo, mdp) VALUES"
                         "( %(pseudo)s, %(mdp)s) "
                         "  RETURNING id_utilisateur; ",
                         {"pseudo": user.pseudo, "mdp": user.mdp},
@@ -47,7 +47,7 @@ class UtilisateurDao(metaclass=Singleton):
 
     @log
     def lister_tous(self) -> list[Utilisateur]:
-        """lister tous les joueurs
+        """lister tous les utilisateurs
 
         Parameters
         ----------
@@ -55,7 +55,7 @@ class UtilisateurDao(metaclass=Singleton):
 
         Returns
         -------
-        liste_utilisateur : list[Joueur]
+        liste_utilisateur : list[Utilisateur]
             renvoie la liste de tous les utilisateurs dans la base de données
         """
 
@@ -157,7 +157,6 @@ class UtilisateurDao(metaclass=Singleton):
 
         return user
 
-
     @log
     def rechercher_tous_pseudo(self, pseud) -> list[Utilisateur]:
         """rechercher des utilisateur à partir d'une chaîne de caractère
@@ -177,9 +176,9 @@ class UtilisateurDao(metaclass=Singleton):
             with DBConnection().connection as connection:
                 with connection.cursor() as cursor:
                     cursor.execute(
-                                    "SELECT * FROM utilisateur WHERE pseudo LIKE %(pseudo)s;",
-                                    {"pseudo": '%' + pseud + '%'}
-                                    )
+                        "SELECT * FROM utilisateur WHERE pseudo LIKE %(pseudo)s;",
+                        {"pseudo": "%" + pseud + "%"},
+                    )
                     res = cursor.fetchall()
         except Exception as e:
             logging.info(e)
@@ -262,7 +261,3 @@ class UtilisateurDao(metaclass=Singleton):
         pseudo = res["pseudo"]
 
         return pseudo
-
-# user1 = Utilisateur(1, "ananas", "Emilien62")
-# test = UtilisateurDao()
-# test.creer(user1)

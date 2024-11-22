@@ -1,6 +1,4 @@
 import logging
-
-from vues.session import Session
 from dao.db_connection import DBConnection
 from business_object.CollectionCoherente import CollectionCoherente
 from business_object.manga import Manga
@@ -57,7 +55,8 @@ class CollectionCoherenteDAO:
             with DBConnection().connection as connection:
                 with connection.cursor() as cursor:
                     cursor.execute(
-                        "INSERT INTO collection_coherente(id_utilisateur, titre_collection, description_collection) VALUES "
+                        "INSERT INTO collection_coherente(id_utilisateur, "
+                        "titre_collection, description_collection) VALUES "
                         "(%(idu)s, %(titre)s, %(desc)s) "
                         "  RETURNING id_collec_coherente; ",
                         {
@@ -96,7 +95,8 @@ class CollectionCoherenteDAO:
                 with connection.cursor() as cursor:
                     cursor.execute(
                         "DELETE FROM association_manga_collection_coherente                 "
-                        " WHERE id_collec_coherente = %(id_collec_coherente)s AND id_manga = %(id_manga)s ;",
+                        " WHERE id_collec_coherente = %(id_collec_coherente)s AND "
+                        " id_manga = %(id_manga)s ;",
                         {
                             "id_collec_coherente": CollectionC.id_collectioncoherente,
                             "id_manga": MangaC.id_manga,
@@ -129,7 +129,8 @@ class CollectionCoherenteDAO:
             with DBConnection().connection as connection:
                 with connection.cursor() as cursor:
                     cursor.execute(
-                        "INSERT INTO association_manga_collection_coherente(id_collec_coherente, id_manga) VALUES"
+                        "INSERT INTO association_manga_collection_coherente( "
+                        "id_collec_coherente, id_manga) VALUES"
                         "(%(idc)s, %(idm)s) "
                         "  RETURNING id_collec_coherente, id_manga; ",
                         {"idc": idcollec, "idm": idmanga},
@@ -204,11 +205,13 @@ class CollectionCoherenteDAO:
             with DBConnection().connection as connection:
                 with connection.cursor() as cursor:
                     cursor.execute(
-                        "SELECT id_collec_coherente, description_collection, id_manga                   "
-                        "FROM collection_coherente                                                      "
-                        "LEFT JOIN association_manga_collection_coherente USING(id_collec_coherente)    "
-                        "LEFT JOIN manga USING(id_manga)                                                "
-                        " WHERE titre_collection = %(titre_collection)s and id_utilisateur = %(idu)s;                                ",
+                        "SELECT id_collec_coherente, description_collection, id_manga "
+                        "FROM collection_coherente         "
+                        "LEFT JOIN association_manga_collection_coherente "
+                        "USING(id_collec_coherente)  "
+                        "LEFT JOIN manga USING(id_manga)       "
+                        "WHERE titre_collection = %(titre_collection)s "
+                        "and id_utilisateur = %(idu)s;                                ",
                         {"titre_collection": nom, "idu": idu},
                     )
                     res = cursor.fetchall()

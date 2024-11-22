@@ -38,7 +38,7 @@ class ResetDatabase(metaclass=Singleton):
                 "data/pop_manga_collection_physique.sql",
                 "data/pop_manga_collection_coherente.sql",
                 "data/pop_num_manquant.sql",
-                "data/pop_manga_num_manquant.sql"
+                "data/pop_manga_num_manquant.sql",
             ]
         else:
             mock.patch.dict(os.environ, {"POSTGRES_SCHEMA": "projet_info"}).start()
@@ -58,7 +58,7 @@ class ResetDatabase(metaclass=Singleton):
                 "data/pop_manga_collection_physique.sql",
                 "data/pop_manga_collection_coherente.sql",
                 "data/pop_num_manquant.sql",
-                "data/pop_manga_num_manquant.sql"
+                "data/pop_manga_num_manquant.sql",
             ]
 
         dotenv.load_dotenv()
@@ -82,15 +82,6 @@ class ResetDatabase(metaclass=Singleton):
             logging.info(e)
             raise
 
-
-"""
-        # Appliquer le hashage des mots de passe à chaque joueur
-        joueur_service = JoueurService()
-        for j in joueur_service.lister_tous(inclure_mdp=True):
-            joueur_service.modifier(j)
-
-        return True
-"""
 
 if __name__ == "__main__":
     ResetDatabase().lancer()

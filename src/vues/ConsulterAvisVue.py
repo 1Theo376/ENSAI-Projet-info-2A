@@ -22,12 +22,12 @@ class ConsulterAvisMangaVuerecherche(VueAbstraite):
 
         n = 0
         m = 8
-        if not AvisService().recuperer_avis_manga2(manga.id_manga):
+        if not AvisService().recuperer_avis_manga(manga.id_manga):
             print(f"Aucun avis trouvé pour le manga '{manga.titre}'.")
             from vues.Selection_manga_vue_recherche import SelectionMangaVuerecherche
 
             return SelectionMangaVuerecherche().choisir_menu(choixm)
-        liste_avis, liste_pseudo = AvisService().recuperer_avis_manga2(manga.id_manga)
+        liste_avis, liste_pseudo = AvisService().recuperer_avis_manga(manga.id_manga)
         longueur_tot = len(liste_avis)
         while n >= 0:
 

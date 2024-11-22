@@ -1,5 +1,4 @@
 import logging
-
 from dao.db_connection import DBConnection
 from business_object.manga_possede import MangaPossede
 
@@ -64,7 +63,7 @@ class MangaPossedeDao:
                 with connection.cursor() as cursor:
                     cursor.execute(
                         "SELECT volumes                   "
-                        "FROM manga                                                     "
+                        "FROM manga                                 "
                         " WHERE titre = %(titre)s;                                ",
                         {"titre": nom},
                     )
@@ -134,7 +133,7 @@ class MangaPossedeDao:
             )
         return manga_possede
 
-    def ajouter_num_manquant(self, num_manquant) -> bool:  #à voir
+    def ajouter_num_manquant(self, num_manquant) -> bool:  # à voir
         """Ajout des numéros manquants d'un manga possédé dans la base de données
         Parameters
         ----------
@@ -165,7 +164,9 @@ class MangaPossedeDao:
             return res["id_num_manquant"]
         return created
 
-    def ajouter_ass_num_manquant(self, id_manga_p, id_num_manquant) -> bool:  #fusionner les deux fonctions ???
+    def ajouter_ass_num_manquant(
+        self, id_manga_p, id_num_manquant
+    ) -> bool:  # fusionner les deux fonctions ???
         """Ajout des numéro manquants d'un manga possédé dans la base de données
         Parameters
         ----------
@@ -184,8 +185,8 @@ class MangaPossedeDao:
             with DBConnection().connection as connection:
                 with connection.cursor() as cursor:
                     cursor.execute(
-                        "INSERT INTO association_manga_num_manquant(id_manga_p,id_num_manquant) VALUES"
-                        "(%(id_manga_p)s,%(id_num_manquant)s) "
+                        "INSERT INTO association_manga_num_manquant(id_manga_p,id_num_manquant) "
+                        " VALUES (%(id_manga_p)s,%(id_num_manquant)s) "
                         "  RETURNING id_manga_p, id_num_manquant; ",
                         {"id_num_manquant": id_num_manquant, "id_manga_p": id_manga_p},
                     )

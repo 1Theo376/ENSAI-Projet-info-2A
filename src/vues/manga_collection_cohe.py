@@ -2,6 +2,7 @@ from vues.vue_abstraite import VueAbstraite
 from InquirerPy import inquirer
 from vues.session import Session
 from dao.collection_coherente_dao import CollectionCoherenteDAO
+from service.collection_coherente_service import CollectionCoherenteService
 from dao.manga_dao import MangaDao
 import logging
 
@@ -34,7 +35,9 @@ class MangaCollectionCoherenteVue(VueAbstraite):
             for manga in (
                 CollectionCoherenteDAO().trouver_collec_cohe_nom(choix2, Session().utilisateur.id)
             ).Liste_manga:
-                logging.info(f"{(CollectionCoherenteDAO().trouver_collec_cohe_nom(choix2, Session().utilisateur.id)).Liste_manga}")
+                logging.info(
+                    f"{(CollectionCoherenteDAO().trouver_collec_cohe_nom(choix2, Session().utilisateur.id)).Liste_manga}"
+                )
                 liste_titre.append(manga.titre)
             if not liste_titre:
                 print(
@@ -59,9 +62,9 @@ class MangaCollectionCoherenteVue(VueAbstraite):
                     choixmanga.remove("Afficher la page précédente")
 
                 choix4 = inquirer.select(
-                        message="Selectionnez un manga de votre collection : ",
-                        choices=choixmanga,
-                    ).execute()
+                    message="Selectionnez un manga de votre collection : ",
+                    choices=choixmanga,
+                ).execute()
 
                 if choix4 == "Retour au menu précédent":
                     return self.choisir_menu(choix2)
@@ -106,7 +109,7 @@ class MangaCollectionCoherenteVue(VueAbstraite):
             return self.choisir_menu(choix2)
 
         if choix3 == "Supprimer la collection":
-            CollectionCoherenteDAO().supprimer_collection(
+            CollectionCoherenteService().supprimer_collectioncohe(
                 CollectionCoherenteDAO().trouver_collec_cohe_nom(choix2, Session().utilisateur.id)
             )
             print("\n" + "Collection supprimée." + "\n")
