@@ -110,7 +110,7 @@ class AjouterMangaCollecVuerecherche(VueAbstraite):
                     if i.titre == choix3:
                         from vues.Selection_manga_vue_recherche import SelectionMangaVuerecherche
 
-                        print("\n" + "Ce manga est déjà présent dans la collection {nom}.")
+                        print("\n" + f"Ce manga est déjà présent dans la collection {nom}.")
                         return SelectionMangaVuerecherche().choisir_menu(choix3)
 
                 CollectionCoherenteService().ajouter_manga(
