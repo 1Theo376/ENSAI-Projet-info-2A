@@ -35,16 +35,14 @@ class MangaCollectionCoherenteVue(VueAbstraite):
             for manga in (
                 CollectionCoherenteDAO().trouver_collec_cohe_nom(choix2, Session().utilisateur.id)
             ).Liste_manga:
-                logging.info(
-                    f"{(CollectionCoherenteDAO().trouver_collec_cohe_nom(choix2, Session().utilisateur.id)).Liste_manga}"
-                )
                 liste_titre.append(manga.titre)
             if not liste_titre:
                 print(
                     "\n"
-                    + "La collection ne contient pas de mangas, \nvous pouvez en ajouter dans la section Recherche."
-                    + "\n"
+                    "La collection ne contient pas de mangas, \n"
+                    "vous pouvez en ajouter dans la section Recherche.\n"
                 )
+
                 return self.choisir_menu(choix2)
             n, m = 0, 8
             while n >= 0:
@@ -94,7 +92,6 @@ class MangaCollectionCoherenteVue(VueAbstraite):
             nouveau_titre = inquirer.text(message="Entrer le nouveau titre : ").execute()
             CollectionCoherenteDAO().modifier_titre(id_collection, nouveau_titre)
             print("\n" + "Titre modifié." + "\n")
-            # nouveau_choix = CollectionCoherenteDAO().trouver_collec_cohe_nom(nouveau_titre, Session().utilisateur.id)
             return self.choisir_menu(nouveau_titre)
 
         if choix3 == "Modifier la description de la collection":

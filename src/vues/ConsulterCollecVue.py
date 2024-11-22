@@ -1,6 +1,5 @@
 from vues.vue_abstraite import VueAbstraite
 from InquirerPy import inquirer
-from vues.session import Session
 from service.recherche_service import RechercheService
 from dao.utilisateur_dao import UtilisateurDao
 from dao.collection_physique_dao import CollectionPhysiqueDAO

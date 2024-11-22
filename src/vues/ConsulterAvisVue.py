@@ -3,7 +3,6 @@ from vues.vue_abstraite import VueAbstraite
 from dao.manga_dao import MangaDao
 from service.avis_service import AvisService
 from vues.session import Session
-import logging
 from dao.avis_dao import AvisDAO
 
 
@@ -59,8 +58,10 @@ class ConsulterAvisMangaVuerecherche(VueAbstraite):
             if choix3 == "Modifier votre avis sur ce manga":
                 n = -1
                 nouvel_avis = input(
-                    f"Entrez votre nouvel avis sur le manga {choixm} (si aucun changement appuyez sur Entrée) : "
+                    f"Entrez votre nouvel avis sur le manga {choixm} "
+                    "(si aucun changement appuyez sur Entrée) : "
                 )
+
                 AvisDAO().modifier_avis(
                     AvisDAO().recuperer_avis_user_et_manga(
                         MangaDao().trouver_manga_par_titre(choixm).id_manga,

@@ -4,6 +4,7 @@ from vues.session import Session
 from dao.collection_physique_dao import CollectionPhysiqueDAO
 from dao.manga_dao import MangaDao
 from dao.manga_possede_dao import MangaPossedeDao
+from service.collection_physique_service import Collection_physique_service
 import logging
 
 
@@ -24,7 +25,7 @@ class CollectionPhysiqueVue(VueAbstraite):
                 "Modifier le titre de la collection",
                 "Modifier la description de la collection",
                 "Supprimer la collection",
-                "Retour au menu précédent"
+                "Retour au menu précédent",
             ],
         ).execute()
         if choix3 == "Consulter/Modifier les mangas de la collection":
@@ -34,7 +35,12 @@ class CollectionPhysiqueVue(VueAbstraite):
             ).Liste_manga:
                 liste_titre.append(MangaDao().trouver_manga_par_id(manga.idmanga).titre)
             if not liste_titre:
-                print("\n" + "La collection ne contient pas de mangas, \nvous pouvez en ajouter dans la section Recherche." + "\n")
+                print(
+                    "\n"
+                    "La collection ne contient pas de mangas, \n"
+                    "vous pouvez en ajouter dans la section Recherche.\n"
+                )
+
                 return self.choisir_menu()
             choix4 = inquirer.select(
                 message="Selectionnez un manga de votre collection : ",
@@ -80,13 +86,15 @@ class CollectionPhysiqueVue(VueAbstraite):
                 .id_collectionphysique
             )
             logging.info(f"id_collection : {id_collection}")
-            CollectionPhysiqueDAO().supprimer_collectionphys(id_collection)
+            Collection_physique_service().supprimer_collectionphys(id_collection)
             print("\n" + "Collection supprimée." + "\n")
             from vues.profil_utilisateur_vue import EcranDuProfilVue
+
             return EcranDuProfilVue()
 
         if choix3 == "Retour au menu précédent":
             from vues.profil_utilisateur_vue import EcranDuProfilVue
+
             return EcranDuProfilVue()
 
     def choisir_menu_bis(self, choix4):
@@ -110,9 +118,9 @@ class CollectionPhysiqueVue(VueAbstraite):
             ],
         ).execute()
         if choix5 == "Retirer le manga de la collection":
-            from service.collection_coherente_service import CollectionCoherenteService
+            from service.collection_physique_service import Collection_physique_service
 
-            CollectionCoherenteService().supprimer_mangaposs(
+            Collection_physique_service().supprimer_mangaposs(
                 CollectionPhysiqueDAO().trouver_collec_phys_id_user(Session().utilisateur.id),
                 MangaDao().trouver_manga_par_titre(choix4),
             )
@@ -139,25 +147,25 @@ class CollectionPhysiqueVue(VueAbstraite):
 
         if choix5 == "Modifier les tomes possédés":
             mangap = MangaPossedeDao().trouver_manga_possede_collecphys(
-                    choix4,
-                    (
-                        CollectionPhysiqueDAO().trouver_collec_phys_id_user(
-                            Session().utilisateur.id
-                        )
-                    ).id_collectionphysique,
-                )
+                choix4,
+                (
+                    CollectionPhysiqueDAO().trouver_collec_phys_id_user(Session().utilisateur.id)
+                ).id_collectionphysique,
+            )
             num_manquant = mangap.num_manquant
             manga = MangaDao().trouver_manga_par_titre(choix4)
             liste_id_num_manquant = MangaPossedeDao().trouver_id_num_manquant_id(mangap.id_manga_p)
             logging.info(f"nummanq = {liste_id_num_manquant}")
             for elt in liste_id_num_manquant:
                 MangaPossedeDao().supprimer_num_manquant(elt)
-            liste_id_num_manquant_new = MangaPossedeDao().trouver_id_num_manquant_id(mangap.id_manga_p)
+            liste_id_num_manquant_new = MangaPossedeDao().trouver_id_num_manquant_id(
+                mangap.id_manga_p
+            )
             logging.info(f"nummanq = {liste_id_num_manquant_new}")
             volume_manga = MangaPossedeDao().nb_volume_manga(manga.titre)
             nb_volumes_poss = int(
-                                    inquirer.text(message="Entrez le nombre de volumes possédés du manga : ").execute()
-                                )
+                inquirer.text(message="Entrez le nombre de volumes possédés du manga : ").execute()
+            )
             if volume_manga:
                 if nb_volumes_poss > volume_manga:
                     print("Nombre incorrect")
@@ -165,22 +173,22 @@ class CollectionPhysiqueVue(VueAbstraite):
             volumes_poss = []
             while nb_volumes_poss != 0:
                 num_vol = inquirer.text(
-                            message="Entrez le numéro des volumes possédés du manga : "
-                        ).execute()
+                    message="Entrez le numéro des volumes possédés du manga : "
+                ).execute()
                 num_vol = num_vol.replace(" ", "").strip()
                 num_vol = num_vol.replace("–", "-")
                 if "-" in num_vol:
                     a, b = map(int, num_vol.split("-"))
-                    if a < 1 or b < 1 or (nb_volumes_poss-(b-a+1)) < 0:
+                    if a < 1 or b < 1 or (nb_volumes_poss - (b - a + 1)) < 0:
                         if volume_manga:
                             if a > volume_manga or b > volume_manga:
                                 print("Erreur")
                                 return self.choisir_menu_bis(choix4)
                         print("Erreur")
                         return self.choisir_menu_bis(choix4)
-                    for i in range(a, b+1):
+                    for i in range(a, b + 1):
                         volumes_poss.append(i)
-                    nb_volumes_poss = nb_volumes_poss-(b-a+1)
+                    nb_volumes_poss = nb_volumes_poss - (b - a + 1)
                 else:
                     num = int(num_vol)
                     if volume_manga:
@@ -191,11 +199,13 @@ class CollectionPhysiqueVue(VueAbstraite):
                     nb_volumes_poss -= 1
             logging.info(f"vol:{volumes_poss}")
             if volume_manga:
-                num_manquant = [i for i in range(1, volume_manga+1)]
+                num_manquant = [i for i in range(1, volume_manga + 1)]
                 for elt in volumes_poss:
                     num_manquant.remove(elt)
             logging.info(f"manq:{num_manquant}")
             if volume_manga:
                 for elt in num_manquant:
-                    MangaPossedeDao().ajouter_ass_num_manquant(mangap.id_manga_p, MangaPossedeDao().ajouter_num_manquant(elt))
+                    MangaPossedeDao().ajouter_ass_num_manquant(
+                        mangap.id_manga_p, MangaPossedeDao().ajouter_num_manquant(elt)
+                    )
             return self.choisir_menu_bis(choix4)

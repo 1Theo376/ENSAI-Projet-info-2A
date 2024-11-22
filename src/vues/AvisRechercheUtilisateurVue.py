@@ -1,9 +1,6 @@
 from InquirerPy import inquirer
-
 from vues.vue_abstraite import VueAbstraite
-from vues.session import Session
 from service.avis_service import AvisService
-from service.recherche_service import RechercheService
 from dao.utilisateur_dao import UtilisateurDao
 import logging
 
@@ -33,7 +30,7 @@ class AvisRechercheUtilisateurVue(VueAbstraite):
 
         id_utilisateur = UtilisateurDao().recherche_id_par_pseudo(choix3)
         if not AvisService().recuperer_avis_utilisateur(id_utilisateur):
-            print(f"Cet utilisateur n'a aucun avis.\n")
+            print("Cet utilisateur n'a aucun avis.\n")
             from vues.rechercher_utilisateur_vue import RechercheUtilisateurVue
 
             return RechercheUtilisateurVue().choisir_menu_bis(choix3)

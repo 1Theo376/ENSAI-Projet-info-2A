@@ -5,6 +5,7 @@ from dao.manga_dao import MangaDao
 from service.avis_service import AvisService
 import logging
 
+
 class MenuAvis(VueAbstraite):
     """Vue du menu des avis
 
@@ -52,7 +53,9 @@ class MenuAvis(VueAbstraite):
             if n == 0:
                 choix2.remove("Afficher la page précédente")
 
-            choix_utilisateur = inquirer.select(message="Choisissez un avis : ", choices=choix2).execute()
+            choix_utilisateur = inquirer.select(
+                message="Choisissez un avis : ", choices=choix2
+            ).execute()
 
             if choix_utilisateur == "Retour au menu précédent":
                 n = -1
@@ -78,8 +81,10 @@ class MenuAvis(VueAbstraite):
                         from dao.avis_dao import AvisDAO
 
                         nouvel_avis = input(
-                            f"Entrez votre nouvel avis sur le manga {titre} (si aucun changement appuyez sur Entrée) : "
+                            f"Entrez votre nouvel avis sur le manga {titre} "
+                            "(si aucun changement appuyez sur Entrée) : "
                         )
+
                         AvisDAO().modifier_avis(avis, nouvel_avis)
                         return MenuAvis()
                     case "Supprimer l'avis":

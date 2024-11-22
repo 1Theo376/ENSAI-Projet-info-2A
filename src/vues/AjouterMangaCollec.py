@@ -2,13 +2,9 @@ from InquirerPy import inquirer
 from vues.vue_abstraite import VueAbstraite
 from service.recherche_service import RechercheService
 from dao.manga_dao import MangaDao
-from service.avis_service import AvisService
 from vues.session import Session
 import logging
-from dao.avis_dao import AvisDAO
-from dao.utilisateur_dao import UtilisateurDao
 from service.collection_coherente_service import CollectionCoherenteService
-from service.collection_physique_service import Collection_physique_service
 from dao.collection_coherente_dao import CollectionCoherenteDAO
 from dao.collection_physique_dao import CollectionPhysiqueDAO
 

@@ -1,10 +1,6 @@
 from InquirerPy import inquirer
-
 from vues.vue_abstraite import VueAbstraite
-from vues.session import Session
-from service.avis_service import AvisService
 from service.recherche_service import RechercheService
-from dao.utilisateur_dao import UtilisateurDao
 import logging
 
 

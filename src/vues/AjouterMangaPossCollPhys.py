@@ -1,16 +1,8 @@
 from InquirerPy import inquirer
 from vues.vue_abstraite import VueAbstraite
-from service.recherche_service import RechercheService
 from dao.manga_dao import MangaDao
-from service.avis_service import AvisService
-from vues.session import Session
 import logging
-from dao.avis_dao import AvisDAO
-from dao.utilisateur_dao import UtilisateurDao
-from service.collection_coherente_service import CollectionCoherenteService
 from service.collection_physique_service import Collection_physique_service
-from dao.collection_coherente_dao import CollectionCoherenteDAO
-from dao.collection_physique_dao import CollectionPhysiqueDAO
 from business_object.manga_possede import MangaPossede
 from dao.manga_possede_dao import MangaPossedeDao
 
@@ -43,8 +35,12 @@ class AjouterMangaPossCollPhys(VueAbstraite):
         volumes_poss = []
         while nb_volumes_poss != 0:
             num_vol = inquirer.text(
-                message="Entrez le nombre de volumes possédés du manga,vous pouvez l'écrire sous la forme a-b: "
+                message=(
+                    "Entrez le nombre de volumes possédés du manga, "
+                    "vous pouvez l'écrire sous la forme a-b: "
+                )
             ).execute()
+
             while True:
                 if "-" in num_vol:
                     parts = num_vol.split("-")
@@ -59,8 +55,10 @@ class AjouterMangaPossCollPhys(VueAbstraite):
                             print("Vous avez déja enregistré un des volumes")
                     else:
                         print(
-                            "Valeur incorrecte pour la tranche, entrez sous la forme a-b avec des nombres."
+                            "Valeur incorrecte pour la tranche, "
+                            "entrez sous la forme a-b avec des nombres."
                         )
+
                 elif num_vol.isdigit():
                     if int(num_vol) not in volumes_poss:
                         break
@@ -68,11 +66,16 @@ class AjouterMangaPossCollPhys(VueAbstraite):
                         print("Vous avez déja enregistré ce volume")
                 else:
                     print(
-                        "Valeur incorrecte, entrez un nombre ou une tranche valide sous la forme a-b."
+                        "Valeur incorrecte, entrez un nombre ou une tranche valide "
+                        "sous la forme a-b."
                     )
                 num_vol = inquirer.text(
-                    message="Entrez le nombre de volumes possédés du manga,vous pouvez l'écrire sous la forme a-b: "
+                    message=(
+                        "Entrez le nombre de volumes possédés du manga, "
+                        "vous pouvez l'écrire sous la forme a-b: "
+                    )
                 ).execute()
+
             if "-" in num_vol:
                 a = int(num_vol.split("-")[0])
                 b = int(num_vol.split("-")[1])

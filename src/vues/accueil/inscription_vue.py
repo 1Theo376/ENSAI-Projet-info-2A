@@ -1,11 +1,6 @@
-# import regex
 import logging
 from InquirerPy import inquirer
-from InquirerPy.validator import PasswordValidator, EmptyInputValidator
-
-from prompt_toolkit.validation import ValidationError, Validator
-
-
+from InquirerPy.validator import PasswordValidator
 from vues.vue_abstraite import VueAbstraite
 from service.utilisateur_service import UtilisateurService
 
@@ -36,7 +31,11 @@ class InscriptionVue(VueAbstraite):
 
         # Si l'utilisateur a été créé
         if utilisateur:
-            message = f"Votre compte {utilisateur.pseudo} a été créé. Vous pouvez maintenant vous connecter."
+            message = (
+                f"Votre compte {utilisateur.pseudo} a été créé. "
+                "Vous pouvez maintenant vous connecter."
+            )
+
         else:
             message = "Erreur de connexion (pseudo ou mot de passe invalide)"
 

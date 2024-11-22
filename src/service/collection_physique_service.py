@@ -8,12 +8,12 @@ class Collection_physique_service:
     Classe contenant les méthodes de service de collection physique
     """
 
-    def supprimer_collectionphys(self, collectionphys):
+    def supprimer_collectionphys(self, id_collecion_p):
         """Suppression d'une collection physique"""
-        return CollectionPhysiqueDAO().supprimer_collectionphys(collectionphys)
+        return CollectionPhysiqueDAO().supprimer_collectionphys(id_collecion_p)
 
     def creer_collectionphys(self, titre_collection, desc_collection, idu):
-        """ Création d'une collection physique"""
+        """Création d'une collection physique"""
         nouvelle_collection_phys = Collection_physique(
             id_collectionphysique=None,
             titre_collection=titre_collection,
@@ -32,10 +32,8 @@ class Collection_physique_service:
         return CollectionPhysiqueDAO().supprimer_mangaposs(CollectionP, MangaPoss)
 
     def ajouter_mangaposs(self, idcoll, idmanga) -> bool:
-        """Ajout d'un manga possédé de la collection """
-        return (
-            True if CollectionPhysiqueDAO().ajouter_mangaposs(idcoll, idmanga) else None
-        )
+        """Ajout d'un manga possédé de la collection"""
+        return True if CollectionPhysiqueDAO().ajouter_mangaposs(idcoll, idmanga) else None
 
     def __str__(self, CollectionP):
         """Affiche tous les titres des mangas présents dans la collection."""

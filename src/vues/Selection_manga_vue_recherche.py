@@ -1,7 +1,6 @@
 from InquirerPy import inquirer
 from vues.vue_abstraite import VueAbstraite
 from dao.manga_dao import MangaDao
-import logging
 
 
 class SelectionMangaVuerecherche(VueAbstraite):

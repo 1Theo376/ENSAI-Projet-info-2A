@@ -6,7 +6,6 @@ from service.collection_physique_service import Collection_physique_service
 from dao.collection_physique_dao import CollectionPhysiqueDAO
 from dao.collection_coherente_dao import CollectionCoherenteDAO
 from service.avis_service import AvisService
-import logging
 
 
 class EcranDuProfilVue(VueAbstraite):
@@ -81,15 +80,13 @@ class EcranDuProfilVue(VueAbstraite):
 
                 else:
                     desc = inquirer.text(message="Decrivez votre collection : ").execute()
-                    CollectionCoherenteService().creer_collectioncohe(titre, desc, Session().utilisateur.id)
+                    CollectionCoherenteService().creer_collectioncohe(
+                        titre, desc, Session().utilisateur.id
+                    )
                     return EcranDuProfilVue()
 
             case "Créer une collection physique":
                 from service.recherche_service import RechercheService
-
-                logging.info(
-                    f"Créer coll physique : {RechercheService().recherche_collec_phys_par_id(Session().utilisateur.id)}"
-                )
 
                 if RechercheService().recherche_collec_phys_par_id(Session().utilisateur.id):
                     print("\n" + "Votre collection physique existe déjà." + "\n")
@@ -99,7 +96,9 @@ class EcranDuProfilVue(VueAbstraite):
                         message="Entrez le nom de la collection que souhaitez voulez créer : "
                     ).execute()
                     desc = inquirer.text(message="Décrivez votre collection : ").execute()
-                    Collection_physique_service().creer_collectionphys(titre, desc, Session().utilisateur.id)
+                    Collection_physique_service().creer_collectionphys(
+                        titre, desc, Session().utilisateur.id
+                    )
                     return EcranDuProfilVue()
 
             case "Retour au menu précédent":
@@ -116,9 +115,9 @@ class EcranDuProfilVue(VueAbstraite):
                 match choix2:
                     case "oui":
                         print("Compte supprimé.")
-                        from dao.utilisateur_dao import UtilisateurDao
+                        from service.utilisateur_service import UtilisateurService
 
-                        UtilisateurDao().supprimer(Session().utilisateur)
+                        UtilisateurService().supprimer_compte(Session().utilisateur)
                         Session().deconnexion()
                         from vues.accueil.accueil_vue import AccueilVue
 

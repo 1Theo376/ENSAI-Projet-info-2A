@@ -1,9 +1,6 @@
 from InquirerPy import inquirer
-
 from vues.vue_abstraite import VueAbstraite
 from vues.session import Session
-from dao.utilisateur_dao import UtilisateurDao
-
 from service.utilisateur_service import UtilisateurService
 
 

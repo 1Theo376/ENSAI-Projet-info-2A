@@ -1,4 +1,3 @@
-# from tabulate import tabulate
 from utils.securite import hash_password
 from business_object.utilisateur import Utilisateur
 from dao.utilisateur_dao import UtilisateurDao
@@ -18,8 +17,10 @@ class UtilisateurService:
         """Création d'un utilisateur à partir de ses attributs"""
         nouveau_utilisateur = Utilisateur(id=None, pseudo=pseudo, mdp=hash_password(mdp, pseudo))
         logging.info(
-            f"Mot de passe haché : {nouveau_utilisateur.mdp} (length: {len(nouveau_utilisateur.mdp)})"
+            f"Mot de passe haché : {nouveau_utilisateur.mdp} "
+            f"(length: {len(nouveau_utilisateur.mdp)})"
         )
+
         return nouveau_utilisateur if UtilisateurDao().creer(nouveau_utilisateur) else None
 
     def se_connecter(self, pseudo, mdp) -> Utilisateur:
