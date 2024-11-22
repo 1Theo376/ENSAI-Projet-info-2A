@@ -42,17 +42,37 @@ class AjouterMangaPossCollPhys(VueAbstraite):
                 return AjouterMangaPossCollPhys().choisir_menu(choix3, collection)
         volumes_poss = []
         while nb_volumes_poss != 0:
-            num_vol = ""
-            while not num_vol.isdigit() or not (
-                (num_vol.split("-")[0]).isdigit() and (num_vol.split("-")[1].isdigit())
-            ):
+            num_vol = inquirer.text(
+                message="Entrez le nombre de volumes possédés du manga,vous pouvez l'écrire sous la forme a-b: "
+            ).execute()
+            while True:
+                if "-" in num_vol:
+                    parts = num_vol.split("-")
+                    if len(parts) == 2 and all(part.strip().isdigit() for part in parts):
+                        if int(parts[0]) > int(parts[1]):
+                            print("la tranche doit être de forme a-b avec a < b !")
+                        elif (
+                            int(parts[0]) not in volumes_poss and int(parts[1]) not in volumes_poss
+                        ):
+                            break
+                        else:
+                            print("Vous avez déja enregistré un des volumes")
+                    else:
+                        print(
+                            "Valeur incorrecte pour la tranche, entrez sous la forme a-b avec des nombres."
+                        )
+                elif num_vol.isdigit():
+                    if int(num_vol) not in volumes_poss:
+                        break
+                    else:
+                        print("Vous avez déja enregistré ce volume")
+                else:
+                    print(
+                        "Valeur incorrecte, entrez un nombre ou une tranche valide sous la forme a-b."
+                    )
                 num_vol = inquirer.text(
-                    message="Entrez le numéro des volumes possédés du manga. \nS'il s'agit d'une tranche, vous pouvez l'écrire sous la forme a-b :"
+                    message="Entrez le nombre de volumes possédés du manga,vous pouvez l'écrire sous la forme a-b: "
                 ).execute()
-                if not num_vol.isdigit() or not (
-                    (num_vol.split("-")[0]).isdigit() and (num_vol.split("-")[1].isdigit())
-                ):
-                    print("Valeur incorrecte, entrez un nombre !")
             if "-" in num_vol:
                 a = int(num_vol.split("-")[0])
                 b = int(num_vol.split("-")[1])
