@@ -58,9 +58,10 @@ class MangaCollectionCoherenteVue(VueAbstraite):
                 if n == 0:
                     choixmanga.remove("Afficher la page précédente")
 
-                choix3 = inquirer.select(
-                    message="Choisissez un manga :", choices=choixmanga
-                ).execute()
+                choix4 = inquirer.select(
+                        message="Selectionnez un manga de votre collection : ",
+                        choices=choix3,
+                    ).execute()
 
                 if choix3 == "Retour au menu précédent":
                     return self.choisir_menu(choix2)
@@ -69,10 +70,6 @@ class MangaCollectionCoherenteVue(VueAbstraite):
                 elif choix3 == "Afficher la page précédente":
                     n = max(0, n - m)
                 else:
-                    choix4 = inquirer.select(
-                        message="Selectionnez un manga de votre collection : ",
-                        choices=choix3,
-                    ).execute()
                     return self.choisir_menu_bis(choix2, choix4)
 
         if choix3 == "Consulter la description de la collection":
