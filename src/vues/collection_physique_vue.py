@@ -1,8 +1,8 @@
 from vues.vue_abstraite import VueAbstraite
 from InquirerPy import inquirer
 from vues.session import Session
-from dao.manga_dao import MangaDao
-from dao.manga_possede_dao import MangaPossedeDao
+from service.manga_possede_service import MangaPossedeService
+from service.recherche_service import RechercheService
 from service.collection_physique_service import Collection_physique_service
 import logging
 
@@ -32,7 +32,7 @@ class CollectionPhysiqueVue(VueAbstraite):
             for manga in (
                 Collection_physique_service().trouver_collec_phys_id_user(Session().utilisateur.id)
             ).Liste_manga:
-                liste_titre.append(MangaDao().trouver_manga_par_id(manga.idmanga).titre)
+                liste_titre.append(RechercheService().trouver_manga_par_id(manga.idmanga).titre)
             if not liste_titre:
                 print(
                     "\n"
@@ -97,9 +97,9 @@ class CollectionPhysiqueVue(VueAbstraite):
             return EcranDuProfilVue()
 
     def choisir_menu_bis(self, choix4):
-        print(MangaDao().trouver_manga_par_titre(choix4))
+        print(RechercheService().trouver_manga_par_titre(choix4))
         print(
-            MangaPossedeDao().trouver_manga_possede_collecphys(
+            MangaPossedeService().trouver_manga_possede_collecphys(
                 choix4,
                 (
                     Collection_physique_service().trouver_collec_phys_id_user(
@@ -108,7 +108,7 @@ class CollectionPhysiqueVue(VueAbstraite):
                 ).id_collectionphysique,
             )
         )
-        print(f"Nombre de volumes possédés : {MangaPossedeDao().nb_volume_manga(choix4)}")
+        print(f"Nombre de volumes possédés : {MangaPossedeService().nb_volume_manga(choix4)}")
         choix5 = inquirer.select(
             message=f"Que voulez-vous faire avec le manga {choix4}: ",
             choices=[
@@ -123,7 +123,7 @@ class CollectionPhysiqueVue(VueAbstraite):
 
             Collection_physique_service().supprimer_mangaposs(
                 Collection_physique_service().trouver_collec_phys_id_user(Session().utilisateur.id),
-                MangaDao().trouver_manga_par_titre(choix4),
+                RechercheService().trouver_manga_par_titre(choix4),
             )
             return self.choisir_menu_bis(choix4)
 
@@ -131,11 +131,12 @@ class CollectionPhysiqueVue(VueAbstraite):
             from service.avis_service import AvisService
 
             if AvisService().AvisUtilisateurMangaExistant(
-                Session().utilisateur.id, MangaDao().trouver_manga_par_titre(choix4).id_manga
+                Session().utilisateur.id,
+                RechercheService().trouver_manga_par_titre(choix4).id_manga,
             ):
                 print(
                     AvisService().recuperer_avis_user_manga(
-                        MangaDao().trouver_manga_par_titre(choix4).id_manga,
+                        RechercheService().trouver_manga_par_titre(choix4).id_manga,
                         Session().utilisateur.id,
                     )
                 )
@@ -146,7 +147,7 @@ class CollectionPhysiqueVue(VueAbstraite):
             return self.choisir_menu()
 
         if choix5 == "Modifier les tomes possédés":
-            mangap = MangaPossedeDao().trouver_manga_possede_collecphys(
+            mangap = MangaPossedeService().trouver_manga_possede_collecphys(
                 choix4,
                 (
                     Collection_physique_service().trouver_collec_phys_id_user(
@@ -155,16 +156,18 @@ class CollectionPhysiqueVue(VueAbstraite):
                 ).id_collectionphysique,
             )
             num_manquant = mangap.num_manquant
-            manga = MangaDao().trouver_manga_par_titre(choix4)
-            liste_id_num_manquant = MangaPossedeDao().trouver_id_num_manquant_id(mangap.id_manga_p)
+            manga = RechercheService().trouver_manga_par_titre(choix4)
+            liste_id_num_manquant = MangaPossedeService().trouver_id_num_manquant_id(
+                mangap.id_manga_p
+            )
             logging.info(f"nummanq = {liste_id_num_manquant}")
             for elt in liste_id_num_manquant:
-                MangaPossedeDao().supprimer_num_manquant(elt)
-            liste_id_num_manquant_new = MangaPossedeDao().trouver_id_num_manquant_id(
+                MangaPossedeService().supprimer_num_manquant(elt)
+            liste_id_num_manquant_new = MangaPossedeService().trouver_id_num_manquant_id(
                 mangap.id_manga_p
             )
             logging.info(f"nummanq = {liste_id_num_manquant_new}")
-            volume_manga = MangaPossedeDao().nb_volume_manga(manga.titre)
+            volume_manga = MangaPossedeService().nb_volume_manga(manga.titre)
             nb_volumes_poss = int(
                 inquirer.text(message="Entrez le nombre de volumes possédés du manga : ").execute()
             )
@@ -207,7 +210,7 @@ class CollectionPhysiqueVue(VueAbstraite):
             logging.info(f"manq:{num_manquant}")
             if volume_manga:
                 for elt in num_manquant:
-                    MangaPossedeDao().ajouter_ass_num_manquant(
-                        mangap.id_manga_p, MangaPossedeDao().ajouter_num_manquant(elt)
+                    MangaPossedeService().ajouter_ass_num_manquant(
+                        mangap.id_manga_p, MangaPossedeService().ajouter_num_manquant(elt)
                     )
             return self.choisir_menu_bis(choix4)

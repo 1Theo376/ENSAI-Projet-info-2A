@@ -1,7 +1,6 @@
 from InquirerPy import inquirer
 from vues.vue_abstraite import VueAbstraite
 from service.recherche_service import RechercheService
-from dao.manga_dao import MangaDao
 from vues.session import Session
 import logging
 from service.collection_coherente_service import CollectionCoherenteService
@@ -17,7 +16,7 @@ class AjouterMangaCollecVuerecherche(VueAbstraite):
         vue
             Retourne la vue choisie par l'utilisateur dans le terminal
         """
-        manga = MangaDao().trouver_manga_par_titre(choix3)
+        manga = RechercheService().trouver_manga_par_titre(choix3)
         logging.info(f"manga : {manga.titre}")
         print("\n" + "-" * 50 + "\nManga :", manga.titre, " \n" + "-" * 50 + "\n")
 

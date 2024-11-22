@@ -53,7 +53,7 @@ class AvisService:
         return None
 
     def modifier_avis(self, avis, nouveau_texte) -> bool:
-        return AvisDAO.modifier_avis(avis, nouveau_texte)
+        return AvisDAO().modifier_avis(avis, nouveau_texte)
 
     def AvisUtilisateurMangaExistant(self, id_utilisateur, id_manga):
-        return AvisDAO.AvisUtilisateurMangaExistant(id_utilisateur, id_manga)
+        return AvisDAO().AvisUtilisateurMangaExistant(id_utilisateur, id_manga)

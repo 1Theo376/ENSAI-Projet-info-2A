@@ -1,7 +1,7 @@
 from InquirerPy import inquirer
 from vues.vue_abstraite import VueAbstraite
 from vues.session import Session
-from dao.manga_dao import MangaDao
+from service.recherche_service import RechercheService
 from service.avis_service import AvisService
 import logging
 
@@ -70,7 +70,7 @@ class MenuAvis(VueAbstraite):
             else:
                 n = -1
                 titre = choix_utilisateur.split("titre : ")[1].split(" |")[0].strip()
-                id_manga = (MangaDao().trouver_manga_par_titre(titre)).id_manga
+                id_manga = (RechercheService().trouver_manga_par_titre(titre)).id_manga
                 avis = AvisService().recuperer_avis_user_manga(id_manga, Session().utilisateur.id)
                 choix2 = inquirer.select(
                     message="Faites votre choix : ",

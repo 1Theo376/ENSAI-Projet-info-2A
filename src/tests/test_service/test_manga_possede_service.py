@@ -47,7 +47,6 @@ def test_modifier_num_manquant_ko():
     assert mangap.num_manquant == []
 
 
-
 if __name__ == "__main__":
     import pytest
 

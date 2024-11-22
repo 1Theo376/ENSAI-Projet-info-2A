@@ -1,6 +1,6 @@
 from InquirerPy import inquirer
 from vues.vue_abstraite import VueAbstraite
-from dao.manga_dao import MangaDao
+from service.recherche_service import RechercheService
 from service.avis_service import AvisService
 from vues.session import Session
 
@@ -14,7 +14,7 @@ class ConsulterAvisMangaVuerecherche(VueAbstraite):
         vue
             Retourne la vue choisie par l'utilisateur dans le terminal
         """
-        manga = MangaDao().trouver_manga_par_titre(choixm)
+        manga = RechercheService().trouver_manga_par_titre(choixm)
 
         print("\n" + "-" * 50 + "\nManga :", manga.titre, " \n" + "-" * 50 + "\n")
 
@@ -63,7 +63,7 @@ class ConsulterAvisMangaVuerecherche(VueAbstraite):
 
                 AvisService().modifier_avis(
                     AvisService().recuperer_avis_user_et_manga(
-                        MangaDao().trouver_manga_par_titre(choixm).id_manga,
+                        RechercheService().trouver_manga_par_titre(choixm).id_manga,
                         Session().utilisateur.id,
                     ),
                     nouvel_avis,

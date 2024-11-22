@@ -1,10 +1,10 @@
 from InquirerPy import inquirer
 from vues.vue_abstraite import VueAbstraite
-from dao.manga_dao import MangaDao
+from service.recherche_service import RechercheService
 import logging
 from service.collection_physique_service import Collection_physique_service
 from business_object.manga_possede import MangaPossede
-from dao.manga_possede_dao import MangaPossedeDao
+from service.manga_possede_service import MangaPossedeService
 
 
 class AjouterMangaPossCollPhys(VueAbstraite):
@@ -16,10 +16,10 @@ class AjouterMangaPossCollPhys(VueAbstraite):
         vue
             Retourne la vue choisie par l'utilisateur dans le terminal
         """
-        manga = MangaDao().trouver_manga_par_titre(choix3)
+        manga = RechercheService().trouver_manga_par_titre(choix3)
         logging.info(f"id: {manga.id_manga}")
         print("\n" + "-" * 50 + "\nManga :", manga.titre, " \n" + "-" * 50 + "\n")
-        volume_manga = MangaPossedeDao().nb_volume_manga(manga.titre)
+        volume_manga = MangaPossedeService().nb_volume_manga(manga.titre)
         res = ""
         while not res.isdigit():
             res = inquirer.text(
@@ -131,11 +131,11 @@ class AjouterMangaPossCollPhys(VueAbstraite):
             idmanga=manga.id_manga, num_dernier_acquis=num_dernier_acquis, statut=Statut
         )
         logging.info(f"idm = {manga.id_manga}, num = {num_dernier_acquis}, statut = {Statut},")
-        MangaPossedeDao().ajouter_manga_p(mangap)
+        MangaPossedeService().ajouter_manga_p(mangap)
         if volume_manga:
             for elt in num_manquant:
-                MangaPossedeDao().ajouter_ass_num_manquant(
-                    mangap.id_manga_p, MangaPossedeDao().ajouter_num_manquant(elt)
+                MangaPossedeService().ajouter_ass_num_manquant(
+                    mangap.id_manga_p, MangaPossedeService().ajouter_num_manquant(elt)
                 )
         Collection_physique_service().ajouter_mangaposs(
             collection.id_collectionphysique, mangap.id_manga_p

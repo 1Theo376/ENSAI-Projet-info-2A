@@ -15,7 +15,7 @@ class RechercheService:
         if res:
             longueur_tot = len(res)
             liste = [j.titre for j in res]
-            sous_liste = liste[n: n + m + a]
+            sous_liste = liste[n : n + m + a]
             longueur = len(sous_liste)
             return longueur, sous_liste, longueur_tot if sous_liste else None
         return None
@@ -27,7 +27,7 @@ class RechercheService:
             longueur_tot = len(res)
             liste = [j.pseudo for j in res]
             logging.info(f"liste={liste}")
-            sous_liste = liste[n: n + m + a]
+            sous_liste = liste[n : n + m + a]
             longueur = len(sous_liste)
             return longueur, sous_liste, longueur_tot if sous_liste else None
         return None
@@ -47,3 +47,9 @@ class RechercheService:
         if res:
             return res
         return None
+
+    def trouver_manga_par_id(self, id_manga) -> Manga:
+        return MangaDao().trouver_manga_par_id(id_manga)
+
+    def trouver_manga_par_titre(self, titre):
+        return MangaDao().trouver_manga_par_titre(titre)

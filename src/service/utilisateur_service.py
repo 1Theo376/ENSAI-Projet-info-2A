@@ -35,3 +35,6 @@ class UtilisateurService:
         """Modification du compte d'un utilisateur"""
         utilisateur.mdp = hash_password(utilisateur.mdp, utilisateur.pseudo)
         return utilisateur if Utilisateur().modifier(utilisateur) else None
+
+    def recherche_id_par_pseudo(self, pseudo):
+        return UtilisateurDao().recherche_id_par_pseudo(pseudo)

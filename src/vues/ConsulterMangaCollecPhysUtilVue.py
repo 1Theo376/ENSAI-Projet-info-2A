@@ -1,9 +1,9 @@
 from vues.vue_abstraite import VueAbstraite
 from InquirerPy import inquirer
-from dao.utilisateur_dao import UtilisateurDao
+from service.utilisateur_service import UtilisateurService
 import logging
 from service.collection_physique_service import Collection_physique_service
-from dao.manga_dao import MangaDao
+from service.recherche_service import RechercheService
 from service.avis_service import AvisService
 
 
@@ -17,12 +17,12 @@ class ConsulterMangaCollecPhysUtilVUe(VueAbstraite):
             Retourne la vue choisie par l'utilisateur dans le terminal
         """
         print("\n" + "-" * 50 + "\nRecherche d'une collection\n" + "-" * 50 + "\n")
-        id_utilisateur = UtilisateurDao().recherche_id_par_pseudo(choixu)
+        id_utilisateur = UtilisateurService().recherche_id_par_pseudo(choixu)
         liste_titre = []
         for manga in (
             Collection_physique_service().trouver_collec_phys_id_user(id_utilisateur)
         ).Liste_manga:
-            liste_titre.append(MangaDao().trouver_manga_par_id(manga.idmanga).titre)
+            liste_titre.append(RechercheService().trouver_manga_par_id(manga.idmanga).titre)
         if liste_titre == []:
             print("Cette collection ne contient pas de mangas")
             from vues.ConsulterCollecVue import CollectionCoherenteVueRecherche
@@ -42,7 +42,7 @@ class ConsulterMangaCollecPhysUtilVUe(VueAbstraite):
 
         else:
             n = 0
-            manga = MangaDao().trouver_manga_par_titre(choix4)
+            manga = RechercheService().trouver_manga_par_titre(choix4)
             if AvisService().recuperer_avis_utilisateur(id_utilisateur):
                 liste_avis, liste_titre = AvisService().recuperer_avis_utilisateur(id_utilisateur)
                 for i in range(0, len(liste_titre)):

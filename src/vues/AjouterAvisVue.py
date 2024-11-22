@@ -1,10 +1,9 @@
 from InquirerPy import inquirer
 from vues.vue_abstraite import VueAbstraite
-from dao.manga_dao import MangaDao
 from service.avis_service import AvisService
 from vues.session import Session
 import logging
-from dao.avis_dao import AvisDAO
+from service.recherche_service import RechercheService
 
 
 class AjouterAvisVuerecherche(VueAbstraite):
@@ -16,7 +15,7 @@ class AjouterAvisVuerecherche(VueAbstraite):
         vue
             Retourne la vue choisie par l'utilisateur dans le terminal
         """
-        manga = MangaDao().trouver_manga_par_titre(choix3)
+        manga = RechercheService().trouver_manga_par_titre(choix3)
         if AvisService().AvisUtilisateurMangaExistant(Session().utilisateur.id, manga.id_manga):
             from vues.Selection_manga_vue_recherche import SelectionMangaVuerecherche
 

@@ -1,6 +1,6 @@
 from InquirerPy import inquirer
 from vues.vue_abstraite import VueAbstraite
-from dao.manga_dao import MangaDao
+from service.recherche_service import RechercheService
 
 
 class SelectionMangaVuerecherche(VueAbstraite):
@@ -12,7 +12,7 @@ class SelectionMangaVuerecherche(VueAbstraite):
         vue
             Retourne la vue choisie par l'utilisateur dans le terminal
         """
-        manga = MangaDao().trouver_manga_par_titre(choix)
+        manga = RechercheService().trouver_manga_par_titre(choix)
         print("\n" + "-" * 50 + "\nManga :", manga.titre, " \n" + "-" * 50 + "\n")
         choix4 = inquirer.select(
             message="Faites votre choix : ",

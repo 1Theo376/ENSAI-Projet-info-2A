@@ -1,7 +1,7 @@
 from vues.vue_abstraite import VueAbstraite
 from InquirerPy import inquirer
 from service.recherche_service import RechercheService
-from dao.utilisateur_dao import UtilisateurDao
+from service.utilisateur_service import UtilisateurService
 from service.collection_physique_service import Collection_physique_service
 import logging
 
@@ -16,7 +16,7 @@ class CollectionCoherenteVueRecherche(VueAbstraite):
             Retourne la vue choisie par l'utilisateur dans le terminal
         """
         print("\n" + "-" * 50 + "\nRecherche d'une collection\n" + "-" * 50 + "\n")
-        id_utilisateur = UtilisateurDao().recherche_id_par_pseudo(choixu)
+        id_utilisateur = UtilisateurService().recherche_id_par_pseudo(choixu)
         choix = []
         listecolleccohe = []
         if RechercheService().recherche_collec_cohe_par_id(id_utilisateur):
@@ -77,7 +77,7 @@ class CollectionCoherenteVueRecherche(VueAbstraite):
                 if choix4 == "Consulter les mangas de la collection":
                     if (
                         Collection_physique_service().trouver_collec_phys_id_user(
-                            UtilisateurDao().recherche_id_par_pseudo(choixu)
+                            UtilisateurService().recherche_id_par_pseudo(choixu)
                         )
                         is not None
                     ):

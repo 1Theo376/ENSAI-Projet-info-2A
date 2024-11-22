@@ -3,7 +3,7 @@ from InquirerPy import inquirer
 from vues.session import Session
 from dao.collection_coherente_dao import CollectionCoherenteDAO
 from service.collection_coherente_service import CollectionCoherenteService
-from dao.manga_dao import MangaDao
+from service.recherche_service import RechercheService
 import logging
 
 
@@ -140,12 +140,12 @@ class MangaCollectionCoherenteVue(VueAbstraite):
                 CollectionCoherenteService().trouver_collec_cohe_nom(
                     choix2, Session().utilisateur.id
                 ),
-                MangaDao().trouver_manga_par_titre(choix4),
+                RechercheService().trouver_manga_par_titre(choix4),
             )
             return self.choisir_menu(choix2)
 
         if choix5 == "Afficher les informations du manga":
-            manga = MangaDao().trouver_manga_par_titre(choix4)
+            manga = RechercheService().trouver_manga_par_titre(choix4)
             print("\n" + "-" * 50 + "\n" + manga.titre + "\n" + "-" * 50 + "\n")
             print("Synopsis: " + manga.synopsis + "\n")
             print("Auteur: " + manga.auteur + "\n")
@@ -157,11 +157,12 @@ class MangaCollectionCoherenteVue(VueAbstraite):
             from service.avis_service import AvisService
 
             if AvisService().AvisUtilisateurMangaExistant(
-                Session().utilisateur.id, MangaDao().trouver_manga_par_titre(choix4).id_manga
+                Session().utilisateur.id,
+                RechercheService().trouver_manga_par_titre(choix4).id_manga,
             ):
                 print(
                     AvisService().recuperer_avis_user_manga(
-                        MangaDao().trouver_manga_par_titre(choix4).id_manga,
+                        RechercheService().trouver_manga_par_titre(choix4).id_manga,
                         Session().utilisateur.id,
                     )
                 )
