@@ -1,132 +1,170 @@
 import pytest
-from unittest.mock import patch, MagicMock
-from dao.collection_physique_dao import CollectionPhysiqueDAO
+from unittest.mock import patch
 from business_object.collection_phys import Collection_physique
-from business_object.manga_possede import MangaPossede
-from business_object.manga import Manga
+from business_object.utilisateur import Utilisateur
+from dao.collection_physique_dao import CollectionPhysiqueDAO
+from dao.utilisateur_dao import UtilisateurDao
+from dao.manga_dao import MangaDao
 
 
-@pytest.fixture
-def mock_db_connection():
-    """Mock pour DBConnection."""
-    with patch("dao.collection_physique_dao.DBConnection") as mock_db:
-        yield mock_db
+utilisateur = Utilisateur(1, "huy1", "1234Azer")
+
+collection = Collection_physique("manouvellecolec", "action", [])
 
 
-@pytest.fixture
-def collection_physique():
-    """Fixture pour une instance de Collection_physique."""
-    return Collection_physique(
-        id_collectionphysique=1,
-        titre_collection="Ma Collection",
-        description_collection="Description de la collection",
-    )
+@pytest.fixture(scope="function", autouse=True)
+def setup_test_environment():
+    """Initialisation des données de test pour UtilisateurDao"""
+    with patch.dict("os.environ", {"POSTGRES_SCHEMA": "projet_test_dao"}):
+        from utils.reset_database import ResetDatabase
+        ResetDatabase().lancer(test_dao=True)
+        MangaDao().inserer_mangas("testmangas.json")
+        yield
 
 
-@pytest.fixture
-def manga_possede():
-    """Fixture pour une instance de MangaPossede."""
-    return MangaPossede(
-        id_manga_p=10,
-<<<<<<< HEAD
-        manga=Manga(
-            id_manga=1,
-            titre="One Piece",
-            Synopsis="Un Manga sur les aventures de Monkey D. Luffy",
-            auteurs="Eiichiro Oda",
-            themes=["Aventures", "Action", "Fantasie"],
-            genre="Shonen",
-        ),
-=======
-        manga=Manga(id_manga=1, titre="One Piece", synopsis="Un Manga sur les aventures de Monkey D. Luffy", auteur="Eiichiro Oda", themes=["Aventures", "Action", "Fantasie"], genre="Shonen"),
->>>>>>> 55fc9a369faaeee2d2989d9b26321c7f4aa82dff
-        num_dernier_acquis=5,
-        num_manquant=[2, 4],
-        statut="En cours",
-    )
+@pytest.fixture(scope="function", autouse=True)
+def utilisateur_test():
+    """Crée un utilisateur pour les tests"""
+    return UtilisateurDao().creer(utilisateur)
 
 
-def test_supprimer_collectionphys(mock_db_connection, collection_physique):
-    """Test de la méthode supprimer_collectionphys."""
-    mock_cursor = MagicMock()
-    mock_cursor.rowcount = 1  # Simule une suppression réussie
-    mock_db_connection.return_value.connection.cursor.return_value = mock_cursor
+def test_creer_collectionphys_oui():
+    """Création d'une collection physique dans la base de données"""
 
-    dao = CollectionPhysiqueDAO()
-    result = dao.supprimer_collectionphys(collection_physique)
-
-    mock_cursor.execute.assert_called_once_with(
-        "DELETE FROM collection_physique WHERE id_collec_coherente=%(id)s",
-        {"id": collection_physique.id_collectionphysique},
-    )
-    assert result is True
+    # GIVEN
+    id_utilisateur = 1
+    # WHEN
+    res = CollectionPhysiqueDAO().creer_collectionphys(collection, id_utilisateur)
+    # THEN
+    assert res
 
 
-def test_creer_collectionphys(mock_db_connection, collection_physique):
-    """Test de la méthode creer_collectionphys."""
-    mock_cursor = MagicMock()
-    mock_cursor.fetchone.return_value = {"id_collec_physique": 1}  # Simule un ID renvoyé
-    mock_db_connection.return_value.connection.cursor.return_value = mock_cursor
+def test_creer_collectionphys_non():
+    """Création d'une collection physique dans la base de données"""
 
-    dao = CollectionPhysiqueDAO()
-    result = dao.creer_collectionphys(collection_physique)
-
-    mock_cursor.execute.assert_called_once_with(
-        "INSERT INTO collection_physique (id_collec_physique, titre_collection, description_collection) "
-        "VALUES (%(id)s, %(titre)s, %(desc)s) RETURNING id_collec_physique;",
-        {
-            "id": collection_physique.id_collectionphysique,
-            "titre": collection_physique.titre_collection,
-            "desc": collection_physique.description_collection,
-        },
-    )
-    assert result is True
-    assert collection_physique.id_collectionphysique == 1
+    # GIVEN
+    id_utilisateur = 30
+    # WHEN
+    res = CollectionPhysiqueDAO().creer_collectionphys(collection, id_utilisateur)
+    # THEN
+    assert not res
 
 
-def test_supprimer_mangaposs(mock_db_connection, collection_physique, manga_possede):
-    """Test de la méthode supprimer_mangaposs."""
-    mock_cursor = MagicMock()
-    mock_cursor.rowcount = 1  # Simule une suppression réussie
-    mock_db_connection.return_value.connection.cursor.return_value = mock_cursor
+def test_supprimer_collectionphys_oui():
+    """Suppression d'une collection physique dans la base de données"""
 
-    dao = CollectionPhysiqueDAO()
-    result = dao.supprimer_mangaposs(collection_physique, manga_possede)
-
-    mock_cursor.execute.assert_called_once_with(
-        "DELETE FROM association_manga_collection_physique "
-        "WHERE (id_collec_physique=%(id_collec_physique)s and id_manga_physique=%(idm)s",
-        {
-            "id_collec_physique": collection_physique.id_collectionphysique,
-            "idm": manga_possede.id_mangapossede,
-        },
-    )
-    assert result is True
+    # GIVEN
+    id_utilisateur = 1
+    CollectionPhysiqueDAO().creer_collectionphys(collection, id_utilisateur)
+    # WHEN
+    res = CollectionPhysiqueDAO().supprimer_collectionphys(1)
+    # THEN
+    assert res
 
 
-def test_ajouter_mangaposs(mock_db_connection, collection_physique, manga_possede):
-    """Test de la méthode ajouter_mangaposs."""
-    mock_cursor = MagicMock()
-    mock_cursor.fetchone.return_value = {
-        "id_collec_physique": collection_physique.id_collectionphysique,
-        "id_manga_physique": manga_possede.id_mangapossede,
-    }
-    mock_db_connection.return_value.connection.cursor.return_value = mock_cursor
+def test_supprimer_collectionphys_non():
+    """Suppression d'une collection physique dans la base de données"""
 
-    dao = CollectionPhysiqueDAO()
-    result = dao.ajouter_mangaposs(collection_physique, manga_possede)
+    # GIVEN
+    id_utilisateur = 1
+    CollectionPhysiqueDAO().creer_collectionphys(collection, id_utilisateur)
+    # WHEN
+    res = CollectionPhysiqueDAO().supprimer_collectionphys(9999)
+    # THEN
+    assert not res
 
-    mock_cursor.execute.assert_called_once_with(
-        "INSERT INTO association_manga_collection_physique(id_collec_physique, id_manga_physique) VALUES "
-        "(%(idc)s, %(idm)s) RETURNING id_collec_physique, id_manga_physique;",
-        {
-            "idc": collection_physique.id_collectionphysique,
-            "idm": manga_possede.id_mangapossede,
-        },
-    )
-    assert result is True
-    assert (
-        collection_physique.id_collectionphysique
-        == mock_cursor.fetchone.return_value["id_collec_physique"]
-    )
-    assert manga_possede.id_mangapossede == mock_cursor.fetchone.return_value["id_manga_physique"]
+
+def test_trouver_collec_phys_id_user_oui():
+    """Trouve une collection physique dans la base de données
+       selon l'identifiant de l'utilisateur"""
+    # GIVEN
+    id_utilisateur = 1
+    CollectionPhysiqueDAO().creer_collectionphys(collection, id_utilisateur)
+    # WHEN
+    res = CollectionPhysiqueDAO().trouver_collec_phys_id_user(id_utilisateur)
+    # THEN
+    assert res
+
+
+def test_trouver_collec_phys_id_user_non():
+    """Trouve une collection physique dans la base de données
+       selon l'identifiant de l'utilisateur"""
+    # GIVEN
+    id_utilisateur = 3
+    CollectionPhysiqueDAO().creer_collectionphys(collection, id_utilisateur)
+    # WHEN
+    res = CollectionPhysiqueDAO().trouver_collec_phys_id_user(id_utilisateur)
+    # THEN
+    assert not res
+
+
+def test_trouver_collec_phys_nom_oui():
+    """Trouve une collection physique dans la base de données
+       selon son titre"""
+    # GIVEN
+    id_utilisateur = 1
+    CollectionPhysiqueDAO().creer_collectionphys(collection, id_utilisateur)
+    # WHEN
+    res = CollectionPhysiqueDAO().trouver_collec_phys_nom("manouvellecolec")
+    # THEN
+    assert res
+
+
+def test_trouver_collec_phys_nom_non():
+    """Trouve une collection physique dans la base de données
+       selon son titre"""
+    # GIVEN
+    id_utilisateur = 1
+    CollectionPhysiqueDAO().creer_collectionphys(collection, id_utilisateur)
+    # WHEN
+    res = CollectionPhysiqueDAO().trouver_collec_phys_nom("manouvelle")
+    # THEN
+    assert not res
+
+
+def test_modifier_titre_oui():
+    """Modifie le titre d'une collection physique la base de données"""
+    # GIVEN
+    id_utilisateur = 1
+    CollectionPhysiqueDAO().creer_collectionphys(collection, id_utilisateur)
+    # WHEN
+    res = CollectionPhysiqueDAO().modifier_titre(1, "nouveautitre")
+    # THEN
+    assert res
+
+
+def test_modifier_titre_non():
+    """Modifie le titre d'une collection physique la base de données"""
+    # GIVEN
+    id_utilisateur = 1
+    CollectionPhysiqueDAO().creer_collectionphys(collection, id_utilisateur)
+    # WHEN
+    res = CollectionPhysiqueDAO().modifier_titre(34, "nouveautitre")
+    # THEN
+    assert not res
+
+
+def test_modifier_desc_oui():
+    """Modifie la description d'une collection physique la base de données"""
+    # GIVEN
+    id_utilisateur = 1
+    CollectionPhysiqueDAO().creer_collectionphys(collection, id_utilisateur)
+    # WHEN
+    res = CollectionPhysiqueDAO().modifier_desc(1, "nouvelle_desc")
+    # THEN
+    assert res
+
+
+def test_modifier_desc_non():
+    """Modifie la description d'une collection physique la base de données"""
+    # GIVEN
+    id_utilisateur = 1
+    CollectionPhysiqueDAO().creer_collectionphys(collection, id_utilisateur)
+    # WHEN
+    res = CollectionPhysiqueDAO().modifier_desc(34, "nouvelle_desc")
+    # THEN
+    assert not res
+
+
+if __name__ == "__main__":
+    pytest.main([__file__])

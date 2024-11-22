@@ -73,7 +73,7 @@ class CollectionPhysiqueDAO:
 
         created = False
         if res:
-            CollectionP.id = res["id_collec_physique"]
+            CollectionP.id_collectionphysique = res["id_collec_physique"]
             created = True
 
         return created

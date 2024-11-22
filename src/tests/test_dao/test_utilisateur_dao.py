@@ -4,7 +4,7 @@ from unittest.mock import patch
 from dao.utilisateur_dao import UtilisateurDao
 from business_object.utilisateur import Utilisateur
 from utils.securite import hash_password
-
+from dao.manga_dao import MangaDao
 
 liste_utilisateurs = [
     Utilisateur(pseudo="huy", mdp="1234Azer"),
@@ -12,16 +12,17 @@ liste_utilisateurs = [
     Utilisateur(pseudo="vert", mdp="abcd1Ruy"),
 ]
 
-@pytest.fixture(scope="session", autouse=True)
+@pytest.fixture(scope="function", autouse=True)
 def setup_test_environment():
     """Initialisation des données de test pour UtilisateurDao"""
     with patch.dict("os.environ", {"POSTGRES_SCHEMA": "projet_test_dao"}):
         from utils.reset_database import ResetDatabase
         ResetDatabase().lancer(test_dao=True)
+        MangaDao().inserer_mangas("testmangas.json")
         yield
 
 
-@pytest.fixture(scope="session", autouse=True)
+@pytest.fixture(scope="function", autouse=True)
 def utilisateur_test():
     """Crée un joueur pour les tests"""
     for user in liste_utilisateurs:

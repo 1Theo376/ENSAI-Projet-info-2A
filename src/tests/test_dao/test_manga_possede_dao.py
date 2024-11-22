@@ -8,25 +8,35 @@ from business_object.utilisateur import Utilisateur
 from dao.collection_physique_dao import CollectionPhysiqueDAO
 from dao.utilisateur_dao import UtilisateurDao
 from dao.manga_dao import MangaDao
+from service.collection_physique_service import Collection_physique_service
 
-utilisateur1 = Utilisateur("Testuser", "Barte8755")
-UtilisateurDao().creer(utilisateur1)
-manga1 = MangaDao().trouver_manga_par_id(1)
+liste_utilisateurs = [
+    Utilisateur(pseudo="huy", mdp="1234Azer"),
+    Utilisateur(pseudo="aze", mdp="0000Poiu"),
+    Utilisateur(pseudo="vert", mdp="abcd1Ruy"),
+]
 
-mangap = MangaPossede(idmanga=1, num_dernier_acquis=10, num_manquant=[1, 2, 3], statut="En cours")
 
-collecphysique = Collection_physique(
-    id_collectionphysique=0,
-    titre_collection="TestCollec",
-    description_collection="Description test",
-)
-CollectionPhysiqueDAO().creer_collectionphys(collecphysique, utilisateur1.id)
+@pytest.fixture(scope="function", autouse=True)
+def setup_test_environment():
+    """Initialisation des données de test pour UtilisateurDao"""
+    with patch.dict("os.environ", {"POSTGRES_SCHEMA": "projet_test_dao"}):
+        from utils.reset_database import ResetDatabase
+        ResetDatabase().lancer(test_dao=True)
+        MangaDao().inserer_mangas("testmangas.json")
+        yield
+
+
+@pytest.fixture(scope="function", autouse=True)
+def utilisateur_test():
+    """Crée un joueur pour les tests"""
+    
 
 
 def test_ajouter_manga_p():
     # GIVEN
     mangap = MangaPossede(
-        idmanga=1, num_dernier_acquis=10, num_manquant=[1, 2, 3], statut="En cours"
+        idmanga=2, num_dernier_acquis=10, num_manquant=[1, 2, 3], statut="En cours"
     )
     # WHEN
     res = MangaPossedeDao().ajouter_manga_p(mangap)
@@ -45,8 +55,23 @@ def test_nb_volume_manga():
 
 def test_trouver_manga_possede_collecphys():
     # GIVEN
+    manga1 = MangaDao().trouver_manga_par_id(1)
+    mangap = MangaPossede(
+        idmanga=1, num_dernier_acquis=10, num_manquant=[1, 2, 3], statut="En cours"
+    )
+    MangaPossedeDao().ajouter_manga_p(mangap)
     titre = manga1.titre
+    collecphysique = Collection_physique(
+            titre_collection="TestCollec",
+            description_collection="Description test",
+            )
+    Collection_physique_service().creer_collectionphys(collecphysique.titre_collection, collecphysique.description_collection, id)
+    collection = CollectionPhysiqueDAO().trouver_collec_phys_id_user(id)
+    Collection_physique_service().ajouter_mangaposs(
+            collection.id_collectionphysique, mangap.id_manga_p
+        )
     # WHEN
+
     mangap2 = MangaPossedeDao().trouver_manga_possede_collecphys(
         titre, collecphysique.id_collectionphysique
     )
@@ -56,6 +81,10 @@ def test_trouver_manga_possede_collecphys():
 
 def test_trouver_id_num_manquant_id():  # difficile
     # GIVEN
+    mangap = MangaPossede(
+        idmanga=1, num_dernier_acquis=10, num_manquant=[1, 2, 3], statut="En cours"
+    )
+    MangaPossedeDao().ajouter_manga_p(mangap)
     idp = mangap.id_manga_p
     # WHEN
     liste_id_num_manquant = MangaPossedeDao().trouver_id_num_manquant_id(idp)
@@ -74,7 +103,11 @@ def test_ajouter_num_manquant():
 
 def test_ajouter_ass_num_manquant():  # à revoir
     # GIVEN
-    liste_id_num_manquant = MangaPossedeDao().trouver_id_num_manquant_id(idp)
+    mangap = MangaPossede(
+        idmanga=1, num_dernier_acquis=10, num_manquant=[1, 2, 3], statut="En cours"
+    )
+    MangaPossedeDao().ajouter_manga_p(mangap)
+    liste_id_num_manquant = MangaPossedeDao().trouver_id_num_manquant_id(mangap.id_manga_p)
     # WHEN
     res = MangaPossedeDao().ajouter_ass_num_manquant(mangap.id_manga_p, liste_id_num_manquant[0])
     # THEN
@@ -83,6 +116,10 @@ def test_ajouter_ass_num_manquant():  # à revoir
 
 def test_trouver_manga_possede_id():
     # GIVEN
+    mangap = MangaPossede(
+        idmanga=1, num_dernier_acquis=10, num_manquant=[1, 2, 3], statut="En cours"
+    )
+    MangaPossedeDao().ajouter_manga_p(mangap)
     idp = mangap.id_manga_p
     # WHEN
     mangap3 = MangaPossedeDao().trouver_manga_possede_id(idp)
