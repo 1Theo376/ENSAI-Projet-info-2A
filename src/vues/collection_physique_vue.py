@@ -98,17 +98,16 @@ class CollectionPhysiqueVue(VueAbstraite):
 
     def choisir_menu_bis(self, choix4):
         print(RechercheService().trouver_manga_par_titre(choix4))
-        print(
-            MangaPossedeService().trouver_manga_possede_collecphys(
-                choix4,
-                (
-                    Collection_physique_service().trouver_collec_phys_id_user(
-                        Session().utilisateur.id
-                    )
-                ).id_collectionphysique,
-            )
+        mg = MangaPossedeService().trouver_manga_possede_collecphys(
+            choix4,
+            (
+                Collection_physique_service().trouver_collec_phys_id_user(Session().utilisateur.id)
+            ).id_collectionphysique,
         )
-        print(f"Nombre de volumes possédés : {MangaPossedeService().nb_volume_manga(choix4)}")
+        print(mg)
+        print(
+            f"Nombre de volumes possédés : {MangaPossedeService().nb_volume_manga(choix4) - len(mg.num_manquant) }"
+        )
         choix5 = inquirer.select(
             message=f"Que voulez-vous faire avec le manga {choix4}: ",
             choices=[
@@ -119,7 +118,6 @@ class CollectionPhysiqueVue(VueAbstraite):
             ],
         ).execute()
         if choix5 == "Retirer le manga de la collection":
-            from service.collection_physique_service import Collection_physique_service
 
             Collection_physique_service().supprimer_mangaposs(
                 Collection_physique_service().trouver_collec_phys_id_user(Session().utilisateur.id),
