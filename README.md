@@ -1,16 +1,16 @@
-# Application de gestion de collections de mangas
+# Manga collection management application
 
-## NOTES:
-Développée en Python, cette application vous permet de créer des collections de mangas,
-dans lesquelles sont stockés les livres que vous possédez ou bien ceux qui touchent
-à une thématique particulière. Vous peuvent aussi donner votre avis sur les mangas et
-consulter ceux des autres.
+## GENERAL INFO:
+Developed in Python, this application allows you to create mangas collections,
+in which you can store the books you own, or those with a particular
+a particular theme. You can also give your opinion on mangas and
+consult those of others.
 
-## DEMARRAGE:
-Pour lancer l'application, exécutez le fichier __main__.py, puis choisissez les actions
-que vous souhaitez effectuer.
+## INSTALLATION:
+To launch the application, run the __main__.py file, then select the actions
+you wish to perform.
 
-## PACKAGES NECESSAIRES:
+## REQUIREMENTS:
 requests
 json
 time
@@ -24,10 +24,10 @@ numbers
 yaml
 hashlib
 
-## REALISE AVEC:
+## TECHNOLOGIES:
 Visual Studio Code
 
-## CONTRIBUTEURS:
+## MAINTAINERS:
 Anaïs Babingui
 Emilien Morfouace
 Enguerrand Renon
