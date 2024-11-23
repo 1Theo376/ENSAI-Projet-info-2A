@@ -19,4 +19,4 @@ class Avis:
 
     def __str__(self):
         """Retourne le contenu de l'avis"""
-        return f"{self.texte}"
+        return f"Avis : {self.texte}, Note : {self.note}"
