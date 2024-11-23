@@ -28,19 +28,17 @@ class ConsulterAvisMangaVuerecherche(VueAbstraite):
         liste_avis, liste_pseudo = AvisService().recuperer_avis_manga(manga.id_manga)
         longueur_tot = len(liste_avis)
         while n >= 0:
-
-            sous_liste_avis, sous_liste_pseudo = liste_avis[n : n + m], liste_pseudo[n : n + m]
             choix2 = [
                 "Afficher la page suivante",
                 "Afficher la page précédente",
                 "Signaler un avis",
                 "Retour au menu précédent",
             ]
-            for i in range(n, min(len(liste_avis), n + m)):
+            for i in range(n, min(longueur_tot, n + m)):
                 print(
                     "\n"
                     + "-" * 50
-                    + f"\nUtilisateur: {sous_liste_pseudo[i]}\n{i+n} : {sous_liste_avis[i].texte} \n Note : {sous_liste_avis[i].note}\n"
+                    + f"\nUtilisateur: {liste_pseudo[i]}\n{i} : {liste_avis[i].texte} \n Note : {liste_avis[i].note}\n"
                     + "-" * 50
                     + "\n"
                 )
