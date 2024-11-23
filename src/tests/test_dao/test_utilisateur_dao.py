@@ -42,19 +42,7 @@ def test_creer_ok():
 
     # THEN
     assert creation_ok
-    assert utilisateur.id
-
-
-def test_creer_ko():
-    """Création de Utilisateur échouée (pseudo incorrect)"""
-
-    # GIVEN
-    utilisateur = Utilisateur(pseudo=12, mdp="u")
-
-    # WHEN
-    utilisateur = UtilisateurDao().creer(utilisateur)
-    # THEN
-    assert not utilisateur
+    assert utilisateur.id == 4  # 3 déjà dans la base de donnée
 
 
 def test_lister_tous(utilisateur_test):

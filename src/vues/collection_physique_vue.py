@@ -41,11 +41,34 @@ class CollectionPhysiqueVue(VueAbstraite):
                 )
 
                 return self.choisir_menu()
-            choix4 = inquirer.select(
-                message="Selectionnez un manga de votre collection : ",
-                choices=liste_titre,
-            ).execute()
-            return self.choisir_menu_bis(choix4)
+            n, m = 0, 8
+            while n >= 0:
+                sous_liste, longueur_tot = liste_titre[n: n + m], len(liste_titre)
+                choixmanga = sous_liste + [
+                    "Afficher la page suivante",
+                    "Afficher la page précédente",
+                    "Retour au menu précédent",
+                ]
+                logging.info(f"util:{sous_liste}")
+                if n + m >= longueur_tot:
+                    choixmanga.remove("Afficher la page suivante")
+
+                if n == 0:
+                    choixmanga.remove("Afficher la page précédente")
+
+                choix4 = inquirer.select(
+                    message="Selectionnez un manga de votre collection : ",
+                    choices=choixmanga,
+                ).execute()
+
+                if choix4 == "Retour au menu précédent":
+                    return self.choisir_menu()
+                elif choix4 == "Afficher la page suivante":
+                    n += m
+                elif choix4 == "Afficher la page précédente":
+                    n = max(0, n - m)
+                else:
+                    return self.choisir_menu_bis(choix4)
 
         if choix3 == "Consulter la description de la collection":
             description = (
