@@ -55,11 +55,3 @@ class AvisService:
     def AvisUtilisateurMangaExistant(self, id_utilisateur: int, id_manga: int):
         return AvisDAO().AvisUtilisateurMangaExistant(id_utilisateur, id_manga)
 
-    def creer_signalement(self, id_user: int, id_avis: int, motif: str):
-        return AvisDAO().creer_signalement(id_user, id_avis, motif)
-
-    def liste_signalement(self):
-        return AvisDAO().liste_signalement()
-
-    def supprimer_signalement(self, id_signalement: int):
-        return AvisDAO().supprimer_signalement(id_signalement)

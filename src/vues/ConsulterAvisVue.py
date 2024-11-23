@@ -31,7 +31,6 @@ class ConsulterAvisMangaVuerecherche(VueAbstraite):
             choix2 = [
                 "Afficher la page suivante",
                 "Afficher la page précédente",
-                "Signaler un avis",
                 "Retour au menu précédent",
             ]
             for i in range(n, min(longueur_tot, n + m)):
@@ -96,13 +95,6 @@ class ConsulterAvisMangaVuerecherche(VueAbstraite):
                 from vues.Selection_manga_vue_recherche import SelectionMangaVuerecherche
 
                 return SelectionMangaVuerecherche().choisir_menu(choixm)
-            if choix3 == "Signaler un avis":
-                signalement = inquirer.text(message="Quel numéro? ").execute()
-                AvisService().creer_signalement(
-                    Session().utilisateur.id,
-                    liste_avis[int(signalement)].id_avis,
-                    "Contenu offensant",
-                )
             elif choix3 == "Afficher la page suivante":
                 n += m
             elif choix3 == "Afficher la page précédente":

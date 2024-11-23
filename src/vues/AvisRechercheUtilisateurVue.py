@@ -42,8 +42,8 @@ class AvisRechercheUtilisateurVue(VueAbstraite):
 
         while n >= 0:
             sous_liste_avis, sous_liste_titre, longueur_tot = (
-                liste_avis[n : n + m],
-                liste_titre[n : n + m],
+                liste_avis[n: n + m],
+                liste_titre[n: n + m],
                 len(liste_avis),
             )
             logging.info(f"liste_avis: {sous_liste_avis}, liste_titre : {sous_liste_titre}")
@@ -51,7 +51,6 @@ class AvisRechercheUtilisateurVue(VueAbstraite):
             choix2 = [
                 "Afficher la page suivante",
                 "Afficher la page précédente",
-                "Signaler un avis",
                 "Retour au menu précédent",
             ]
             for i in range(0, min(len(sous_liste_avis), n + m)):
@@ -76,13 +75,6 @@ class AvisRechercheUtilisateurVue(VueAbstraite):
 
                 return RechercheUtilisateurVue().choisir_menu_bis(choix3)
 
-            if choix4 == "Signaler un avis":
-                signalement = inquirer.text(message="Quel numéro? ").execute()
-                AvisService().creer_signalement(
-                    Session().utilisateur.id,
-                    liste_avis[int(signalement)].id_avis,
-                    "Contenu offensant",
-                )
             elif choix4 == "Afficher la page suivante":
                 n += m
             elif choix4 == "Afficher la page précédente":
