@@ -228,3 +228,78 @@ class AvisDAO:
         except Exception as e:
             logging.info(e)
             raise
+
+    def creer_signalement(self, id_user, id_avis, motif):
+        try:
+            with DBConnection().connection as connection:
+                with connection.cursor() as cursor:
+                    cursor.execute(
+                        "INSERT INTO signalement (id_utilisateur, id_avis, motif) "
+                        "VALUES (%(id_utilisateur)s, %(id_avis)s, %(motif)s) RETURNING id_avis;",
+                        {
+                            "id_utilisateur": id_user,
+                            "id_avis": id_avis,
+                            "motif": motif,
+                        },
+                    )
+                    res = cursor.fetchone()
+                    connection.commit()  # Commit pour confirmer l'insertion
+
+        except Exception as e:
+            logging.error(f"Erreur lors de l'insertion de l'avis : {e}")
+            connection.rollback()
+            return False
+
+        created = False
+        if res:
+            created = True
+
+        return created
+
+    def liste_signalement(self):
+        try:
+            with DBConnection().connection as connection:
+                with connection.cursor() as cursor:
+                    cursor.execute(
+                        "SELECT id_signalement, id_avis, pseudo , motif, date_signalement, id_manga "
+                        "FROM signalement  "
+                        "LEFT JOIN utilisateur USING(id_utilisateur) "
+                        "LEFT JOIN avis USING(id_avis) "
+                        "WHERE statut = 'En attente' ;",
+                    )
+                    result = cursor.fetchall()
+        except Exception as e:
+            logging.info(e)
+            raise
+        signalements = []
+        for row in result:
+            signalements.append(
+                    {"id_signalement": row["id_signalement"],
+                        "id_manga": row["id_manga"],
+                        "id_avis": row["id_avis"],
+                        "motif": row["motif"],
+                        "pseudo": row["pseudo"],
+                        "date_signalement": row["date_signalement"]}
+                    )
+        return signalements
+
+    def supprimer_signalement(self, id_signalement):
+        """
+        Supprime un signalement de la base de données.
+
+        Parameters
+        ----------
+        id_signalement : int
+            L'identifiant du signalement à supprimer.
+        """
+        try:
+            with DBConnection().connection as connection:
+                with connection.cursor() as cursor:
+                    cursor.execute(
+                        "DELETE FROM signalement WHERE id_signalement = %(id_signalement)s;",
+                        {"id_signalement": id_signalement}
+                    )
+                    connection.commit()
+        except Exception as e:
+            logging.error(f"Erreur lors de la suppression du signalement {id_signalement}: {e}")
+            raise

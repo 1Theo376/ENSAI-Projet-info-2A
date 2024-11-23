@@ -3,6 +3,8 @@ from vues.vue_abstraite import VueAbstraite
 from service.avis_service import AvisService
 from service.utilisateur_service import UtilisateurService
 import logging
+from dao.avis_dao import AvisDAO
+from vues.session import Session
 
 
 class AvisRechercheUtilisateurVue(VueAbstraite):
@@ -54,13 +56,14 @@ class AvisRechercheUtilisateurVue(VueAbstraite):
             choix2 = [
                 "Afficher la page suivante",
                 "Afficher la page précédente",
+                "Signaler un avis",
                 "Retour au menu précédent",
             ]
             for i in range(n, min(len(liste_avis), n + m)):
                 print(
                     "\n"
                     + "-" * 50
-                    + f"\nManga: {sous_liste_titre[i]}\n{sous_liste_avis[i].texte} \n Note : {sous_liste_avis[i].note} \n"
+                    + f"\nManga: {sous_liste_titre[i]}\n {i+n} : {sous_liste_avis[i].texte} \n Note : {sous_liste_avis[i].note} \n"
                     + "-" * 50
                     + "\n"
                 )
@@ -78,6 +81,9 @@ class AvisRechercheUtilisateurVue(VueAbstraite):
 
                 return RechercheUtilisateurVue().choisir_menu_bis(choix3)
 
+            if choix3 == "Signaler un avis":
+                signalement = inquirer.text(message="Quel numéro? ").execute()
+                AvisDAO().creer_signalement(Session().utilisateur.id, liste_avis[int(signalement)].id_avis, "Contenu offensant")
             elif choix3 == "Afficher la page suivante":
                 n += m
             elif choix3 == "Afficher la page précédente":

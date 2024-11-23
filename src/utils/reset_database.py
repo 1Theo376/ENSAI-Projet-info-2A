@@ -39,6 +39,7 @@ class ResetDatabase(metaclass=Singleton):
                 "data/pop_manga_collection_coherente.sql",
                 "data/pop_num_manquant.sql",
                 "data/pop_manga_num_manquant.sql",
+                "data/pop_signalement.sql",
             ]
         else:
             mock.patch.dict(os.environ, {"POSTGRES_SCHEMA": "projet_info"}).start()
@@ -59,6 +60,7 @@ class ResetDatabase(metaclass=Singleton):
                 "data/pop_manga_collection_coherente.sql",
                 "data/pop_num_manquant.sql",
                 "data/pop_manga_num_manquant.sql",
+                "data/pop_signalement.sql",
             ]
 
         dotenv.load_dotenv()
