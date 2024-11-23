@@ -2,8 +2,7 @@ from InquirerPy import inquirer
 from service.avis_service import AvisService
 from vues.vue_abstraite import VueAbstraite
 from vues.session import Session
-from dao.avis_dao import AvisDAO
-from dao.utilisateur_dao import UtilisateurDao
+from service.utilisateur_service import UtilisateurService
 from dao.manga_dao import MangaDao
 import logging
 
@@ -33,7 +32,7 @@ class SignalementVue(VueAbstraite):
 
         print("\n" + "-" * 50 + "\nMenu Utilisateur\n" + "-" * 50 + "\n")
 
-        signalements = AvisDAO().liste_signalement()
+        signalements = AvisService().liste_signalement()
         logging.info(f"{signalements}")
         if not signalements:
             print("Aucun signalement en attente.")
@@ -48,9 +47,8 @@ class SignalementVue(VueAbstraite):
                 return AccueilVue()
 
         choix_signalements = []
-        i = 0
         for signalement in signalements:
-            avis = AvisDAO().recuperer_avis_user_et_manga(signalement['id_manga'], UtilisateurDao().recherche_id_par_pseudo(signalement['pseudo']))
+            avis = AvisService().recuperer_avis_user_manga(signalement['id_manga'], UtilisateurService().recherche_id_par_pseudo(signalement['pseudo']))
             manga = MangaDao().trouver_manga_par_id(signalement['id_manga'])
             choix_signalements.append(
                 f"id signalement: {signalement['id_signalement']}, "
@@ -60,11 +58,8 @@ class SignalementVue(VueAbstraite):
                 f"Motif: {signalement['motif']}, "
                 f"Date : {signalement['date_signalement']}"
             )
-            i += 1
 
         choix_signalements.append("Se déconnecter")
-
-
         choix = inquirer.select(
             message="Choisissez :",
             choices=choix_signalements
@@ -81,7 +76,7 @@ class SignalementVue(VueAbstraite):
         action = inquirer.select(
             message=f"Actions pour le signalement ID: {signalement_choisi['id_signalement']}:",
             choices=[
-                "Marquer comme traité",
+                "Supprimer le signalement",
                 "Supprimer l'avis",
                 "Retour à la liste des signalements",
             ]
@@ -89,13 +84,13 @@ class SignalementVue(VueAbstraite):
 
         match action:
             case "Supprimer l'avis":
-                avis = AvisDAO().recuperer_avis_user_et_manga(signalement_choisi['id_manga'], UtilisateurDao().recherche_id_par_pseudo(signalement_choisi['pseudo']))
+                avis = AvisService().recuperer_avis_user_manga(signalement_choisi['id_manga'], UtilisateurService().recherche_id_par_pseudo(signalement_choisi['pseudo']))
                 AvisService().supprimer_avis(avis)
                 print("Avis supprimé")
                 self.choisir_menu()
 
             case "Supprimer le signalement":
-                AvisDAO().supprimer_signalement(signalement_choisi['id_signalement'])
+                AvisService().supprimer_signalement(signalement_choisi['id_signalement'])
                 print("Signalement supprimé.")
                 self.choisir_menu()
 

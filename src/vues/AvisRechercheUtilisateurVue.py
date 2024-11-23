@@ -83,7 +83,7 @@ class AvisRechercheUtilisateurVue(VueAbstraite):
 
             if choix3 == "Signaler un avis":
                 signalement = inquirer.text(message="Quel numéro? ").execute()
-                AvisDAO().creer_signalement(Session().utilisateur.id, liste_avis[int(signalement)].id_avis, "Contenu offensant")
+                AvisService().creer_signalement(Session().utilisateur.id, liste_avis[int(signalement)].id_avis, "Contenu offensant")
             elif choix3 == "Afficher la page suivante":
                 n += m
             elif choix3 == "Afficher la page précédente":

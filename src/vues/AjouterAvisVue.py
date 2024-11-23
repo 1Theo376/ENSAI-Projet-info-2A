@@ -26,7 +26,7 @@ class AjouterAvisVuerecherche(VueAbstraite):
         avis = inquirer.text(message="Entrer votre avis sur ce manga : ").execute()
         note = inquirer.select(
             message="Donnez une note à ce manga:",
-            choices=[0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5],
+            choices=[1, 2, 3, 4, 5],
         ).execute()
         aviscreer = AvisService().rediger_avis(
             texte=avis,
