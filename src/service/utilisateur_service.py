@@ -31,10 +31,5 @@ class UtilisateurService:
         """Supprimer le compte d'un utilisateur"""
         return UtilisateurDao().supprimer(utilisateur)
 
-    def modifier_compte(self, utilisateur) -> Utilisateur:
-        """Modification du compte d'un utilisateur"""
-        utilisateur.mdp = hash_password(utilisateur.mdp, utilisateur.pseudo)
-        return utilisateur if UtilisateurDao().modifier(utilisateur) else None
-
     def recherche_id_par_pseudo(self, pseudo):
         return UtilisateurDao().recherche_id_par_pseudo(pseudo)

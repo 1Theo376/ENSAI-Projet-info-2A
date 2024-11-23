@@ -108,7 +108,7 @@ class CollectionCoherenteDAO:
             raise
         return res > 0
 
-    def ajouter_manga(self, idcollec: int, idmanga: int) -> bool:  # à modif les paramas?
+    def ajouter_manga(self, idcollec: int, idmanga: int) -> bool:
         """Ajout d'un manga dans une collection coherente
 
         Parameters
