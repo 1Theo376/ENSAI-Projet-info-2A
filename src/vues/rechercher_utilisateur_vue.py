@@ -95,9 +95,7 @@ class RechercheUtilisateurVue(VueAbstraite):
                 return CollectionCoherenteVueRecherche().choisir_menu(choix3)
 
             case "Consulter les avis":
-                from vues.AvisRechercheUtilisateurVue import (
-                    AvisRechercheUtilisateurVue,
-                )
+                from vues.AvisRechercheUtilisateurVue import AvisRechercheUtilisateurVue
 
                 return AvisRechercheUtilisateurVue().choisir_menu(choix3)
 

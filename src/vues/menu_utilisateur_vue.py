@@ -30,8 +30,8 @@ class MenuUtilisateurVue(VueAbstraite):
         print("\n" + "-" * 50 + "\nMenu Utilisateur\n" + "-" * 50 + "\n")
         if Session().utilisateur.pseudo == "Admin":
             from vues.Signalement_vue import SignalementVue
-            return SignalementVue()
 
+            return SignalementVue()
 
         choix = inquirer.select(
             message="Faites votre choix : ",

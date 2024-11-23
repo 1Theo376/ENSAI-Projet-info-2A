@@ -78,7 +78,6 @@ class MenuAvis(VueAbstraite):
                 ).execute()
                 match choix2:
                     case "Modifier l'avis":
-                        from service.avis_service import AvisService
 
                         nouvel_avis = input(
                             f"Entrez votre nouvel avis sur le manga {titre} "

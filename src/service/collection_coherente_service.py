@@ -46,4 +46,4 @@ class CollectionCoherenteService:
         return CollectionCoherenteDAO().modifier_titre(id_collection, nouveau_titre)
 
     def modifier_desc(self, id_collection: int, nouvelle_desc: str) -> bool:
-        return modifier_desc(id_collection, nouvelle_desc)
+        return CollectionCoherenteDAO().modifier_desc(id_collection, nouvelle_desc)
