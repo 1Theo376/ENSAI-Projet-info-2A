@@ -61,14 +61,36 @@ class ConsulterAvisMangaVuerecherche(VueAbstraite):
                     f"Entrez votre nouvel avis sur le manga {choixm} "
                     "(si aucun changement appuyez sur Entrée) : "
                 )
+                nouvelle_note = inquirer.select(
+                    message="Donnez une nouvelle note à ce manga:",
+                    choices=[1, 2, 3, 4, 5],
+                ).execute()
+                if len(nouvel_avis.strip()) == 0:
+                    AvisService().modifier_avis(
+                        AvisService().recuperer_avis_user_et_manga(
+                            RechercheService().trouver_manga_par_titre(choixm).id_manga,
+                            Session().utilisateur.id,
+                        ),
+                        (
+                            AvisService()
+                            .recuperer_avis_user_et_manga(
+                                RechercheService().trouver_manga_par_titre(choixm).id_manga,
+                                Session().utilisateur.id,
+                            )
+                            .texte,
+                        ),
+                        nouvelle_note,
+                    )
 
-                AvisService().modifier_avis(
-                    AvisService().recuperer_avis_user_et_manga(
-                        RechercheService().trouver_manga_par_titre(choixm).id_manga,
-                        Session().utilisateur.id,
-                    ),
-                    nouvel_avis,
-                )
+                else:
+                    AvisService().modifier_avis(
+                        AvisService().recuperer_avis_user_et_manga(
+                            RechercheService().trouver_manga_par_titre(choixm).id_manga,
+                            Session().utilisateur.id,
+                        ),
+                        nouvel_avis,
+                        nouvelle_note,
+                    )
                 return ConsulterAvisMangaVuerecherche().choisir_menu(choixm)
 
             if choix3 == "Retour au menu précédent":
@@ -78,7 +100,11 @@ class ConsulterAvisMangaVuerecherche(VueAbstraite):
                 return SelectionMangaVuerecherche().choisir_menu(choixm)
             if choix3 == "Signaler un avis":
                 signalement = inquirer.text(message="Quel numéro? ").execute()
-                AvisService().creer_signalement(Session().utilisateur.id, liste_avis[int(signalement)].id_avis, "Contenu offensant")
+                AvisService().creer_signalement(
+                    Session().utilisateur.id,
+                    liste_avis[int(signalement)].id_avis,
+                    "Contenu offensant",
+                )
             elif choix3 == "Afficher la page suivante":
                 n += m
             elif choix3 == "Afficher la page précédente":

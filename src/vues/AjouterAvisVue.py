@@ -23,7 +23,11 @@ class AjouterAvisVuerecherche(VueAbstraite):
             print("Vous avez déjà donné un avis sur ce manga.")
             return SelectionMangaVuerecherche().choisir_menu(choix3)
         print("\n" + "-" * 50 + "\nManga :", manga.titre, " \n" + "-" * 50 + "\n")
-        avis = inquirer.text(message="Entrer votre avis sur ce manga : ").execute()
+        avis = ""
+        while len(avis.strip()) == 0:
+            avis = inquirer.text(message="Entrer votre avis sur ce manga : ").execute()
+            if len(avis.strip()) == 0:
+                print("Vous ne pouvez pas avoir un avis vide.")
         note = inquirer.select(
             message="Donnez une note à ce manga:",
             choices=[1, 2, 3, 4, 5],
@@ -33,7 +37,7 @@ class AjouterAvisVuerecherche(VueAbstraite):
             id_user=Session().utilisateur.id,
             id_manga=manga.id_manga,
             id_avis=None,
-            note=note
+            note=note,
         )
         logging.info(f"id:{Session().utilisateur.id} et manga:{manga.id_manga}")
         logging.info(f"Avis : {aviscreer}")

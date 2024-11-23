@@ -39,7 +39,7 @@ class MenuAvis(VueAbstraite):
             longueur_tot = len(liste_avis)
 
             for i in range(n, min(longueur_tot, n + m)):
-                option = f"titre : {liste_titre[i]} | Avis: {liste_avis[i].texte} | Note: {liste_avis[i].texte}"
+                option = f"titre : {liste_titre[i]} | Avis: {liste_avis[i].texte} | Note: {liste_avis[i].note}"
                 choix2.append(option)
             logging.info(f"option : {option}")
             choix2 = choix2 + [
@@ -71,24 +71,43 @@ class MenuAvis(VueAbstraite):
                 n = -1
                 titre = choix_utilisateur.split("titre : ")[1].split(" |")[0].strip()
                 id_manga = (RechercheService().trouver_manga_par_titre(titre)).id_manga
-                avis = AvisService().recuperer_avis_user_manga(id_manga, Session().utilisateur.id)
+                avis = AvisService().recuperer_avis_user_et_manga(
+                    id_manga, Session().utilisateur.id
+                )
                 choix2 = inquirer.select(
                     message="Faites votre choix : ",
                     choices=["Modifier l'avis", "Supprimer l'avis", "Retour au menu précédent"],
                 ).execute()
                 match choix2:
                     case "Modifier l'avis":
-
                         nouvel_avis = input(
                             f"Entrez votre nouvel avis sur le manga {titre} "
                             "(si aucun changement appuyez sur Entrée) : "
                         )
+                        nouvelle_note = inquirer.select(
+                            message="Donnez une nouvelle note à ce manga:",
+                            choices=[1, 2, 3, 4, 5],
+                        ).execute()
+                        if len(nouvel_avis.strip()) == 0:
+                            AvisService().modifier_avis(
+                                avis,
+                                avis.texte,
+                                nouvelle_note,
+                            )
 
-                        AvisService().modifier_avis(avis, nouvel_avis)
+                        else:
+                            AvisService().modifier_avis(
+                                avis,
+                                nouvel_avis,
+                                nouvelle_note,
+                            )
+
                         return MenuAvis()
                     case "Supprimer l'avis":
                         AvisService().supprimer_avis(avis)
-                        return MenuAvis()
+                        from vues.profil_utilisateur_vue import EcranDuProfilVue
+
+                        return EcranDuProfilVue().choisir_menu()
 
                     case "Retour au menu précédent":
                         return MenuAvis()

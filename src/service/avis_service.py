@@ -11,9 +11,6 @@ class AvisService:
     def rediger_avis(self, texte: str, id_avis: int, id_user: int, id_manga: int, note: int):
         """Création d'un avis dans la base de données à partir de ses attributs"""
 
-        if not texte or len(texte.strip()) == 0:
-            raise ValueError("Ce n'est pas une description")
-
         nouvel_avis = Avis(id_avis=id_avis, texte=texte, note=note)
         logging.info(f"Avis : {nouvel_avis}")
         return nouvel_avis if AvisDAO().creer_avis(nouvel_avis, id_user, id_manga) else None
@@ -45,15 +42,15 @@ class AvisService:
 
         return liste_avis, liste_pseudo
 
-    def recuperer_avis_user_manga(self, id_manga: int, id_utilisateur: int ):
+    def recuperer_avis_user_et_manga(self, id_manga: int, id_utilisateur: int):
         """Récupère l'avis de l'utilisateur sur le manga"""
         avis = AvisDAO().recuperer_avis_user_et_manga(id_manga, id_utilisateur)
         if avis:
             return avis
         return None
 
-    def modifier_avis(self, avis: Avis, nouveau_texte: str) -> bool:
-        return AvisDAO().modifier_avis(avis, nouveau_texte)
+    def modifier_avis(self, avis: Avis, nouveau_texte: str, nouvelle_note) -> bool:
+        return AvisDAO().modifier_avis(avis, nouveau_texte, nouvelle_note)
 
     def AvisUtilisateurMangaExistant(self, id_utilisateur: int, id_manga: int):
         return AvisDAO().AvisUtilisateurMangaExistant(id_utilisateur, id_manga)

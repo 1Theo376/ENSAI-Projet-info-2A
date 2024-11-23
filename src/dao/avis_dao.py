@@ -76,7 +76,7 @@ class AvisDAO:
 
         return res > 0
 
-    def modifier_avis(self, avis, nouveau_texte) -> bool:
+    def modifier_avis(self, avis, nouveau_texte, nouvelle_note) -> bool:
         """Modification d'un avis dans la base de données
         Parameters
         ----------
@@ -96,11 +96,12 @@ class AvisDAO:
                 with connection.cursor() as cursor:
                     cursor.execute(
                         "UPDATE avis                                     "
-                        "SET texte = %(texte)s                       "
+                        "SET texte = %(texte)s, note = %(note)s    "
                         "   WHERE id_avis = %(id_avis)s        ",
                         {
                             "texte": nouveau_texte,
                             "id_avis": avis.id_avis,
+                            "note": nouvelle_note,
                         },
                     )
                     res = cursor.rowcount
@@ -223,7 +224,9 @@ class AvisDAO:
                     )
                     result = cursor.fetchone()
                     if result:
-                        avis = Avis(id_avis=result["id_avis"], texte=result["texte"], note=result["note"])
+                        avis = Avis(
+                            id_avis=result["id_avis"], texte=result["texte"], note=result["note"]
+                        )
                         return avis
         except Exception as e:
             logging.info(e)
@@ -274,13 +277,15 @@ class AvisDAO:
         signalements = []
         for row in result:
             signalements.append(
-                    {"id_signalement": row["id_signalement"],
-                        "id_manga": row["id_manga"],
-                        "id_avis": row["id_avis"],
-                        "motif": row["motif"],
-                        "pseudo": row["pseudo"],
-                        "date_signalement": row["date_signalement"]}
-                    )
+                {
+                    "id_signalement": row["id_signalement"],
+                    "id_manga": row["id_manga"],
+                    "id_avis": row["id_avis"],
+                    "motif": row["motif"],
+                    "pseudo": row["pseudo"],
+                    "date_signalement": row["date_signalement"],
+                }
+            )
         return signalements
 
     def supprimer_signalement(self, id_signalement):
@@ -297,7 +302,7 @@ class AvisDAO:
                 with connection.cursor() as cursor:
                     cursor.execute(
                         "DELETE FROM signalement WHERE id_signalement = %(id_signalement)s;",
-                        {"id_signalement": id_signalement}
+                        {"id_signalement": id_signalement},
                     )
                     connection.commit()
         except Exception as e:

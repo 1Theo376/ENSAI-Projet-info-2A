@@ -37,8 +37,7 @@ class SignalementVue(VueAbstraite):
         if not signalements:
             print("Aucun signalement en attente.")
             choix = inquirer.select(
-                message="Que voulez-vous faire ?",
-                choices=["Se déconnecter"]
+                message="Que voulez-vous faire ?", choices=["Se déconnecter"]
             ).execute()
             if choix == "Se déconnecter":
                 Session().deconnexion()
@@ -48,8 +47,11 @@ class SignalementVue(VueAbstraite):
 
         choix_signalements = []
         for signalement in signalements:
-            avis = AvisService().recuperer_avis_user_manga(signalement['id_manga'], UtilisateurService().recherche_id_par_pseudo(signalement['pseudo']))
-            manga = MangaDao().trouver_manga_par_id(signalement['id_manga'])
+            avis = AvisService().recuperer_avis_user_et_manga(
+                signalement["id_manga"],
+                UtilisateurService().recherche_id_par_pseudo(signalement["pseudo"]),
+            )
+            manga = MangaDao().trouver_manga_par_id(signalement["id_manga"])
             choix_signalements.append(
                 f"id signalement: {signalement['id_signalement']}, "
                 f"Utilisateur: {signalement['pseudo']}, "
@@ -60,10 +62,7 @@ class SignalementVue(VueAbstraite):
             )
 
         choix_signalements.append("Se déconnecter")
-        choix = inquirer.select(
-            message="Choisissez :",
-            choices=choix_signalements
-        ).execute()
+        choix = inquirer.select(message="Choisissez :", choices=choix_signalements).execute()
 
         if choix == "Retour au menu principal":
             Session().deconnexion()
@@ -79,18 +78,21 @@ class SignalementVue(VueAbstraite):
                 "Supprimer le signalement",
                 "Supprimer l'avis",
                 "Retour à la liste des signalements",
-            ]
+            ],
         ).execute()
 
         match action:
             case "Supprimer l'avis":
-                avis = AvisService().recuperer_avis_user_manga(signalement_choisi['id_manga'], UtilisateurService().recherche_id_par_pseudo(signalement_choisi['pseudo']))
+                avis = AvisService().recuperer_avis_user_et_manga(
+                    signalement_choisi["id_manga"],
+                    UtilisateurService().recherche_id_par_pseudo(signalement_choisi["pseudo"]),
+                )
                 AvisService().supprimer_avis(avis)
                 print("Avis supprimé")
                 self.choisir_menu()
 
             case "Supprimer le signalement":
-                AvisService().supprimer_signalement(signalement_choisi['id_signalement'])
+                AvisService().supprimer_signalement(signalement_choisi["id_signalement"])
                 print("Signalement supprimé.")
                 self.choisir_menu()
 

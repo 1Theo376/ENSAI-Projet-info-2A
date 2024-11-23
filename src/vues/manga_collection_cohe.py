@@ -161,7 +161,7 @@ class MangaCollectionCoherenteVue(VueAbstraite):
                 RechercheService().trouver_manga_par_titre(choix4).id_manga,
             ):
                 print(
-                    AvisService().recuperer_avis_user_manga(
+                    AvisService().recuperer_avis_user_et_manga(
                         RechercheService().trouver_manga_par_titre(choix4).id_manga,
                         Session().utilisateur.id,
                     )
