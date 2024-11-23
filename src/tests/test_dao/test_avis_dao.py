@@ -9,7 +9,7 @@ from dao.manga_dao import MangaDao
 
 
 # Objets
-avis = Avis(id_avis=1, texte="j'adore ce livre")
+avis = Avis(id_avis=1, texte="j'adore ce livre", note=5)
 manga = Manga(id_manga=1, titre="Naruto", synopsis="synopsis", auteur="auteur",
               themes="thèmes", genre="genre")
 utilisateur = Utilisateur(id=1, pseudo="huz1y", mdp="1234Azer")

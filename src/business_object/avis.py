@@ -11,10 +11,11 @@ class Avis:
         Le contenu de l'avis.
     """
 
-    def __init__(self, texte: str, id_avis=None):
+    def __init__(self, texte: str, note: int, id_avis=None):
         """Initialise un nouvel objet Avis"""
         self.id_avis = id_avis
         self.texte = texte
+        self.note = note
 
     def __str__(self):
         """Retourne le contenu de l'avis"""

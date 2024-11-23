@@ -18,7 +18,7 @@ def setup_test_environment():
 
 
 # Objets
-avis = Avis(id_avis=1, texte="j'adore ce livre")
+avis = Avis(id_avis=1, texte="j'adore ce livre", note=5)
 manga = Manga(id_manga=1, titre="Naruto", synopsis="synopsis", auteur="auteur",
               themes="thèmes", genre="genre")
 utilisateur = Utilisateur(id=1, pseudo="huz1y", mdp="1234Azer")
@@ -29,7 +29,7 @@ def test_rediger_avis_oui(patch):
     # GIVEN
 
     # WHEN
-    res = AvisService().rediger_avis("ce livre est super", 1, 1, 1)
+    res = AvisService().rediger_avis("ce livre est super", 1, 1, 1, 5)
     # THEN
     assert res
 
@@ -40,7 +40,7 @@ def test_rediger_avis_non(patch):
     # GIVEN
 
     # WHEN
-    res = AvisService().rediger_avis("ce livre est super", 1, 1, 1)
+    res = AvisService().rediger_avis("ce livre est super", 1, 1, 1, 5)
     # THEN
     assert not res
 

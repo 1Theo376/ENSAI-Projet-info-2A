@@ -94,7 +94,7 @@ def test_trouver_id_num_manquant_id():  # difficile
     # WHEN
     liste_id_num_manquant = MangaPossedeDao().trouver_id_num_manquant_id(idp)
     # THEN
-    assert liste_id_num_manquant == [1,2,3]
+    assert liste_id_num_manquant == [1 ,2 ,3]
 
 
 def test_ajouter_num_manquant():

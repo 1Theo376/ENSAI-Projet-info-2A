@@ -8,13 +8,13 @@ from dao.utilisateur_dao import UtilisateurDao
 class AvisService:
     """Classe contenant les méthodes de service des avis"""
 
-    def rediger_avis(self, texte, id_avis, id_user, id_manga):
+    def rediger_avis(self, texte, id_avis, id_user, id_manga, note):
         """Création d'un avis dans la base de données à partir de ses attributs"""
 
         if not texte or len(texte.strip()) == 0:
             raise ValueError("Ce n'est pas une description")
 
-        nouvel_avis = Avis(id_avis=id_avis, texte=texte)
+        nouvel_avis = Avis(id_avis=id_avis, texte=texte, note=note)
         logging.info(f"Avis : {nouvel_avis}")
         return nouvel_avis if AvisDAO().creer_avis(nouvel_avis, id_user, id_manga) else None
 

@@ -60,7 +60,7 @@ class AvisRechercheUtilisateurVue(VueAbstraite):
                 print(
                     "\n"
                     + "-" * 50
-                    + f"\nManga: {sous_liste_titre[i]}\n{sous_liste_avis[i].texte} \n"
+                    + f"\nManga: {sous_liste_titre[i]}\n{sous_liste_avis[i].texte} \n Note : {sous_liste_avis[i].note} \n"
                     + "-" * 50
                     + "\n"
                 )

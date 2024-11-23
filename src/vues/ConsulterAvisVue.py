@@ -39,7 +39,7 @@ class ConsulterAvisMangaVuerecherche(VueAbstraite):
                 print(
                     "\n"
                     + "-" * 50
-                    + f"\nUtilisateur: {sous_liste_pseudo[i]}\n{sous_liste_avis[i].texte} \n"
+                    + f"\nUtilisateur: {sous_liste_pseudo[i]}\n{sous_liste_avis[i].texte} \n Note : {sous_liste_avis[i].note}\n"
                     + "-" * 50
                     + "\n"
                 )

@@ -39,7 +39,7 @@ class MenuAvis(VueAbstraite):
             longueur_tot = len(liste_avis)
 
             for i in range(n, min(longueur_tot, n + m)):
-                option = f"titre : {liste_titre[i]} | Avis: {liste_avis[i]}"
+                option = f"titre : {liste_titre[i]} | Avis: {liste_avis[i].texte} | Note: {liste_avis[i].texte}"
                 choix2.append(option)
             logging.info(f"option : {option}")
             choix2 = choix2 + [

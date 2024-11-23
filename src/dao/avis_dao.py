@@ -25,12 +25,13 @@ class AvisDAO:
             with DBConnection().connection as connection:
                 with connection.cursor() as cursor:
                     cursor.execute(
-                        "INSERT INTO avis(id_utilisateur, id_manga, texte) VALUES "
-                        "(%(id_utilisateur)s, %(id_manga)s, %(texte)s) RETURNING id_avis;",
+                        "INSERT INTO avis(id_utilisateur, id_manga, texte, note) VALUES "
+                        "(%(id_utilisateur)s, %(id_manga)s, %(texte)s, %(note)s) RETURNING id_avis;",
                         {
                             "id_utilisateur": id_user,
                             "id_manga": id_manga,
                             "texte": avis.texte,
+                            "note": avis.note,
                         },
                     )
                     res = cursor.fetchone()
@@ -131,7 +132,7 @@ class AvisDAO:
                     res = cursor.fetchall()
                     logging.info(f"res : {res}")
                     for row in res:
-                        avis = Avis(id_avis=row["id_avis"], texte=row["texte"])
+                        avis = Avis(id_avis=row["id_avis"], texte=row["texte"], note=row["note"])
                         avis_liste.append(avis)
                         liste_manga.append(row["id_manga"])
         except Exception as e:
@@ -161,7 +162,7 @@ class AvisDAO:
                     res = cursor.fetchall()
                     logging.info(f"res : {res}")
                     for row in res:
-                        avis = Avis(id_avis=row["id_avis"], texte=row["texte"])
+                        avis = Avis(id_avis=row["id_avis"], texte=row["texte"], note=row["note"])
                         avis_liste.append(avis)
                         liste_user.append(row["id_utilisateur"])
         except Exception as e:
@@ -222,7 +223,7 @@ class AvisDAO:
                     )
                     result = cursor.fetchone()
                     if result:
-                        avis = Avis(id_avis=result["id_avis"], texte=result["texte"])
+                        avis = Avis(id_avis=result["id_avis"], texte=result["texte"], note=result["note"])
                         return avis
         except Exception as e:
             logging.info(e)
