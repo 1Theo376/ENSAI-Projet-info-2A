@@ -1,5 +1,17 @@
 import pytest
 from dao.manga_dao import MangaDao
+from unittest.mock import MagicMock
+from unittest.mock import patch
+
+
+@pytest.fixture(scope="function", autouse=True)
+def setup_test_environment():
+    """Initialisation des données de test pour UtilisateurDao"""
+    with patch.dict("os.environ", {"POSTGRES_SCHEMA": "projet_test_dao"}):
+        from utils.reset_database import ResetDatabase
+        ResetDatabase().lancer(test_dao=True)
+        MangaDao().inserer_mangas("testmangas.json")
+        yield
 
 
 def test_trouver_manga_par_id_oui():
@@ -64,7 +76,7 @@ def test_rechercher_manga_par_titre_oui():
     mangas = manga_dao.rechercher_manga_par_titre("Monster")
 
     # THEN
-    assert len(mangas) > 10
+    assert len(mangas) == 1
 
 
 def test_rechercher_manga_par_titre_non():

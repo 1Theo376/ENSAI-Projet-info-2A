@@ -20,17 +20,14 @@ class MangaPossedeService:
 
     def modifier_num_manquant(self, mangap: MangaPossede, num_manquant):
         """Modification des numéros manquants des tomes d'un manga possédé"""
-        if mangap.num_manquant:
-            mangap.num_manquant.remove(mangap.num_manquant)
+        mangap.num_manquant = []
         listenummanquant = MangaPossedeDao().trouver_id_num_manquant_id(mangap.id_manga_p)
         for elt in listenummanquant:
             MangaPossedeDao().supprimer_num_manquant(elt)
         for elt in num_manquant:
-            MangaPossedeDao().ajouter_num_manquant(elt)
-            mangap.num_manquant.append(elt)
-            return mangap.num_manquant
-        else:
-            None
+            if MangaPossedeDao().ajouter_num_manquant(elt):
+                mangap.num_manquant.append(elt)
+        return mangap.num_manquant
 
     def ajouter_manga_p(self, mangap) -> bool:
         return MangaPossedeDao().ajouter_manga_p(mangap)

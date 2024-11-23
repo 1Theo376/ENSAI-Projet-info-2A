@@ -30,7 +30,7 @@ def setup_test_environment():
 @pytest.fixture(scope="function", autouse=True)
 def utilisateur_test():
     """Crée un joueur pour les tests"""
-    
+
 
 
 def test_ajouter_manga_p():
@@ -55,6 +55,8 @@ def test_nb_volume_manga():
 
 def test_trouver_manga_possede_collecphys():
     # GIVEN
+    utilisateur = Utilisateur(pseudo="hy", mdp="HuYT7894")
+    UtilisateurDao().creer(utilisateur)
     manga1 = MangaDao().trouver_manga_par_id(1)
     mangap = MangaPossede(
         idmanga=1, num_dernier_acquis=10, num_manquant=[1, 2, 3], statut="En cours"
@@ -65,15 +67,15 @@ def test_trouver_manga_possede_collecphys():
             titre_collection="TestCollec",
             description_collection="Description test",
             )
-    Collection_physique_service().creer_collectionphys(collecphysique.titre_collection, collecphysique.description_collection, id)
-    collection = CollectionPhysiqueDAO().trouver_collec_phys_id_user(id)
+    Collection_physique_service().creer_collectionphys(collecphysique.titre_collection, collecphysique.description_collection, utilisateur.id)
+    collection = CollectionPhysiqueDAO().trouver_collec_phys_id_user(utilisateur.id)
     Collection_physique_service().ajouter_mangaposs(
             collection.id_collectionphysique, mangap.id_manga_p
         )
     # WHEN
 
     mangap2 = MangaPossedeDao().trouver_manga_possede_collecphys(
-        titre, collecphysique.id_collectionphysique
+        titre, collection.id_collectionphysique
     )
     # THEN
     assert mangap.num_dernier_acquis == mangap2.num_dernier_acquis
@@ -86,10 +88,13 @@ def test_trouver_id_num_manquant_id():  # difficile
     )
     MangaPossedeDao().ajouter_manga_p(mangap)
     idp = mangap.id_manga_p
+    for elt in mangap.num_manquant:
+        id_num = MangaPossedeDao().ajouter_num_manquant(elt)
+        MangaPossedeDao().ajouter_ass_num_manquant(mangap.id_manga_p, id_num)
     # WHEN
     liste_id_num_manquant = MangaPossedeDao().trouver_id_num_manquant_id(idp)
     # THEN
-    assert liste_id_num_manquant
+    assert liste_id_num_manquant == [1,2,3]
 
 
 def test_ajouter_num_manquant():
@@ -98,7 +103,7 @@ def test_ajouter_num_manquant():
     # WHEN
     res = MangaPossedeDao().ajouter_num_manquant(num_manquant1)
     # THEN
-    assert res
+    assert res == 1
 
 
 def test_ajouter_ass_num_manquant():  # à revoir
@@ -107,11 +112,14 @@ def test_ajouter_ass_num_manquant():  # à revoir
         idmanga=1, num_dernier_acquis=10, num_manquant=[1, 2, 3], statut="En cours"
     )
     MangaPossedeDao().ajouter_manga_p(mangap)
-    liste_id_num_manquant = MangaPossedeDao().trouver_id_num_manquant_id(mangap.id_manga_p)
+    res = []
+    for elt in mangap.num_manquant:
+        id_num = MangaPossedeDao().ajouter_num_manquant(elt)
+        res.append(id_num)
     # WHEN
-    res = MangaPossedeDao().ajouter_ass_num_manquant(mangap.id_manga_p, liste_id_num_manquant[0])
+    resultat = MangaPossedeDao().ajouter_ass_num_manquant(mangap.id_manga_p, res[0])
     # THEN
-    assert res
+    assert resultat
 
 
 def test_trouver_manga_possede_id():

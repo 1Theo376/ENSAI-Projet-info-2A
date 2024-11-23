@@ -1,11 +1,11 @@
 import pytest
-from unittest.mock import MagicMock
+from unittest.mock import MagicMock, patch
 from service.manga_possede_service import MangaPossedeService
 from business_object.manga_possede import MangaPossede
 from dao.manga_possede_dao import MangaPossedeDao
 
-
-def test_creer_manga_possede_ok():
+@patch('dao.manga_possede_dao.MangaPossedeDao.ajouter_manga_p', return_value=True)
+def test_creer_manga_possede_ok(patch):
     # GIVEN
     MangaPossedeDao().ajouter_manga_p = MagicMock(return_value=True)
     # WHEN
@@ -23,7 +23,7 @@ def test_creer_manga_possede_ko():
     assert mangap is None
 
 
-def test_modifier_num_manquant_ok():  # à revoir
+def test_modifier_num_manquant_ok():  
     # GIVEN
     MangaPossedeDao().trouver_id_num_manquant_id = MagicMock(return_value=[])
     MangaPossedeDao().supprimer_num_manquant = MagicMock(return_value=True)
@@ -34,12 +34,11 @@ def test_modifier_num_manquant_ok():  # à revoir
     # THEN
     assert mangap.num_manquant == [6]
 
-
-def test_modifier_num_manquant_ko():
+@patch('dao.manga_possede_dao.MangaPossedeDao.ajouter_num_manquant', return_value=False)
+def test_modifier_num_manquant_ko(patch):
     # GIVEN
-    MangaPossedeDao().trouver_id_num_manquant_id = MagicMock(return_value=[])
+    MangaPossedeDao().trouver_id_num_manquant_id = MagicMock(return_value=[5, 7])
     MangaPossedeDao().supprimer_num_manquant = MagicMock(return_value=True)
-    MangaPossedeDao().ajouter_num_manquant = MagicMock(return_value=False)
     mangap = MangaPossede(1, 8, [5, 7], "En cours")
     # WHEN
     mangap.num_manquant = MangaPossedeService().modifier_num_manquant(mangap, [6])
