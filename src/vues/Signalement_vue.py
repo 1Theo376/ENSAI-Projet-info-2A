@@ -82,7 +82,7 @@ class SignalementVue(VueAbstraite):
             message=f"Actions pour le signalement ID: {signalement_choisi['id_signalement']}:",
             choices=[
                 "Marquer comme traité",
-                "Supprimer l'avis,
+                "Supprimer l'avis",
                 "Retour à la liste des signalements",
             ]
         ).execute()
