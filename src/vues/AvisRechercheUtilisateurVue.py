@@ -39,11 +39,6 @@ class AvisRechercheUtilisateurVue(VueAbstraite):
         liste_avis, liste_titre = AvisService().recuperer_avis_utilisateur(id_utilisateur)
         n = 0
         m = 8
-        sous_liste_avis, sous_liste_titre, longueur_tot = (
-            liste_avis[n : n + m],
-            liste_titre[n : n + m],
-            len(liste_avis),
-        )
 
         while n >= 0:
             sous_liste_avis, sous_liste_titre, longueur_tot = (
@@ -51,6 +46,7 @@ class AvisRechercheUtilisateurVue(VueAbstraite):
                 liste_titre[n : n + m],
                 len(liste_avis),
             )
+            logging.info(f"liste_avis: {sous_liste_avis}, liste_titre : {sous_liste_titre}")
             logging.info(f"avis : {sous_liste_avis}")
             choix2 = [
                 "Afficher la page suivante",
@@ -58,7 +54,7 @@ class AvisRechercheUtilisateurVue(VueAbstraite):
                 "Signaler un avis",
                 "Retour au menu précédent",
             ]
-            for i in range(n, min(len(liste_avis), n + m)):
+            for i in range(0, min(len(sous_liste_avis), n + m)):
                 print(
                     "\n"
                     + "-" * 50
