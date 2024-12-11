@@ -339,6 +339,9 @@ class MangaDao(metaclass=Singleton):
                     cursor.execute("DELETE FROM association_manga_theme")
                     cursor.execute("DELETE FROM association_manga_genre")
 
+                    # Supprimer toutes les références dans la table dépendante
+                    cursor.execute("DELETE FROM avis")
+
                     # Supprimer tous les mangas
                     cursor.execute("DELETE FROM manga")
                     manga_count = cursor.rowcount  # Nombre de mangas supprimés
@@ -364,6 +367,6 @@ class MangaDao(metaclass=Singleton):
         return total_supprime > 0
 
 
-#test = MangaDao()
-#test.supprimer_toutes_les_donnees()
-#test.inserer_mangas("mangas.json")
+test = MangaDao()
+test.supprimer_toutes_les_donnees()
+test.inserer_mangas("mangas.json")

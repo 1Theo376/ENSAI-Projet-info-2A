@@ -43,7 +43,7 @@ class CollectionPhysiqueVue(VueAbstraite):
                 return self.choisir_menu()
             n, m = 0, 8
             while n >= 0:
-                sous_liste, longueur_tot = liste_titre[n: n + m], len(liste_titre)
+                sous_liste, longueur_tot = liste_titre[n : n + m], len(liste_titre)
                 choixmanga = sous_liste + [
                     "Afficher la page suivante",
                     "Afficher la page précédente",
@@ -120,17 +120,6 @@ class CollectionPhysiqueVue(VueAbstraite):
             return EcranDuProfilVue()
 
     def choisir_menu_bis(self, choix4):
-        print(RechercheService().trouver_manga_par_titre(choix4))
-        mg = MangaPossedeService().trouver_manga_possede_collecphys(
-            choix4,
-            (
-                Collection_physique_service().trouver_collec_phys_id_user(Session().utilisateur.id)
-            ).id_collectionphysique,
-        )
-        print(mg)
-        print(
-            f"Nombre de volumes possédés : {MangaPossedeService().nb_volume_manga(choix4) - len(mg.num_manquant) }"
-        )
         choix5 = inquirer.select(
             message=f"Que voulez-vous faire avec le manga {choix4}: ",
             choices=[
@@ -151,6 +140,7 @@ class CollectionPhysiqueVue(VueAbstraite):
                     )
                 ).id_collectionphysique,
             )
+            print(mg)
             print(
                 f"Nombre de volumes possédés : {MangaPossedeService().nb_volume_manga(choix4) - len(mg.num_manquant) }"
             )
