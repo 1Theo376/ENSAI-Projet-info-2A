@@ -365,8 +365,3 @@ class MangaDao(metaclass=Singleton):
         # Vérifier si au moins une table a été modifiée
         total_supprime = manga_count + theme_count + auteur_count + genre_count
         return total_supprime > 0
-
-
-test = MangaDao()
-test.supprimer_toutes_les_donnees()
-test.inserer_mangas("mangas.json")

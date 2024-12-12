@@ -141,9 +141,12 @@ class CollectionPhysiqueVue(VueAbstraite):
                 ).id_collectionphysique,
             )
             print(mg)
-            print(
-                f"Nombre de volumes possédés : {MangaPossedeService().nb_volume_manga(choix4) - len(mg.num_manquant) }"
-            )
+            if MangaPossedeService().nb_volume_manga(choix4) != None:
+                print(
+                    f"Nombre de volumes possédés : {MangaPossedeService().nb_volume_manga(choix4) - len(mg.num_manquant) }"
+                )
+            else:
+                print("Le manga n'est pas fini, des volumes continuent d'être publiés")
             return self.choisir_menu_bis(choix4)
 
         if choix5 == "Retirer le manga de la collection":
