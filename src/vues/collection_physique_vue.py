@@ -150,12 +150,16 @@ class CollectionPhysiqueVue(VueAbstraite):
             return self.choisir_menu_bis(choix4)
 
         if choix5 == "Retirer le manga de la collection":
-
-            Collection_physique_service().supprimer_mangaposs(
-                Collection_physique_service().trouver_collec_phys_id_user(Session().utilisateur.id),
-                RechercheService().trouver_manga_par_titre(choix4),
+            id_phys = Collection_physique_service().trouver_collec_phys_id_user(
+                Session().utilisateur.id
             )
-            return self.choisir_menu_bis(choix4)
+            Collection_physique_service().supprimer_mangaposs(
+                id_phys,
+                MangaPossedeService().trouver_manga_possede_collecphys(
+                    choix4, id_phys.id_collectionphysique
+                ),
+            )
+            return self.choisir_menu()
 
         if choix5 == "Consulter son avis sur ce manga":
             from service.avis_service import AvisService

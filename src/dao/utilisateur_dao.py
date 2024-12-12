@@ -46,6 +46,42 @@ class UtilisateurDao(metaclass=Singleton):
         return created
 
     @log
+    def supprimer(self, utilisateur) -> bool:
+        """Suppression d'un utilisateur dans la base de données.
+
+        Parameters
+        ----------
+        utilisateur : Utilisateur
+            Utilisateur à supprimer de la base de données.
+
+        Returns
+        -------
+        bool
+            True si l'utilisateur a bien été supprimé, False sinon.
+        """
+        try:
+            with DBConnection().connection as connection:
+                with connection.cursor() as cursor:
+                    # Supprimer les enregistrements liés dans la table avis
+                    cursor.execute(
+                        "DELETE FROM avis WHERE id_utilisateur = %(id_utilisateur)s",
+                        {"id_utilisateur": utilisateur.id},
+                    )
+
+                    # Supprimer l'utilisateur
+                    cursor.execute(
+                        "DELETE FROM utilisateur WHERE id_utilisateur = %(id_utilisateur)s",
+                        {"id_utilisateur": utilisateur.id},
+                    )
+
+                    res = cursor.rowcount
+        except Exception as e:
+            logging.info(f"Erreur lors de la suppression : {e}")
+            raise
+
+        return res > 0
+
+    @log
     def lister_tous(self) -> list[Utilisateur]:
         """lister tous les utilisateurs
 
@@ -84,36 +120,6 @@ class UtilisateurDao(metaclass=Singleton):
                 liste_utilisateurs.append(utilisateur)
 
         return liste_utilisateurs
-
-    @log
-    def supprimer(self, utilisateur) -> bool:
-        """Suppression d'un utilisateur dans la base de données
-
-        Parameters
-        ----------
-        utilisateur : Utilisateur
-            utilisateur à supprimer de la base de données
-
-        Returns
-        -------
-            True si le utilisateur a bien été supprimé
-        """
-
-        try:
-            with DBConnection().connection as connection:
-                with connection.cursor() as cursor:
-                    # Supprimer le compte d'un utilisateur
-                    cursor.execute(
-                        "DELETE FROM utilisateur                  "
-                        " WHERE id_utilisateur=%(id_utilisateur)s      ",
-                        {"id_utilisateur": utilisateur.id},
-                    )
-                    res = cursor.rowcount
-        except Exception as e:
-            logging.info(e)
-            raise
-
-        return res > 0
 
     @log
     def se_connecter(self, pseudo, mdp) -> Utilisateur:
