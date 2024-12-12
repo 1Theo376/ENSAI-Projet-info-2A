@@ -36,8 +36,8 @@ class AjouterMangaPossCollPhys(VueAbstraite):
         while nb_volumes_poss != 0:
             num_vol = inquirer.text(
                 message=(
-                    "Entrez le nombre de volumes possédés du manga, "
-                    "vous pouvez l'écrire sous la forme a-b: "
+                    "Entrez les numéros des volumes possédés du manga, "
+                    "vous pouvez les écrires sous la forme a-b: "
                 )
             ).execute()
 
@@ -71,8 +71,8 @@ class AjouterMangaPossCollPhys(VueAbstraite):
                     )
                 num_vol = inquirer.text(
                     message=(
-                        "Entrez le nombre de volumes possédés du manga, "
-                        "vous pouvez l'écrire sous la forme a-b: "
+                        "Entrez les numéros des volumes possédés du manga, "
+                        "vous pouvez les écrire sous la forme a-b: "
                     )
                 ).execute()
 
